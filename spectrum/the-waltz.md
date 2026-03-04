@@ -12,15 +12,18 @@ The same interface governs masslessness, constrains the neutrino mass floor, and
 
 ## I. The Three Partners
 
-| Partner | Character | MIT element |
-|---|---|---|
-| Space | Continuous geometry | $S^3$ curvature, $R_{\text{spatial}}$ |
-| Surface | Discrete sampling | 120 domain, $\sqrt{\Omega}$ observer, phase wells |
-| Gravity | The step between them | $3/2$ Gauss-Codazzi interface |
+The universe has three structural layers: $S^3$ space where curvature lives as a continuous field, the Mobius surface where the topological eigenvalue sets the boundary condition, and the $S^1$ temporal edge where observation resolves position.
 
-The universe has three structural layers: the $S^3$ venue where curvature lives as a continuous field, the Mobius surface where the topological eigenvalue sets the boundary condition, and the $S^1$ temporal edge where observation resolves position. 
+| Partner | Brings | Language |
+|---------|--------|----------|
+| Surface (2D) | The music: Λ, vacuum, ground mode | Curvature |
+| Space $S^3/2I$ (3D) | The dancers: particles, generations, masses | Energy |
+| $G$ | The tempo: curvature ↔ energy conversion | Both |
+| $3/2$ | The step: interface between partners | Geometry |
 
-The Neutrino mass floor, $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV, is where Space and Surface dance. Gravity is the step between them.
+$G$ is the dictionary at the Planck floor ($n = 0$). It converts between the surface's language (curvature) and the space's language (energy). It is one of three inputs ($c$, $\hbar$, $\ell_P$), not derivable from the topology. $\Omega = (R/\ell_P)^2$ is a geometric scale ratio (how many Planck lengths fit in $R$), not a topological output.
+
+The neutrino mass floor, $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV, is where Space and Surface dance. The $3/2$ is the step between them.
 
 Inertial mass and gravitational mass are edge effects of the same conversion. Every observable that crosses from surface to space pays the $3/2$ cost. Every observable that stays on the edge propagates freely.
 
@@ -45,6 +48,10 @@ The Fischer-Marsden equation forces $R_\Sigma = \Lambda_{\text{top}}$: on a clos
 Substituting into the de Sitter relation $R_{\text{spatial}} = 2\Lambda_{\text{obs}}$:
 
 $$3\,\Lambda_{\text{top}} = 2\,\Lambda_{\text{obs}} \quad \Rightarrow \quad \Lambda_{\text{obs}} = \frac{3}{2}\,\Lambda_{\text{top}}$$
+
+This is the vacuum Einstein equation, recovered from topology. The de Sitter solution $H^2 = \Lambda/3$ follows from the postulate without importing general relativity to obtain it.
+
+**The surface leads only the vacuum.** Excited surface modes ($K_{ij} \neq 0$) produce curvature corrections with the correct algebraic form but the wrong scale by $\sqrt{\Omega} \approx 10^{61}$: the surface lives at $n = 2$, and extracting an $n = 0$ quantity ($G$) from $n = 2$ data introduces exactly this offset. The scaling law enforces its own architecture. Matter enters through the spectral geometry of $S^3/2I$ (see companion document: The Spectrum).
 
 | Coefficient | Source |
 |---|---|
