@@ -2,14 +2,14 @@
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble proved expansion, he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as dark energy. This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving expansion. Einstein was right the first time, for reasons then unknown.
 
-The Möbius surface selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The observationally inferred $\Lambda_\text{obs}$ differs by a factor of 3/2, derived from Gauss-Codazzi embedding of the 2D surface in the 3D venue under minimal embedding and isotropy, aka Gravity.
+The Möbius surface selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The observationally inferred $\Lambda_\text{obs}$ differs by a factor of 3/2, derived from Gauss-Codazzi embedding of the 2D surface in the 3D venue under totally geodesic embedding and isotropy, aka Gravity.
 
 | Quantity | Value |
 |---|---|
 | Prediction | $\Lambda_\text{obs} = 3/R^2 = 1.12 \times 10^{-52}\;\text{m}^{-2}$ |
 | Observed | $1.11 \times 10^{-52}\;\text{m}^{-2}$ |
-| In Planck units | $3.0 \times 10^{-122}$ vs $2.84 \times 10^{-122}$ |
-| Agreement | ~5% |
+| In Planck units | $2.9 \times 10^{-122}$ vs $2.84 \times 10^{-122}$ |
+| Agreement | ~2% |
 
 ## I. The Constant
 
@@ -153,9 +153,9 @@ At the antinode, $C(60/120) = 2$ and $\lambda_0 = 1/R^2$:
 
 $$\Lambda_\text{top} = \frac{2}{R^2}$$
 
-The topology determines the coefficient. The scale $R$ is geometry. In Planck units, with $\Omega_\Lambda = (R/\ell_P)^2 \approx 10^{122}$:
+The topology determines the coefficient. The scale $R$ is geometry. In Planck units, with $\Omega_\Lambda = (R/\ell_P)^2 \approx 1.03 \times 10^{122}$:
 
-$$\Lambda_\text{top} \cdot \ell_P^2 = 2\,\Omega_\Lambda^{-1} \approx 2.0 \times 10^{-122}$$
+$$\Lambda_\text{top} \cdot \ell_P^2 = 2\,\Omega_\Lambda^{-1} \approx 1.9 \times 10^{-122}$$
 
 ### C. Topological Protection
 
@@ -187,13 +187,13 @@ $$R_\Sigma = R_\text{venue} - 2\,\text{Ric}(\mathbf{n},\mathbf{n}) + K^2 - K_{ij
 | $K$ | Trace of extrinsic curvature ($g^{ij}K_{ij}$) |
 | $\mathbf{n}$ | Unit normal to surface |
 
-### B. Minimal Embedding
+### B. Totally Geodesic Embedding
 
-For a minimally embedded surface ($K_{ij} = 0$), the equation simplifies:
+For a totally geodesic embedding ($K_{ij} = 0$), the equation simplifies:
 
 $$R_\Sigma = R_\text{venue} - 2\,\text{Ric}(\mathbf{n},\mathbf{n})$$
 
-We take minimal embedding as the geometric correspondent of the ground mode ($m = 0$): higher modes have nodes and oscillations that would require bending (extrinsic curvature) to embed; the ground mode lies flat.
+Totally geodesic means the full extrinsic curvature tensor vanishes, not merely its trace. We take this as the geometric correspondent of the ground mode ($m = 0$): higher modes have nodes and oscillations that would require bending (extrinsic curvature) to embed; the ground mode lies flat.
 
 ### C. Isotropic Venue
 
@@ -221,7 +221,7 @@ On a constant-curvature $S^3$ spatial section of radius $R$, the spatial scalar 
 
 $$R_\text{spatial} = \frac{6}{R^2} = 2\Lambda_\text{obs}$$
 
-$R_\Sigma$ is intrinsic geometry; $\Lambda_\text{top}$ is the eigenvalue from Section III. Both are scalar curvatures at the same geometric scale $R$. We identify them: $R_\Sigma := \Lambda_\text{top}$. This is the single bridge assumption, where the eigenproblem hands the baton to general relativity:
+$R_\Sigma$ is intrinsic geometry; $\Lambda_\text{top}$ is the eigenvalue from Section III. Both are scalar curvatures at the same geometric scale $R$. We identify them: $R_\Sigma := \Lambda_\text{top}$. On a closed surface of constant positive curvature, the Fischer-Marsden equation forces $R_\Sigma$ into the twisted Laplace spectrum as the ground eigenvalue, so this identification is geometrically locked rather than assumed. The eigenproblem hands the baton to general relativity:
 
 $$2\Lambda_\text{obs} = 3 \cdot \Lambda_\text{top}$$
 
@@ -239,10 +239,10 @@ The 3 is because the venue ($S^3$) is three-dimensional. The 2 is how General Re
 
 | Condition | Justification |
 |---|---|
-| Minimal embedding | Ground mode correspondence ($m = 0$) |
+| Totally geodesic embedding | Ground mode correspondence ($m = 0$) |
 | Isotropic venue | CMB verified to $10^{-5}$ |
 | de Sitter vacuum | Late-time ΛCDM limit |
-| $R_\Sigma = \Lambda_\text{top}$ | Eigenvalue bridge (identification) |
+| $R_\Sigma = \Lambda_\text{top}$ | Fischer-Marsden lock (forced by constant positive curvature) |
 
 ## V. The Result
 
@@ -271,7 +271,7 @@ $10^{-122}$ is not a "coincidentally large number." It is the inverse of the squ
 | 5 | $L = \pi R$, $\lambda_0 = 1/R^2$ | Eigenvalue carries geometric scale |
 | 6 | Intensity at antinode | $C(60/120) = 2$ |
 | 7 | $\Lambda_\text{top} = C \cdot \lambda_0$ | $\Lambda_\text{top} = 2/R^2$ |
-| 8 | Gauss-Codazzi + min. embedding | $R_\text{spatial} = 3R_\Sigma$ |
+| 8 | Gauss-Codazzi + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
 | 9 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | Bridge: $R_\Sigma = \Lambda_\text{top}$ |
 | 10 | Surface-to-venue conversion | $\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}$ |
 | 11 | Result | $\Lambda_\text{obs} = 3/R^2$ |
