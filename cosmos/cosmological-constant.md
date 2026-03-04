@@ -272,7 +272,7 @@ $10^{-122}$ is not a "coincidentally large number." It is the inverse of the squ
 | 6 | Intensity at antinode | $C(60/120) = 2$ |
 | 7 | $\Lambda_\text{top} = C \cdot \lambda_0$ | $\Lambda_\text{top} = 2/R^2$ |
 | 8 | Gauss-Codazzi + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
-| 9 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | Bridge: $R_\Sigma = \Lambda_\text{top}$ |
+| 9 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | $R_\Sigma = \Lambda_\text{top}$ |
 | 10 | Surface-to-venue conversion | $\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}$ |
 | 11 | Result | $\Lambda_\text{obs} = 3/R^2$ |
 
