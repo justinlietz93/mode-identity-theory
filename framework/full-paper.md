@@ -901,4 +901,4 @@ The author thanks W. Heil for demonstrating how a Möbius belt can break math; H
 
 ---
 
-*What you hold in your hand is not matter. It is where the wave resolved when you sampled it. The thing is the sample. The identity is the wave $\Psi$.*
+What you hold in your hand is not matter. It is where the wave resolved when you sampled it. The thing is the sample. The identity is the wave $\Psi$
