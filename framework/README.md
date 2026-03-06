@@ -492,7 +492,7 @@ These do not individually falsify MIT but meaningfully raise or lower credibilit
 
 MIT is a topological framework: it specifies boundary conditions and permitted mode structure. Boundary conditions are prior to dynamics. Standard dynamics describes the music; MIT defines the instrument.
 
-**What MIT does claim.** One postulate (topology), one domain boundary ($\ell_P$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of 2I before any observable is consulted. The identification of which observable sits at which well is a matching, not a fit; no parameter moves during that process. The scaling law $A/A_P \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ and every component in it trace to the topology postulate.
+**What MIT does claim.** One postulate (topology), one domain boundary ($\ell_P$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of 2I before any observable is consulted. The identification of which observable sits at which well is a matching exercise with no parameter shifting. The scaling law $A/A_P \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ and every component in it trace to the topology postulate.
 
 **What MIT does not modify.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
 
