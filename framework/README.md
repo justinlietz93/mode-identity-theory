@@ -266,7 +266,7 @@ Fermions see the full 120. Observation squares the wavefunction, and half the re
 
 The wavefunction $\psi_0$ satisfies $\psi(\Theta+1) = -\psi(\Theta)$: it carries the sign flip from the anti-periodic boundary condition. The fermion distinguishes all 120 positions on the domain. Observation squares the wavefunction. $C = |\psi|^2$ erases the sign: $|\psi(\Theta+1)|^2 = |-\psi(\Theta)|^2 = |\psi(\Theta)|^2$. What was distinct to the fermion becomes identical to any measurement.
 
-The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). Dimensionless couplings ($A_P = 1$) live on the resulting 60R-grid (R for realized): only even positions on the 120 domain. Dimensionful observables ($A_P \neq 1$) remain on the 120 domain; their sign information is absorbed by whole-manifold dilution.
+The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). The filter is a projection rule, not merely a statement about particle species: observables realized through boson-projected intensity channels inherit 60R resolution and must sit at even positions on the 120 domain. Cosmographic observables ($H_0$, $\Lambda$, $\alpha$) are realized through photon-mediated distance and intensity measurements and belong to this class. Dynamical observables ($a_0$) are realized through acceleration response and retain full 120-domain access. The realization channel determines the grid, not the experimental technology used to estimate it. Dimensionless couplings ($A_P = 1$) live on the resulting 60R-grid (R for realized): only even positions on the 120 domain. Dimensionful observables ($A_P \neq 1$) remain on the 120 domain; their sign information is absorbed by whole-manifold dilution.
 
 ### Fibonacci Wells (Θ₀)
 
@@ -274,7 +274,7 @@ The Bosonic Filter established the 60R-grid; only certain positions carry observ
 
 Not all Fibonacci wells survive to observation. The phase field carries microfluctuations $\delta\Theta_f^\text{micro} \lesssim 10^{-4}$, setting a noise floor. Below $F_7$, the amplitude is indistinguishable from noise: $C(8/120) = 0.087$. At $F_7$, the wave resolves: $C(13/120) = 0.22$.
 
-The well assignments (which observable maps to which well) are identified by coprimality and observable character; the wells themselves are enumerated. Among edge modes, $a_0$ occupies the coprime well ($13/120$); $H_0$ is assigned to $34/120$ by matching $C(\Theta)$ to observed magnitude. The surviving wells become:
+The well assignments (which observable maps to which well) are identified by coprimality and observable character; the wells themselves are enumerated. Among edge modes, $a_0$ occupies the coprime well ($13/120$), forced by irreducibility. $\Lambda$ occupies the antinode ($60/120$), forced by ground-state maximality. Among the remaining Fibonacci wells, only $34/120$ carries an even numerator and therefore survives the bosonic filter for cosmographic observables; $H_0$ occupies it by exclusion. The surviving wells become:
 
 | $F_n$ | Well | $C(\Theta)$ | Observable |
 |---|---|---|---|
