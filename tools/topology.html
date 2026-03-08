@@ -401,7 +401,7 @@ var waveGroup = [waveLine, waveGlow];
 //  ORBIT CONTROLS (manual implementation)
 // ═══════════════════════════════════════════
 var orbitTheta = 0.35;  // azimuthal
-var orbitPhi = 0.3;     // polar (from top)
+var orbitPhi = 1.57;     // polar (from top)
 var orbitDist = 5;
 var targetTheta = orbitTheta, targetPhi = orbitPhi, targetDist = orbitDist;
 var dragging = false, prevX = 0, prevY = 0;
@@ -589,7 +589,7 @@ setInterval(function() {
   if (!autoRotate) return;
   annotIdx = (annotIdx + 1) % annotKeys.length;
   setAnnotation(annotKeys[annotIdx]);
-}, 6000);
+}, 15000);
 
 })();
 </script>
