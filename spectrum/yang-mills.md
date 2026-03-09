@@ -74,7 +74,7 @@ $$\Delta^2 = \frac{(5+1)^2}{R^2} = \frac{36}{R^2}$$
 | $\rho_{\text{std}}$ | 3a ($R_3$) | 1 | $4/R^2$ | 1x |
 | $\rho_{\text{gal}}$ | 3b ($R_4$) | 5 | $36/R^2$ | 9x |
 
-The 9x enhancement is topological: it counts filtered levels, not metric parameters. The mass hierarchy between generations follows from this filter. Each vacuum accesses different levels of the McKay decomposition. The Galois vacuum sees the largest gap, consistent with the heaviest family.
+The 9x enhancement is topological: it counts filtered levels, not metric parameters. The mass hierarchy between generations follows from this filter. Each vacuum accesses different levels of the McKay decomposition. The Galois vacuum sees the largest gap. Vacuum-to-generation assignment is open; no universal mass hierarchy holds across irreps.
 
 ## IV. Three Pillars
 
@@ -117,6 +117,6 @@ Every prediction is checkable by finite computation.
 
 ---
 
-SU(2) Yang-Mills on the Poincare homology sphere has a positive mass gap. Positive curvature forces it. Three isolated vacua produce three families. the McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch tip of the $E_8$ graph. The existence of the gap is topological, its value is geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
+SU(2) Yang-Mills on the Poincare homology sphere has a positive mass gap. Positive curvature forces it. Three isolated vacua produce three families. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch tip of the $E_8$ graph. The existence of the gap is topological, its value is geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
 
 *On curved ground, confinement is easy money.*
