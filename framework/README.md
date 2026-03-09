@@ -110,13 +110,15 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 
 *The Space* ($S^3$): By the Poincaré theorem, $S^3$ is the only simply connected closed 3-manifold. It is diffeomorphic to $\text{SU}(2)$ and admits a spin structure.
 
-*The Terminus* ($\partial S^3 = \emptyset$): The space has no boundary. The hierarchy terminates here.
-
 The physical space is the quotient $S^3/2I$: $S^3$ modulo the binary icosahedral group acting by deck transformations. $S^3$ is the simply connected universal cover; $S^3/2I$ is the multiply connected space whose 120 fundamental domains generate the mode spectrum. The postulate selects the cover; the $2I$ structure is carried by $S^3$ itself as its largest exceptional discrete subgroup. The embedding $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ is formulated on the cover; observables and the mode spectrum live on the quotient $S^3/2I$.
+
+*The Terminus* ($\partial S^3 = \emptyset$): The space has no boundary. The hierarchy terminates here.
 
 ## The Cosmic Standing Wave Ψ
 
-Anti-periodicity, the initial-maximum condition, and ground-state selection together determine the cosmic standing wave. Anti-periodicity is inherited from the Möbius $\mathbb{Z}_2$ holonomy (established above). The initial condition $\Psi(0) = +1$ fixes $t = 0$ as an amplitude maximum. At any maximum of a smooth function, the first derivative vanishes: $\partial_t \Psi|_{t=0} = 0$. This selects cosine over sine — sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and would place $t=0$ at zero amplitude. Ground-state selection picks $m = 0$. The three conditions together fix $\Psi = \cos(t/2)$ up to overall sign; the sign is set by the convention $\Psi(0) = +1$.
+Anti-periodicity, the initial-maximum condition, and ground-state selection together determine the cosmic standing wave. Anti-periodicity is inherited from the Möbius $\mathbb{Z}_2$ holonomy (established above). The initial condition $\Psi(0) = +1$ fixes $t = 0$ as an amplitude maximum. At any maximum of a smooth function, the first derivative vanishes: $\partial_t \Psi|_{t=0} = 0$. 
+
+This selects cosine over sine — sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and would place $t=0$ at zero amplitude. Ground-state selection picks $m = 0$. The three conditions together fix $\Psi = \cos(t/2)$ up to overall sign; the sign is set by the convention $\Psi(0) = +1$.
 
 ### Wavelength
 
@@ -130,7 +132,11 @@ Cosine is inherited because the universe initiates at maximum amplitude $\Psi = 
 
 ### The Present Epoch
 
-The phase definition $t \equiv 2\pi s/L_\text{fund}$ means a full $4\pi$ cycle corresponds to $\Delta s = 2L_\text{fund}$ in the phase coordinate: the mode structure is traversed twice. $L_\text{fund}$ is a comoving scale, derived from the CMB low-$\ell$ cutoff; $s$ therefore maps directly to comoving distance, and the Friedmann integral applies. The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc translates to a cycle duration $T_\text{cycle} \approx 33.2$ Gyr through the standard Friedmann expansion history ($\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc); the integral is in the companion paper. The topology sets the cycle structure; the expansion history converts comoving distance to cosmic time. With $t_\text{age} = 13.8$ Gyr:
+The phase definition $t \equiv 2\pi s/L_\text{fund}$ means a full $4\pi$ cycle corresponds to $\Delta s = 2L_\text{fund}$ in the phase coordinate: the mode structure is traversed twice. $L_\text{fund}$ is a comoving scale, derived from the CMB low-$\ell$ cutoff; $s$ therefore maps directly to comoving distance, and the Friedmann integral applies. 
+
+The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc translates to a cycle duration $T_\text{cycle} \approx 33.2$ Gyr through the standard Friedmann expansion history ($\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc); the integral is in the companion paper. 
+
+The topology sets the cycle structure; the expansion history converts comoving distance to cosmic time. With $t_\text{age} = 13.8$ Gyr:
 
 $$t = 4\pi \times \frac{13.8}{33.2} \approx 5.22 \text{ rad}$$
 
@@ -203,7 +209,9 @@ The manifold index $n$ specifies which scale governs the mode being sampled.
 
 The access hierarchy follows from boundary structure: $S^1$ is the observer's anchor (direct); Möbius is accessed through its non-orientable twist; $S^3$ has no boundary ($\partial S^3 = \emptyset$). Spatial degrees of freedom enter only through reconstruction.
 
-The $n=3/2$ row is a geometric conversion, distinct from manifold dilution. The coefficient 2 in $\Lambda_\text{top} = 2/R_\Lambda^2$ is the ground-state eigenvalue of the 2D surface scalar Laplacian (established by the Weitzenböck bound and saturated by the ground state). The coefficient 3 in $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the trace of the de Sitter vacuum Einstein equations in 3D space ($R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R + \Lambda g_{\mu\nu} = 0$ implies $\Lambda = 3/R_\Lambda^2$ for a de Sitter geometry with radius $R_\Lambda$). The Gauss-Codazzi equations at vacuum embedding ($K_{ij}=0$) connect the two eigenvalue problems. The ratio $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ follows from these two independent computations; stating it as "ratio of dimensions (3/2)" is a mnemonic for the coefficient values. Full derivation in companion paper. The conversion is purely geometric; $\Omega$ plays no role.
+The $n=3/2$ row is a geometric conversion, distinct from manifold dilution. The coefficient 2 in $\Lambda_\text{top} = 2/R_\Lambda^2$ is the ground-state eigenvalue of the 2D surface scalar Laplacian (established by the Weitzenböck bound and saturated by the ground state). The coefficient 3 in $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the trace of the de Sitter vacuum Einstein equations in 3D space ($R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R + \Lambda g_{\mu\nu} = 0$ implies $\Lambda = 3/R_\Lambda^2$ for a de Sitter geometry with radius $R_\Lambda$). 
+
+The Gauss-Codazzi equations at vacuum embedding ($K_{ij}=0$) connect the two eigenvalue problems. The ratio $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ follows from these two independent computations; stating it as "ratio of dimensions (3/2)" is a mnemonic for the coefficient values. Full derivation in companion paper. The conversion is purely geometric; $\Omega$ plays no role.
 
 ### Why edge uses Ω\_H while surface uses Ω\_Λ
 
