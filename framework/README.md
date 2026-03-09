@@ -14,7 +14,7 @@ Three quantities are primitive inputs; all Planck-scale references are derived f
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
-| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor ($n = 0$); not derivable from topology |
+| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor ($n = 0$) |
 
 **Derived**
 
@@ -24,13 +24,13 @@ Three quantities are primitive inputs; all Planck-scale references are derived f
 | $t_P$ | $\ell_P/c$ | $5.391 \times 10^{-44}$ s | Reference scale for $H_0$ |
 | $a_P$ | $c/t_P$ | $5.561 \times 10^{51}$ m/s² | Reference scale for $a_0$ |
 
-### Three Length Scales
+### Length Scales
 
 Three geometric scales appear in MIT. They are distinct in origin and claim status; the $\Omega$ scales built from them differ by a factor of $10^{61}$ if conflated.
 
 | Scale | Value | Origin | Status |
 |---|---|---|---|
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | Derived from CMB low-$\ell$ cutoff: $k_{\min} = \pi^2/2L_\text{fund}$, $\ell_\text{cut} \approx k_{\min}\chi_* - 1/2$ | Derived. Arrow runs observation → $L_\text{fund}$. |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | Derived from CMB low-$\ell$ cutoff: $k_{\min} = \pi^2/2L_\text{fund}$, $\ell_\text{cut} \approx k_{\min}\chi_* - 1/2$ | Arrow runs observation → $L_\text{fund}$. |
 | $R$ | $\approx 5.3$ Gpc | Geometric parameter: the de Sitter horizon radius, fixed by the topology before observables are consulted. $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the prediction; $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$ is the observational check. | Geometric parameter. Not a primitive input alongside $c$, $\hbar$, $G$. |
 | $L_\text{strip}$ | $\approx 16.7$ Gpc | One lap of the Möbius boundary: $L_\text{strip} = \pi R_\Lambda$ | Derived from $R_\Lambda$. |
 
@@ -62,7 +62,7 @@ $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \parti
 
 ### The Temporal Edge S¹
 
-The 1D boundary of the Möbius surface is the edge with geometric circumference $L_\text{strip} = \pi R_\Lambda \approx 16.7$ Gpc. The Möbius anti-periodic boundary condition means the wavefunction changes sign after one traverse of the boundary; two traverses are required to restore the original sign. This topological property — a consequence of the $\mathbb{Z}_2$ holonomy — is the origin of the $4\pi$ period: the wave must advance through $4\pi$ of phase to return to its initial amplitude. The edge inherits the anti-periodic boundary condition.
+The 1D boundary of the Möbius surface is the edge with geometric circumference $L_\text{strip} = \pi R_\Lambda \approx 16.7$ Gpc. The Möbius anti-periodic boundary condition means the wavefunction changes sign after one traverse of the boundary; two traverses are required to restore the original sign. This topological property, a consequence of the $\mathbb{Z}_2$ holonomy, is the origin of the $4\pi$ period: the wave must advance through $4\pi$ of phase to return to its initial amplitude. The edge inherits the anti-periodic boundary condition.
 
 The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is distinct from $L_\text{strip}$. It is the minimum-wavelength observable mode scale of the bounded 3D cavity ($S^3/2I$), derived from the CMB low-$\ell$ cutoff. The cosmic phase $t \equiv 2\pi s/L_\text{fund}$ uses the fundamental domain as reference length, where $s$ is an abstract phase coordinate running over the mode structure of the cavity; the $S^1$ edge geometric circumference is $L_\text{strip} \approx 16.7$ Gpc.
 
@@ -94,7 +94,7 @@ Higher harmonics are excluded for background observables but carry perturbation 
 
 ### The Hypersphere Space S³
 
-The 3D volume containing the surface. Gravitational coupling only; all other cross-manifold couplings are absent from the derivation.
+The 3D volume containing the surface. Gravitational coupling only; all other cross-manifold couplings are absent.
 
 $$\Large \boxed{\partial S^3 = \emptyset}$$
 
@@ -126,7 +126,9 @@ This selects cosine over sine: sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and
 
 A period of $4\pi$ is required to carry the sign from positive through negative and back to positive: $\Psi(t + 4\pi) = \Psi(t)$.
 
-Let $t \equiv 2\pi s/L_\text{fund}$ denote cosmic phase, where $s$ is an abstract phase coordinate running over the mode structure of the 3D cavity; the $S^1$ edge has geometric circumference $L_\text{strip} \approx 16.7$ Gpc. $L_\text{fund}$ is the fundamental domain scale. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) The standing wave takes the form:
+Let $t \equiv 2\pi s/L_\text{fund}$ denote cosmic phase, where $s$ is an abstract phase coordinate running over the mode structure of the 3D cavity; the $S^1$ edge has geometric circumference $L_\text{strip} \approx 16.7$ Gpc. $L_\text{fund}$ is the fundamental domain scale. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) 
+
+The standing wave takes the form:
 
   $$\Large \boxed{\Psi = \cos(t/2)}$$
 
@@ -153,7 +155,9 @@ The epoch offset $\delta \equiv t - 2\pi$ measures angular distance from turnaro
 
 **Bounded completion.** The bounded topology implies a different end state than heat death. Anti-periodic boundary conditions select standing-wave solutions. The second half of the cycle ($2\pi \to 4\pi$) is the universe settling into resonance rather than dissipating into void.
 
-**Wave turnaround and phantom crossing.** Turnaround occurs at $t = 2\pi$, where $\Psi = \cos(\pi) = -1$: the wave reaches its amplitude minimum and reverses. This is a turning point of the amplitude; $\Psi = 0$ occurs at $t = \pi$ and $t = 3\pi$. In fluid-based dark energy models, the equation-of-state parameter $w_\text{eff}$ crossing $-1$ is called a phantom crossing. That label attaches to a parameter in those models; MIT's amplitude minimum produces the same observational signature through a different mechanism. The derivation of the corresponding redshift $z_\text{cross} \approx 0.66$ from the phase gap $|\delta| = 1.06$ rad via the Friedmann integral is in the companion paper. Both predictions are pre-registered to Euclid DR1.
+**Wave turnaround and phantom crossing.** Turnaround occurs at $t = 2\pi$, where $\Psi = \cos(\pi) = -1$: the wave reaches its amplitude minimum and reverses. This is a turning point of the amplitude; $\Psi = 0$ occurs at $t = \pi$ and $t = 3\pi$. In fluid-based dark energy models, the equation-of-state parameter $w_\text{eff}$ crossing $-1$ is called a phantom crossing. That label attaches to a parameter in those models; MIT's amplitude minimum produces the same observational signature through a different mechanism. 
+
+The derivation of the corresponding redshift $z_\text{cross} \approx 0.66$ from the phase gap $|\delta| = 1.06$ rad via the Friedmann integral is in the companion paper. Both predictions are pre-registered to Euclid DR1.
 
 ## Cosmic Scale
 
@@ -304,7 +308,7 @@ Fermions see the full 120. Observation squares the wavefunction, and half the re
 
 The wavefunction $\psi_0$ satisfies $\psi(\Theta+1) = -\psi(\Theta)$: it carries the sign flip from the anti-periodic boundary condition. The fermion distinguishes all 120 positions on the domain. Observation squares the wavefunction. $C = |\psi|^2$ erases the sign: $|\psi(\Theta+1)|^2 = |-\psi(\Theta)|^2 = |\psi(\Theta)|^2$. What was distinct to the fermion becomes identical to any measurement.
 
-The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). The filter is a projection rule extending to all boson-projected observables: observables realized through boson-projected intensity channels must sit at even positions on the 120 domain. Even positions on the 120 domain and the 60R-grid (R for realized) are the same lattice — two notations for the same 60 positions. Cosmographic observables ($H_0$, $\Lambda$, $\alpha$) are realized through photon-mediated distance and intensity measurements and belong to this class. Dynamical observables ($a_0$) are realized through acceleration response and retain full 120-domain access. The realization channel determines the grid, not the experimental technology used to estimate it.
+The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). The filter is a projection rule extending to all boson-projected observables: observables realized through boson-projected intensity channels must sit at even positions on the 120 domain. Even positions on the 120 domain and the 60R-grid (R for realized) are the same lattice; two notations for the same 60 positions. Cosmographic observables ($H_0$, $\Lambda$, $\alpha$) are realized through photon-mediated distance and intensity measurements and belong to this class. Dynamical observables ($a_0$) are realized through acceleration response and retain full 120-domain access. The realization channel determines the grid, not the experimental technology used to estimate it.
 
 Two notational conventions appear in the tables below, both denoting the same 60R lattice. Dimensionless couplings ($A_P = 1$) are written in reduced form: the bosonic projection maps the fermionic well $13/120$ to $13/60$ on the 60R-grid. Dimensionful cosmographic observables ($H_0$, $\Lambda$) are written in 120-domain notation with even numerators ($34/120$, $60/120$); the equivalent 60R positions are $17/60$ and $30/60$. The Grid column in the Fibonacci Wells table records which convention is used for each entry.
 
@@ -343,7 +347,7 @@ For the Milky Way, $\Theta_f^\text{env} \approx 2/120$, the minimum bosonic step
 
 $$\frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084$$
 
-This 8.4% resolves the Hubble tension. The distance ladder calibration anchor — Cepheid period-luminosity zero-points, geometric parallax distances — is established within the Milky Way's phase field. That anchor carries the 8.4% shift into every subsequent rung. Supernovae at 500 Mpc are measured correctly relative to the shifted anchor; the shift propagates through calibration. Local measurements of $H_0$ inherit the phase field through calibration rather than proximity. CMB-derived values integrate over gigaparsec volumes where $\Theta_f \approx 0$. The discrepancy is a calibration offset.
+This 8.4% resolves the Hubble tension. The distance ladder calibration anchor; Cepheid period-luminosity zero-points, geometric parallax distances; is established within the Milky Way's phase field. That anchor carries the 8.4% shift into every subsequent rung. Supernovae at 500 Mpc are measured correctly relative to the shifted anchor; the shift propagates through calibration. Local measurements of $H_0$ inherit the phase field through calibration rather than proximity. CMB-derived values integrate over gigaparsec volumes where $\Theta_f \approx 0$. The discrepancy is a calibration offset.
 
 ### A. Phase Field Mechanics
 
@@ -407,7 +411,7 @@ where $\mathbf{1}(\cdot)$ is the indicator function. No continuous slide; the 60
 
 $$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2$$
 
-The profile-dependent integral in $\mathcal{T}$ evaluates to the same $v_c^2$-controlled quantity for flat-curve disks across all standard profiles (isothermal, NFW, Hernquist all give $\xi \in [0.44, 0.47]$); $\xi$ absorbs this variation. For flat-curve disk galaxies, crossing the threshold is a class property: $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$ in every such system. Systems without flat rotation curves — dwarf spheroidals, pressure-supported systems — are outside this closure and require separate treatment.
+The profile-dependent integral in $\mathcal{T}$ evaluates to the same $v_c^2$-controlled quantity for flat-curve disks across all standard profiles (isothermal, NFW, Hernquist all give $\xi \in [0.44, 0.47]$); $\xi$ absorbs this variation. For flat-curve disk galaxies, crossing the threshold is a class property: $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$ in every such system. Systems without flat rotation curves; dwarf spheroidals, pressure-supported systems; are outside this closure and require separate treatment.
 
 ### Galactic Disk Phase Shift
 
