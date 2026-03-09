@@ -268,6 +268,16 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$.
 
 $10^{-122}$ is not a "coincidentally large number." It is the inverse of the squared ratio of the largest scale in the universe ($R \approx 10^{26}$ m) to the smallest ($\ell_P \approx 10^{-35}$ m). The topology contributes the 3. The universe contributes the scale.
 
+**On Circularity**
+
+In standard GR, Λ is a free parameter and R = √(3/Λ) is derived from it. Inverting that to write Λ = 3/R² explains nothing if R was defined from Λ.
+
+This paper reverses the arrow: the coefficient 3 is derived from the eigenvalue chain; antinode intensity (2) × Gauss–Codazzi conversion (3/2); before any contact with the observed value of Λ. The de Sitter relation R_spatial = 2Λ_obs enters only to convert spatial curvature to the conventional Λ parameterization (§IV.E). It contributes the 2 in the denominator, not the 3 in the numerator.
+
+**On Scale**
+
+R is chosen as the de Sitter horizon: the asymptotic curvature radius of the universe's geometry. Standard cosmology treats Λ as fundamental and derives R from it. This paper treats R as the geometric input; the scale the topology acts on; and derives Λ from it.
+
 ### The Derivation Chain
 
 | Step | Input | Output |
