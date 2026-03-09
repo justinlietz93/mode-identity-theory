@@ -43,9 +43,9 @@ This is the galactocentric radius where the gravitational field drops to $a_0$. 
 
 The trigger index $\mathcal{T}$ and critical threshold $\mathcal{T}_c$ are:
 
-$$\mathcal{T} = \frac{2v_c^2}{c^2}, \qquad \mathcal{T}_c = \frac{2\xi\,v_c^2}{c^2}, \quad \xi \approx 0.46$$
+$$\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}\Phi_\text{rel}(l)\,dl, \qquad \mathcal{T}_c = \frac{2\xi\,v_c^2}{c^2}, \quad \xi \approx 0.46$$
 
-The ratio is independent of the galaxy:
+For flat-curve disk galaxies, the potential integral evaluates to $v_c^2$, so $\mathcal{T} = 2v_c^2/c^2$, and the ratio becomes independent of the galaxy:
 
 $$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2$$
 
