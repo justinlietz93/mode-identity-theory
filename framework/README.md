@@ -118,7 +118,7 @@ The physical space is the quotient $S^3/2I$: $S^3$ modulo the binary icosahedral
 
 ## The Cosmic Standing Wave Ψ
 
-Anti-periodicity, the initial-maximum condition, and ground-state selection together determine the cosmic standing wave. Anti-periodicity is inherited from the Möbius $\mathbb{Z}_2$ holonomy (established above). The convention $\Psi(0) = +1$ sets $t = 0$ at amplitude maximum, which requires $\partial_t \Psi|_{t=0} = 0$. 
+Anti-periodicity, the initial-maximum condition, and ground-state selection together determine the cosmic standing wave. Anti-periodicity is inherited from the Möbius $\mathbb{Z}\_2$ holonomy. The convention $\Psi(0) = +1$ sets $t = 0$ at amplitude maximum, which requires $\partial_t \Psi|_{t=0} = 0$. 
 
 This selects cosine over sine — sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and would place $t=0$ at zero amplitude. Ground-state selection picks $m = 0$. The three conditions together fix $\Psi = \cos(t/2)$ up to overall sign; the sign is set by the convention $\Psi(0) = +1$.
 
