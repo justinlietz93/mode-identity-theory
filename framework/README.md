@@ -98,7 +98,7 @@ The 3D volume containing the surface. Gravitational coupling only; all other cro
 
 $$\Large \boxed{\partial S^3 = \emptyset}$$
 
-The hierarchy terminates here. "What's outside?" is malformed; there is no boundary from which to observe.
+The space has no boundary. The hierarchy terminates here.
 
 | Manifold | Boundary | Description |
 |---|---|---|
@@ -114,7 +114,7 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 
 The physical space is the quotient $S^3/2I$: $S^3$ modulo the binary icosahedral group acting by deck transformations. $S^3$ is the simply connected universal cover; $S^3/2I$ is the multiply connected space whose 120 fundamental domains generate the mode spectrum. The postulate selects the cover; the $2I$ structure is carried by $S^3$ itself as its largest exceptional discrete subgroup. The embedding $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ is formulated on the cover; observables and the mode spectrum live on the quotient $S^3/2I$.
 
-*The Terminus* ($\partial S^3 = \emptyset$): The space has no boundary. The hierarchy terminates here.
+*The Terminus* ($\partial S^3 = \emptyset$): "What's outside?" is malformed; there is no boundary from which to observe.
 
 ## The Cosmic Standing Wave Ψ
 
