@@ -469,12 +469,12 @@ Each component traces to the single topological postulate:
 | $(\sqrt{\Omega})^{-n}$ | IR↔UV fixed point + volume scaling | Derived |
 | $n = 0, 1, 2, 3/2, 3$ | Epoch-dependence + coupling character; $n = 0$ is the Planck input ($G$), $n = 3/2$ is the Gauss-Codazzi interface (gravity) | Derived |
 | Anti-periodic BC selected | Matter is fermionic; half-integer modes on $2I$ reproduce 10/12 SM fermion masses within ×3 | Motivated |
-| $\Psi(0) = +1$ | Initial condition selecting the branch where $t=0$ is amplitude maximum; $\Psi(0) = -1$ is the same wave phase-shifted by $2\pi$ | Convention |
+| $\Psi(0) = +1$ | Initial condition selecting the branch where $t=0$ is amplitude maximum | Convention |
 | $C(\Theta) = 2\sin^2(\pi\Theta)$ | Anti-periodic BC + unit normalization | Derived |
 | $\Theta$ on 120 domain | $S^3 \cong \text{SU}(2)$ polyhedral subgroup resolution + irreducibility | Derived |
 | $\Theta \in \{13, 21, 34, 55, 60\}/120$ | Hurwitz stability + amplitude threshold | Derived |
 | $\Delta\Theta_{\min} = 2/120$ | Bosonic Filter (spinor → scalar) | Derived |
-| $\alpha$ exponent $n = 1/30$ | Equals minimum grid step $1/|I| = 1/60$ on bosonic domain; supported by three independent paths; connection between dilution exponent and grid resolution step is the open link | Motivated |
+| $\alpha$ exponent $n = 1/30$ | Equals minimum grid step $1/\vert I\vert = 1/60$ on bosonic domain; supported by three independent paths; connection between dilution exponent and grid resolution step is the open link | Motivated |
 | $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | Spectral derivation: scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$; exact closure open | Motivated |
 | $L_f = v_c^2/a_0$ | Coherence scale | Derived |
 | $\mathcal{T}$, $\mathcal{T}_c$, $\Theta_f$ response | Gauge-invariant classification index + critical value + binary step function | Derived |
