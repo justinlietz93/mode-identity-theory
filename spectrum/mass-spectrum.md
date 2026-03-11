@@ -116,53 +116,34 @@ $$\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$$
 
 ## III. The 24 Predictions
 
-Formula A applied to 8 nontrivial irreps x 3 vacua. Sorted by predicted mass. Dead zone entries (ranks 4--9) have no SM counterparts.
+24 predictions, 12 Standard Model fermion targets. The table below combines the fermion scorecard with the dead zone. Bold rows mark the three hits within 6%. Ranks 4--9 have no SM counterparts; physical states at these masses require extremely suppressed non-gravitational couplings. The question is experimental.
 
-| # | $\rho$ | dim | dist | $\sigma$ | $T^2$ | Mass (GeV) | SM | Ratio |
+| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | SM | Observed (GeV) | Ratio | $\leq$3x? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | $R_1$ | 2 | 1 | std | 0.00827 | $1.98 \times 10^{-13}$ | $\nu_1$ | 1.98 |
-| 2 | $R_1$ | 2 | 1 | gal | 2.778 | $6.67 \times 10^{-11}$ | $\nu_3$ | 1.32 |
-| 3 | $R_1$ | 2 | 1 | triv | 15.887 | $3.81 \times 10^{-10}$ | | |
-| 4 | $R_3$ | 3 | 2 | gal | 0.257 | $3.75 \times 10^{-9}$ | | |
-| 5 | $R_3$ | 3 | 2 | triv | 0.306 | $4.45 \times 10^{-9}$ | | |
-| 6 | $R_6$ | 4 | 3 | std | 0.688 | $4.09 \times 10^{-7}$ | | |
-| 7 | $R_3$ | 3 | 2 | std | 68.765 | $1.00 \times 10^{-6}$ | | |
-| 8 | $R_6$ | 4 | 3 | triv | 4.328 | $2.57 \times 10^{-6}$ | | |
-| 9 | $R_6$ | 4 | 3 | gal | 4.712 | $2.80 \times 10^{-6}$ | | |
-| 10 | $R_7$ | 5 | 4 | std | 1.114 | $2.58 \times 10^{-4}$ | $e$ | 1.98 |
-| 11 | $R_7$ | 5 | 4 | gal | 1.114 | $2.58 \times 10^{-4}$ | $e$ | 1.98 |
-| **12** | $R_7$ | 5 | 4 | triv | 2.250 | $5.21 \times 10^{-4}$ | $e$ | **1.02** |
-| **13** | $R_8$ | 6 | 5 | triv | 0.257 | $2.03 \times 10^{-3}$ | $u$ | **1.06** |
-| 14 | $R_8$ | 6 | 5 | gal | 1.910 | $1.51 \times 10^{-2}$ | $d$ | 3.22 |
-| **15** | $R_8$ | 6 | 5 | std | 13.090 | $1.03 \times 10^{-1}$ | $\mu$ | **1.02** |
-| 16 | $R_5$ | 4 | 6 | std | 0.122 | $3.49 \times 10^{-1}$ | | |
-| 17 | $R_4$ | 3 | 6 | std | 0.257 | $7.34 \times 10^{-1}$ | $c$ | 1.73 |
-| 18 | $R_2$ | 2 | 7 | gal | 0.0567 | 5.33 | $b$ | 1.28 |
-| 19 | $R_4$ | 3 | 6 | gal | 2.048 | 5.84 | $b$ | 1.40 |
-| 20 | $R_4$ | 3 | 6 | triv | 2.094 | 5.97 | $b$ | 1.43 |
-| 21 | $R_5$ | 4 | 6 | triv | 2.778 | 7.96 | $b$ | 1.91 |
-| 22 | $R_5$ | 4 | 6 | gal | 4.089 | 11.72 | $b$ | 2.80 |
-| 23 | $R_2$ | 2 | 7 | triv | 0.473 | 44.54 | $t$ | 3.88 |
-| 24 | $R_2$ | 2 | 7 | std | 2.778 | 261.46 | $t$ | 1.51 |
-
-## IV. Coverage
-
-### Fermion Scorecard
-
-| SM fermion | Mass (GeV) | Prediction (GeV) | $\rho$ | $\sigma$ | Ratio | ≤ 3x? |
-|---|---|---|---|---|---|---|
-| $\nu_1$ | $\sim 10^{-13}$ | $1.98 \times 10^{-13}$ | $R_1$ | std | 1.98 | yes |
-| $\nu_2$ | $8.6 \times 10^{-12}$ | $6.67 \times 10^{-11}$ | $R_1$ | gal | 7.75 | no |
-| $\nu_3$ | $5.06 \times 10^{-11}$ | $6.67 \times 10^{-11}$ | $R_1$ | gal | 1.32 | yes |
-| $e$ | $5.11 \times 10^{-4}$ | $5.21 \times 10^{-4}$ | $R_7$ | triv | **1.02** | yes |
-| $u$ | $2.16 \times 10^{-3}$ | $2.03 \times 10^{-3}$ | $R_8$ | triv | **1.06** | yes |
-| $d$ | $4.67 \times 10^{-3}$ | $1.51 \times 10^{-2}$ | $R_8$ | gal | 3.22 | boundary |
-| $\mu$ | $1.057 \times 10^{-1}$ | $1.03 \times 10^{-1}$ | $R_8$ | std | **1.02** | yes |
-| $s$ | $9.34 \times 10^{-2}$ | $1.03 \times 10^{-1}$ | $R_8$ | std | 1.10 | yes |
-| $c$ | 1.27 | 0.734 | $R_4$ | std | 1.73 | yes |
-| $\tau$ | 1.777 | 0.734 -- 5.84 | $R_4$ / $R_5$ | | ~2 | yes |
-| $b$ | 4.18 | 5.33 | $R_2$ | gal | 1.28 | yes |
-| $t$ | 172.7 | 261.5 | $R_2$ | std | 1.51 | yes |
+| 1 | $R_1$ | 1 | std | $1.98 \times 10^{-13}$ | $\nu_1$ | $\sim 10^{-13}$ | 1.98 | yes |
+| 2 | $R_1$ | 1 | gal | $6.67 \times 10^{-11}$ | $\nu_3$ | $5.06 \times 10^{-11}$ | 1.32 | yes |
+| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | | | | |
+| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | | | | dead zone |
+| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | | | | dead zone |
+| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | | | | dead zone |
+| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | | | | dead zone |
+| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | | | | dead zone |
+| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | | | | dead zone |
+| 10 | $R_7$ | 4 | std | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 | yes |
+| 11 | $R_7$ | 4 | gal | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 | yes |
+| **12** | **$R_7$** | **4** | **triv** | $\mathbf{5.21 \times 10^{-4}}$ | **$e$** | $\mathbf{5.11 \times 10^{-4}}$ | **1.02** | **yes** |
+| **13** | **$R_8$** | **5** | **triv** | $\mathbf{2.03 \times 10^{-3}}$ | **$u$** | $\mathbf{2.16 \times 10^{-3}}$ | **1.06** | **yes** |
+| 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | $d$ | $4.67 \times 10^{-3}$ | 3.22 | boundary |
+| **15** | **$R_8$** | **5** | **std** | $\mathbf{1.03 \times 10^{-1}}$ | **$\mu$** | $\mathbf{1.057 \times 10^{-1}}$ | **1.02** | **yes** |
+| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | | | |
+| 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | $c$ | 1.27 | 1.73 | yes |
+| 18 | $R_2$ | 7 | gal | 5.33 | $b$ | 4.18 | 1.28 | yes |
+| 19 | $R_4$ | 6 | gal | 5.84 | $b$ | 4.18 | 1.40 | yes |
+| 20 | $R_4$ | 6 | triv | 5.97 | $b$ | 4.18 | 1.43 | yes |
+| 21 | $R_5$ | 6 | triv | 7.96 | $b$ | 4.18 | 1.91 | yes |
+| 22 | $R_5$ | 6 | gal | 11.72 | $b$ | 4.18 | 2.80 | yes |
+| 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 | no |
+| 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 | yes |
 
 | Result | Count |
 |---|---|
@@ -174,20 +155,9 @@ Formula A applied to 8 nontrivial irreps x 3 vacua. Sorted by predicted mass. De
 
 The widest miss. $R_1$'s three vacuum masses are $1.98 \times 10^{-13}$, $6.67 \times 10^{-11}$, and $3.81 \times 10^{-10}$ GeV. The central neutrino $\nu_2$ at $8.6 \times 10^{-12}$ GeV falls in the gap between the first and second value (ratio 7.75). The normal vs inverted hierarchy remains experimentally undetermined. Resolution comes from oscillation data or from additional structure at the neutrino scale.
 
-## V. Dead Zone
+### Dead Zone
 
-Six of the 24 entries produce masses between $10^{-9}$ and $10^{-6}$ GeV (eV to keV). No known fundamental Standard Model fermions occupy this range.
-
-| # | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range |
-|---|---|---|---|---|---|
-| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | ~4 eV |
-| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | ~4 eV |
-| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | ~0.4 keV |
-| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | ~1 keV |
-| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | ~3 keV |
-| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | ~3 keV |
-
-This mass window is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed couplings. The question is experimental.
+Six entries (ranks 4--9) produce masses between $10^{-9}$ and $10^{-6}$ GeV (eV to keV). No known fundamental Standard Model fermions occupy this range. This mass window is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed couplings. The question is experimental.
 
 ---
 
