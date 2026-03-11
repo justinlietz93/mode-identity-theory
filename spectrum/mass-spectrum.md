@@ -4,9 +4,9 @@
 
 The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This paper constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
-The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of 12 Standard Model fermions, 10 are reproduced within a factor of 3 and all 12 within a factor of 10.
+The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of these, 12 correspond to Standard Model fermions: 10 are reproduced within a factor of 3 and all 12 within a factor of 10. Eight predictions have no SM assignments.
 
-**10 of 12 within x3 · 12 of 12 within x10**
+**12 SM fermions: 10 of 12 within x3 · 12 of 12 within x10**
 
 Electron · up quark · muon: within 6% of observed mass.
 
@@ -127,13 +127,14 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 
 ## III. The 24 Predictions
 
-24 predictions, 12 Standard Model fermion targets. The table below combines the fermion scorecard with the dead zone. Bold rows mark the three hits within 6%. Ranks 4--9 have no SM counterparts; physical states at these masses require extremely suppressed non-gravitational couplings.
+24 predictions from the mass formula. The table below shows assignments to Standard Model fermions and unassigned predictions.
 
 | Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | SM | Observed (GeV) | Ratio |
 |---|---|---|---|---|---|---|---|
 | 1 | $R_1$ | 1 | std | $1.98 \times 10^{-13}$ | $\nu_1$ | $\sim 10^{-13}$ | 1.98 |
 | 2 | $R_1$ | 1 | gal | $6.67 \times 10^{-11}$ | $\nu_3$ | $5.06 \times 10^{-11}$ | 1.32 |
-| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | | | |
+| gap | | | | — | $\nu_2$ | $8.6 \times 10^{-12}$ | — |
+| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | | target, $\nu_2$? | |
 | 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | | dead zone | |
 | 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | | dead zone | |
 | 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | | dead zone | |
@@ -146,7 +147,7 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 | **13** | **$R_8$** | **5** | **triv** | $\mathbf{2.03 \times 10^{-3}}$ | **$u$** | $\mathbf{2.16 \times 10^{-3}}$ | **1.06** |
 | 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | $d$ | $4.67 \times 10^{-3}$ | 3.22 |
 | **15** | **$R_8$** | **5** | **std** | $\mathbf{1.03 \times 10^{-1}}$ | **$\mu$** | $\mathbf{1.057 \times 10^{-1}}$ | **1.02** |
-| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | | |
+| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | target | |
 | 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | $c$ | 1.27 | 1.73 |
 | 18 | $R_2$ | 7 | gal | 5.33 | $b$ | 4.18 | 1.28 |
 | 19 | $R_4$ | 6 | gal | 5.84 | $b$ | 4.18 | 1.40 |
@@ -162,22 +163,26 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 | Within x10 | 12 of 12 |
 | Within 6% | 3 ($e$, $u$, $\mu$) |
 
+## IV. Dead Zone and Targets
+
+Eight entries have no Standard Model assignments. Six fall in the dead zone (ranks 4--9) between $10^{-9}$ and $10^{-6}$ GeV (eV to keV), where no fundamental fermions are expected. Two are targets (ranks 3, 16) outside this range - unassigned predictions that could correspond to undiscovered particles.
+
+The dead zone is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings. The targets sit in normal mass ranges where particles could exist but have no current SM assignments.
+
+| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range | Type |
+|---|---|---|---|---|---|---|
+| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | ~0.4 eV | target, $\nu_2$? |
+| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | ~4 eV | dead zone |
+| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | ~4 eV | dead zone |
+| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | ~0.4 keV | dead zone |
+| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | ~1 keV | dead zone |
+| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | ~3 keV | dead zone |
+| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | ~3 keV | dead zone |
+| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | ~349 MeV | target |
+
 ### The ν₂ Gap
 
-The widest miss in the mass formula. $R_1$'s three vacuum masses are $1.98 \times 10^{-13}$, $6.67 \times 10^{-11}$, and $3.81 \times 10^{-10}$ GeV. The central neutrino $\nu_2$ at $8.6 \times 10^{-12}$ GeV falls in the gap between the first and second value (ratio 7.75). The normal vs inverted hierarchy remains experimentally undetermined. Resolution comes from oscillation data or from additional structure at the neutrino scale.
-
-## IV. Dead Zone
-
-Six entries (ranks 4--9) produce masses between $10^{-9}$ and $10^{-6}$ GeV (eV to keV). No known fundamental Standard Model fermions occupy this range. This mass window is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed couplings.
-
-| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range |
-|---|---|---|---|---|---|
-| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | ~4 eV |
-| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | ~4 eV |
-| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | ~0.4 keV |
-| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | ~1 keV |
-| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | ~3 keV |
-| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | ~3 keV |
+The central neutrino $\nu_2$ at $8.6 \times 10^{-12}$ GeV sits in the numerical gap between ranks 2 and 3 - shown in the "gap" row above. $R_1$'s three vacuum masses are $1.98 \times 10^{-13}$ (rank 1), $6.67 \times 10^{-11}$ (rank 2), and $3.81 \times 10^{-10}$ GeV (rank 3). However, rank 3 predicts ~0.4 eV while $\nu_2$ is measured at ~8.6 meV - finer neutrino mass measurements could reveal that $\nu_2$ actually corresponds to rank 3. The normal vs inverted hierarchy remains experimentally undetermined. Resolution comes from oscillation data or from additional structure at the neutrino scale.
 
 ---
 
