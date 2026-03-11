@@ -63,13 +63,15 @@ $$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \fra
 
 The same step size produces different fractional shifts depending on where it lands:
 
-| Well | Θ | Slope | ΔC/C | Consequence |
-|---|---|---|---|---|
-| $a_0$ | 13/120 | 17.7 | 30% | Constitutive: $a_0$ defines $\mathcal{T}_c$ and $L_f$ |
-| $H_0$ | 34/120 | 5.1 | 8.4% | Hubble tension |
-| Λ | 60/120 | 0 | 0% | Topologically protected at antinode |
+| Well | Θ | Slope | Step | ΔC/C | Consequence |
+|---|---|---|---|---|---|
+| $a_0$ | 13/120 | 17.7 | 1/120 | ~15% | Constitutive: $a_0$ defines $\mathcal{T}_c$ and $L_f$ |
+| $H_0$ | 34/120 | 5.1 | 2/120 | 8.4% | Hubble tension |
+| Λ | 60/120 | 0 | 2/120 | 0% | Topologically protected at antinode |
 
-The $a_0$ well sits on a steep slope; it absorbs a 30% shift, which is what makes it constitutive (it defines the threshold itself). The Λ well sits at the antinode where the slope vanishes; the cosmological constant is topologically immune to the phase field. The $H_0$ well sits between: steep enough to produce a measurable shift, shallow enough that it remains a perturbation.
+The $a_0$ well sits on a steep slope; it absorbs a 15% shift from a single step (1/120), which is what makes it constitutive (it defines the threshold itself). The step size differs by observable type: $a_0$ is dynamical (acceleration-based measurement) with full 120-domain access, while $H_0$ is cosmographic (photon-mediated) subject to bosonic projection that doubles the minimum step to 2/120. 
+
+The Λ well sits at the antinode where the slope vanishes; the cosmological constant is topologically immune to the phase field. The $H_0$ well sits between: steep enough to produce a measurable shift, shallow enough that it remains a perturbation.
 
 ### The numerical closure
 
