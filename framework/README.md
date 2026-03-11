@@ -1,6 +1,6 @@
-# The Framework
+# Mode Identity Theory
 
-Mode Identity Theory is a shape formed on philosophical grounds before any prediction was computed. Topology determines the structure; observation supplies the scale; every coefficient is a consequence.
+MIT is a shape formed on philosophical grounds before any prediction was computed. Topology determines the structure; observation supplies the scale; every coefficient is a consequence.
 
 The single topological postulate produces one scaling law that blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 122 orders of magnitude from $\Lambda \cdot \ell_P^2 \sim 10^{-122}$ to $\alpha \sim 10^{-2}$; and 24 fermion mass entries covering all 12 Standard Model fermions.
 
@@ -84,14 +84,14 @@ Defining $\nu \equiv kL_\text{strip}/(2\pi)$, then $kL_\text{strip} = (2m+1)\pi$
 
 | Symbol | Name | Values | Role |
 |---|---|---|---|
-| $m$ | Harmonic | $0, 1, 2, \ldots$ | Harmonic count |
-| $\nu$ | Mode number | $m + 1/2$ | Half-integer from BC |
+| $m_h$ | Harmonic | $0, 1, 2, \ldots$ | Harmonic count |
+| $\nu$ | Mode number | $m_h + 1/2$ | Half-integer from BC |
 
-**Ground state selection.** The structure selects the fundamental harmonic ($m = 0$) by operational definition. Cosmological parameters ($\Lambda$, $H_0$) describe the homogeneous, isotropic background. The ground state is the unique mode with no internal nodes; excited modes ($m > 0$) possess spatial nodes and oscillating polarity. Two arguments fix $m = 0$ for background observables:
+**Ground state selection.** The structure selects the fundamental harmonic ($m_h = 0$) by operational definition. Cosmological parameters ($\Lambda$, $H_0$) describe the homogeneous, isotropic background. The ground state is the unique mode with no internal nodes; excited modes ($m_h > 0$) possess spatial nodes and oscillating polarity. Two arguments fix $m_h = 0$ for background observables:
 
 | Argument | Mechanism |
 |---|---|
-| Isotropy | $m > 0$ nodes create $O(1)$ anisotropy; CMB is isotropic to $10^{-5}$ |
+| Isotropy | $m_h > 0$ nodes create $O(1)$ anisotropy; CMB is isotropic to $10^{-5}$ |
 | Orthogonality | Cosmological measurements integrate over Gpc volumes; oscillating modes average to zero |
 
 Higher harmonics are excluded for background observables but carry perturbation structure.
@@ -124,7 +124,7 @@ The physical space is the quotient $S^3/2I$: $S^3$ modulo the binary icosahedral
 
 Anti-periodicity, the initial-maximum condition, and ground-state selection together determine the cosmic standing wave. Anti-periodicity is inherited from the Möbius $\mathbb{Z}\_2$ holonomy. The convention $\Psi(0) = +1$ sets $t = 0$ at amplitude maximum, which requires $\partial_t \Psi|_{t=0} = 0$. 
 
-This selects cosine over sine: sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and would place $t=0$ at zero amplitude. Ground-state selection picks $m = 0$. The three conditions together fix $\Psi = \cos(t/2)$ up to overall sign; the sign is set by the convention $\Psi(0) = +1$.
+This selects cosine over sine: sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and would place $t=0$ at zero amplitude. Ground-state selection picks $m_h = 0$. The three conditions together fix $\Psi = \cos(t/2)$ up to overall sign; the sign is set by the convention $\Psi(0) = +1$.
 
 ### Wavelength
 
@@ -470,8 +470,9 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
 | $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $(3/2) \times 1.95 \times 10^{-122} \approx 2.9 \times 10^{-122}$ ‡ |
 
-> †For dimensionless couplings ($A_P = 1$), manifold dilution does not apply directly — there is no Planck-scale reference to dilute against. Instead, the running from the Planck-scale value $C(13/60) \approx 0.792$ to the observed $\alpha \approx 7.3 \times 10^{-3}$ is controlled by the domain resolution. The exponent $n = 1/30$ is set equal to the minimum grid step $1/|I| = 1/60$ on the bosonic domain, giving $\Omega_\Lambda^{-1/60} = (\sqrt{\Omega_\Lambda})^{-1/30}$.
-> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue (Weitzenböck / eigenvalue chain). $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$. Observed: $2.84 \times 10^{-122}$. Agreement: ~2%.
+> †For dimensionless couplings ($A_P = 1$), manifold dilution does not apply directly. The running from the Planck-scale value $C(13/60) \approx 0.792$ to the observed $\alpha \approx 7.3 \times 10^{-3}$ is controlled by the domain resolution. The exponent $n = 1/30$ is set equal to the minimum grid step $1/|I| = 1/60$ on the bosonic domain, giving $\Omega_\Lambda^{-1/60} = (\sqrt{\Omega_\Lambda})^{-1/30}$.
+> 
+> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue (Weitzenböck / eigenvalue chain). $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$.
 
 $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension. $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by resolution.
 
@@ -481,7 +482,7 @@ Each component traces to the single topological postulate:
 
 | Component | Source | Status |
 |---|---|---|
-| $m = 0$ | Isotropy + orthogonality | Derived |
+| $m_h = 0$ | Isotropy + orthogonality | Derived |
 | $(\sqrt{\Omega})^{-n}$ | IR↔UV fixed point + volume scaling | Derived |
 | $n = 0, 1, 2, 3/2, 3$ | Epoch-dependence + coupling character; $n = 0$ is the Planck input ($G$), $n = 3/2$ is the Gauss-Codazzi interface (gravity) | Derived |
 | Anti-periodic BC selected | Matter is fermionic; half-integer modes on $2I$ reproduce 10/12 SM fermion masses within ×3 | Motivated |
