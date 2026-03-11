@@ -42,11 +42,11 @@ Blind outputs of a fixed structure, checked against observation:
 | $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2.5% |
 | $H_0$ local shift | 8.4% | ~8.7% (67.4 to 73.2) | < 1% |
 | $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
-| $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $1.8 \times 10^{-62}$ | 22% |
+| $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | Null DM detection | permanent | ongoing null results | ✓ |
 | 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 within x3 |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open season |
-| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
+| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
 | ν floor | $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
