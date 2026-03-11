@@ -10,7 +10,7 @@ $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ is what $\Psi$ yields at phase position $\Theta$.
 
-$(\sqrt{\Omega})^{-n}$ is the observer; the square root of scale, diluted by the manifold sampled.
+$(\sqrt{\Omega})^{-n}$ is the observer; the square root of scale, diluted by the manifold (n) sampled.
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
