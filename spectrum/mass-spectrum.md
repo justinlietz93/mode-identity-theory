@@ -12,8 +12,6 @@ The formula is applied to the 8 nontrivial irreducible representations of the bi
 | Within x3 | 10 of 12 |
 | Within 6% | 3 ($e$, $u$, $\mu$) |
 
-Electron · up quark · muon: within 6% of observed mass.
-
 ## I. The Formula
 
 $$\Large \boxed{m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times \left(\sqrt{\Omega_\Lambda}\right)^{\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
