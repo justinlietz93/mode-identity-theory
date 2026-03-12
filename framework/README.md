@@ -64,6 +64,8 @@ The topology had only one choice. The temporal edge bounds the Möbius surface e
 
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+
 ### The Temporal Edge S¹
 
 The 1D boundary of the Möbius surface is the edge with geometric circumference $L_\text{strip} = \pi R_\Lambda \approx 16.7$ Gpc. The Möbius anti-periodic boundary condition means the wavefunction changes sign after one traverse of the boundary; two traverses are required to restore the original sign. This topological property, a consequence of the $\mathbb{Z}_2$ holonomy, is the origin of the $4\pi$ period: the wave must advance through $4\pi$ of phase to return to its initial amplitude. The edge inherits the anti-periodic boundary condition.
@@ -461,6 +463,8 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 
 **The sample occurs at** $(t, \Theta)$.
 
+**[Hear the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
+
 ### The assembled engine
 
 | Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ |
@@ -475,6 +479,8 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 > ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue (Weitzenböck / eigenvalue chain). $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$.
 
 $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension. $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by resolution.
+
+**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ### Derivation chain
 
@@ -556,16 +562,6 @@ MIT is a topological framework: it specifies boundary conditions and permitted m
 The COMPACT collaboration calculates eigenmodes of non-orientable Euclidean manifolds, closely overlapping the mathematics MIT requires; their analysis of parity asymmetry from topology alone aligns with MIT's derivation of odd-ℓ preference.
 
 Milgrom's MOND established $a_0$ as a fundamental acceleration scale; MIT derives it as an edge mode and predicts its evolution with $H(z)$, the central fork test against MOND's constant $a_0$.
-
-## Tools
-
-Every link between topology and observable is live. The code is the math. There are no hidden knobs.
-
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
-
-**[Hear the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
-
-**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ## Repository
 
