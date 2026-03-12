@@ -8,8 +8,8 @@ The formula is applied to the 8 nontrivial irreducible representations of the bi
 
 | Result | Count |
 |---|---|
-| Within x3 | 10 of 12 |
 | Within x10 | 12 of 12 |
+| Within x3 | 10 of 12 |
 | Within 6% | 3 ($e$, $u$, $\mu$) |
 
 Electron · up quark · muon: within 6% of observed mass.
