@@ -736,7 +736,7 @@ $$m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omeg
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy dilution by McKay graph distance | $\sqrt{\Omega_\Lambda} \approx 1.019 \times 10^{61}$ |
 | $T^2(\rho \otimes \sigma)$ | Reidemeister torsion under vacuum $\sigma$ | Vacuum selection |
 
-**Neutrino mass scale.** $\mu_\Lambda \equiv \rho_\Lambda^{1/4} \approx 2.25$ meV is the vacuum energy floor and the absolute neutrino mass scale. $\Lambda$ is the ground mode ($m_h = 0$) of the Möbius surface; the harmonic ladder ($m_h > 0$) carries physical content above it.
+**Neutrino Floor.** $\mu_\Lambda \equiv \rho_\Lambda^{1/4} \approx 2.25$ meV is the vacuum energy floor and the absolute neutrino mass scale. $\Lambda$ is the ground mode ($m_h = 0$) of the Möbius surface; the harmonic ladder ($m_h > 0$) carries physical content above it.
 
 The neutrino mass sector sits on this ladder: solar $\sqrt{\Delta m^2_{21}} \approx 8.6$ meV (~$4\,\mu_\Lambda$), atmospheric $\sqrt{\Delta m^2_{31}} \approx 50$ meV (~$22\,\mu_\Lambda$). Parity violation follows from non-orientability; a field traversing the Möbius surface returns with opposite sign. The multipliers (4, 22) and the selection rule generating them are identified on the horizon (see §IV.C).
 
@@ -746,7 +746,7 @@ $$C_{\text{geom}}(\rho) = \left(\prod_e 2\sin^2\!\left(\frac{\pi e}{D}\right)\ri
 
 The domain width is $D = 60$ for integer-spin irreps (bosonic filter projects $2I \to I$, $120 \to 60$) and $D = 120$ for half-integer (full $2I$ periodicity retained). A consistency check runs through the whole structure: the Kostant sum rule $\sum_e C(e/60) = 2 \times \dim(\rho)$ holds exactly for every irrep on the bosonic domain.
 
-**The McKay spectrum.** The hierarchy factor carries $\sqrt{\Omega_\Lambda} \approx 1.019 \times 10^{61}$ raised to a power set by graph distance: the 9 irreps of $2I$ are labeled $R_0$–$R_8$ by graph distance from $R_0$ on the $E_8$ McKay graph [24]. Coxeter number $h(E_8) = 30 = 2 \times 3 \times 5$. Every irrep inherits spin parity, graph distance, and first spin level by $j_{\text{first}} = \text{dist}/2$. These supply $\text{dist}$ to the hierarchy factor and the Kostant exponents to $C_{\text{geom}}$.
+**McKay Elevator.** The hierarchy factor carries $\sqrt{\Omega_\Lambda} \approx 1.019 \times 10^{61}$ raised to a power set by graph distance: the 9 irreps of $2I$ are labeled $R_0$–$R_8$ by graph distance from $R_0$ on the $E_8$ McKay graph [24]. Coxeter number $h(E_8) = 30 = 2 \times 3 \times 5$. Every irrep inherits spin parity, graph distance, and first spin level by $j_{\text{first}} = \text{dist}/2$. These supply $\text{dist}$ to the hierarchy factor and the Kostant exponents to $C_{\text{geom}}$.
 
 | Irrep | dim | Spin | dist | $j_{\text{first}}$ |
 |---|---|---|---|---|
@@ -760,7 +760,7 @@ The domain width is $D = 60$ for integer-spin irreps (bosonic filter projects $2
 | $R_7$ | 5 | Int | 4 | 2 |
 | $R_8$ | 6 | Half | 5 | 5/2 |
 
-**Reidemeister Torsion.** Providing vacuum selection, $T^2(\rho \otimes \sigma)$ [34] encodes which flat connection each irrep is evaluated at. Base values for integer-spin irreps have exact closed forms rooted in $\varphi$ and small rationals:
+**Reidemeister Dial.** Providing vacuum selection, $T^2(\rho \otimes \sigma)$ [34] encodes which flat connection each irrep is evaluated at. Base values for integer-spin irreps have exact closed forms rooted in $\varphi$ and small rationals:
 
 | Irrep | $T^2$ | Form |
 |---|---|---|
@@ -771,13 +771,14 @@ The domain width is $D = 60$ for integer-spin irreps (bosonic filter projects $2
 
 The Galois pair ratio $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ is exact to 70+ digits. The telescoping product $T^2(R_3) \times T^2(R_7) \times T^2(R_5) \times T^2(R_4) = 4$ is exact at the trivial vacuum. Half-integer values are computed by spectral zeta methods. Vacuum-dependent entries are then propagated through 729 tensor product coefficients $N_{\rho\mu\nu}$ to produce the full 24-entry table.
 
-**24 predictions.** Eight non-trivial irreps evaluated at three vacua. Sorted by mass. Ranks 4–9 are the dead zone: no SM counterparts, testable predictions of states with suppressed non-gravitational couplings.
+**24 predictions.** Eight non-trivial irreps evaluated at three vacua. Sorted by mass. Ranks 4–9 are the dead zone: no SM counterparts, testable predictions of states with suppressed non-gravitational couplings. Rank 3 is excluded by cosmological and solar neutrino constraints (see below).
 
 | Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Mass | SM | Predicted/Observed |
 |---|---|---|---|---|---|---|---|
 | 1 | $R_1$ | 1 | std | $1.98 \times 10^{-13}$ | | $\nu_1$ | 1.98 |
 | 2 | $R_1$ | 1 | gal | $6.67 \times 10^{-11}$ | | $\nu_3$ | 1.32 |
-| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | | — | — |
+| gap | | | | — | | $\nu_2$ | — |
+| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | ~0.4 eV | — | excluded |
 | 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | ~4 eV | — | dead zone |
 | 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | ~4 eV | — | dead zone |
 | 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | ~0.4 keV | — | dead zone |
@@ -790,7 +791,7 @@ The Galois pair ratio $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ is exact to 70+ digits.
 | **13** | $R_8$ | 5 | triv | $\mathbf{2.03 \times 10^{-3}}$ | | **$u$** | **1.06** |
 | 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | | $d$ | 3.22 |
 | **15** | $R_8$ | 5 | std | $\mathbf{1.03 \times 10^{-1}}$ | | **$\mu$** | **1.02** |
-| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | — | — |
+| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | — | target |
 | 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | | $c$ | 1.73 |
 | 18 | $R_2$ | 7 | gal | $5.33$ | | $b$ | 1.28 |
 | 19 | $R_4$ | 6 | gal | $5.84$ | | $b$ | 1.40 |
@@ -800,11 +801,22 @@ The Galois pair ratio $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ is exact to 70+ digits.
 | 23 | $R_2$ | 7 | triv | $44.54$ | | $t$ | 3.88 |
 | 24 | $R_2$ | 7 | std | $261.5$ | | $t$ | 1.51 |
 
-Result: 10/12 within $\times 3$; 12/12 within $\times 10$. Three $\leq 6\%$ hits: electron, up quark, muon. The $\nu_2$ gap (ratio 7.75) is the only genuine miss: $\nu_2$ falls between $R_1$'s standard and Galois vacuum entries, and which neutrino hierarchy is physical remains experimentally open. The $d$-quark ratio (3.22) sits at the $\times 3$ boundary, within light-quark mass uncertainty. Assignment problem (24 states to 12 SM fermions) remains open.
+| Result | Count |
+|---|---|
+| Assigned | 11 of 12 SM fermions |
+| Within $\times 3$ | 10 of 11 assigned |
+| Within 6% | 3 ($e$, $u$, $\mu$) |
+| Genuine miss | $\nu_2$ (no entry in 10--50 meV window) |
+
+The $d$-quark ratio (3.22) sits at the $\times 3$ boundary, within light-quark mass uncertainty. Assignment problem (24 states to 12 SM fermions) remains open.
 
 †$T^2(R_7 \otimes \sigma_\text{std}) = T^2(R_7 \otimes \sigma_\text{gal}) = 1.114$: structural, not accidental. Both non-trivial vacuum torsion products for $R_7$ yield the same value; the trivial vacuum gives 2.250 (rank 12).
 
-The six dead zone entries (ranks 4–9) produce masses between $10^{-9}$ and $10^{-6}$ GeV (eV to keV scale) with no known SM counterparts. This mass window is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings. The question is experimental. These states are distinct from the $n = 3$ space mode of §II.E: the dead zone entries are particle-sector predictions with suppressed-but-nonzero gauge coupling; the $n = 3$ space mode has no gauge degrees of freedom and couples only gravitationally.
+**Rank 3 exclusion.** Rank 3 ($R_1$, triv) predicts ~0.4 eV. Cosmological bounds constrain the sum of neutrino masses to $\Sigma m_\nu \lesssim 0.1$ eV, and solar neutrino data place a lower bound of ~10 meV on $\nu_2$ via the matter effect in the Sun. A single eigenstate at 0.4 eV would saturate or exceed the cosmological sum by itself. Rank 3 is excluded as a SM neutrino. Whether it corresponds to a non-SM state with suppressed couplings (similar to the dead zone entries) or signals a structural correction needed in the $R_1$ triv vacuum remains OPEN.
+
+**The $\nu_2$ gap.** $\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio gap of ~7.75$\times$ from rank 2. This is the mass formula's only genuine miss among the twelve SM fermions. The experimentally allowed window for $\nu_2$ is roughly 10--50 meV, constrained from below by solar neutrino data and from above by the cosmological mass sum. The normal vs. inverted hierarchy remains experimentally undetermined; JUNO and DUNE are expected to resolve this. Whether vacuum mixing between $R_1$ entries or additional structure at the neutrino scale closes the gap remains OPEN.
+
+**Dead zone and target.** The six dead zone entries (ranks 4–9) produce masses between $10^{-9}$ and $10^{-6}$ GeV (eV to keV scale) with no known SM counterparts. This mass window is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings. The question is experimental. These states are distinct from the $n = 3$ space mode of §II.E: the dead zone entries are particle-sector predictions with suppressed-but-nonzero gauge coupling; the $n = 3$ space mode has no gauge degrees of freedom and couples only gravitationally. Rank 16 ($R_5$, std, ~349 MeV) is an unassigned prediction in a normal mass range where a particle could exist but has no current SM assignment.
 
 See companion document (*[The Spectrum: Particle Mass Generation from McKay Spectral Geometry on $S^3/2I$](https://doi.org/10.5281/zenodo.18603975)*).
 
