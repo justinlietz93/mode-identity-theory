@@ -161,7 +161,7 @@ The epoch offset $\delta \equiv t - 2\pi$ measures angular distance from turnaro
 
 **Wave turnaround and phantom crossing.** Turnaround occurs at $t = 2\pi$, where $\Psi = \cos(\pi) = -1$: the wave reaches its amplitude minimum and reverses. This is a turning point of the amplitude; $\Psi = 0$ occurs at $t = \pi$ and $t = 3\pi$. In fluid-based dark energy models, the equation-of-state parameter $w_\text{eff}$ crossing $-1$ is called a phantom crossing. That label attaches to a parameter in those models; MIT's amplitude minimum produces the same observational signature through a different mechanism. 
 
-The derivation of the corresponding redshift $z_\text{cross} \approx 0.66$ from the phase gap $|\delta| = 1.06$ rad via the Friedmann integral is in the companion paper. Both predictions are pre-registered to Euclid DR1.
+The derivation of the corresponding redshift $z_\text{cross} \approx 0.663$ from the phase gap $|\delta| = 1.06$ rad via the Friedmann integral is in the companion paper. Both predictions are pre-registered to Euclid DR1.
 
 ## Cosmic Scale
 
@@ -538,7 +538,7 @@ These do not individually falsify MIT but meaningfully raise or lower credibilit
 |---|---|---|
 | Null particle dark matter | Non-gravitational interaction confirmed | ≥ 5σ, replicated |
 | $H_0$ discrete | Continuous environmental variation confirmed | Histogram test |
-| $z_{\text{cross}} \approx 0.66$ | Phantom crossing outside locked range | below 0.4 or above 0.9 |
+| $z_{\text{cross}} \approx 0.663$ | Phantom crossing outside locked range | below 0.4 or above 0.9 |
 | $w_{\text{eff}} > -1$ at all $z$ | True phantom behavior confirmed | Euclid, Rubin |
 | $\mu_\Lambda \approx 2.25$ meV | Lightest $\nu$ mass inconsistent | KATRIN, cosmological bounds |
 | $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | CMB data pins ratio to 8.00 at $> 1\sigma$ | Spectral prediction; observational value 7.93; gap unresolved |
