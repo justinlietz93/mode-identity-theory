@@ -44,18 +44,18 @@ Blind outputs of a fixed structure, checked against observation:
 | $H_0$ local shift | 8.4% | ~8.7% | <1% |
 | $a_0 / (cH_0)$ | 0.184 | 0.183 | <1% |
 | $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
-| $\alpha_\text{EM}$ | 0.00733 | 0.007297 | 0.49% |
-| $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
-| $\alpha_W$ | 0.03392 | 0.03378 | 0.41% † |
+| Null DM detection | permanent | ongoing null results | ✓ |
+| SM fermion masses (all 12) | 24 entries | 10/12 within $\times 3$ | systematic |
+| Dead zone | 6 states, eV to keV | no SM fermions in range | open |
+| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
+| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | Particle generations | 3 | 3 | exact |
 | Mass gap | $> 0$ | confinement observed | ✓ |
-| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
-| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
-| SM fermion masses (all 12) | 24 entries | 10/12 within $\times 3$ | systematic |
-| $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| Null DM detection | permanent | ongoing null results | ✓ |
+| $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
+| $\alpha_W$ | 0.03392 | 0.03378 | 0.41% † |
+| $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 
 > † Includes Plato twist correction $\cos(\pi/10)$. Status: motivated. See §14.
 
