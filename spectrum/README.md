@@ -33,12 +33,16 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
 | Null DM detection | permanent | ongoing null results | ✓ |
-| 12 SM fermions | 24 entries | 12/12 within ×10 | systematic |
-| Dead zone | 6 states, eV to keV | no SM fermions in range | open season |
-| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 3% |
+| SM fermion masses (all 12) | 24 entries | 10/12 within $\times 3$ | systematic |
+| Dead zone | 6 states, eV to keV | no SM fermions in range | open |
+| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
-| ν floor | $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | Particle generations | 3 | 3 | exact |
-| Mass gap | > 0 | confinement observed | ✓ |
-| $\alpha$ | 0.00733 | 0.007297 | 0.5% |
+| Mass gap | $> 0$ | confinement observed | ✓ |
+| $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
+| $\alpha_W$ | 0.03392 | 0.03378 | 0.41% † |
+| $\alpha$ | 0.00733 | 0.007297 | 0.49% |
+
+> † Includes Plato twist correction $\cos(\pi/10)$
