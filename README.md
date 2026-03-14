@@ -34,25 +34,30 @@ Blind outputs of a fixed structure, checked against observation:
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
+| $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
+| $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
 | CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
 | CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
 | CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
 | CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
-| $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2.5% |
-| $H_0$ local shift | 8.4% | ~8.7% (67.4 to 73.2) | < 1% |
-| $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
+| $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
+| $H_0$ local shift | 8.4% | ~8.7% | <1% |
+| $a_0 / (cH_0)$ | 0.184 | 0.183 | <1% |
 | $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
-| Null DM detection | permanent | ongoing null results | ✓ |
-| 12 SM fermions | 24 entries | 12/12 within ×10 | systematic |
-| Dead zone | 6 states, eV to keV | no SM fermions in range | open season |
-| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 3% |
-| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
-| ν floor | $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| $\alpha_\text{EM}$ | 0.00733 | 0.007297 | 0.49% |
+| $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
+| $\alpha_W$ | 0.03392 | 0.03378 | 0.41% † |
 | Particle generations | 3 | 3 | exact |
-| Mass gap | > 0 | confinement observed | ✓ |
-| $\alpha$ | 0.00733 | 0.007297 | 0.5% |
+| Mass gap | $> 0$ | confinement observed | ✓ |
+| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
+| SM fermion masses (all 12) | 24 entries | 10/12 within $\times 3$ | systematic |
+| $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| Dead zone | 6 states, eV to keV | no SM fermions in range | open |
+| Null DM detection | permanent | ongoing null results | ✓ |
+
+> † Includes Plato twist correction $\cos(\pi/10)$. Status: motivated. See §14.
 
 ---
 
