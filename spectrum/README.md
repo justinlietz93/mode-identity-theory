@@ -39,7 +39,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
 | Null DM detection | permanent | ongoing null results | ✓ |
-| SM fermion masses (all 12) | 24 entries | 10/12 within $\times 3$ | systematic |
+| SM fermion masses | 24 entries | All 12; 10/12 within $\times 3$ | systematic |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
