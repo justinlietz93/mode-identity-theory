@@ -10,11 +10,11 @@ $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ is what $\Psi$ yields at phase position $\Theta$.
 
-$(\sqrt{\Omega})^{-n}$ is the observer; the square root of scale, diluted by the manifold (n) sampled.
+$(\sqrt{\Omega})^{-n}$ is how far the observation falls: the observer at $\sqrt{\Omega}$, diluted by the manifold level $n$ sampled.
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
-The constants of the universe follow across 122 orders of magnitude, and fermionic mass is realized through structure.
+The constants of the universe follow across 122 orders of magnitude, fermion mass is realized through structure, and the fundamental forces of nature are forced by the geometry.
 
 ---
 
