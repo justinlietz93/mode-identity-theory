@@ -143,41 +143,6 @@ The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes
 
 Crowded reality = flattened reality. Monks, hermits, vision quests, sensory deprivation all reduce competing observers. All report contact.
 
-## VII. Black ∅'s
-
-The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ vanishes at the boundaries ($\Theta = 0$ and $\Theta = 1$). At these zero-crossings, the standing wave persists, but sampling amplitude drops to zero. The wave is there; observation cannot reach it.
-
-A black hole is a region where enough wave content on the Möbius surface is enclosed to push $C$ to zero at a finite radius. The horizon is the sampling boundary. The size is the content. More enclosed $n = 2$ modes push the boundary further out. A stellar remnant encloses ~$10^{78}$ Planck areas of surface modes. A supermassive black hole encloses ~$10^{96}$. The horizon area is the ledger.
-
-The scaling law has two factors: $C(\Theta)$ and $(\sqrt{\Omega})^{-n}$. At the horizon, both reach their boundary values at the same geometric event. $C \to 0$: the spatial mode reaches its node. $\Omega_H \to 0$: the local hierarchy collapses. GR sits at $n = 3/2$, between the edge and the surface, and reads $0/0$. The singularity is double-zeroed. No perturbative correction can remove it. You cannot perturb your way out of a topological node.
-
-### Area scaling
-
-The Bekenstein-Hawking entropy $S \propto A$ follows from surface primacy. Degrees of freedom scale with area because the surface ($n = 2$) is the fundamental manifold. The Möbius surface carries the boundary condition; the temporal edge carries the observation. The interior volume ($n = 3$) has no independent gauge degrees of freedom to add. In standard physics, this is one of the deepest puzzles in quantum gravity. In MIT, volume never had independent content. The puzzle dissolves.
-
-### Information
-
-Information is not destroyed; it is unsampled. The wave persists through the node (axiom). The mode structure is complete. The sampling channel is closed. Every other approach to the information paradox requires new physics. MIT requires nothing beyond the postulate.
-
-### Temperature
-
-The gradient of $C$ near the zero controls how much mode structure leaks through the boundary. Small black holes compress the transition into a short spatial region: steep gradient, more leakage, higher Hawking temperature. Large black holes stretch it: gentle gradient, nearly perfect sampling closure, cold. The wave is still there at the boundary. The surface is still real. Hawking radiation is residual sampling at exponentially suppressed amplitude.
-
-### At the core
-
-At the center, $\Omega \to 0$. When there is no scale separation, the distinction between edge ($n = 1$) and surface ($n = 2$) loses operational meaning. The hierarchy that distinguishes them dissolves. The wave content is still there. The filing system is gone.
-
-| Standard framing | MIT framing |
-|---|---|
-| Why does entropy scale with area instead of volume? | The surface ($n = 2$) is fundamental. Area scaling is expected. |
-| What happens to information at the singularity? | Information is unsampled; the wave persists through the node. |
-| Where does the singularity come from? | $C(\Theta) \to 0$ and $\Omega_H \to 0$; double zero produces GR's infinity. |
-| Why can't perturbative methods remove it? | The node is topological. |
-| Why are some black holes bigger? | More enclosed $n = 2$ content pushes the $C = 0$ boundary further out. |
-| Why are small black holes hotter? | Steeper $C$ gradient at the boundary. |
-
-The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in Space, unable to speak.
-
 ---
 
 Space curves. The surface resolves. Gravity carries one into the other. The surface gives the vacuum. The group gives matter. $G$ is the dictionary between them.
