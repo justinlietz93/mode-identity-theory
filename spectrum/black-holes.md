@@ -1,8 +1,6 @@
 # Black ∅'s
 
-> The ceiling of Ω where the bounded domain terminates.
-
-Supplement to Mode Identity Theory. Working document.
+Supplement to Mode Identity Theory. The ceiling of Ω where the bounded domain terminates. Working document.
 
 **Status key:** AXIOM | DERIVED | MOTIVATED | OPEN
 
