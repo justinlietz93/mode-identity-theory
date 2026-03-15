@@ -85,13 +85,13 @@ Neither matter nor energy is dark. 95% of the universe is named after what parti
 
 The topological postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ assigns each structural element a distinct role:
 
-| Structure | What it determines | Mechanism | Status |
-|---|---|---|---|
-| Möbius surface (2D) | Vacuum energy Λ | Ground eigenvalue, Gauss-Codazzi | DERIVED |
-| Binary icosahedral group 2I | Particle spectrum, mass gap, generations | McKay decomposition, Reidemeister torsion | DERIVED (Formula A) |
-| Observer at $\sqrt{\Omega}$ | Coupling constants, hierarchy | Scaling law at Fibonacci wells | DERIVED |
-| $S^3$ space | Spatial curvature | Responds to all of the above | DERIVED (vacuum) |
-| $G$ (input) | Curvature-energy dictionary | Planck floor conversion | INPUT |
+| Structure | What it determines | Mechanism |
+|---|---|---|
+| Möbius surface (2D) | Vacuum energy Λ | Ground eigenvalue, Gauss-Codazzi |
+| Binary icosahedral group 2I | Particle spectrum, mass gap, generations | McKay decomposition, Reidemeister torsion |
+| Observer at $\sqrt{\Omega}$ | Coupling constants, hierarchy | Scaling law at Fibonacci wells |
+| $S^3$ space | Spatial curvature | Responds to all of the above |
+| $G$ (input) | Curvature-energy dictionary | Planck floor conversion |
 
 $G$ converts between the curvature language (where the surface operates) and the energy language (where particles operate). It is the dictionary, not the content. The topology writes the content in both languages. $G$ translates.
 
