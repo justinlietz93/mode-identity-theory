@@ -131,7 +131,7 @@ The gluon is a boson (phase grid = 60R), but it confines fermions (exponent grid
 
 $$\alpha_s = C(17/60) \times \Omega_\Lambda^{-1/120} = 0.1162$$
 
-Observed: 0.1179. Agreement: 1.4%. Status: ESTABLISHED.
+Observed: 0.1179. Agreement: 1.4%.
 
 ### $\alpha_W$: the weak coupling and the Plato twist
 
@@ -139,7 +139,7 @@ The W and Z bosons swap flavor: a spinorial operation. Both slots are spinorial 
 
 $$\alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.0339$$
 
-Observed: 0.0338. Agreement: 0.4%. Status: MOTIVATED (the Plato twist requires operator-level derivation).
+Observed: 0.0338. Agreement: 0.4%.
 
 **The Plato twist.** The correction $\cos(\pi/10) \approx 0.951$ arises from the dodecahedral geometry of $S^3/2I$. The dodecahedron (dual to the icosahedron) has angular defect $\pi/5$ at each vertex. The Möbius $\mathbb{Z}_2$ holonomy halves the defect to $\pi/10$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
 
