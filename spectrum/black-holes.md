@@ -1,4 +1,4 @@
-# Black ∅
+# Black ∅'s
 
 > The ceiling of Ω where the bounded domain terminates.
 
