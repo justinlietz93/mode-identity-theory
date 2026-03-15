@@ -28,7 +28,7 @@ Four factors. Four sources. Each traces independently to the topological postula
 
 ## II. The Factors
 
-### 1. The Neutrino Floor ( $\mu_\Lambda$ )
+### 1. Neutrino Floor ( $\mu_\Lambda$ )
 
 The vacuum energy density of the cosmological constant defines the overall mass scale:
 
