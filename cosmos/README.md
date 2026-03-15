@@ -34,7 +34,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 ---
 
-### Cosmological Scorecard
+### Cosmological Scoreboard
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
