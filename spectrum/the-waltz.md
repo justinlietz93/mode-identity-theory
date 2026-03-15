@@ -1,24 +1,21 @@
 # The Waltz: Λ *Note* to Einstein's Field Equations
 
-*Spatial curvature leads. Surface eigenvalues follow. Discrete sampling resolves.* 
+*Two partners, one cost. Space curves continuously. The surface samples discretely. Gravity is the step between them.*
 
-Three partners, one structure. Space curves continuously. The surface samples discretely. Gravity is the step between them.
+The cosmological constant Λ lives on the Möbius surface as a topological eigenvalue. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss-Codazzi equations provide the interface: a $3/2$ conversion factor that carries 2D surface curvature into 3D spatial geometry.
 
-The cosmological constant Λ lives on the Möbius surface as a topological eigenvalue. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss-Codazzi equations provide the interface: a $3/2$ conversion factor that carries 2D surface curvature into 3D spatial geometry. The same interface governs masslessness and reframes black holes as nodes where sampling amplitude vanishes.
-
-## I. The Three Partners
+## I. The Two Partners
 
 | Partner | Character | MIT element |
 |---|---|---|
 | Space | Continuous geometry | $S^3$ curvature, $R_{\text{spatial}}$ |
 | Surface | Discrete sampling | 120 domain, $\sqrt{\Omega}$ observer, phase wells |
-| Gravity | The step between them | 3/2 Gauss-Codazzi interface |
 
-The universe has three structural layers: $S^3$ space where curvature lives as a continuous field, the Möbius surface where the topological eigenvalue sets the boundary condition, and the $S^1$ temporal edge where observation resolves position.
+Gravity is the cost of crossing from one to the other: the $3/2$ Gauss-Codazzi interface.
+
+The universe has two structural partners: $S^3$ space where curvature lives as a continuous field, and the Möbius surface where the topological eigenvalue sets the boundary condition. The $S^1$ temporal edge is where observation resolves position.
 
 $G$ is the dictionary at the Planck floor ($n = 0$). It converts between the surface's language (curvature) and the space's language (energy). It is one of three inputs ($c$, $\hbar$, $G$), not derivable from the topology; $\ell_P \equiv \sqrt{\hbar G/c^3}$ is derived from them. $\Omega = (R/\ell_P)^2$ is a geometric scale ratio (the squared number of Planck lengths in $R$), not a topological output.
-
-Inertial mass and gravitational mass are edge effects of the same conversion. Every observable that crosses from surface to space pays the $3/2$ cost. Every observable that stays on the edge propagates freely.
 
 ## II. Gravity as Conversion Cost
 
@@ -112,8 +109,6 @@ Photons carry energy and momentum along the temporal edge. They couple matter to
 |---|---|---|
 | Edge-only ($S^1$) | No | Massless (photon, gluon) |
 | Edge-to-surface | Yes | Massive (W, Z, fermions) |
-
-Mass is the gravitational cost of crossing from the temporal edge to the Möbius surface. The $3/2$ interface is the toll. Particles that pay it acquire mass through the conversion; particles that remain on the edge propagate at $c$ with zero rest mass. The distinction is topological, determined by whether the mode's propagation path includes the non-orientable surface.
 
 ## VI. Observer Sampling
 
