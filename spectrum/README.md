@@ -1,6 +1,6 @@
 # Spectrum Predictions
 
-The cosmological anomalies resolved at the far end of the universe occur at the same boundary beneath our feet. The same geometry confines gauge fields, returns $\alpha$ to the first step of $\Lambda$, and accounts gravity as the cost to dance between them.
+The cosmological anomalies resolved at the far end of the universe occur at the same boundary beneath our feet. The same geometry confines gauge fields, returns $\alpha$ to the first step of $\Lambda$, and accounts gravity as the cost to dance between them. Black Holes are anti-nodes of the wave where observers can no longer speak.
 
 ---
 
