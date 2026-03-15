@@ -1,4 +1,4 @@
-# The Waltz: Λ Supplement to Mode Identity
+# The Waltz: Λ *Note* to Einstien's Field Equations
 
 *Spatial curvature leads. Surface eigenvalues follow. Discrete sampling resolves.* 
 
