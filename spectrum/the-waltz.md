@@ -81,7 +81,7 @@ Neither matter nor energy is dark. 95% of the universe is named after what parti
 
 ### The division of labor
 
-The topological postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ assigns each structural element a distinct role:
+The topological postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$ assigns each structural element a distinct role:
 
 | Structure | What it determines | Mechanism |
 |---|---|---|
