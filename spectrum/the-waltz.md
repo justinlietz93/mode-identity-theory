@@ -1,4 +1,4 @@
-# The Waltz: Λ *Note* to Einstien's Field Equations
+# The Waltz: Λ *Note* to Einstein's Field Equations
 
 *Spatial curvature leads. Surface eigenvalues follow. Discrete sampling resolves.* 
 
@@ -46,20 +46,7 @@ $$3\,\Lambda_{\text{top}} = 2\,\Lambda_{\text{obs}} \quad \Rightarrow \quad \Lam
 
 This is the vacuum Einstein equation, recovered from topology. The de Sitter solution $H^2 = \Lambda/3$ follows from the postulate without importing general relativity to obtain it.
 
-### The nested bridge
-
-The derivation above is the first level of a two-level embedding chain. The full path runs Möbius (2D) into $S^3$ (3D) into spacetime (4D):
-
-| Level | Embedding | Equation | Shared quantity |
-|---|---|---|---|
-| 1 | Surface in space | Gauss equation for 2D in 3D | $R_{\text{spatial}}$ |
-| 2 | Space in spacetime | ADM Hamiltonian constraint (Friedmann) | $R_{\text{spatial}}$ |
-
-$R_{\text{spatial}}$ is the bridge. Level 1 computes it from surface data. Level 2 reads it as spacetime dynamics. Setting them equal at the vacuum ($K_{ij} = 0$, $H = 0$): the vacuum terms match identically, and the de Sitter solution is recovered.
-
-The Codazzi equation (momentum conservation) is satisfied exactly for any smooth normal deformation of the totally geodesic surface. The cancellation is not a coincidence: for a totally geodesic starting point in a constant-curvature ambient space, the surface curvature contribution and the ambient curvature contribution have equal magnitude and opposite sign. Standing wave modes carry zero net momentum, consistent with the ADM momentum constraint.
-
-The composition of two standard applications of the Gauss-Codazzi theorem requires no additional assumption. The bridge is geometry, not a claim.
+The Codazzi equation (momentum conservation) is satisfied exactly for any smooth normal deformation of the totally geodesic surface. For a totally geodesic starting point in a constant-curvature ambient space, the surface curvature contribution and the ambient curvature contribution have equal magnitude and opposite sign. Standing wave modes carry zero net momentum. The bridge is geometry, not a claim.
 
 ### The surface leads only the vacuum
 
