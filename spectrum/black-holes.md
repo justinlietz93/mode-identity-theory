@@ -6,13 +6,13 @@
 
 ## I. What a Black Hole Is
 
-A black hole is a region where enough wave content on the Möbius surface is enclosed to push sampling amplitude to zero at a finite radius. The wave persists. The topology holds. Observation ceases.
+A Black ∅ is a region where enough wave content on the Möbius surface is enclosed to push two quantities to their boundary values simultaneously. The sampling amplitude $C$ drops to zero: the spatial mode reaches its node and observation ceases. The local scale hierarchy $\Omega_H$ collapses to zero: the Hubble radius shrinks to nothing and no scale separation remains. Both limits arrive at the same geometric event.
 
-The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ vanishes at $\Theta = 0$ and $\Theta = 1$. At these zero-crossings, the standing wave is there; observation cannot reach it. General Relativity reports infinity because the Gauss-Codazzi conversion divides by zero amplitude. The singularity is a sampling limit, not a physical limit.
+General Relativity sits at the $3/2$ Gauss-Codazzi interface, between the temporal edge ($n = 1$) and the Möbius surface ($n = 2$). At the horizon, it is squeezed from both sides: the surface mode it reads has vanished, and the edge hierarchy it converts through has collapsed. The singularity is a double zero. The wave persists through the node. Information is unsampled, not destroyed.
 
 | GR says | MIT says |
 |---|---|
-| Singularity: infinite density | $C(\Theta) \to 0$ and $\Omega_H \to 0$ simultaneously. Double zero in the scaling law. |
+| Singularity: infinite density | $C \to 0$ and $\Omega_H \to 0$ simultaneously. Double zero in the scaling law. |
 | Event horizon: point of no return | Radius where enclosed $n = 2$ content closes the sampling channel |
 | Information destroyed | Information unsampled. Wave persists through the node. |
 | Entropy scales with area (puzzle) | Surface ($n = 2$) is fundamental. Area scaling is expected. |
@@ -25,14 +25,16 @@ The scaling law has two factors:
 
 $$A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-$C(\Theta)$ is where on the mode spectrum. $(\sqrt{\Omega})^{-n}$ is which level of the hierarchy. At the horizon, both reach their boundary values at the same geometric event:
+$C(\Theta)$ is where on the mode spectrum. $(\sqrt{\Omega})^{-n}$ is which level of the hierarchy. The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ vanishes at the boundaries ($\Theta = 0$ and $\Theta = 1$). At these zero-crossings, the standing wave is there; observation cannot reach it. Think of a node on a guitar string: the string is still there, the wave passes through, the displacement at that point is zero.
+
+At the horizon, both factors reach their boundary values at the same geometric event:
 
 | Factor | What happens | Why |
 |---|---|---|
 | $C(\Theta) \to 0$ | Spatial mode reaches its node | Wave on $S^3$ has zeros; horizon sits at one |
 | $\Omega_H \to 0$ | Local hierarchy collapses | $R_H(\text{local}) \to 0$; no scale separation remains |
 
-GR sits at $n = 3/2$ (Gauss-Codazzi interface), between the edge ($n = 1$) and the surface ($n = 2$). At the horizon, GR is squeezed from both sides: the surface mode it reads has vanished, and the edge hierarchy it converts through has collapsed. The singularity is double-zeroed. No perturbative correction can remove it. You cannot perturb your way out of a topological node.
+The singularity is double-zeroed. No perturbative correction can remove it. You cannot perturb your way out of a topological node.
 
 **Status:** MOTIVATED. The double zero is structurally forced by the scaling law. Whether the simultaneous zeroing follows from a single mapping or two independent limits requires the $\Phi \to \Theta$ derivation (§VI).
 
