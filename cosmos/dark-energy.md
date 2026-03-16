@@ -31,7 +31,7 @@ The full cycle spans $4\pi$ (~33 Gyr). The present epoch sits at $t \approx 5.22
 
 MIT identifies Λ as a surface-mode eigenvalue. The topological protection established in the $\Lambda$ derivation is against displacement in $\Theta$, the position coordinate on the mode spectrum. The logarithmic slope $d\ln C/d\Theta$ vanishes exactly at the antinode; no environmental perturbation can shift $\Lambda$ to a different well. The modulation here acts in $t$, the observer's phase within the cosmic cycle. $\Lambda$ occupies a fixed position (the antinode); what varies is the standing wave amplitude $\Psi(t) = \cos(t/2)$ at the observer's epoch. The surface-mode eigenvalue is constant; its projection into the expansion history carries the temporal phase of $\Psi$.
 
-The cosmic wave therefore modulates the dark energy sector, leaving matter and radiation untouched. The Friedmann equation becomes:
+The cosmic wave therefore modulates the dark energy sector, with an amplitude set by the projection into Friedmann variables (see The Coupling ε below), leaving matter and radiation untouched. The Friedmann equation becomes:
 
 $$E_{\text{MIT}}^2(z) = \Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda^{\text{bare}}\bigl[1 + \varepsilon\cos\theta(z)\bigr]$$
 
@@ -83,7 +83,7 @@ MIT improves on ΛCDM by $\Delta\chi^2 = -2.1$ at the same parameter count. The 
 
 ### Coupling Amplitude Profile
 
-Profiling $\varepsilon$ over a grid while fitting $\Omega_m$ and $H_0 r_d$, the data prefer $\varepsilon = 0.16$ with $\Delta\chi^2 = -7.9$ relative to ΛCDM. Counting $\varepsilon$ as a third parameter ($k = 3$), this yields $\Delta\text{AIC} = -5.9$: the modulation is requested by the data. The qualitative result (nonzero modulation is preferred) is robust across $\varepsilon \in [0.08, 0.26]$.
+Profiling $\varepsilon$ over a grid while fitting $\Omega_m$ and $H_0 r_d$, the data prefer $\varepsilon = 0.16$ with $\Delta\chi^2 = -7.9$ relative to ΛCDM. Counting $\varepsilon$ as a third parameter ($k = 3$), this yields $\Delta\text{AIC} = -5.9$: the data confirm a nonzero projection. The qualitative result (nonzero modulation is preferred) is robust across $\varepsilon \in [0.08, 0.26]$.
 
 ## V. Falsification
 
