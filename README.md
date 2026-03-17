@@ -49,13 +49,13 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 | Scale | Value | Origin |
 |---|---|---|
 | $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter horizon radius; sets the size of the domain |
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low-$\ell$ cutoff; sets the cavity mode. Derivable from $R_\Lambda$ if the $L_\text{strip}/L_\text{fund} = 8$ closure is achieved. |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low-ℓ cutoff; sets the cavity mode. |
 
 **Concordance parameter**
 
 | Parameter | Value | Origin |
 |---|---|---|
-| $\Omega_m$ | 0.315 | Matter density fraction; borrowed from standard cosmology to locate the present epoch ($t_\text{now} = 5.22$ rad) on the standing wave |
+| $\Omega_m$ | 0.315 | Matter density fraction; borrowed from standard cosmology to locate the present epoch ($t_\text{now} = 5.22$ rad) |
 
 ---
 
