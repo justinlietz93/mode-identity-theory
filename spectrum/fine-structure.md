@@ -192,68 +192,39 @@ The running from ~1 at the Planck scale to ~1/137 at human scales is the hierarc
 
 If all gauge couplings follow the same structure at different wells and grid fractions, they converge to order unity near the Planck scale. This is the geometric origin of grand unification: the hierarchy collapsing as $\Omega \to 1$.
 
-## VI. Falsification
+## VI. The Vacant Slot
 
-| Test | Kills formula if | Sharpness |
+Two grid types across two slots yield four combinations. Three are occupied (Section IV). The fourth is empty.
+
+| Phase grid (carrier) | Exponent grid (target) | Force |
+|---|---|---|
+| 60R | 60R | EM |
+| 60R | 120 | Strong |
+| 120 | 120 | Weak |
+| 120 | 60R | — |
+
+The 120/60 entry requires a spinorial carrier acting on bosonic targets: a fermionic force mediator binding integer-spin matter. This is the structure of supersymmetric gauge interaction. Gauginos mediate forces between scalar matter (squarks, sleptons). The SUSY force sector maps onto exactly the vacant rung.
+
+The vacancy is topological. The anti-periodic boundary condition defines $\psi$ as fundamental and $|\psi|^2$ as derived. The 120-grid generates the 60R-grid by squaring; squaring is irreversible. A spinorial carrier acting on bosonic targets would require reconstructing $\psi$ from $|\psi|^2$ at the level of force mediation. The firing order runs one direction. The 120/60 slot inverts it.
+
+The occupied rungs follow a monotone sequence in spinorial content: 0, 1, 2. The reverse step would break monotonicity. The ladder climbs; it does not descend.
+
+The grid ladder was constructed to derive coupling constants. It was not designed to count forces. That it produces exactly three occupied rungs matching three observed gauge interactions, with the vacancy mapping onto the sector that decades of collider searches have failed to populate, is a structural output of the framework rather than an input to it.
+
+## VII. Falsification
+
+| Test | Kills the framework if | Sharpness |
 |---|---|---|
 | Grid ladder pattern | No well/grid combination reproduces $\alpha_W$ or $\alpha_s$ at $< 5\%$ | Decisive (already passed) |
 | Plato twist selectivity | $\cos(\pi/10)$ improves $\alpha$ or $\alpha_s$ rather than uniquely $\alpha_W$ | Decisive (already passed) |
+| Force count | A fourth fundamental force is discovered with fermionic carrier and bosonic target | Decisive |
+| 120/60 vacancy | Gaugino-mediated interactions observed at any energy scale | Decisive |
 | Running structure | Precision tests of $\alpha(q^2)$ exclude power-law in favor of pure log | Decisive |
 | Scale consistency | Three couplings require evaluation at incompatible energy scales | Open |
 | $\alpha$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
-| Λ - $\alpha$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
+| Λ-$\alpha$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
 
-The strongest tests are the first two. The grid ladder passed: all three gauge couplings are reproduced from one Coxeter pair, one structural principle, and no free parameters. The Plato twist passed: it selectively improves $\alpha_W$ and degrades both other couplings if misapplied. The open question is scale consistency: the three predictions are made at different energy scales ($\alpha$ at low energy, $\alpha_s$ and $\alpha_W$ near $M_Z$), and deriving RG running from the MIT hierarchy structure remains open.
-
-## VII. The Vacant Slot
-
-The grid ladder in Section IV assigns two structural properties to each gauge force: the character of its carrier (phase grid) and the character of what it confines (exponent grid). Each slot resolves as bosonic (60R, intensity $|\psi|^2$, period 1) or spinorial (120, wavefunction $\psi$, anti-period 1). Two choices across two slots yield four combinations. Three are occupied.
-
-| Phase grid (carrier) | Exponent grid (target) | Physical reading | Force |
-|---|---|---|---|
-| 60R | 60R | Bosonic carrier, bosonic charge | EM |
-| 60R | 120 | Bosonic carrier, confined fermions | Strong |
-| 120 | 120 | Spinorial carrier, fermion transitions | Weak |
-| 120 | 60R | Spinorial carrier, bosonic target | — |
-
-The occupied rungs exhaust the lower triangle of the grid matrix (including the diagonal). The upper off-diagonal entry, 120/60, is empty. This is structural rather than accidental: the anti-periodic boundary condition on the Möbius strip defines $\psi$ as the fundamental object, and $|\psi|^2$ as derived from it. The 120-grid generates the 60R-grid by squaring. A force whose carrier lives on the spinorial grid while its confinement target lives on the bosonic grid would require the derived quantity to source the fundamental one. The firing order (topology $\to$ wave $\to$ observable) runs one direction. The 120/60 slot inverts it.
-
-### What the vacant slot describes
-
-In the language of particle physics, the 120/60 entry requires:
-
-1. A **fermionic force carrier** (spinorial phase grid). All known mediators — photon, gluons, W, Z — are spin-1 bosons.
-2. A **bosonic confinement target** (bosonic exponent grid). The force would bind or confine integer-spin matter.
-
-This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 superpartners of gauge bosons) mediate forces between scalar partners of fermions (squarks, sleptons). The SUSY force sector maps exactly onto the 120/60 rung: spinorial carriers acting on bosonic matter.
-
-### The obstruction
-
-The vacancy is a consequence of the same boundary condition that produces the grid. The Möbius strip has one boundary circle, one edge, and one direction of traversal. The wavefunction $\psi$ on this boundary is anti-periodic: it requires two laps ($4\pi$) to restore sign. The observable $|\psi|^2$ is periodic in one lap ($2\pi$). Squaring is irreversible: $|\psi|^2$ does not recover the phase of $\psi$. A spinorial carrier acting on bosonic targets would require reconstructing $\psi$ from $|\psi|^2$ at the level of force mediation. The topology forbids it.
-
-The three occupied rungs follow a monotone sequence in spinorial content:
-
-| Rung | Spinorial slots | Force |
-|---|---|---|
-| 60R / 60R | 0 of 2 | EM |
-| 60R / 120 | 1 of 2 | Strong |
-| 120 / 120 | 2 of 2 | Weak |
-
-Spinorial content increases. The reverse step (from 2 spinorial slots to 1 bosonic target) would break monotonicity. The ladder climbs; it does not descend.
-
-### The prediction
-
-The Standard Model force content is complete. Three gauge forces exhaust the geometrically permitted rungs of the carrier/target grid. A fourth fundamental force would require the 120/60 slot, which is structurally closed by the anti-periodic boundary condition.
-
-Supersymmetric partners, in their standard formulation as gaugino-mediated interactions between scalar matter, occupy exactly this closed slot. The prediction is that SUSY searches find permanent null results, for the same topological reason that the Möbius strip has one edge rather than two.
-
-| Prediction | Falsified if |
-|---|---|
-| Three forces exhaust the grid | A fourth fundamental force is discovered with fermionic carrier and bosonic target |
-| 120/60 is permanently vacant | Gaugino-mediated interactions observed at any energy scale |
-| Force count is topological | Additional gauge forces appear that cannot be classified on the 2×2 grid |
-
-The grid ladder was constructed to derive coupling constants. It was not designed to count forces. That it produces exactly three occupied rungs matching exactly three observed gauge interactions, with the vacancy mapping onto exactly the sector that decades of collider searches have failed to populate, is a structural output of the framework rather than an input to it.
+The strongest tests are the first four. The grid ladder and Plato twist have already passed. The force count and SUSY vacancy are tested by every collider run. The open question is scale consistency: the three predictions are made at different energy scales ($\alpha$ at low energy, $\alpha_s$ and $\alpha_W$ near $M_Z$), and deriving RG running from the MIT hierarchy structure remains open.
 
 ---
 
