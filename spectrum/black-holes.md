@@ -2,7 +2,7 @@
 
 Where Θ hits the wall and Ω collapses to nothing. A working supplement to Mode Identity Theory.
 
-**Status:** Working supplement. Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program.
+**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program.
 
 ---
 
