@@ -109,7 +109,7 @@ Blind outputs of a fixed structure, checked against observation:
 |---|---|
 | **[`framework/`](framework/)** | Core derivation from topology to scaling law. |
 | **[`cosmos/`](cosmos/)** | Five foundations resolve five cosmological anomalies, one-to-one. |
-| **[`spectrum/`](spectrum/)** | The same boundary reveals confinement, fine structure, and 24 fermionic masses. |
+| **[`spectrum/`](spectrum/)** | The same boundary reveals confinement, 24 fermionic masses, and fine structure. |
 
 ---
 
