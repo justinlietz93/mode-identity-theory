@@ -43,7 +43,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Particle generations | 3 mass gaps | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
 | Null SUSY | permanent (120/60 vacant) | ongoing null results | ✓ |
-| SM fermion masses | 24 entries | all 12: 10/12 within $\times 3$ | systematic |
+| Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
