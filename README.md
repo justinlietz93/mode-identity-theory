@@ -28,6 +28,8 @@ The constants of the universe follow across 122 orders of magnitude and the fund
 
 $$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
 
+Four factors compose to rank 24 fermion masses:
+
 The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text{geom}}$ selects the position. The McKay Elevator $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ raises the energy. The Reidemeister Torsion $T^2$ dials-in the vacuum.
 
 ---
