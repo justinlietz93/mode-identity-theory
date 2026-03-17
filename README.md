@@ -95,9 +95,9 @@ Every link between topology and observable is live. The code is the math. There 
 
 ---
 
-## Falsification
+## Pre-Registered Predictions \ Falsification
 
-Two predictions separate this framework from alternatives: $a_0(z) \propto H(z)$ while Λ remains constant, and phantom crossing at $z \approx 0.66$ is inference artifact, not evolving vacuum energy. Falsification criteria are pre-registered.
+Three predictions separate this framework from alternatives: $a_0(z) tracks with H(z)$ while Λ remains constant, and phantom crossing at $z \approx 0.66$ is an inference artifact, not evolving vacuum energy.
 
 **Judgment Day: October 21, 2026.**
 
