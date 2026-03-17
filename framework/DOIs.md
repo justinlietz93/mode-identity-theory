@@ -12,7 +12,7 @@ $$m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega
 
 **First spotted:** December 2025
 
-**Primary falsification:** a₀(z) ∝ H(z) — Euclid DR1, October 2026
+**Falsification:** a₀(z) tracks with H(z) while $\Lambda$ remains constant  — Euclid DR1, October 2026
 
 ---
 
