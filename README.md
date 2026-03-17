@@ -89,8 +89,6 @@ Every link between topology and observable is live. The code is the math. There 
 
 **[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
 
-**[Hear the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
-
 **[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ---
