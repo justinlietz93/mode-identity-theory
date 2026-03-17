@@ -10,7 +10,7 @@ The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in t
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-Anti-periodic boundary conditions on the Möbius strip require two traversals to restore sign. Everything vibes on this.
+Anti-periodic boundary conditions on the Möbius strip require two traversals to restore sign. Everything rides on this.
 
 **One scale:**
 
@@ -18,13 +18,13 @@ $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ is what $\Psi$ yields at phase position $\Theta$.
 
-$(\sqrt{\Omega})^{-n}$ is how high the observation resolves: the observer at $\sqrt{\Omega}$, projected down by the manifold level $n$ sampled.
+$(\sqrt{\Omega})^{-n}$ is how high the observation resolves: the observer at $\sqrt{\Omega}$, attenuated across the manifold level $n$ sampled.
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
 The constants of the universe follow across 122 orders of magnitude and the fundamental forces of nature are forced by geometry.
 
-**One forumla:**
+**One formula:**
 
 $$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
 
