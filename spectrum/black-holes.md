@@ -55,7 +55,7 @@ The singularity is double-zeroed. No perturbative correction can remove it. You 
 
 The double zero at the horizon has an exact structural analog in the spectral geometry of $S^3/2I$.
 
-The twisted spectral zeta function $Z_\sigma(s) = \sum_l N_l(\sigma)\lambda_l^{-s}$ on the Poincaré homology sphere satisfies $Z_\sigma(0) = 0$ for every nontrivial twist $\sigma$. The scalar eigenvalues are $\lambda_l = l(l+2) = (l+1)^2 - 1$, and the curvature shift "$-1$" generates a Pochhammer expansion:
+The twisted spectral zeta function $Z_\sigma(s) = \sum_l N_l(\sigma)\lambda_l^{-s}$ on the Poincaré homology sphere satisfies $Z_\sigma(0) = 0$ for every nontrivial twist $\sigma$. The scalar eigenvalues are $\lambda_l = l(l+2) = (l+1)^2 - 1$, and the curvature shift "-1" generates a Pochhammer expansion:
 
 $$Z_{0,\sigma}(s) = \sum_{k \geq 0} \frac{(s)_k}{k!} \cdot \widetilde{H}_k(s)$$
 
