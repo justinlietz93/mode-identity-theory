@@ -1,20 +1,34 @@
 # Mode Identity Theory
 
+**One shape:**
+
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary.
 
-**One postulate. One scaling law:**
+**One wave:**
+
+$$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
+
+Anti-periodic boundary conditions on the Möbius strip require two traversals to restore sign. Everything vibes on this.
+
+**One scale:**
 
 $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ is what $\Psi$ yields at phase position $\Theta$.
 
-$(\sqrt{\Omega})^{-n}$ is how far the observation falls: the observer at $\sqrt{\Omega}$, diluted by the manifold level $n$ sampled.
+$(\sqrt{\Omega})^{-n}$ is how high the observation resolves: the observer at $\sqrt{\Omega}$, projected down by the manifold level $n$ sampled.
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
-The constants of the universe follow across 122 orders of magnitude, fermion mass is realized through structure, and the fundamental forces of nature are forced by the geometry.
+The constants of the universe follow across 122 orders of magnitude and the fundamental forces of nature are forced by geometry.
+
+**One forumla:**
+
+$$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
+
+The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text{geom}}$ selects the position. The McKay Elevator $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ raises the energy. The Reidemeister Torsion $T^2$ dials-in the vacuum.
 
 ---
 
