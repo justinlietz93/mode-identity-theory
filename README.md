@@ -18,7 +18,7 @@ $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ is what $\Psi$ yields at phase position $\Theta$.
 
-$(\sqrt{\Omega})^{-n}$ is how high the observation resolves: the observer at $\sqrt{\Omega}$, attenuated across the manifold level $n$ sampled.
+$(\sqrt{\Omega})^{-n}$ is how far the observation reaches: the observer at $\sqrt{\Omega}$, attenuated across the manifold level $n$ sampled.
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
