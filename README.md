@@ -32,6 +32,17 @@ The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text
 
 ---
 
+## Inputs
+
+| Const. | Value | Origin |
+|---|---|---|
+| $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
+| $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
+| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor ($n = 0$) |
+| $R_\Lambda$ | $\approx 5.3$ Gpc | The de Sitter horizon radius, fixed by the shape |
+
+---
+
 ## Scoreboard
 
 Blind outputs of a fixed structure, checked against observation:
