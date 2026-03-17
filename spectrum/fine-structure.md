@@ -234,12 +234,6 @@ The Standard Model force content is complete. Three gauge forces exhaust the geo
 
 Supersymmetric partners, in their standard formulation as gaugino-mediated interactions between scalar matter, occupy exactly this closed rung. The prediction is that SUSY searches find permanent null results, for the same topological reason that the Möbius strip has one edge rather than two.
 
-| Prediction | Falsified if |
-|---|---|
-| Three forces exhaust the grid | A fourth fundamental force is discovered with fermionic carrier and bosonic target |
-| 120/60 is permanently vacant | Gaugino-mediated interactions observed at any energy scale |
-| Force count is topological | Additional gauge forces appear that cannot be classified on the 2×2 grid |
-
 The grid ladder was constructed to derive coupling constants. It was not designed to count forces. That it produces exactly three occupied rungs matching exactly three observed gauge interactions, with the vacancy mapping onto exactly the sector that decades of collider searches have failed to populate, is a structural output of the framework rather than an input to it.
 
 ## VII. Falsification
