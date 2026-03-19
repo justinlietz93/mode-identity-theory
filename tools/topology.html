@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mode Identity Theory | The Topology</title>
-  <meta name="description" content="Interactive visualization of the topological postulate: S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅">
+  <meta name="description" content="Interactive visualization of the topological postulate: S¹₍₂,₃₎ = ∂(Möbius) ↪ S³, ∂S³ = ∅">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -100,10 +100,6 @@
     .bottom-bar .hint {
       font-size: 12px; color: rgba(180,200,220,0.3); letter-spacing: 1px;
     }
-    .bottom-bar .inion {
-      font-family: var(--serif); font-size: 18px; font-style: italic;
-      color: rgba(180,200,220,0.25); letter-spacing: 0.5px; margin-top: 4px;
-    }
 
     @media (max-width: 700px) {
       .title-bar h1 { font-size: 26px; letter-spacing: 3px; }
@@ -120,7 +116,7 @@
 
 <div class="title-bar">
   <h1>THE TOPOLOGY</h1>
-  <div class="eq">S<sup>1</sup> = ∂(Mobius) ↪ S<sup>3</sup>, &nbsp; ∂S<sup>3</sup> = ∅</div>
+  <div class="eq">S<sup>1</sup><sub>(2,3)</sub> = ∂(Möbius) ↪ S<sup>3</sup>, &nbsp; ∂S<sup>3</sup> = ∅</div>
 </div>
 
 <div class="controls">
@@ -130,11 +126,11 @@
   </button>
   <button class="ctrl-btn active" data-layer="surface" id="btnSurface">
     <div class="indicator ind-surface"></div>
-    <span>Mobius Surface</span>
+    <span>Möbius Surface</span>
   </button>
   <button class="ctrl-btn active" data-layer="edge" id="btnEdge">
     <div class="indicator ind-edge"></div>
-    <span>S<sup>1</sup> Edge</span>
+    <span>S<sup>1</sup><sub>(2,3)</sub> Trefoil</span>
   </button>
   <button class="ctrl-btn" data-layer="wave" id="btnWave">
     <div class="indicator ind-wave"></div>
@@ -151,7 +147,7 @@
   <div class="a-label" id="aLabel">Topology</div>
   <div class="a-name" id="aName">Three Nested Manifolds</div>
   <div class="a-body" id="aBody">
-    The temporal edge S<sup>1</sup> bounds the Mobius surface. The surface embeds in hypersphere space S<sup>3</sup>. The space has no boundary.
+    The temporal edge S<sup>1</sup><sub>(2,3)</sub>, the trefoil, bounds the Möbius surface. The surface embeds in hypersphere S<sup>3</sup>. The space has no boundary. Λ is the ground mode eigenvalue of this surface.
   </div>
   <div class="a-math" id="aMath"></div>
 </div>
@@ -213,7 +209,6 @@ scene.add(new THREE.Points(starGeo, starMat));
 var sphereR = 1.85;
 var sphereGeo = new THREE.SphereGeometry(sphereR, 48, 32);
 
-// Transparent shell
 var sphereShell = new THREE.Mesh(sphereGeo, new THREE.MeshPhysicalMaterial({
   color: 0x4488cc, transparent: true, opacity: 0.06,
   roughness: 0.3, metalness: 0.1, side: THREE.DoubleSide,
@@ -221,7 +216,6 @@ var sphereShell = new THREE.Mesh(sphereGeo, new THREE.MeshPhysicalMaterial({
 }));
 scene.add(sphereShell);
 
-// Wireframe grid (like lat/long lines)
 var wireGeo = new THREE.SphereGeometry(sphereR * 1.001, 24, 16);
 var wireMat = new THREE.MeshBasicMaterial({
   color: 0x6ec1e4, wireframe: true, transparent: true, opacity: 0.06,
@@ -230,7 +224,6 @@ var wireMat = new THREE.MeshBasicMaterial({
 var sphereWire = new THREE.Mesh(wireGeo, wireMat);
 scene.add(sphereWire);
 
-// Subtle rim glow using a slightly larger sphere
 var glowGeo = new THREE.SphereGeometry(sphereR * 1.02, 32, 24);
 var glowMat = new THREE.MeshBasicMaterial({
   color: 0x4488cc, transparent: true, opacity: 0.03,
@@ -242,17 +235,20 @@ scene.add(sphereGlow);
 var spaceGroup = [sphereShell, sphereWire, sphereGlow];
 
 // ═══════════════════════════════════════════
-//  MOBIUS STRIP (parametric, vertex-colored)
+//  MÖBIUS STRIP — 3 half-twists
+//  Boundary of this surface is the trefoil T(2,3)
 // ═══════════════════════════════════════════
 var MR = 1.0;   // major radius
-var MW = 0.45;  // half-width
-var NU = 200;   // u segments
+var MW = 0.38;  // half-width (tighter for 3-twist)
+var NU = 240;   // u segments
 var NV = 30;    // v segments
 
+// 3 half-twists: use 3*u/2 instead of u/2
+// This is what makes the boundary a trefoil
 function mobiusPos(u, v) {
-  var x = (MR + v * Math.cos(u / 2)) * Math.cos(u);
-  var y = (MR + v * Math.cos(u / 2)) * Math.sin(u);
-  var z = v * Math.sin(u / 2);
+  var x = (MR + v * Math.cos(3 * u / 2)) * Math.cos(u);
+  var y = (MR + v * Math.cos(3 * u / 2)) * Math.sin(u);
+  var z = v * Math.sin(3 * u / 2);
   return [x, y, z];
 }
 
@@ -266,7 +262,6 @@ for (var i = 0; i <= NU; i++) {
     var p = mobiusPos(u, v);
     mVerts.push(p[0], p[1], p[2]);
 
-    // Color: HSL cycling hue with u, saturation varies with v
     var hue = (i / NU) * 360;
     var sat = 0.5 + 0.3 * Math.abs(v / MW);
     var light = 0.45 + 0.15 * (v / MW);
@@ -274,7 +269,6 @@ for (var i = 0; i <= NU; i++) {
     c.setHSL(hue / 360, sat, light);
     mColors.push(c.r, c.g, c.b);
 
-    // Normal (approximate via cross product of partial derivatives)
     var du = 0.001, dv = 0.001;
     var pu = mobiusPos(u + du, v), pv = mobiusPos(u, v + dv);
     var tu = [pu[0]-p[0], pu[1]-p[1], pu[2]-p[2]];
@@ -309,7 +303,6 @@ var mobiusMat = new THREE.MeshPhongMaterial({
 var mobiusMesh = new THREE.Mesh(mGeo, mobiusMat);
 scene.add(mobiusMesh);
 
-// Mesh wireframe overlay (faint triangulation like the TopNoTag image)
 var mobiusWire = new THREE.Mesh(mGeo.clone(), new THREE.MeshBasicMaterial({
   color: 0x000000, wireframe: true, transparent: true, opacity: 0.08
 }));
@@ -318,38 +311,32 @@ scene.add(mobiusWire);
 var surfaceGroup = [mobiusMesh, mobiusWire];
 
 // ═══════════════════════════════════════════
-//  S¹ BOUNDARY EDGE (red/coral glowing line)
+//  S¹₍₂,₃₎ BOUNDARY EDGE — the trefoil
+//  Boundary of 3-half-twist Möbius is T(2,3)
+//  Traced at v = +MW, u from 0 to 4π (single component, odd twists)
 // ═══════════════════════════════════════════
-// The boundary of the Mobius strip is a single closed curve.
-// Trace v = +MW as u goes 0 to 4π (traverses the strip twice to close).
 var edgePts = [];
-var EDGE_N = 600;
+var EDGE_N = 800;
 for (var i = 0; i <= EDGE_N; i++) {
   var u = (i / EDGE_N) * Math.PI * 4;
-  // The boundary alternates between v=+MW and v=-MW across the half-twist
-  var vSign = (i <= EDGE_N / 2) ? MW : -MW;
-  // Actually, for a continuous boundary: parametrize as v = MW, u from 0 to 4π
   var p = mobiusPos(u, MW);
   edgePts.push(new THREE.Vector3(p[0], p[1], p[2]));
 }
 
-// Core edge line
 var edgeCurve = new THREE.BufferGeometry().setFromPoints(edgePts);
 var edgeCore = new THREE.Line(edgeCurve, new THREE.LineBasicMaterial({
   color: 0xe85040, linewidth: 2, transparent: true, opacity: 0.95
 }));
 scene.add(edgeCore);
 
-// Glow edge (wider, dimmer)
 var edgeGlow = new THREE.Line(edgeCurve.clone(), new THREE.LineBasicMaterial({
   color: 0xff6050, linewidth: 1, transparent: true, opacity: 0.35
 }));
 scene.add(edgeGlow);
 
-// Edge particle markers
 var edgeDotGeo = new THREE.BufferGeometry();
 var edgeDotPos = [];
-for (var i = 0; i < EDGE_N; i += 8) {
+for (var i = 0; i < EDGE_N; i += 10) {
   edgeDotPos.push(edgePts[i].x, edgePts[i].y, edgePts[i].z);
 }
 edgeDotGeo.setAttribute('position', new THREE.Float32BufferAttribute(edgeDotPos, 3));
@@ -362,16 +349,14 @@ var edgeGroup = [edgeCore, edgeGlow, edgeDots];
 
 // ═══════════════════════════════════════════
 //  WAVE Ψ = cos(t/2) along the edge
+//  Period 4π — anti-periodic BC from winding number 2
 // ═══════════════════════════════════════════
-var waveGeo = new THREE.BufferGeometry();
 var wavePts = [];
 var WAVE_N = 400;
 for (var i = 0; i <= WAVE_N; i++) {
   var u = (i / WAVE_N) * Math.PI * 4;
   var p = mobiusPos(u, MW);
-  // Displace outward by Ψ = cos(u/2)
   var psi = Math.cos(u / 2) * 0.2;
-  // Get approximate outward normal at the edge
   var p2 = mobiusPos(u, MW * 0.9);
   var dx = p[0] - p2[0], dy = p[1] - p2[1], dz = p[2] - p2[2];
   var dl = Math.sqrt(dx*dx + dy*dy + dz*dz) || 1;
@@ -387,7 +372,6 @@ var waveLine = new THREE.Line(
 waveLine.visible = false;
 scene.add(waveLine);
 
-// Wave glow
 var waveGlow = new THREE.Line(
   new THREE.BufferGeometry().setFromPoints(wavePts),
   new THREE.LineBasicMaterial({ color: 0xf0c040, transparent: true, opacity: 0.2, linewidth: 1 })
@@ -398,10 +382,10 @@ scene.add(waveGlow);
 var waveGroup = [waveLine, waveGlow];
 
 // ═══════════════════════════════════════════
-//  ORBIT CONTROLS (manual implementation)
+//  ORBIT CONTROLS
 // ═══════════════════════════════════════════
-var orbitTheta = 0.35;  // azimuthal
-var orbitPhi = 1.57;     // polar (from top)
+var orbitTheta = 0.35;
+var orbitPhi = 1.57;
 var orbitDist = 5;
 var targetTheta = orbitTheta, targetPhi = orbitPhi, targetDist = orbitDist;
 var dragging = false, prevX = 0, prevY = 0;
@@ -437,7 +421,6 @@ document.addEventListener('wheel', function(e) {
   targetDist += e.deltaY * 0.003;
 });
 
-// Touch support
 document.addEventListener('touchstart', function(e) {
   if (e.target.closest('.controls, .annotation')) return;
   if (e.touches.length === 1) {
@@ -465,18 +448,18 @@ var annotations = {
     math: "\u2202S\u00B3 = \u2205"
   },
   surface: {
-    label: "Surface", name: "Mobius Strip",
-    body: "Non-orientable. One boundary. A field traversing the surface returns to minus itself. The unique non-orientable surface with a single boundary component.",
+    label: "Surface", name: "M\u00F6bius Strip",
+    body: "Three half-twists. Non-orientable. One boundary component. A field traversing the surface returns to minus itself. The (2,3) winding forces the trefoil at the edge.",
     math: "\u03C8(y + L) = \u2212\u03C8(y)"
   },
   edge: {
-    label: "Edge", name: "S\u00B9 Temporal Boundary",
-    body: "The boundary of the Mobius surface. Phase advances along this edge. Time is not a container; it is the boundary of a surface. Period 4\u03C0. One lap returns negative.",
-    math: "S\u00B9 = \u2202(Mobius)"
+    label: "Edge", name: "S\u00B9\u208D\u2082\u002C\u2083\u208E Trefoil",
+    body: "The (2,3) torus knot. Winding number 2 forces the 4\u03C0 period and the anti-periodic boundary condition. The ratio (2,3) is the Gauss-Codazzi 3/2 written on the knot. \u039B is the ground mode eigenvalue.",
+    math: "S\u00B9\u208D\u2082\u002C\u2083\u208E = \u2202(M\u00F6bius)"
   },
   wave: {
     label: "Wave", name: "\u03A8 = cos(t/2)",
-    body: "The standing wave on the edge. Cosine because t = 0 is a maximum. Anti-periodicity requires period 4\u03C0. Present epoch at t \u2248 5.22 rad. This is the wave everything samples.",
+    body: "The standing wave on the edge. Anti-periodicity forced by winding number 2. Period 4\u03C0. Present epoch at t \u2248 5.22 rad. This is the wave everything samples.",
     math: "\u03A8 = cos(t/2)"
   }
 };
@@ -508,7 +491,6 @@ document.querySelectorAll('.ctrl-btn').forEach(function(btn) {
 
 applyLayers();
 
-// ── Rotate toggle ──
 document.getElementById('btnRotate').addEventListener('click', function() {
   autoRotate = !autoRotate;
   this.classList.toggle('active', autoRotate);
@@ -523,29 +505,24 @@ function animate() {
   requestAnimationFrame(animate);
   var t = clock.getElapsedTime();
 
-  // Auto-rotate
   if (autoRotate) {
     targetTheta += 0.0013;
   }
   updateCamera();
 
-  // Gentle surface breathing
   if (layers.surface) {
     mobiusMat.opacity = 0.8 + 0.05 * Math.sin(t * 0.5);
   }
 
-  // Edge pulse
   if (layers.edge) {
     edgeCore.material.opacity = 0.85 + 0.1 * Math.sin(t * 1.5);
     edgeGlow.material.opacity = 0.25 + 0.1 * Math.sin(t * 1.5 + 0.5);
   }
 
-  // Sphere subtle breathe
   if (layers.space) {
     sphereShell.material.opacity = 0.05 + 0.02 * Math.sin(t * 0.3);
   }
 
-  // Wave animation: phase shift
   if (layers.wave) {
     var wPos = waveLine.geometry.attributes.position.array;
     for (var i = 0; i <= WAVE_N; i++) {
@@ -561,7 +538,6 @@ function animate() {
     }
     waveLine.geometry.attributes.position.needsUpdate = true;
 
-    // Copy to glow
     var gPos = waveGlow.geometry.attributes.position.array;
     for (var i = 0; i < wPos.length; i++) gPos[i] = wPos[i];
     waveGlow.geometry.attributes.position.needsUpdate = true;
@@ -574,7 +550,6 @@ function animate() {
 
 animate();
 
-// ── Resize ──
 window.addEventListener('resize', function() {
   W = window.innerWidth; H = window.innerHeight;
   camera.aspect = W / H;
@@ -582,7 +557,6 @@ window.addEventListener('resize', function() {
   renderer.setSize(W, H);
 });
 
-// ── Annotation cycling on auto-rotate ──
 var annotKeys = ['space', 'surface', 'edge'];
 var annotIdx = 0;
 setInterval(function() {
