@@ -44,7 +44,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 
 | Const. | Value | Origin |
 |---|---|---|
-| $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
+| $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1_{(2,3)}$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 | $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor ($n = 0$) |
 
