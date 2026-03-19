@@ -12,7 +12,7 @@ $\Lambda$ is the ground mode eigenvalue of this surface.
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-Anti-periodic boundary conditions on the Möbius strip require two traversals to restore sign. Everything rides on this.
+Anti-periodic boundary conditions are forced by the trefoil's winding number 2. Two traversals to restore sign. Everything rides on this.
 
 **One equation:**
 
