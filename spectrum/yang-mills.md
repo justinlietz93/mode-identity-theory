@@ -6,8 +6,6 @@ Positive Ricci curvature provides a universal floor. The finite fundamental grou
 
 The same curvature that enters the Λ conversion guarantees confinement.
 
-**Mass gap on M = S^3/2I**
-
 | Property | Value |
 |---|---|
 | Curvature floor | $\lambda \geq 2/R^2$ (universal, Weitzenböck) |
