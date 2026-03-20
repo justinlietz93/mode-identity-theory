@@ -1,12 +1,9 @@
 # Mode Identity Theory
 
 **One shape:**
+$$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-$$\Large \boxed{S^1_{(2,3)} = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
-
-The temporal edge $S^1_{(2,3)}$, the trefoil, bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary. 
-
-$\Lambda$ is the ground mode eigenvalue of this surface.
+The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary.
 
 **One wave:**
 
