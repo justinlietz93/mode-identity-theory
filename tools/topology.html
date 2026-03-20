@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mode Identity Theory | The Topology</title>
-  <meta name="description" content="Interactive visualization of the topological postulate: S¹₍₂,₃₎ = ∂(Möbius) ↪ S³, ∂S³ = ∅">
+  <meta name="description" content="Interactive visualization of the topological postulate: S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -116,7 +116,7 @@
 
 <div class="title-bar">
   <h1>THE TOPOLOGY</h1>
-  <div class="eq">S<sup>1</sup><sub>(2,3)</sub> = ∂(Möbius) ↪ S<sup>3</sup>, &nbsp; ∂S<sup>3</sup> = ∅</div>
+  <div class="eq">S<sup>1</sup> = ∂(Möbius) ↪ S<sup>3</sup>, &nbsp; ∂S<sup>3</sup> = ∅</div>
 </div>
 
 <div class="controls">
@@ -130,7 +130,7 @@
   </button>
   <button class="ctrl-btn active" data-layer="edge" id="btnEdge">
     <div class="indicator ind-edge"></div>
-    <span>S<sup>1</sup><sub>(2,3)</sub> Trefoil</span>
+    <span>S<sup>1</sup> Edge</span>
   </button>
   <button class="ctrl-btn" data-layer="wave" id="btnWave">
     <div class="indicator ind-wave"></div>
@@ -147,7 +147,7 @@
   <div class="a-label" id="aLabel">Topology</div>
   <div class="a-name" id="aName">Three Nested Manifolds</div>
   <div class="a-body" id="aBody">
-    The temporal edge S<sup>1</sup><sub>(2,3)</sub>, the trefoil, bounds the Möbius surface. The surface embeds in hypersphere S<sup>3</sup>. The space has no boundary. Λ is the ground mode eigenvalue of this surface.
+    The temporal edge S<sup>1</sup> bounds the M&ouml;bius surface. The surface embeds in hypersphere S<sup>3</sup>. The space has no boundary. &Lambda; is the ground mode eigenvalue of this surface.
   </div>
   <div class="a-math" id="aMath"></div>
 </div>
@@ -235,20 +235,18 @@ scene.add(sphereGlow);
 var spaceGroup = [sphereShell, sphereWire, sphereGlow];
 
 // ═══════════════════════════════════════════
-//  MÖBIUS STRIP — 3 half-twists
-//  Boundary of this surface is the trefoil T(2,3)
+//  MÖBIUS STRIP — single half-twist
+//  Standard Möbius band with S¹ boundary
 // ═══════════════════════════════════════════
 var MR = 1.0;   // major radius
-var MW = 0.38;  // half-width (tighter for 3-twist)
+var MW = 0.42;  // half-width
 var NU = 240;   // u segments
 var NV = 30;    // v segments
 
-// 3 half-twists: use 3*u/2 instead of u/2
-// This is what makes the boundary a trefoil
 function mobiusPos(u, v) {
-  var x = (MR + v * Math.cos(3 * u / 2)) * Math.cos(u);
-  var y = (MR + v * Math.cos(3 * u / 2)) * Math.sin(u);
-  var z = v * Math.sin(3 * u / 2);
+  var x = (MR + v * Math.cos(u / 2)) * Math.cos(u);
+  var y = (MR + v * Math.cos(u / 2)) * Math.sin(u);
+  var z = v * Math.sin(u / 2);
   return [x, y, z];
 }
 
@@ -311,9 +309,9 @@ scene.add(mobiusWire);
 var surfaceGroup = [mobiusMesh, mobiusWire];
 
 // ═══════════════════════════════════════════
-//  S¹₍₂,₃₎ BOUNDARY EDGE — the trefoil
-//  Boundary of 3-half-twist Möbius is T(2,3)
-//  Traced at v = +MW, u from 0 to 4π (single component, odd twists)
+//  S¹ BOUNDARY EDGE
+//  Single boundary component of the Möbius strip
+//  Traced at v = +MW, u from 0 to 4π
 // ═══════════════════════════════════════════
 var edgePts = [];
 var EDGE_N = 800;
@@ -349,7 +347,7 @@ var edgeGroup = [edgeCore, edgeGlow, edgeDots];
 
 // ═══════════════════════════════════════════
 //  WAVE Ψ = cos(t/2) along the edge
-//  Period 4π — anti-periodic BC from winding number 2
+//  Period 4π — anti-periodic BC from Möbius twist
 // ═══════════════════════════════════════════
 var wavePts = [];
 var WAVE_N = 400;
@@ -449,17 +447,17 @@ var annotations = {
   },
   surface: {
     label: "Surface", name: "M\u00F6bius Strip",
-    body: "Three half-twists. Non-orientable. One boundary component. A field traversing the surface returns to minus itself. The (2,3) winding forces the trefoil at the edge.",
+    body: "Non-orientable. One boundary component. One half-twist. A field traversing the surface returns to minus itself. The simplest non-orientable surface with boundary.",
     math: "\u03C8(y + L) = \u2212\u03C8(y)"
   },
   edge: {
-    label: "Edge", name: "S\u00B9\u208D\u2082\u002C\u2083\u208E Trefoil",
-    body: "The (2,3) torus knot. Winding number 2 forces the 4\u03C0 period and the anti-periodic boundary condition. The ratio (2,3) is the Gauss-Codazzi 3/2 written on the knot. \u039B is the ground mode eigenvalue.",
-    math: "S\u00B9\u208D\u2082\u002C\u2083\u208E = \u2202(M\u00F6bius)"
+    label: "Edge", name: "S\u00B9 Temporal Edge",
+    body: "The boundary of the M\u00F6bius surface. A single closed circle. Two traversals restore the original sign. This is where time lives and where \u03A8 is sampled.",
+    math: "S\u00B9 = \u2202(M\u00F6bius)"
   },
   wave: {
     label: "Wave", name: "\u03A8 = cos(t/2)",
-    body: "The standing wave on the edge. Anti-periodicity forced by winding number 2. Period 4\u03C0. Present epoch at t \u2248 5.22 rad. This is the wave everything samples.",
+    body: "The standing wave on the edge. Anti-periodicity forced by the M\u00F6bius twist. Period 4\u03C0. Present epoch at t \u2248 5.22 rad. This is the wave everything samples.",
     math: "\u03A8 = cos(t/2)"
   }
 };
@@ -506,7 +504,7 @@ function animate() {
   var t = clock.getElapsedTime();
 
   if (autoRotate) {
-    targetTheta += 0.008;
+    targetTheta += 0.013;
   }
   updateCamera();
 
