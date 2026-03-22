@@ -25,6 +25,8 @@ $\alpha$ does not belong to a single manifold. It couples matter (edge, $n = 1$)
 
 On the 120-grid (spinor, $\lvert 2I \rvert$), the wavefunction $\psi$ has anti-period 1 and full period 2. On the 60R-grid (bosonic, $\lvert I \rvert$), the observable intensity $\lvert\psi\rvert^2$ has period 1. The coupling $\alpha$ is an observable intensity: photons are bosons, and coupling constants are squared amplitudes. They live on the 60R-grid.
 
+The domain sizes $60 = |I|$ and $120 = |2I|$ trace to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content (domain $D = 60$), half-integer carry only complex pairs ($D = 120$). The bosonic/spinorial grid distinction is the spin-statistics connection built into the icosahedral geometry.
+
 The well label (13) stays the same. The grid denominator changes: $120 \to 60$. The phase operator evaluates differently at the two resolutions:
 
 | Grid | Position | C | Physics |
@@ -117,13 +119,15 @@ The same exponent 17 governs both the strong and weak couplings. What differs is
 
 ### Grid ladder selection rule
 
-| Force | Carrier character | Phase grid | Confinement target | Exponent grid |
-|---|---|---|---|---|
-| EM | Bosonic (photon preserves identity) | 60R | Bosonic (charge, no confinement) | 60R |
-| Strong | Bosonic (gluon rotates color) | 60R | Spinorial (confined fermions) | 120 |
-| Weak | Spinorial (W/Z swaps flavor) | 120 | Spinorial (fermion transitions) | 120 |
+Each gauge force occupies a rung of the carrier/target grid ladder. The three occupied rungs correspond to the three ways of distributing bosonic (60R) and spinorial (120) character across the two formula slots, subject to the constraint that spinorial content increases monotonically:
 
-The three forces exhaust the ladder: 60R/60R, 60R/120, 120/120. There are no gaps and no unused rungs.
+| Force | Carrier character | Phase grid | Confinement target | Exponent grid | Spinorial slots |
+|---|---|---|---|---|---|
+| EM | Bosonic (photon preserves identity) | 60R | Bosonic (charge, no confinement) | 60R | 0 of 2 |
+| Strong | Bosonic (gluon rotates color) | 60R | Spinorial (confined fermions) | 120 | 1 of 2 |
+| Weak | Spinorial (W/Z swaps flavor) | 120 | Spinorial (fermion transitions) | 120 | 2 of 2 |
+
+The three forces exhaust the lower triangle of the grid matrix. There are no gaps and no unused rungs. The color structure that determines strong force coupling traces to the face stabilizer $Z_3 \subset 2I$, whose decomposition separates each irrep into color singlets (lepton-type) and color triplet/anti-triplet pairs (quark-type), as established in the companion mass spectrum analysis. The grid distinction traces to the edge stabilizer $Z_4$. The gauge ladder is the stabilizer structure of the icosahedron expressed through the force sector.
 
 ### $\alpha_s$: the strong coupling
 
@@ -142,6 +146,8 @@ $$\alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.03
 Observed: 0.0338. Agreement: 0.4%.
 
 **The Plato twist.** The correction $\cos(\pi/10) \approx 0.951$ arises from the dodecahedral geometry of $S^3/2I$. The dodecahedron (dual to the icosahedron) has angular defect $\pi/5$ at each vertex. The Möbius $\mathbb{Z}_2$ holonomy halves the defect to $\pi/10$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
+
+In the stabilizer framework, the Plato twist encodes how vertex geometry ($Z_5$) reaches the observer through the Möbius twist ($Z_2$). Color ($Z_3$) transmits cleanly through the surface, which is why the strong and electromagnetic forces carry no twist correction. The vertex information passes through the non-orientable identification, picking up $\cos(\pi/10) = \sqrt{(2+\varphi)}/2$ as the projection factor. The golden ratio $\varphi$ enters from $Z_5$ (icosahedral vertex symmetry) and the factor 2 from $Z_2$ (edge/Möbius holonomy). The twist correction is the vertex-edge stabilizer interface.
 
 The correction is selective: it uniquely improves $\alpha_W$ (from 5.6% to 0.4%), and uniquely degrades both $\alpha$ (from 0.5% to 4.4%) and $\alpha_s$ (from 1.4% to 6.3%) if misapplied. The twist knows which force it belongs to.
 
@@ -205,6 +211,16 @@ The grid ladder in Section IV assigns two structural properties to each gauge fo
 
 The occupied rungs exhaust the lower triangle of the grid matrix (including the diagonal). The upper off-diagonal entry, 120/60, is empty. This is structural rather than accidental: the anti-periodic boundary condition on the Möbius strip defines $\psi$ as the fundamental object, and $|\psi|^2$ as derived from it. The 120-grid generates the 60R-grid by squaring. A force whose carrier lives on the spinorial grid while its confinement target lives on the bosonic grid would require the derived quantity to source the fundamental one. The firing order (topology $\to$ wave $\to$ observable) runs one direction. The 120/60 slot inverts it.
 
+In the stabilizer framework, the three occupied rungs exhaust the monotone sequence in spinorial content:
+
+| Rung | Spinorial slots | Stabilizer interface | Force |
+|---|---|---|---|
+| 60R / 60R | 0 of 2 | Pure $Z_4$ real sector | EM |
+| 60R / 120 | 1 of 2 | $Z_3$ color (face) confining $Z_4$ complex sector | Strong |
+| 120 / 120 | 2 of 2 | $Z_5$ vertex through $Z_2$ twist | Weak |
+
+Spinorial content increases. The reverse move (from 2 spinorial slots to 1 bosonic target) would break monotonicity. The ladder climbs; it does not descend.
+
 ### What the vacant slot describes
 
 In the language of particle physics, the 120/60 entry requires:
@@ -217,16 +233,6 @@ This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 su
 ### The obstruction
 
 The vacancy is a consequence of the same boundary condition that produces the grid. The Möbius strip has one boundary circle, one edge, and one direction of traversal. The wavefunction $\psi$ on this boundary is anti-periodic: it requires two laps ($4\pi$) to restore sign. The observable $|\psi|^2$ is periodic in one lap ($2\pi$). Squaring is irreversible: $|\psi|^2$ does not recover the phase of $\psi$. A spinorial carrier acting on bosonic targets would require reconstructing $\psi$ from $|\psi|^2$ at the level of force mediation. The topology forbids it.
-
-The three occupied rungs follow a monotone sequence in spinorial content:
-
-| Rung | Spinorial slots | Force |
-|---|---|---|
-| 60R / 60R | 0 of 2 | EM |
-| 60R / 120 | 1 of 2 | Strong |
-| 120 / 120 | 2 of 2 | Weak |
-
-Spinorial content increases. The reverse move (from 2 spinorial slots to 1 bosonic target) would break monotonicity. The ladder climbs; it does not descend.
 
 ### The prediction
 
