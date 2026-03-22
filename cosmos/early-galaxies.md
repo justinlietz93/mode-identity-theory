@@ -21,11 +21,11 @@ Observations by Labbé et al. reveal stellar masses $M_\star \sim 10^{10}\,M_\od
 
 ## II. Epoch-Dependent Acceleration Scale
 
-Standard MOND treats $a_0 \approx 1.2 \times 10^{-10}$ m/s<sup>2</sup> as a fundamental constant. The observed coincidence $a_0 \approx cH_0$ suggests a connection to horizon physics. Within MIT, both $a_0$ and $H_0$ are edge modes ($n = 1$) referencing the Hubble horizon:
+Standard MOND treats $a_0 \approx 1.2 \times 10^{-10}$ m/s<sup>2</sup> as a fundamental constant. The observed coincidence $a_0 \approx cH_0$ suggests a connection to horizon physics. Within MIT, both $a_0$ and $H_0$ are edge modes ($n = 1$) referencing the Hubble horizon. The Planck acceleration $a_P = c/t_P = 5.56 \times 10^{51}$ m/s<sup>2</sup> is the reference scale, and $C(\Theta) = 2\sin^2(\pi\Theta)$ is the phase operator (derived from the anti-periodic ground mode on the Möbius surface, normalized to unit mean). The scaling law gives:
 
-$$\frac{a_0}{a_P} = C(13/120) \cdot (\sqrt{\Omega_H})^{-1}$$
+$$\frac{a_0}{a_P} = C(13/120) \cdot (\sqrt{\Omega_H})^{-1}, \qquad \frac{H_0}{t_P^{-1}} = C(34/120) \cdot (\sqrt{\Omega_H})^{-1}$$
 
-Since $\Omega_H = (R_H/\ell_P)^2$ and $R_H = c/H$, we have $\Omega_H \propto H^{-2}$. The ratio $a_0/(cH_0) = C(13/120)/C(34/120) \approx 0.184$, observed at 0.183. This is not a coincidence; both quantities sample the same edge at different well positions.
+Since both reference the same $(\sqrt{\Omega_H})^{-1}$, the ratio is parameter-free: $a_0/(cH_0) = C(13/120)/C(34/120) = 0.223/1.208 = 0.184$. With $H_0 = 67.4$ km/s/Mpc (Planck 2018), $cH_0 = 6.55 \times 10^{-10}$ m/s<sup>2</sup>, giving observed $a_0/(cH_0) = 1.2/6.55 = 0.183$.
 
 The phase coefficient $C(\Theta)$ occupies a Fibonacci stability well, a topological feature motivating epoch-independence. The scaling relation follows:
 
@@ -33,7 +33,7 @@ $$a_0(z) = a_0(0) \times \frac{H(z)}{H_0}$$
 
 ## III. Quantitative Estimate at z = 10
 
-For a standard flat cosmology with $\Omega_m \approx 0.3$ and $\Omega_\Lambda \approx 0.7$:
+For a standard flat cosmology with $\Omega_m \approx 0.3$ (total gravitating matter density inferred from expansion data; MIT does not modify the expansion history, only galactic-scale dynamics via the $a_0$ threshold) and $\Omega_\Lambda \approx 0.7$:
 
 $$\frac{H(z)}{H_0} = \sqrt{\Omega_m(1+z)^3 + \Omega_\Lambda}$$
 
@@ -51,7 +51,7 @@ In the deep-MOND regime ($g \ll a_0$), effective gravitational acceleration scal
 
 $$\frac{g_\text{eff}(z{=}10)}{g_\text{eff}(\text{standard})} = \sqrt{\frac{a_0(z{=}10)}{a_0(0)}} = \sqrt{20} \approx 4.5$$
 
-A factor of ~4.5 enhancement in effective gravitational binding significantly alters collapse dynamics. Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ could collapse approximately 2.1x faster than standard MOND would predict. For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, faster collapse dynamics reduce the implied efficiency into the physically permitted range.
+A factor of ~4.5 enhancement in effective gravitational binding significantly alters collapse dynamics. This comparison is at fixed epoch: both MIT and constant-$a_0$ MOND face identical expansion rates at $z = 10$; the difference is solely the effective gravitational acceleration. Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ could collapse approximately 2.1x faster than standard MOND would predict. For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1x faster collapse approximately halves the required star formation rate to assemble the same stellar mass, reducing the implied efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range.
 
 ## V. Contrasting Predictions
 
