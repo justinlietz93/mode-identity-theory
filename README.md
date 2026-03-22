@@ -1,18 +1,18 @@
 # Mode Identity Theory
 
-**One shape:**
+:stadium: **One shape:**
 
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary.
 
-**One wave:**
+:ocean: **One wave:**
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
 Anti-periodic boundary conditions are forced by the trefoil's winding number 2. Two traversals to restore sign. Everything rides on this.
 
-**One equation:**
+:balance_scale: **One equation:**
 
 $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
@@ -24,7 +24,7 @@ Their product yields the modal realization, $A/A_P$ , the ratio of the observabl
 
 The constants of the universe follow across 122 orders of magnitude and the fundamental forces of nature are forced by geometry.
 
-**One formula:**
+:atom_symbol: **One formula:**
 
 $$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
 
