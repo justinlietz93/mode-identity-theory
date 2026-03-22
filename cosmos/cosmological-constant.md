@@ -76,7 +76,7 @@ The Möbius identification twists the strip:
 
 $$(y + L,\; w) \;\sim\; (y,\; {-w})$$
 
-The longitudinal period $L$ is set by the embedding. Let $R$ denote the curvature radius of the ambient $S^3$. The boundary $S^1$ is a single closed loop traversing the strip twice; its total length is $2L$. This boundary is a great circle of $S^3$ with circumference $2\pi R$:
+The longitudinal period $L$ is set by the embedding. Let $R$ denote the curvature radius of the ambient $S^3$. The boundary $S^1$ is a single closed loop traversing the strip twice; its total length is $2L$. The embedding selects $S^1$ as a great circle of $S^3$ (the maximally symmetric, geodesic choice), with circumference $2\pi R$:
 
 $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
@@ -90,9 +90,9 @@ Transverse edges are free boundaries (Neumann condition).
 
 ### B. The Spectrum
 
-With boundary conditions set, the eigenvalues follow.
+With boundary conditions set, the eigenvalues follow. The 2D Laplacian separates: $\lambda = k_y^2 + k_w^2$. Neumann (free) transverse boundaries admit eigenfunctions $\cos(n\pi w/W)$ with eigenvalues $k_w^2 = (n\pi/W)^2$. The $n = 0$ mode is constant in $w$, contributing zero transverse eigenvalue. It has even parity: $\psi(y, -w) = \psi(y, w)$, so the $w$-flip in the Möbius identification acts trivially and the twist does not couple longitudinal and transverse degrees of freedom. The eigenproblem reduces to one longitudinal dimension with the full eigenvalue carried by $k_y$.
 
-The lowest transverse mode has even parity in $w$: $\psi(y,-w) = \psi(y,w)$. This is the simplest mode with no transverse nodes. Even parity means the field is symmetric across the strip width, so the $w$-flip in the Möbius identification has no effect. Only the sign flip survives:
+The lowest transverse mode ($n = 0$, even parity) means the field is symmetric across the strip width. Only the sign flip survives:
 
 $$\psi(y + L) = -\psi(y)$$
 
