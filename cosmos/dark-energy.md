@@ -95,7 +95,7 @@ All predictions are registered on Zenodo prior to Euclid DR1 (expected October 2
 |---|---|---|
 | $z_\text{cross}$ | 0.663 | Transition center < 0.4 or > 0.9 (2σ) |
 | $w(z)$ form | Phase modulation | Linear preferred at $\Delta\text{AIC} > 4$ |
-| Λ | Constant | $\rho_\text{DE}(z)/\rho_\text{DE}(0)$ departs from unity at 2σ |
+| Λ | Constant, $w_\text{eff} > -1$ | True phantom confirmed at 2σ |
 
 MIT predicts $w(z)$ has curvature. A purely linear $w(z)$ at high precision would falsify the phase modulation signature. The inverse prediction: $a_0(z) \propto H(z)$ while Λ remains constant.
 
