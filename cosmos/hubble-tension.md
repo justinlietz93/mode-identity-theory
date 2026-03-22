@@ -13,7 +13,7 @@ Measurements of the Hubble constant have split into two persistent camps: the co
 
 ## I. The Tension
 
-The Planck satellite infers $H_0 = 67.4 \pm 0.5$ km/s/Mpc from the cosmic microwave background at $z \approx 1100$. The SH0ES collaboration measures $H_0 = 73.0 \pm 1.0$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $z \approx 0$. The gap is ~9%, persistent across five independent local methods: Cepheids, tip of the red giant branch, surface brightness fluctuations, megamasers, and time-delay lensing.
+The Planck satellite infers $H_0 = 67.4 \pm 0.5$ km/s/Mpc from the cosmic microwave background at $z \approx 1100$. The SH0ES collaboration measures $H_0 = 73.0 \pm 1.0$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $z \approx 0$. The gap is ~9%, persistent across independent local methods: Cepheids, tip of the red giant branch, surface brightness fluctuations, and megamasers.
 
 Systematic explanations have been scrutinized for a decade. The tension survives. It appears to be real.
 
@@ -45,7 +45,7 @@ The trigger index $\mathcal{T}$ and critical threshold $\mathcal{T}_c$ are:
 
 $$\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}\Phi_\text{rel}(l)\,dl, \qquad \mathcal{T}_c = \frac{2\xi\,v_c^2}{c^2}, \quad \xi \approx 0.46$$
 
-For flat-curve disk galaxies, the potential integral evaluates to $v_c^2$, so $\mathcal{T} = 2v_c^2/c^2$, and the ratio becomes independent of the galaxy:
+where $\Phi_\text{rel}(l) \equiv \Phi(L_f) - \Phi(l)$ is the potential difference from the coherence boundary (gauge-invariant). For a flat rotation curve, $\Phi(r) = v_c^2\ln(r/r_0)$, so $\Phi_\text{rel}(l) = v_c^2\ln(L_f/l)$. The integral evaluates exactly: $\int_0^{L_f} v_c^2\ln(L_f/l)\,dl = v_c^2 L_f$ (substituting $u = l/L_f$, $\int_0^1 (-\ln u)\,du = 1$). Therefore $\mathcal{T} = 2v_c^2/c^2$, and the ratio becomes independent of the galaxy:
 
 $$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2$$
 
@@ -57,7 +57,7 @@ The step size $2/120$ is the minimum observable shift on the 60R-grid. The full 
 
 ## III. Well Sensitivity
 
-The closure identity guarantees the trigger fires. What determines the observable consequence is the logarithmic slope of the phase operator at each Fibonacci well:
+The closure identity guarantees the trigger fires. What determines the observable consequence is the logarithmic slope of the phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ (the anti-periodic ground mode intensity, normalized to unit mean) at each Fibonacci well:
 
 $$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \frac{d\ln C}{d\Theta} \times \frac{2}{120}$$
 
@@ -103,7 +103,7 @@ Local distance ladders anchor their absolute scale to calibrators inside the coh
 
 ### Phase-domain averaging
 
-Geometric methods (time-delay lensing, standard sirens) integrate $1/H(z)$ along the line of sight. The phase-shifted segment is only the local coherence domain; the rest of the path samples the bare well. For cosmological baselines ($\chi \sim$ Gpc), the local contribution is a fraction $F = \chi_\text{local}/\chi \sim 10^{-5}$. The bias dilutes over the long baseline.
+Geometric methods (time-delay lensing, standard sirens) integrate $1/H(z)$ along the line of sight. The phase-shifted segment is only the local coherence domain; the rest of the path samples the bare well. For cosmological baselines ($\chi \sim$ Gpc), the local contribution is a fraction $F = \chi_\text{local}/\chi \sim 10^{-5}$. The direct averaging bias is negligible (~ppm). If geometric methods return values above ~67, the source would be calibration inheritance through local priors in the analysis chain, not path averaging.
 
 ### Which mechanism applies where
 
@@ -112,9 +112,9 @@ Geometric methods (time-delay lensing, standard sirens) integrate $1/H(z)$ along
 | Cepheid/SN ladder (SH0ES) | Local anchors | Inheritance (full shift) | ~73 |
 | TRGB | Local anchors | Inheritance (full shift) | ~73 |
 | Megamasers | Local geometry | Inheritance (full shift) | ~73 |
-| Time-delay lenses | Geometric, late-time | Averaging (partial shift) | Intermediate |
-| Standard sirens | Geometric, late-time | Averaging (partial shift) | Intermediate |
-| BAO + BBN | Early-universe ruler | Averaging (minimal shift) | ~67 |
+| Time-delay lenses | Geometric, late-time | Averaging (negligible) | ~67 |
+| Standard sirens | Geometric, late-time | Averaging (negligible) | ~67 |
+| BAO + BBN | Early-universe ruler | Neither (bare well) | ~67 |
 | CMB (Planck) | Early-universe physics | Neither (bare well) | ~67 |
 
 The key distinction is where the absolute calibration is set, not the redshift of the observed object. The CMB does not average over $\Theta_f$; it records a phase epoch where local structure had not yet developed. BAO and BBN use an early-universe ruler ($r_d$) that predates the phase field. Local ladders import the full shift because every anchor sits inside the coherence domain.
@@ -129,7 +129,7 @@ The phase field produces a discrete prediction. Local $H_0$ should cluster at qu
 |---|---|
 | Local $H_0$ fills 67 to 73 continuously | Quantized $\Theta_f$ is wrong |
 | Local ladders cluster near 73, independent of host environment | Supports quantized response |
-| Geometric methods drift toward 67 with increasing $z$ | Supports phase-domain averaging |
+| Geometric methods return ~67 regardless of environment | Supports negligible averaging bias |
 | Void-embedded calibrators return $H_0 \approx 70 \pm 1$ | Intermediate state exists; $2/120$ step is incomplete |
 | Environment-binned $H_0$ shows smooth gradient | Phase field is continuously sourced, not triggered |
 
