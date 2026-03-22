@@ -74,7 +74,7 @@ The Möbius surface has coordinates $(y, w)$:
 
 The Möbius identification twists the strip:
 
-$$(y + L, w) \;\sim\; (y, {-w})$$
+$$(y + L, w) \sim\; (y, {-w})$$
 
 The longitudinal period $L$ is set by the embedding. Let $R$ denote the curvature radius of the ambient $S^3$. The boundary $S^1$ is a single closed loop traversing the strip twice; its total length is $2L$. The embedding selects $S^1$ as a great circle of $S^3$ (the maximally symmetric, geodesic choice), with circumference $2\pi R$:
 
@@ -84,7 +84,7 @@ One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
 Matter is fermionic. Fermions require a $4\pi$ rotation to return to their original state (spinor behavior). On a non-orientable surface, this maps to the anti-periodic sector:
 
-$$\psi(y + L,\; w) = -\psi(y,\; {-w})$$
+$$\psi(y + L, w) = -\psi(y, {-w})$$
 
 Transverse edges are free boundaries (Neumann condition).
 
