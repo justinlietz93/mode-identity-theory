@@ -75,7 +75,7 @@ $$G = \frac{\Lambda c^4}{8\pi \mu_\Lambda^4}$$
 
 Substituting $\Lambda = 3/R^2$ (derived from the topological postulate through Gauss-Codazzi):
 
-$$\boxed{G = \frac{3\,c^4}{8\pi\, R^2\, \mu_\Lambda^4}}$$
+$$\boxed{G = \frac{3 c^4}{8\pi R^2 \mu_\Lambda^4}}$$
 
 The Gauss-Codazzi 3 is in the numerator. Einstein's $8\pi$ is in the denominator. $G$ is the ratio of the curvature scale ($c^4/R^2$) to the vacuum energy density ($\mu_\Lambda^4$). The exchange rate between the curvature of space and the hum of the floor.
 
