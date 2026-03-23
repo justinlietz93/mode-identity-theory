@@ -10,7 +10,7 @@ Where Θ hits the wall and Ω collapses to nothing. A working supplement to Mode
 
 A Black ∅ is a region where enough wave content on the Möbius surface is enclosed to push two quantities to their boundary values simultaneously. The phase position $\Theta$ reaches the boundary of the domain, driving the sampling amplitude $C(\Theta) = 2\sin^2(\pi\Theta)$ to zero: the spatial mode reaches its node and observation ceases. The local scale hierarchy $\Omega_H$ collapses to zero: the Hubble radius shrinks to nothing and no scale separation remains. $\Theta$ hitting the wall is the geometric event. $C$ vanishing is what the observer experiences. $\Omega_H$ collapsing is the independent partner. Both limits arrive at the same place.
 
-General Relativity sits at the $3/2$ Gauss-Codazzi interface, between the temporal edge ($n = 1$) and the Möbius surface ($n = 2$). At the horizon, it is squeezed from both sides: the surface mode it reads has vanished ($\Theta$ at its boundary, so $C = 0$), and the edge hierarchy it converts through has collapsed ($\Omega_H = 0$). The singularity is a double zero. The wave persists through the node. Information is unsampled, not destroyed.
+General Relativity sits at the $3/2$ Gauss-Codazzi interface, between the temporal edge ($n = 1$) and the Möbius surface ($n = 2$). The ratio $3/2$ is face over edge: $Z_3/Z_2$, the stabilizer orders of the icosahedron. At the horizon, GR is squeezed from both sides: the surface mode it reads has vanished ($\Theta$ at its boundary, so $C = 0$), and the edge hierarchy it converts through has collapsed ($\Omega_H = 0$). The singularity is a double zero. The wave persists through the node. Information is unsampled, not destroyed.
 
 | GR says | MIT says |
 |---|---|
@@ -73,6 +73,8 @@ At $s = 0$, the Pochhammer symbol $(0)_k = 0$ for $k \geq 1$ collapses the infin
 The physics lives in the first nonvanishing order at a double zero. The zero itself is structural: you cannot perturb away a topological node. The derivative at the zero carries the content.
 
 **The zero is a filter.** At $s = 0$, the Pochhammer collapse kills everything except leading order. The $E_8$ McKay symmetries of $S^3/2I$ then kill 12 of 16 Dirichlet characters mod 60, leaving exactly four survivors encoding the structural constants of the manifold: $\{\log 2, \log 3, \log 5, \log\varphi\}$. The primes dividing $|2I| = 120$ and the golden ratio from the character field of $2I$. Away from $s = 0$, the Dirac operator's spectral zeta carries 28 to 32 of 32 characters. The zero selects. The interior floods.
+
+These surviving primes are the stabilizer triple of the icosahedron: $Z_2$ (edge, order 2), $Z_3$ (face, order 3), $Z_5$ (vertex, order 5). In the companion mass spectrum analysis, the same triple assigns particle identity: $Z_3$ encodes color charge, $Z_4$ (the $Z_2$ lift to the double cover) encodes the domain size, and $Z_5$ encodes the electroweak interface through the Möbius twist. The horizon filter selects the same arithmetic that the stabilizer decomposition uses to distinguish quarks from leptons, fermions from bosons, and the three gauge forces from each other. The double zero at the boundary strips everything except the identity mechanism.
 
 This is the same mechanism by which the horizon is sharp: the sampling boundary is a topological node, and only the leading order leaks through. On the spectral side, the "leakage" is the torsion. On the scaling side, the "leakage" is Hawking radiation. Both are residual signals at the first nonvanishing order of a double zero.
 
@@ -156,7 +158,7 @@ The §9 phase field shifts $\Theta$ by one bosonic step (2/120) inside a galacti
 
 ### The bosonic domain has a wall
 
-The full 120-grid comes from $|2I| = 120$. Observation squares the wavefunction, projecting $2I \to I$, giving the 60R bosonic grid. For photon-mediated observables, the effective domain is $[0, 60/120]$. The antinode at 60/120 is the boundary of the bosonic domain. Nothing bosonic samples past $\Lambda$.
+The full 120-grid comes from $|2I| = 120$. Observation squares the wavefunction, projecting $2I \to I$, giving the 60R bosonic grid. This projection traces to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content ($D = 60$), half-integer carry only complex pairs ($D = 120$). For photon-mediated observables, the effective domain is $[0, 60/120]$. The antinode at 60/120 is the boundary of the bosonic domain. Bosonic sampling reaches $\Lambda$ and stops.
 
 ### The Hubble tension walks toward Λ
 
@@ -251,7 +253,7 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 | Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | Observed (indirectly); MIT: $C$ gradient (OPEN) |
 | $Z_\sigma(0)$ | 0 | Spectral determinant at boundary (nontrivial $\sigma$) |
 | $Z'_\sigma(0)$ | $\log T^2(\sigma)$ | Torsion: L-function special values |
-| Torsion survivors | $\{\log 2, \log 3, \log 5, \log\varphi\}$ | 4 of 16 characters, $E_8$ selected |
+| Torsion survivors | $\{\log 2, \log 3, \log 5, \log\varphi\}$ | 4 of 16 characters, $E_8$ selected; conductors are the stabilizer primes of the icosahedron |
 
 ---
 
