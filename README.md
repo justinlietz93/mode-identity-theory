@@ -32,6 +32,12 @@ Four factors compose to rank 24 fermion masses:
 
 The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text{geom}}$ selects the position. The McKay Elevator $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ raises the energy. The Reidemeister Torsion $T^2$ dials-in the vacuum.
 
+:small_red_triangle_down: **One identity:**
+
+The icosahedron's three stabilizers determine the identity:
+
+Faces ($Z_3$) sort color and Edges ($Z_4$) sort spin. The eta sign gates charge and the vacuum selects the generation. The same primes (2, 3, 5) that divide $|2I| = 120$ generate every force and every identity in the spectrum.
+
 ---
 
 ## Inputs
