@@ -89,9 +89,12 @@ Blind outputs of a fixed structure, checked against observation:
 | Particle generations | 3 (mass gaps) | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
 | Null SUSY | permanent | ongoing null results | ✓ |
+| Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
 | Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
-| $\mu$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
 | Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open |
