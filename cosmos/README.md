@@ -34,6 +34,12 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 ---
 
+**Black ∅'s.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
+
+[Black Holes](black-holes.md)
+
+---
+
 ### Cosmological Scoreboard
 
 | Observable | Predicted | Observed | Agreement |
