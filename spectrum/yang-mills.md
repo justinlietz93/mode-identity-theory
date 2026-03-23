@@ -16,7 +16,7 @@ The same curvature that enters the Λ conversion guarantees confinement.
 
 ## I. The Geometry
 
-The Weitzenböck identity on $S^3$ decomposes the gauge-covariant Hodge Laplacian on bundle-valued 1-forms. For a flat connection ($F_A = 0$), it reduces to:
+The Weitzenböck identity on $S^3$ decomposes the gauge-covariant Hodge Laplacian on bundle-valued 1-forms. In the Hamiltonian formulation of Yang-Mills on $M \times \mathbb{R}$, the mass gap of the 4D theory is determined by the lowest nonzero eigenvalue of this spatial operator around the vacuum. For a flat connection ($F_A = 0$), the identity reduces to:
 
 $$\Delta_{\text{Hodge}} = \nabla_A^\ast \nabla_A + \text{Ric}$$
 
@@ -24,7 +24,7 @@ On the round $S^3$ of radius $R$, the Ricci tensor is $R_{ij} = (2/R^2)\,g_{ij}$
 
 $$\lambda_{\min} \geq \frac{2}{R^2}$$
 
-This bound is universal: it holds for any quotient $S^3/\Gamma$ inheriting the round metric, independent of $\Gamma$ and the choice of flat connection. The gap exists before any computation specific to $2I$ begins. The actual lowest eigenvalue exceeds this floor. The following sections compute it exactly.
+This bound is universal: it holds for any quotient $S^3/\Gamma$ inheriting the round metric, independent of $\Gamma$ and the choice of flat connection. The existence of a positive floor is topological: $S^3/2I$ has finite fundamental group and universal cover $S^3$, so it admits no flat metric, and any Riemannian metric has positive scalar curvature. The numerical value $2/R^2$ depends on the round metric. The actual lowest eigenvalue exceeds this floor. The following sections compute it exactly.
 
 ## II. Three Vacua
 
@@ -40,7 +40,7 @@ The standard and Galois embeddings are distinguished by the golden ratio: $\rho_
 
 ### Vacuum isolation
 
-Vanishing $H^1(M;\,\text{ad}\,\rho) = 0$ at each irreducible flat connection guarantees that no continuous moduli connect the families and no massless Goldstone modes bridge them. Each vacuum is isolated with positive-definite Hessian. The number three is the count of flat $\text{SU}(2)$ connections on $S^3/2I$. Three vacua, three families.
+Vanishing $H^1(M;\,\text{ad}\,\rho) = 0$ at each flat connection guarantees that no continuous moduli connect the families and no massless Goldstone modes bridge them. For the irreducible flats (standard and Galois), this follows from standard deformation theory. For the trivial connection, $H^1(M;\,\text{ad}\,\rho_\text{triv}) = H^1(M;\,\mathbb{R})^3$; since $\pi_1(M) = 2I$ is a perfect group ($2I$ equals its own commutator subgroup), $H_1(M;\,\mathbb{Z}) = 0$, so $H^1(M;\,\mathbb{R}) = 0$ by universal coefficients. Each vacuum is isolated with positive-definite Hessian. The number three is the count of flat $\text{SU}(2)$ connections on $S^3/2I$. Three vacua, three families.
 
 ## III. The Spectral Filter
 
@@ -62,9 +62,11 @@ $$\Delta^2 = \frac{(1+1)^2}{R^2} = \frac{4}{R^2}$$
 
 ### Galois vacuum (3b)
 
-The adjoint 3b does not appear until $j = 3$ in the McKay decomposition, reflecting its position at graph distance 6 from $R_0$ on the $E_8$ graph (through the branch at $R_8$). The icosahedral symmetry filters all fluctuation modes across the first four coexact levels. The first allowed mode sits at $k = 5$:
+On the round $S^3$, coexact 1-forms at level $k$ carry $\text{SU}(2)$ representation content determined by the Peter-Weyl decomposition under the full isometry group. Restricting to $2I$ via the McKay recursion determines which $2I$ irreps appear at each level. The adjoint 3b ($R_4$) sits at graph distance 6 from $R_0$ on the $E_8$ diagram (through the branch at $R_8$). The twisted equivariance condition (adjoint must appear in the $2I$-decomposition of the coexact representation at level $k$) filters levels $k = 1$ through $k = 4$. The first allowed coexact mode for the 3b sector sits at $k = 5$:
 
 $$\Delta^2 = \frac{(5+1)^2}{R^2} = \frac{36}{R^2}$$
+
+The $k = 5$ claim is verifiable by explicit computation from the character table of $2I$: decompose the coexact 1-form representation at each level $k = 1, \ldots, 5$ into $2I$ irreps and check where $R_4$ first appears. This computation is listed in the falsification table.
 
 | Vacuum | Adjoint | First allowed k | Gap | Enhancement |
 |---|---|---|---|---|
@@ -81,7 +83,7 @@ The mass gap result rests on three independent arguments, each verifiable with s
 | Pillar | Method | What it establishes |
 |---|---|---|
 | Curvature floor | Riemannian geometry (Weitzenböck) | $\lambda \geq 2/R^2$ for all gauge fluctuations around any flat connection on any $S^3$ quotient. The gap exists. |
-| Vacuum isolation | Algebraic topology (Floer theory) | Finiteness of $\pi_1 = 2I$ gives a finite moduli space. $H^1 = 0$ at each irreducible flat: no moduli, no Goldstone modes. |
+| Vacuum isolation | Algebraic topology | Finiteness of $\pi_1 = 2I$ gives a finite moduli space. $H^1 = 0$ at each flat connection: no moduli, no Goldstone modes. |
 | Spectral computation | Finite group theory (McKay) | Explicit gap values at each vacuum. Icosahedral filtering at the Galois sector produces the 9x enhancement. |
 
 ### What is topological vs metric-dependent
