@@ -55,7 +55,7 @@ This glues opposite ends with a reflection, creating a non-orientable surface wi
 
 ### C. Boundary Conditions
 
-The background mode (Λ) carries Neumann conditions on the transverse edge: a longitudinal ground mode with no transverse structure. Perturbation modes (CMB anisotropies) carry Dirichlet conditions: scalar fields vanish at the strip edge, the boundary of the observable domain. These conditions, combined with the non-orientable identification, determine which modes survive.
+The background mode (Λ) carries Neumann conditions on the transverse edge: a longitudinal ground mode with no transverse structure (homogeneous across the width, so the normal derivative vanishes). Perturbation modes (CMB anisotropies) carry Dirichlet conditions: perturbation amplitudes vanish at the edge of the embedded Möbius surface (an internal submanifold of $S^3$, which itself has no boundary: $\partial S^3 = \emptyset$), the boundary of the cavity that bounds the observable mode spectrum. These conditions, combined with the non-orientable identification, determine which modes survive.
 
 For separable modes φ(y, w) = Y(y) · U(w), the transverse symmetry under w → −w determines the longitudinal condition:
 
@@ -64,7 +64,7 @@ For separable modes φ(y, w) = Y(y) · U(w), the transverse symmetry under w →
 | odd | symmetric | periodic: Y(y + L) = Y(y) | 0 |
 | even | antisymmetric | anti-periodic: Y(y + L) = −Y(y) | π/L |
 
-The anti-periodic condition applies to even-ν modes only. It is a consequence of the identification, not an independent axiom.
+The anti-periodic condition applies to even-ν modes only. It is a consequence of the identification, not an independent axiom. The full allowed longitudinal wavenumbers are $k_y = 2m\pi/L$ for periodic (odd-ν) and $k_y = (2m+1)\pi/L$ for anti-periodic (even-ν), with $m = 0, 1, 2, \ldots$
 
 ### D. The Eigenspectrum
 
@@ -198,7 +198,9 @@ The topology does not predict the alignment angle itself. The ~10° is where the
 | η = L/χ* | Parity magnitude inconsistent with geometric attenuation | η required outside [0.10, 0.25] to fit R<sub>TT</sub> |
 | R<sub>TT</sub> formula consistency | Alignment and parity decouple | Δf from alignment produces R<sub>TT</sub> incompatible with observation |
 
-The strongest test is the last row. If the displacement estimated from alignment cannot reproduce the parity ratio with a geometrically reasonable η, the interference mechanism fails. The primary external test is Euclid DR1 (October 2026), which probes the companion prediction a₀(z) ∝ H(z). If the broader framework falls, this paper falls with it.
+The strongest test is the last row. If the displacement estimated from alignment cannot reproduce the parity ratio with a geometrically reasonable η, the interference mechanism fails. A forward prediction independent of current anomaly fits: the non-orientable identification should produce correlated parity asymmetry ($R < 1$) in $TE$ and $EE$ spectra with the same sign as $TT$, and the preferred axis should be consistent across all three, testable with LiteBIRD and CMB-S4. 
+
+The primary external test is Euclid DR1 (October 2026), which probes the companion prediction a₀(z) ∝ H(z). If the broader framework falls, this paper falls with it.
 
 ---
 
