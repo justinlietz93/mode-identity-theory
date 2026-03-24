@@ -166,32 +166,7 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 | 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 |
 | 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 |
 
-## IV. Dead Zone, Targets, and Exclusions
-
-Eight entries have no Standard Model assignments. Six fall in the dead zone (ranks 4--9) between $10^{-9}$ and $10^{-6}$ GeV (eV to keV), where no fundamental fermions are expected. One is a target (rank 16) in a normal mass range where a particle could exist but has no current SM assignment. One is excluded (rank 3) by existing data.
-
-The dead zone is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings.
-
-| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range | Status |
-|---|---|---|---|---|---|---|
-| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | ~0.4 eV | excluded |
-| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | ~4 eV | dead zone |
-| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | ~4 eV | dead zone |
-| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | ~0.4 keV | dead zone |
-| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | ~1 keV | dead zone |
-| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | ~3 keV | dead zone |
-| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | ~3 keV | dead zone |
-| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | ~349 MeV | target |
-
-### Rank 3 Exclusion
-
-Rank 3 ($R_1$, triv) predicts ~0.4 eV. Cosmological bounds constrain the sum of neutrino masses to $\Sigma m_\nu \lesssim 0.1$ eV, and solar neutrino data place a lower bound of ~10 meV on $\nu_2$ via the matter effect. A single eigenstate at 0.4 eV would saturate or exceed the cosmological sum by itself. Rank 3 is excluded as a SM neutrino. Whether it corresponds to a non-SM state with suppressed couplings (similar to the dead zone entries) or signals a structural correction needed in the $R_1$ triv vacuum remains OPEN.
-
-### The $\nu_2$ Gap
-
-$\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio gap of ~7.75× from rank 2. This is the mass formula's only genuine miss among the twelve SM fermions. The experimentally allowed window for $\nu_2$ is roughly 10--50 meV, constrained from below by solar neutrino data and from above by the cosmological mass sum. The normal vs. inverted hierarchy remains experimentally undetermined; JUNO and DUNE are expected to resolve this. Whether vacuum mixing between $R_1$ entries or additional structure at the neutrino scale closes the gap remains OPEN.
-
-## V. Particle Identity
+## IV. Particle Identity
 
 The mass formula assigns each Standard Model fermion to a pair $(\rho, \sigma)$. The mass comes from the torsion. The identity comes from the stabilizer structure of the icosahedron.
 
@@ -281,6 +256,33 @@ $R_7$ occupies a special position in this structure. $R_7 \otimes R_1 = R_7 \oti
 | Vertex through twist | $\cos(\pi/10)$ | Weak coupling correction | Motivated |
 
 The three stabilizer orders 2, 3, 5 are the primes dividing $|2I| = 120$ and the conductors of the four surviving Dirichlet characters in the torsion L-basis. They generate color, domain, and (through their interfaces) gravity and the weak force. The mass formula computes how heavy. The stabilizer structure says what.
+
+---
+
+## V. Dead Zone, Targets, and Exclusions
+
+Eight entries have no Standard Model assignments. Six fall in the dead zone (ranks 4--9) between $10^{-9}$ and $10^{-6}$ GeV (eV to keV), where no fundamental fermions are expected. One is a target (rank 16) in a normal mass range where a particle could exist but has no current SM assignment. One is excluded (rank 3) by existing data.
+
+The dead zone is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings.
+
+| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range | Status |
+|---|---|---|---|---|---|---|
+| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | ~0.4 eV | excluded |
+| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | ~4 eV | dead zone |
+| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | ~4 eV | dead zone |
+| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | ~0.4 keV | dead zone |
+| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | ~1 keV | dead zone |
+| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | ~3 keV | dead zone |
+| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | ~3 keV | dead zone |
+| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | ~349 MeV | target |
+
+### Rank 3 Exclusion
+
+Rank 3 ($R_1$, triv) predicts ~0.4 eV. Cosmological bounds constrain the sum of neutrino masses to $\Sigma m_\nu \lesssim 0.1$ eV, and solar neutrino data place a lower bound of ~10 meV on $\nu_2$ via the matter effect. A single eigenstate at 0.4 eV would saturate or exceed the cosmological sum by itself. Rank 3 is excluded as a SM neutrino. Whether it corresponds to a non-SM state with suppressed couplings (similar to the dead zone entries) or signals a structural correction needed in the $R_1$ triv vacuum remains OPEN.
+
+### The $\nu_2$ Gap
+
+$\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio gap of ~7.75× from rank 2. This is the mass formula's only genuine miss among the twelve SM fermions. The experimentally allowed window for $\nu_2$ is roughly 10--50 meV, constrained from below by solar neutrino data and from above by the cosmological mass sum. The normal vs. inverted hierarchy remains experimentally undetermined; JUNO and DUNE are expected to resolve this. Whether vacuum mixing between $R_1$ entries or additional structure at the neutrino scale closes the gap remains OPEN.
 
 ---
 
