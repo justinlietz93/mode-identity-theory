@@ -22,6 +22,12 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 ---
 
+**Limits of the arithmetic mirror.** The same manifold that predicts masses and couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: the curvature that realizes matter is the curvature that shields primes.
+
+[The Mirror](the-mirror.md)
+
+---
+
 **Gravity.** Embed a surface in a space and the curvature converts by $3/2$; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
 
 [The Waltz](the-waltz.md)
