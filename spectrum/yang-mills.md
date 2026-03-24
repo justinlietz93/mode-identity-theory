@@ -1,4 +1,4 @@
-# Easy Money: Yang-Mills on the Poincare Homology Sphere
+# Easy Money: Yang-Mills on the Poincaré Homology Sphere
 
 The Millennium Prize asks whether pure Yang-Mills theory on $\mathbb{R}^4$ has a positive mass gap. On flat space, confinement must emerge dynamically. On the Poincare homology sphere $M = S^3/2I$, the answer is forced by geometry. 
 
