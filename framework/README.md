@@ -474,7 +474,7 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 
 > †For dimensionless couplings ($A_P = 1$), manifold dilution does not apply directly. The running from the Planck-scale value $C(13/60) \approx 0.792$ to the observed $\alpha \approx 7.3 \times 10^{-3}$ is controlled by the domain resolution. The exponent $n = 1/30$ is set equal to the minimum grid step $1/|I| = 1/60$ on the bosonic domain, giving $\Omega_\Lambda^{-1/60} = (\sqrt{\Omega_\Lambda})^{-1/30}$.
 > 
-> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue: ground-mode eigenvalue $\lambda_0 = 1/R_\Lambda^2$ (anti-periodic BC) times antinode intensity $C(60/120) = 2$. $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$.
+> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the ground eigenvalue of the Laplace-Beltrami operator on the totally geodesic curved Möbius surface embedded in $S^3$. Direct computation on the metric $ds^2 = dy^2 + \cos^2(y/R)dw^2$ gives ground eigenfunction $u_0 = \sin(y/R)$ with eigenvalue $\lambda_0 = 2/R^2 = R_\Sigma$ exactly; the Bochner identity independently establishes $\lambda_0 \geq R_\Sigma$, making equality unique. The flat-strip value $1/R^2$ times $C(60/120) = 2$ gives the same number but is a coincidence, not the derivation. $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$.
 
 $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension. $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by resolution.
 
@@ -489,13 +489,13 @@ Each component traces to the single topological postulate:
 | $m_h = 0$ | Isotropy + orthogonality | Derived |
 | $(\sqrt{\Omega})^{-n}$ | IR↔UV fixed point + volume scaling | Derived |
 | $n = 0, 1, 2, 3/2, 3$ | Epoch-dependence + coupling character; $n = 0$ is the Planck input ($G$), $n = 3/2$ is the Gauss-Codazzi interface (gravity) | Derived |
-| Anti-periodic BC selected | Matter is fermionic; half-integer modes on $2I$ reproduce 10/12 SM fermion masses within ×3 | Motivated |
+| Anti-periodic BC selected | Traversing the Möbius strip once returns a field to the opposite side; the sign flip is imposed by the topology of the surface, not by spinor statistics. Fermionic character of matter is a consequence, not the justification. Confirmed: half-integer modes on $2I$ reproduce 10/12 SM fermion masses within ×3 | Derived |
 | $\Psi(0) = +1$ | Initial condition selecting the branch where $t=0$ is amplitude maximum | Convention |
 | $C(\Theta) = 2\sin^2(\pi\Theta)$ | Anti-periodic BC + unit normalization | Derived |
 | $\Theta$ on 120 domain | $S^3 \cong \text{SU}(2)$ polyhedral subgroup resolution + irreducibility | Derived |
 | $\Theta \in \{13, 21, 34, 55, 60\}/120$ | Hurwitz stability + amplitude threshold | Derived |
 | $\Delta\Theta_{\min} = 2/120$ | Bosonic Filter (spinor → scalar) | Derived |
-| $\alpha$ exponent $n = 1/30$ | Equals minimum grid step $1/\vert I\vert = 1/60$ on bosonic domain; supported by three independent paths; connection between dilution exponent and grid resolution step is the open link | Motivated |
+| $\alpha$ exponent $n = 1/30$ | Equals minimum grid step $1/\vert I\vert = 1/60$ on bosonic domain; two remaining convergent paths: McKay packetization ($R_0$ reappears at $j = 30 = h(E_8)$), dimensionless dilution rule. A third path (phase-position-to-spectral-parameter map) is proved not to exist: four independent methods on $S^1$ confirm no natural map between phase position $\Theta$ and spectral parameter $s$; Schur's lemma on $S^3/2I$ confirms the same. Uniqueness scan confirms structural selection. | Established |
 | $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | Spectral derivation: scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$. Observational value: 7.93. Gap unresolved. | Discrepancy |
 | $L_f = v_c^2/a_0$ | Coherence scale | Derived |
 | $\mathcal{T}$, $\mathcal{T}_c$, $\Theta_f$ response | Gauge-invariant classification index + critical value + binary step function | Derived |
