@@ -184,12 +184,12 @@ The torsion's selectivity is a property of $s=0$, not a property that extends. T
 
 **Claim:** For the canonical equivariant Dirac eta invariant of $S^3/2I$ — constructed from the actual Dirac spectrum without added spectral projectors or custom level filters — Type 2 weighting never reduces Dirichlet character support below the Type 1 baseline.
 
-*Proof (C2 case — structural).* Both types reduce to the same linear combination form via the McKay decomposition identity $\chi_j(g)=\sum_\sigma m(\sigma,j)\chi_\sigma(g)$. The shared outer structure conceals a critical difference in the inner kernel: $\eta_D(\sigma,s)$ uses only the diagonal McKay kernel $K_{\sigma\sigma}(s)$, while $\tilde{\eta}_\sigma(s)$ uses the full off-diagonal matrix $K_{\sigma\sigma'}(s)$.
+*Proof (C2 case — structural).* Both types reduce to the same linear combination form via the McKay decomposition identity $\chi_j(g)=\sum_\sigma m(\sigma,j)\chi_\sigma(g)$. The shared outer structure conceals a critical difference in the inner kernel: $\eta_D(\sigma,s)$ uses only the diagonal McKay kernel $K_{\sigma\sigma}(s)$, while $\widetilde{\eta}_{\sigma}(s)$ uses the full off-diagonal matrix $K_{\sigma\sigma^\prime}(s)$.
 
 | | Formula |
 |---|---------|
 | Type 1 | $\sum_\sigma\chi_\sigma(g)\cdot\eta_D(\sigma,s)$ |
-| Type 2 | $\sum_\sigma\chi_\sigma(g)\cdot\tilde{\eta}_\sigma(s)$ |
+| Type 2 | $\sum_\sigma\chi_\sigma(g)\cdot\widetilde{\eta}_{\sigma}(s)$ |
 
 For the central element $C2=[-e]$, the SU(2) character evaluates to $\chi_j(-e)=-(2j+1)$ for all half-integer $j$ — monotone and strictly negative, with no sign variation. Type 1 achieves single-character selectivity at C2 precisely because the $2I$ character table produces sign alternation between bosonic irreps ($\chi_\sigma(C2)=+\dim\sigma$) and fermionic irreps ($\chi_\sigma(C2)=-\dim\sigma$). That alternation drives the cancellations that isolate $\beta(s)$.
 
