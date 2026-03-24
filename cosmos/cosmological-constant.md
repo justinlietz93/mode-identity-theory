@@ -33,11 +33,11 @@ In Planck units ($\ell_P^2 = \hbar G / c^3$):
 
 $$\Lambda \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$$
 
-No mechanism in standard physics explains this value.
+No mechanism assuming simply connected flat topology explains this value.
 
 ## II. The Topology
 
-Eigenvalues arise from differential equations on a domain; the shape determines the spectrum. The shape:
+Eigenvalues arise from differential equations on a domain; the shape determines the spectrum. Mode Identiy Theory defines the shape:
 
 $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
