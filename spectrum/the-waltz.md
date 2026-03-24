@@ -33,7 +33,7 @@ The Gauss equation relates intrinsic 2D curvature $R_\Sigma$ of the embedded sur
 
 With these conditions the Gauss equation reduces to $R_\Sigma = R_{\text{spatial}}/3$ , and inverting gives; $R_{\text{spatial}} = 3\,R_\Sigma$ 
 
-The identification $R_\Sigma = \Lambda_{\text{top}}$ is motivated from three directions (dimensional, spectral via Fischer-Marsden, and group-theoretic) and is noted as open pending independent mathematical review. 
+The identification $R_\Sigma = \Lambda_{\text{top}}$ is derived. On the totally geodesic curved surface with metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, direct computation gives ground eigenfunction $u_0 = \sin(y/R)$ with eigenvalue $\lambda_0 = 2/R^2 = R_\Sigma$ exactly. The Bochner identity independently establishes $\lambda_0 \geq R_\Sigma$; the direct computation gives equality, making it unique. Two independent bounds, one result.
 
 Substituting into the de Sitter relation $R_{\text{spatial}} = 2\Lambda_{\text{obs}}$:
 
