@@ -64,7 +64,7 @@ The spectral geometry of $S^3/2I$ reads L-function structure completely. Each re
 
 ### A. Torsion L-Basis
 
-The Reidemeister torsion (analytic torsion by Cheeger-Müller) for all integer-spin irreps of $2I$ factors exactly into four Dirichlet L-function special values, with $E_8$ McKay symmetries killing 12 of 16 characters mod 60. Four characters survive, at conductors 2, 3, 5, and 5: exactly the primes dividing $|2I|=120$.
+The Reidemeister torsion (analytic torsion by Cheeger-Müller) for all integer-spin irreps of $2I$ factors exactly into four Dirichlet L-function special values, with $E_8$ McKay symmetries killing 12 of 16 characters mod 60. Four characters survive, at conductors 2, 3, 5, and 5: exactly the primes dividing $\lvert 2I\rvert=120$.
 
 Two independent derivation paths (combinatorial Reidemeister + spectral analytic torsion via Kummer/Gauss). Verified to 79 digits. The Galois pair satisfies $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ (exact), with the golden ratio entering through the Legendre character of $\mathbb{Q}(\sqrt{5})$.
 
@@ -134,7 +134,7 @@ Per-irrep twisted etas computed via fusion matrices for all three flat connectio
 | $S^1$ bridge | Non-existence proved | 4 independent proofs |
 | Eta multiplicities | $9\times120$ signed table | Integer-exact |
 | Eta char. decomp. | 6–12 of 32 survive | Numerical, $10^{-8}$ |
-| $\eta(\sigma,0)$ exact | 9 rationals, denom $\mid 720$ | Two-path, $10^{-15}$ |
+| $\eta(\sigma,0)$ exact | 9 rationals, denom divides 720 | Two-path, $10^{-15}$ |
 | Equiv. eta (Type 1) | C2: 1 survivor; Tier 2: 2 terms/expr. | Exact |
 | C2 closed form | $\eta([-e],s)=2^{s-1}[\beta(s)-\beta(s-2)]$ | Algebraic + numerical |
 | Tier 2 closed forms | Universal trig. formula; C8 involves $\zeta(s)$ | Exact |
@@ -175,7 +175,7 @@ The torsion's selectivity is a property of $s=0$, not a property that extends. T
 
 *Proof.* The zeros of $\eta([-e],s)$ satisfy $\beta(s)=\beta(s-2)$. By Definition 4, this is a coincidence condition: it requires two values of $\beta$ to be equal at shifted arguments, not any individual value to vanish. It is therefore not a zero constraint. $\square$
 
-*Remark (non-load-bearing, confirmatory only).* Numerical evaluation at the first 10 nontrivial zeros of $\beta$ confirms $|\beta(s_0-2)|$ is far from zero in each case (values 13.98 to 341.84 at 50-digit precision). This is consistent with but not required by the proof above, which rests entirely on Definition 4.
+*Remark (non-load-bearing, confirmatory only).* Numerical evaluation at the first 10 nontrivial zeros of $\beta$ confirms $\lvert\beta(s_0-2)\rvert$ is far from zero in each case (values 13.98 to 341.84 at 50-digit precision). This is consistent with but not required by the proof above, which rests entirely on Definition 4.
 
 ---
 
@@ -256,7 +256,7 @@ The Selberg zeta machinery requires Anosov (hyperbolic) dynamics. The round $S^3
 
 *Proof.* The spectral L-functions are Dirichlet L-functions over $\mathbb{Q}$, arising from Fourier analysis of McKay multiplicities (modulus 120). The Artin L-function $L(s,R_1)$ is a 2-dimensional L-function attached to a Galois representation, decomposing via Brauer induction into Hecke L-functions over intermediate number fields.
 
-Brauer decomposition: $R_1=\mathrm{Ind}(C_6,\lambda_6)+\mathrm{Ind}(C_{10},\lambda_{10})-\mathrm{Ind}(C_4,\lambda_4)$. This is virtual (negative exponent), not isolable. Known icosahedral extensions have discriminants far larger than 120, making conductor overlap numerically impossible. Shared prime support $\{2,3,5\}$ is forced by $|2I|=120$ and carries no analytic content.
+Brauer decomposition: $R_1=\mathrm{Ind}(C_6,\lambda_6)+\mathrm{Ind}(C_{10},\lambda_{10})-\mathrm{Ind}(C_4,\lambda_4)$. This is virtual (negative exponent), not isolable. Known icosahedral extensions have discriminants far larger than 120, making conductor overlap numerically impossible. Shared prime support $\{2,3,5\}$ is forced by $\lvert 2I\rvert=120$ and carries no analytic content.
 
 The spectral and arithmetic L-functions attached to $2I$ are different mathematical objects. Modularity of the Artin L-function does not constrain the spectral Dirichlet L-functions. $\square$
 
@@ -355,7 +355,7 @@ Lemma 8 has a direct consequence for the MIT mass formula. The non-existence of 
 
 $S^3/2I$ is a perfect arithmetic mirror. It reflects:
 
-- The primes $\{2,3,5\}$ dividing $|2I|=120$
+- The primes $\{2,3,5\}$ dividing $\lvert 2I\rvert=120$
 - The golden ratio $\varphi$ from the character field $\mathbb{Q}(\sqrt{5})$
 - The L-function special values through torsion (79-digit precision)
 - The Dirichlet characters through spectral decomposition
@@ -376,7 +376,7 @@ Mirrors show you everything about the object. They determine nothing about it. T
 
 **Remark.** The curvature duality mechanism of § VI depends only on the positivity of the Ricci curvature and the resulting eigenvalue shift, not on the specific group $2I$. This suggests the inaccessibility result extends beyond $S^3/2I$.
 
-**Conjecture 1.** Positive Ricci curvature with finite $\pi_1$ imposes zero-inaccessibility in the sense of Definition 4 on any compact Riemannian manifold whose spectral zeta factors into Dirichlet L-functions. $S^3/2I$ is the extremal case: $2I$ is the largest exceptional discrete subgroup of $\mathrm{SU}(2)$, $E_8$ is the largest exceptional Lie algebra, and $|2I|=120$ captures the maximum arithmetic structure through the McKay correspondence.
+**Conjecture 1.** Positive Ricci curvature with finite $\pi_1$ imposes zero-inaccessibility in the sense of Definition 4 on any compact Riemannian manifold whose spectral zeta factors into Dirichlet L-functions. $S^3/2I$ is the extremal case: $2I$ is the largest exceptional discrete subgroup of $\mathrm{SU}(2)$, $E_8$ is the largest exceptional Lie algebra, and $\lvert 2I\rvert=120$ captures the maximum arithmetic structure through the McKay correspondence.
 
 ---
 
