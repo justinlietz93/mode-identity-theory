@@ -95,6 +95,7 @@ Blind outputs of a fixed structure, checked against observation:
 | Particle generations | 3 (mass gaps) | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
 | Null SUSY | permanent | ongoing null results | ✓ |
+| Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
 | Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
 | Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
 | Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
