@@ -317,10 +317,9 @@ The consequence is halved resolution. The minimum step a bosonic-projected obser
 Two notational conventions appear in the tables below, both denoting the same 60R lattice. Dimensionless couplings ($A_P = 1$) are written in reduced form: the bosonic projection maps the fermionic well $13/120$ to $13/60$ on the 60R-grid. Dimensionful cosmographic observables ($H_0$, $\Lambda$) are written in 120-domain notation with even numerators ($34/120$, $60/120$); the equivalent 60R positions are $17/60$ and $30/60$. The Grid column in the Fibonacci Wells table records which convention is used for each entry.
 
 ### Fibonacci Wells (Θ₀)
-
 The Bosonic Filter established the 60R-grid; only certain positions carry observable amplitude. Fibonacci selects the stable wells; the antinode ($60/120$) is included as the amplitude maximum. The well at $13/120$ is irreducible: $\gcd(13, 120) = 1$. No coarser domain can represent it.
 
-Not all Fibonacci wells survive to observation. The phase field carries microfluctuations $\delta\Theta_f^\text{micro} \lesssim 10^{-4}$, setting a noise floor. Below $F_7$, the amplitude is indistinguishable from noise: $C(8/120) = 0.087$. At $F_7$, the wave resolves: $C(13/120) = 0.223$.
+Not all Fibonacci wells survive to observation. The phase field carries microfluctuations $\delta\Theta_f^\text{micro} \lesssim 10^{-4}$, setting a noise floor. Below $F_7$, the amplitude is indistinguishable from noise: $C(8/120) = 0.087$. At $F_7$, the wave resolves: $C(13/120) = 0.223$. $F_7 = 13$ is the unique well satisfying three simultaneous constraints: Fibonacci stability, amplitude above the noise floor, and $\gcd(13, 120) = 1$. No other position satisfies all three.
 
 The well assignments (which observable maps to which well) are identified by coprimality and observable character; the wells themselves are enumerated. Among edge modes, $a_0$ occupies the coprime well ($13/120$), forced by irreducibility. $\Lambda$ occupies the antinode ($60/120$), forced by ground-state maximality. Among the remaining Fibonacci wells, only $34/120$ carries an even numerator and therefore survives the bosonic filter for cosmographic observables; $H_0$ occupies it by exclusion. The surviving wells become:
 
