@@ -1,8 +1,8 @@
 # α fine structure: Λ Minimum Step to Mode Identity
 
-The fine structure constant $\alpha \approx 1/137$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the scaling law that produces Λ, $H_0$, and $a_0$ extends to dimensionless couplings through three structural modifications: the bosonic 60R-grid (photons are bosons, so the observable is $\lvert\psi\rvert^2$), the matter well $\Theta = 13/60$ (electromagnetism couples matter to matter), and a fractional exponent $1/60 = 1/\lvert I \rvert$ (one grid step of the vacuum hierarchy rather than a whole manifold floor). The result is the first step of Λ on the bosonic grid.
+The fine structure constant $\alpha \approx 1/137$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the same scaling law that produces Λ, $H_0$, and $a_0$ extends to dimensionless couplings. The result is $\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733$, within 0.5% of the measured value, derived from one topological postulate with no free parameters. The same structure yields all three gauge couplings.
 
-**Three gauge couplings from one grid**
+**Results at a glance**
 
 | Coupling | Predicted | Observed | Agreement |
 |---|---|---|---|
@@ -53,9 +53,11 @@ For dimensional observables, $n = 1, 2, 3$ counts whole manifold embeddings. Eac
 | 3 | Grid resolution | Minimum step $= 1/60$ |
 | 4 | One step of $\Omega$ on 60 positions | $\Omega^{1/60}$ |
 
-Dimensional observables count whole floors because they carry Planck dimensions (powers of $\ell_P$, $t_P$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. The exponent $n/2 = 1/\lvert I \rvert = 1/60$ follows from three independent paths (McKay packetization, dimensionless dilution rule, Phase-log $\Omega$ map). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, producing 10/12 SM fermion masses within a factor of 3.
+Dimensional observables count whole floors because they carry Planck dimensions (powers of $\ell_P$, $t_P$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. The exponent $1/60 = 1/\lvert I \rvert$ on $\Omega$ follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, producing 10/12 SM fermion masses within a factor of 3.
 
 ### The derivation chain
+
+These three modifications — bosonic grid, matter well, fractional exponent — map onto the following nine-step chain from topology to output:
 
 | # | Input | Output | Status |
 |---|---|---|---|
@@ -69,7 +71,7 @@ Dimensional observables count whole floors because they carry Planck dimensions 
 | 8 | One grid step of hierarchy | $\Omega_\Lambda^{-1/60}$ | Established |
 | 9 | $C(13/60) \times \Omega_\Lambda^{-1/60}$ | $\alpha = 0.00733$ | Output |
 
-Six stages of topology. Two of arithmetic. The Grid-Hierarchy exponent (stage 8) is established to professional certainty: three convergent paths (McKay packetization, dimensionless dilution, phase-log $\Omega$ map) and a uniqueness scan confirming structural selection.
+Six topological derivations. One arithmetic step. One established result. The Grid-Hierarchy exponent (stage 8) is established to professional certainty: two convergent paths (McKay packetization, dimensionless dilution rule) and a uniqueness scan confirming structural selection. The Phase-log $\Omega$ path is closed by the Shatto Theorem.
 
 ## III. Uniqueness
 
@@ -194,13 +196,11 @@ $$\alpha(\text{low energy}) = 0.792 \times 10^{-2.03} = 0.0073$$
 
 The running from ~1 at the Planck scale to ~1/137 at human scales is the hierarchy $\Omega^{-1/60}$ expressing itself across the bounded domain. This is the correct direction: $\alpha$ increases at higher energies (smaller local $\Omega$), consistent with QED vacuum polarization. The MIT prediction differs structurally from perturbative QED: power-law in $\Omega$ rather than logarithmic in $q^2$. At accessible energies both are indistinguishable; at extreme scales, they diverge.
 
-### Unification
+All three gauge couplings follow the same structure at different wells and grid fractions. They converge to order unity near the Planck scale as $\Omega \to 1$. This is the geometric origin of grand unification: not a symmetry imposed at high energy, but the hierarchy collapsing to its floor.
 
-If all gauge couplings follow the same structure at different wells and grid fractions, they converge to order unity near the Planck scale. This is the geometric origin of grand unification: the hierarchy collapsing as $\Omega \to 1$.
+## VI. The Vacant Rung
 
-## VI. The Vacant Slot
-
-The grid ladder in Section IV assigns two structural properties to each gauge force: the character of its carrier (phase grid) and the character of what it confines (exponent grid). Each slot resolves as bosonic (60R, intensity $|\psi|^2$, period 1) or spinorial (120, wavefunction $\psi$, anti-period 1). Two choices across two slots yield four combinations. Three are occupied.
+The grid ladder in Section IV assigns two structural properties to each gauge force: the character of its carrier (phase grid) and the character of what it confines (exponent grid). Each slot resolves as bosonic (60R, intensity $|\psi|^2$, period 1) or spinorial (120, wavefunction $\psi$, anti-period 1). Two binary choices across two formula slots yield four possible rungs, three occupied.
 
 | Phase grid (carrier) | Exponent grid (target) | Physical reading | Force |
 |---|---|---|---|
@@ -209,7 +209,7 @@ The grid ladder in Section IV assigns two structural properties to each gauge fo
 | 120 | 120 | Spinorial carrier, fermion transitions | Weak |
 | 120 | 60R | Spinorial carrier, bosonic target | — |
 
-The occupied rungs exhaust the lower triangle of the grid matrix (including the diagonal). The upper off-diagonal entry, 120/60, is empty. This is structural rather than accidental: the anti-periodic boundary condition on the Möbius strip defines $\psi$ as the fundamental object, and $|\psi|^2$ as derived from it. The 120-grid generates the 60R-grid by squaring. A force whose carrier lives on the spinorial grid while its confinement target lives on the bosonic grid would require the derived quantity to source the fundamental one. The firing order (topology $\to$ wave $\to$ observable) runs one direction. The 120/60 slot inverts it.
+Three rungs are occupied; the upper off-diagonal entry, 120/60, is empty. This is structural rather than accidental: the anti-periodic boundary condition on the Möbius strip defines $\psi$ as the fundamental object, and $|\psi|^2$ as derived from it. The 120-grid generates the 60R-grid by squaring. A force whose carrier lives on the spinorial grid while its confinement target lives on the bosonic grid would require the derived quantity to source the fundamental one. The firing order (topology $\to$ wave $\to$ observable) runs one direction. The 120/60 rung inverts it.
 
 In the stabilizer framework, the three occupied rungs exhaust the monotone sequence in spinorial content:
 
@@ -221,7 +221,7 @@ In the stabilizer framework, the three occupied rungs exhaust the monotone seque
 
 Spinorial content increases. The reverse move (from 2 spinorial slots to 1 bosonic target) would break monotonicity. The ladder climbs; it does not descend.
 
-### What the vacant slot describes
+### What the vacant rung describes
 
 In the language of particle physics, the 120/60 entry requires:
 
@@ -253,7 +253,7 @@ The grid ladder was constructed to derive coupling constants. It was not designe
 | Running structure | Precision tests of $\alpha(q^2)$ exclude power-law in favor of pure log | Decisive |
 | Scale consistency | Three couplings require evaluation at incompatible energy scales | Open |
 | $\alpha$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
-| Λ - $\alpha$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
+| $\alpha$ – $\Lambda$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
 
 The strongest tests are the first four. The grid ladder and Plato twist have already passed. The force count and SUSY vacancy are tested by every collider run. The open question is scale consistency: the three predictions are made at different energy scales ($\alpha$ at low energy, $\alpha_s$ and $\alpha_W$ near $M_Z$), and deriving RG running from the MIT hierarchy structure remains open.
 
