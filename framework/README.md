@@ -2,7 +2,7 @@
 
 MIT is a shape formed on philosophical grounds before any prediction was computed. Topology determines the structure; observation supplies the scale; every coefficient is a consequence.
 
-The single topological postulate produces one scaling law that blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 122 orders of magnitude from $\Lambda \cdot \ell_P^2 \sim 10^{-122}$ to $\alpha \sim 10^{-2}$; and 24 fermion mass entries covering all 12 Standard Model fermions.
+The single topological postulate produces one scaling law that blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 122 orders of magnitude; and 24 fermion mass entries covering all 12 Standard Model fermions.
 
 Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
