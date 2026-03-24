@@ -1,3 +1,5 @@
+On S³/2I, every intrinsic spectral construction in the admissible class defined below can read L-function structure with arbitrary precision but cannot constrain individual L-function zeros. The reading capacity and the writing incapacity are two faces of a single structural fact, forced by the geometry, representation theory, and arithmetic of the manifold.
+
 ## I. Definitions
 
 **Definition 1 (Admissible Operators).** The admissible operators on $S^3/2I$ are the natural, self-adjoint elliptic operators on sections of natural bundles within the following scoped class:
