@@ -362,8 +362,6 @@ $S^3/2I$ is a perfect arithmetic mirror. It reflects:
 - Individual L-functions through the equivariant eta (C2: single beta function at all $s$)
 - The Riemann zeta function itself through C8: $\eta([C8],s)=2^{s-1}[L(s,\chi_3)-\zeta(s-1)]$
 
-Mirrors show you everything about the object. They determine nothing about it. The reading is the theorem. The inability to write is also the theorem.
-
 ---
 
 ## VIII. Scope
