@@ -289,7 +289,7 @@ The character table is the complete basis-independent invariant of the group act
 
 ---
 
-**Lemma 8 (Shatto Theorem: No $\Theta\leftrightarrow s$ Bridge).**
+**Lemma 8 ($\Theta\leftrightarrow s$ Bridge).**
 **Strategy defeated:** Construct a natural map between the phase position $\Theta$ (from the scaling law $C(\Theta)=2\sin^2(\pi\Theta)$) and the spectral parameter $s$, exploiting their shared $\mathbb{Z}_2$ symmetry.
 
 *Proof.* Four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition) prove no such map exists. Every eigenspace on $S^1$ with anti-periodic BC is 2-dimensional (sin and cos). $C(\Theta)$ depends on choosing $\sin$ over $\cos$. The spectral zeta sees only eigenvalues and multiplicities, blind to this choice. The two $\mathbb{Z}_2$ symmetries — $C(\Theta)=C(1-\Theta)$ from spatial reflection; $\xi(s)=\xi(1-s)$ from Poisson/modular duality — arise from different mechanisms and are not related by a natural map.
