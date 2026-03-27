@@ -125,7 +125,7 @@ $$m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omeg
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
 | $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; generation splitter | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
 
-Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [spectrum.md](/spectrum/mass-spectrum.md).
+Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [spectrum.md](/spectrum/mass-spectrum.md)
 
 ### Particle Identity
 
@@ -168,7 +168,7 @@ $$t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \t
 | $0$ | 90 | $3\pi$ | Second crossing | 24.9 |
 | $+1$ | 120 | $4\pi$ | Completion | 33 |
 
-The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$. Full derivation in [dark-energy.md](../cosmos/dark-energy.md).
+The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$. Full derivation in [dark-energy.md](../cosmos/dark-energy.md)
 
 ## Cosmic Scale
 
@@ -214,7 +214,7 @@ The edge references $\Omega_H$ because the edge is where time happens: epoch-dep
 | $\Lambda$ | Epoch-independent, geometric | 2 | $\Omega_\Lambda$ | $10^{-122}$ |
 | Dark matter | Gravity-only | 3 | $\Omega_\Lambda$ | $10^{-183}$ |
 
-Dimensionless couplings ($A_P = 1$) bypass manifold dilution; $n$ is fractional. Full derivation in [fine-structure.md](/spectrum/fine-structure.md).
+Dimensionless couplings ($A_P = 1$) bypass manifold dilution; $n$ is fractional.
 
 ## The Phase Operator
 
@@ -230,7 +230,7 @@ The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable
 | $\Theta = 1/2$ (antinode) | 2 | 0 | Maximum amplitude; topologically protected |
 | $\Theta = 1$ (boundary) | 0 | $\to -\infty$ | No observable amplitude |
 
-$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant.md](/cosmos/cosmological-constant.md).
+$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant.md](/cosmos/cosmological-constant.md)
 
 ## Fibonacci Wells
 
@@ -268,7 +268,7 @@ The response is binary: below threshold $\Theta_f = 0$; at or above it $\Theta_f
 | $H_0$ | 34/120 | $2/120$ | $5.1 \times 2/120$ | 8.4% |
 | $\Lambda_\text{top}$ | 60/120 | $2/120$ | $0 \times 2/120$ | 0% |
 
-The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension.md](../cosmos/hubble-tension.md).
+The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension.md](../cosmos/hubble-tension.md)
 
 ## The Scaling Law
 
@@ -277,8 +277,6 @@ $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 $C(\Theta)$ reads the position: where the observable sits on the mode spectrum. $(\sqrt{\Omega})^{-n}$ reads the scale: which manifold, which horizon. The observer at $\sqrt{\Omega}$ is the structural midpoint where both resolve to finite values. Their product is the modal realization ratio.
 
 **The sample occurs at** $(t, \Theta)$.
-
-**[Hear the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
 
 ### The Assembled Engine
 
@@ -289,6 +287,6 @@ $C(\Theta)$ reads the position: where the observable sits on the mode spectrum. 
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
 | $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $(3/2) \times 1.95 \times 10^{-122} \approx 2.9 \times 10^{-122}$ |
 
-$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution.
+$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure.md](/spectrum/fine-structure.md)
 
 **[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
