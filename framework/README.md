@@ -275,7 +275,7 @@ The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0
 
 The response is binary: below threshold $\Theta_f = 0$; at or above it $\Theta_f = 2/120$. The coherence scale $L_f = v_c^2/a_0 \approx 13$ kpc for the Milky Way. 
 
-The classification index $\mathcal{T}$ compares the gravitational potential drop across $L_f$ to a critical value $\mathcal{T}_c = 2\xi\, v_c^2/c^2$, where $\xi \approx 0.46$.
+The classification index $\mathcal{T}$ compares the gravitational potential drop across $L_f$ to a critical value $\mathcal{T}_c = 2\xi\, v_c^2/c^2$, where $\xi \approx 0.46$ is the mean potential depth computed from standard halo profiles (isothermal, NFW, Hernquist all give 0.44 to 0.47).
 
 **Closure identity.** Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; their ratio is galaxy-independent: $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$. Every flat-curve disk crosses the threshold by the same factor.
 
