@@ -93,20 +93,18 @@ Four auxiliary paths converge on this number (three independent):
 3. The consonance ratios of musical harmony independently yield $\text{lcm} = 120$
 4. The $(2,3,5)$ branch orders of the icosahedron are consecutive Fibonacci numbers satisfying $2+3=5$: the unique Platonic solid whose symmetry orders obey the Fibonacci recurrence
 
-**The 120 domain** is the mode spectrum's resolution. 
+**The 120 domain** is the mode spectrum's resolution. Fermions see all 120 positions but observation squares the wavefunction: $|\psi(\Theta+1)|^2 = |\psi(\Theta)|^2$ erases the anti-periodic sign. The squaring projects $2I \to I$ ($|I| = 60$), halving the resolution.
+
+| Grid | Positions | Minimum step | Observables |
+|---|---|---|---|
+| Full domain | 120 | $1/120$ | $a_0$ (dynamical) |
+| Bosonic projection | 60 | $2/120$ | $H_0$, $\Lambda$, $\alpha$ (photon-mediated) |
 
 **The chronon** is the smallest phase advance the domain can register:
 
 $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
 **The minimum action** $\Delta S_{\min} = \hbar\pi/30$ is absolute: a Lorentz scalar that holds in every frame.
-
-Fermions see all 120 positions but observation squares the wavefunction: $|\psi(\Theta+1)|^2 = |\psi(\Theta)|^2$ erases the anti-periodic sign. The squaring projects $2I \to I$ ($|I| = 60$), halving the resolution.
-
-| Grid | Positions | Minimum step | Observables |
-|---|---|---|---|
-| Full domain | 120 | $1/120$ | $a_0$ (dynamical) |
-| Bosonic projection | 60 | $2/120$ | $H_0$, $\Lambda$, $\alpha$ (photon-mediated) |
 
 ### Confinement
 
