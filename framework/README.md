@@ -8,7 +8,7 @@ $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3
 
 A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the structure: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. There was only one choice.
 
-**[Visualize the Shape](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
 
 This single choice produces one scaling law that blindly predicts $\Lambda$, $H_0$, $a_0$, and $\alpha$ across 122 orders of magnitude, and 24 fermion mass entries covering all 12 Standard Model fermions.
 
