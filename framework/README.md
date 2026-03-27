@@ -245,7 +245,7 @@ Fibonacci positions minimize destructive interference on the 120 domain (Hurwitz
 | $F_{10}$ | 120 | 55/120 | 1.97 | Unassigned | — |
 | — | 120 | 60/120 | 2.00 | $\Lambda_\text{top}$ | Antinode; ground-state maximality; slope zero |
 
-$H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. Full derivation in [early-galaxies](/cosmos/early-galaxies.md).
+$H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. Full derivation in [early-galaxies](/cosmos/early-galaxies.md)
 
 $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension.
 
