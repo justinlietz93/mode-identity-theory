@@ -40,7 +40,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 |---|---|---|
 | $\Omega_m$ | 0.315 | Matter density fraction; used solely to locate the present epoch ($t_\text{now} = 5.22$ rad) |
 
-### Derived
+**Derived**
 
 | Const. | Definition | Value |
 |---|---|---|
@@ -167,7 +167,7 @@ The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time a
 
 ### The Present Epoch
 
-$$t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \text{ rad}$$
+$$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \text{ rad}$$
 
 | $\Psi$ | Step | $t$ (rad) | Epoch | ~Gyr |
 |---|---|---|---|---|
@@ -194,7 +194,7 @@ At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The co
 
 The bounded domain spans from $\Omega \sim 10^{122}$ (horizon) to $10^0$ (Planck). The IR $\leftrightarrow$ UV fixed point $x = \Omega/x$ gives:
 
-$$x = \sqrt{\Omega} \approx 10^{61}$$
+$$\Large x = \sqrt{\Omega} \approx 10^{61}$$
 
 The geometric midpoint between Planck and cosmic scale. This is where observation resolves.
 
@@ -210,7 +210,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
-#### Why edge uses Ω\_H while surface uses Ω\_Λ
+#### Why edge uses $\Omega_H$ while surface uses $\Omega_\Lambda$
 
 The temporal edge $S^1$ is where time happens; only the edge can reference a quantity that evolves with cosmic time. The Hubble horizon $R_H(z) = c/H(z)$ evolves; therefore epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. 
 
@@ -235,7 +235,7 @@ Dimensionless couplings ($A_P = 1$) bypass manifold dilution; $n$ is fractional.
 
 Different positions on the standing wave carry different observable amplitude:
 
-$$C(\Theta) = 2\sin^2(\pi\Theta)$$
+$$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
 The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable intensity is $|\psi|^2$, normalized to unit mean.
 
