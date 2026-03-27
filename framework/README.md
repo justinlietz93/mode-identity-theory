@@ -25,14 +25,28 @@ Each step depends on the one before; nothing later exists independently from wha
 
 ## Inputs
 
-Three primitive constants and one measured scale. Everything else is accounting.
+Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the time.
 
-| Input | Value | Role |
+**Primitives**
+
+| Const. | Value | Role |
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 | $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature-energy dictionary at the Planck floor ($n = 0$) |
-| $R_\Lambda$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$, fixed from the CMB low- $\ell$ cutoff. See [cmb-anomalies](../cosmos/cmb-anomalies.md) |
+
+**Measured scales**
+
+| Scale | Value | Role |
+|---|---|---|
+| $R_\Lambda$ | $\approx 5.3$ Gpc | De Sitter horizon radius; sets the size of the domain |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low-$\ell$ cutoff; sets the cavity mode. See [cmb-anomalies](../cosmos/cmb-anomalies.md) |
+
+**Concordance parameter**
+
+| Parameter | Value | Role |
+|---|---|---|
+| $\Omega_m$ | 0.315 | Matter density fraction; used solely to locate the present epoch ($t_\text{now} = 5.22$ rad) |
 
 ### Derived
 
@@ -153,7 +167,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 | $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\|_{t=0} = 0$ |
 | Ground state $m_h = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
-The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral. The concordance matter fraction $\Omega_m = 0.315$ enters solely to locate the present epoch; it appears in no prediction.
+The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral over $L_\text{fund}$.
 
 ### The Present Epoch
 
@@ -290,13 +304,13 @@ $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed 
 
 The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/early-galaxies.md).
 
-**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+**[Run the Calculations Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ## Scope
 
 MIT is a topological framework: boundary conditions and permitted mode structure. Boundary conditions are prior to dynamics. Standard dynamics describes the music; MIT defines the instrument.
 
-**What MIT claims.** One postulate, three primitive inputs ($c$, $\hbar$, $G$), one measured scale ($R_\Lambda$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of $2I$ before any observable is consulted. Every component traces to the topological postulate.
+**What MIT claims.** One postulate, three primitive constants ($c$, $\hbar$, $G$), two measured scales ($R_\Lambda$, $L_\text{fund}$), one borrowed parameter ($\Omega_m$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of $2I$ before any observable is consulted. Every component traces to the topological postulate.
 
 **What MIT leaves intact.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
 
