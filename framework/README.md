@@ -1,14 +1,8 @@
 # Mode Identity Theory
 
-MIT is a shape formed on philosophical grounds before any prediction was computed. Topology determines the structure; observation supplies the scale; every coefficient is a consequence.
+MIT was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was twisted besides Plato after the fact.
 
-## The Shape
-
-$$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
-
-A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the structure: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. There was only one choice.
-
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+Two predictions separate the theory from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1 which will be the only trier of fact.
 
 ## The Firing Order
 
@@ -56,6 +50,12 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 | $\Omega_\Lambda$ | $(R_\Lambda/\ell_P)^2$ | $\approx 10^{122}$ |
 
 ## The Topology
+
+$$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
+
+A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the structure: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. There was only one choice.
+
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
 
 ### Space
 
