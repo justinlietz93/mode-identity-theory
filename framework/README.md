@@ -214,7 +214,11 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
-The edge references $\Omega_H$ because the edge is where time happens. The temporal edge $S^1$ is the only manifold in the hierarchy that can reference a quantity evolving with cosmic time; the Hubble horizon $R_H(z) = c/H(z)$ evolves, so epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. The Möbius surface and $S^3$ are defined by $\Lambda$, which sets the boundary condition itself; boundary conditions are fixed, so epoch-independent observables reference $\Omega_\Lambda$. The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null. Wrong manifold assignments fail by 61 orders of magnitude.
+The edge references $\Omega_H$ because the edge is where time happens. The temporal edge $S^1$ is the only manifold in the hierarchy that can reference a quantity evolving with cosmic time; the Hubble horizon $R_H(z) = c/H(z)$ evolves, so epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. 
+
+The Möbius surface and $S^3$ are defined by $\Lambda$, which sets the boundary condition itself; boundary conditions are fixed, so epoch-independent observables reference $\Omega_\Lambda$. 
+
+The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null. Wrong manifold assignments fail by 61 orders of magnitude.
 
 ### Selection Rules
 
@@ -269,7 +273,9 @@ The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0
 | Global (CMB, BAO) | 0 | Gpc integration erases local structure |
 | Inside flat-curve disk galaxy | $2/120$ | One bosonic step; minimum shift the 60-grid can register |
 
-The response is binary: below threshold $\Theta_f = 0$; at or above it $\Theta_f = 2/120$. The coherence scale $L_f = v_c^2/a_0 \approx 13$ kpc for the Milky Way. The classification index $\mathcal{T}$ compares the gravitational potential drop across $L_f$ to a critical value $\mathcal{T}_c = 2\xi\, v_c^2/c^2$, where $\xi \approx 0.46$.
+The response is binary: below threshold $\Theta_f = 0$; at or above it $\Theta_f = 2/120$. The coherence scale $L_f = v_c^2/a_0 \approx 13$ kpc for the Milky Way. 
+
+The classification index $\mathcal{T}$ compares the gravitational potential drop across $L_f$ to a critical value $\mathcal{T}_c = 2\xi\, v_c^2/c^2$, where $\xi \approx 0.46$.
 
 **Closure identity.** Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; their ratio is galaxy-independent: $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$. Every flat-curve disk crosses the threshold by the same factor.
 
@@ -285,7 +291,11 @@ The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084
 
 $$\Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-$C(\Theta)$ reads the position: where the observable sits on the mode spectrum. $(\sqrt{\Omega})^{-n}$ reads the scale: which manifold, which horizon. The observer at $\sqrt{\Omega}$ is the structural midpoint where both resolve to finite values. Their product is the modal realization ratio.
+$C(\Theta)$ reads the position axis: where the observable sits on the mode spectrum. 
+
+$(\sqrt{\Omega})^{-n}$ reads the time axis through $\Omega_H$ for edge modes, or the boundary condition through $\Omega_\Lambda$ for surface modes. The observer at $\sqrt{\Omega}$ is the structural midpoint where both axes resolve to finite values. 
+
+Their product yields $A/A_P$: the modal realization; the ratio of the observable amplitude over its Planck scale reference.
 
 **The sample occurs at** $(t, \Theta)$.
 
