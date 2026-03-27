@@ -348,4 +348,4 @@ MIT is a topological framework: boundary conditions and permitted mode structure
 |---|---|
 | [cosmos/](../cosmos/) | Full derivation papers for cosmological predictions |
 | [spectrum/](../spectrum/) | Full derivation papers for particle structure |
-| [DOIs/](../framework/DOIs.md) | Mode Identity Zenodo Community |
+| [DOIs/](../framework/DOIs.md) | Publication Registery |
