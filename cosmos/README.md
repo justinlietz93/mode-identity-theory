@@ -38,6 +38,8 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 [Black Holes](black-holes.md)
 
+[![Black Double Zero's](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
+
 ---
 
 ### Cosmological Scoreboard
