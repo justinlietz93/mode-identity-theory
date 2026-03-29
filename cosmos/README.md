@@ -1,6 +1,6 @@
 # κόσμος
 
-Five foundations of Mode Identity Theory map to five cosmological anomalies that standard physics catalogs separately. Each paper takes one anomaly and shows how its foundation resolves it. The topology produces the structure; the scaling law reveals the result. Black Holes are nodes of the wave where sampling ceases.
+Five foundations of Mode Identity Theory map to five cosmological anomalies that standard physics catalogs separately. Each paper takes one anomaly and shows how its foundation resolves it. The topology produces the structure; the scaling law reveals the result. Black Double Zero's are nodes of the wave where sampling ceases.
 
 ---
 
@@ -34,9 +34,9 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 ---
 
-**Black ∅'s.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
+**Black 0²'s.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
-[Black Holes](black-holes.md)
+[Black Double Zero](black-2zero.md)
 
 [![Black Double Zero's](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
 
