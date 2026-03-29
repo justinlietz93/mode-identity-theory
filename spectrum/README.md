@@ -26,6 +26,8 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 [The Mirror](the-mirror.md)
 
+[![The Mirror](https://img.youtube.com/vi/78nEAE8Se4o/mqdefault.jpg)](https://www.youtube.com/watch?v=78nEAE8Se4o)
+
 ---
 
 **Gravity.** Embed a surface in a space and the curvature converts by $3/2$; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
