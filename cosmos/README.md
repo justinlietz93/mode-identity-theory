@@ -16,6 +16,8 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 [Cosmological Constant](cosmological-constant.md)
 
+[![Cosmological Constant](https://img.youtube.com/vi/hN8iArWssNU/mqdefault.jpg)](https://www.youtube.com/watch?v=hN8iArWssNU)
+
 ---
 
 **Non-orientable topology.** Take a belt, give it a half-twist, and close it. The edge you trace with your finger is the same edge on the parallel side. A field completing one lap returns with opposite sign. The Möbius strip is the simplest such shape with a boundary. Matter is fermionic; the anti-periodic sector is selected by observation. Everything derived traces to and from the flip.
