@@ -135,10 +135,6 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 **[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
 
-<a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
-  <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
-</a>
-
 ### Primary — any one kills the framework
 
 | Prediction | MIT value | Falsified if | Euclid channel |
@@ -156,6 +152,10 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | No phantom crossing | w_eff > −1 everywhere | Model-independent w < −1 at 2σ |
 | H₀ discrete snap | 8.4% shift (67.4 → 73.1) | H₀ distributed continuously across environments |
 | 3/2 Gauss-Codazzi | 3Λ_top = 2Λ_obs | Independent R and Λ_obs inconsistent at >3σ |
+
+<a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
+  <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
+</a>
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
