@@ -24,6 +24,8 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 [CMB Anomalies](cmb-anomalies.md)
 
+[![CMB Anomalies](https://img.youtube.com/vi/bBoBazf76lA/mqdefault.jpg)](https://www.youtube.com/watch?v=bBoBazf76lA)
+
 ---
 
 **Bounded evaluation.** Suppose we define the infinite by the divide by zero. Not as metaphor, but as the structure of our domain. The observer sits at the geometric mean $\sqrt{\Omega} \approx 10^{61}$ where $\infty/0$ has structure at the limits.
