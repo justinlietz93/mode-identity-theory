@@ -84,8 +84,6 @@ R is fixed observationally from the CMB, independent of Λ. The power spectrum s
 
 $$R = \frac{L_\text{fund} \times 7.93}{\pi} \approx 5.3 \text{ Gpc} = 1.64 \times 10^{26} \text{ m}$$
 
-The spectral derivation of the ratio from the topology of $S^3$ predicts $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$; the observed value 7.93 falls outside this range. The gap is an open question in the derivation of R.
-
 This value of R enters the eigenvalue computation.
 
 The Möbius strip has a single boundary traversed twice. Traversing the strip once returns a field to the opposite side — the geometry itself imposes the sign flip:
@@ -117,7 +115,7 @@ The cosmological background selects the ground mode:
 
 ### A. Totally Geodesic Embedding
 
-The ground mode has no internal nodes. On a curved ambient space, a nodeless surface mode lies flat in the embedding: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition, a geometric consequence of $m = 0$.
+The ground mode has no internal nodes. The embedding that matches this is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition, the unique embedding carrying no bending information, selected by the ground mode's simplicity.
 
 $K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. The universal cover of the Möbius strip embeds in the equatorial belt of a great $S^2 \subset S^3$ with $K_{ij} = 0$ everywhere. The Möbius identification is the antipodal map:
 
@@ -129,7 +127,7 @@ A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature
 
 $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2$$
 
-Gaussian curvature $K = 1/R^2$. Scalar curvature $R_\Sigma = 2K = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: a coordinate pole at the midpoint of the strip, smooth on the surface.
+Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: a coordinate pole at the midpoint of the strip, smooth on the surface.
 
 ### B. The Eigenvalue
 
@@ -159,17 +157,17 @@ The Bochner identity gives $\lambda_0 \geq R_\Sigma$ from below, independently o
 
 On an eigenfunction $-\Delta u = \lambda u$, the Bochner formula in dimension 2 gives:
 
-$$\frac{1}{2}\Delta|\nabla u|^2 = |\nabla^2 u|^2 + K|\nabla u|^2 - \lambda|\nabla u|^2$$
+$$\frac{1}{2}\Delta|\nabla u|^2 = |\nabla^2 u|^2 + K_G|\nabla u|^2 - \lambda|\nabla u|^2$$
 
-Integrating over the surface: the left side becomes a boundary integral. Neumann boundary conditions ($\partial_\nu u = 0$) combined with totally geodesic embedding ($K_{ij} = 0$) kill the boundary term identically. The bulk identity becomes:
+Integrating over the surface: the left side becomes a boundary integral. The boundary curves $w = \pm W$ are geodesics of the surface ($\kappa_g = 0$), and Neumann conditions hold ($\partial_\nu u = 0$); together these kill the boundary term identically. The bulk identity becomes:
 
-$$\int|\nabla^2 u|^2 = (\lambda - K)\int|\nabla u|^2$$
+$$\int|\nabla^2 u|^2 = (\lambda - K_G)\int|\nabla u|^2$$
 
 Cauchy-Schwarz on the $2\times 2$ Hessian gives $|\nabla^2 u|^2 \geq (\Delta u)^2/2 = \lambda^2 u^2/2$. Integrating and using $\int|\nabla u|^2 = \lambda\int u^2$:
 
-$$(\lambda - K)\lambda\int u^2 \geq \frac{\lambda^2}{2}\int u^2$$
+$$(\lambda - K_G)\lambda\int u^2 \geq \frac{\lambda^2}{2}\int u^2$$
 
-Dividing by $\lambda\int u^2 > 0$: $\lambda - K \geq \lambda/2$, hence $\lambda \geq 2K = R_\Sigma$.
+Dividing by $\lambda\int u^2 > 0$: $\lambda - K_G \geq \lambda/2$, hence $\lambda \geq 2K_G = R_\Sigma$.
 
 Two independent bounds establish equality:
 
