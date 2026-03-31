@@ -46,7 +46,7 @@ Faces ($Z_3$) sort color, and Edges ($Z_4$) sort spin. The eta sign gates charge
 
 ## Inputs
 
-Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the time.
+Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the present epoch. 
 
 **Primitives**
 
