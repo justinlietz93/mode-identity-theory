@@ -166,6 +166,14 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 | 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 |
 | 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 |
 
+**Notes on the table.**
+
+*Neutrino masses.* The $\nu_1$ "observed" value is inferred from oscillation data assuming normal hierarchy; the absolute mass is experimentally unknown. KATRIN, JUNO, and Project 8 will constrain this. The $\nu_3$ value uses $\sqrt{\Delta m^2_{31}}$ as a proxy.
+
+*Ambiguities at ranks 15 and 17.* Rank 15 sits between the muon (105.7 MeV) and strange quark (93.4 MeV), particles with different quantum numbers. Rank 17 sits between the charm quark (1.27 GeV) and tau lepton (1.777 GeV). The mass formula places each rank at the correct mass shell but does not yet resolve which particle occupies it. The electroweak selection rule (Section IV.4) is the mechanism intended to break these degeneracies; that derivation is in progress.
+
+*The b-quark cluster.* Five entries (ranks 18-22) from four distinct $(\rho, \sigma)$ pairs cluster near the b mass at 4.18 GeV, with ratios from 1.28 to 2.80. This is a dense region of the spectrum where multiple irrep-vacuum combinations land in the same mass shell. The closest entry is rank 18 ($R_2$, gal, ratio 1.28). Whether the remaining entries represent structural redundancy, mixing contributions, or unassigned states is open.
+
 ## IV. Particle Identity
 
 The mass formula assigns each Standard Model fermion to a pair $(\rho, \sigma)$. The mass comes from the torsion. The identity comes from the stabilizer structure of the icosahedron.
@@ -263,7 +271,9 @@ The three stabilizer orders 2, 3, 5 are the primes dividing $|2I| = 120$ and the
 
 Eight entries have no Standard Model assignments. Six fall in the dead zone (ranks 4--9) between $10^{-9}$ and $10^{-6}$ GeV (eV to keV), where no fundamental fermions are expected. One is a target (rank 16) in a normal mass range where a particle could exist but has no current SM assignment. One is excluded (rank 3) by existing data.
 
-The dead zone is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings.
+The dead zone is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings. The framework is agnostic about whether these entries correspond to propagating particles or are structural residuals of the spectrum with no physical realization. If physical, they are candidates for sterile neutrino or warm dark matter searches in the eV-keV window.
+
+Rank 16 ($R_5$, std) at 349 MeV sits in a normal mass range between the strange quark and charm quark. No SM fermion occupies this mass. If the entry is physical, it predicts an undiscovered state; if not, it joins the dead zone as a structural residual. Either outcome is informative.
 
 | Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range | Status |
 |---|---|---|---|---|---|---|
