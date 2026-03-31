@@ -32,6 +32,8 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 [Hubble Tension](hubble-tension.md)
 
+[![Hubble Tension](https://img.youtube.com/vi/zg7il8pWhAY/mqdefault.jpg)](https://www.youtube.com/watch?v=zg7il8pWhAY)
+
 ---
 
 **Embedded sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
