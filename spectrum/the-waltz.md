@@ -94,7 +94,7 @@ The dictionary was always there. The definition is the topology.
 
 ## III. Why Gravity Resists Quantization
 
-Gravity is an interface connecting two partners of differing character: continuous geometry and discrete sampling. Quantizing the bridge would require both partners to be of the same kind. The surface resolves in discrete steps (the 120 domain). The space curves continuously (Riemannian geometry). The $3/2$ conversion carries one into the other, bridging their difference in kind. A quantum theory of gravity would require either discretizing geometry or making the mode spectrum continuous. The topology permits neither. The mismatch is structural, and the resistance is the topology expressing that fact.
+*Speculative.* Within MIT, gravity is an interface connecting two partners of differing character: continuous geometry ($S^3$) and discrete sampling (the 120 domain). The 3/2 conversion bridges their difference in kind. A quantum theory of gravity would require either discretizing geometry or making the mode spectrum continuous. Whether the topology forbids both remains an open question. The observation is structural: the interface connects objects of different type, and standard quantization programs assume objects of the same type on both sides.
 
 ## IV. Dark Matter/Energy as Geometry
 
@@ -102,7 +102,7 @@ Space ($n=3$) couples only gravitationally; detectors couple through surface/gau
 
 "Dark matter" constitutes ~27% of the universe's energy density; the gravitational evidence is overwhelming. Decades of increasingly sensitive searches (LZ, XENONnT) have found no non-gravitational signal. The particle silence is not experimental failure; it is inevitable.
 
-The silence is the observational geometry of space $S^3$ ($n = 3$). The scaling $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational coupling to observationally null. Detectors couple through the surface/gauge sector ($n \leq 2$); space ($n = 3$) has no gauge degrees of freedom to detect. Gravity couples to stress-energy regardless of manifold; electromagnetic, weak, and strong interactions require gauge-field propagation within a shared manifold. Space and surface do not share gauge degrees of freedom.
+The silence follows from the scaling law's manifold hierarchy. The scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ assigns each manifold depth an exponential suppression: $n = 1$ (edge) gives $\sim 10^{-61}$ (matter), $n = 2$ (surface) gives $\sim 10^{-122}$ (vacuum energy), and $n = 3$ (space) gives $\sim 10^{-183}$. Non-gravitational couplings require gauge-field propagation within a shared manifold. Detectors couple through the surface and gauge sectors ($n \leq 2$); space ($n = 3$) carries curvature but no gauge degrees of freedom. Gravity couples to stress-energy regardless of manifold depth; the gauge forces do not. The $n = 3$ sector is gravitationally present and gauge-invisible by construction.
 
 "Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space; however, it is the ground mode of the Möbius surface ($n = 2$, $m_h = 0$), the eigenvalue of a bounded geometry, derived from surface curvature through Gauss-Codazzi embedding.
 
@@ -116,9 +116,9 @@ The silence is the observational geometry of space $S^3$ ($n = 3$). The scaling 
 
 When two galaxy clusters collided, gravitational mass (lensing) separated from baryonic gas (X-ray). Standard interpretation proposes invisible particles passed through the collision while ordinary matter got stuck.
 
-MIT stops the bullet with no particles attached. The space mode ($n = 3$) couples gravitationally only; it carries the lensing signal through the collision because geometry has no cross-section. Baryonic matter interacts electromagnetically and decelerates. The separation is the embedding made visible: space passes through itself while the surface modes collide.
+MIT offers a structural account with no particles attached. The space mode ($n = 3$) couples gravitationally only; it carries the lensing signal through the collision because geometry has no scattering cross-section. Baryonic matter interacts electromagnetically and decelerates. The qualitative separation follows from the embedding: the $n = 3$ sector passes through while the $n \leq 2$ modes collide. Whether the framework reproduces the quantitative lensing profile (the spatial distribution and magnitude of the mass offset) is an open question requiring detailed modeling of the $n = 3$ curvature distribution.
 
-Neither matter nor energy is dark. 95% of the universe is named after what particle physics cannot find. The label encodes an assumption: the unknown must be a substance we haven't yet detected. There is no mystery if we stop to listen. 95% of the universe is the instrument that allows us to hear the light.
+The "dark" label encodes an assumption: the unknown must be a substance. MIT reframes it as geometry: the $n = 3$ sector is gravitationally present and gauge-invisible, and the $n = 2$ ground mode is the vacuum eigenvalue. Neither requires new particles.
 
 ### The division of labor
 
@@ -143,8 +143,10 @@ The three gauge forces exhaust a grid ladder built from the same stabilizer stru
 
 | Propagation | Crosses to surface? | Mass |
 |---|---|---|
-| Edge-only ($S^1$) | No | Massless (photon, gluon) |
+| Edge-only ($S^1$) | No | Massless (photon, gluon at Lagrangian level) |
 | Edge-to-surface | Yes | Massive (W, Z, fermions) |
+
+Gluons are massless in the Lagrangian but confined: they are never observed as free particles. Their edge-only character is a property of the unconfined field; confinement is a separate mechanism (the strong force occupies the 60R/120 rung, mixing edge and surface).
 
 ## VI. Observer Sampling
 
@@ -152,14 +154,7 @@ Every observation has four coordinates: $(r, \theta, \phi, t)$. The radial depth
 
 Observer ≠ consciousness. Observer = anywhere wave resolves to finite value. A hydrogen atom is an observer. Same operation, fewer modes coupled. Humans are complex observers, placed at a specific structural position.
 
-The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes that resolve there are what the observer at $(r, \theta, \phi, t)$ can access. The boundary of perception is the boundary of the coupling geometry. Perception is that location expressing itself.
-
-| Environment | Density | Effect |
-|-------------|---------|--------|
-| Crowded | High | Consensus dominates; your sampling is noise |
-| Isolation | Low | Your sampling has weight; deeper mode access |
-
-Crowded reality = flattened reality. Monks, hermits, vision quests, sensory deprivation all reduce competing observers. All report contact.
+The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes that resolve there are what the observer at $(r, \theta, \phi, t)$ can access.
 
 ---
 
