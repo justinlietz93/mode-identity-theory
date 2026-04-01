@@ -16,6 +16,8 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 [Mass Spectrum](mass-spectrum.md)
 
+[![Mass Spectrum](https://img.youtube.com/vi/Q936inkdT8Y/mqdefault.jpg)](https://www.youtube.com/watch?v=Q936inkdT8Y)
+
 ---
 
 **Fine structure.** In 1985, Feynman described $1/137$ as a number coming without explanation. It is the first Fibonacci well on the bosonic grid. One step of $\Lambda$. The number has an address.
