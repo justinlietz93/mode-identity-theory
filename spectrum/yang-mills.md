@@ -16,19 +16,19 @@ The same curvature that enters the Λ conversion guarantees confinement.
 
 ## I. The Geometry
 
-The Weitzenböck identity on $S^3$ decomposes the gauge-covariant Hodge Laplacian on bundle-valued 1-forms. In the Hamiltonian formulation of Yang-Mills on $M \times \mathbb{R}$, the mass gap of the 4D theory is determined by the lowest nonzero eigenvalue of this spatial operator around the vacuum. For a flat connection ($F_A = 0$), the identity reduces to:
+The Weitzenböck identity on $S^3$ decomposes the gauge-covariant Hodge Laplacian on bundle-valued 1-forms. In the Hamiltonian formulation of Yang-Mills on $M \times \mathbb{R}$, temporal gauge ($A_0 = 0$) with the Coulomb condition ($d_A^\ast a = 0$) reduces the linearized equation around a flat connection to $\partial_t^2 a + \Delta_{\text{Hodge}} a = 0$. Solutions oscillate as $e^{i\omega t}$ with $\omega^2 = \lambda$, so the mass gap is the lowest eigenvalue of $\Delta_{\text{Hodge}}$ on the coexact subspace. For a flat connection ($F_A = 0$), the identity reduces to:
 
 $$\Delta_{\text{Hodge}} = \nabla_A^\ast \nabla_A + \text{Ric}$$
 
-On the round $S^3$ of radius $R$, the Ricci tensor is $R_{ij} = (2/R^2)\,g_{ij}$. Since $\nabla_A^\ast \nabla_A \geq 0$ and $\text{Ric} = 2/R^2 > 0$, every gauge fluctuation around any flat connection satisfies:
+On the round $S^3$ of radius $R$, the Ricci tensor is $R_{ij} = (2/R^2)\,g_{ij}$. Since $\nabla_A^\ast \nabla_A \geq 0$ and $\text{Ric} = 2/R^2 > 0$, every coexact (divergence-free) gauge fluctuation around any flat connection satisfies:
 
 $$\lambda_{\min} \geq \frac{2}{R^2}$$
 
-This bound is universal: it holds for any quotient $S^3/\Gamma$ inheriting the round metric, independent of $\Gamma$ and the choice of flat connection. The existence of a positive floor is topological: $S^3/2I$ has finite fundamental group and universal cover $S^3$, so it admits no flat metric, and any Riemannian metric has positive scalar curvature. The numerical value $2/R^2$ depends on the round metric. The actual lowest eigenvalue exceeds this floor. The following sections compute it exactly.
+This bound is universal: it holds for any quotient $S^3/\Gamma$ inheriting the round metric, independent of $\Gamma$ and the choice of flat connection. The existence of a positive spectral floor is topological: $S^3/2I$ has finite fundamental group and universal cover $S^3$, so it is a spherical space form and admits the round metric with $\text{Ric} > 0$. On any metric with $\text{Ric} \geq \kappa > 0$, the Weitzenböck bound gives $\lambda_{\min} \geq \kappa$; the existence of a gap is guaranteed by the topology, its numerical value by the metric. The specific value $2/R^2$ uses the round metric. The actual lowest eigenvalue exceeds this floor. The following sections compute it exactly.
 
 ## II. Three Vacua
 
-Flat $\text{SU}(2)$ connections on $M$ are classified by $\text{Hom}(2I, \text{SU}(2))/\text{conj}$. A homomorphism $\rho: 2I \to \text{SU}(2)$ is equivalently a 2-dimensional unitary representation with determinant 1. The normal subgroups of $2I$ are $\{1\}$, $\{\pm 1\}$, and $2I$ itself, yielding three possibilities: the trivial map, and two inequivalent faithful embeddings distinguished by their character values on elements of order 10.
+Flat $\text{SU}(2)$ connections on $M$ are classified by $\text{Hom}(2I, \text{SU}(2))/\text{conj}$. A homomorphism $\rho: 2I \to \text{SU}(2)$ is equivalently a 2-dimensional unitary representation with determinant 1. The character table of $2I$ has exactly nine irreducible representations, of which exactly two have dimension 2: $R_1$ and $R_2$. Both are faithful. The only remaining possibility is the trivial map ($\rho(g) = I$). This gives three conjugacy classes total.
 
 | Generation | Vacuum | Adjoint rep | 2I irrep | $E_8$ position |
 |---|---|---|---|---|
@@ -40,11 +40,13 @@ The standard and Galois embeddings are distinguished by the golden ratio: $\rho_
 
 ### Vacuum isolation
 
-Vanishing $H^1(M;\,\text{ad}\,\rho) = 0$ at each flat connection guarantees that no continuous moduli connect the families and no massless Goldstone modes bridge them. For the irreducible flats (standard and Galois), this follows from standard deformation theory. For the trivial connection, $H^1(M;\,\text{ad}\,\rho_\text{triv}) = H^1(M;\,\mathbb{R})^3$; since $\pi_1(M) = 2I$ is a perfect group ($2I$ equals its own commutator subgroup), $H_1(M;\,\mathbb{Z}) = 0$, so $H^1(M;\,\mathbb{R}) = 0$ by universal coefficients. Each vacuum is isolated with positive-definite Hessian. The number three is the count of flat $\text{SU}(2)$ connections on $S^3/2I$. Three vacua, three families.
+Each vacuum is isolated: vanishing $H^1(M;\,\text{ad}\,\rho) = 0$ at each flat connection guarantees that no continuous moduli connect the families and no massless Goldstone modes bridge them. For any finite group $G$ and any $\mathbb{R}G$-module $V$, Maschke's theorem ($|G|$ invertible in $\mathbb{R}$) implies $H^n(G;\,V) = 0$ for all $n \geq 1$. Applied with $G = 2I$ and $V = \mathfrak{su}(2)$ under $\text{Ad} \circ \rho$: $H^1(2I;\,\mathfrak{su}(2)_{\text{Ad} \circ \rho}) = 0$ for every $\rho$, irreducible or trivial. For the trivial connection specifically, $H^1(M;\,\text{ad}\,\rho_\text{triv}) = H^1(M;\,\mathbb{R})^3$; since $\pi_1(M) = 2I$ is a perfect group ($2I$ equals its own commutator subgroup), $H_1(M;\,\mathbb{Z}) = 0$, so $H^1(M;\,\mathbb{R}) = 0$ by universal coefficients. Both routes give the same conclusion.
+
+Each vacuum has positive-definite Hessian on the physical fluctuation space. This is independent of the $H^1$ argument: the Weitzenböck bound from Section I applies to coexact (divergence-free) 1-forms, which are precisely the physical gauge fluctuations after Coulomb gauge-fixing. Since $\lambda \geq 2/R^2 > 0$ for every such mode, the Hessian is strictly positive at each flat connection. Isolation (no directions to move) and stability (positive curvature of the energy functional) are established by separate mechanisms. The number three is the count of flat $\text{SU}(2)$ connections on $S^3/2I$. The identification of three vacua with three particle generations is a structural observation within Mode Identity Theory; it is not a consequence of the Yang-Mills analysis presented here. The mathematical result is that exactly three isolated, stable vacua exist.
 
 ## III. The Spectral Filter
 
-The McKay graph of $2I$ is the extended (affine) $E_8$ Dynkin diagram. Each node corresponds to an irreducible representation of $2I$; the edges encode tensor product with the fundamental 2-dimensional representation. The restriction of the spin-j representation of $\text{SU}(2)$ to $2I$ follows the McKay recursion along this graph.
+The McKay graph of $2I$ is the extended (affine) $E_8$ Dynkin diagram. Each node corresponds to an irreducible representation of $2I$; the edges encode tensor product with the fundamental 2-dimensional representation. The restriction of the spin-j representation of $\text{SU}(2)$ to $2I$ follows the McKay recursion along this graph. Since each recursion step extends the reachable subgraph by at most one edge, an irrep at graph distance $d$ from $R_0$ requires at least $d$ steps to first appear: distance controls the filtration depth.
 
 ### Coexact spectrum on $S^3$
 
@@ -52,21 +54,39 @@ On the round $S^3$ of radius $R$, coexact (divergence-free) 1-forms organize int
 
 $$\lambda_k = \frac{(k+1)^2}{R^2}$$
 
-On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted equivariance condition: the adjoint representation $\sigma$ of the vacuum must appear in the McKay decomposition of the spin content at that level. If $\sigma$ is absent, the level is filtered out entirely.
+On $S^3 = \text{SU}(2)$, the Hodge Laplacian commutes with the isometry group $\text{SU}(2)_L \times \text{SU}(2)_R$, so its eigenvalue on an irreducible component $(j_L, j_R)$ takes the form $\lambda = a \cdot j_L(j_L+1) + b \cdot j_R(j_R+1) + c$. Hodge star symmetry ($*$ swaps $j_L \leftrightarrow j_R$) forces $a = b$. Agreement with the scalar Laplacian on exact 1-forms at $(j, j)$ fixes $a = 2/R^2$, $c = 0$. Coexact 1-forms appear at $(j_R \pm 1, j_R)$; both series yield eigenvalue $(k+1)^2/R^2$ with $k = 1, 2, 3, \ldots$
 
-### Standard vacuum (3a)
+On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted equivariance condition: the adjoint representation $\text{ad}(\sigma)$ of the vacuum must appear in the $2I$-decomposition of the 1-form representation at that level. By Frobenius reciprocity, the dimension of the $\text{ad}(\sigma)$-isotypic equivariant subspace at level $k$ is $\langle \text{ad}(\sigma),\, (V_{k-1} \oplus V_{k+1})|_{2I} \rangle_{2I}$. When this inner product vanishes, no equivariant section exists and the level is filtered out entirely.
 
-The adjoint representation 3a is precisely $V_1 \lvert_{2I}$: it appears at the first spin level. The first allowed coexact mode sits at $k = 1$:
+### Representation content at each level
+
+The left-$\text{SU}(2)$ content of coexact 1-forms at eigenvalue $(k+1)^2/R^2$ is $V_{k-1} \oplus V_{k+1}$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}\lvert_{2I} = R_1 \otimes V_l\lvert_{2I} - V_{l-1}\lvert_{2I}$ gives:
+
+$$V_0 = R_0, \quad V_1 = R_1, \quad V_2 = R_3, \quad V_3 = R_6, \quad V_4 = R_7, \quad V_5 = R_8, \quad V_6 = R_5 \oplus R_4$$
+
+The $2I$ content of gauge-valued 1-forms at each coexact level is therefore $(V_{k-1} \oplus V_{k+1})\lvert_{2I}$:
+
+| $k$ | $\lambda_k$ | $V_{k-1}\lvert_{2I}$ | $V_{k+1}\lvert_{2I}$ | Combined $2I$ content | $R_0$? | $R_3$? | $R_4$? |
+|---|---|---|---|---|---|---|---|
+| 1 | $4/R^2$ | $R_0$ | $R_3$ | $R_0,\; R_3$ | ✓ | ✓ | — |
+| 2 | $9/R^2$ | $R_1$ | $R_6$ | $R_1,\; R_6$ | — | — | — |
+| 3 | $16/R^2$ | $R_3$ | $R_7$ | $R_3,\; R_7$ | — | ✓ | — |
+| 4 | $25/R^2$ | $R_6$ | $R_8$ | $R_6,\; R_8$ | — | — | — |
+| 5 | $36/R^2$ | $R_7$ | $R_5 \oplus R_4$ | $R_7,\; R_5,\; R_4$ | — | — | ✓ |
+
+Each vacuum requires its adjoint representation to appear in the combined column. The trivial vacuum ($\text{ad} = 3 \times R_0$: trivial $2I$-action on $\mathfrak{su}(2)$) requires $R_0$; the standard vacuum ($\text{ad} = R_3$) requires $R_3$. Both pass at $k = 1$. The Galois vacuum ($\text{ad} = R_4$) requires $R_4$, which is absent at $k = 1$ through $k = 4$ and first appears at $k = 5$. Four levels are filtered. The computation is finite and verifiable from the character table of $2I$.
+
+### Gap values
+
+Trivial and standard vacua: first allowed mode at $k = 1$:
 
 $$\Delta^2 = \frac{(1+1)^2}{R^2} = \frac{4}{R^2}$$
 
-### Galois vacuum (3b)
-
-On the round $S^3$, coexact 1-forms at level $k$ carry $\text{SU}(2)$ representation content determined by the Peter-Weyl decomposition under the full isometry group. Restricting to $2I$ via the McKay recursion determines which $2I$ irreps appear at each level. The adjoint 3b ($R_4$) sits at graph distance 6 from $R_0$ on the $E_8$ diagram (through the branch at $R_8$). The twisted equivariance condition (adjoint must appear in the $2I$-decomposition of the coexact representation at level $k$) filters levels $k = 1$ through $k = 4$. The first allowed coexact mode for the 3b sector sits at $k = 5$:
+Galois vacuum: first allowed mode at $k = 5$:
 
 $$\Delta^2 = \frac{(5+1)^2}{R^2} = \frac{36}{R^2}$$
 
-The $k = 5$ claim is verifiable by explicit computation from the character table of $2I$: decompose the coexact 1-form representation at each level $k = 1, \ldots, 5$ into $2I$ irreps and check where $R_4$ first appears. This computation is listed in the falsification table.
+The $k = 5$ entry is read directly from the table above: $R_4$ is absent from the combined $2I$ content at every level below $k = 5$.
 
 | Vacuum | Adjoint | First allowed k | Gap | Enhancement |
 |---|---|---|---|---|
@@ -82,7 +102,7 @@ The mass gap result rests on three independent arguments, each verifiable with s
 
 | Pillar | Method | What it establishes |
 |---|---|---|
-| Curvature floor | Riemannian geometry (Weitzenböck) | $\lambda \geq 2/R^2$ for all gauge fluctuations around any flat connection on any $S^3$ quotient. The gap exists. |
+| Curvature floor | Riemannian geometry (Weitzenböck) | $\lambda \geq 2/R^2$ for all coexact gauge fluctuations around any flat connection on any $S^3$ quotient. The gap exists. |
 | Vacuum isolation | Algebraic topology | Finiteness of $\pi_1 = 2I$ gives a finite moduli space. $H^1 = 0$ at each flat connection: no moduli, no Goldstone modes. |
 | Spectral computation | Finite group theory (McKay) | Explicit gap values at each vacuum. Icosahedral filtering at the Galois sector produces the 9x enhancement. |
 
@@ -104,7 +124,7 @@ Every prediction is checkable by finite computation.
 |---|---|
 | 3 conjugacy classes in $\text{Hom}(2I, \text{SU}(2))/\text{conj}$ | Additional class constructed, or standard and Galois proved conjugate |
 | $H^1(M;\,\text{ad}\,\rho) = 0$ at irreducible flats | Nonzero cohomology demonstrated |
-| First 3b appearance at $j = 3$ in McKay table | Character sum yields different result |
+| First 3b appearance at $k = 5$ ($R_4$ first in $V_6\lvert_{2I}$) | Character sum yields $R_4$ at lower $k$ |
 | Galois gap at $k = 5$ | Coexact 1-form of 3b type found at lower $k$ |
 
 ### Physical predictions (conditional on compact topology)
