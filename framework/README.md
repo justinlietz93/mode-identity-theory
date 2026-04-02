@@ -47,13 +47,15 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 | $\ell_P$ | $\sqrt{\hbar G/c^3}$ | $1.616 \times 10^{-35}$ m |
 | $t_P$ | $\ell_P/c$ | $5.391 \times 10^{-44}$ s |
 | $a_P$ | $c/t_P$ | $5.561 \times 10^{51}$ m/s² |
-| $\Omega_\Lambda$ | $(R_\Lambda/\ell_P)^2$ | $\approx 10^{122}$ |
+| $\Omega_\Lambda$ | $(R_\Lambda/\ell_P)^2$ | $\approx 10^{122}$ * |
+
+> *$\Omega_\Lambda$ here is the Planck-area count on the de Sitter horizon, not the standard cosmological density fraction ($\Omega_\Lambda^\text{ΛCDM} \approx 0.685$). The two are related by $\Omega_\Lambda = 3/(\Lambda \cdot \ell_P^2) \sim 10^{122}$.
 
 ## The Topology
 
 $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the structure: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. There was only one choice.
+A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the manifold triad: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. The postulate has one realization.
 
 **[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
 
@@ -77,15 +79,17 @@ The Möbius strip is the minimal non-orientable surface with $S^1$ boundary. By 
 
 Orientable surfaces satisfy none of these. The Möbius strip is the unique surface satisfying all three.
 
-The eigenvalue problem $-\partial_y^2 \psi = \lambda \psi$ under the anti-periodic BC requires $e^{ik\pi R} = -1$, giving $k\pi R = (2m+1)\pi$. The constant mode is forbidden. Matter is fermionic because the surface is non-orientable.
+The eigenvalue problem $-\partial_y^2 \psi = \lambda \psi$ under the anti-periodic BC requires $e^{ik\pi R_\Lambda} = -1$, giving $k = (2m+1)/R_\Lambda$. Defining the mode number $\nu = kR_\Lambda/2$, the allowed values are $\nu = 1/2, 3/2, 5/2, \ldots$: half-integers in this normalization. The constant mode ($k = 0$) is forbidden. Matter is fermionic because the surface is non-orientable.
 
 ### Temporal Edge
 
-$S^1$ is the boundary of the Möbius surface: a closed loop with geometric circumference $\pi R_\Lambda$. The edge inherits the anti-periodic boundary condition. This is where time advances and where the observer is anchored.
+$S^1$ is the boundary of the Möbius surface. The strip has longitudinal period $L = \pi R_\Lambda$ (one lap); the boundary $S^1$ traverses the strip twice before closing, giving geometric circumference $2L = 2\pi R_\Lambda$. The edge inherits the anti-periodic boundary condition. This is where time advances and where the observer is anchored.
+
+The chronon and standing wave period operate in the phase parameter $t \in [0, 4\pi]$, not in geometric length. The factor $4\pi$ is the anti-periodic wave period (two sign-flip traversals), dimensionless.
 
 ### The Observable Domain
 
-The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral group $2I$, the largest exceptional discrete subgroup of SU(2), with $|2I| = 120$.
+The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral group $2I$, with $|2I| = 120$. The discrete subgroups of SU(2) $\cong S^3$ are classified: cyclic and binary dihedral families (infinite, parameterized by $n$) and three exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). The mode spectrum requires the finest discrete partition compatible with $S^3$; $2I$ is selected as the largest exceptional discrete subgroup, giving maximum resolution.
 
 Four auxiliary paths converge on this number (three independent):
 1. Group theory of $S^3$ gives $|2I| = 120$ directly
@@ -104,11 +108,11 @@ Four auxiliary paths converge on this number (three independent):
 
 $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
-**The minimum action** $\Delta S_{\min} = \hbar\pi/30$ is absolute: a Lorentz scalar that holds in every frame.
+**The minimum action** $\Delta S_{\min} = \hbar\pi/30$: frame-independent by construction ($\hbar$ is invariant; $\pi/30$ is a pure number set by the topology, not by a coordinate choice).
 
 ### Confinement
 
-Positive Ricci curvature on $S^3$ means every gauge fluctuation has a minimum eigenvalue. The Weitzenböck identity gives $\lambda \geq 2/R_\Lambda^2 > 0$ for all modes. The mass gap exists and equals $2/R_\Lambda^2$. Confinement is geometric.
+Positive Ricci curvature on $S^3$ means every coexact gauge fluctuation around a flat connection has a minimum eigenvalue. The Weitzenböck identity on the Hodge Laplacian gives $\lambda \geq 2/R_\Lambda^2 > 0$. The mass gap exists and is at least $2/R_\Lambda^2$; the actual gap at the trivial and standard vacua is $4/R_\Lambda^2$. Confinement is geometric.
 
 ### Three Generations
 
