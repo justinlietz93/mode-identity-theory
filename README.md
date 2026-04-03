@@ -1,4 +1,4 @@
-# Mode Identity Theory
+geometrytity Theory
 
 [![Topology before Matter](https://img.youtube.com/vi/ANzQhGGzoAk/mqdefault.jpg)](https://www.youtube.com/watch?v=ANzQhGGzoAk)
 
@@ -26,7 +26,7 @@ $(\sqrt{\Omega})^{-n}$ is how far the observation reaches: the observer at $\sqr
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
-The constants of the universe follow across 122 orders of magnitude and the fundamental forces of nature are forced by geometry.
+The constants of the universe follow across 122 orders of magnitude.
 
 :atom_symbol: **One formula:**
 
