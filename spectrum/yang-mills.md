@@ -56,17 +56,17 @@ $$\lambda_k = \frac{(k+1)^2}{R^2}$$
 
 On $S^3 = \mathrm{SU}(2)$, the Hodge Laplacian commutes with the isometry group $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$, so its eigenvalue on an irreducible component $(j_L, j_R)$ takes the form $\lambda = a \cdot j_L(j_L+1) + b \cdot j_R(j_R+1) + c$. Hodge star symmetry ($*$ swaps $j_L \leftrightarrow j_R$) forces $a = b$. Agreement with the scalar Laplacian on exact 1-forms at $(j, j)$ fixes $a = 2/R^2$, $c = 0$. Coexact 1-forms appear at $(j_R \pm 1, j_R)$; both series yield eigenvalue $(k+1)^2/R^2$ with $k = 1, 2, 3, \ldots$
 
-On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted equivariance condition: the adjoint representation $\mathrm{ad}(\sigma)$ of the vacuum must appear in the $2I$-decomposition of the 1-form representation at that level. By Frobenius reciprocity, the dimension of the $\mathrm{ad}(\sigma)$-isotypic equivariant subspace at level $k$ is $\langle \mathrm{ad}(\sigma),\, (V_{k-1} \oplus V_{k+1})|_{2I} \rangle_{2I}$. When this inner product vanishes, no equivariant section exists and the level is filtered out entirely.
+On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted equivariance condition: the adjoint representation $\mathrm{ad}(\sigma)$ of the vacuum must appear in the $2I$-decomposition of the 1-form representation at that level. By Frobenius reciprocity, the dimension of the $\mathrm{ad}(\sigma)$-isotypic equivariant subspace at level $k$ is $\langle \mathrm{ad}(\sigma),\, (V_{k-1} \oplus V_{k+1})\vert_{2I} \rangle_{2I}$. When this inner product vanishes, no equivariant section exists and the level is filtered out entirely.
 
 ### Representation content at each level
 
-The left-$\mathrm{SU}(2)$ content of coexact 1-forms at eigenvalue $(k+1)^2/R^2$ is $V_{k-1} \oplus V_{k+1}$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}|_{2I} = R_1 \otimes V_l|_{2I} - V_{l-1}|_{2I}$ gives:
+The left-$\mathrm{SU}(2)$ content of coexact 1-forms at eigenvalue $(k+1)^2/R^2$ is $V_{k-1} \oplus V_{k+1}$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}\vert_{2I} = R_1 \otimes V_l\vert_{2I} - V_{l-1}\vert_{2I}$ gives:
 
 $$V_0 = R_0, \quad V_1 = R_1, \quad V_2 = R_2, \quad V_3 = R_3, \quad V_4 = R_4, \quad V_5 = R_5, \quad V_6 = R_6 \oplus R_8$$
 
-The $2I$ content of gauge-valued 1-forms at each coexact level is therefore $(V_{k-1} \oplus V_{k+1})|_{2I}$:
+The $2I$ content of gauge-valued 1-forms at each coexact level is therefore $(V_{k-1} \oplus V_{k+1})\vert_{2I}$:
 
-| $k$ | $\lambda_k$ | $V_{k-1}|_{2I}$ | $V_{k+1}|_{2I}$ | Combined $2I$ content | $R_0$? | $R_2$? | $R_8$? |
+| $k$ | $\lambda_k$ | $V_{k-1}\vert_{2I}$ | $V_{k+1}\vert_{2I}$ | Combined $2I$ content | $R_0$? | $R_2$? | $R_8$? |
 |---|---|---|---|---|---|---|---|
 | 1 | $4/R^2$ | $R_0$ | $R_2$ | $R_0,\; R_2$ | ✓ | ✓ | — |
 | 2 | $9/R^2$ | $R_1$ | $R_3$ | $R_1,\; R_3$ | — | — | — |
@@ -124,7 +124,7 @@ Every prediction is checkable by finite computation.
 |---|---|
 | 3 conjugacy classes in $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$ | Additional class constructed, or standard and Galois proved conjugate |
 | $H^1(M;\,\mathrm{ad}\,\rho) = 0$ at irreducible flats | Nonzero cohomology demonstrated |
-| First 3b appearance at $k = 5$ ($R_8$ first in $V_6|_{2I}$) | Character sum yields $R_8$ at lower $k$ |
+| First 3b appearance at $k = 5$ ($R_8$ first in $V_6\vert_{2I}$) | Character sum yields $R_8$ at lower $k$ |
 | Galois gap at $k = 5$ | Coexact 1-form of 3b type found at lower $k$ |
 
 ### Physical predictions (conditional on compact topology)
