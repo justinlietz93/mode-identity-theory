@@ -397,3 +397,7 @@ The spectral inaccessibility theorem is a negative result for the RH direction. 
 ---
 
 *The manifold is a perfect mirror of arithmetic, but not a tool for proving the Riemann hypothesis. Mirrors show you everything. They determine nothing. That's not a failure, it's the theorem.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
