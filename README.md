@@ -91,18 +91,18 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](cosmos/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](cosmos/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ~3% |
 | [↗](cosmos/hubble-tension.md) $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
-| [↗](cosmos/hubble-tension.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
-| [↗](cosmos/hubble-tension.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
-| [↗](cosmos/hubble-tension.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
-| [↗](cosmos/black-hole.md) Null dark matter | permanent | ongoing null results | ✓ |
+| [↗](cosmos/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
+| [↗](cosmos/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| [↗](cosmos/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
+| [↗](spectrum/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](spectrum/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
-| [↗](spectrum/mass-spectrum.md) Particle generations | 3 (mass gaps) | 3 | exact |
+| [↗](spectrum/yang-mills.md) Particle generations | 3 (mass gaps) | 3 | exact |
 | [↗](spectrum/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
-| [↗](spectrum/mass-spectrum.md) Null SUSY | permanent | ongoing null results | ✓ |
+| [↗](spectrum/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
 | [↗](spectrum/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
-| [↗](spectrum/the-waltz.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
-| [↗](spectrum/the-waltz.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
-| [↗](spectrum/the-waltz.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
+| [↗](spectrum/mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| [↗](spectrum/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| [↗](spectrum/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
 | [↗](spectrum/mass-spectrum.md) Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | [↗](spectrum/mass-spectrum.md) $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | [↗](spectrum/mass-spectrum.md) $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
