@@ -15,7 +15,7 @@ The formula is applied to the 8 nontrivial irreducible representations of the bi
 
 ## I. The Formula
 
-$$\Large \boxed{m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times \left(\sqrt{\Omega_\Lambda}\right)^{\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
+$$\Large \boxed{m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot \left(\sqrt{\Omega_\Lambda}\right)^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}$$
 
 Four factors. Four sources. Each traces independently to the topological postulate.
 
