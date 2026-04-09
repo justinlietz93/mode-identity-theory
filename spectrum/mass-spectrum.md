@@ -297,3 +297,7 @@ $\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio 
 ---
 
 *The topology permits and Ψ settles. The formula composes and the masses land.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
