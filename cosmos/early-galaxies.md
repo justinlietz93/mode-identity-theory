@@ -79,4 +79,6 @@ In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four deca
 
 *The galaxies found too early were simply formed under a stronger age.*
 
+---
+
 / **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
