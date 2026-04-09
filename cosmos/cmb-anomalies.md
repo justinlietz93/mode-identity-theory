@@ -209,3 +209,7 @@ The primary external test is Euclid DR1 (October 2026), which probes the compani
 Three anomalies. One geometry. One locality cost. These are not noise.
 
 *What we called the axis of evil may be the axis of light.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
