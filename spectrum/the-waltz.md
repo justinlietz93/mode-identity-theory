@@ -161,3 +161,7 @@ The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes
 Space curves. The surface resolves. Gravity carries one into the other. $G$ is the dictionary between them.
 
 *General Relativity is the score; 3/2 is the time signature.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
