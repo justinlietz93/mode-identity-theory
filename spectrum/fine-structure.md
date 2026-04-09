@@ -262,3 +262,7 @@ The strongest tests are the first four. The grid ladder and Plato twist have alr
 One Coxeter pair $(13, 17)$ forced by the $E_8$ root system. One grid ladder exhausted by three forces. One twist correction selective to parity violation. Three gauge couplings from the geometry of the domain, at 0.5%, 1.4%, and 0.4%. Their ratio at 1.8% with no $\Omega$ input at all. Λ uses the full vacuum hierarchy. $\alpha$ uses one-sixtieth of it. The strong and weak forces fill the remaining rungs.
 
 *The fine structure constant is the fine structure of the cosmological constant: the vacuum hierarchy resolved at its grid limit.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
