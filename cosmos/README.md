@@ -76,4 +76,4 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 ---
 
-**[`framework/`](../framework/)** / **[`spectrum/`](../spectrum/)** 
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
