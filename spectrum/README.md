@@ -10,7 +10,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 **Confinement.** Curve a space enough and nothing escapes. Three isolated flat connections on $S^3/2I$ produce three families. The McKay correspondence filters the Galois sector through four empty levels; what survives is nine times heavier.
 
-[Yang-Mills](yang-mills.md)
+***[Yang-Mills](yang-mills.md)***
 
 [![Yang-Mills](https://img.youtube.com/vi/85xFu2kK6aE/mqdefault.jpg)](https://www.youtube.com/watch?v=85xFu2kK6aE)
 
@@ -18,7 +18,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 **Mass spectrum.** A neutrino floor, a geometric weight from the irrep, a spectral distance walked on the McKay graph, and a torsion ratio locked to 70+ digits. Every mass is a position on the same lattice. The hierarchy across twelve orders is the geometry heard at different seats in the room.
 
-[Mass Spectrum](mass-spectrum.md)
+***[Mass Spectrum](mass-spectrum.md)***
 
 [![Mass Spectrum](https://img.youtube.com/vi/eYO7BNcjxQI/mqdefault.jpg)](https://www.youtube.com/watch?v=eYO7BNcjxQI)
 
@@ -26,7 +26,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 **Fine structure.** In 1985, Feynman described $1/137$ as a number coming without explanation. It is the first Fibonacci well on the bosonic grid. One step of $\Lambda$. The number has an address.
 
-[Fine Structure](fine-structure.md)
+***[Fine Structure](fine-structure.md)***
 
 [![Fine Structure](https://img.youtube.com/vi/Z_NBRuKNFDI/mqdefault.jpg)](https://www.youtube.com/watch?v=Z_NBRuKNFDI)
 
@@ -34,7 +34,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 **The perfect mirror.** The same manifold that predicts masses and couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: the curvature that realizes matter is the same curvature that shields the primes.
 
-[The Mirror](the-mirror.md)
+***[The Mirror](the-mirror.md)***
 
 [![The Mirror](https://img.youtube.com/vi/78nEAE8Se4o/mqdefault.jpg)](https://www.youtube.com/watch?v=78nEAE8Se4o)
 
@@ -42,7 +42,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 **Gravity.** Embed a surface in a space and the curvature converts by $3/2$; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
 
-[The Waltz](the-waltz.md)
+***[The Waltz](the-waltz.md)***
 
 [![The Waltz](https://img.youtube.com/vi/5QDKZavD5g4/mqdefault.jpg)](https://www.youtube.com/watch?v=5QDKZavD5g4)
 
