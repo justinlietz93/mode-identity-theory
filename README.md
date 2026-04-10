@@ -6,11 +6,11 @@
 
 ---
 
-Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients, but better boundary conditions. Instead of changing Einstein's equations or speculating on new particles, MIT asks: what follows when shape comes before observation?
+Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients; it is missing better boundary conditions. Instead of changing Einstein's equations or speculating on new particles, MIT asks: what follows when shape comes before observation?
 
 Topology becomes structure, and this repository lays out the results. The universe admits a standing wave. Matter is a sample. Time ticks in phase. The observer is part of the realization, not external to it.
 
-In 300 BC, Euclid proved Plato's observation that only 5 solids close perfectly in space. In October of 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest is accounting.
+In 300 BC, Euclid proved Plato's observation that only 5 solids close perfectly in space. In October of 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest, is accounting.
 
 ---
 
