@@ -6,7 +6,7 @@
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble proved expansion, he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as dark energy. This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving expansion. Einstein was right the first time, for reasons then unknown.
 
-The Möbius surface selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius surface equals its scalar curvature exactly; the Gauss-Codazzi equations under totally geodesic embedding and isotropy convert this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
+The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss-Codazzi equations under totally geodesic embedding and isotropy convert this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
 
 | Quantity | Value |
 |---|---|
@@ -47,7 +47,7 @@ $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \empty
 
 | Manifold | Dim | Role |
 |---|---|---|
-| $S^1$ | 1D | Boundary of Möbius surface |
+| $S^1$ | 1D | Boundary of Möbius band |
 | Möbius | 2D | Non-orientable surface; carries eigenproblem |
 | $S^3$ | 3D | Space |
 
@@ -67,30 +67,30 @@ $$-\Delta_{\text{Mobius}} \, \psi = \lambda \, \psi$$
 
 The field $\psi$ is the modal amplitude on the surface; its intensity $\lvert\psi\rvert^2$ determines observable strength. The minus sign is convention, forcing a positive $\lambda$ for bound states.
 
-The Möbius surface has coordinates $(y, w)$:
+The Möbius band has coordinates $(y, w)$:
 
 | Coordinate | Range | Direction |
 |---|---|---|
 | $y$ | $[0, L]$ | Longitudinal (along the belt) |
 | $w$ | (drops out) | Transverse (across the width) |
 
-The Möbius identification twists the strip:
+The Möbius identification twists the band:
 
 $$(y + L, w) \sim\; (y, {-w})$$
 
-The longitudinal period $L$ is set by the embedding. Let $R$ denote the curvature radius of the ambient $S^3$. The boundary $S^1$ is a single closed loop traversing the strip twice; its total length is $2L$. The embedding selects $S^1$ as a great circle of $S^3$ (the maximally symmetric, geodesic choice), with circumference $2\pi R$:
+The longitudinal period $L$ is set by the embedding. Let $R$ denote the curvature radius of the ambient $S^3$. The boundary $S^1$ is a single closed loop traversing the band twice; its total length is $2L$. The embedding selects $S^1$ as a great circle of $S^3$ (the maximally symmetric, geodesic choice), with circumference $2\pi R$:
 
 $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
 One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
-R is fixed observationally from the CMB, independent of Λ. The power spectrum shows suppression below $\ell \lesssim 30$, implying a minimum wavenumber $k_\text{min} = \pi^2/2L_\text{fund}$ and a fundamental length scale $L_\text{fund} \approx 2.1$ Gpc read directly from the spectrum. The topology connects $L_\text{fund}$ to R: the Möbius boundary traverses the strip once per lap, so $L_\text{strip} = \pi R$. The observed ratio $L_\text{strip}/L_\text{fund} \approx 7.93$ then gives:
+R is fixed observationally from the CMB, independent of Λ. The power spectrum shows suppression below $\ell \lesssim 30$, implying a minimum wavenumber $k_\text{min} = \pi^2/2L_\text{fund}$ and a fundamental length scale $L_\text{fund} \approx 2.1$ Gpc read directly from the spectrum. The topology connects $L_\text{fund}$ to R: the Möbius boundary traverses the band once per lap, so $L_\text{band} = \pi R$. The observed ratio $L_\text{band}/L_\text{fund} \approx 7.93$ then gives:
 
 $$R = \frac{L_\text{fund} \times 7.93}{\pi} \approx 5.3 \text{ Gpc} = 1.64 \times 10^{26} \text{ m}$$
 
 This value of R enters the eigenvalue computation.
 
-The Möbius strip has a single boundary traversed twice. Traversing the strip once returns a field to the opposite side — the geometry itself imposes the sign flip:
+The Möbius band has a single boundary traversed twice. Traversing the band once returns a field to the opposite side — the geometry itself imposes the sign flip:
 
 $$\psi(y + L, w) = -\psi(y, {-w})$$
 
@@ -121,17 +121,17 @@ The cosmological background selects the ground mode:
 
 The ground mode has no internal nodes. The embedding that matches this is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition, the unique embedding carrying no bending information, selected by the ground mode's simplicity.
 
-$K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. The universal cover of the Möbius strip embeds in the equatorial belt of a great $S^2 \subset S^3$ with $K_{ij} = 0$ everywhere. The Möbius identification is the antipodal map:
+$K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. A fundamental patch of the Möbius band embeds in a great $S^2 \subset S^3$ with $K_{ij} = 0$ everywhere. The Möbius identification is the antipodal map:
 
 $$(x_1, x_2, x_3, x_4) \mapsto (-x_1, -x_2, -x_3, x_4)$$
 
-This is an ambient isometry of $S^3$. It preserves $S^2$ setwise, reverses orientation on $S^2$, and fixes the normal direction $x_4$. Since $K_{ij} = 0$ is preserved under ambient isometries, it descends to the Möbius quotient. The Möbius strip is locally totally geodesic in $S^3$.
+This is an ambient isometry of $S^3$. It preserves $S^2$ setwise, reverses orientation on $S^2$, and fixes the normal direction $x_4$. Since $K_{ij} = 0$ is preserved under ambient isometries, it descends to the Möbius quotient. The Möbius band is totally geodesic in $S^3$.
 
 A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature metric:
 
 $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2$$
 
-Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: a coordinate pole at the midpoint of the strip, smooth on the surface.
+Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: a coordinate pole at the midpoint of the band, smooth on the surface.
 
 ### B. The Eigenvalue
 
@@ -323,7 +323,7 @@ Eigenvalues of the Laplacian on fixed topology are constants. If the topology is
 | Λ constant | Best-fit Λ in redshift bins shows significant variation | >2σ across independent probes (SNe, BAO, CMB) |
 | 3/2 conversion | $3\Lambda_\text{obs} \neq 2/R^2$, with R from CMB low- $\ell$ cutoff and $\Lambda_\text{obs}$ from SNe/BAO | >3σ |
 
-These predictions are pre-registered to the European Space Agency's Euclid Data Release 1, scheduled for October 2026.
+These predictions are stated in advance of the European Space Agency's Euclid Data Release 1, scheduled for October 2026.
 
 ---
 
