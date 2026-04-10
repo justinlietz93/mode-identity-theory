@@ -6,7 +6,7 @@
 
 ---
 
-Mode Identity Theory starts from a simple bet: fundamental physics is not missing more ingredients, but better boundary conditions. Instead of changing Einstein's equations or speculating on new particles, MIT asks: what follows when shape comes before observation?
+Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients, but better boundary conditions. Instead of changing Einstein's equations or speculating on new particles, MIT asks: what follows when shape comes before observation?
 
 Topology becomes the source of structure and this repository lays out the results. The universe admits a standing wave and matter becomes a sample. Time ticks in phase and doesn't run in the background. The observer is part of the realization, not external to it.
 
