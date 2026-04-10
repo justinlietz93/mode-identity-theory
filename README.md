@@ -131,6 +131,8 @@ Blind outputs of a fixed structure, checked against observation:
 
 Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever fire. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
 
+**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
+
 ### Primary (any one kills the framework)
 
 | Prediction | MIT value | Falsified if | Euclid channel |
@@ -152,8 +154,6 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
 </a>
-
-**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
