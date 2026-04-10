@@ -63,7 +63,7 @@ $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3
 
 A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the manifold triad: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. The postulate has one realization.
 
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/framework/topology.html)**
 
 ### Space
 
@@ -318,7 +318,7 @@ $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed 
 
 The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/early-galaxies.md).
 
-**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/framework/calculator.html)**
 
 ### The Gauge Ladder
 
