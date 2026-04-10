@@ -1,3 +1,7 @@
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+
+---
+
 # The Waltz: Λ *Note* to Einstein's Field Equations
 
 *Two partners, one cost. Space curves continuously. The surface samples discretely. Gravity is the step between them.*
