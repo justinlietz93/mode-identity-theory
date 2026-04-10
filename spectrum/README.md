@@ -1,3 +1,7 @@
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+
+---
+
 # Spectrum
 
 The cosmological anomalies resolved at the far end of the universe occur at the same boundary beneath our feet. The same geometry confines gauge fields, returns $\alpha$ to the first step of $\Lambda$, sheilds primes, and accounts gravity as an interface cost.
