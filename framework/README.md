@@ -55,7 +55,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 | $a_P$ | $c/t_P$ | $5.561 \times 10^{51}$ m/s² |
 | $\Omega_\Lambda$ | $(R_\Lambda/\ell_P)^2$ | $\approx 10^{122}$ * |
 
-> *$\Omega_\Lambda$ here is the Planck-area count on the de Sitter horizon, not the standard cosmological density fraction ($\Omega_\Lambda^\text{ΛCDM} \approx 0.685$). The two are related by $\Omega_\Lambda = 3/(\Lambda \cdot \ell_P^2) \sim 10^{122}$.
+> * $\Omega_\Lambda$ here is the Planck-area count on the de Sitter horizon, not the standard cosmological density fraction ($\Omega_\Lambda^\text{ΛCDM} \approx 0.685$). The two are related by $\Omega_\Lambda = 3/(\Lambda \cdot \ell_P^2) \sim 10^{122}$.
 
 ## The Topology
 
@@ -312,7 +312,7 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
 | $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
 
-> *The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor). Agreement with observation: ~2%. Gravity in [the-waltz](../spectrum/the-waltz.md).
+> * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor). Agreement with observation: ~2%. Gravity in [the-waltz](../spectrum/the-waltz.md).
 
 $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/fine-structure.md).
 
