@@ -1,3 +1,7 @@
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+
+---
+
 # w Evolving: Λ Topological Resolution
 
 DESI reports mounting evidence (2.8--4.2σ) that the dark energy equation of state $w$ evolves with redshift. If true, it would overturn the cosmological constant and reshape modern physics. 
