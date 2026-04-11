@@ -1,4 +1,4 @@
-# Mode Identity Theory 
+# :ocean: Mode Identity Theory 
 
 [![Topology before Matter](https://img.youtube.com/vi/ANzQhGGzoAk/mqdefault.jpg)](https://www.youtube.com/watch?v=ANzQhGGzoAk)
 
@@ -20,7 +20,7 @@ $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \parti
 
 The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary.
 
-:ocean: **One wave:**
+Ψ **One wave:**
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
@@ -54,7 +54,7 @@ Faces ($Z_3$) sort color, and Edges ($Z_4$) sort spin. The eta sign gates charge
 
 ---
 
-## Inputs
+## :control_knobs: Inputs
 
 Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the time. 
 
@@ -81,7 +81,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 
 ---
 
-## Scoreboard
+## :musical_score: Scoreboard
 
 Blind outputs of a fixed structure, checked against observation:
 
@@ -127,11 +127,11 @@ Blind outputs of a fixed structure, checked against observation:
 
 ---
 
-## Pre-Registered Predictions / Falsification
+## :crystal_ball: Pre-Registered Predictions / Falsification
 
 Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever fire. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
 
-**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
+**:telescope: [Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
 
 ### Primary (any one kills the framework)
 
@@ -159,7 +159,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 ---
 
-## Tools
+## :hammer_and_wrench: Tools
 
 Every link between topology and observable is live. The code is the math. There are no hidden knobs.
 
