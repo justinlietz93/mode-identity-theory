@@ -61,7 +61,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | [↗](mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
 | [↗](mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
 | [↗](mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| [↗](mass-spectrum.md) Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
+| [↗](mass-spectrum.md) Fermion masses | 24 entries | 11/12 SM assigned: 10/11 within ×3 | systematic |
 | [↗](mass-spectrum.md) $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | [↗](mass-spectrum.md) $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | [↗](mass-spectrum.md) $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
