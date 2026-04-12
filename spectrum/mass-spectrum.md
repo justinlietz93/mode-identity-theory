@@ -8,14 +8,14 @@
 
 The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This paper constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
-The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of these, 12 correspond to Standard Model fermions: 10 are reproduced within a factor of 3 and all 12 within a factor of 10. Eight predictions have no SM assignments.
+The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of these, 11 correspond to Standard Model fermions: 10 are reproduced within a factor of 3 and all 11 within a factor of 4. One SM fermion ($\nu_2$) falls between adjacent entries with no assignment. Eight predictions have no SM assignments.
 
 | Result | Count |
 |---|---|
-| Assigned | 12 of 12 SM fermions |
-| Within ×3 | 10 of 12 assigned |
+| Assigned | 11 of 12 SM fermions |
+| Within ×3 | 10 of 11 assigned |
 | Within 6% | 3 ($e$, $u$, $\mu$) |
-| Genuine miss | $\nu_2$ (ratio 7.75× from nearest entry; falls between rank 1 and rank 2) |
+| Unassigned | $\nu_2$ (8.6 meV falls between rank 1 and rank 2; no $(\rho, \sigma)$ pair) |
 
 ## I. The Formula
 
@@ -308,7 +308,7 @@ $\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio 
 |------|--------|
 | $(\rho, \sigma) \to (T_3, Y)$ assignment rule | Primary open problem. Eta sign gate and exponent stripping constrain but do not complete the mapping. |
 | $\nu_2$ gap | 8.6 meV falls between ranks 1 and 2. Vacuum mixing or neutrino-scale structure could close it. |
-| Down quark tension | Rank 14 ratio 3.22, weakest charged-fermion hit. Systematic residual at high McKay distance or $R_8$ Galois correction needed. |
+| Down quark tension | Rank 14 ratio 3.22; see Section III notes. Systematic residual at high McKay distance or $R_8$ Galois correction needed. |
 | Fermion mass residual | Systematic overshoot growing with McKay distance. One-parameter correction pattern identified, not derived. |
 | Dead zone physical status | 6 entries in eV-keV range. Propagating states or structural residuals: experimentally distinguishable. |
 | Rank 16 target | 349 MeV prediction with no SM assignment. Standing prediction. |
