@@ -139,7 +139,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 |---|---|---|---|
 | a₀(z) ∝ H(z) | a₀/cH = 0.184 | a₀ consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
 | Λ constant | Λ_obs = 3/R_Λ² | Binned ρ_DE(z)/ρ_DE(0) departs from unity at 2σ | SNe + BAO + lensing in redshift bins |
-| Null DM detection | Permanent null (n=3 suppressed to 10⁻¹⁸³) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
+| Null DM detection | Permanent null (suppressed to 10⁻¹⁸³) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
 
 ### Secondary (raise or lower credibility)
 
