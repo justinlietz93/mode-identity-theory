@@ -354,7 +354,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | H<sub>0</sub> discrete snap | 8.4% shift (67.4 → 73.1) | H<sub>0</sub> distributed continuously across environments |
 | 3/2 Gauss-Codazzi | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
 
-**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/files/framework/files/euclid-dr1.html)**
+**[Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/framework/files/euclid-dr1.html)**
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
