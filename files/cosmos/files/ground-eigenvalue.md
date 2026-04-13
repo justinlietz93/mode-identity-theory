@@ -4,12 +4,6 @@
 
 # Ground Eigenvalue of the Twisted Laplacian on a Totally Geodesic Möbius Band in S³ in the Reduced Anti-Periodic Sector
 
-**Blake Shatto, P.E.**
-Independent Researcher
-bshatto.pe@gmail.com
-
----
-
 [![Ground mode eigenvalue](https://img.youtube.com/vi/1AZfOvcrIdk/mqdefault.jpg)](https://www.youtube.com/watch?v=1AZfOvcrIdk)
 
 ## Abstract
