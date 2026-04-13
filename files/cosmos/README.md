@@ -10,7 +10,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 **Wave-matter identity.** Five symbols: $\lambda = h/p$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $h/p$. De Broglie knew this by 1923 and coined it "the phase-wave," insisting that only its phase, not amplitude, carried the physical content. By 1956, he called "this line of thought abandoned," and asked "whether, on the contrary, it may not be the pathway that might lead to the true Microphysics of the Future."
 
-***[Early Galaxies](early-galaxies.md)***
+***[Early Galaxies](files/early-galaxies.md)***
 
 [![Early Galaxies](https://img.youtube.com/vi/vx0F1zpUt_4/mqdefault.jpg)](https://www.youtube.com/watch?v=vx0F1zpUt_4)
 
