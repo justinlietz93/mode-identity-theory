@@ -87,43 +87,43 @@ Blind outputs of a fixed structure, checked against observation:
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
-| [↗](/files/cosmos/cosmological-constant.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
-| [↗](/files/cosmos/cosmological-constant.md) $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
-| [↗](/files/cosmos/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
-| [↗](/files/cosmos/dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
-| [↗](/files/cosmos/dark-energy.md) $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
-| [↗](/files/cosmos/cmb-anomalies.md) CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
-| [↗](/files/cosmos/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
-| [↗](/files/cosmos/cmb-anomalies.md) CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
-| [↗](/files/cosmos/cmb-anomalies.md) CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
-| [↗](/files/cosmos/cmb-anomalies.md) CMB matched circles | null expected | null observed | ✓ |
-| [↗](/files/cosmos/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
-| [↗](/files/cosmos/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ~3% |
-| [↗](/files/cosmos/hubble-tension.md) $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
-| [↗](/files/cosmos/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
-| [↗](/files/cosmos/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
-| [↗](/files/cosmos/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
-| [↗](/files/spectrum/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
-| [↗](/files/spectrum/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
-| [↗](/files/spectrum/yang-mills.md) Particle generations | 3 (mass gaps) | 3 | exact |
-| [↗](/files/spectrum/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
-| [↗](/files/spectrum/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
-| [↗](/files/spectrum/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
-| [↗](/files/spectrum/mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
-| [↗](/files/spectrum/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
-| [↗](/files/spectrum/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| [↗](/files/spectrum/mass-spectrum.md) Fermion masses | 24 entries | 11/12 SM assigned: 10/11 within ×3 | systematic |
-| [↗](/files/spectrum/mass-spectrum.md) $m_\mu$ (Muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
-| [↗](/files/spectrum/mass-spectrum.md) $m_u$ (Up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| [↗](/files/spectrum/mass-spectrum.md) $m_e$ (Electron) | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
-| [↗](/files/spectrum/mass-spectrum.md) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
-| [↗](/files/spectrum/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| [↗](/files/spectrum/mass-spectrum.md) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| [↗](/files/spectrum/fine-structure.md) $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
-| [↗](/files/spectrum/fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
-| [↗](/files/spectrum/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
-| [↗](/files/spectrum/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
+| [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
+| [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
+| [↗](/files/cosmos/files/dark-energy.md) $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ✓ |
+| [↗](/files/cosmos/files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
+| [↗](/files/cosmos/files/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ~3% |
+| [↗](/files/cosmos/files/hubble-tension.md) $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
+| [↗](/files/cosmos/files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
+| [↗](/files/cosmos/files/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| [↗](/files/cosmos/files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
+| [↗](/files/spectrum/files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
+| [↗](/files/spectrum/files/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
+| [↗](/files/spectrum/files/yang-mills.md) Particle generations | 3 (mass gaps) | 3 | exact |
+| [↗](/files/spectrum/files/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
+| [↗](/files/spectrum/files/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
+| [↗](/files/spectrum/files/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md) Fermion masses | 24 entries | 11/12 SM assigned: 10/11 within ×3 | systematic |
+| [↗](/files/spectrum/files/mass-spectrum.md) $m_\mu$ (Muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
+| [↗](/files/spectrum/files/mass-spectrum.md) $m_u$ (Up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| [↗](/files/spectrum/files/mass-spectrum.md) $m_e$ (Electron) | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| [↗](/files/spectrum/files/mass-spectrum.md) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
+| [↗](/files/spectrum/files/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
+| [↗](/files/spectrum/files/mass-spectrum.md) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| [↗](/files/spectrum/files/fine-structure.md) $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
+| [↗](/files/spectrum/files/fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
+| [↗](/files/spectrum/files/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
+| [↗](/files/spectrum/files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
 
 ---
 
@@ -131,7 +131,7 @@ Blind outputs of a fixed structure, checked against observation:
 
 Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever be found. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
 
-**:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
+**:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/framework/files/euclid-dr1.html)**
 
 ### Primary (any one kills the framework)
 
@@ -163,9 +163,9 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 Every link between topology and observable is live. The code is the math. There are no hidden knobs.
 
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/framework/topology.html)**
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/files/framework/files/topology.html)**
 
-**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/framework/calculator.html)**
+**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)**
 
 ---
 
