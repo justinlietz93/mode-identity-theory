@@ -67,7 +67,7 @@ These three modifications — bosonic grid, matter well, fractional exponent —
 
 | # | Input | Output | Status |
 |---|---|---|---|
-| 1 | $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ | Anti-periodic BC | Axiom |
+| 1 | $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3,\ \partial S^3 = \emptyset$ | Anti-periodic BC | Derived |
 | 2 | $\lvert 2I \rvert = 120$ on $S^3$ | 120-domain | Derived |
 | 3 | $\lvert\psi\rvert^2$ (bosonic) | 60R-grid | Derived |
 | 4 | Minimum grid step | $1/60 = 1/\lvert I \rvert$ | Arithmetic |
