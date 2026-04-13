@@ -6,59 +6,59 @@
   <title>Mode Identity Theory | Interactive Calculator</title>
   <meta name="description" content="Run the MIT scaling law yourself. One postulate, zero free parameters. S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅.">
   <meta name="author" content="Blake Shatto, P.E.">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #0a0e14; --bg2: #0d1520; --text: #c8dce8;
-      --dim: rgba(180,200,220,0.6); --dimmer: rgba(180,200,220,0.4);
-      --line: rgba(120,160,200,0.15); --accent: #6ec1e4;
-      --green: #8bc4a0; --gold: #f0c040; --red: #e07050; --purple: #c090e0;
-      --serif: 'Cormorant Garamond', Georgia, serif;
-      --mono: 'IBM Plex Mono', monospace;
+      --bg: #f8f9fb; --bg2: #f0f2f5; --text: #1a2030;
+      --dim: rgba(40,60,80,0.55); --dimmer: rgba(40,60,80,0.35);
+      --line: rgba(40,60,80,0.12); --accent: #1a73c4;
+      --green: #1a8a4a; --gold: #b8860b; --red: #c0392b; --purple: #7b3fa0;
+      --sans: 'Space Grotesk', system-ui, sans-serif;
+      --mono: 'JetBrains Mono', monospace;
     }
-    body { background: linear-gradient(170deg, var(--bg) 0%, var(--bg2) 40%, #0a1018 100%); color: var(--text); font-family: var(--mono); min-height: 100vh; line-height: 1.6; }
+    body { background: linear-gradient(170deg, var(--bg) 0%, var(--bg2) 40%, #eaedf2 100%); color: var(--text); font-family: var(--mono); min-height: 100vh; line-height: 1.6; }
     a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
-    .header { padding: 32px 24px 20px; text-align: center; border-bottom: 1px solid var(--line); }
-    .header h1 { font-family: var(--serif); font-size: 38px; font-weight: 300; letter-spacing: 3px; color: #e0eaf0; }
-    .header .sub { font-size: 14px; color: var(--dimmer); letter-spacing: 2px; margin-top: 8px; }
+    .header { padding: 36px 24px 22px; text-align: center; border-bottom: 1px solid var(--line); }
+    .header h1 { font-family: var(--sans); font-size: 42px; font-weight: 300; letter-spacing: 4px; color: #1a2030; }
+    .header .sub { font-size: 15px; color: var(--dim); letter-spacing: 2px; margin-top: 8px; font-family: var(--mono); }
     .tabs { display: flex; justify-content: center; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
-    .tab { background: transparent; color: var(--dim); border: none; border-bottom: 2px solid transparent; padding: 10px 14px; cursor: pointer; font-family: var(--mono); font-size: 14px; font-weight: 400; letter-spacing: 0.5px; transition: all 0.2s; }
+    .tab { background: transparent; color: var(--dim); border: none; border-bottom: 2px solid transparent; padding: 12px 16px; cursor: pointer; font-family: var(--sans); font-size: 15px; font-weight: 500; letter-spacing: 1px; transition: all 0.2s; }
     .tab:hover { color: var(--accent); }
-    .tab.active { background: rgba(110,193,228,0.12); color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
-    .content { max-width: 760px; margin: 0 auto; padding: 24px 20px 48px; }
+    .tab.active { background: rgba(26,115,196,0.08); color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+    .content { max-width: 800px; margin: 0 auto; padding: 28px 24px 48px; }
     .panel { display: none; } .panel.active { display: block; }
-    h3 { font-family: var(--serif); font-size: 24px; font-weight: 500; color: #c8dce8; margin-bottom: 12px; letter-spacing: 0.5px; }
-    .section { margin-bottom: 28px; }
-    .eq-box { background: rgba(110,193,228,0.06); border-radius: 8px; padding: 16px 20px; border: 1px solid rgba(110,193,228,0.15); text-align: center; font-family: var(--serif); font-size: 24px; color: #e0eaf0; letter-spacing: 1px; margin-bottom: 16px; line-height: 1.5; }
-    table { width: 100%; border-collapse: collapse; font-size: 14px; }
-    th { text-align: left; padding: 7px 8px; color: var(--dim); border-bottom: 1px solid rgba(120,160,200,0.2); font-weight: 500; font-size: 12px; letter-spacing: 0.8px; text-transform: uppercase; }
-    td { padding: 6px 8px; border-bottom: 1px solid rgba(120,160,200,0.08); }
-    tr:nth-child(even) { background: rgba(255,255,255,0.02); }
-    tr.dead-zone { background: rgba(224,112,80,0.06); color: rgba(200,220,232,0.5); }
-    tr.hit-row { background: rgba(139,196,160,0.1); }
-    p.body { font-size: 15px; color: rgba(200,220,232,0.8); line-height: 1.7; margin-bottom: 12px; }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    label.field { display: block; margin-bottom: 14px; }
-    label.field span { display: block; font-size: 13px; color: var(--dim); margin-bottom: 4px; letter-spacing: 0.5px; text-transform: uppercase; }
-    label.field input, label.field select { width: 100%; padding: 8px 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(120,160,200,0.2); border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 15px; outline: none; }
+    h3 { font-family: var(--sans); font-size: 26px; font-weight: 500; color: #1a2030; margin-bottom: 14px; letter-spacing: 0.3px; }
+    .section { margin-bottom: 32px; }
+    .eq-box { background: rgba(26,115,196,0.05); border-radius: 8px; padding: 18px 22px; border: 1px solid rgba(26,115,196,0.15); text-align: center; font-family: var(--mono); font-size: 20px; color: #1a2030; letter-spacing: 0.5px; margin-bottom: 18px; line-height: 1.6; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; font-family: var(--mono); }
+    th { text-align: left; padding: 8px 10px; color: var(--dim); border-bottom: 1px solid rgba(40,60,80,0.15); font-weight: 500; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: var(--sans); }
+    td { padding: 7px 10px; border-bottom: 1px solid rgba(40,60,80,0.06); }
+    tr:nth-child(even) { background: rgba(0,0,0,0.02); }
+    tr.dead-zone { background: rgba(192,57,43,0.06); color: rgba(40,60,80,0.45); }
+    tr.hit-row { background: rgba(26,138,74,0.08); }
+    p.body { font-size: 16px; color: rgba(26,32,48,0.75); line-height: 1.7; margin-bottom: 14px; font-family: var(--sans); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    label.field { display: block; margin-bottom: 16px; }
+    label.field span { display: block; font-size: 13px; color: var(--dim); margin-bottom: 5px; letter-spacing: 0.8px; text-transform: uppercase; font-family: var(--sans); }
+    label.field input, label.field select { width: 100%; padding: 10px 12px; background: #fff; border: 1px solid rgba(40,60,80,0.18); border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 15px; outline: none; }
     label.field input:focus, label.field select:focus { border-color: var(--accent); }
-    .result-box { background: rgba(255,255,255,0.03); border-radius: 8px; padding: 16px; border: 1px solid var(--line); margin-top: 16px; }
-    .code-block { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 16px; font-family: var(--mono); font-size: 14px; color: var(--green); line-height: 1.7; border: 1px solid rgba(120,160,200,0.1); overflow-x: auto; }
+    .result-box { background: #fff; border-radius: 8px; padding: 18px; border: 1px solid var(--line); margin-top: 18px; }
+    .code-block { background: #fff; border-radius: 6px; padding: 18px; font-family: var(--mono); font-size: 15px; color: var(--green); line-height: 1.7; border: 1px solid rgba(40,60,80,0.1); overflow-x: auto; }
     .code-block .comment { color: var(--dimmer); }
-    .alert { margin-top: 16px; padding: 12px 16px; border-radius: 6px; background: rgba(240,192,64,0.08); border: 1px solid rgba(240,192,64,0.2); font-size: 15px; color: var(--gold); }
-    .alert-red { margin-top: 12px; padding: 12px 16px; border-radius: 6px; background: rgba(224,112,80,0.08); border: 1px solid rgba(224,112,80,0.2); font-size: 14px; color: var(--red); }
-    .badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
-    .badge-green { background: rgba(139,196,160,0.2); color: var(--green); }
-    .badge-gold { background: rgba(240,192,64,0.2); color: var(--gold); }
-    .badge-red { background: rgba(224,112,80,0.2); color: var(--red); }
-    .badge-dim { background: rgba(180,200,220,0.1); color: var(--dim); }
-    .footer { text-align: center; padding: 20px 24px 32px; border-top: 1px solid rgba(120,160,200,0.08); font-family: var(--serif); font-size: 16px; font-style: italic; color: var(--dimmer); letter-spacing: 0.5px; }
+    .alert { margin-top: 18px; padding: 14px 18px; border-radius: 6px; background: rgba(184,134,11,0.08); border: 1px solid rgba(184,134,11,0.25); font-size: 15px; color: var(--gold); font-family: var(--sans); }
+    .alert-red { margin-top: 14px; padding: 14px 18px; border-radius: 6px; background: rgba(192,57,43,0.06); border: 1px solid rgba(192,57,43,0.2); font-size: 14px; color: var(--red); font-family: var(--sans); }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; font-family: var(--sans); }
+    .badge-green { background: rgba(26,138,74,0.12); color: var(--green); }
+    .badge-gold { background: rgba(184,134,11,0.12); color: var(--gold); }
+    .badge-red { background: rgba(192,57,43,0.12); color: var(--red); }
+    .badge-dim { background: rgba(40,60,80,0.08); color: var(--dim); }
+    .footer { text-align: center; padding: 22px 24px 36px; border-top: 1px solid rgba(40,60,80,0.08); font-family: var(--sans); font-size: 17px; font-style: italic; color: var(--dimmer); letter-spacing: 0.5px; }
     canvas { display: block; margin: 0 auto; }
-    .mass-result { text-align: center; padding: 20px; background: rgba(110,193,228,0.06); border: 1px solid rgba(110,193,228,0.15); border-radius: 8px; margin: 16px 0; }
-    .mass-result .value { font-size: 30px; font-family: var(--serif); color: var(--accent); letter-spacing: 1px; }
-    .mass-result .label { font-size: 13px; color: var(--dim); margin-top: 4px; letter-spacing: 1px; text-transform: uppercase; }
-    @media (max-width: 500px) { .header h1 { font-size: 26px; letter-spacing: 1px; } .form-row { grid-template-columns: 1fr; } .tab { padding: 8px 10px; font-size: 13px; } .eq-box { font-size: 20px; } }
+    .mass-result { text-align: center; padding: 22px; background: rgba(26,115,196,0.05); border: 1px solid rgba(26,115,196,0.15); border-radius: 8px; margin: 18px 0; }
+    .mass-result .value { font-size: 32px; font-family: var(--mono); color: var(--accent); letter-spacing: 1px; }
+    .mass-result .label { font-size: 13px; color: var(--dim); margin-top: 5px; letter-spacing: 1.5px; text-transform: uppercase; font-family: var(--sans); }
+    @media (max-width: 500px) { .header h1 { font-size: 28px; letter-spacing: 1px; } .form-row { grid-template-columns: 1fr; } .tab { padding: 10px 12px; font-size: 13px; } .eq-box { font-size: 17px; } }
   </style>
 </head>
 <body>
@@ -70,7 +70,6 @@
   <button class="tab active" data-tab="calc">SCALING LAW</button>
   <button class="tab" data-tab="spectrum">SPECTRUM</button>
   <button class="tab" data-tab="theory">THEORY</button>
-  <button class="tab" data-tab="score">SCORECARD</button>
 
 </div>
 <div class="content">
@@ -81,7 +80,7 @@
       <h3>Scaling Law Calculator</h3>
       <div class="eq-box">A / A<sub>P</sub> ≈ C(Θ) · (√Ω)<sup>−n</sup></div>
       <label class="field"><span>Preset</span>
-        <select id="preset"><option value="custom">Custom</option><option value="alpha">α (fine structure)</option><option value="alphaS">αs (strong coupling)</option><option value="alphaW">αW (weak coupling)</option><option value="a0">a₀ (acceleration scale)</option><option value="H0">H₀ (Hubble parameter)</option><option value="lambda">Λ (cosmological constant)</option><option value="dm">DM null (n = 3 suppression)</option></select>
+        <select id="preset"><option value="custom">Custom</option><option value="alpha">α (fine structure)</option><option value="alphaS">αs (strong coupling)</option><option value="alphaW">αW (weak coupling)</option><option value="alphaRatio">αs/αW (pure geometry)</option><option value="a0">a₀ (acceleration scale)</option><option value="H0">H₀ (Hubble parameter)</option><option value="lambda">Λ (cosmological constant)</option><option value="dm">DM null (n = 3 suppression)</option></select>
       </label>
       <div class="form-row">
         <label class="field"><span>Θ numerator</span><input type="number" id="thetaNum" value="13" step="1"></label>
@@ -107,7 +106,7 @@
         <tr><td>μ<sub>Λ</sub></td><td id="muDisplay">ρ<sub>Λ</sub><sup>1/4</sup></td><td>Vacuum energy floor</td></tr>
         <tr><td>C<sub>geom</sub>(ρ)</td><td>Geometric mean of C(e/D) over Kostant exponents</td><td>Phase operator on sunflower</td></tr>
         <tr><td>(√Ω<sub>Λ</sub>)<sup>dist/30</sup></td><td id="sqrtOLDisplay">√Ω<sub>Λ</sub></td><td>McKay graph distance</td></tr>
-        <tr><td>T²(ρ ⊗ σ)</td><td>27 vacuum-twisted values</td><td>Reidemeister torsion</td></tr>
+        <tr><td>T²(ρ ⊗ σ)</td><td>24 vacuum-twisted values</td><td>Reidemeister torsion</td></tr>
       </tbody></table>
     </div>
     <div class="section">
@@ -120,7 +119,6 @@
           <option value="d">down quark (d)</option>
           <option value="mu">muon (μ)</option>
           <option value="s">strange (s)</option>
-          <option value="c">charm (c)</option>
           <option value="tau">tau (τ)</option>
           <option value="b">bottom (b)</option>
           <option value="t">top (t)</option>
@@ -148,19 +146,14 @@
     <div class="section">
       <h3>The 24 Predictions</h3>
       <p class="body">Formula A applied to 8 nontrivial irreps × 3 vacua. Sorted by predicted mass.</p>
-      <div style="overflow-x:auto"><table id="massTable24"><thead><tr><th>#</th><th>ρ</th><th>dim</th><th>dist</th><th>σ</th><th>T²</th><th>Mass (GeV)</th><th>SM</th><th>Ratio</th><th></th></tr></thead><tbody></tbody></table></div>
+      <div style="overflow-x:auto"><table id="massTable24"><thead><tr><th>#</th><th>ρ</th><th>dim</th><th>dist</th><th>σ</th><th>T₃</th><th>T²</th><th>Mass (GeV)</th><th>SM</th><th>Ratio</th><th></th></tr></thead><tbody></tbody></table></div>
       <div class="alert-red"><strong>Dead zone:</strong> Ranks 4-9 (R₃ at dist 2, R₆ at dist 3) produce masses between 10⁻⁹ and 10⁻⁶ GeV. No known SM fermions occupy this range. Overlaps sterile neutrino and warm dark matter search windows.</div>
-    </div>
-    <div class="section">
-      <h3>SM Fermion Scorecard</h3>
-      <p class="body">10 of 12 within factor of 3. All 12 within factor of 10. Three predictions land within 6%.</p>
-      <div style="overflow-x:auto"><table id="smScorecard"><thead><tr><th>Fermion</th><th>Observed (GeV)</th><th>Predicted (GeV)</th><th>ρ</th><th>σ</th><th>Ratio</th><th>≤3×?</th></tr></thead><tbody></tbody></table></div>
     </div>
     <div class="section">
       <h3>Locked Data</h3>
       <p class="body" style="margin-bottom:8px"><strong>C<sub>geom</sub> values</strong> (Kostant sunflower, computed live from exponents)</p>
       <table id="cgeomTable"><thead><tr><th>Irrep</th><th>Spin</th><th>D</th><th>Kostant exponents</th><th>C<sub>geom</sub></th></tr></thead><tbody></tbody></table>
-      <p class="body" style="margin-top:20px;margin-bottom:8px"><strong>Vacuum torsion T²(ρ ⊗ σ)</strong> (27 entries)</p>
+      <p class="body" style="margin-top:20px;margin-bottom:8px"><strong>Vacuum torsion T²(ρ ⊗ σ)</strong> (24 entries)</p>
       <table id="torsionTable"><thead><tr><th>ρ</th><th>T²(triv)</th><th>T²(std)</th><th>T²(gal)</th></tr></thead><tbody></tbody></table>
     </div>
   </div>
@@ -186,23 +179,6 @@
       <p class="body">The calculator derives every scale from first principles. No hardcoded outputs.</p>
       <table id="chainTable"><thead><tr><th>Quantity</th><th>Formula</th><th>Value</th></tr></thead><tbody></tbody></table>
     </div>
-  </div>
-
-  <!-- SCORECARD -->
-  <div id="score" class="panel">
-    <div class="section"><h3>Extended Scorecard</h3><p class="body">Blind outputs of a fixed structure, checked against observation.</p><table id="scorecardTable"><thead><tr><th>Observable</th><th>Predicted</th><th>Observed</th><th>Agr.</th></tr></thead><tbody id="scorecardBody"></tbody></table></div>
-    <div class="section"><h3>Fibonacci Wells</h3><table><thead><tr><th>Well</th><th>Θ</th><th>C(Θ)</th><th>Grid</th><th>n</th><th>Observable</th></tr></thead><tbody id="wellsTable"></tbody></table></div>
-    <div class="section"><h3>Falsification</h3><p class="body">MIT has no free knobs. The framework stands or falls on locked predictions.</p><table><thead><tr><th>Prediction</th><th>Falsified if</th><th>Threshold</th></tr></thead><tbody>
-      <tr><td>a₀(z) ∝ H(z)</td><td>a₀ consistent with constant at high z</td><td>≥ 2σ, z &gt; 2</td></tr>
-      <tr><td>Λ constant</td><td>ρ_DE(z) shows significant evolution</td><td>≥ 2σ</td></tr>
-      <tr><td>CMB suppression</td><td>Wrong suppression scale</td><td>ℓ_cut ∉ [15, 50]</td></tr>
-      <tr><td>Null dark matter</td><td>Non-gravitational interaction detected</td><td>≥ 5σ, replicated</td></tr>
-      <tr><td>z<sub>cross</sub> ≈ 0.66</td><td>Phantom crossing outside window</td><td>[0.4, 0.9]</td></tr>
-      <tr><td>w<sub>eff</sub> > −1</td><td>True phantom behavior confirmed</td><td>Model-independent 2σ</td></tr>
-      <tr><td>μ<sub>Λ</sub> ≈ 2.25 meV</td><td>Lightest ν mass inconsistent</td><td>Direct measurement</td></tr>
-      <tr><td>Dead zone states</td><td>Particles at 10⁻⁹ to 10⁻⁶ GeV</td><td>If observed with suppressed couplings</td></tr>
-      <tr><td>Any SM fermion</td><td>Incompatible with 24-entry table at ×10</td><td>Ongoing</td></tr>
-    </tbody></table><div class="alert">Falsification window: Euclid Data Release 1, October 21, 2026</div></div>
   </div>
 
 </div>
@@ -268,60 +244,6 @@ const MU_L = Math.pow(RHO_LAMBDA_GEV4, 0.25);
 function Cph(t) { return 2 * Math.pow(Math.sin(Math.PI * t), 2); }
 
 // ══════════════════════════════════════════════════════════════
-//  SCORECARD: Locked reference (22 entries)
-//  Computed from engine where possible, locked values otherwise
-// ══════════════════════════════════════════════════════════════
-
-function buildScorecard() {
-  // ── Phase ratios: computed live (pure C(Θ) ratios, no Ω dependence) ──
-  var H0shift = Cph(36/120) / Cph(34/120);
-  var a0cH0 = Cph(13/120) / Cph(34/120);
-
-  // ── μ_Λ: computed live (GeV → meV) ──
-  var muL_meV = (MU_L * 1e12).toFixed(2);
-
-  // ── Dead zone: count from mass table ──
-  var dzCount = 0;
-  for (var r = 1; r <= 8; r++) {
-    var ir = IR[r];
-    if (ir.dist === 2 || ir.dist === 3) dzCount += 3; // 3 vacua each
-  }
-
-  // ── Build the canonical 22-row scorecard ──
-  // Predictions for H₀·tP, a₀/aP, Λ·ℓP² use structural √Ω ≈ 10⁶¹
-  // (topology determines the observer position; precise Ω depends on inputs)
-  var rows = [
-    {obs:"Λ<sub>obs</sub>·ℓ<sub>P</sub>²", pred:"2.9×10<sup>−122</sup>", seen:"2.84×10<sup>−122</sup>", agr:"~2%"},
-    {obs:"Λ<sub>obs</sub>/Λ<sub>top</sub>", pred:"3/2", seen:"> 3σ with independent H₀", agr:"exact"},
-    {obs:"CMB ℓ<sub>cut</sub>", pred:"~32", seen:"deficit below ℓ ≲ 30", agr:"✓"},
-    {obs:"CMB parity sign", pred:"R<sub>TT</sub> < 1", seen:"R<sub>TT</sub> ≈ 0.81", agr:"✓"},
-    {obs:"CMB parity magnitude", pred:"R<sub>TT</sub> = 0.814", seen:"R<sub>TT</sub> ≈ 0.81", agr:"0.5%"},
-    {obs:"CMB alignment", pred:"exists", seen:"Δθ<sub>23</sub> ≈ 10°", agr:"~"},
-    {obs:"H₀·t<sub>P</sub>", pred:"1.2×10<sup>−61</sup>", seen:"1.18×10<sup>−61</sup>", agr:"~2%"},
-    {obs:"H₀ local shift", pred:(100*(H0shift-1)).toFixed(1) + "%", seen:"~8.7%", agr:"<1%"},
-    {obs:"a₀/(cH₀)", pred:a0cH0.toFixed(3), seen:"0.183", agr:"<1%"},
-    {obs:"a₀/a<sub>P</sub>", pred:"2.2×10<sup>−62</sup>", seen:"2.16×10<sup>−62</sup>", agr:"~2%"},
-    {obs:"Null DM detection", pred:"permanent", seen:"ongoing null results", agr:"✓"},
-    {obs:"SM fermion masses (all 12)", pred:"24 entries", seen:"10/12 within ×3", agr:"systematic"},
-    {obs:"Dead zone", pred:dzCount + " states, eV to keV", seen:"no SM fermions in range", agr:"open"},
-    {obs:"m<sub>μ</sub>", pred:"1.03×10<sup>−1</sup> GeV", seen:"1.057×10<sup>−1</sup> GeV", agr:"~3%"},
-    {obs:"m<sub>u</sub>", pred:"2.03×10<sup>−3</sup> GeV", seen:"2.16×10<sup>−3</sup> GeV", agr:"6%"},
-    {obs:"m<sub>e</sub>", pred:"5.21×10<sup>−4</sup> GeV", seen:"5.11×10<sup>−4</sup> GeV", agr:"2%"},
-    {obs:"ν floor", pred:"μ<sub>Λ</sub> ≈ " + muL_meV + " meV", seen:"< 800 meV (KATRIN)", agr:"awaiting"},
-    {obs:"Particle generations", pred:"3", seen:"3", agr:"exact"},
-    {obs:"Mass gap", pred:"> 0", seen:"confinement observed", agr:"✓"},
-    {obs:"α<sub>s</sub>", pred:"0.11622", seen:"0.11790", agr:"1.42%"},
-    {obs:"α<sub>W</sub>", pred:"0.03392", seen:"0.03378", agr:"0.41% †"},
-    {obs:"α", pred:"0.00733", seen:"0.007297", agr:"0.49%"}
-  ];
-
-  var tbody = document.getElementById('scorecardBody');
-  tbody.innerHTML = rows.map(function(r) {
-    return '<tr><td>' + r.obs + '</td><td>' + r.pred + '</td><td>' + r.seen + '</td><td>' + r.agr + '</td></tr>';
-  }).join('');
-}
-
-// ══════════════════════════════════════════════════════════════
 //  IRREP DATA (locked topological structure)
 // ══════════════════════════════════════════════════════════════
 
@@ -356,7 +278,7 @@ for (var r = 1; r <= 8; r++) {
 }
 
 // ══════════════════════════════════════════════════════════════
-//  VACUUM TORSION T²(ρ ⊗ σ) : 27 entries, locked
+//  VACUUM TORSION T²(ρ ⊗ σ) : 24 entries, locked
 // ══════════════════════════════════════════════════════════════
 
 const T2 = {
@@ -371,31 +293,47 @@ const T2 = {
 };
 
 // ══════════════════════════════════════════════════════════════
-//  SM TARGETS AND SCORECARD
+//  WEAK ISOSPIN T₃: Coxeter-Galois gate (locked)
+//  Stage 1: integer j_first → T₃ = −1/2
+//  Stage 2: (13,17) stripped AND Galois-nonfixed product → T₃ = −1/2
+//  Everything else → T₃ = +1/2
+// ══════════════════════════════════════════════════════════════
+
+const JFIRST = {
+  1: {triv:0.5, std:0.5, gal:2.5},
+  2: {triv:3.5, std:2.5, gal:1.5},
+  3: {triv:1,   std:0,   gal:2},
+  4: {triv:3,   std:2,   gal:0},
+  5: {triv:3,   std:2,   gal:1},
+  6: {triv:1.5, std:0.5, gal:1.5},
+  7: {triv:2,   std:1,   gal:1},
+  8: {triv:2.5, std:1.5, gal:0.5}
+};
+
+// Tensor products with nontrivial vacua (irrep indices in result)
+const TENSOR = {
+  std: {1:[0,3], 2:[5], 3:[1,6], 4:[8], 5:[8,2], 6:[3,7], 7:[6,8], 8:[7,5,4]},
+  gal: {1:[5], 2:[0,4], 3:[8], 4:[2,6], 5:[8,1], 6:[4,7], 7:[6,8], 8:[7,5,3]}
+};
+
+function computeT3(rho, vac) {
+  var jf = JFIRST[rho][vac];
+  // Stage 1: integer j_first
+  if (jf === Math.floor(jf)) return -0.5;
+  // Stage 2: Coxeter-Galois gate
+  var carries1317 = (rho === 2 || rho === 6 || rho === 8);
+  if (!carries1317) return 0.5;
+  if (vac === "triv") return 0.5;
+  var product = TENSOR[vac][rho];
+  var hasNonfixed = product.some(function(r) { return r >= 1 && r <= 4; });
+  return hasNonfixed ? -0.5 : 0.5;
+}
+
+// ══════════════════════════════════════════════════════════════
+//  SM TARGETS (reference masses for nearest-SM lookup)
 // ══════════════════════════════════════════════════════════════
 
 const SM = {"ν₁":1e-13,"ν₂":8.6e-12,"ν₃":5.06e-11,"e":5.11e-4,"u":2.16e-3,"d":4.67e-3,"μ":1.057e-1,"s":9.34e-2,"c":1.27,"τ":1.777,"b":4.18,"t":172.7};
-
-const SMC = [
-  {f:"ν₁",obs:1e-13,  rho:1,sig:"std", r:0},
-  {f:"ν₂",obs:8.6e-12,rho:1,sig:"gal", r:0},
-  {f:"ν₃",obs:5.06e-11,rho:1,sig:"gal",r:0},
-  {f:"e", obs:5.11e-4, rho:7,sig:"triv",r:0},
-  {f:"u", obs:2.16e-3, rho:8,sig:"triv",r:0},
-  {f:"d", obs:4.67e-3, rho:8,sig:"gal", r:0},
-  {f:"μ", obs:1.057e-1,rho:8,sig:"std", r:0},
-  {f:"s", obs:9.34e-2, rho:8,sig:"std", r:0},
-  {f:"c", obs:1.27,    rho:4,sig:"std", r:0},
-  {f:"τ", obs:1.777,   rho:4,sig:"std", r:0},
-  {f:"b", obs:4.18,    rho:2,sig:"gal", r:0},
-  {f:"t", obs:172.7,   rho:2,sig:"std", r:0}
-];
-
-SMC.forEach(function(s) {
-  var pred = mass(s.rho, s.sig);
-  s.pred = pred;
-  s.r = Math.max(pred / s.obs, s.obs / pred);
-});
 
 function mass(r, v) {
   return MU_L * IR[r].cg * Math.pow(SQRT_OL, IR[r].dist / 30) * T2[r][v];
@@ -442,13 +380,14 @@ document.querySelectorAll('.tab').forEach(function(b) {
 // ══════════════════════════════════════════════════════════════
 
 var P = {
-  alpha:  {tN:13, tD:60,  nN:1, nD:30, om:"L"},
-  alphaS: {tN:17, tD:60,  nN:1, nD:60, om:"L"},
-  alphaW: {tN:17, tD:120, nN:1, nD:60, om:"L"},
-  a0:     {tN:13, tD:120, nN:1, nD:1,  om:"H"},
-  H0:     {tN:34, tD:120, nN:1, nD:1,  om:"H"},
-  lambda: {tN:60, tD:120, nN:2, nD:1,  om:"L"},
-  dm:     {tN:60, tD:120, nN:3, nD:1,  om:"L"}
+  alpha:      {tN:13, tD:60,  nN:1, nD:30, om:"L"},
+  alphaS:     {tN:17, tD:60,  nN:1, nD:60, om:"L"},
+  alphaW:     {tN:17, tD:120, nN:1, nD:60, om:"L"},
+  alphaRatio: {tN:17, tD:60,  nN:0, nD:1,  om:"L"},
+  a0:         {tN:13, tD:120, nN:1, nD:1,  om:"H"},
+  H0:         {tN:34, tD:120, nN:1, nD:1,  om:"H"},
+  lambda:     {tN:60, tD:120, nN:2, nD:1,  om:"L"},
+  dm:         {tN:60, tD:120, nN:3, nD:1,  om:"L"}
 };
 
 var E = {
@@ -500,22 +439,33 @@ function comp() {
     rows.push(["× cos(π/10)  (Plato twist)", twist.toFixed(6) + "  · dodecahedral half-defect"]);
     res = res * twist;
   }
+  if (preset === "alphaRatio") {
+    var cW = Cph(17/120) * Math.cos(Math.PI / 10);
+    rows = [
+      ["α<sub>s</sub> numerator: C(17/60)", Cph(17/60).toFixed(6)],
+      ["α<sub>W</sub> denominator: C(17/120) × cos(π/10)", Cph(17/120).toFixed(6) + " × " + Math.cos(Math.PI/10).toFixed(6) + " = " + cW.toFixed(6)],
+      ["Ω dependence", "cancels (same exponent in both)"]
+    ];
+    res = Cph(17/60) / cW;
+  }
 
-  rows.push(["A / Aₚ", fS(res)]);
+  if (preset !== "alphaRatio") rows.push(["A / Aₚ", fS(res)]);
+  if (preset === "alphaRatio") rows.push(["α<sub>s</sub> / α<sub>W</sub>", res.toFixed(3)]);
 
   // Observed value for presets (locked scorecard agreements)
   var obs = {
-    alpha:  {v: 0.007297,              label: "α observed",                    agr: "0.49%"},
-    alphaS: {v: 0.11790,               label: "α<sub>s</sub> observed",        agr: "1.42%"},
-    alphaW: {v: 0.03378,               label: "α<sub>W</sub> observed",        agr: "0.41%"},
-    a0:     {v: 1.2e-10 / A_P,         label: "a₀/a<sub>P</sub> observed",    agr: "~2%"},
-    H0:     {v: H0 * T_P,              label: "H₀·t<sub>P</sub> observed",    agr: "~2%"},
-    lambda: {v: LAMBDA * ELL_P * ELL_P, label: "Λ·ℓ<sub>P</sub>² observed",  agr: "~2%"},
-    dm:     {v: null,                   label: "No non-gravitational signal",   agr: "✓"}
+    alpha:      {v: 0.007297,              label: "α observed",                    agr: "0.49%"},
+    alphaS:     {v: 0.11790,               label: "α<sub>s</sub> observed",        agr: "1.42%"},
+    alphaW:     {v: 0.03378,               label: "α<sub>W</sub> observed",        agr: "0.41%"},
+    alphaRatio: {v: 0.11790/0.03378,       label: "α<sub>s</sub>/α<sub>W</sub> observed", agr: "~2%"},
+    a0:         {v: 1.2e-10 / A_P,         label: "a₀/a<sub>P</sub> observed",    agr: "~2%"},
+    H0:         {v: H0 * T_P,              label: "H₀·t<sub>P</sub> observed",    agr: "~2%"},
+    lambda:     {v: LAMBDA * ELL_P * ELL_P, label: "Λ·ℓ<sub>P</sub>² observed",  agr: "~2%"},
+    dm:         {v: null,                   label: "No non-gravitational signal",   agr: "✓"}
   };
   var o = obs[preset];
   if (o && o.v !== null) {
-    rows.push([o.label, fS(o.v)]);
+    rows.push([o.label, preset === "alphaRatio" ? o.v.toFixed(3) : fS(o.v)]);
     rows.push(["Agreement", o.agr]);
   } else if (o && o.v === null) {
     rows.push([o.label, "(√Ω)<sup>−3</sup> ≈ 10<sup>−183</sup> suppression"]);
@@ -523,8 +473,8 @@ function comp() {
 
   document.querySelector('#resultTable tbody').innerHTML = rows.map(function(kv) {
     var k = kv[0], v = kv[1];
-    var isResult = k === 'A / Aₚ';
-    var isExtra = k.indexOf('× 3/2') === 0 || k.indexOf('× cos') === 0;
+    var isResult = k === 'A / Aₚ' || k.indexOf('α<sub>s</sub> / α<sub>W</sub>') === 0;
+    var isExtra = k.indexOf('× 3/2') === 0 || k.indexOf('× cos') === 0 || k === 'Ω dependence';
     var isObs = k.indexOf('observed') >= 0;
     var isAgr = k === 'Agreement';
     return '<tr><td style="color:' +
@@ -550,7 +500,6 @@ var SP = {
   d:   {rho:8, sig:"gal",  obs:4.67e-3,  name:"d",  agr:""},
   mu:  {rho:8, sig:"std",  obs:1.057e-1, name:"μ",  agr:"~3%"},
   s:   {rho:8, sig:"std",  obs:9.34e-2,  name:"s",  agr:""},
-  c:   {rho:4, sig:"std",  obs:1.27,     name:"c",  agr:""},
   tau: {rho:4, sig:"std",  obs:1.777,    name:"τ",  agr:""},
   b:   {rho:2, sig:"gal",  obs:4.18,     name:"b",  agr:""},
   t:   {rho:2, sig:"std",  obs:172.7,    name:"t",  agr:""},
@@ -588,6 +537,7 @@ function compSpec() {
     ["dist(" + ir.l + ")", ir.dist + " / 30", "McKay graph distance"],
     ["(√Ω<sub>Λ</sub>)<sup>dist/30</sup>", fS(h), "Hierarchy: (" + fS(SQRT_OL, 4) + ")<sup>" + ir.dist + "/30</sup>"],
     ["T²(" + ir.l + " ⊗ " + v + ")", t.toFixed(5), "Vacuum-twisted torsion"],
+    ["T₃", (computeT3(r, v) > 0 ? "+1/2" : "−1/2"), "Coxeter-Galois gate (j<sub>first</sub> = " + JFIRST[r][v] + ")"],
     ["<strong>m</strong>", "<strong>" + fS(m, 4) + " GeV</strong>", "<strong>Product of four factors</strong>"]
   ];
 
@@ -634,7 +584,7 @@ function build() {
       var v = ["triv","std","gal"][vi];
       var ir = IR[r];
       var m_ = mass(r, v);
-      ent.push({r:r, l:ir.l, dim:ir.dim, dist:ir.dist, v:v, t2:T2[r][v], m:m_, sm:"", rat:0, dz:ir.dist===2||ir.dist===3});
+      ent.push({r:r, l:ir.l, dim:ir.dim, dist:ir.dist, v:v, t2:T2[r][v], m:m_, sm:"", rat:0, dz:ir.dist===2||ir.dist===3, t3:computeT3(r, v)});
     }
   }
   ent.sort(function(a, b) { return a.m - b.m; });
@@ -643,7 +593,7 @@ function build() {
     {rk:1, s:"ν₁"}, {rk:2, s:"ν₃"}, {rk:3, s:"ν₃"},
     {rk:10,s:"e"}, {rk:11,s:"e"}, {rk:12,s:"e"},
     {rk:13,s:"u"}, {rk:14,s:"d"}, {rk:15,s:"μ"},
-    {rk:17,s:"c"}, {rk:18,s:"b"}, {rk:19,s:"b"},
+    {rk:17,s:"τ"}, {rk:18,s:"b"}, {rk:19,s:"b"},
     {rk:20,s:"b"}, {rk:21,s:"b"}, {rk:22,s:"b"},
     {rk:23,s:"t"}, {rk:24,s:"t"}
   ];
@@ -657,23 +607,13 @@ function build() {
 
   document.querySelector('#massTable24 tbody').innerHTML = ent.map(function(e, i) {
     var cl = e.dz ? 'dead-zone' : (e.rat > 0 && e.rat <= 1.1 ? 'hit-row' : '');
+    var t3str = e.t3 > 0 ? '+½' : '−½';
+    var t3color = e.t3 > 0 ? 'var(--accent)' : 'var(--dim)';
     return '<tr class="' + cl + '"><td>' + (i+1) + '</td><td>' + e.l + '</td><td>' + e.dim +
-      '</td><td>' + e.dist + '</td><td>' + e.v + '</td><td>' + e.t2.toFixed(3) +
+      '</td><td>' + e.dist + '</td><td>' + e.v + '</td><td style="color:' + t3color + '">' + t3str + '</td><td>' + e.t2.toFixed(3) +
       '</td><td>' + fS(e.m) + '</td><td>' + (e.sm || "-") + '</td><td>' +
       (e.rat ? e.rat.toFixed(2) : "-") + '</td><td>' +
       (e.sm ? badge(e.rat) : (e.dz ? '<span class="badge badge-dim">dead zone</span>' : '')) + '</td></tr>';
-  }).join('');
-
-  SMC.forEach(function(s) {
-    s.pred = mass(s.rho, s.sig);
-    s.r = Math.max(s.pred / s.obs, s.obs / s.pred);
-  });
-  document.querySelector('#smScorecard tbody').innerHTML = SMC.map(function(s) {
-    var w3 = s.r <= 3 ? "yes" : (s.r <= 3.25 ? "boundary" : "<strong>no</strong>");
-    var cl = s.r <= 1.1 ? 'hit-row' : '';
-    return '<tr class="' + cl + '"><td>' + s.f + '</td><td>' + fS(s.obs) + '</td><td>' +
-      fS(s.pred) + '</td><td>' + IR[s.rho].l + '</td><td>' + s.sig + '</td><td>' +
-      s.r.toFixed(2) + '</td><td>' + w3 + ' ' + badge(s.r) + '</td></tr>';
   }).join('');
 
   document.querySelector('#cgeomTable tbody').innerHTML = Object.keys(IR).map(function(k) {
@@ -686,19 +626,6 @@ function build() {
     var t = T2[k];
     return '<tr><td>' + IR[k].l + '</td><td>' + t.triv.toFixed(4) + '</td><td>' +
       t.std.toFixed(5) + '</td><td>' + t.gal.toFixed(4) + '</td></tr>';
-  }).join('');
-
-  var wd = [
-    {p:"13/60", t:13/60,  g:"60R", n:"1/30", l:"α"},
-    {p:"13/120",t:13/120, g:"120", n:"1",    l:"a₀"},
-    {p:"21/120",t:21/120, g:"120", n:"-",l:"Unassigned"},
-    {p:"34/120",t:34/120, g:"120", n:"1",    l:"H₀"},
-    {p:"55/120",t:55/120, g:"120", n:"-",l:"Unassigned"},
-    {p:"60/120",t:60/120, g:"120", n:"2",    l:"Λ"}
-  ];
-  document.getElementById('wellsTable').innerHTML = wd.map(function(w) {
-    return '<tr><td>' + w.p + '</td><td>' + w.t.toFixed(4) + '</td><td>' +
-      Cph(w.t).toFixed(4) + '</td><td>' + w.g + '</td><td>' + w.n + '</td><td>' + w.l + '</td></tr>';
   }).join('');
 
   var chainEl = document.querySelector('#chainTable tbody');
@@ -720,9 +647,6 @@ function build() {
       return '<tr><td style="color:var(--accent)">' + row[0] + '</td><td>' + row[1] + '</td><td>' + row[2] + '</td></tr>';
     }).join('');
   }
-
-  // Build the locked scorecard
-  buildScorecard();
 }
 
 // ══════════════════════════════════════════════════════════════
@@ -737,27 +661,27 @@ function drawDomain(ht) {
   c.style.height = H * Math.min(W, innerWidth - 40) / W + 'px';
   x.scale(d, d); x.clearRect(0, 0, W, H);
   var p = {l:50, r:20, t:30, b:40}, w = W - p.l - p.r, h = H - p.t - p.b;
-  x.strokeStyle = "rgba(120,160,200,0.15)"; x.lineWidth = 0.5;
+  x.strokeStyle = "rgba(40,60,80,0.15)"; x.lineWidth = 0.5;
   x.beginPath(); x.moveTo(p.l, p.t + h); x.lineTo(p.l + w, p.t + h); x.stroke();
   x.beginPath(); x.moveTo(p.l, p.t); x.lineTo(p.l + w, p.t); x.stroke();
-  x.strokeStyle = "#8bc4a0"; x.lineWidth = 1.5; x.beginPath();
+  x.strokeStyle = "#1a8a4a"; x.lineWidth = 1.5; x.beginPath();
   for (var i = 0; i <= w; i++) {
     var th = i / w, y = p.t + h - (Cph(th) / 2) * h;
     i === 0 ? x.moveTo(p.l + i, y) : x.lineTo(p.l + i, y);
   }
   x.stroke();
-  [{t:13/120,l:"a₀",c:"#e07050"},{t:13/60,l:"α",c:"#c090e0"},{t:34/120,l:"H₀",c:"#60b0e0"},{t:60/120,l:"Λ",c:"#f0c040"}].forEach(function(wl) {
+  [{t:13/120,l:"a₀",c:"#c0392b"},{t:13/60,l:"α",c:"#7b3fa0"},{t:34/120,l:"H₀",c:"#1a73c4"},{t:60/120,l:"Λ",c:"#b8860b"}].forEach(function(wl) {
     var px = p.l + wl.t * w, py = p.t + h - (Cph(wl.t) / 2) * h;
-    x.strokeStyle = wl.c + "60"; x.lineWidth = 1;
+    x.strokeStyle = wl.c + "50"; x.lineWidth = 1;
     x.setLineDash([3, 3]); x.beginPath(); x.moveTo(px, p.t + h); x.lineTo(px, py); x.stroke();
     x.setLineDash([]); x.fillStyle = wl.c; x.beginPath(); x.arc(px, py, 4, 0, 2 * Math.PI); x.fill();
-    x.font = "bold 12px 'IBM Plex Mono',monospace"; x.textAlign = "center"; x.fillText(wl.l, px, py - 10);
+    x.font = "bold 13px 'JetBrains Mono',monospace"; x.textAlign = "center"; x.fillText(wl.l, px, py - 10);
   });
   if (ht > 0 && ht < 1) {
     var px = p.l + ht * w, py = p.t + h - (Cph(ht) / 2) * h;
-    x.fillStyle = "#fff"; x.beginPath(); x.arc(px, py, 5, 0, 2 * Math.PI); x.fill();
+    x.fillStyle = "#1a2030"; x.beginPath(); x.arc(px, py, 5, 0, 2 * Math.PI); x.fill();
   }
-  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "12px 'IBM Plex Mono',monospace";
+  x.fillStyle = "rgba(40,60,80,0.6)"; x.font = "13px 'JetBrains Mono',monospace";
   x.textAlign = "center"; x.fillText("0", p.l, p.t + h + 16);
   x.fillText("Θ", p.l + w / 2, p.t + h + 28); x.fillText("1", p.l + w, p.t + h + 16);
   x.textAlign = "right"; x.fillText("2", p.l - 6, p.t + 6);
@@ -776,23 +700,23 @@ function drawWave() {
   c.style.height = H * Math.min(W, innerWidth - 40) / W + 'px';
   x.scale(d, d); x.clearRect(0, 0, W, H);
   var p = {l:50, r:20, t:20, b:35}, w = W - p.l - p.r, h = H - p.t - p.b, my = p.t + h / 2;
-  x.strokeStyle = "rgba(120,160,200,0.12)"; x.lineWidth = 0.5;
+  x.strokeStyle = "rgba(40,60,80,0.12)"; x.lineWidth = 0.5;
   for (var i = 0; i <= 4; i++) {
     var px = p.l + (i / 4) * w;
     x.beginPath(); x.moveTo(px, p.t); x.lineTo(px, p.t + h); x.stroke();
   }
   x.beginPath(); x.moveTo(p.l, my); x.lineTo(p.l + w, my); x.stroke();
-  x.strokeStyle = "#6ec1e4"; x.lineWidth = 2; x.beginPath();
+  x.strokeStyle = "#1a73c4"; x.lineWidth = 2; x.beginPath();
   for (var i = 0; i <= w; i++) {
     var t = (i / w) * 4 * Math.PI, y = my - Math.cos(t / 2) * (h * 0.42);
     i === 0 ? x.moveTo(p.l + i, y) : x.lineTo(p.l + i, y);
   }
   x.stroke();
   var tN = 5.22, xN = p.l + (tN / (4 * Math.PI)) * w, yN = my - Math.cos(tN / 2) * (h * 0.42);
-  x.fillStyle = "#f0c040"; x.beginPath(); x.arc(xN, yN, 5, 0, 2 * Math.PI); x.fill();
-  x.fillStyle = "rgba(240,192,64,0.85)"; x.font = "13px 'IBM Plex Mono',monospace";
+  x.fillStyle = "#b8860b"; x.beginPath(); x.arc(xN, yN, 5, 0, 2 * Math.PI); x.fill();
+  x.fillStyle = "rgba(184,134,11,0.9)"; x.font = "14px 'JetBrains Mono',monospace";
   x.fillText("t ≈ 5.22", xN + 8, yN - 6);
-  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "12px 'IBM Plex Mono',monospace";
+  x.fillStyle = "rgba(40,60,80,0.6)"; x.font = "13px 'JetBrains Mono',monospace";
   x.textAlign = "center";
   ["0","π","2π","3π","4π"].forEach(function(l, i) { x.fillText(l, p.l + (i / 4) * w, p.t + h + 16); });
   x.textAlign = "right"; x.fillText("+1", p.l - 6, p.t + 12);
