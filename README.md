@@ -2,7 +2,7 @@
 
 [![Topology before Matter](https://img.youtube.com/vi/ANzQhGGzoAk/mqdefault.jpg)](https://www.youtube.com/watch?v=ANzQhGGzoAk)
 
-/ **[`framework/`](/framework/)** / **[`cosmos/`](/cosmos/)** / **[`spectrum/`](/spectrum/)** /
+/ **[`framework/`](/files/framework/)** / **[`cosmos/`](/files/cosmos/)** / **[`spectrum/`](/files/spectrum/)** /
 
 ---
 
@@ -175,5 +175,5 @@ Every link between topology and observable is live. The code is the math. There 
 
 ---
 
-/ **[`framework/`](/framework/)** / **[`cosmos/`](/cosmos/)** / **[`spectrum/`](/spectrum/)** /
+/ **[`framework/`](/files/framework/)** / **[`cosmos/`](/files/cosmos/)** / **[`spectrum/`](/files/spectrum/)** /
 
