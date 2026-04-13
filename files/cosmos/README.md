@@ -1,4 +1,4 @@
-/ **[`main/`](../../)** / **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+/ **[`main/`](../README.md)** / **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
 
 ---
 
