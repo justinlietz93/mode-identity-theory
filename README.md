@@ -133,23 +133,21 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 **:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
 
-### Primary (any one kills the framework)
-
 | Prediction | MIT value | Falsified if | Euclid channel |
 |---|---|---|---|
-| a₀(z) ∝ H(z) | a₀/cH = 0.184 | a₀ consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
-| Λ constant | Λ_obs = 3/R_Λ² | Binned ρ_DE(z)/ρ_DE(0) departs from unity at 2σ | SNe + BAO + lensing in redshift bins |
-| Null DM detection | Permanent null (suppressed to 10⁻¹⁸³) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
+| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
+| Λ constant | Λ<sub>obs</sub> = 3/R<sub>Λ</sub>² | Binned ρ<sub>DE</sub>(z)/ρ<sub>DE</sub>(0) departs from unity at 2σ | SNe + BAO + lensing in redshift bins |
+| Null DM detection | Permanent null (suppressed to 10<sup>−183</sup>) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
 
 ### Secondary (raise or lower credibility)
 
 | Prediction | MIT value | Falsified if |
 |---|---|---|
-| Modulation zero-crossing | z_cross = 0.663 | Transition center < 0.4 or > 0.9 at 2σ |
-| w(z) shape | Cosine (not linear) | Linear CPL preferred at ΔAIC > 4 |
-| No phantom crossing | w_eff > −1 everywhere | Model-independent w < −1 at 2σ |
-| H₀ discrete snap | 8.4% shift (67.4 → 73.1) | H₀ distributed continuously across environments |
-| 3/2 Gauss-Codazzi | 3Λ_top = 2Λ_obs | Independent R and Λ_obs inconsistent at >3σ |
+| Modulation zero-crossing | z<sub>cross</sub> = 0.663 | Transition center < 0.4 or > 0.9 at 2σ |
+| w(z) shape | Cosine (linear excluded) | Linear CPL preferred at ΔAIC > 4 |
+| No phantom crossing | w<sub>eff</sub> > −1 everywhere | Model-independent w < −1 at 2σ |
+| H<sub>0</sub> discrete snap | 8.4% shift (67.4 → 73.1) | H<sub>0</sub> distributed continuously across environments |
+| 3/2 Gauss-Codazzi | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
 
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
