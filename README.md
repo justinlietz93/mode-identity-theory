@@ -133,6 +133,8 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 **:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
 
+### Primary (any one kills the framework)
+
 | Prediction | MIT value | Falsified if | Euclid channel |
 |---|---|---|---|
 | a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
