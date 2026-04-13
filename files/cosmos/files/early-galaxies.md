@@ -4,6 +4,8 @@
 
 # a₀ Evolving: High-Redshift Galaxy Masses
 
+[![Early Galaxies](https://img.youtube.com/vi/vx0F1zpUt_4/mqdefault.jpg)](https://www.youtube.com/watch?v=vx0F1zpUt_4)
+
 James Webb has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ within 600 Myr of the Big Bang require star formation efficiencies exceeding unity under ΛCDM, a physical impossibility. 
 
 Mode Identity Theory predicts that the MOND acceleration scale $a_0$ is an edge mode ($n = 1$) referencing the evolving Hubble horizon: $a_0(z) = a_0(0) \times H(z)/H_0$. At $z = 10$, this gives $a_0 \approx 20 \times$ the local value, enhancing gravitational binding and accelerating structure formation without new physics.
