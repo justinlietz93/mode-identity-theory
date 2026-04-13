@@ -50,7 +50,7 @@ The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text
 
 The icosahedron's three stabilizers, inherited by $2I \subset S^3$, determine the identity:
 
-Faces ($Z_3$) sort color, and Edges ($Z_4$) sort spin. The eta sign gates charge, and the vacuum selects the generation. The same primes (2, 3, 5) that divide $|2I| = 120$ generate every force and identity in the spectrum.
+Faces ($Z_3$) sort color, Edges ($Z_4$) sort spin, and the Coxeter-Galois gate assigns weak isospin $T_3$. The eta sign gates charge, and the vacuum selects the generation. The same primes (2, 3, 5) that divide $|2I| = 120$ generate every force and identity in the spectrum.
 
 ---
 
