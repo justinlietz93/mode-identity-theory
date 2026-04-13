@@ -60,8 +60,9 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | [↗](files/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
 | [↗](files/mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
 | [↗](files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| [↗](files/mass-spectrum.md) Weak isospin $T_3$ | $j_\text{first}$ parity + Coxeter-Galois gate | 10/10 SM-assigned entries | exact |
 | [↗](files/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 11/12 SM assigned: 10/11 within ×3 | systematic |
+| [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 10/12 SM assigned: 9/10 within ×3 | systematic |
 | [↗](files/mass-spectrum.md) $m_\mu$ (Muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | [↗](files/mass-spectrum.md) $m_u$ (Up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | [↗](files/mass-spectrum.md) $m_e$ (Electron) | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
