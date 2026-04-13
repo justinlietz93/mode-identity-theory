@@ -59,13 +59,11 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 
 > * $\Omega_\Lambda$ here is the Planck-area count on the de Sitter horizon, not the standard cosmological density fraction ($\Omega_\Lambda^\text{ΛCDM} \approx 0.685$). The two are related by $\Omega_\Lambda = 3/(\Lambda \cdot \ell_P^2) \sim 10^{122}$.
 
-## The Topology
+## [The Topology](https://dmobius3.github.io/mode-identity-theory/files/framework/files/topology.html)
 
 $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the manifold triad: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. The postulate has one realization.
-
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/files/framework/files/topology.html)**
 
 ### Space
 
@@ -138,7 +136,7 @@ Three particle generations from three topological vacua. Full derivation in [Yan
 
 Four factors, each traced independently to the postulate:
 
-$$\Large m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)$$
+$$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)$$
 
 | Factor | Role | Source |
 |---|---|---|
