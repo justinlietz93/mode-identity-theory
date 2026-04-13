@@ -250,12 +250,12 @@ $$T_3 = -\tfrac{1}{2} \iff j_\text{first} \in \mathbb{Z},\ \text{or}\ (13,17)\ \
 |---|---|---|---|---|---|---|---|---|
 | 1 | $R_1$ | std | 1/2 | N/A | $R_0 + R_3$ | (irrelevant) | no pair $\to$ +1/2 | +1/2 ✓ |
 | 2 | $R_1$ | gal | 5/2 | N/A | $R_5$ | (irrelevant) | no pair $\to$ +1/2 | +1/2 ✓ |
-| 12 | $R_7$ | triv | 2 | N/A | $R_7$ | — | $j_\text{first} \in \mathbb{Z}$ | $-$1/2 ✓ |
+| 12 | $R_7$ | triv | 2 | N/A | $R_7$ | — | $j_\text{first} \in \mathbb{Z}$ | -1/2 ✓ |
 | 13 | $R_8$ | triv | 5/2 | kept | $R_8$ | — | pair kept $\to$ +1/2 | +1/2 ✓ |
-| 14 | $R_8$ | gal | 1/2 | stripped | $R_7 + R_5 + R_3$ | $R_3$ yes | both $\to$ $-$1/2 | $-$1/2 ✓ |
-| 15 | $R_8$ | std | 3/2 | stripped | $R_7 + R_5 + R_4$ | $R_4$ yes | both $\to$ $-$1/2 | $-$1/2 ✓ |
-| 17 | $R_4$ | std | 2 | N/A | $R_8$ | — | $j_\text{first} \in \mathbb{Z}$ | $-$1/2 ✓ |
-| 18 | $R_2$ | gal | 3/2 | stripped | $R_0 + R_4$ | $R_4$ yes | both $\to$ $-$1/2 | $-$1/2 ✓ |
+| 14 | $R_8$ | gal | 1/2 | stripped | $R_7 + R_5 + R_3$ | $R_3$ yes | both $\to$ -1/2 | -1/2 ✓ |
+| 15 | $R_8$ | std | 3/2 | stripped | $R_7 + R_5 + R_4$ | $R_4$ yes | both $\to$ -1/2 | -1/2 ✓ |
+| 17 | $R_4$ | std | 2 | N/A | $R_8$ | — | $j_\text{first} \in \mathbb{Z}$ | -1/2 ✓ |
+| 18 | $R_2$ | gal | 3/2 | stripped | $R_0 + R_4$ | $R_4$ yes | both $\to$ -1/2 | -1/2 ✓ |
 | 23 | $R_2$ | triv | 7/2 | kept | $R_2$ | — | pair kept $\to$ +1/2 | +1/2 ✓ |
 | 24 | $R_2$ | std | 5/2 | stripped | $R_5$ | all fixed | Galois-fixed $\to$ +1/2 | +1/2 ✓ |
 
