@@ -274,7 +274,7 @@ $${\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
 The coefficient 3 decomposes as two factors. The curved eigenvalue $\lambda_0 = 2/R^2$: the ground mode on the totally geodesic surface carries this geometric factor directly. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: $2 \times 3/2 = 3$.
 
-With R fixed from the CMB low-$\ell$ cutoff (§II.A), $R = 1.64 \times 10^{26}$ m:
+With R fixed from the CMB low-ℓ cutoff (§II.A), $R = 1.64 \times 10^{26}$ m:
 
 $$\frac{3}{R^2} = \frac{3}{(1.64 \times 10^{26})^2} = 1.12 \times 10^{-52}\;\text{m}^{-2}$$
 
@@ -285,7 +285,7 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | Step | Input | Output |
 |---|---|---|
 | 1 | Möbius topology | Anti-periodic BC; $L = \pi R$ |
-| 2 | $L = \pi R$ + CMB low-$\ell$ cutoff ($L_\text{fund} \approx 2.1$ Gpc) | $R \approx 5.3$ Gpc |
+| 2 | $L = \pi R$ + CMB low-ℓ cutoff ($L_\text{fund} \approx 2.1$ Gpc) | $R \approx 5.3$ Gpc |
 | 3 | Even transverse mode | 1D reduction |
 | 4 | Anti-periodic BC | Half-integer spectrum |
 | 5 | Isotropy + orthogonality | Ground mode ($m = 0$) |
@@ -323,7 +323,7 @@ Eigenvalues of the Laplacian on fixed topology are constants. If the topology is
 | Prediction | Falsified if | Threshold |
 |---|---|---|
 | Λ constant | Best-fit Λ in redshift bins shows significant variation | >2σ across independent probes (SNe, BAO, CMB) |
-| 3/2 conversion | $3\Lambda_\text{obs} \neq 2/R^2$, with R from CMB low- $\ell$ cutoff and $\Lambda_\text{obs}$ from SNe/BAO | >3σ |
+| 3/2 conversion | $3\Lambda_\text{obs} \neq 2/R^2$, with R from CMB low-ℓ cutoff and $\Lambda_\text{obs}$ from SNe/BAO | >3σ |
 
 These predictions are stated in advance of the European Space Agency's Euclid Data Release 1, scheduled for October 2026.
 
