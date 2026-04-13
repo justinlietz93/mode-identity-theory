@@ -10,6 +10,8 @@ bshatto.pe@gmail.com
 
 ---
 
+[![Ground mode eigenvalue](https://img.youtube.com/vi/1AZfOvcrIdk/mqdefault.jpg)](https://www.youtube.com/watch?v=1AZfOvcrIdk)
+
 ## Abstract
 
 We study the ground eigenvalue of the twisted Laplace-Beltrami operator on the Möbius band embedded totally geodesically in $S^3$, in Sector $\mathcal{A}$ (the reduced $w$-constant admissible regular-branch anti-periodic sector, defined precisely in Section 2). The embedding induces the metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, which carries constant Gaussian curvature $K = 1/R^2$, with the metric degenerating at the interior cone point $y = \pi R/2$. The problem is posed as a regular-branch Sturm-Liouville eigenvalue problem on two smooth half-intervals with continuity at the cone point.
