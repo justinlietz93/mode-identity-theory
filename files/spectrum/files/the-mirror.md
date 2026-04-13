@@ -4,6 +4,8 @@
 
 # Spectral Inaccessibility on the Poincaré Homology Sphere
 
+[![The Mirror](https://img.youtube.com/vi/78nEAE8Se4o/mqdefault.jpg)](https://www.youtube.com/watch?v=78nEAE8Se4o)
+
 On S³/2I, every intrinsic spectral construction in the admissible class defined below can read L-function structure with arbitrary precision but cannot constrain individual L-function zeros. The reading capacity and the writing incapacity are two faces of a single structural fact, forced by the geometry, representation theory, and arithmetic of the manifold.
 
 ## I. Definitions
