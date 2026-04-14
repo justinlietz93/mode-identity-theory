@@ -78,17 +78,6 @@ Two constants fix the physics. Two measurements anchor the scale. One borrowed p
 |---|---|---|
 | $\Omega_m$ | 0.315 | Matter density fraction; locates the present epoch ($t_\text{now} = 5.22$ rad) |
 
-**Derived from these**
-
-| Quantity | How |
-|---|---|
-| $\Lambda$ | $3/R^2$ (eigenvalue $\times$ Gauss-Codazzi) |
-| $G$ | $3c^4/(8\pi R^2 \mu_\Lambda^4)$, closed-form power law |
-| $\ell_P$ | $\sqrt{\hbar G/c^3}$ |
-| $\mu_\Lambda$ | $m_e$ / (topological ratios) |
-| All other masses | Mass formula |
-| All couplings | Scaling law |
-
 ---
 
 ## :musical_score: Score
