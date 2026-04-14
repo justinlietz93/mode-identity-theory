@@ -175,6 +175,8 @@ $$\Large {\Psi = \cos(t/2)}$$
 
 The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral over $L_\text{fund}$.
 
+[![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
+
 ### The Present Epoch
 
 $$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \text{ rad}$$
@@ -189,8 +191,6 @@ $$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -
 | $+1$ | 120 | $4\pi$ | Completion | 33 |
 
 The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$.
-
-[![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
 ## Cosmic Scale
 
