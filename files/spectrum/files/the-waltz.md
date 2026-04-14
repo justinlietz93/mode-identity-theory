@@ -87,7 +87,11 @@ The Gauss-Codazzi 3 is in the numerator. Einstein's $8\pi$ is in the denominator
 
 In standard physics, this is circular: $\mu_\Lambda$ is defined from $G$ and $\Lambda$, so solving back returns what you started with. In MIT, both sides are independently sourced. The numerator comes from the Möbius surface eigenvalue through Gauss-Codazzi (the curvature). The denominator comes from the mass spectrum: the mass formula says each particle mass equals $\mu_\Lambda$ times dimensionless topological ratios times the hierarchy factor $(\sqrt{\Omega})^{\text{dist}/30}$. Measuring any single particle mass and computing the topological ratios determines $\mu_\Lambda$.
 
-The equation is implicit ($G$ appears on both sides through $\Omega = R^2 c^3/\hbar G$ inside the hierarchy factor), making it transcendental rather than algebraic. It is solvable: one equation, one unknown, given $c$, $\hbar$, $R$, and one measured particle mass. For the electron ($\text{dist} = 4$, ratio 1.02), the combined $G$-dependence goes as $G^{-19/60}$, and the 2% mass accuracy propagates to roughly 6% in $G$.
+Although $G$ appears on both sides through $\Omega = R^2 c^3/\hbar G$ inside the hierarchy factor, all $G$-dependence collects into a single power law: $m \propto G^{-(15+d)/60}$, where $d$ is the McKay graph distance. The solution is closed-form:
+
+$$G = \left(\frac{K}{m_\text{obs}}\right)^{60/(15+d)}$$
+
+where $K$ contains only $c$, $\hbar$, $R$, and the dimensionless topological ratios ($C_\text{geom}$, $T^2$). One equation, one unknown, no iteration. For the electron ($\text{dist} = 4$, ratio 1.02), the exponent is $60/19 \approx 3.16$, and the 2% mass accuracy propagates to roughly 7% in $G$. The electron and muon bracket the measured value from opposite sides; their geometric mean recovers $G$ to better than 1%.
 
 | Input set | What you measure | What the framework provides |
 |---|---|---|
