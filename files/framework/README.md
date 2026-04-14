@@ -33,14 +33,14 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
-| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature-energy dictionary at the Planck floor |
+| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | [Curvature-energy dictionary at the Planck floor](../spectrum/files/the-waltz.md) |
 
 **Measured scales**
 
 | Scale | Value | Role |
 |---|---|---|
 | $R_\Lambda$ | $\approx 5.3$ Gpc | De Sitter horizon radius; sets the size of the domain |
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low- $\ell$ cutoff; sets the cavity mode. See [cmb-anomalies](../cosmos/files/cmb-anomalies.md) |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | [CMB low- $\ell$ cutoff; sets the cavity mode](../cosmos/files/cmb-anomalies.md) |
 
 **Concordance parameter**
 
@@ -85,7 +85,9 @@ The Möbius strip is the minimal non-orientable surface with $S^1$ boundary. By 
 
 Orientable surfaces produce none of these.
 
-The eigenvalue problem $-\partial_y^2 \psi = \lambda \psi$ under the anti-periodic BC requires $e^{ik\pi R_\Lambda} = -1$, giving $k = (2m+1)/R_\Lambda$. Defining the mode number $\nu = kR_\Lambda/2$, the allowed values are $\nu = 1/2, 3/2, 5/2, \ldots$: half-integers in this normalization. The constant mode ($k = 0$) is forbidden. The field $\psi$ is a section of the orientation line bundle: the unique nontrivial real line bundle on a non-orientable surface, whose sections pick up a sign flip under the orientation-reversing identification. Matter is fermionic because the surface is non-orientable and the physical field couples to its orientation structure.
+The eigenvalue problem $-\partial_y^2 \psi = \lambda \psi$ under the anti-periodic BC requires $e^{ik\pi R_\Lambda} = -1$, giving $k = (2m+1)/R_\Lambda$. Defining the mode number $\nu = kR_\Lambda/2$, the allowed values are $\nu = 1/2, 3/2, 5/2, \ldots$: half-integers in this normalization. The constant mode ($k = 0$) is forbidden. 
+
+The field $\psi$ is a section of the orientation line bundle: the unique nontrivial real line bundle on a non-orientable surface, whose sections pick up a sign flip under the orientation-reversing identification. Matter is fermionic because the surface is non-orientable and the physical field couples to its orientation structure.
 
 ### Temporal Edge
 
@@ -120,7 +122,7 @@ $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
 Positive Ricci curvature on $S^3$ means every coexact gauge fluctuation around a flat connection has a minimum eigenvalue. The Weitzenböck identity on the Hodge Laplacian gives $\lambda \geq 2/R_\Lambda^2 > 0$. The mass gap exists and is at least $2/R_\Lambda^2$; the actual gap at the trivial and standard vacua is $4/R_\Lambda^2$. Confinement is geometric.
 
-### Three Generations
+### [Three Generations](../spectrum/files/yang-mills.md)
 
 Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomorphisms from $2I$ into SU(2). Exactly three exist. Each is isolated ($H^1 = 0$): no continuous moduli, no Goldstone bridges between families.
 
@@ -130,7 +132,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 | Standard | $4/R_\Lambda^2$ | Irreducible connection | Generation 2 |
 | Galois | $36/R_\Lambda^2$ ($9\times$) | Galois conjugate connection | Generation 3 |
 
-Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/files/yang-mills.md).
+Three particle generations from three topological vacua.
 
 ### [The Mass Forumula](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
 
@@ -145,9 +147,9 @@ $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
 | $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; generation splitter | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
 
-Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [mass-spectrum](../spectrum/files/mass-spectrum.md).
+Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%.
 
-### Particle Identity
+### [Particle Identity](../spectrum/files/mass-spectrum.md)
 
 The icosahedron carries three stabilizer subgroups. Restricting each irrep to these subgroups assigns physical identity.
 
@@ -175,7 +177,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 
 The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral over $L_\text{fund}$.
 
-### The Present Epoch
+### [The Present Epoch](../cosmos/files/dark-energy.md)
 
 $$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \text{ rad}$$
 
@@ -183,12 +185,12 @@ $$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -
 |---|---|---|---|---|
 | $+1$ | 0 | 0 | Initial | 0 |
 | $0$ | 30 | $\pi$ | First crossing | 8.3 |
-| $-0.86$ | ~50 | 5.22 | **Present** | **13.8** |
+| $-0.86$ | *~50* | *5.22* | *Present* | *13.8* |
 | $-1$ | 60 | $2\pi$ | Turnaround | 16.6 |
 | $0$ | 90 | $3\pi$ | Second crossing | 24.9 |
 | $+1$ | 120 | $4\pi$ | Completion | 33 |
 
-The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$. Full derivation in [dark-energy](../cosmos/files/dark-energy.md).
+The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$.
 
 ## Cosmic Scale
 
@@ -247,13 +249,15 @@ The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable
 | $\Theta = 1/2$ (antinode) | 2 | 0 | Maximum amplitude; topologically protected |
 | $\Theta = 1$ (boundary) | 0 | $\to -\infty$ | No observable amplitude |
 
-$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant](../cosmos/files/cosmological-constant.md).
+$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed.
 
 ## Fibonacci Wells
 
 Fibonacci positions minimize destructive interference on the 120 domain (Hurwitz: $\varphi$ is hardest to approximate rationally). Below $F_7$, amplitude is indistinguishable from noise. $F_7 = 13$ is the unique well satisfying Fibonacci stability, amplitude above the noise floor, and $\gcd(13, 120) = 1$.
 
-Three constraints force the observable assignments. First, the manifold index separates edge modes ($n = 1$, epoch-dependent: $H_0$, $a_0$) from surface modes ($n = 2$, epoch-independent: $\Lambda$). Second, the bosonic projection: photon-mediated observables access only the 60-grid (even numerators survive $2I \to I$); dynamical observables access the full 120. Third, $\Lambda$ sits at the antinode (60/120) by eigenvalue identity. Of the remaining wells, only 34/120 has an even numerator and is therefore visible on the bosonic grid, forcing $H_0$. The well 13/120 requires the full 120-grid ($\gcd(13,120) = 1$), making it accessible only to dynamical (non-photon-mediated) observation, forcing $a_0$. The table below summarizes these forced outcomes.
+Three constraints force the observable assignments. First, the manifold index separates edge modes ($n = 1$, epoch-dependent: $H_0$, $a_0$) from surface modes ($n = 2$, epoch-independent: $\Lambda$). Second, the bosonic projection: photon-mediated observables access only the 60-grid (even numerators survive $2I \to I$); dynamical observables access the full 120. Third, $\Lambda$ sits at the antinode (60/120) by eigenvalue identity. 
+
+Of the remaining wells, only 34/120 has an even numerator and is therefore visible on the bosonic grid, forcing $H_0$. The well 13/120 requires the full 120-grid ($\gcd(13,120) = 1$), making it accessible only to dynamical (non-photon-mediated) observation, forcing $a_0$. The table below summarizes these forced outcomes.
 
 | $F_n$ | Grid | Well | $C(\Theta)$ | Observable | Assignment logic |
 |---|---|---|---|---|---|
@@ -268,7 +272,7 @@ $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by
 
 $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension.
 
-## The Phase Field
+## [The Phase Field](../cosmos/files/hubble-tension.md)
 
 The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0$ is the Fibonacci well (fixed) and $\Theta_f$ is the local environmental shift.
 
@@ -289,7 +293,7 @@ The classification index $\mathcal{T}$ compares the gravitational potential drop
 | $H_0$ | 34/120 | $2/120$ | $5.1 \times 2/120$ | 8.4% |
 | $\Lambda_\text{top}$ | 60/120 | $2/120$ | $0 \times 2/120$ | 0% |
 
-The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension](../cosmos/files/hubble-tension.md).
+The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
 
 ## [The Scaling Law](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
 
@@ -307,18 +311,18 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 
 | Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ |
 |---|---|---|---|---|---|---|
-| $\alpha$ | 1 | 60R | 13/60 | 0.792 | $1/30$ | $7.33 \times 10^{-3}$ |
-| $a_0$ | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ |
-| $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
-| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
+| [α](../spectrum/files/fine-structure.md) | 1 | 60R | 13/60 | 0.792 | $1/30$ | $7.33 \times 10^{-3}$ |
+| [a₀](../cosmos/files/early-galaxies.md) | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ |
+| [H₀](../cosmos/files/hubble-tension.md) | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
+| [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
 
-> * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor). Agreement with observation: ~2%. Gravity in [the-waltz](../spectrum/files/the-waltz.md).
+> * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 
-$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/files/fine-structure.md).
+$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution.
 
-The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/files/early-galaxies.md).
+The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$.
 
-### The Gauge Ladder
+### [The Gauge Ladder](../spectrum/files/fine-structure.md)
 
 Dimensionless couplings resolve within the hierarchy at the grid level rather than the manifold level. A single principle assigns each gauge force: the phase slot inherits the grid of the carrier, the exponent slot inherits the grid of the confinement target.
 
