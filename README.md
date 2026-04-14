@@ -56,7 +56,7 @@ Faces ($Z_3$) sort color, Edges ($Z_4$) sort spin, and the Coxeter-Galois gate a
 
 ## :control_knobs: Inputs
 
-Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the time. 
+Three constants fix the physics. One measurement set the size. One borrowed parameter locates the time. 
 
 **Primitives**
 
@@ -66,12 +66,11 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 | $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor |
 
-**Measured scales**
+**Measured scale**
 
 | Scale | Value | Origin |
 |---|---|---|
 | $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter horizon radius; sets the size of the domain |
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low-ℓ cutoff; sets the cavity mode |
 
 **Concordance parameter**
 
