@@ -8,7 +8,7 @@
 
 James Webb has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ within 600 Myr of the Big Bang require star formation efficiencies exceeding unity under ΛCDM, a physical impossibility. 
 
-Mode Identity Theory predicts that the MOND acceleration scale $a_0$ is an edge mode ($n = 1$) referencing the evolving Hubble horizon: $a_0(z) = a_0(0) \times H(z)/H_0$. At $z = 10$, this gives $a_0 \approx 20 \times$ the local value, enhancing gravitational binding and accelerating structure formation without new physics.
+Mode Identity Theory predicts that the MOND acceleration scale $a_0$ is an edge mode ($n = 1$) referencing the evolving Hubble horizon: $a_0(z) = a_0(0) \times H(z)/H_0$. At $z = 10$, this gives $a_0 \approx 20 \times$ the local value, enhancing effective gravitational acceleration and accelerating structure formation without new physics.
 
 Critically, MIT predicts $a_0$ evolves while Λ remains fixed: the inverse of standard assumptions. Both predictions are independently testable.
 
@@ -19,7 +19,7 @@ Critically, MIT predicts $a_0$ evolves while Λ remains fixed: the inverse of st
 | Scaling law | $a_0(z) = a_0(0) \times H(z)/H_0$ |
 | $a_0/(cH_0)$ ratio | predicted: 0.184 / observed: 0.183 |
 | At $z = 10$ | $a_0 \approx 2.4 \times 10^{-9}$ m/s<sup>2</sup> (20x local) |
-| Binding enhancement | $\sqrt{20} \approx 4.5$ x (collapse ~2.1x faster) |
+| Acceleration enhancement | $\sqrt{20} \approx 4.5$ x (collapse ~2.1x faster) |
 
 ## I. The Observational Tension
 
@@ -53,11 +53,11 @@ $$a_0(z{=}10) \approx 20 \times a_0(0) \approx 2.4 \times 10^{-9} \;\text{m/s}^2
 
 ## IV. Implications for Structure Formation
 
-In the deep-MOND regime ($g \ll a_0$), effective gravitational acceleration scales as $g_\text{eff} \propto \sqrt{g_N \times a_0}$. Comparing epoch-dependent $a_0$ to the standard constant assumption:
+In the deep-MOND regime ($g \ll a_0$), the simple interpolating function gives effective gravitational acceleration $g_\text{eff} \propto \sqrt{g_N \times a_0}$. The enhancement is maximal in this limit; inner regions of forming halos where $g$ approaches $a_0(z)$ see a smaller correction, so the estimates below are upper bounds. Comparing epoch-dependent $a_0$ to the standard constant assumption:
 
 $$\frac{g_\text{eff}(z{=}10)}{g_\text{eff}(\text{standard})} = \sqrt{\frac{a_0(z{=}10)}{a_0(0)}} = \sqrt{20} \approx 4.5$$
 
-A factor of ~4.5 enhancement in effective gravitational binding significantly alters collapse dynamics. This comparison is at fixed epoch: both MIT and constant-$a_0$ MOND face identical expansion rates at $z = 10$; the difference is solely the effective gravitational acceleration. Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ could collapse approximately 2.1x faster than standard MOND would predict. For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1x faster collapse approximately halves the required star formation rate to assemble the same stellar mass, reducing the implied efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range.
+A factor of ~4.5 enhancement in effective gravitational acceleration significantly alters collapse dynamics. This comparison is at fixed epoch: both MIT and constant-$a_0$ MOND face identical expansion rates at $z = 10$; the difference is solely the effective gravitational acceleration. Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ could collapse approximately 2.1x faster than standard MOND would predict. To order of magnitude, if the collapse timescale sets the star formation duty cycle, the required formation rate to assemble a given stellar mass drops by the same factor. For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1x faster collapse reduces the implied efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range.
 
 ## V. Contrasting Predictions
 
