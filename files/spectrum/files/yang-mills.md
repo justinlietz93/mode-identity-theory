@@ -34,13 +34,13 @@ This bound is universal: it holds for any quotient $S^3/\Gamma$ inheriting the r
 
 ## II. Three Vacua
 
-Flat $\mathrm{SU}(2)$ connections on $M$ are classified by $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$. A homomorphism $\rho: 2I \to \mathrm{SU}(2)$ is equivalently a 2-dimensional unitary representation with determinant 1. The character table of $2I$ has exactly nine irreducible representations, of which exactly two have dimension 2: $R_1$ and $R_7$. Both are faithful. The only remaining possibility is the trivial map ($\rho(g) = I$). This gives three conjugacy classes total.
+Flat $\mathrm{SU}(2)$ connections on $M$ are classified by $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$. A homomorphism $\rho: 2I \to \mathrm{SU}(2)$ is equivalently a 2-dimensional unitary representation with determinant 1. The character table of $2I$ has exactly nine irreducible representations, of which exactly two have dimension 2: $R_1$ and $R_2$. Both are faithful. The only remaining possibility is the trivial map ($\rho(g) = I$). This gives three conjugacy classes total.
 
 | Generation | Vacuum | Adjoint rep | 2I irrep | $E_8$ position |
 |---|---|---|---|---|
 | 1st | $\rho_{\mathrm{triv}}$ | trivial | $R_0^{\oplus 3}$ | origin |
-| 2nd | $\rho_{\mathrm{std}}$ | 3a | $R_2$ | near origin |
-| 3rd | $\rho_{\mathrm{gal}}$ | 3b | $R_8$ | branch tip |
+| 2nd | $\rho_{\mathrm{std}}$ | 3a | $R_3$ | near origin |
+| 3rd | $\rho_{\mathrm{gal}}$ | 3b | $R_4$ | branch node |
 
 The standard and Galois embeddings are distinguished by the golden ratio: $\rho_{\mathrm{std}}$ has trace $\varphi = (1+\sqrt{5})/2$ on order-10 elements, while $\rho_{\mathrm{gal}}$ has trace $\bar\varphi = (1-\sqrt{5})/2$. Since $\mathrm{SU}(2)$ conjugation preserves traces and $\varphi \neq \bar\varphi$, the two define distinct conjugacy classes. The kernel $\{\pm 1\}$ case (factoring through $A_5$) produces no additional class because $A_5$ has no faithful 2-dimensional representation.
 
@@ -68,19 +68,19 @@ On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted
 
 The left-$\mathrm{SU}(2)$ content of coexact 1-forms at eigenvalue $(k+1)^2/R^2$ is $V_{k-1} \oplus V_{k+1}$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}\vert_{2I} = R_1 \otimes V_l\vert_{2I} - V_{l-1}\vert_{2I}$ gives:
 
-$$V_0 = R_0, \quad V_1 = R_1, \quad V_2 = R_2, \quad V_3 = R_3, \quad V_4 = R_4, \quad V_5 = R_5, \quad V_6 = R_6 \oplus R_8$$
+$$V_0 = R_0, \quad V_1 = R_1, \quad V_2 = R_3, \quad V_3 = R_6, \quad V_4 = R_7, \quad V_5 = R_8, \quad V_6 = R_5 \oplus R_4$$
 
 The $2I$ content of gauge-valued 1-forms at each coexact level is therefore $(V_{k-1} \oplus V_{k+1})\vert_{2I}$:
 
-| $k$ | $\lambda_k$ | $V_{k-1}\vert_{2I}$ | $V_{k+1}\vert_{2I}$ | Combined $2I$ content | $R_0$? | $R_2$? | $R_8$? |
+| $k$ | $\lambda_k$ | $V_{k-1}\vert_{2I}$ | $V_{k+1}\vert_{2I}$ | Combined $2I$ content | $R_0$? | $R_3$? | $R_4$? |
 |---|---|---|---|---|---|---|---|
-| 1 | $4/R^2$ | $R_0$ | $R_2$ | $R_0,\; R_2$ | ✓ | ✓ | — |
-| 2 | $9/R^2$ | $R_1$ | $R_3$ | $R_1,\; R_3$ | — | — | — |
-| 3 | $16/R^2$ | $R_2$ | $R_4$ | $R_2,\; R_4$ | — | ✓ | — |
-| 4 | $25/R^2$ | $R_3$ | $R_5$ | $R_3,\; R_5$ | — | — | — |
-| 5 | $36/R^2$ | $R_4$ | $R_6 \oplus R_8$ | $R_4,\; R_6,\; R_8$ | — | — | ✓ |
+| 1 | $4/R^2$ | $R_0$ | $R_3$ | $R_0,\; R_3$ | ✓ | ✓ | — |
+| 2 | $9/R^2$ | $R_1$ | $R_6$ | $R_1,\; R_6$ | — | — | — |
+| 3 | $16/R^2$ | $R_3$ | $R_7$ | $R_3,\; R_7$ | — | ✓ | — |
+| 4 | $25/R^2$ | $R_6$ | $R_8$ | $R_6,\; R_8$ | — | — | — |
+| 5 | $36/R^2$ | $R_7$ | $R_5 \oplus R_4$ | $R_7,\; R_5,\; R_4$ | — | — | ✓ |
 
-Each vacuum requires its adjoint representation to appear in the combined column. The trivial vacuum ($\mathrm{ad} = 3 \times R_0$: trivial $2I$-action on $\mathfrak{su}(2)$) requires $R_0$; the standard vacuum ($\mathrm{ad} = R_2$) requires $R_2$. Both pass at $k = 1$. The Galois vacuum ($\mathrm{ad} = R_8$) requires $R_8$, which is absent at $k = 1$ through $k = 4$ and first appears at $k = 5$. Four levels are filtered. The computation is finite and verifiable from the character table of $2I$.
+Each vacuum requires its adjoint representation to appear in the combined column. The trivial vacuum ($\mathrm{ad} = 3 \times R_0$: trivial $2I$-action on $\mathfrak{su}(2)$) requires $R_0$; the standard vacuum ($\mathrm{ad} = R_3$) requires $R_3$. Both pass at $k = 1$. The Galois vacuum ($\mathrm{ad} = R_4$) requires $R_4$, which is absent at $k = 1$ through $k = 4$ and first appears at $k = 5$. Four levels are filtered. The computation is finite and verifiable from the character table of $2I$.
 
 ### Gap values
 
@@ -92,15 +92,15 @@ Galois vacuum: first allowed mode at $k = 5$:
 
 $$\Delta^2 = \frac{(5+1)^2}{R^2} = \frac{36}{R^2}$$
 
-The $k = 5$ entry is read directly from the table above: $R_8$ is absent from the combined $2I$ content at every level below $k = 5$.
+The $k = 5$ entry is read directly from the table above: $R_4$ is absent from the combined $2I$ content at every level below $k = 5$.
 
 | Vacuum | Adjoint | First allowed k | Gap | Enhancement |
 |---|---|---|---|---|
 | $\rho_{\mathrm{triv}}$ | trivial ($R_0^{\oplus 3}$) | 1 | $4/R^2$ | 1x |
-| $\rho_{\mathrm{std}}$ | 3a ($R_2$) | 1 | $4/R^2$ | 1x |
-| $\rho_{\mathrm{gal}}$ | 3b ($R_8$) | 5 | $36/R^2$ | 9x |
+| $\rho_{\mathrm{std}}$ | 3a ($R_3$) | 1 | $4/R^2$ | 1x |
+| $\rho_{\mathrm{gal}}$ | 3b ($R_4$) | 5 | $36/R^2$ | 9x |
 
-The level index gap is topological: the Galois vacuum is filtered through four empty levels because $R_8$ sits at graph distance 6 from the trivial node. The ratio $9 = (5+1)^2/(1+1)^2$ uses the round-metric eigenvalue formula and is metric-dependent. The mass hierarchy between generations follows from this filter. Each vacuum accesses different levels of the McKay decomposition. The Galois vacuum sees the largest gap. Vacuum-to-generation assignment is open; no universal mass hierarchy holds across irreps.
+The level index gap is topological: the Galois vacuum is filtered through four empty levels because $R_4$ sits at graph distance 6 from the trivial node. The ratio $9 = (5+1)^2/(1+1)^2$ uses the round-metric eigenvalue formula and is metric-dependent. The mass hierarchy between generations follows from this filter. Each vacuum accesses different levels of the McKay decomposition. The Galois vacuum sees the largest gap. Vacuum-to-generation assignment is open; no universal mass hierarchy holds across irreps.
 
 ## IV. Three Pillars
 
@@ -120,7 +120,7 @@ The existence of the gap, the discreteness of vacua, the vanishing $H^1$, and th
 
 Within Mode Identity Theory, $R$ is fixed by cosmological parameters, making $\Delta^2 = 4/R^2$ a determinate physical constant. The same positive curvature $\mathrm{Ric}(S^3) = 2/R^2$ that guarantees confinement here enters the Gauss-Codazzi conversion that produces Λ. One geometry, two consequences: the cosmological constant and the spectral gap share a common origin in the curvature of $S^3$.
 
-The $2I$ structure performs three roles: it partitions phase space into the 120-domain (the scaling law), it filters gauge fluctuations into three isolated vacua with computed spectral gaps (this result), and it provides the spectral geometry whose McKay multiplicities are the $E_8$ root system.
+The $2I$ structure performs three roles: it partitions phase space into the 120-domain (the scaling law), it filters gauge fluctuations into three isolated vacua with computed spectral gaps (this result), and it provides the spectral geometry whose McKay multiplicities are the $E_8$ root system. The same McKay filtering, applied to the trivial representation rather than the adjoint, determines the scalar harmonic spectrum on $S^3/2I$: the Molien series for the invariant ring of $2I$ empties the first five spin levels after $j = 0$, producing the CMB power deficit observed below $\ell \lesssim 30$.
 
 ## V. Falsification
 
@@ -130,7 +130,7 @@ Every prediction is checkable by finite computation.
 |---|---|
 | 3 conjugacy classes in $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$ | Additional class constructed, or standard and Galois proved conjugate |
 | $H^1(M; \mathrm{ad}\ \rho) = 0$ at irreducible flats | Nonzero cohomology demonstrated |
-| First 3b appearance at $k = 5$ ($R_8$ first in $V_6\vert_{2I}$) | Character sum yields $R_8$ at lower $k$ |
+| First 3b appearance at $k = 5$ ($R_4$ first in $V_6\vert_{2I}$) | Character sum yields $R_4$ at lower $k$ |
 | Galois gap at $k = 5$ | Coexact 1-form of 3b type found at lower $k$ |
 
 ### Physical predictions (conditional on compact topology)
@@ -142,7 +142,7 @@ Every prediction is checkable by finite computation.
 
 ---
 
-SU(2) Yang-Mills on the Poincaré Homology Sphere has a positive spectral gap. Positive curvature forces it. Three isolated vacua produce three families. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch tip of the $E_8$ graph. The level gap is topological; the eigenvalues are geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
+SU(2) Yang-Mills on the Poincaré Homology Sphere has a positive spectral gap. Positive curvature forces it. Three isolated vacua produce three families. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch node of the $E_8$ graph. The level gap is topological; the eigenvalues are geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
 
 *On curved ground, confinement is easy money.*
 
