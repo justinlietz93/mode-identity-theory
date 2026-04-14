@@ -163,7 +163,7 @@ The icosahedron carries three stabilizer subgroups. Restricting each irrep to th
 
 The three stabilizer orders are the primes dividing $|2I| = 120$. They generate color, domain, and the electroweak interface. The mass formula computes how heavy. The stabilizer structure says what.
 
-## The Cosmic Standing Wave
+## [The Cosmic Standing Wave](../cosmos/files/dark-energy.md)
 
 Anti-periodicity, the initial-maximum condition ($\Psi(0) = +1$), and ground-state selection ($m_h = 0$) together fix:
 
@@ -177,7 +177,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 
 The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral over $L_\text{fund}$.
 
-### [The Present Epoch](../cosmos/files/dark-energy.md)
+### The Present Epoch
 
 $$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \text{ rad}$$
 
