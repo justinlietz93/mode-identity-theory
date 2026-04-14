@@ -93,11 +93,12 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
 | [↗](/files/cosmos/files/dark-energy.md) $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ✓ |
+| [↗](files/cosmost/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at ℓ \approx 29$ | deficit below ℓ \lesssim 30$ | ✓ |
+| [↗](files/cosmost/files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% |
+| [↗](files/cosmost/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
+| [↗](files/cosmost/files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} \approx 0.81$ | $R_{TT} \approx 0.81$ | <1% |
+| [↗](files/cosmost/files/cmb-anomalies.md) CMB alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | 14% |
+| [↗](files/cosmost/files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ✓ |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ~3% |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
