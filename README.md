@@ -56,7 +56,7 @@ Faces ($Z_3$) sort color, Edges ($Z_4$) sort spin, and the Coxeter-Galois gate a
 
 ## :control_knobs: Inputs
 
-Three constants fix the physics. One measurement set the size. One borrowed parameter locates the time. 
+Two constants fix the physics. Two measurements anchor the scale. One borrowed parameter locates the time.
 
 **Primitives**
 
@@ -64,19 +64,30 @@ Three constants fix the physics. One measurement set the size. One borrowed para
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
-| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor |
 
-**Measured scale**
+**Measured scales**
 
 | Scale | Value | Origin |
 |---|---|---|
-| $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter horizon radius; sets the size of the domain |
+| $R$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$; sets the size of the domain |
+| $m_e$ | $0.511$ MeV | Electron mass; anchors the spectrum |
 
 **Concordance parameter**
 
 | Parameter | Value | Origin |
 |---|---|---|
-| $\Omega_m$ | 0.315 | Matter density fraction; used to locate the present epoch ($t_\text{now} = 5.22$ rad) |
+| $\Omega_m$ | 0.315 | Matter density fraction; locates the present epoch ($t_\text{now} = 5.22$ rad) |
+
+**Derived from these**
+
+| Quantity | How |
+|---|---|
+| $\Lambda$ | $3/R^2$ (eigenvalue $\times$ Gauss-Codazzi) |
+| $G$ | $3c^4/(8\pi R^2 \mu_\Lambda^4)$, closed-form power law |
+| $\ell_P$ | $\sqrt{\hbar G/c^3}$ |
+| $\mu_\Lambda$ | $m_e$ / (topological ratios) |
+| All other masses | Mass formula |
+| All couplings | Scaling law |
 
 ---
 
