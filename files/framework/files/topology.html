@@ -56,7 +56,7 @@
   <button class="ctrl-btn active" data-layer="space"><div class="indicator ind-space"></div><span>S<sup>3</sup> Space</span></button>
   <button class="ctrl-btn active" data-layer="surface"><div class="indicator ind-surface"></div><span>Möbius Surface</span></button>
   <button class="ctrl-btn active" data-layer="edge"><div class="indicator ind-edge"></div><span>S<sup>1</sup> Edge</span></button>
-  <button class="ctrl-btn active" data-layer="cone"><div class="indicator ind-cone"></div><span>Cone Point</span></button>
+  <button class="ctrl-btn" data-layer="cone"><div class="indicator ind-cone"></div><span>Cone Point</span></button>
   <button class="ctrl-btn active" data-layer="wave"><div class="indicator ind-wave"></div><span>u₀ = sin(y/R)</span></button>
   <button class="ctrl-btn active" data-layer="sample"><div class="indicator ind-sample"></div><span>Sample Ψ</span></button>
   <select class="well-select visible" id="wellSelect">
@@ -273,7 +273,7 @@ document.addEventListener('touchend', function() { drag=false; });
 // ═══════════════════════════════════════════
 //  LAYERS AND ANNOTATIONS
 // ═══════════════════════════════════════════
-var layers = { space:true, surface:true, edge:true, cone:true, wave:true, sample:true };
+var layers = { space:true, surface:true, edge:true, cone:false, wave:true, sample:true };
 var ann = {
   space: { label:"Space", name:"S\u00B3 Hypersphere", body:"Closed, simply connected, no boundary. The Poincar\u00E9 theorem guarantees S\u00B3 is unique. Contains everything. Holds everything.", math:"\u2202S\u00B3 = \u2205" },
   surface: { label:"Surface", name:"Totally Geodesic M\u00F6bius", body:"The strip lives ON the great S\u00B2 within S\u00B3. Its geodesics are geodesics of space. The metric ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2 carries constant curvature K = 1/R\u00B2. Widest at the equator, pinching to a point at the pole.", math:"ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2" },
@@ -321,7 +321,7 @@ document.getElementById('wellSelect').addEventListener('change', function() {
 });
 
 applyLayers();
-updateSample(60);
+updateSample(34);
 
 // ═══════════════════════════════════════════
 //  ANIMATION
