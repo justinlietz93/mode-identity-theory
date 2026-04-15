@@ -177,7 +177,7 @@ A single geometric structure accounts for four persistent CMB features. The topo
 
 **Alignment.** The Möbius twist axis defines the preferred direction. The 2I-invariant modes are axially symmetric about it. The observed misalignment is parallax: $d/\chi_* = 8.6°$.
 
-**One position, four observables.** The observer sits at geodesic distance $d = 2.1$ Gpc from the domain center, corresponding to $\chi = 0.40$ rad in $S^3$. This single parameter controls the parity magnitude, the alignment angle, the quadrupole suppression, and (through the Molien gap) the low-$\ell$ transition scale. Four independent measurements constrain one number. The over-determination is the test.
+**One position, four observables.** The observer sits at geodesic distance $d = 2.1$ Gpc from the domain center, corresponding to $\chi = 0.40$ rad in $S^3$. This single parameter controls the parity magnitude, the alignment angle, the quadrupole suppression, and (through the Molien gap) the low-ℓ transition scale. Four independent measurements constrain one number. The over-determination is the test.
 
 Luminet et al. proposed the Poincaré dodecahedral space to explain low-ℓ suppression. The COMPACT collaboration systematically studied non-orientable manifolds and confirmed that they generically produce parity asymmetry of the observed sign. The present work differs in two ways: the Möbius surface is embedded in S³ rather than being a quotient of it, and the predictions rest on the Molien-filtered scalar spectrum of $S^3/2I$ rather than on a flat-strip eigenspectrum.
 
