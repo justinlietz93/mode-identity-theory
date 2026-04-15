@@ -126,7 +126,7 @@ The same McKay filtering, applied to the trivial representation $R_0$ rather tha
 
 $$P(t) = \frac{1 - t^{60}}{(1 - t^{12})(1 - t^{20})(1 - t^{30})}$$
 
-shows the first nontrivial invariant at $N = 12$. Five even-degree shells ($N = 2, 4, 6, 8, 10$) are empty. The mechanism parallels the gauge sector: the McKay recursion walks along the $E_8$ graph, and the trivial representation does not reappear until the walk returns after twelve steps. The last empty shell ($N = 10$) has characteristic multipole $\ell_{\mathrm{char}} = \sqrt{N(N+2)}\,\chi_*/R \approx 29$; the first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. The Molien gap produces a mode density deficit below $\ell \lesssim 30$, matching the observed CMB low-$\ell$ power suppression.
+shows the first nontrivial invariant at $N = 12$. Five even-degree shells ($N = 2, 4, 6, 8, 10$) are empty. The mechanism parallels the gauge sector: the McKay recursion walks along the $E_8$ graph, and the trivial representation does not reappear until the walk returns after twelve steps. The last empty shell ($N = 10$) has characteristic multipole $\ell_{\mathrm{char}} = \sqrt{N(N+2)}\,\chi_*/R \approx 29$; the first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. The Molien gap produces a mode density deficit below $\ell \lesssim 30$, matching the observed CMB low-ℓ power suppression.
 
 ## V. Falsification
 
