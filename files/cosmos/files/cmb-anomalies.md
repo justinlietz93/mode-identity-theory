@@ -191,9 +191,9 @@ The topology does not predict the observer's position. The value $d = 2.1$ Gpc i
 
 | Prediction | Falsified if | Threshold |
 |---|---|---|
-| Mode density transition at $\ell \sim 29$ | Low-$\ell$ power consistent with ΛCDM (no deficit) | No suppression at $\geq 2\sigma$ |
+| Mode density transition at $\ell \sim 29$ | Low-ℓ power consistent with ΛCDM (no deficit) | No suppression at $\geq 2\sigma$ |
 | Quadrupole suppression | $C_2/C_3$ consistent with ΛCDM | $C_2/C_3 > 0.5$ |
-| $R_{TT} < 1$ | Even-$\ell$ excess at large angles | $R_{TT} > 1$ at $\geq 2\sigma$ |
+| $R_{TT} < 1$ | Even-ℓ excess at large angles | $R_{TT} > 1$ at $\geq 2\sigma$ |
 | Preferred axis | No alignment in independent data | Quadrupole-octupole angle consistent with isotropy |
 | Over-determination of $d$ | Observables require different $d$ values | Parity, alignment, quadrupole inconsistent at one $\chi$ |
 
