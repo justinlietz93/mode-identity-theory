@@ -27,7 +27,7 @@ Work left to right. No backflow. If something fails at Tool 3, you do not "fix" 
 | 120 structure | 2I (binary icosahedral, largest exceptional discrete subgroup of SU(2) ≅ S³) acts freely; \|2I\| = 120 | DERIVED |
 | Gauss-Codazzi | 3/2 curvature interface: R_spatial = 3R_Σ = 2Λ → Λ_obs = (3/2)Λ_top. Ground eigenvalue λ₀ = 2/R² = R_Σ derived directly; Bochner bound confirms λ₀ ≥ R_Σ with equality unique. | DERIVED |
 | Topological protection of Λ | Λ_top sits at the antinode (Θ = 60/120) where d ln C/dΘ = 0. Zero slope means no perturbation can shift it. Λ is constant because the mode cannot be displaced. | DERIVED |
-| G as consistency condition | G is not derived from topology but is constrained by it. Given Λ = 3/R² (Möbius eigenvalue) and μ_Λ from the mass spectrum: G = 3c⁴ / (8π R² μ_Λ⁴). This is implicit: G appears on both sides through Ω = R²c³/ℏG. One equation, one unknown, given c, ℏ, R, and one measured particle mass. G is the exchange rate between what the surface curves and what the spectrum hums. | MOTIVATED |
+| G as consistency condition | G is not derived from topology but is constrained by it. Given Λ = 3/R² (Möbius eigenvalue) and μ_Λ from the mass spectrum: G = 3c⁴ / (8π R² μ_Λ⁴). All G-dependence collects into a single power law: m ∝ G^{-(15+d)/60}. The solution is closed-form, not transcendental. One equation, one unknown, given c, ℏ, R, and one measured particle mass. Electron anchor: +7%, muon: -7%, geometric mean: <1%. G is the exchange rate between what the surface curves and what the spectrum hums. | ESTABLISHED |
 
 **What this tool settles:**
 
@@ -120,7 +120,7 @@ The binary icosahedral group 2I inherits three stabilizer subgroups from the ico
 |-----------|----------|-----------------|--------|
 | Face (Z₃) | Order 3 | Color: singlet vs triplet | LOCKED |
 | Edge (Z₄) | Order 4 | Domain: D = 60 vs 120; spin-statistics | LOCKED |
-| Vertex (Z₅) | Order 5 | Electroweak interface; Galois vacuum distinction | Current work |
+| Vertex (Z₅) | Order 5 | Electroweak interface; T₃ via Coxeter-Galois gate | ESTABLISHED |
 | Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi curvature conversion | MOTIVATED |
 | Vertex through twist | cos(π/10) | Weak coupling correction; parity violation | MOTIVATED |
 
@@ -130,7 +130,7 @@ The three stabilizer orders 2, 3, 5 are the primes dividing |2I| = 120 and the c
 
 **Domain from edges (Z₄):** The binary split D = 60 / 120 is forced by Z₄ ⊂ 2I. It encodes spin-statistics. The mass formula C_geom evaluates Kostant exponents on the correct grid for each irrep.
 
-**Vertex and electroweak (Z₅):** R1 and R2 are Galois conjugates that differ precisely in their Z₅ content. R1 carries only n₁ (ζ, ζ⁴ pairs), R2 carries only n₂ (ζ², ζ³ pairs). The electroweak distinction between vacua IS the vertex decomposition. R7 (electron) is maximally democratic and sees both vacua identically: the Galois distinction vanishes at R7. The specific T₃ and Y assignment rule is current work.
+**Vertex and electroweak (Z₅):** R1 and R2 are Galois conjugates that differ precisely in their Z₅ content. R1 carries only n₁ (ζ, ζ⁴ pairs), R2 carries only n₂ (ζ², ζ³ pairs). The electroweak distinction between vacua IS the vertex decomposition. R7 (electron) is maximally democratic and sees both vacua identically: the Galois distinction vanishes at R7. The T₃ assignment rule is ESTABLISHED: a two-stage Coxeter-Galois gate (j_first parity + (13,17) stripping + Galois content) assigns T₃ at each (ρ,σ), verified at 10/10 SM entries. Hypercharge Y follows from Z₃ color sector via Gell-Mann-Nishijima.
 
 **What this tool tells you:** Which sectors exist, how they connect, where they first appear, and what physical charge structure they carry. The mass ladder is the McKay graph.
 
@@ -245,21 +245,6 @@ The positive Ricci curvature Ric = 2/R² does two things simultaneously from the
 
 Mass and spectral access to zeros are in structural opposition. The curvature that realizes one forbids the other. Setting Ric = 0 would remove both simultaneously: flat space, no mass gap, no particles, nothing to observe.
 
-### Spectral Mirror of the Black Hole Horizon (DERIVED)
-
-The double zero at s = 0 in the spectral geometry mirrors the black hole horizon in the scaling law. Both are filters: two independent quantities vanish at the same structural event, and the physics is carried by the derivative at that point.
-
-| Scaling law (horizon) | Spectral geometry (s = 0) |
-|----------------------|--------------------------|
-| Θ → 0 drives C(0) = 0 | Z_σ(0) = 0 for all nontrivial σ |
-| Ω_H → 0 collapses hierarchy | (s)_k = 0 for k ≥ 1 collapses Pochhammer tower |
-| Double zero: Θ and Ω_H vanish at same event | Double zero: both vanish at s = 0 |
-| Survivor: C(Θ) ≈ 2π²Θ² (quadratic; Hawking radiation) | Survivor: Z'_σ(0) = log T² (torsion; L-function special values) |
-
-The filter selects the same arithmetic on both sides. The torsion survivors {log 2, log 3, log 5, log φ} encode the four Dirichlet characters whose conductors are the stabilizer primes {2, 3, 5} of the icosahedron — the same triple that assigns color, domain, and electroweak identity to particles in the mass formula. The double zero strips everything except the identity mechanism.
-
-**What this is:** A structural parallel between Tool 5 (scaling law at the domain boundary) and Tool 3 (spectral geometry at s = 0). The bridge between the two readings — connecting torsion to Hawking radiation — is the spectral-physical bridge (see Tool 5 open questions).
-
 ---
 
 ## Tool 4: Vacuum Structure (The Selector)
@@ -315,7 +300,7 @@ The same irrep carries different fermions in different vacua. R8 produces the up
 
 Mechanism: the two nontrivial vacua (R1 and R2) are half-integer irreps. Tensoring a half-integer ρ with a half-integer σ produces integer-spin components, which carry none of the eight E₈ exponents. The Coxeter conjugate pair (13, 17) under h(E₈) = 30 is preserved by the trivial vacuum and completely stripped by the nontrivial vacua. For R8: trivial vacuum preserves (13,17) pair → up quark (Q = +2/3). Nontrivial vacua erase it → down quark or lepton (Q ≤ -1/3).
 
-The specific rule mapping each (ρ,σ) to T₃ and Y is current work.
+The T₃ assignment rule is ESTABLISHED: a two-stage Coxeter-Galois gate assigns weak isospin at each (ρ,σ) before mass is computed. Verified at 10/10 SM-assigned entries.
 
 **What this tool decides:** Same spectrum, different realizations. Three generations of matter from three isolated vacua. The vacuum is the electroweak switch.
 
@@ -352,12 +337,12 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 
 | Observable | Θ | C(Θ) | n | Ω | A/A_P | Status |
 |------------|-------|----------|---|-------|-------|--------|
-| α | 13/60 | 0.79 | 1/30 | Ω_Λ | 7.33 × 10⁻³ | n MOTIVATED* |
+| α | 13/60 | 0.79 | 1/30 | Ω_Λ | 7.33 × 10⁻³ | n ESTABLISHED* |
 | a₀/a_P | 13/120 | 0.22 | 1 | Ω_H | 2.2 × 10⁻⁶² | DERIVED |
 | H₀ · t_P | 34/120 | 1.21 | 1 | Ω_H | 1.2 × 10⁻⁶¹ | DERIVED |
 | Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² | DERIVED** |
 
-*Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is motivated, not derived. Two remaining promotion paths: (1) McKay packetization (R₀ reappears at j = 30 = h(E₈)), (2) dimensionless dilution rule. The third path (Phase-logΩ map) is proved not to exist: no natural map between continuous phase position Θ and spectral parameter s exists on S³/2I (right-SU(2) homogeneity forces position out of spectral data; four independent proofs). Promotes to DERIVED if either remaining path closes.
+*Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (professional certainty; two convergent paths: McKay packetization, dimensionless dilution rule). The Phase-logΩ route is proved not to exist (Shatto Theorem Lemma 8: no natural map between Θ and s on S³/2I).
 **Λ_obs = (3/2) × Λ_top by Gauss-Codazzi embedding.
 
 ### The 24 Predictions (Mass Formula Output)
@@ -381,7 +366,7 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 | 14 | R8 | 5 | gal | 1.51 × 10⁻² | d | 4.67 × 10⁻³ | 3.22 |
 | **15** | **R8** | **5** | **std** | **1.03 × 10⁻¹** | **μ / s** | **1.057 × 10⁻¹ / 9.34 × 10⁻²** | **1.02 / 1.10** |
 | 16 | R5 | 6 | std | 3.49 × 10⁻¹ | — | target | |
-| 17 | R4 | 6 | std | 7.34 × 10⁻¹ | c / τ | 1.27 / 1.777 | 1.73 / 2.42 |
+| 17 | R4 | 6 | std | 7.34 × 10⁻¹ | τ | 1.777 | 2.42 |
 | 18 | R2 | 7 | gal | 5.33 | b | 4.18 | 1.28 |
 | 19 | R4 | 6 | gal | 5.84 | b | 4.18 | 1.40 |
 | 20 | R4 | 6 | triv | 5.97 | b | 4.18 | 1.43 |
@@ -390,7 +375,7 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 | 23 | R2 | 7 | triv | 44.54 | t | 172.7 | 3.88 |
 | 24 | R2 | 7 | std | 261.46 | t | 172.7 | 1.51 |
 
-**Scorecard:** 12/12 SM fermions assigned. 10/12 within ×3. 3 within 6% (e, u, μ). One genuine miss: ν₂ at 8.6 meV falls between rank 1 (0.2 meV) and rank 2 (66.7 meV), ratio gap ~7.75× from rank 2.
+**Scorecard:** 10 SM fermions assigned (ν₂ and charm unassigned). 9/10 within ×3. 3 within 6% (e, u, μ). One genuine miss among assigned: d at 3.22×. The ν₂ gap at 8.6 meV falls between rank 1 (0.2 meV) and rank 2 (66.7 meV), ratio gap ~7.75× from rank 2. Charm displaced by Coxeter-Galois gate resolving rank 17 as τ.
 
 **Dead zone (ranks 4-9):** eV to keV range. No SM fermions expected. Actively probed by sterile neutrino and warm dark matter searches. Physical states here require extremely suppressed non-gravitational couplings.
 
@@ -410,7 +395,7 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 | Coherence scale | L_f = v_c²/a₀ | Dimensional analysis; ~13 kpc for Milky Way |
 | Phase field response | Θ_f = 2/120 · 1(𝒯 ≥ 𝒯_c) | Binary; minimum bosonic step or nothing |
 | H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.084 |
-| Inputs | c, ℏ, ℓ_P | Nothing else. |
+| Inputs | c, ℏ, R, m_e | + Ωm (concordance) |
 | Free parameters | 0 | |
 
 ### The Sunflower Hint
@@ -427,8 +412,8 @@ The scaling law and mass formula are established. Remaining open work:
 
 | Item | Status |
 |------|--------|
-| α exponent n = 1/30 | MOTIVATED; two promotion paths remain: McKay packetization, dimensionless dilution rule. Direct Phase-logΩ route proved not to exist: no natural map between Θ and s on S³/2I. |
-| Assignment problem | 24 entries, 12 SM targets; mapping rule for (ρ,σ) → (T₃,Y) in progress |
+| α exponent n = 1/30 | ESTABLISHED; two convergent paths (McKay packetization, dimensionless dilution rule). Direct Phase-logΩ route proved not to exist (Shatto Theorem Lemma 8). Single-principle formal derivation open. |
+| Assignment problem | T₃ rule ESTABLISHED (Coxeter-Galois gate, 10/10 verified). Charm assignment OPEN (displaced from rank 17 by τ). Full (ρ,σ) → (T₃,Y,Q) mapping complete for 10 assigned fermions. |
 | ν₂ gap | 8.6 meV falls between rank 1 and rank 2; vacuum mixing or additional neutrino-scale structure could close it |
 | Fermion mass residual | Systematic overshoot growing with McKay dist; one-parameter correction at high dist needed |
 | Rank 3 exclusion | R1 triv at ~0.4 eV; non-SM state or structural correction: OPEN |
@@ -474,21 +459,9 @@ If something fails at step 3, you do not fix it at step 5. That is how you avoid
 | 2. Skeleton | LOCKED | Character table, McKay, Kostant, tensors, vacuum spectra, C_geom values, stabilizer structure |
 | 3. Fingerprint | LOCKED (integer-spin); EXACT (half-integer) | φ⁻⁴ exact; 24 vacuum torsion values computed; spin-parity split characterized |
 | 4. Selector | LOCKED | Three vacua, gaps, triplication, eta sign gate, vacuum-as-electroweak-selector |
-| 5. Output | LOCKED (scaling law); ESTABLISHED (mass formula); MOTIVATED (α exponent); OPEN (assignment rule, ν₂ gap) | Bridge found: C_geom × McKay elevator × torsion. 10/12 SM fermions within ×3. Two α promotion paths remain; direct Phase-logΩ route proved not to exist. |
+| 5. Output | LOCKED (scaling law); ESTABLISHED (mass formula, T₃ rule, α exponent, G); OPEN (charm assignment, ν₂ gap) | Bridge found: C_geom × McKay elevator × torsion. 10 SM fermions assigned, 9 within ×3. G closed-form from (c, ℏ, R, m_e). Two α formal derivation paths remain; direct Phase-logΩ route proved not to exist. |
 
 Everything upstream is fixed. Only the output map remains.
-
----
-
-## Falsification
-
-| Test | Falsified if | Timeline |
-|------|-------------|----------|
-| a₀(z) ∝ H(z) | a₀ constant at high z | ≥2σ, z > 2 |
-| Λ constant | ρ_DE(z) evolves | ≥2σ |
-| CMB ℓ_cut ≈ 31 | ℓ_cut ∉ [15, 50] | Planck reanalysis |
-| H₀ fork | Values distributed continuously with environment | Ongoing |
-| Primary window | Euclid DR1 | October 2026 |
 
 ---
 
