@@ -8,7 +8,7 @@ MIT was a topological thought formed on philosophical grounds before any predict
 
 One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), two constants, two measured scales, and one borrowed parameter. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
 
-From this: $\Lambda$ at 2%, three gauge couplings at 0.5%/1.4%/0.4%, $H_0$ tension at <1%, 10 of 12 fermion masses within $\times 3$, three particle generations from three topological vacua, and a mass gap from positive curvature. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
+From this: $\Lambda$ at 2%, three gauge couplings at <2%, $H_0$ tension at <1%, three particle generations from three topological vacua, a mass gap from positive curvature, and 10 of 12 fermion masses within $\times 3$. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
 [![The Perfect Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 
