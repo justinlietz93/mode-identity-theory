@@ -4,7 +4,7 @@
 
 # :rainbow: Στοιχεῖα
 
-The cosmological anomalies resolved at the far end of the universe occur at the same boundary beneath our feet. The same geometry confines gauge fields, returns $\alpha$ to the first step of $\Lambda$, sheilds primes, and accounts gravity as an interface cost.
+The cosmological anomalies resolved at the far end of the universe occur at the same boundary beneath our feet. The same geometry confines gauge fields, returns $\alpha$ to the first step of $\Lambda$, and accounts gravity as an interface cost. The same curvature that protects the zeros allows anything at all to exist.
 
 ---
 
