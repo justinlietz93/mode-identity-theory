@@ -160,9 +160,7 @@ The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes
 
 ---
 
-The topology sources the curvature. The spectrum sources the energy. $G$ is the exchange rate of the cost. The dark sector is the geometry itself; visible to gravity but dark to everything else.
-
-Space leads, the surface follows. The floor hums at Λ.
+The topology sources the curvature. The spectrum sources the energy. $G$ is the exchange rate of the cost. Space leads, the surface follows, and the floor hums at Λ. The dark sector is simply the geometry itself; visible to gravity but dark to everything else.
 
 *General Relativity is the score; 3/2 is the time signature.*
 
