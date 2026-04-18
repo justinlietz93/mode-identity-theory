@@ -158,7 +158,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | Rank 16 entry | ~349 MeV, R<sub>5</sub> std | No particle found, or particle found with wrong quantum numbers |
 
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
-  <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
+  <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission">
 </a>
 
 *Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.*
@@ -175,11 +175,11 @@ Every link between topology and observable is live. The code is the math. There 
 
 ---
 
+[![The Whole of the Moon](https://img.youtube.com/vi/pu7AR0-FRro/mqdefault.jpg)](https://www.youtube.com/watch?v=pu7AR0-FRro)
+
 *What you hold in your hand is not matter. It is where the wave resolved when you sampled it.*
 
 *The thing is the sample. What matters is the wave Ψ*
-
-[![The Whole of the Moon](https://img.youtube.com/vi/pu7AR0-FRro/mqdefault.jpg)](https://www.youtube.com/watch?v=pu7AR0-FRro)
 
 ---
 
