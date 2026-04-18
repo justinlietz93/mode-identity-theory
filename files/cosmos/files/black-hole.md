@@ -8,7 +8,7 @@
 
 Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mode Identity Theory.*
 
-**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program.
+**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature is derived (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the $1/4$ factor remains open (§III). The directional problem (§VI) is resolved.
 
 ---
 
@@ -86,22 +86,27 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 
 **What this connection is.** It is a structural parallel between the scaling law (Tool 5) and the spectral geometry (Tool 3). Both the horizon and $s = 0$ are special points where two independent quantities vanish simultaneously ($\Theta$ and $\Omega_H$ on the scaling side; $Z_\sigma$ and $(s)_k$ on the spectral side), and the physics is carried by the derivative at that point. Both are filters: the double zero kills everything except the essential structure.
 
-**What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) and the spectral-to-physical bridge (§VIII.5) remain open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-$\mathrm{SU}(2)$ homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. Whether the physical $\Phi \to \Theta$ mapping faces an analogous obstruction, or whether the gravitational potential provides the discrete localization that the spectral geometry lacks, is an open question.
+**What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; the spectral-to-physical bridge (§VIII.5) remains open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-$\mathrm{SU}(2)$ homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. Whether the physical $\Phi \to \Theta$ mapping faces an analogous obstruction, or whether the gravitational potential provides the discrete localization that the spectral geometry lacks, is an open question.
 
 ---
 
 ## III. Area Scaling
 
-Bekenstein-Hawking entropy $S \propto A$ follows from surface primacy.
+Bekenstein-Hawking entropy $S \propto A$ is motivated by surface primacy. The specific coefficient $S = A/(4\ell_P^2)$ is not yet derived.
 
 | Step | Content | Status |
 |---|---|---|
 | 1 | The Möbius surface ($n = 2$) carries the boundary condition | AXIOM |
 | 2 | $S^3$ volume ($n = 3$) has no independent gauge degrees of freedom | DERIVED (engine §13) |
-| 3 | Degrees of freedom of a bounded region are counted by the surface | Follows from 1 + 2 |
-| 4 | $S \propto A$ | Output |
+| 3 | Degrees of freedom of a bounded region are counted by the surface, not the volume | MOTIVATED by 1 + 2 |
+| 4 | $S \propto A$ (area, not volume) | MOTIVATED |
+| 5 | $S = A/(4\ell_P^2)$ with the factor $1/4$ | OPEN |
 
-In standard physics, area scaling is one of the deepest puzzles in quantum gravity: why not volume? In MIT, volume never had independent content. The puzzle dissolves. The horizon area counts the $n = 2$ modes at the sampling boundary. Each Planck area is one surface degree of freedom.
+In standard physics, area scaling is one of the deepest puzzles in quantum gravity: why not volume? In MIT, volume ($n = 3$) never had independent gauge content. The puzzle reduces: entropy lives on the surface because the surface carries the boundary condition. The horizon area is the natural count of $n = 2$ modes at the sampling boundary.
+
+What remains open is the coefficient. The shell sum across the 34 discrete grid positions diverges (outer shells have arbitrarily large area) and does not reproduce $S_{BH}$. Only the horizon surface itself has the correct area scaling. The factor $1/4$ is not produced by the Gauss-Codazzi ratio ($3/2$), by the structural coefficient $\sin(\pi\Theta_0)$, or by any evident combination of current framework quantities. A microstate counting rule, a spectral degeneracy law, or a topological partition function on the horizon would be needed.
+
+**The 1/4 flag.** The structural ratio $\Delta S_\text{phase}/\Delta S_\min = 1/4$ (one spatial grid step carries $1/4$ of one temporal chronon action) matches the Bekenstein-Hawking factor numerically. These are different objects at different levels: the spatial/temporal ratio is topology-native (no $G$, no $M$); the entropy factor involves $G$ through $\ell_P$. Whether they connect through a derivation or coincide by accident is OPEN. Flagged, not forced.
 
 ---
 
@@ -161,7 +166,7 @@ Black holes span over ten orders of magnitude in mass. MIT accounts for the full
 | Property | Stellar (~10 M☉) | Supermassive (~10⁹ M☉) | MIT reading |
 |---|---|---|---|
 | $R_s$ | ~30 km | ~10⁹ km | Radius where enclosed surface content closes sampling |
-| Area (Planck units) | ~10⁷⁸ | ~10⁹⁶ | Count of $n = 2$ modes at the boundary |
+| Area (Planck units) | ~10⁷⁸ | ~10⁹⁶ | Surface degrees of freedom at the sampling boundary |
 
 The size of a black hole is the amount of wave content enclosed behind the sampling boundary. The horizon radius is where that content generates enough curvature to push $\Theta$ to its boundary, zeroing $C$.
 
@@ -174,9 +179,13 @@ The transition from $C > 0$ to $C \approx 0$ is compressed into a smaller region
 | Stellar | Steep (short transition) | ~10⁻⁸ K |
 | Supermassive | Gentle (long transition) | ~10⁻¹⁷ K |
 
-The wave is still there at the boundary. The surface is still real. The gradient of $C$ near the zero controls how much mode structure leaks through. Hawking radiation is residual sampling at exponentially suppressed amplitude. The spectral analog (§II.A): at $s = 0$, the torsion $Z'_\sigma(0)$ carries L-function content through the spectral zero, with the amount of content controlled by the derivative.
+The wave is still there at the boundary. The surface is still real. The gradient of $C$ near the zero controls how much mode structure leaks through. Hawking radiation is residual sampling at the first nonvanishing order of the double zero. The spectral analog (§II.A): at $s = 0$, the torsion $Z'_\sigma(0)$ carries L-function content through the spectral zero, with the amount of content controlled by the derivative.
 
-Recovery of $T = \hbar c^3 / (8\pi G M k_B)$ from the phase operator: OPEN.
+**Recovery of $T_H$.** The $\Phi \to \Theta$ mapping (§VIII.1) establishes $C/C_0 = 1 - r_s/r$ with the power $\beta = 1$ uniquely forced by the requirement that the eigenfunction slope $u_0'(0) = 1/R$ remain finite and nonzero in proper distance coordinates at the horizon. The resulting chain:
+
+$$u_0'(0) = \frac{1}{R} \;\longrightarrow\; \frac{du_0}{d\Theta}\bigg|_0 = \pi \;\longrightarrow\; \frac{du_0}{d\ell}\bigg|_H = \kappa\sin(\pi\Theta_0)$$
+
+where $\kappa = c^4/(4GM) = 1/(2r_s)$ is the Schwarzschild surface gravity. The $1/M$ dependence is carried entirely by $\kappa$; the coefficient $\sin(\pi\Theta_0) \approx 0.777$ depends only on the well position. The thermal spectrum ($T_H = \kappa/(2\pi)$, Planck distribution) is inherited: the mapping pairs $C/C_0$ with $g_{tt}$, and GR's Euclidean periodicity carries through the forced pairing. Status: DERIVED.
 
 ### Mergers
 
@@ -184,34 +193,33 @@ Two $\Theta = 0$ ($C = 0$) regions combine. Total enclosed content adds. New bou
 
 ### Evaporation
 
-If Hawking radiation carries energy away, enclosed content decreases, the $\Theta = 0$ boundary contracts, the $C$ gradient steepens, radiation increases. Runaway process. The final state is an open question: does the 120-grid impose a minimum remnant?
+If Hawking radiation carries energy away, enclosed content decreases, the $\Theta = 0$ boundary contracts, the $C$ gradient steepens, radiation increases. Runaway process. The log slope $d\ln C/d\Theta = 2\pi\cot(\pi\Theta)$ diverges as $\Theta \to 0$, matching the qualitative character of Hawking evaporation (smaller black holes radiate faster). Quantitative recovery of the evaporation rate is MOTIVATED.
+
+**Minimum mass.** The 120-grid resolves the horizon into 34 discrete shells (§VIII.2). Setting the proper distance to the innermost shell equal to the Planck length gives $M_\min \approx 7.4\,m_P$ (full grid) or $\approx 3.7\,m_P$ (bosonic grid). The framework's own action bound ($\Delta S_\min = \hbar\pi/30$) produces no mass threshold: the action per grid step at the horizon is mass-independent ($\Delta S_\text{phase}/\Delta S_\min = 1/4$, a structural ratio). The minimum mass is a property of the interface ($G$, which produces $\ell_P$), while the topology treats every horizon with equal fidelity.
 
 ---
 
-## VI. The Phase Walk and the Directional Problem
+## VI. The Phase Walk and the Directional Problem: Resolution
 
-The §9 phase field shifts $\Theta$ by one bosonic step (2/120) inside a galactic potential. The black hole case looks like the same mechanism driven to the boundary. But there is a constraint.
+The §9 phase field shifts $\Theta$ by one bosonic step (2/120) inside a galactic potential. The black hole case is the same phase operator driven to the boundary by a deep gravitational potential.
 
 ### The bosonic domain has a wall
 
 The full 120-grid comes from $|2I| = 120$. Observation squares the wavefunction, projecting $2I \to I$, giving the 60R bosonic grid. This projection traces to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content ($D = 60$), half-integer carry only complex pairs ($D = 120$). For photon-mediated observables, the effective domain is $[0, 60/120]$. The antinode at 60/120 is the boundary of the bosonic domain. Bosonic sampling reaches $\Lambda$ and stops.
 
-### The Hubble tension walks toward Λ
+### The directional problem and its resolution
 
-The galactic phase field adds $\Theta_f = 2/120$ to the $H_0$ well at 34/120, stepping it to 36/120. Toward the antinode. $C$ increases. This is the Hubble tension: one bosonic step on a slope, producing 8.4%.
+The Hubble tension steps $\Theta$ from 34/120 to 36/120 (toward the antinode, $C$ increases). The horizon requires $\Theta \to 0$ (toward the node, $C$ decreases). These appear to point in opposite directions on the domain coordinate.
 
-### The horizon requires Θ → 0
+Resolution: the two nodes are the same point. The eigenfunction $u_0 = \sin(y/R)$ vanishes at $y = 0$ and $y = \pi R$. The Möbius identification $(y + \pi R, w) \sim (y, -w)$ maps these two endpoints to the same central circle. The anti-periodic boundary condition gives $u_0(\pi R) = -u_0(0) = 0$. $\Theta = 0$ and $\Theta = 1$ are two coordinate addresses for one physical location on the band.
 
-$C = 0$ lives at $\Theta = 0$, the opposite end of the domain from $\Lambda$. The Hubble tension steps $\Theta$ away from zero. The horizon requires $\Theta$ arriving at zero. These point in opposite directions.
+The domain is topologically closed. Every direction away from the antinode leads to the node. Every direction away from the node leads to the antinode. The Hubble tension (stepping from 34/120 toward 36/120) and the horizon (walking from 34/120 toward 0/120) are both paths to the same destination ($C = 0$, the central circle), one the long way around and one the short way. The gravitational potential determines how far you walk. The arch determines the terrain. Deep potentials take the short path to the nearest copy of the node.
 
-| Phenomenon | $\Theta$ direction | $C$ behavior |
-|---|---|---|
-| Hubble tension | Away from 0, toward $\Lambda$ | $C$ increases |
-| Black hole horizon | Toward $\Theta = 0$ | $C$ decreases to zero |
+There is no directional problem. There is one arch, one node (with two coordinate addresses), and one antinode.
 
-This is the directional problem. The perturbative regime (galaxies: small $\Phi/c^2$, one discrete step) and the non-perturbative regime (horizons: $\Phi/c^2 \to -1/2$, complete sampling closure) may share the phase operator as common language without sharing the same pathway on the domain.
+### The spectral mirror
 
-The spectral side exhibits the same directional asymmetry. Moving away from $s = 0$ opens the Pochhammer tower (factorization breaks, 28-32 of 32 characters contribute). Moving toward $s = 0$ collapses it (4 of 16 characters survive). The "clean" direction is toward the zero. The "messy" direction is away from it. This matches: the horizon (toward $\Theta = 0$, where $C$ vanishes) is where structure simplifies; the interior of the domain (away from both zeros) is where everything participates.
+The spectral side exhibits the same structure. Moving away from $s = 0$ opens the Pochhammer tower (factorization breaks, 28-32 of 32 characters contribute). Moving toward $s = 0$ collapses it (4 of 16 characters survive). The "clean" direction is toward the zero. The "messy" direction is away from it. This matches: the horizon (toward $\Theta = 0$, where $C$ vanishes) is where structure simplifies; the interior of the domain (away from both zeros) is where everything participates.
 
 ---
 
@@ -227,47 +235,75 @@ The wave content is still there. It cannot be sorted into "surface" and "edge" c
 
 ### VIII.1 The Φ → Θ Mapping (Priority 1)
 
-Everything gates on this. A function mapping gravitational potential to phase position:
+**Status: DERIVED (leading order).**
 
-$$\Theta_f(r) = f\!\left(\frac{\Phi(r)}{c^2}\right)$$
+The mapping pairs the framework's sampling amplitude with the GR redshift factor:
 
-**Requirements:**
-- Weak-field limit: reproduces the §9 binary trigger (one bosonic step for galactic potentials)
-- Strong-field limit: reaches $\Theta = 0$ (and therefore $C = 0$) at $\Phi/c^2 = -1/2$ (Schwarzschild horizon)
-- Respects the 120-grid (discrete steps)
+$$\frac{C(\Theta)}{C(\Theta_0)} = 1 - \frac{r_s}{r}$$
 
-**Boundary condition:** $\Phi/c^2 = -1/2$ is dimensionless, exact, and given by GR. The mapping must land $\Theta$ at the domain boundary (a zero of $C$) when this value is reached.
+Equivalently: $\sin(\pi\Theta) = \sin(\pi\Theta_0) \cdot (1 - r_s/r)^{1/2}$, with $\Theta_0 = 34/120$.
 
-The RH program's Shatto Theorem (The Mirror, Lemma 8) proved that the direct map $s \leftrightarrow \Theta$ does not exist on the spectral side: continuous position drops out of the spectral data on $S^3/2I$ due to right-$\mathrm{SU}(2)$ homogeneity, and the direct bridge between the phase operator and the spectral zeta is structurally impossible. Whether the $\Phi \to \Theta$ mapping on the physical side faces an analogous obstruction, or whether the gravitational potential provides the "discrete localization" that the spectral geometry lacks, is an open question.
+The power $\beta = 1$ is uniquely forced by the requirement that the eigenfunction slope $u_0'(0) = 1/R$ (a geometric property established by two independent paths in the Sector $\mathcal{A}$ paper) remain finite and nonzero in proper distance coordinates at the horizon. For $\beta < 1$, the slope diverges; for $\beta > 1$, it vanishes. Only $\beta = 1$ preserves the geometric property.
+
+**Verified properties:**
+
+| Property | Result |
+|----------|--------|
+| Galactic consistency | Smooth shift at $r/r_s = 10^6$ is $2 \times 10^{-7}$, far below one bosonic step ($2/120$) |
+| Near-horizon slope | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$, finite and nonzero, proportional to surface gravity |
+| Uniqueness of $\beta = 1$ | Only value giving finite nonzero slope; all other $\beta$ fail |
+| Self-consistency | $C(\Theta)/C(\Theta_0) \div (1 - r_s/r) = 1$ exactly at all radii |
+
+**What remains open:** Global corrections (functions $f(x)$ with $f(x) \sim x$ near $x = 0$ but $f(x) \neq x$ globally) would affect intermediate regimes while leaving the horizon and galactic results intact. The Kerr generalization ($C/C_0 = g_{tt}$ for rotating black holes) is natural but untested.
+
+The Shatto Theorem (The Mirror, Lemma 8) proved that the direct map $s \leftrightarrow \Theta$ does not exist on the spectral side. The physical $\Phi \to \Theta$ mapping avoids this obstruction: a gravitational potential breaks the right-$\mathrm{SU}(2)$ homogeneity that forces continuous position out of spectral data (mass at a specific location breaks the isometry).
 
 ### VIII.2 Minimum Black Hole Mass (Priority 2)
 
-If $\Theta$ advances in discrete steps, there may be a minimum enclosed mass required to push $\Theta$ all the way to the domain boundary (and therefore $C$ to zero). Below that mass, the potential never accumulates enough steps to reach a node. GR allows black holes of any mass. A minimum mass from the lattice spacing would be a new quantitative prediction that GR does not make.
+**Status: COMPUTED.**
+
+The 120-grid places 34 discrete shells between the $H_0$ well and the horizon. Each shell sits at $r_k/r_s = 1/(1 - C(k/120)/C_0)$. In proper distance, the shells are nearly uniformly spaced near the horizon (increments of ~$0.067\,r_s$ to ~$0.081\,r_s$ for the first 10 shells).
+
+Setting the proper distance to the innermost grid point equal to the Planck length:
+
+| Grid | Innermost point | $M_\min$ |
+|------|----------------|----------|
+| Full 120 | $\Theta = 1/120$ | $\approx 7.42\,m_P$ |
+| Bosonic 60 | $\Theta = 2/120$ | $\approx 3.70\,m_P$ |
+
+Both are deep in the quantum gravity regime (~$10^{38}$ times smaller than any astrophysical black hole). The framework's own action bound ($\Delta S_\min = \hbar\pi/30$) produces no mass threshold: the action per grid step at the horizon is mass-independent ($r_s$ in the proper distance cancels $r_s$ in the surface gravity). The minimum mass is a property of the interface ($G$, which produces $\ell_P$). The topology treats every horizon with equal fidelity.
 
 ### VIII.3 Discrete Horizon Structure (Priority 3)
 
-If the approach to $\Theta = 0$ is stepped rather than smooth, the horizon has fine structure set by the 120-grid:
+The mapping places 34 shells at discrete radii between the horizon and spatial infinity. The shell structure is now concrete:
 
+| $k$ | $r_k/r_s$ | $\ell_k/r_s$ (proper distance from horizon) |
+|-----|-----------|------|
+| 1 | 1.001 | 0.067 |
+| 5 | 1.029 | 0.342 |
+| 10 | 1.125 | 0.721 |
+| 20 | 1.706 | 1.88 |
+| 30 | 5.810 | 5.67 |
+
+Potential observational signatures (all require detailed modeling):
 - Hawking spectrum: deviations from perfect Planck blackbody, set by lattice geometry
-- Horizon area: quantized in units related to grid spacing
 - Quasi-normal modes: discrete structure in gravitational wave ringdown frequencies
 
-Testable against LIGO/LISA ringdown data. Requires the $\Phi \to \Theta$ mapping first.
+Testable against LIGO/LISA ringdown data in principle.
 
 ### VIII.4 Black Hole Thermodynamics (Priority 4)
 
-| Law | GR statement | MIT target |
-|---|---|---|
-| Zeroth | $\kappa$ constant on horizon | Phase operator uniformity at the $\Theta = 0$ surface |
-| First | $dM = (\kappa/8\pi)dA + \Omega\,dJ + \Phi\,dQ$ | Energy balance from mode accounting |
-| Second | $dA \geq 0$ | Wave content behind $\Theta = 0$ boundary cannot decrease |
-| Third | Cannot reach $\kappa = 0$ in finite steps | Cannot reach $\Theta = 0$ (and therefore $C = 0$) in finite discrete steps (lattice property) |
+| Law | GR statement | MIT target | Status |
+|---|---|---|---|
+| Zeroth | $\kappa$ constant on horizon | Phase operator uniformity at the $\Theta = 0$ surface | OPEN |
+| First | $dM = (\kappa/8\pi)dA + \Omega\,dJ + \Phi\,dQ$ | Energy balance from mode accounting | OPEN |
+| Second | $dA \geq 0$ | Wave content behind $\Theta = 0$ boundary cannot decrease | MOTIVATED |
+| Third | Cannot reach $\kappa = 0$ in finite steps | Cannot reach $\Theta = 0$ in finite discrete steps (lattice property) | MOTIVATED |
+| Temperature | $T_H = \hbar c^3/(8\pi G M k_B)$ | Eigenfunction slope: $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa \propto 1/M$. Thermal spectrum inherited through forced mapping $C/C_0 = g_{tt}$. | DERIVED |
 
-The third law is interesting: the 120-grid may force an asymptotic approach to $\Theta = 0$, never exactly reached in finite steps. The third law becomes a topological statement about lattice resolution.
+### VIII.5 Spectral-Physical Bridge (Priority 5)
 
-### VIII.5 Spectral-Physical Bridge (Priority 5, new)
-
-The structural parallel between the scaling double zero ($\Theta \to 0$ driving $C \to 0$, with $\Omega_H \to 0$ as independent partner) and the spectral double zero ($Z_\sigma(0) = 0$, $(s)_k = 0$) is established (§II.A). The $s \leftrightarrow \Theta$ map on the spectral side is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8): the spectral and scaling sides are structurally parallel but cannot be connected by a natural map. The open question is whether the torsion survivor $Z'_\sigma(0) = \log T^2$ can be connected to the physical survivor (Hawking radiation gradient) through a route other than the direct spectral-to-phase bridge. If the torsion values $\{\log 2, \log 3, \log 5, \log\varphi\}$ constrain the horizon structure through the same arithmetic that constrains the fermion mass spectrum (engine §13), the spectral and physical sides of the double zero would be unified. This would close the loop between Tools 3 and 5 at the boundary of the domain.
+The structural parallel between the scaling double zero ($\Theta \to 0$ driving $C \to 0$, with $\Omega_H \to 0$ as independent partner) and the spectral double zero ($Z_\sigma(0) = 0$, $(s)_k = 0$) is established (§II.A). The $s \leftrightarrow \Theta$ map on the spectral side is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8): the spectral and scaling sides are structurally parallel but cannot be connected by a natural map. The open question is whether the torsion survivor $Z'_\sigma(0) = \log T^2$ can be connected to the physical survivor (Hawking radiation gradient) through a route other than the direct spectral-to-phase bridge. The $\Phi \to \Theta$ mapping provides the discrete localization that spectral geometry lacks (mass breaks the right-SU(2) isometry). If the torsion values $\{\log 2, \log 3, \log 5, \log\varphi\}$ constrain the horizon structure through the same arithmetic that constrains the fermion mass spectrum (engine §13), the spectral and physical sides of the double zero would be unified. This would close the loop between Tools 3 and 5 at the boundary of the domain. Status: OPEN.
 
 ---
 
@@ -275,18 +311,20 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 
 | Quantity | Value | Source |
 |---|---|---|
-| $\Theta = 0$ and $\Theta = 1$ | Boundary of domain | Phase position at the wall; both are zeros of $C$ |
+| $\Theta = 0$ and $\Theta = 1$ | Same physical point (central circle) | Möbius identification; both are zeros of $C$; domain is closed |
 | $C(0) = C(1)$ | 0 | Phase operator at boundary ($\Theta$ at the wall drives $C$ to zero) |
 | $C'(0) = C'(1)$ | 0 | Quadratic vanishing |
 | $C''(0)$ | $4\pi^2$ | Leading nonvanishing order |
 | $C(60/120)$ | 2.00 | Antinode ($\Lambda$) |
 | $\Phi/c^2$ at Schwarzschild horizon | $-1/2$ | GR (exact) |
+| $\Phi \to \Theta$ mapping | $C/C_0 = 1 - r_s/r$, $\beta = 1$ forced | DERIVED (leading order) |
 | Bosonic domain | $[0, 60/120]$ | $\lvert I \rvert = 60$ from squaring |
 | Bosonic step | $2/120 = 1/60$ | Minimum observable shift |
 | Full domain | $[0, 120/120]$ | $\lvert 2I \rvert = 120$ |
 | Fermionic step | $1/120$ | Full lattice resolution |
-| Bekenstein-Hawking entropy | $S = A/(4\ell_P^2)$ | Observed; MIT: surface mode count |
-| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | Observed (indirectly); MIT: $C$ gradient (OPEN) |
+| Bekenstein-Hawking entropy | $S = A/(4\ell_P^2)$ | Observed; MIT: motivated by surface primacy ($n = 2$); $1/4$ factor OPEN |
+| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$; $1/M$ and thermal spectrum DERIVED |
+| Minimum mass | $\approx 7.4\,m_P$ (full grid) | Interface-level ($\ell_P$); topology gives no threshold ($\Delta S_\text{phase}/\Delta S_\min = 1/4$) |
 | $Z_\sigma(0)$ | 0 | Spectral determinant at boundary (nontrivial $\sigma$) |
 | $Z'_\sigma(0)$ | $\log T^2(\sigma)$ | Torsion: L-function special values |
 | Torsion survivors | $\{\log 2, \log 3, \log 5, \log\varphi\}$ | 4 of 16 characters, $E_8$ selected; conductors are the stabilizer primes of the icosahedron |
