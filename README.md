@@ -14,19 +14,19 @@ In 300 BC, Euclid proved Plato's observation that only 5 solids close perfectly 
 
 ---
 
-:stadium: **One shape:**
+:stadium: **One Shape:**
 
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary.
 
-Ψ **One wave:**
+Ψ **One Wave:**
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
 Anti-periodic boundary conditions are forced by the Möbius identification. One traversal reverses sign. Two traversals to restore. Everything rides on this.
 
-:balance_scale: **One equation:**
+:balance_scale: **One Equation:**
 
 $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
@@ -38,7 +38,7 @@ Their product yields the modal realization, $A/A_P$ , the ratio of the observabl
 
 The constants of the universe follow across 122 orders of magnitude.
 
-:atom_symbol: **One formula:**
+:atom_symbol: **One Formula:**
 
 $$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}$$
 
@@ -46,7 +46,7 @@ Four factors compose to rank 24 fermion masses:
 
 The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text{geom}}$ selects the position. The McKay Elevator $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ raises the energy. The Reidemeister Torsion $T^2$ dials-in the vacuum.
 
-:small_red_triangle: **One identity:**
+:small_red_triangle: **One Identity:**
 
 The icosahedron's three stabilizers, inherited by $2I \subset S^3$, determine the identity:
 
