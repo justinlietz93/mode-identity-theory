@@ -8,7 +8,7 @@
 
 Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mode Identity Theory.*
 
-**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature is derived (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the $1/4$ factor remains open (§III). The domain is topologically closed (§VI).
+**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature functional form ($1/M$ and coefficient) derived, thermal character inherited (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the $1/4$ factor remains open (§III). The domain is topologically closed (§VI).
 
 ---
 
@@ -40,6 +40,8 @@ $C(\Theta)$ is where on the mode spectrum. $(\sqrt{\Omega})^{-n}$ is which level
 | $\Theta \to 0$ | Phase position reaches the domain boundary | The structural event: where you stand on the mode spectrum hits the wall |
 | $C(\Theta) \to 0$ | Sampling amplitude vanishes | The observational consequence: observation can no longer read the wave there |
 | $\Omega_H \to 0$ | Local hierarchy collapses | The scale event: no separation between Planck and cosmic remains |
+
+**Definition.** $\Omega_H \equiv (R_H/\ell_P)^2$, where $R_H = c/H(\text{local})$ is the local Hubble radius. At the Schwarzschild horizon, $R_H \to 0$ and $\Omega_H \to 0$. At cosmological distance, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$.
 
 $\Theta$ is the cause. $C$ is the effect. $\Omega_H$ is the independent partner. The "double zero" is $\Theta$ and $\Omega_H$ reaching their boundaries simultaneously, with $C(\Theta) \to 0$ being what the observer experiences as a result of the first.
 
@@ -86,7 +88,7 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 
 **What this connection is.** It is a structural parallel between the scaling law (Tool 5) and the spectral geometry (Tool 3). Both the horizon and $s = 0$ are special points where two independent quantities vanish simultaneously ($\Theta$ and $\Omega_H$ on the scaling side; $Z_\sigma$ and $(s)_k$ on the spectral side), and the physics is carried by the derivative at that point. Both are filters: the double zero kills everything except the essential structure.
 
-**Three witnesses, one pattern.** The double zero at the horizon has three independent descriptions, each with the same structure: value vanishes, derivative carries content through.
+**Three descriptions, two events, one pattern.** The scaling and eigenfunction zeros describe the same physical event ($C = 2u_0^2$). The spectral zero is a structurally parallel but independent event in a different parameter space ($s$, not $\Theta$), proved independent by the Shatto Theorem (Lemma 8). All three share the same mathematical structure: value vanishes, derivative carries content through.
 
 | Domain | Value vanishes | Derivative survives |
 |--------|---------------|-------------------|
@@ -94,7 +96,7 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 | Spectral | $Z_\sigma(0) = 0$ for nontrivial $\sigma$ | $Z'_\sigma(0) = \log T^2$ (torsion) |
 | Eigenfunction | $u_0(0) = 0$ | $u_0'(0) = 1/R$ (slope through node) |
 
-The scaling and eigenfunction zeros are the same physical event ($\Theta \to 0$ and $u_0 \to 0$ are related by $C = 2u_0^2$). The spectral zero lives in a different parameter space ($s$, not $\Theta$) and is structurally parallel but proved independent (Lemma 8). The physical event is one double zero with two witnesses (scaling and eigenfunction). The spectral analog is a parallel double zero in its own domain. Three descriptions, two events, one pattern.
+The physical event is one double zero with two witnesses (scaling and eigenfunction). The spectral analog is a parallel double zero in its own domain.
 
 **What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; the spectral-to-physical bridge (§VIII.5) remains open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-$\mathrm{SU}(2)$ homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. The physical $\Phi \to \Theta$ mapping avoids the spectral obstruction: the gravitational potential provides the discrete localization that spectral geometry lacks, because mass at a specific location breaks the right-$\mathrm{SU}(2)$ isometry.
 
@@ -195,7 +197,7 @@ The wave is still there at the boundary. The surface is still real. The gradient
 
 $$u_0'(0) = \frac{1}{R} \;\longrightarrow\; \frac{du_0}{d\Theta}\bigg|_0 = \pi \;\longrightarrow\; \frac{du_0}{d\ell}\bigg|_H = \kappa\sin(\pi\Theta_0)$$
 
-where $\kappa = c^4/(4GM) = 1/(2r_s)$ is the Schwarzschild surface gravity. The $1/M$ dependence is carried entirely by $\kappa$; the coefficient $\sin(\pi\Theta_0) \approx 0.777$ depends only on the well position. The thermal spectrum ($T_H = \kappa/(2\pi)$, Planck distribution) is inherited: the mapping pairs $C/C_0$ with $g_{tt}$, and GR's Euclidean periodicity carries through the forced pairing. Status: DERIVED.
+where $\kappa = c^4/(4GM) = 1/(2r_s)$ is the Schwarzschild surface gravity. The $1/M$ dependence is carried entirely by $\kappa$; the coefficient $\sin(\pi\Theta_0) \approx 0.777$ depends only on the well position. The thermal spectrum ($T_H = \kappa/(2\pi)$, Planck distribution) is inherited: the mapping pairs $C/C_0$ with $g_{tt}$, and GR's Euclidean periodicity carries through the forced pairing. Status: $1/M$ dependence and coefficient DERIVED; thermal character INHERITED through forced $g_{tt}$ pairing.
 
 ### Mergers
 
@@ -253,6 +255,8 @@ Equivalently: $\sin(\pi\Theta) = \sin(\pi\Theta_0) \cdot (1 - r_s/r)^{1/2}$, wit
 
 The power $\beta = 1$ is uniquely forced by the requirement that the eigenfunction slope $u_0'(0) = 1/R$ (a geometric property established by two independent paths in the Sector $\mathcal{A}$ paper) remain finite and nonzero in proper distance coordinates at the horizon. For $\beta < 1$, the slope diverges; for $\beta > 1$, it vanishes. Only $\beta = 1$ preserves the geometric property.
 
+**Sketch of uniqueness.** The proper distance from the horizon is $\ell \propto (r - r_s)^{1/2}$ near $r = r_s$. Under $C/C_0 = (1 - r_s/r)^\beta$, the eigenfunction $u_0 = (C/2)^{1/2} \propto (r - r_s)^{\beta/2}$. The slope in proper distance is $du_0/d\ell \propto (r - r_s)^{(\beta - 1)/2}$. For $\beta < 1$: diverges. For $\beta > 1$: vanishes. For $\beta = 1$: finite and nonzero, matching $u_0'(0) = 1/R$ from the Sector $\mathcal{A}$ eigenvalue problem.
+
 **Verified properties:**
 
 | Property | Result |
@@ -283,7 +287,7 @@ Both are deep in the quantum gravity regime (~$10^{38}$ times smaller than any a
 
 ### VIII.3 Discrete Horizon Structure (Priority 3)
 
-The mapping places 34 shells at discrete radii between the horizon and spatial infinity. The shell structure is now concrete:
+The mapping places 34 shells at discrete radii between the horizon and spatial infinity. Each shell sits at coordinate radius $r_k$ where $C(k/120)/C_0 = 1 - r_s/r_k$, giving $r_k/r_s = 1/(1 - C(k/120)/C_0)$. The proper distance from the horizon to $r_k$ is $\ell_k = \int_{r_s}^{r_k} (1 - r_s/r')^{-1/2}\,dr'$. The shell structure:
 
 | $k$ | $r_k/r_s$ | $\ell_k/r_s$ (proper distance from horizon) |
 |-----|-----------|------|
@@ -307,7 +311,7 @@ Testable against LIGO/LISA ringdown data in principle.
 | First | $dM = (\kappa/8\pi)dA + \Omega\,dJ + \Phi\,dQ$ | Energy balance from mode accounting | OPEN |
 | Second | $dA \geq 0$ | Wave content behind $\Theta = 0$ boundary cannot decrease | MOTIVATED |
 | Third | Cannot reach $\kappa = 0$ in finite steps | Cannot reach $\Theta = 0$ in finite discrete steps (lattice property) | MOTIVATED |
-| Temperature | $T_H = \hbar c^3/(8\pi G M k_B)$ | Eigenfunction slope: $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa \propto 1/M$. Thermal spectrum inherited through forced mapping $C/C_0 = g_{tt}$. | DERIVED |
+| Temperature | $T_H = \hbar c^3/(8\pi G M k_B)$ | Eigenfunction slope: $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa \propto 1/M$. Thermal spectrum inherited through forced mapping $C/C_0 = g_{tt}$. | $1/M$ and coefficient DERIVED; thermal character INHERITED |
 
 ### VIII.5 Spectral-Physical Bridge (Priority 5)
 
@@ -331,7 +335,7 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 | Full domain | $[0, 120/120]$ | $\lvert 2I \rvert = 120$ |
 | Fermionic step | $1/120$ | Full lattice resolution |
 | Bekenstein-Hawking entropy | $S = A/(4\ell_P^2)$ | Observed; MIT: motivated by surface primacy ($n = 2$); $1/4$ factor OPEN |
-| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$; $1/M$ and thermal spectrum DERIVED |
+| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$; $1/M$ and coefficient DERIVED; thermal character INHERITED |
 | Minimum mass | $\approx 7.4\,m_P$ (full grid) | Interface-level ($\ell_P$); topology gives no threshold ($\Delta S_\text{phase}/\Delta S_\min = 1/4$) |
 | $Z_\sigma(0)$ | 0 | Spectral determinant at boundary (nontrivial $\sigma$) |
 | $Z'_\sigma(0)$ | $\log T^2(\sigma)$ | Torsion: L-function special values |
