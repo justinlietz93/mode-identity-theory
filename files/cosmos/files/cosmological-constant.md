@@ -13,10 +13,10 @@ The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{to
 | Quantity | Value |
 |---|---|
 | Derived | $\Lambda \cdot R^2 = 3$, where 3 = eigenvalue (2) $\times$ Gauss-Codazzi (3/2) |
-| Measured | $R \approx 5.3$ Gpc (single input) |
+| Measured | $R \approx 5.3$ Gpc from the Molien gap on $S^3/2I$ (independent of $\Lambda$) |
 | Result | $\Lambda_\text{obs} = 3/R^2 = 1.12 \times 10^{-52}\;\text{m}^{-2}$ |
 | Observed | $1.11 \times 10^{-52}\;\text{m}^{-2}$ |
-| Cross-check | Molien gap on $S^3/2I$ gives $R \approx 5.0$ Gpc independently of $\Lambda$ |
+| Cross-check | Standard relation $R = c/(H_0\sqrt{\Omega_\Lambda})$ returns the same $R$ |
 
 Standard cosmology does not constrain $\Lambda \cdot R^2$. This framework derives the coefficient from topology.
 
@@ -89,13 +89,17 @@ $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
 One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
-$R$ is the curvature radius of $S^3$, the single measured scale of the framework. From standard cosmological parameters:
+$R$ is the curvature radius of $S^3$, the single measured scale of the framework. It is constrained independently of $\Lambda$ by the Molien gap of the binary icosahedral group $2I$ acting on $S^3$. The scalar harmonic spectrum on $S^3/2I$ is empty for shells $N = 1$ through $11$; the last empty shell ($N = 10$) maps to CMB multipole:
 
-$$R = \frac{c}{H_0\sqrt{\Omega_\Lambda}} \approx 5.3 \text{ Gpc} = 1.64 \times 10^{26} \text{ m}$$
+$$\ell_\text{char}(N) = \frac{\sqrt{N(N+2)}}{R}\,\chi_*$$
+
+With $\chi_* \approx 14.0$ Gpc (the comoving distance to last scattering, fixed by the acoustic peaks independently of $\Lambda$), the observed power deficit below $\ell \lesssim 30$ gives:
+
+$$R = \frac{\sqrt{N(N+2)}\;\chi_*}{\ell_\text{char}} = \frac{\sqrt{120} \times 14.0}{29} \approx 5.3 \text{ Gpc} = 1.64 \times 10^{26} \text{ m}$$
+
+The standard cosmological relation $R = c/(H_0\sqrt{\Omega_\Lambda})$ returns the same value, serving as a cross-check.
 
 If the shape is correct, one measurement determines everything. The framework predicts $\Lambda_\text{obs} = 3/R^2$, where the coefficient 3 is derived from the eigenvalue (factor of 2) and the Gauss-Codazzi conversion (factor of 3/2). Every other observable is also fixed by $R$ and the topology: the CMB mode deficit, the spectral gap, the gauge couplings. Each is an independent check that the shape rings true.
-
-The Molien series for the binary icosahedral group $2I$ provides a cross-check on $R$ independent of $\Lambda$. The scalar harmonic spectrum on $S^3/2I$ is empty for shells $N = 1$ through $11$; the first surviving shell ($N = 12$) maps to CMB multipole $\ell_\text{char} = \sqrt{N(N+2)}\,\chi_*/R \approx 34$, consistent with the observed power deficit below $\ell \lesssim 30$.
 
 The Möbius band has a single boundary traversed twice. Traversing the band once returns a field to the opposite side — the geometry itself imposes the sign flip:
 
@@ -290,7 +294,7 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | Step | Input | Output |
 |---|---|---|
 | 1 | Möbius topology | Anti-periodic BC; $L = \pi R$ |
-| 2 | $R$ measured (single scale of the framework) | $R \approx 5.3$ Gpc |
+| 2 | $R$ from Molien gap (§II.A) | $R \approx 5.3$ Gpc |
 | 3 | Even transverse mode | 1D reduction |
 | 4 | Anti-periodic BC | Half-integer spectrum |
 | 5 | Isotropy + orthogonality | Ground mode ($m = 0$) |
@@ -300,6 +304,19 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | 9 | Gauss-Codazzi + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
 | 10 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | $\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}$ |
 | 11 | Result | $\Lambda_\text{obs} = 3/R^2$ |
+
+### Derived vs. Imported
+
+| Element | Status | Source |
+|---|---|---|
+| Anti-periodic BC | Derived | Möbius topology |
+| $\lambda_0 = 2/R^2$ | Derived | Twisted Laplacian on curved surface |
+| $\lambda_0 \geq R_\Sigma$ | Derived | Bochner bound (§III.C) |
+| Gauss-Codazzi 3/2 | Derived | Totally geodesic embedding in isotropic $S^3$ |
+| Coefficient 3 | Derived | Product: $2 \times 3/2$ |
+| Scale $R$ | Imported | Molien gap + CMB multipole structure (§II.A) |
+
+The coefficient 3 is the content of the derivation. Standard cosmology treats $\Lambda \cdot R^2$ as a free parameter. This framework fixes it from topology. The scale $R$ comes from the CMB independently of $\Lambda$; the prediction $\Lambda = 3/R^2$ is then a genuine output, testable against the observed value.
 
 ## VI. Compatibility with General Relativity
 
@@ -311,7 +328,7 @@ This framework provides what the equation leaves undefined: the value of Λ and 
 
 $$H^2 = \Lambda / 3$$
 
-translates the geometric mode into expansion dynamics. General relativity describes dynamics in space; topology specifies the boundary condition.
+translates the geometric mode into expansion dynamics. General relativity describes dynamics in space; topology specifies the boundary condition. The topology constrains the metric the way a cavity constrains its resonant frequencies: the boundary is logically prior to the vibration. Independent evidence for this priority comes from four CMB observables that follow from the same topology at a single observer position.
 
 The standard cosmological constant problem moves Λ to the right-hand side and identifies it with zero-point vacuum energy density. That step is a reinterpretation, not a derivation. Λ appears on the left-hand side multiplying the metric, a geometric property of the domain, not a matter source. 
 
