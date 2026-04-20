@@ -88,7 +88,7 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 
 **What this connection is.** It is a structural parallel between the scaling law (Tool 5) and the spectral geometry (Tool 3). Both the horizon and $s = 0$ are special points where two independent quantities vanish simultaneously ($\Theta$ and $\Omega_H$ on the scaling side; $Z_\sigma$ and $(s)_k$ on the spectral side), and the physics is carried by the derivative at that point. Both are filters: the double zero kills everything except the essential structure.
 
-**Three descriptions, two events, one pattern.** The scaling and eigenfunction zeros describe the same physical event ($C = 2u_0^2$). The spectral zero is a structurally parallel but independent event in a different parameter space ($s$, not $\Theta$), proved independent by the Shatto Theorem (Lemma 8). All three share the same mathematical structure: value vanishes, derivative carries content through.
+**Three descriptions, two events, one pattern.** The scaling and eigenfunction zeros describe the same physical event ($C = 2u_0^2$). The spectral zero is a structurally parallel but independent event in a different parameter space ($s$, not $\Theta$), proved independent by Lemma 8. All three share the same mathematical structure: value vanishes, derivative carries content through.
 
 | Domain | Value vanishes | Derivative survives |
 |--------|---------------|-------------------|
@@ -268,7 +268,7 @@ The power $\beta = 1$ is uniquely forced by the requirement that the eigenfuncti
 
 **What remains open:** Global corrections (functions $f(x)$ with $f(x) \sim x$ near $x = 0$ but $f(x) \neq x$ globally) would affect intermediate regimes while leaving the horizon and galactic results intact. The Kerr generalization ($C/C_0 = g_{tt}$ for rotating black holes) is natural but untested.
 
-The Shatto Theorem (The Mirror, Lemma 8) proved that the direct map $s \leftrightarrow \Theta$ does not exist on the spectral side. The physical $\Phi \to \Theta$ mapping avoids this obstruction: a gravitational potential breaks the right-$\mathrm{SU}(2)$ homogeneity that forces continuous position out of spectral data (mass at a specific location breaks the isometry).
+Lemma 8 (The Mirror) proved that the direct map $s \leftrightarrow \Theta$ does not exist on the spectral side. The physical $\Phi \to \Theta$ mapping avoids this obstruction: a gravitational potential breaks the right-$\mathrm{SU}(2)$ homogeneity that forces continuous position out of spectral data (mass at a specific location breaks the isometry).
 
 ### VIII.2 Minimum Black Hole Mass (Priority 2)
 

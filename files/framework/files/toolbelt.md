@@ -230,11 +230,11 @@ Note: R7 is the only irrep where T²(std) = T²(gal). The electron sits at the p
 
 **What this tool answers:** "What number does this representation carry?" This is the spectral DNA of MIT.
 
-**What it does NOT do:** Provide a uniform algebraic closed form across both spin parities. Both are exact; integer-spin is also algebraic. And by the Shatto Theorem (Lemma 8), no natural map exists between the phase position Θ and the spectral parameter s. The fine structure of the mass formula cannot be completed by extending spectral arithmetic. This is proved, not open. The mass formula (C_geom × McKay elevator × torsion) is not just what was found — it is the only structure the geometry permits.
+**What it does NOT do:** Provide a uniform algebraic closed form across both spin parities. Both are exact; integer-spin is also algebraic. And by Lemma 8, no natural map exists between the phase position Θ and the spectral parameter s. The fine structure of the mass formula cannot be completed by extending spectral arithmetic. This is proved, not open. The mass formula (C_geom × McKay elevator × torsion) is not just what was found — it is the only structure the geometry permits.
 
-The Shatto Theorem also explains why this boundary is structurally necessary rather than a limitation of technique.
+Lemma 8 also explains why this boundary is structurally necessary rather than a limitation of technique.
 
-### Curvature Duality (DERIVED — Shatto Theorem §6)
+### Curvature Duality (DERIVED — §6)
 
 The positive Ricci curvature Ric = 2/R² does two things simultaneously from the same equation:
 
@@ -342,7 +342,7 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 | H₀ · t_P | 34/120 | 1.21 | 1 | Ω_H | 1.2 × 10⁻⁶¹ | DERIVED |
 | Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² | DERIVED** |
 
-*Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (professional certainty; two convergent paths: McKay packetization, dimensionless dilution rule). The Phase-logΩ route is proved not to exist (Shatto Theorem Lemma 8: no natural map between Θ and s on S³/2I).
+*Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (professional certainty; two convergent paths: McKay packetization, dimensionless dilution rule). The Phase-logΩ route is proved not to exist (Lemma 8: no natural map between Θ and s on S³/2I).
 **Λ_obs = (3/2) × Λ_top by Gauss-Codazzi embedding.
 
 ### The 24 Predictions (Mass Formula Output)
@@ -412,7 +412,7 @@ The scaling law and mass formula are established. Remaining open work:
 
 | Item | Status |
 |------|--------|
-| α exponent n = 1/30 | ESTABLISHED; two convergent paths (McKay packetization, dimensionless dilution rule). Direct Phase-logΩ route proved not to exist (Shatto Theorem Lemma 8). Single-principle formal derivation open. |
+| α exponent n = 1/30 | ESTABLISHED; two convergent paths (McKay packetization, dimensionless dilution rule). Direct Phase-logΩ route proved not to exist (Lemma 8). Single-principle formal derivation open. |
 | Assignment problem | T₃ rule ESTABLISHED (Coxeter-Galois gate, 10/10 verified). Charm assignment OPEN (displaced from rank 17 by τ). Full (ρ,σ) → (T₃,Y,Q) mapping complete for 10 assigned fermions. |
 | ν₂ gap | 8.6 meV falls between rank 1 and rank 2; vacuum mixing or additional neutrino-scale structure could close it |
 | Fermion mass residual | Systematic overshoot growing with McKay dist; one-parameter correction at high dist needed |

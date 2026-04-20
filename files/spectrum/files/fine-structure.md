@@ -77,7 +77,7 @@ These three modifications — bosonic grid, matter well, fractional exponent —
 | 8 | One grid step of hierarchy | $\Omega_\Lambda^{-1/60}$ | Established |
 | 9 | $C(13/60) \times \Omega_\Lambda^{-1/60}$ | $\alpha = 0.00733$ | Output |
 
-Six topological derivations. One arithmetic step. One established result. The Grid-Hierarchy exponent (stage 8) is established to professional certainty: two convergent paths (McKay packetization, dimensionless dilution rule) and a uniqueness scan confirming structural selection. The Phase-log $\Omega$ path is closed by the Shatto Theorem.
+Six topological derivations. One arithmetic step. One established result. The Grid-Hierarchy exponent (stage 8) is established to professional certainty: two convergent paths (McKay packetization, dimensionless dilution rule) and a uniqueness scan confirming structural selection. The Phase-log $\Omega$ path is closed by Lemma 8.
 
 ## III. Uniqueness
 
