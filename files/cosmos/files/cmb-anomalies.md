@@ -52,7 +52,7 @@ The curvature radius $R$ is fixed by the cosmological constant:
 
 $$\Lambda = \frac{3}{R^2} \qquad \Rightarrow \qquad R \approx 5.3 \; \text{Gpc}$$
 
-This is the single geometric parameter. The comoving distance to last scattering is $\chi_* \approx 14.0$ Gpc.
+This is the single geometric parameter. The expansion dynamics are those of flat ΛCDM ($\Omega_K = 0$, $\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$), consistent with Planck. The topology manifests through the mode spectrum rather than through the background expansion: the Molien gap constrains which harmonic modes exist on the spatial domain, while the Friedmann equation governs the homogeneous expansion as usual. The comoving distance to last scattering is $\chi_* \approx 14.0$ Gpc.
 
 ### B. The Möbius Surface
 
@@ -147,21 +147,21 @@ Observed: R<sub>TT</sub> ≈ 0.81.
 
 ### F. Summary
 
-| Feature | Topology predicts | CMB measures | Agreement |
-|---|---|---|---|
-| Mode density transition | Molien gap ends at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ~1 multipole |
-| Quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% |
-| Parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
-| Alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | 14% |
-| Parity magnitude | $R_{TT} \approx 0.81$ at $d = 2.1$ Gpc | $R_{TT} \approx 0.81$ | < 1% |
+| Feature | Topology predicts | CMB measures | Agreement | Status |
+|---|---|---|---|---|
+| Mode density transition | Molien gap ends at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ~1 multipole | prediction |
+| Quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% | prediction |
+| Parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ | prediction |
+| Alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | 14% | prediction |
+| Parity magnitude | $R_{TT} \approx 0.81$ at $d = 2.1$ Gpc | $R_{TT} \approx 0.81$ | < 1% | fit (fixes $d$) |
 
 ---
 
 ## IV. On Matched Circles
 
-Standard searches for cosmic topology look for matched circles in the CMB sky. Planck found none above the noise threshold. The null result is consistent: the Möbius identification constrains the eigenmode spectrum of the bounded domain rather than repeating sky patches. Matched-circle searches test for spatial gluings that repeat sky patches at identified points.
+Standard searches for cosmic topology look for matched circles in the CMB sky. Planck found none above the noise threshold. The null result is consistent: standard matched-circle algorithms are designed for orientable gluings, where identified circles carry the same temperature pattern. Under a non-orientable identification, the relevant "matching" involves a sign flip that conventional searches would not detect.
 
-The CMB is not an image viewed through topology; it is the resonant pattern of the cavity.
+More fundamentally, the Möbius identification constrains the eigenmode spectrum of the bounded domain rather than repeating sky patches at identified points. The CMB is not an image viewed through topology; it is the resonant pattern of the cavity.
 
 ---
 
@@ -179,7 +179,7 @@ A single geometric structure accounts for four persistent CMB features. The topo
 
 **One position, four observables.** The observer sits at geodesic distance $d = 2.1$ Gpc from the domain center, corresponding to $\chi = 0.40$ rad in $S^3$. This single parameter controls the parity magnitude, the alignment angle, the quadrupole suppression, and (through the Molien gap) the low-ℓ transition scale. Four independent measurements constrain one number. The over-determination is the test.
 
-Luminet et al. proposed the Poincaré dodecahedral space to explain low-ℓ suppression. The COMPACT collaboration systematically studied non-orientable manifolds and confirmed that they generically produce parity asymmetry of the observed sign. The present work differs in two ways: the Möbius surface is embedded in S³ rather than being a quotient of it, and the predictions rest on the Molien-filtered scalar spectrum of $S^3/2I$ rather than on a flat-strip eigenspectrum.
+Luminet et al. proposed the Poincaré dodecahedral space to explain low-ℓ suppression, adopting $\Omega_\mathrm{tot} = 1.018$ and $R \approx 33$ Gpc. The two scales make different quantitative predictions: the Molien gap boundary falls at $\ell \approx 29$ for $R = 5.3$ Gpc and at $\ell \approx 5$ for $R = 33$ Gpc. The observed deficit boundary near $\ell \sim 30$ favors the present scale. The COMPACT collaboration systematically studied non-orientable manifolds and confirmed that they generically produce parity asymmetry of the observed sign. The present work differs in two ways: the Möbius surface is embedded in S³ rather than being a quotient of it, and the predictions rest on the Molien-filtered scalar spectrum of $S^3/2I$ rather than on a flat-strip eigenspectrum.
 
 ### What the observer contributes
 
