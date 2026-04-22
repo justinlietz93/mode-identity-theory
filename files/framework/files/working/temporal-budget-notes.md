@@ -159,6 +159,98 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 
 ---
 
+## XI. Euclid DR1 Prediction Ledger
+
+Model D+$\Lambda$ at best-fit parameters ($s_0 = 0.389$, $\Omega_\Lambda = 0.685$) produces concrete, redshift-dependent predictions across Euclid DR1's measurement channels. Each differs from $\Lambda$CDM by a computable, non-negligible amount. The ledger is pre-registered: agreement across channels over-determines $s_0$ empirically, which is what "setting the clock" means when the postulate-level derivation of $t_\text{now}$ hasn't closed yet.
+
+### A. Expansion rate $H(z)/H_0$ from BAO
+
+$$H^2/H_0^2 = 0.371\,(1+z)^3 \;-\; 0.056\,(1+z) \;+\; 0.685$$
+
+| $z$ | MIT (Model D+$\Lambda$) | $\Lambda$CDM ($\Omega_m = 0.315$) | $\Delta$ |
+|---|---|---|---|
+| 0.3 | 1.195 | 1.174 | $+1.8\%$ |
+| 0.5 | 1.361 | 1.322 | $+3.0\%$ |
+| 0.7 | 1.553 | 1.494 | $+3.9\%$ |
+| 1.0 | 1.882 | 1.790 | $+5.1\%$ |
+| 1.5 | 2.518 | 2.368 | $+6.3\%$ |
+| 2.0 | 3.246 | 3.032 | $+7.1\%$ |
+
+**Signed direction.** $H^\text{MIT}(z) > H^\text{$\Lambda$CDM}(z)$ at all $z > 0$, with the gap growing monotonically with redshift. The prediction is not "different from $\Lambda$CDM" — it is **faster than $\Lambda$CDM by a specific, computable amount**. The $(1+z)^1$ coefficient is forced negative ($-0.056$) by the budget identity, not a free sign; the leading driver of the faster-expansion prediction is the budget-dressed $(1+z)^3$ coefficient ($0.371$ vs $\Lambda$CDM's $0.315$), with the negative $(1+z)^1$ a subleading partial compensation.
+
+**Discriminating bins.** Euclid DR1 BAO precision is approximately percent-level in $H(z)$ in the spectroscopic survey range $z \sim 0.7$–$2.0$. The MIT gap exceeds $5\%$ at $z > 1$ and reaches $7\%$ at $z = 2$ — comfortably above DR1 sensitivity. The $z > 1$ bins carry the most discriminating power; low-$z$ bins ($z < 0.5$) are confused against $\Lambda$CDM below the DR1 error bar.
+
+**Context.** Pantheon+ constrains $\int dz/H(z)$, not $H(z)$ directly — so MIT and $\Lambda$CDM agree on distance modulus ($\Delta\chi^2 = +0.6$) while diverging on the differential expansion rate. Euclid BAO reads the differential rate. This is where the Pantheon+ degeneracy breaks.
+
+### B. The $(1+z)^1$ signature
+
+| Quantity | MIT | $\Lambda$CDM |
+|---|---|---|
+| coefficient of $(1+z)$ in $H^2/H_0^2$ | $-0.056$ | $0$ |
+| fractional contribution at $z=1$ | $-3.2\%$ | $0$ |
+
+No standard FLRW component produces a $(1+z)^1$ term (§V). Quantifying the DR1 detection threshold is an open computation.
+
+### C. Growth of structure $f(z)\sigma_8(z)$ from RSD  *(leading-order; full numerical integration needed)*
+
+With EFE unchanged, linear growth obeys $\ddot\delta + 2H\dot\delta - 4\pi G\bar\rho_m\delta = 0$. Modified $H(z)$ and the budget-dressed $\Omega_m$ enter differently: the expansion rate uses the dressed coefficient ($0.371$), while the gravitational source uses the underlying $\Omega_m = 0.315$ (§IV).
+
+| Quantity | MIT (leading-order) | $\Lambda$CDM |
+|---|---|---|
+| $f(0) \approx \Omega_m(0)^\gamma$, $\gamma \approx 0.55$ | $\sim 0.58$ (with $\Omega_m^\text{eff} = 0.371$) | $\sim 0.53$ |
+| $f\sigma_8(0)$ | $\sim 0.47$ | $\sim 0.43$ |
+
+The $\sim 10\%$ $f(0)$ gap is well above Euclid DR1 RSD precision. Numerical integration of the growth equation with the Model D+$\Lambda$ $H(z)$ across all Euclid RSD bins is needed to replace the leading-order estimate with a full curve.
+
+### D. Early-galaxies acceleration $a_0(z)$
+
+$a_0(z)/a_0(0) = H(z)/H_0$ (derived, early-galaxies paper).
+
+| $z$ | MIT | Euclid observable |
+|---|---|---|
+| 0.5 | $1.36 \times a_{0,\text{local}}$ | high-$z$ rotation curves |
+| 1.0 | $1.88 \times a_{0,\text{local}}$ | high-$z$ rotation curves |
+| 2.0 | $3.25 \times a_{0,\text{local}}$ | high-$z$ rotation curves |
+
+### E. Phantom-crossing channel  *(already derived, already registered on Zenodo)*
+
+| Quantity | MIT | $\Lambda$CDM |
+|---|---|---|
+| $z_\text{cross}$ (where $w_\text{eff} = -1$) | $0.663$ | no crossing |
+| $w_\text{eff}(z) > -1$ at all $z$ | yes (pre-registered) | yes |
+| $\Delta$AIC vs $\Lambda$CDM (DESI DR2 + Pantheon+ + Planck) | $-2.1$ | $0$ |
+
+### F. Null channels (topology-fixed)
+
+| Quantity | MIT | $\Lambda$CDM |
+|---|---|---|
+| $\Lambda(z)$ variation with redshift | $0$ | $0$ |
+| Lensing mass / clustering mass (hidden DM component) | $1$ | $1$ with particulate DM |
+| Fourth fundamental force, SUSY partners, new gauge bosons | $0$ | $0$ |
+| Time variation of $\alpha$ | $0$ | $0$ |
+
+### G. CMB–galaxy lensing cross-checks  *(from cosmos papers)*
+
+| Quantity | MIT | $\Lambda$CDM |
+|---|---|---|
+| CMB $\ell_\text{cut}$ | $\sim 32$ (Molien gap) | no cutoff |
+| $C_2/C_3$ | $0.13$ | $\sim 0.3$ |
+| Parity $R_{TT}$ | $0.81$ | $\sim 1$ |
+| $\Delta\theta_{23}$ ($\ell=2$, $\ell=3$ alignment) | $\sim 8.6°$ | random |
+
+### H. Clock-setting logic
+
+The prediction set is over-determined. One fit parameter ($s_0 = 0.389$, from Pantheon+) forecasts $H(z)$, $f\sigma_8(z)$, $a_0(z)$, and $z_\text{cross}$ simultaneously. If all channels hit within their stated precision, $s_0$ is independently over-determined by Euclid DR1 alone — the clock is empirically set without needing the postulate-level derivation of $t_\text{now}$ to have closed yet. If channels disagree, the model fails before the postulate-level derivation matters.
+
+This is pre-registration at the deepest level: **predict the time, then look**.
+
+### Two open computations for this ledger
+
+1. Numerical integration of the growth equation $\ddot\delta + 2H\dot\delta - 4\pi G\bar\rho_m\delta = 0$ with Model D+$\Lambda$ $H(z)$, across Euclid's RSD bins, replacing the §XI.C leading-order $f(0)$ estimate with a full $f\sigma_8(z)$ curve.
+2. Distance integrals $D_A(z)$, $D_L(z)$, $D_V(z)$ from $\int dz/H(z)$, giving the angular BAO scale across Euclid's spectroscopic bins.
+
+---
+
 *The budget balances. The clock keeps time. The waltz continues.*
 
 ---
