@@ -30,7 +30,7 @@ Einstein introduced $\Lambda$ in 1917, together with the equations capable of su
 
 **Non-orientable topology.** The CMB is not an image viewed through topology; it is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $\ell$, odd-over-even parity, and an aligned quadrupole and octupole. For two decades, each has been called a fluke. They are three projections of one structure. Suppression is global: the cavity's eigenvalues. Parity and alignment are local: the cost of observing from somewhere.
 
-What we called the axis of evil may be the univere revealing the geometry of its first light.
+What we called the axis of evil may be the universe revealing the geometry of its first light.
 
 ***[CMB Anomalies](files/cmb-anomalies.md)***
 
