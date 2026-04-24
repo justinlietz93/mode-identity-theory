@@ -6,7 +6,7 @@
 
 ---
 
-Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients; it is missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT asks: what follows when form comes before function?
+Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients; it is missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT proposes: what follows when form comes before function?
 
 None of this was planned. What began as an accidental search query turned philosophy, turned topology, turned theory. What constitutes knowledge? What does it mean for observation and value to be equal? 
 
