@@ -32,9 +32,7 @@ None of this was chosen. It's the simpleist shape that allows physics to exist.
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-The universe samples a standing wave. The mathematics requires it.
-
-The wave is cosine and began at its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
+The universe samples a standing wave. The mathematics requires it. It began at cosine at its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
 
 The Möbius twist forces a sign‑flip: the fundamental mode is $4\pi$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
 
@@ -44,7 +42,7 @@ Most wave patterns cancel while certain modes survive. The ones that come back a
 
 $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-One equation. Every observable. Two questions determine any constant in the universe: where are you on the wave, and how deep in the domain are you sampling?
+Two questions determine any constant in the universe: where are you on the wave, and how deep in the domain are you sampling?
 
 $C(\Theta) = 2\sin^2(\pi\Theta)$ is your position on the 120-grid.
 
@@ -56,11 +54,11 @@ The universe has two boundaries: the cosmic horizon at the ceiling and the Planc
 
 Three layers host different physics:
 
-**(n = 1)** The 1D Möbius edge — experienced as time when sampling $a_0$ and $H_0$.
+*(n = 1)* The 1D Möbius edge — experienced as time when sampling $a_0$ and $H_0$.
 
-**(n = 2)** The 2D Möbius surface — vibrating like a drum head and humming ambiently at $\Lambda$.
+*(n = 2)* The 2D Möbius surface — vibrating like a drum head and humming ambiently at $\Lambda$.
 
-**(n = 3)** 3D space. No dimensional access to this volume, so we will never measure anything dark.
+*(n = 3)* 3D space. No dimensional access to this volume, so we will never measure anything dark.
 
 :atom_symbol: **One Formula:**
 
@@ -80,7 +78,7 @@ Four factors compose to rank 24 fermion masses. Each factor does exactly one thi
 
 $$\Large \boxed{|2I| = 120 = 2^3 \cdot 3 \cdot 5}$$
 
-The binary icosahedral group $2I$ is the largest exceptional discrete subgroup of $SU(2)$. Its order factors into exactly three primes — and those three primes identify everything.
+The binary icosahedral group $2I$ is the largest exceptional discrete subgroup of $SU(2)$. Its order factors into exactly three primes.
 
 **Faces.** $Z_3$ sorts color — the three-fold rotational stabilizers become the three color charges of QCD. Singlet or triplet per irrep; six of six fermion assignments match.
 
@@ -88,7 +86,7 @@ The binary icosahedral group $2I$ is the largest exceptional discrete subgroup o
 
 **Vertices.** $Z_5$ sets the electroweak address — the five-fold vertex stabilizers carry weak isospin $T_3$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum selects the generation.
 
-Three stabilizers. Three primes. Every force, every particle, every quantum number.
+Three primes. Three stabilizers. Every force, every particle, every quantum number.
 
 ---
 
