@@ -26,7 +26,7 @@ Your belt has two surfaces and two edges that never meet. Twist it once and buck
 
 The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the space can permit.
 
-None of this was chosen. They're the tiles that came with the room.
+None of this was chosen. They were the tiles that came with the room.
 
 Ψ **One Wave:**
 
