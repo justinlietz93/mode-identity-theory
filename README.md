@@ -32,7 +32,7 @@ None of this was chosen. They're the tiles that came with the room.
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-The universe samples a standing wave. The mathematics requires it. It began cosine as its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
+The universe samples a standing wave. The mathematics requires it. It began as cosine, at its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
 
 The Möbius twist forces a sign‑flip: the fundamental mode is $4\pi$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
 
