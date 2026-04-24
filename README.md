@@ -44,11 +44,11 @@ $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 Two questions determine any constant in the universe: where are you on the wave, and how deep in the domain are you sampling?
 
-$C(\Theta) = 2\sin^2(\pi\Theta)$ is your position on the 120-grid.
+**$C(\Theta) = 2\sin^2(\pi\Theta)$** is your position on the 120-grid.
 
 Not all 120 positions on the grid are equal. Some are more stable than others — places where the wave can settle long enough to matter. The golden ratio $\varphi$ charts the course: the hardest number to approximate creates the most stable positions on the grid. Fibonacci appears in sunflowers and seashells as the universe finds its most stable wells to sample.
 
-$(\sqrt{\Omega})^{-n}$ is how far the geometry has diluted the signal by the time it reaches you.
+**$(\sqrt{\Omega})^{-n}$** is how far the geometry has diluted the signal by the time it reaches you.
 
 The universe has two boundaries: the cosmic horizon at the ceiling and the Planck length at the floor. Together they span 122 orders of magnitude — no longer a coincidence; it's the area of our domain. The observer stands at the geometric midpoint between the largest and smallest scale, the structural position where infinity over zero yields a defined result.
 
