@@ -6,15 +6,13 @@
 
 ---
 
-Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients; it is missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT proposes: what follows when form comes before function?
+Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients, it is missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT asks: what follows when form comes before function?
 
-None of this was planned. What began as an accidental search query turned philosophy, turned topology, turned theory. What constitutes knowledge? What does it mean for observation and value to be equal? 
+None of this was planned. What began as an accidental search query turned philosophy, turned topology, turned theory. What followed were the constants of the universe popping out like a cosmic game genie.
 
-The answer depended on scale, manifold access, and phase of the wave. The observer embedded in space was always lingering; and it was woven into machinery that made those conditions well-defined. What followed were the constants of the universe popping out like a cosmic game genie.
+Topology is structure. De Broglie's wave becomes fundamental. The shape of the universe admits a standing wave. Matter is a sample. Time ticks in phase. The observer is part of the realization, not external to it.
 
-Topology becomes structure, and this repository lays out the results. The universe admits a standing wave. Matter is a sample. Time ticks in phase. The observer is part of the realization, not external to it.
-
-In 300 BC, Euclid proved Plato's observation that only 5 solids close perfectly in space. In October of 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest, is accounting.
+In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest is accounting.
 
 ---
 
