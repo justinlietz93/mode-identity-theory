@@ -363,7 +363,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 **[Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/framework/files/euclid-dr1.html)**
 
-Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
+*Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.*
 
 ---
 
