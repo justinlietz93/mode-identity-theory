@@ -44,8 +44,6 @@ The identity is the standing-wave energy invariant, not an additional postulate.
 
 S is identified with the cosmological scale factor through the modal realization principle [15]: realized matter content corresponds to the velocity channel of the standing wave, with realization growing as S(t). This fixes the redshift relation 1 + z = s₀/S, where s₀ = S(t_now) is the present-epoch value. The identification is validated phenomenologically by the high-redshift scaling match ρ_m ∝ S⁻³, recovered through the clock selection in §2.2.
 
-A companion spatial budget identity u₀² + J² = 1 is established on the Möbius surface [16], where the eigenfunction u₀ = sin(y/R) and Jacobi field J = cos(y/R) partition amplitude between sampling and geometric extent. The temporal and spatial budgets share the Pythagorean form but arise independently: the spatial identity is geometric (Pythagorean theorem on the meridian), while the temporal identity is dynamical (energy invariant of the standing wave).
-
 ### 2.2 The budget clock
 
 The budget phase t and proper time τ are related by a clock rate. From S = sin(t/2), the Hubble parameter is:
