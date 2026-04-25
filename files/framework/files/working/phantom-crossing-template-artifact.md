@@ -365,7 +365,7 @@ Among the tested alternatives, only the half-integer exponent −1/2 reproduces 
 
 [20] B. Shatto, Pre-registered Predictions for Euclid DR1 (2026). DOI:10.5281/zenodo.18189078.
 
-[21] B. Shatto, Epoch-Dependent a₀ (2026). Submitted.
+[21] B. Shatto, Λ Constant, a₀ Evolving: High-Redshift Galaxy Masses (2026). DOI:10.5281/zenodo.18072995.
 
 ---
 
