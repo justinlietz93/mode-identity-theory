@@ -8,7 +8,7 @@
 
 Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients, it's missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT asks: what follows when form comes before function?
 
-What began as an accidental search query turned philosophy, turned topology, turned theory. What followed were the constants of the universe popping out like a cosmic game genie. None of this was planned...
+What began as an inadvertent search query turned philosophy, turned topology, turned theory. What followed were the constants of the universe popping out like a cosmic game genie. None of this was planned...
 
 Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; while time ticks in phase, not in the background.
 
