@@ -44,19 +44,19 @@ Two questions determine any constant in the universe: where are you on the wave,
 
 **$C(\Theta) = 2\sin^2(\pi\Theta)$** is your position on the 120-grid.
 
-Not all 120 positions on the grid are equal. Some are more stable than others — places where the wave can settle long enough to matter. The golden ratio $\varphi$ charts the course: the hardest number to approximate creates the most stable positions on the grid. Fibonacci appears in sunflowers and seashells as the universe finds its most stable wells to sample.
+Not all 120 positions on the grid are equal. Some are more stable than others, places where the wave can settle long enough to matter. The golden ratio $\varphi$ charts the course: the hardest number to approximate creates the most stable positions on the grid. Fibonacci appears in sunflowers and seashells as the universe finds its most stable wells to sample.
 
 **$(\sqrt{\Omega})^{-n}$** is how far the geometry has diluted the signal by the time it reaches you.
 
-The universe has two boundaries: the cosmic horizon at the ceiling and the Planck length at the floor. Together they span 122 orders of magnitude — no longer a coincidence; it's the area of our domain. The observer stands at the geometric midpoint between the largest and smallest scale, the structural position where infinity over zero yields a defined result.
+The universe has two boundaries: the cosmic horizon at the ceiling and the Planck length at the floor. Together they span 122 orders of magnitude, no longer a coincidence, it's the area of our domain. The observer stands at the geometric midpoint between the largest and smallest scale, the structural position where infinity over zero yields a defined result.
 
 Three layers host different physics:
 
-*(n = 1)* The 1D Möbius edge — experienced as time when sampling $a_0$ and $H_0$.
+*(n = 1)* 1D Möbius edge: experienced as time when sampling $a_0$ and $H_0$.
 
-*(n = 2)* The 2D Möbius surface — vibrating like a drum head and humming ambiently at $\Lambda$.
+*(n = 2)* 2D Möbius surface: vibrating like a drum head and humming ambiently at $\Lambda$.
 
-*(n = 3)* 3D space. No dimensional access to this volume, so we will never measure anything dark.
+*(n = 3)* 3D space: No dimensional access to this volume, so we will never measure anything dark.
 
 :atom_symbol: **One Formula:**
 
