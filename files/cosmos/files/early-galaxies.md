@@ -8,7 +8,7 @@
 
 James Webb has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ within 600 Myr of the Big Bang require star formation efficiencies exceeding unity under ΛCDM, a physical impossibility. 
 
-Mode Identity Theory predicts that the MOND acceleration scale $a_0$ is an edge mode ($n = 1$) referencing the evolving Hubble horizon: $a_0(z) = a_0(0) \times H(z)/H_0$. At $z = 10$, this gives $a_0 \approx 20 \times$ the local value, enhancing effective gravitational acceleration and accelerating structure formation without new physics.
+Mode Identity Theory predicts that the MOND acceleration scale $a_0$ is an edge mode ($n = 1$) referencing the evolving Hubble horizon: $a_0(z) = a_0(0) \times H(z)/H_0$. At $z = 10$, this gives $a_0 \approx 20.5 \times$ the local value, enhancing effective gravitational acceleration and accelerating structure formation without new physics.
 
 Critically, MIT predicts $a_0$ evolves while Λ remains fixed: the inverse of standard assumptions. Both predictions are independently testable.
 
@@ -18,8 +18,8 @@ Critically, MIT predicts $a_0$ evolves while Λ remains fixed: the inverse of st
 |---|---|
 | Scaling law | $a_0(z) = a_0(0) \times H(z)/H_0$ |
 | $a_0/(cH_0)$ ratio | predicted: 0.184 / observed: 0.183 |
-| At $z = 10$ | $a_0 \approx 2.4 \times 10^{-9}$ m/s<sup>2</sup> (20x local) |
-| Acceleration enhancement | $\sqrt{20} \approx 4.5$ x (collapse ~2.1x faster) |
+| At $z = 10$ | $a_0 \approx 2.46 \times 10^{-9}$ m/s<sup>2</sup> (20.5x local) |
+| Acceleration enhancement | $\sqrt{20.5} \approx 4.5$ x (collapse ~2.1x faster) |
 
 ## I. The Observational Tension
 
@@ -39,23 +39,23 @@ $$a_0(z) = a_0(0) \times \frac{H(z)}{H_0}$$
 
 ## III. Quantitative Estimate at z = 10
 
-For a standard flat cosmology with $\Omega_m \approx 0.3$ (total gravitating matter density inferred from expansion data; MIT does not modify the expansion history, only galactic-scale dynamics via the $a_0$ threshold) and $\Omega_\Lambda \approx 0.7$:
+For a standard flat cosmology with $\Omega_m = 0.315$, $\Omega_r = 9.2 \times 10^{-5}$, and $\Omega_\Lambda = 0.685$ (Planck 2018; total gravitating matter density inferred from expansion data; MIT does not modify the expansion history, only galactic-scale dynamics via the $a_0$ threshold):
 
-$$\frac{H(z)}{H_0} = \sqrt{\Omega_m(1+z)^3 + \Omega_\Lambda}$$
+$$\frac{H(z)}{H_0} = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}$$
 
-At $z = 10$: $(1+z)^3 = 1331$, giving $\Omega_m(1+z)^3 + \Omega_\Lambda = 0.3(1331) + 0.7 \approx 400$.
+At $z = 10$: $(1+z)^3 = 1331$ and $(1+z)^4 = 14641$, giving $\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda = 0.315(1331) + 9.2\times 10^{-5}(14641) + 0.685 \approx 421.3$.
 
-$$\frac{H(z{=}10)}{H_0} = \sqrt{400} = 20$$
+$$\frac{H(z{=}10)}{H_0} = \sqrt{421.3} \approx 20.5$$
 
 Applying the scaling:
 
-$$a_0(z{=}10) \approx 20 \times a_0(0) \approx 2.4 \times 10^{-9} \;\text{m/s}^2$$
+$$a_0(z{=}10) \approx 20.5 \times a_0(0) \approx 2.46 \times 10^{-9} \;\text{m/s}^2$$
 
 ## IV. Implications for Structure Formation
 
 In the deep-MOND regime ($g \ll a_0$), the simple interpolating function gives effective gravitational acceleration $g_\text{eff} \propto \sqrt{g_N \times a_0}$. The enhancement is maximal in this limit; inner regions of forming halos where $g$ approaches $a_0(z)$ see a smaller correction, so the estimates below are upper bounds. Comparing epoch-dependent $a_0$ to the standard constant assumption:
 
-$$\frac{g_\text{eff}(z{=}10)}{g_\text{eff}(\text{standard})} = \sqrt{\frac{a_0(z{=}10)}{a_0(0)}} = \sqrt{20} \approx 4.5$$
+$$\frac{g_\text{eff}(z{=}10)}{g_\text{eff}(\text{standard})} = \sqrt{\frac{a_0(z{=}10)}{a_0(0)}} = \sqrt{20.5} \approx 4.5$$
 
 A factor of ~4.5 enhancement in effective gravitational acceleration significantly alters collapse dynamics. This comparison is at fixed epoch: both MIT and constant-$a_0$ MOND face identical expansion rates at $z = 10$; the difference is solely the effective gravitational acceleration. Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ could collapse approximately 2.1x faster than standard MOND would predict. To order of magnitude, if the collapse timescale sets the star formation duty cycle, the required formation rate to assemble a given stellar mass drops by the same factor. For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1x faster collapse reduces the implied efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range.
 
