@@ -84,7 +84,7 @@ is the squared modulus of the anti-periodic ground mode on the Mobius surface, n
 
 Two hierarchy ratios are available to a given observable:
 
-| Symbol | Definition | Physical content |
+| Symbol | Kinematic expression (leading-order) | Physical content |
 |---|---|---|
 | $\Omega_H$ | $(c / (H\,\ell_P))^2$ | Hubble horizon, $R_H = c/H$ |
 | $\Omega_\Lambda$ | $(\Lambda\,\ell_P^2)^{-1}$ | de Sitter horizon, $R_\Lambda = \sqrt{3/\Lambda}$ |
@@ -162,7 +162,7 @@ Predicted ratio from the wells: 0.1846. Agreement to 0.8%. The Milgrom coinciden
 
 To calibrate the strength of this match, we compute the combinatorial baseline. Of the 7,021 unordered nonzero phase-position pairs $(k_1, k_2)/120$ with $k_1, k_2 \in \{1, \ldots, 119\}$, only 24 produce a ratio $C(k_1/120)/C(k_2/120)$ within 1% of the observed $0.1832$, a fraction of 0.342%. Modulo the reflection symmetry $C(k) = C(120-k)$, these collapse to 6 unique phase-operator value pairs. Within the framework's selected Fibonacci-well subset $\{13, 21, 34, 55, 60\}/120$, exactly one of the ten possible unordered well-pairs matches: the framework's $(13, 34)$. The match is therefore sparse on the full 120-domain (one in $\sim 300$ pairs) and unique within the topologically-selected Fibonacci-well structure (one in 10).
 
-The absolute-value check tests the well assignments (which were calibrated to $z = 0$ measurements). The evolution prediction is independent of this calibration and follows from the cancellation in (2.4).
+The absolute-value check tests the well assignments (which were calibrated to $z = 0$ measurements). The evolution prediction is independent of this calibration and follows from the structural ratio (2.4).
 
 ### 2.6 The local-epoch postulate (load-bearing step)
 
@@ -182,7 +182,7 @@ Sub-claims 1 and 2 are forced by the topological reading of the wells and the em
 
 ### 2.7 Generalization: any two edge-mode observables
 
-The cancellation in (2.4) is not specific to $(a_0, H)$. For any pair of edge-mode observables $A$ and $B$ at the same epoch:
+The structural ratio (2.4) is not specific to $(a_0, H)$. For any pair of edge-mode observables $A$ and $B$ at the same epoch:
 
 $$\frac{A(z)/A_P^{(A)}}{B(z)/A_P^{(B)}} = \frac{C(\Theta_A) \cdot N_H(z)}{C(\Theta_B) \cdot N_H(z)} = \frac{C(\Theta_A)}{C(\Theta_B)} \quad \text{(2.6)}$$
 
@@ -226,7 +226,7 @@ Given the framework's postulates, the wells calibrated at $z = 0$, and the local
 
 The two framework-wide concerns most likely to attract referee attention are:
 
-1. *The selection rule.* The scale-selection rule assigns edge-mode observables ($n = 1$) to the kinematic hierarchy $\Omega_H$ and surface-mode observables ($n = 2$) to the eigenvalue hierarchy $\Omega_\Lambda$. This assignment is a postulate of the framework, with the same status as the gauge group $SU(3) \times SU(2) \times U(1)$ in the Standard Model. Its consequence within the present paper is the §2.5 cancellation that recovers the Milgrom ratio at 0.8% and locates the framework's $a_0$ uniquely among the Fibonacci wells. A future uniqueness result for the $(n, \Omega)$ pairing is the right next step but is not a prerequisite for the present paper, just as Standard-Model phenomenology proceeded for decades before any uniqueness argument for $SU(3) \times SU(2) \times U(1)$ existed.
+1. *The selection rule.* The scale-selection rule assigns edge-mode observables ($n = 1$) to the kinematic hierarchy $\Omega_H$ and surface-mode observables ($n = 2$) to the eigenvalue hierarchy $\Omega_\Lambda$. This assignment is a postulate of the framework, with the same status as the gauge group $SU(3) \times SU(2) \times U(1)$ in the Standard Model. Its consequence within the present paper is the §2.4 substitution that recovers the Milgrom ratio at 0.8% and locates the framework's $a_0$ uniquely among the Fibonacci wells. A future uniqueness result for the $(n, \Omega)$ pairing is the right next step but is not a prerequisite for the present paper, just as Standard-Model phenomenology proceeded for decades before any uniqueness argument for $SU(3) \times SU(2) \times U(1)$ existed.
 
 2. *The local-epoch reading.* §2.6 defends this from symmetry. The argument is structural rather than theorem-like: freezing $\Omega_H$ at $\Omega_H(0)$ would *be* the addition of a postulate (a preferred epoch), and the bounded domain offers no structural support for one. A referee may push on whether the absence of a preferred epoch is itself sufficient to force the local reading; the framework's position is that under the bounded cosmic topology no time slice is privileged, so the scaling law evaluated at face value gives the local reading by default and freezing $\Omega_H(0)$ is what would require the addition.
 
@@ -277,7 +277,7 @@ The shape of the curve in the regime $z = 0$ to $5$ is dominated by the matter t
 
 We adopt the standard flat ΛCDM expansion history (3.2) with Planck 2018 [20] parameters throughout this paper. The §§4-7 predictions are robust to reasonable variations in the cosmological parameters within their current observational uncertainties: at $z > 1$ the matter term in (3.2) dominates the energy budget and the fractional sensitivity of $E(z)$ to $\Omega_m$ within current Planck and DESI constraints stays at the percent level; at $z < 1$ the late-time energy budget enters but the corresponding shifts in the §§4-7 observables remain well within current measurement uncertainties at intermediate redshift.
 
-The prediction of an evolving $a_0$ is independent of which Friedmann form is chosen for $H(z)$. The cancellation in §2.4 strips the hierarchy factor regardless of how $H(z)$ is parameterized: $a_0(z) \propto H(z)$ holds for any expansion history. Adopting the standard ΛCDM form is therefore a transparency choice that allows direct comparison with published high-$z$ measurements typically reported under the same cosmology, not a load-bearing assumption of the framework's evolution prediction.
+The prediction of an evolving $a_0$ is independent of which Friedmann form is chosen for $H(z)$. The substitution in §2.4 absorbs the hierarchy normalization $N_H(z)$ into the calibration regardless of how $H(z)$ is parameterized: $a_0(z) \propto H(z)$ holds for any expansion history. Adopting the standard ΛCDM form is therefore a transparency choice that allows direct comparison with published high-$z$ measurements typically reported under the same cosmology, not a load-bearing assumption of the framework's evolution prediction.
 
 ### 3.4 What §3 establishes
 
