@@ -32,9 +32,9 @@ These three tensions, the local Milgrom coincidence, the high-redshift early-gal
 
 Mode Identity Theory (MIT; the framework's foundational structure is summarized in Appendix A) is a measurement-postulate framework on the bounded topology $S^1 = \partial(\text{Mobius}) \subset S^3$ with anti-periodic boundary conditions. The framework's central postulate is the scaling law
 
-$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}, \quad \text{(1.1)}$$
+$$\frac{A}{A_P} = C(\Theta) \cdot N^n, \quad \text{(1.1)}$$
 
-mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a hierarchy ratio $\Omega$ chosen by a selection rule. The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in Appendix A.2.
+mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a dimensionless hierarchy normalization $N \equiv (\sqrt{\Omega})^{-1}$ fixed empirically by calibrating one observable per manifold-mode class (§2.3). The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in Appendix A.2.
 
 Two specific assignments are the subject of this paper and its companion. The MOND scale $a_0$ is identified as an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H = (c/(H\,\ell_P))^2$, with phase position $\Theta = 13/120$. The cosmological constant Λ is identified as a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$, with phase position $\Theta = 60/120$. The Hubble rate $H$ is itself an edge-mode observable at $\Theta = 34/120$. Both the $(a_0, H_0)$ wells and the Λ position are calibrated against local measurements at percent-level precision, and their forward-looking implications for cosmic evolution are structurally inverse: the framework predicts that $a_0$ evolves with $H(z)$ while Λ remains constant, the inverse of the standard ΛCDM presumption where Λ is the candidate evolving quantity (DESI's $w(z)$) and $a_0$ is assumed universal.
 
@@ -74,9 +74,9 @@ The result $a_0(z) = a_0(0)\,E(z)$ is conditional on three framework inputs docu
 
 The framework's measurement postulate (Appendix A.5) is
 
-$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
+$$\frac{A}{A_P} = C(\Theta) \cdot N^n$$
 
-where $A$ is a dimensional observable, $A_P$ its Planck reference, $\Theta \in \{k/120 : k = 0, 1, \ldots, 119\}$ a phase position on the 120-domain native to $S^3/2I$, $n$ a manifold-depth index assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and $\Omega$ a hierarchy ratio set by the boundary scale relevant to the observable. The phase operator
+where $A$ is a dimensional observable, $A_P$ its Planck reference, $\Theta \in \{k/120 : k = 0, 1, \ldots, 119\}$ a phase position on the 120-domain native to $S^3/2I$, $n$ a manifold-depth index assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and $N \equiv (\sqrt{\Omega})^{-1}$ a dimensionless hierarchy normalization fixed empirically by calibration (§2.3). The phase operator
 
 $$C(\Theta) = 2\sin^2(\pi\Theta)$$
 
@@ -95,48 +95,62 @@ The selection rule (Appendix A.5) assigns each observable to one of these. The r
 
 This rule is a postulate of the framework, with the same status as the gauge group $SU(3) \times SU(2) \times U(1)$ in the Standard Model: chosen, not derived, with consequences that are tested rather than assumed. The §2 derivation takes the rule as given and shows what follows.
 
+It is convenient to introduce the dimensionless hierarchy normalization
+
+$$N \equiv (\sqrt{\Omega})^{-1}$$
+
+so that the scaling law for an $n = 1$ observable reads $A/A_P = C(\Theta) \cdot N$, and for an $n = 2$ observable $A/A_P = C(\Theta) \cdot N^2$. For edge modes the relevant normalization is $N_H \equiv (\sqrt{\Omega_H})^{-1}$, with the kinematic identification $N_H \approx Ht_P$ (using $\ell_P/c = t_P$). For surface modes the corresponding $N_\Lambda \equiv (\sqrt{\Omega_\Lambda})^{-1}$. The kinematic expressions are leading-order: the precise value of $N_H$ at each epoch is fixed empirically by calibrating one edge-mode observable, as developed in §2.3 below. The framework does not derive the absolute hierarchy normalization from topology; it uses an external measurement to set the scale, then predicts all other observables in the class relative to that scale, with the relative dimensionless ratios fixed by the well-position $C$ factors.
+
 ### 2.2 Edge modes use $\Omega_H$
 
 Edge modes are observables tied to the $S^1$ boundary of the Mobius band ($n = 1$ in the embedding hierarchy). The boundary $S^1$ is a kinematic locus: it carries no intrinsic surface eigenvalue (the surface eigenvalue lives one dimension up, on Mobius itself, where the framework places Λ; see §2.8 contrast). What an edge mode references is the embedding scale of $S^1$ in the ambient cosmological geometry. The natural such scale is the Hubble horizon $R_H = c/H$, and its dimensionless Planck ratio is $\Omega_H$.
 
 Therefore, for any edge-mode observable evaluated at cosmic epoch $z$:
 
-$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A) \cdot (\sqrt{\Omega_H(z)})^{-1}, \qquad \Omega_H(z) \equiv \left(\frac{c}{H(z)\,\ell_P}\right)^2 \quad \text{(2.1)}$$
+$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A) \cdot N_H(z), \qquad N_H(z) \equiv (\sqrt{\Omega_H(z)})^{-1} \approx H(z)\,t_P \quad \text{(2.1)}$$
 
-The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological assignments and do not evolve. The full epoch dependence sits in $\Omega_H(z)$.
+with the kinematic identification $\Omega_H(z) \approx (c/(H(z)\ell_P))^2$ leading-order; the precise value of $N_H(z)$ is fixed by the calibration relation introduced in §2.3. The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological assignments and do not evolve. The full epoch dependence sits in $N_H(z)$.
 
-### 2.3 Two edge-mode observables
+### 2.3 Calibration through $H$, prediction for $a_0$
 
-The well assignments forced by the framework's selection rule (Appendix A.6) place $a_0$ at $\Theta = 13/120$ and $H$ at $\Theta = 34/120$, both edge modes ($n = 1$, $\Omega = \Omega_H$). With $A_P = a_P = c/t_P$ for the acceleration and $A_P = t_P^{-1}$ for the frequency, equation (2.1) gives, at any epoch $z$:
+The well assignments forced by the framework's selection rule (Appendix A.6) place $a_0$ at $\Theta = 13/120$ and $H$ at $\Theta = 34/120$, both edge modes ($n = 1$). The scaling law applied to each gives, at any epoch $z$:
 
-$$\frac{a_0(z)}{a_P} = C(13/120) \cdot (\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.2)}$$
+$$\frac{a_0(z)}{a_P} = C(13/120) \cdot N_H(z) \quad \text{(2.2)}$$
 
-$$H(z)\,t_P = C(34/120) \cdot (\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.3)}$$
+$$H(z)\,t_P = C(34/120) \cdot N_H(z) \quad \text{(2.3)}$$
 
-Two facts about the structure of (2.2)-(2.3) carry the entire derivation:
+with $a_P = c/t_P$ and $H_P = 1/t_P$. Equations (2.2) and (2.3) play different roles in the framework's prediction structure.
+
+Equation (2.3) is the *calibration relation*. The framework does not derive $H$ from topology; $H$ is the measured observable through which the dimensionless hierarchy normalization $N_H(z)$ is fixed empirically at every epoch:
+
+$$N_H(z) = H(z)\,t_P / C(34/120)$$
+
+The role of $H$ here is the role of the QCD coupling $\alpha_s$ measured at a reference process in particle physics: it is the input that sets the dimensional scale, after which all other observables in its class are predictions. The kinematic identification $N_H \approx (\sqrt{\Omega_H})^{-1} \approx H\,t_P$ is leading-order; the framework's precise $N_H$ differs from the kinematic value by the well-position factor $C(34/120) = 1.208$, absorbed into the calibration. The kinematic expression is the approximation, and the calibration relation (2.3) is the exact framework statement.
+
+Equation (2.2) is the *prediction*. Given $N_H(z)$ from (2.3), the well at $\Theta = 13/120$ produces $a_0(z)$ as the framework's output for the acceleration scale at every epoch. Two facts about (2.2) and (2.3) carry the rest of the derivation:
 
 1. The $C$ factors are pure numbers fixed by the wells: $C(13/120) = 2\sin^2(13\pi/120) = 0.2229$ and $C(34/120) = 2\sin^2(34\pi/120) = 1.2079$. They are topological invariants of the 120-domain on $S^3/2I$ and do not evolve.
-2. The full epoch dependence sits in the shared factor $(\sqrt{\Omega_H(z)})^{-1}$, which is identical in both expressions because both observables are edge modes referencing the same hierarchy.
+2. The hierarchy normalization $N_H(z)$ is shared between (2.2) and (2.3), set by the calibration through $H$ at every epoch.
 
-The derivation of $a_0(z) \propto H(z)$ does not require evaluating either expression in isolation. It requires only the ratio.
+The relation $a_0(z) \propto H(z)$ follows by substituting (2.3) into (2.2).
 
-### 2.4 The ratio (the derivation)
+### 2.4 The prediction
 
-Dividing (2.2) by (2.3), the hierarchy factor cancels identically:
+Substituting the calibration (2.3) into the prediction (2.2):
 
-$$\frac{a_0(z)/a_P}{H(z)\,t_P} = \frac{C(13/120)}{C(34/120)}$$
+$$\frac{a_0(z)}{a_P} = C(13/120) \cdot \frac{H(z)\,t_P}{C(34/120)}$$
 
-Using $a_P\,t_P = (c/t_P)\,t_P = c$:
+Using $a_P = c/t_P$:
 
 $$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1846\;} \quad \text{(2.4)}$$
 
-The right-hand side is a pure topological number, independent of $z$. The relation $a_0(z) \propto H(z)$ follows immediately: the ratio is fixed at every epoch by the well positions alone. Equivalently:
+The right-hand side is a pure topological number, independent of $z$. The framework predicts the Milgrom ratio exactly: it is the ratio of the well-position $C$ factors. The relation $a_0(z) \propto H(z)$ follows immediately, with the proportionality constant fixed by topology. Equivalently:
 
 $$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} \quad \text{(2.5)}$$
 
-This is the central result of the section. No epoch-dependent quantity other than $H(z)$ enters; no auxiliary scale is introduced; the cancellation is exact at every $z$. The $C$ factors and the hierarchy factor each carry the projection of the topology into observables; in the ratio, both projections are stripped away and what remains is the pure well structure.
+This is the central result of the section. No epoch-dependent quantity other than $H(z)$ enters; no auxiliary scale is introduced; the calibration through $H(z)$ absorbs the hierarchy-normalization piece, and what remains is the pure well-position ratio.
 
-The value $0.1846$ is a structural consequence of the framework's well assignments, not an independent free parameter. The wells $13/120$ and $34/120$ were assigned individually to reproduce $a_0(0)$ and $H_0$ at $z = 0$: two parameters fitting two absolute values. Their ratio $C(13/120)/C(34/120)$ was not tuned separately to the observed Milgrom coincidence; it emerges from the well assignments and the shared edge-mode hierarchy factor as a consequence of the algebra. The §2.5 agreement to 0.8% is a test of that structure, with the matching strength quantified against the combinatorial baseline below.
+The value $0.1846$ is a structural consequence of the framework's well assignments, not an independent free parameter. The wells $13/120$ and $34/120$ were assigned individually to fit $a_0(0)$ and $H_0$ at $z = 0$: two parameters fitting two absolute values. Their ratio $C(13/120)/C(34/120)$ was not tuned separately to the observed Milgrom coincidence; it emerges as a consequence of the prediction-from-calibration structure with the well-position factors fixed by topology. The §2.5 agreement to 0.8% is a test of that structure, with the matching strength quantified against the combinatorial baseline below.
 
 ### 2.5 Consistency check on absolute values at $z = 0$
 
@@ -160,25 +174,25 @@ Equation (2.4) holds at all $z$ if and only if the edge-mode rule (2.1) uses $\O
 
 2. *The manifold index $n$ is a topological assignment.* Edge mode means $n = 1$, and "edge" refers to the embedding $S^1 \subset \text{Mobius} \subset S^3$, which is a topological feature of the framework, not a feature of cosmic evolution. Therefore $n$ in (2.1) is the same at every $z$.
 
-3. *The hierarchy ratio $\Omega$ is the only piece set by external, evolving geometry.* $\Omega_H = (c/(H\,\ell_P))^2$ is built from $H$, which is the local Hubble rate. A measurement performed at epoch $z$ accesses the local geometry at epoch $z$. Therefore $\Omega_H$ in (2.1) is $\Omega_H(z)$, not $\Omega_H(0)$.
+3. *The hierarchy normalization $N_H$ is the only piece set by external measurement.* $N_H(z) = H(z)\,t_P / C(34/120)$ is built from the measured $H$ through the calibration relation (2.3). A measurement performed at epoch $z$ accesses the local Hubble rate $H(z)$. Therefore $N_H$ in the scaling law is $N_H(z)$, calibrated through the local $H(z)$, not $N_H(0)$.
 
-Sub-claims 1 and 2 are forced by the topological reading of the wells and the embedding hierarchy. Sub-claim 3 is the genuine postulate. It says: the observer's hierarchy reference is set by the geometry at the observer's spacetime location, not by some privileged past or future epoch.
+Sub-claims 1 and 2 are forced by the topological reading of the wells and the embedding hierarchy. Sub-claim 3 is the genuine postulate. It says: the observer's hierarchy reference is calibrated through the local measurement at the observer's spacetime location, not anchored to some privileged past or future epoch.
 
-**The alternative.** One could postulate that $\Omega_H$ in (2.1) is permanently $\Omega_H(0)$, so that all edge-mode observables retain their present-day values at every epoch. Under this alternative, $a_0$ is constant. But this alternative *is* itself the addition of a postulate: it requires a privileged "present" epoch to which the hierarchy reference is anchored, breaking time-translation symmetry within the bounded cosmic domain. The bounded domain offers no structural support for such a slice. The "local-epoch reading" is therefore not a separate postulate added to the framework: it is the refusal to add one. The scaling law evaluated at face value, with $\Omega_H$ defined as $(c/(H(z)\ell_P))^2$, gives the local reading by default; freezing $\Omega_H(0)$ is what would require the addition.
+**The alternative.** One could postulate that $N_H$ in (2.2) is permanently $N_H(0)$, so that all edge-mode observables retain their present-day values at every epoch. Under this alternative, $a_0$ is constant. But this alternative *is* itself the addition of a postulate: it requires a privileged "present" epoch to which the calibration is anchored, breaking time-translation symmetry within the bounded cosmic domain. The bounded domain offers no structural support for such a slice. The "local-epoch reading" is therefore not a separate postulate added to the framework: it is the refusal to add one. The scaling law evaluated at face value, with $N_H$ calibrated through the local $H(z)$, gives the local reading by default; freezing $N_H(0)$ is what would require the addition.
 
 ### 2.7 Generalization: any two edge-mode observables
 
 The cancellation in (2.4) is not specific to $(a_0, H)$. For any pair of edge-mode observables $A$ and $B$ at the same epoch:
 
-$$\frac{A(z)/A_P^{(A)}}{B(z)/A_P^{(B)}} = \frac{C(\Theta_A)}{C(\Theta_B)} \cdot \frac{(\sqrt{\Omega_H(z)})^{-1}}{(\sqrt{\Omega_H(z)})^{-1}} = \frac{C(\Theta_A)}{C(\Theta_B)} \quad \text{(2.6)}$$
+$$\frac{A(z)/A_P^{(A)}}{B(z)/A_P^{(B)}} = \frac{C(\Theta_A) \cdot N_H(z)}{C(\Theta_B) \cdot N_H(z)} = \frac{C(\Theta_A)}{C(\Theta_B)} \quad \text{(2.6)}$$
 
-The shared $(\sqrt{\Omega_H(z)})^{-1}$ divides out whenever both observables are edge modes referencing the same hierarchy. This is the structural reason the framework predicts proportional evolution among all edge-mode kinematic quantities, not just $a_0$ and $H$. Any further edge-mode acceleration scale, frequency, or velocity would track $H(z)$ identically, with its present-epoch ratio to $cH_0$ set by its own well position. The pair $(a_0, H)$ is the cleanest application because both are independently measured to ~1% precision and the corresponding wells $(13, 34)/120$ are adjacent Fibonacci stability points.
+The shared $N_H(z)$ divides out whenever both observables are edge modes referencing the same hierarchy through the same calibration. This is the structural reason the framework predicts proportional evolution among all edge-mode kinematic quantities, not just $a_0$ and $H$. Any further edge-mode acceleration scale, frequency, or velocity would track $H(z)$ identically, with its present-epoch ratio to $cH_0$ set by its own well position. The pair $(a_0, H)$ is the cleanest application because both are independently measured to ~1% precision and the corresponding wells $(13, 34)/120$ are adjacent Fibonacci stability points.
 
 ### 2.8 Why Λ does not evolve (contrast)
 
 The same scaling-law machinery places Λ at well $60/120$ with $n = 2$ (surface mode) and $\Omega = \Omega_\Lambda$ (Appendix A.5):
 
-$$\frac{\Lambda}{\ell_P^{-2}} = C(60/120) \cdot (\sqrt{\Omega_\Lambda})^{-2} = 2 \cdot \Omega_\Lambda^{-1}$$
+$$\frac{\Lambda}{\ell_P^{-2}} = C(60/120) \cdot N_\Lambda^2 = 2 \cdot \Omega_\Lambda^{-1}$$
 
 Two structural differences from $a_0$:
 
@@ -196,17 +210,19 @@ Honest accounting of what is derived vs imported in §2:
 
 | Element | Status | Source |
 |---|---|---|
-| Scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ | Postulate | Appendix A.5 |
+| Scaling law $A/A_P = C(\Theta) \cdot N^n$ with $N \equiv (\sqrt{\Omega})^{-1}$ | Postulate | Appendix A.5 |
 | $C(\Theta) = 2\sin^2(\pi\Theta)$ | Derived | Anti-periodic ground mode on Möbius (Appendix A.2) |
-| Edge-mode $\Leftrightarrow$ $\Omega_H$ | Postulate (selection rule) | Appendix A.5 |
-| Surface-mode $\Leftrightarrow$ $\Omega_\Lambda$ | Postulate (selection rule) | Appendix A.5 |
+| Edge-mode $\Leftrightarrow$ $N_H$ | Postulate (selection rule) | Appendix A.5 |
+| Surface-mode $\Leftrightarrow$ $N_\Lambda$ | Postulate (selection rule) | Appendix A.5 |
 | Well assignment $\Theta_{a_0} = 13/120$ | Empirical at $z = 0$ | Appendix A.6 |
 | Well assignment $\Theta_{H_0} = 34/120$ | Empirical at $z = 0$ | Appendix A.6 |
-| Local-epoch reading of $\Omega_H$ | Default reading of (2.1); §2.6 shows freezing $\Omega_H(0)$ would itself add a postulate | This section |
-| Cancellation (2.4), (2.6) | Derived | Algebra of (2.2)-(2.3) at fixed $z$ |
+| Local-epoch reading of $N_H$ | Default reading of the calibration relation; §2.6 shows freezing $N_H(0)$ would itself add a postulate | This section |
+| Calibration (2.3): $H\,t_P = C(34/120) \cdot N_H$ | Calibration (defines $N_H$ through measured $H$) | This section |
+| Prediction (2.2): $a_0/a_P = C(13/120) \cdot N_H$ | Derived (scaling law applied to the $a_0$ well) | This section |
+| Substitution (2.4) | Derived | Algebra of (2.2) with (2.3) substituted |
 | $a_0(z) = a_0(0)\,H(z)/H_0$ | **Derived**, given the above | This section |
 
-Given the framework's postulates, the wells calibrated at $z = 0$, and the local-epoch reading, the evolution $a_0(z) \propto H(z)$ is forced by the cancellation in (2.4). No additional free parameter is introduced for the evolution; it is fully determined by the structure. The well assignments themselves (13/120 for $a_0$, 34/120 for $H$) are not derived in this paper; they are inputs calibrated to $z = 0$ measurements. A future well-positioning analysis would attempt to derive these from the Hurwitz/Fibonacci structure of the 120-domain. Until then, the well assignments have the same status as fitting two parameters to two measurements at $z = 0$; the predictive content of the present paper is everything that follows at $z > 0$.
+Given the framework's postulates, the wells calibrated at $z = 0$, and the local-epoch reading, the evolution $a_0(z) \propto H(z)$ is forced by the prediction-from-calibration structure of §2.3-§2.4. No additional free parameter is introduced for the evolution; it is fully determined by the well-position factors and the calibration through measured $H(z)$. The well assignments themselves (13/120 for $a_0$, 34/120 for $H$) are not derived in this paper; they are inputs calibrated to $z = 0$ measurements. A future well-positioning analysis would attempt to derive these from the Hurwitz/Fibonacci structure of the 120-domain. Until then, the well assignments have the same status as fitting two parameters to two measurements at $z = 0$; the predictive content of the present paper is everything that follows at $z > 0$.
 
 The two framework-wide concerns most likely to attract referee attention are:
 
@@ -222,7 +238,7 @@ The §2 derivation reduces the epoch dependence of $a_0$ to the epoch dependence
 
 $$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} = a_0(0)\,E(z) \quad \text{(3.1)}$$
 
-with $E(z) \equiv H(z)/H_0$. The framework introduces no new parameter for the evolution; the only input is the cosmological expansion history. $H(z)$ is imported from standard cosmology rather than predicted by the scaling law: the framework's edge-mode assignment of $H$ (Appendix A.6) classifies $H$ within its observable hierarchy, and the predictive content of (3.1) is the structural ratio $a_0(z)/H(z) = a_0(0)/H_0$ that holds for any $H(z)$ history. The §2.4 cancellation strips the hierarchy factor $\sqrt{\Omega_H(z)}$ from the ratio regardless of how $H(z)$ is parameterized. We adopt the flat ΛCDM Friedmann form,
+with $E(z) \equiv H(z)/H_0$. The framework introduces no new parameter for the evolution; the only input is the cosmological expansion history. $H(z)$ is imported from standard cosmology rather than predicted by the scaling law: the framework's edge-mode assignment of $H$ (Appendix A.6) classifies $H$ within its observable hierarchy, and the predictive content of (3.1) is the structural ratio $a_0(z)/H(z) = a_0(0)/H_0$ that holds for any $H(z)$ history. The §2.4 substitution of the calibration (2.3) into the prediction (2.2) eliminates the hierarchy normalization $N_H(z)$ from the ratio regardless of how $H(z)$ is parameterized. We adopt the flat ΛCDM Friedmann form,
 
 $$E(z) = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}, \quad \text{(3.2)}$$
 
@@ -674,7 +690,7 @@ The framework is therefore consistent with the existing constraint landscape at 
 
 ### 9.1 Two predictions from one scaling law
 
-The framework derivation of §2 makes two structurally independent predictions about cosmic evolution, both following from the same measurement postulate $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ but addressing different sectors of the manifold-mode hierarchy.
+The framework derivation of §2 makes two structurally independent predictions about cosmic evolution, both following from the same measurement postulate $A/A_P = C(\Theta) \cdot N^n$ but addressing different sectors of the manifold-mode hierarchy.
 
 **§§3-7 (this paper).** The MOND acceleration scale is an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H = (c/(H\,\ell_P))^2$. The local-epoch reading of (2.1) gives $a_0(z) = a_0(0)\,E(z)$, governing galactic-scale dynamics across cosmic time and tested through the five-exponent prediction set summarized in §10.
 
@@ -774,7 +790,7 @@ One relation. Five distinct observable channels. No further free parameters beyo
 
 ## 11. Conclusions
 
-The Milgrom acceleration scale $a_0 \approx c\,H_0$ has stood for four decades as a numerical coincidence with no derivation. Mode Identity Theory's measurement postulate $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ resolves the coincidence into an exact ratio of two phase-operator values at fixed Fibonacci wells on the 120-domain of $S^3/2I$, with $a_0$ and $H$ both edge-mode observables ($n = 1$) referenced to the kinematic horizon $\Omega_H$. The §2 derivation matches observation at the 0.8% level, with the match unique within the framework's selected Fibonacci-well subset of the 120-domain.
+The Milgrom acceleration scale $a_0 \approx c\,H_0$ has stood for four decades as a numerical coincidence with no derivation. Mode Identity Theory's measurement postulate $A/A_P = C(\Theta) \cdot N^n$, with $N \equiv (\sqrt{\Omega})^{-1}$ the hierarchy normalization fixed by calibrating one observable per manifold-mode class, resolves the coincidence into an exact ratio of two phase-operator values at fixed Fibonacci wells on the 120-domain of $S^3/2I$, with $a_0$ and $H$ both edge-mode observables ($n = 1$) sharing the same edge-mode normalization $N_H$. The §2 derivation matches observation at the 0.8% level, with the match unique within the framework's selected Fibonacci-well subset of the 120-domain.
 
 The local-epoch reading of the postulate then forces the evolution: at every cosmic epoch $z$, the same scaling rule with the same wells references the local horizon $\Omega_H(z)$, giving $a_0(z) = a_0(0)\,E(z)$. Five distinct observables follow from this single relation as different powers of $E(z)$: the BTFR normalization shifts as $E(z)^{-1}$, the MOND transition radius contracts as $E(z)^{-1/2}$, the asymptotic flat velocity at fixed baryonic mass rises as $E(z)^{+1/4}$, the lensing-inferred dynamical mass enhancement scales as $E(z)^{+1/2}$, and the gravitational free-fall collapse time shortens as $E(z)^{-1/4}$. The five exponents are not independent; they are correlated translations of one input. A measurement in any one channel tests the value of $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes.
 
@@ -842,11 +858,13 @@ corresponding to Fibonacci numbers $F_7$ through $F_{10}$. The lower bound $F_7 
 
 The framework's measurement postulate maps any dimensional observable $A$ to its Planck reference $A_P$ via
 
-$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}, \quad \text{(A.2)}$$
+$$\frac{A}{A_P} = C(\Theta) \cdot N^n, \quad \text{(A.2)}$$
 
-with $C(\Theta)$ from (A.1), $n$ a manifold-mode index assigned by the embedding hierarchy $S^1 \subset \text{Möbius} \subset S^3$, and $\Omega$ a dimensionless hierarchy ratio fixed by the selection rule. Two hierarchy ratios are available:
+with $C(\Theta)$ from (A.1), $n$ a manifold-mode index assigned by the embedding hierarchy $S^1 \subset \text{Möbius} \subset S^3$, and $N \equiv (\sqrt{\Omega})^{-1}$ the dimensionless hierarchy normalization for the manifold-mode class. Two hierarchy normalizations are available, one per class:
 
-$$\Omega_H \equiv \left(\frac{c}{H\,\ell_P}\right)^2 \quad \text{(kinematic; evolves with } H), \qquad \Omega_\Lambda \equiv (\Lambda\,\ell_P^2)^{-1} \quad \text{(eigenvalue; fixed by Λ)}.$$
+$$N_H \equiv (\sqrt{\Omega_H})^{-1} \quad \text{(edge: kinematic, } \approx Ht_P\text{)}, \qquad N_\Lambda \equiv (\sqrt{\Omega_\Lambda})^{-1} \quad \text{(surface: eigenvalue, fixed by } \Lambda\text{)},$$
+
+with the kinematic identifications $\Omega_H \approx (c/(H\ell_P))^2$ and $\Omega_\Lambda \approx (\Lambda\ell_P^2)^{-1}$ leading-order. The precise value of $N_H$ at each epoch is fixed empirically by the calibration relation $H\,t_P = C(\Theta_H) \cdot N_H$ (§2.3 of the main text); the kinematic expression and the calibrated value differ by the well-position factor $C(\Theta_H)$. The framework does not derive the absolute hierarchy normalization from topology; it uses an external measurement (in this paper, $H$) to set the scale, and the well-position $C$ factors set the relative dimensionless ratios across observables in the same class.
 
 The selection rule assigns observables to manifold-mode classes by the index $n$:
 
