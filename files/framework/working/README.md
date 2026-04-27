@@ -2,7 +2,7 @@
 
 ---
 
-# :ocean: Working Notes
+# 📝 Working Notes
 
 Research-in-progress across the framework. Ordered by current empirical pressure: papers gated by the Euclid DR1 falsification window first, long-horizon proofs and interpretive notes after.
 
