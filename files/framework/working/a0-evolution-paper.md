@@ -32,7 +32,7 @@ These three tensions, the local Milgrom coincidence, the high-redshift early-gal
 
 Mode Identity Theory (MIT; the framework's foundational structure is summarized in Appendix A) is a measurement-postulate framework on the bounded topology $S^1 = \partial(\text{Mobius}) \subset S^3$ with anti-periodic boundary conditions. The framework's central postulate is the scaling law
 
-$$\frac{A}{A_P} = C(\Theta)\,(\sqrt{\Omega})^{-n}, \quad \text{(1.1)}$$
+$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}, \quad \text{(1.1)}$$
 
 mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a hierarchy ratio $\Omega$ chosen by a selection rule. The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in Appendix A.2.
 
@@ -74,7 +74,7 @@ The result $a_0(z) = a_0(0)\,E(z)$ is conditional on three framework inputs docu
 
 The framework's measurement postulate (Appendix A.5) is
 
-$$\frac{A}{A_P} = C(\Theta)\,(\sqrt{\Omega})^{-n}$$
+$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
 where $A$ is a dimensional observable, $A_P$ its Planck reference, $\Theta \in \{k/120 : k = 0, 1, \ldots, 119\}$ a phase position on the 120-domain native to $S^3/2I$, $n$ a manifold-depth index assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and $\Omega$ a hierarchy ratio set by the boundary scale relevant to the observable. The phase operator
 
@@ -101,7 +101,7 @@ Edge modes are observables tied to the $S^1$ boundary of the Mobius band ($n = 1
 
 Therefore, for any edge-mode observable evaluated at cosmic epoch $z$:
 
-$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A)\,(\sqrt{\Omega_H(z)})^{-1}, \qquad \Omega_H(z) \equiv \left(\frac{c}{H(z)\,\ell_P}\right)^2 \quad \text{(2.1)}$$
+$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A) \cdot (\sqrt{\Omega_H(z)})^{-1}, \qquad \Omega_H(z) \equiv \left(\frac{c}{H(z)\,\ell_P}\right)^2 \quad \text{(2.1)}$$
 
 The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological assignments and do not evolve. The full epoch dependence sits in $\Omega_H(z)$.
 
@@ -109,9 +109,9 @@ The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological a
 
 The well assignments forced by the framework's selection rule (Appendix A.6) place $a_0$ at $\Theta = 13/120$ and $H$ at $\Theta = 34/120$, both edge modes ($n = 1$, $\Omega = \Omega_H$). With $A_P = a_P = c/t_P$ for the acceleration and $A_P = t_P^{-1}$ for the frequency, equation (2.1) gives, at any epoch $z$:
 
-$$\frac{a_0(z)}{a_P} = C(13/120)\,(\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.2)}$$
+$$\frac{a_0(z)}{a_P} = C(13/120) \cdot (\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.2)}$$
 
-$$H(z)\,t_P = C(34/120)\,(\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.3)}$$
+$$H(z)\,t_P = C(34/120) \cdot (\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.3)}$$
 
 Two facts about the structure of (2.2)-(2.3) carry the entire derivation:
 
@@ -178,7 +178,7 @@ The shared $(\sqrt{\Omega_H(z)})^{-1}$ divides out whenever both observables are
 
 The same scaling-law machinery places Λ at well $60/120$ with $n = 2$ (surface mode) and $\Omega = \Omega_\Lambda$ (Appendix A.5):
 
-$$\frac{\Lambda}{\ell_P^{-2}} = C(60/120)\,(\sqrt{\Omega_\Lambda})^{-2} = 2 \cdot \Omega_\Lambda^{-1}$$
+$$\frac{\Lambda}{\ell_P^{-2}} = C(60/120) \cdot (\sqrt{\Omega_\Lambda})^{-2} = 2 \cdot \Omega_\Lambda^{-1}$$
 
 Two structural differences from $a_0$:
 
@@ -196,7 +196,7 @@ Honest accounting of what is derived vs imported in §2:
 
 | Element | Status | Source |
 |---|---|---|
-| Scaling law $A/A_P = C(\Theta)\,(\sqrt{\Omega})^{-n}$ | Postulate | Appendix A.5 |
+| Scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ | Postulate | Appendix A.5 |
 | $C(\Theta) = 2\sin^2(\pi\Theta)$ | Derived | Anti-periodic ground mode on Möbius (Appendix A.2) |
 | Edge-mode $\Leftrightarrow$ $\Omega_H$ | Postulate (selection rule) | Appendix A.5 |
 | Surface-mode $\Leftrightarrow$ $\Omega_\Lambda$ | Postulate (selection rule) | Appendix A.5 |
@@ -672,7 +672,7 @@ The framework is therefore consistent with the existing constraint landscape at 
 
 ### 9.1 Two predictions from one scaling law
 
-The framework derivation of §2 makes two structurally independent predictions about cosmic evolution, both following from the same measurement postulate $A/A_P = C(\Theta)\,(\sqrt{\Omega})^{-n}$ but addressing different sectors of the manifold-mode hierarchy.
+The framework derivation of §2 makes two structurally independent predictions about cosmic evolution, both following from the same measurement postulate $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ but addressing different sectors of the manifold-mode hierarchy.
 
 **§§3-7 (this paper).** The MOND acceleration scale is an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H = (c/(H\,\ell_P))^2$. The local-epoch reading of (2.1) gives $a_0(z) = a_0(0)\,E(z)$, governing galactic-scale dynamics across cosmic time and tested through the five-exponent prediction set summarized in §10.
 
@@ -772,7 +772,7 @@ One relation. Five distinct observable channels. No further free parameters beyo
 
 ## 11. Conclusions
 
-The Milgrom acceleration scale $a_0 \approx c\,H_0$ has stood for four decades as a numerical coincidence with no derivation. Mode Identity Theory's measurement postulate $A/A_P = C(\Theta)\,(\sqrt{\Omega})^{-n}$ resolves the coincidence into an exact ratio of two phase-operator values at fixed Fibonacci wells on the 120-domain of $S^3/2I$, with $a_0$ and $H$ both edge-mode observables ($n = 1$) referenced to the kinematic horizon $\Omega_H$. The §2 derivation matches observation at the 0.8% level, with the match unique within the framework's selected Fibonacci-well subset of the 120-domain.
+The Milgrom acceleration scale $a_0 \approx c\,H_0$ has stood for four decades as a numerical coincidence with no derivation. Mode Identity Theory's measurement postulate $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ resolves the coincidence into an exact ratio of two phase-operator values at fixed Fibonacci wells on the 120-domain of $S^3/2I$, with $a_0$ and $H$ both edge-mode observables ($n = 1$) referenced to the kinematic horizon $\Omega_H$. The §2 derivation matches observation at the 0.8% level, with the match unique within the framework's selected Fibonacci-well subset of the 120-domain.
 
 The local-epoch reading of the postulate then forces the evolution: at every cosmic epoch $z$, the same scaling rule with the same wells references the local horizon $\Omega_H(z)$, giving $a_0(z) = a_0(0)\,E(z)$. Five distinct observables follow from this single relation as different powers of $E(z)$: the BTFR normalization shifts as $E(z)^{-1}$, the MOND transition radius contracts as $E(z)^{-1/2}$, the asymptotic flat velocity at fixed baryonic mass rises as $E(z)^{+1/4}$, the lensing-inferred dynamical mass enhancement scales as $E(z)^{+1/2}$, and the gravitational free-fall collapse time shortens as $E(z)^{-1/4}$. The five exponents are not independent; they are correlated translations of one input. A measurement in any one channel tests the value of $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes.
 
@@ -788,7 +788,7 @@ The framework's evolution claim therefore stands or falls on a defined, near-ter
 
 ## Acknowledgments
 
-The author thanks colleagues for ongoing discussions of the Mode Identity Theory selection rule and for systematic stress-testing of the Übler radial pressure-support pipeline that informed the §8.2 verdict. No external funding supported this work.
+The author thanks the observational teams whose published data made this work possible: the SPARC collaboration (Lelli, McGaugh, Schombert) for the local rotation-curve sample [2,18]; Übler and the KMOS3D team for the intermediate-redshift Tully-Fisher measurements [9]; Wisnioski and the KMOS3D team for the kinematic-dispersion data used in the §8.2 forward model [11]; Genzel and the SINS/zC-SINF team for the high-redshift rotation curves [10]; Pointecouteau and Silk for the X-ray cluster analysis [12]; the JWST observing teams and the Labbé group for the early-galaxy catalog [6]; the Planck collaboration for the cosmological parameters and CMB amplitudes [20]; and the DESI collaboration for the dark-energy survey results [8]. No external funding supported this work.
 
 ## Data availability
 
@@ -840,7 +840,7 @@ corresponding to Fibonacci numbers $F_7$ through $F_{10}$. The lower bound $F_7 
 
 The framework's measurement postulate maps any dimensional observable $A$ to its Planck reference $A_P$ via
 
-$$\frac{A}{A_P} = C(\Theta)\,(\sqrt{\Omega})^{-n}, \quad \text{(A.2)}$$
+$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}, \quad \text{(A.2)}$$
 
 with $C(\Theta)$ from (A.1), $n$ a manifold-mode index assigned by the embedding hierarchy $S^1 \subset \text{Möbius} \subset S^3$, and $\Omega$ a dimensionless hierarchy ratio fixed by the selection rule. Two hierarchy ratios are available:
 
