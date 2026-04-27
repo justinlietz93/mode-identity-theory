@@ -309,18 +309,20 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 
 ### The Assembled Engine
 
-| Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ |
-|---|---|---|---|---|---|---|
-| [α](../spectrum/files/fine-structure.md) | 1 | 60R | 13/60 | 0.792 | $1/30$ | $7.33 \times 10^{-3}$ |
-| [a₀](../cosmos/files/early-galaxies.md) | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ |
-| [H₀](../cosmos/files/hubble-tension.md) | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
-| [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
+| Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ | Role |
+|---|---|---|---|---|---|---|---|
+| [α](../spectrum/files/fine-structure.md) | 1 | 60R | 13/60 | 0.792 | $1/30$ | $7.33 \times 10^{-3}$ | Prediction |
+| [a₀](../cosmos/files/early-galaxies.md) | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ | Prediction |
+| [H₀](../cosmos/files/hubble-tension.md) | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ | Calibration |
+| [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * | Prediction |
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 
+**Calibration structure.** $H_0$ serves as the calibration observable that fixes the universal hierarchy normalization $N$ for all edge-mode predictions. The scaling law does not derive $H$ from topology; it uses $H$ to set the scale from which $a_0$ and other edge-mode observables are predicted. The $\approx$ in the scaling law reflects this: the kinematic expression $(c/(H\ell_P))^2$ is the physical identification of $\Omega_H$, and $N = H t_P / C(34/120)$ is the precise normalization calibrated through measurement. The ratio of any two edge-mode $C$ factors is a zero-parameter prediction independent of the calibration. The $\Lambda$ derivation follows an independent calibration path through $R$ (from CMB) and the Laplace-Beltrami eigenvalue.
+
 $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution.
 
-The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$.
+The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes sharing the same calibrated normalization $N$, the ratio holds at every epoch: $a_0(z) \propto H(z)$.
 
 ### [The Gauge Ladder](../spectrum/files/fine-structure.md)
 
