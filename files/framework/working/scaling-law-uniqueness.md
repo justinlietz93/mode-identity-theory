@@ -20,6 +20,8 @@ that produces finite, well-defined observables?
 
 If not, the scaling law is forced by the topology. Not derived from it in the usual sense. Forced by it, the way Born's rule is forced by Hilbert space structure (Gleason's theorem).
 
+**Note on calibration vs form.** The engine file writes the scaling law with $\approx$, reflecting that the kinematic identification of $\Omega$ with a physical quantity (e.g., $\Omega_H = (c/(H\ell_P))^2$ for edge modes) is approximate: the precise hierarchy normalization $N$ is fixed by calibrating through one measured observable per sector ($H$ for edge modes, $R$ for surface modes). The uniqueness question addressed here is about the *functional form* $C(\Theta) \times g(\Omega, n)$: whether the factored structure, the sinusoidal phase operator, and the power-law hierarchy are the only options compatible with the topology. The calibration step is a separate, already-resolved question about how the form connects to measurement.
+
 ---
 
 ## The Precedent: Gleason's Theorem
