@@ -5,7 +5,7 @@
 # The Scaling Law as Forced Measurement Postulate on S³/2I
 
 **Status:** FUTURE WORK
-**Priority:** Post-October 2026 (PhD target)
+**Priority:** Post-October 2026
 **Dependencies:** Sector A paper (Λ eigenvalue), Lemma 8 (spectral boundary)
 
 ---
