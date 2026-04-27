@@ -32,7 +32,7 @@ These three tensions, the local Milgrom coincidence, the high-redshift early-gal
 
 Mode Identity Theory (MIT [21]) is a measurement-postulate framework on the bounded topology $S^1 = \partial(\text{Mobius}) \subset S^3$ with anti-periodic boundary conditions. The framework's central postulate is the scaling law
 
-$$\frac{A}{A_P} = C(\Theta)\,(\sqrt{\Omega})^{-n}, \tag{1.1}$$
+$$\frac{A}{A_P} = C(\Theta)\,(\sqrt{\Omega})^{-n}, \quad \text{(1.1)}$$
 
 mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a hierarchy ratio $\Omega$ chosen by a selection rule. The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in the framework's foundational papers [22,24].
 
@@ -44,7 +44,7 @@ The present paper makes the edge-sector prediction concrete and testable.
 
 The §2 derivation reduces the local Milgrom coincidence to a zero-parameter ratio of two phase-operator values: $a_0/(cH_0) = C(13/120)/C(34/120) = 0.1846$, agreeing with the observed value of 0.1832 at the 0.8% level. The wells were assigned individually to reproduce the absolute values of $a_0$ and $H_0$ at $z = 0$, two parameters fitting two measurements; their ratio was never tuned to the Milgrom coincidence and emerges as a consequence of the well structure. The same derivation forces, through a local-epoch reading of (1.1), an epoch-dependent evolution
 
-$$a_0(z) = a_0(0)\,E(z), \tag{1.2}$$
+$$a_0(z) = a_0(0)\,E(z), \quad \text{(1.2)}$$
 
 with $E(z) \equiv H(z)/H_0$ the standard Friedmann dimensionless Hubble parameter. This evolution is the one input that drives §§3-7.
 
@@ -93,7 +93,7 @@ Edge modes are observables tied to the $S^1$ boundary of the Mobius band ($n = 1
 
 Therefore, for any edge-mode observable evaluated at cosmic epoch $z$:
 
-$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A)\,(\sqrt{\Omega_H(z)})^{-1}, \qquad \Omega_H(z) \equiv \left(\frac{c}{H(z)\,\ell_P}\right)^2 \tag{2.1}$$
+$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A)\,(\sqrt{\Omega_H(z)})^{-1}, \qquad \Omega_H(z) \equiv \left(\frac{c}{H(z)\,\ell_P}\right)^2 \quad \text{(2.1)}$$
 
 The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological assignments and do not evolve. The full epoch dependence sits in $\Omega_H(z)$.
 
@@ -101,9 +101,9 @@ The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological a
 
 The empirical match [21] places $a_0$ at well $\Theta = 13/120$ and $H$ at well $\Theta = 34/120$, both edge modes ($n = 1$, $\Omega = \Omega_H$). With $A_P = a_P = c/t_P$ for the acceleration and $A_P = t_P^{-1}$ for the frequency, equation (2.1) gives, at any epoch $z$:
 
-$$\frac{a_0(z)}{a_P} = C(13/120)\,(\sqrt{\Omega_H(z)})^{-1} \tag{2.2}$$
+$$\frac{a_0(z)}{a_P} = C(13/120)\,(\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.2)}$$
 
-$$H(z)\,t_P = C(34/120)\,(\sqrt{\Omega_H(z)})^{-1} \tag{2.3}$$
+$$H(z)\,t_P = C(34/120)\,(\sqrt{\Omega_H(z)})^{-1} \quad \text{(2.3)}$$
 
 Two facts about the structure of (2.2)-(2.3) carry the entire derivation:
 
@@ -120,11 +120,11 @@ $$\frac{a_0(z)/a_P}{H(z)\,t_P} = \frac{C(13/120)}{C(34/120)}$$
 
 Using $a_P\,t_P = (c/t_P)\,t_P = c$:
 
-$$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1846\;} \tag{2.4}$$
+$$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1846\;} \quad \text{(2.4)}$$
 
 The right-hand side is a pure topological number, independent of $z$. The relation $a_0(z) \propto H(z)$ follows immediately: the ratio is fixed at every epoch by the well positions alone. Equivalently:
 
-$$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} \tag{2.5}$$
+$$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} \quad \text{(2.5)}$$
 
 This is the central result of the section. No epoch-dependent quantity other than $H(z)$ enters; no auxiliary scale is introduced; the cancellation is exact at every $z$. The $C$ factors and the hierarchy factor each carry the projection of the topology into observables; in the ratio, both projections are stripped away and what remains is the pure well structure.
 
@@ -160,7 +160,7 @@ Sub-claims 1 and 2 are forced by the topological reading of the wells and the em
 
 The cancellation in (2.4) is not specific to $(a_0, H)$. For any pair of edge-mode observables $A$ and $B$ at the same epoch:
 
-$$\frac{A(z)/A_P^{(A)}}{B(z)/A_P^{(B)}} = \frac{C(\Theta_A)}{C(\Theta_B)} \cdot \frac{(\sqrt{\Omega_H(z)})^{-1}}{(\sqrt{\Omega_H(z)})^{-1}} = \frac{C(\Theta_A)}{C(\Theta_B)} \tag{2.6}$$
+$$\frac{A(z)/A_P^{(A)}}{B(z)/A_P^{(B)}} = \frac{C(\Theta_A)}{C(\Theta_B)} \cdot \frac{(\sqrt{\Omega_H(z)})^{-1}}{(\sqrt{\Omega_H(z)})^{-1}} = \frac{C(\Theta_A)}{C(\Theta_B)} \quad \text{(2.6)}$$
 
 The shared $(\sqrt{\Omega_H(z)})^{-1}$ divides out whenever both observables are edge modes referencing the same hierarchy. This is the structural reason the framework predicts proportional evolution among all edge-mode kinematic quantities, not just $a_0$ and $H$. Any further edge-mode acceleration scale, frequency, or velocity would track $H(z)$ identically, with its present-epoch ratio to $cH_0$ set by its own well position. The pair $(a_0, H)$ is the cleanest application because both are independently measured to ~1% precision and the corresponding wells $(13, 34)/120$ are adjacent Fibonacci stability points.
 
@@ -210,15 +210,15 @@ Both are framework-wide concerns shared with the other Sector A papers; neither 
 
 The §2 derivation reduces the epoch dependence of $a_0$ to the epoch dependence of $H$:
 
-$$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} = a_0(0)\,E(z) \tag{3.1}$$
+$$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} = a_0(0)\,E(z) \quad \text{(3.1)}$$
 
 with $E(z) \equiv H(z)/H_0$. The framework introduces no new parameter for the evolution; the only input is the cosmological expansion history. We adopt the flat $\Lambda$CDM Friedmann form,
 
-$$E(z) = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}, \tag{3.2}$$
+$$E(z) = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}, \quad \text{(3.2)}$$
 
 with Planck 2018 parameters [20] $\Omega_m = 0.315$, $\Omega_r = 9.2 \times 10^{-5}$, $\Omega_\Lambda = 0.685$, and $H_0 = 67.4$ km/s/Mpc. The age of the universe at redshift $z$ follows from
 
-$$t_\text{age}(z) = \int_z^\infty \frac{dz'}{(1+z')\,H(z')}. \tag{3.3}$$
+$$t_\text{age}(z) = \int_z^\infty \frac{dz'}{(1+z')\,H(z')}. \quad \text{(3.3)}$$
 
 Equations (3.1)-(3.3) determine $a_0(z)$ at every epoch with no remaining freedom.
 
@@ -261,17 +261,17 @@ Equation (3.1), Table 1, and Figure 1 together fix the inputs that the rest of t
 
 The baryonic Tully-Fisher relation (BTFR) is the empirical statement that the asymptotic flat rotation velocity $v_\text{flat}$ of a disk galaxy is set by its total baryonic mass $M_b$. In the deep-MOND limit it is theoretically forced:
 
-$$v_\text{flat}^4 = G\,M_b\,a_0. \tag{4.1}$$
+$$v_\text{flat}^4 = G\,M_b\,a_0. \quad \text{(4.1)}$$
 
 Equivalently, $M_b = A_\text{BTFR}\,v_\text{flat}^4$ with normalization $A_\text{BTFR} = (G\,a_0)^{-1}$. The local SPARC sample fits (4.1) with constant $a_0 = 1.20 \times 10^{-10}$ m/s$^2$ to remarkable precision: a single one-parameter relation describes baryonic disks spanning four decades in mass with intrinsic scatter of order 0.1 dex [2].
 
 Under the framework derivation of §2, $a_0$ is epoch-dependent. Substituting (3.1) into (4.1):
 
-$$v_\text{flat}^4(z) = G\,M_b\,a_0(z) = G\,M_b\,a_0(0)\,E(z), \tag{4.2}$$
+$$v_\text{flat}^4(z) = G\,M_b\,a_0(z) = G\,M_b\,a_0(0)\,E(z), \quad \text{(4.2)}$$
 
 so the BTFR normalization evolves as
 
-$$\boxed{\;\frac{A_\text{BTFR}(z)}{A_\text{BTFR}(0)} = \frac{a_0(0)}{a_0(z)} = \frac{1}{E(z)}\;}. \tag{4.3}$$
+$$\boxed{\;\frac{A_\text{BTFR}(z)}{A_\text{BTFR}(0)} = \frac{a_0(0)}{a_0(z)} = \frac{1}{E(z)}\;}. \quad \text{(4.3)}$$
 
 The relation (4.3) carries no new free parameter beyond $a_0(0)$ from the local SPARC calibration and the standard cosmological $E(z)$ from §3.
 
@@ -281,13 +281,13 @@ Equation (4.2) admits two observationally distinct formulations.
 
 **Form A (fixed baryonic mass).** A galaxy with the same $M_b$ as a local one rotates faster at higher redshift:
 
-$$v_\text{flat}(z) = v_\text{flat}(0)\,E(z)^{1/4}. \tag{4.4}$$
+$$v_\text{flat}(z) = v_\text{flat}(0)\,E(z)^{1/4}. \quad \text{(4.4)}$$
 
 The exponent $1/4$ is the BTFR exponent inverted; the per-redshift enhancement is mild because the shift is a fourth root.
 
 **Form B (fixed rotation velocity).** A galaxy with the same $v_\text{flat}$ as a local one has less baryonic mass at higher redshift:
 
-$$M_b(z, v_\text{flat}) = M_b(0, v_\text{flat})\,/\,E(z). \tag{4.5}$$
+$$M_b(z, v_\text{flat}) = M_b(0, v_\text{flat})\,/\,E(z). \quad \text{(4.5)}$$
 
 The exponent here is unity; the per-redshift shift in inferred baryonic mass is larger than the per-redshift shift in $v_\text{flat}$. Form A is the natural prediction for a survey that selects galaxies by stellar mass; Form B is natural for a survey that selects by velocity.
 
@@ -341,17 +341,17 @@ The BTFR prediction of §4 is the asymptotic statement: the flat rotation veloci
 
 The MOND transition radius $r_M$ is defined as the point where the Newtonian acceleration of a point mass equals $a_0(z)$:
 
-$$g_N(r_M) = \frac{G\,M_b}{r_M^2} = a_0(z) \quad \Longrightarrow \quad r_M(z) = \sqrt{\frac{G\,M_b}{a_0(z)}}. \tag{5.1}$$
+$$g_N(r_M) = \frac{G\,M_b}{r_M^2} = a_0(z) \quad \Longrightarrow \quad r_M(z) = \sqrt{\frac{G\,M_b}{a_0(z)}}. \quad \text{(5.1)}$$
 
 Substituting $a_0(z) = a_0(0)\,E(z)$:
 
-$$\boxed{\;\frac{r_M(z)}{r_M(0)} = \frac{1}{\sqrt{E(z)}}\;}. \tag{5.2}$$
+$$\boxed{\;\frac{r_M(z)}{r_M(0)} = \frac{1}{\sqrt{E(z)}}\;}. \quad \text{(5.2)}$$
 
 The transition radius shrinks with redshift as $E(z)^{-1/2}$, independent of galaxy mass. At $z = 2$, $r_M$ is $1/\sqrt{3.03} = 0.574$ times its local value; at $z = 5$, $0.347$; at $z = 10$, $0.221$. The MOND-to-Newtonian transition therefore happens at progressively smaller physical radii as one looks back in cosmic time.
 
 The complement holds for the asymptotic flat velocity. From (4.4):
 
-$$\frac{v_\text{flat}(z)}{v_\text{flat}(0)} = E(z)^{1/4}. \tag{5.3}$$
+$$\frac{v_\text{flat}(z)}{v_\text{flat}(0)} = E(z)^{1/4}. \quad \text{(5.3)}$$
 
 Equations (5.2) and (5.3) together state the full epoch dependence of the deep-MOND rotation curve at fixed baryonic distribution: the transition contracts as $E(z)^{-1/2}$ and the plateau rises as $E(z)^{1/4}$.
 
@@ -414,7 +414,7 @@ A relativistic completion of MOND (TeVeS, MOG, generalized Einstein-aether) is r
 
 Any observer who measures the asymptotic flat velocity $v_\text{flat}$ at radius $R$ (whether by direct dynamics or by lensing) and applies the Newtonian inversion
 
-$$M_\text{dyn}(R) = \frac{v_\text{flat}^2 \cdot R}{G} \tag{6.1}$$
+$$M_\text{dyn}(R) = \frac{v_\text{flat}^2 \cdot R}{G} \quad \text{(6.1)}$$
 
 infers the same $M_\text{dyn}$ regardless of which underlying gravitational theory produces $v_\text{flat}$. The Newtonian inversion (6.1) is the convention used in the published lensing literature; it converts a measured shear or rotation signal into a quoted "dark-matter mass" under standard assumptions. Whatever the relativistic completion, the framework predicts $v_\text{flat}(R, z) = (G\,M_b\,a_0(z))^{1/4}$ in the deep-MOND limit, and (6.1) then maps this to $M_\text{dyn}$ unambiguously.
 
@@ -424,11 +424,11 @@ The §6 prediction is therefore a statement about the *quoted lensing observable
 
 Combining (6.1) with the deep-MOND $v_\text{flat}^4 = G\,M_b\,a_0(z)$:
 
-$$M_\text{dyn}(R, z) = R \cdot \sqrt{\frac{M_b\,a_0(z)}{G}} = M_b \cdot \frac{R}{r_M(z)}, \tag{6.2}$$
+$$M_\text{dyn}(R, z) = R \cdot \sqrt{\frac{M_b\,a_0(z)}{G}} = M_b \cdot \frac{R}{r_M(z)}, \quad \text{(6.2)}$$
 
 with $r_M(z)$ the MOND radius from §5. The framework prediction follows directly:
 
-$$\boxed{\;\frac{M_\text{dyn}(R, z)}{M_b} = \frac{R}{r_M(0)} \cdot \sqrt{E(z)}\;}. \tag{6.3}$$
+$$\boxed{\;\frac{M_\text{dyn}(R, z)}{M_b} = \frac{R}{r_M(0)} \cdot \sqrt{E(z)}\;}. \quad \text{(6.3)}$$
 
 At fixed aperture $R$ and fixed baryonic mass $M_b$, the inferred dynamical-mass-to-baryonic-mass ratio scales as $\sqrt{E(z)}$, which is the deep-MOND enhancement factor anchored in §3 Table 1. The scaling is universal: it does not depend on $M_b$ or on $R$ (provided $R \gg r_M(z)$, the deep-MOND condition).
 
@@ -500,15 +500,15 @@ JWST imaging of the early universe has revealed candidate galaxies at $z = 7\tex
 
 In the deep-MOND regime, the effective gravitational acceleration on a perturbation is
 
-$$g_\text{eff}(z) = \sqrt{g_N \cdot a_0(z)}, \tag{7.1}$$
+$$g_\text{eff}(z) = \sqrt{g_N \cdot a_0(z)}, \quad \text{(7.1)}$$
 
 so that $g_\text{eff}(z)/g_\text{eff}(0) = \sqrt{a_0(z)/a_0(0)} = \sqrt{E(z)}$ at fixed Newtonian source $g_N$. The free-fall collapse time scales as $t_\text{ff} \propto 1/\sqrt{g_\text{eff}}$, so
 
-$$\boxed{\;\frac{t_\text{ff}(z)}{t_\text{ff}(0)} = \frac{1}{E(z)^{1/4}}\;}, \tag{7.2}$$
+$$\boxed{\;\frac{t_\text{ff}(z)}{t_\text{ff}(0)} = \frac{1}{E(z)^{1/4}}\;}, \quad \text{(7.2)}$$
 
 i.e. the framework predicts that gravitational collapse at high redshift completes faster by a factor $E(z)^{1/4}$ than the constant-$a_0$ MOND benchmark. To order of magnitude, if collapse timescale sets the duty cycle of star formation, then the same stellar mass can be assembled with a star-formation efficiency lower by $E(z)^{1/4}$. Equivalently, the required $\varepsilon_\text{SF}$ to produce a given $M_\star$ at observed redshift $z$ is reduced from the $\Lambda$CDM value by
 
-$$\varepsilon_\text{SF}^\text{MIT}(z) = \varepsilon_\text{SF}^{\Lambda\text{CDM}}(z) \cdot \frac{1}{E(z)^{1/4}}. \tag{7.3}$$
+$$\varepsilon_\text{SF}^\text{MIT}(z) = \varepsilon_\text{SF}^{\Lambda\text{CDM}}(z) \cdot \frac{1}{E(z)^{1/4}}. \quad \text{(7.3)}$$
 
 The factor $E(z)^{1/4}$ is anchored in §3 Table 1 (the deep-MOND enhancement column $\sqrt{E(z)}$ is its square; the speedup is the fourth root of $E(z)$). It is universal across galaxy mass and source distribution. The fourth-root dependence also makes the speedup robust against uncertainties in the expansion history at high redshift: a 10% change in $E(z)$ shifts the predicted efficiency correction by less than 3%, so the §7.2 sample-level result does not depend critically on the precision of the assumed cosmology.
 
