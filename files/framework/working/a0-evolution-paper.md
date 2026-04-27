@@ -222,7 +222,7 @@ The §2 derivation reduces the epoch dependence of $a_0$ to the epoch dependence
 
 $$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} = a_0(0)\,E(z) \quad \text{(3.1)}$$
 
-with $E(z) \equiv H(z)/H_0$. The framework introduces no new parameter for the evolution; the only input is the cosmological expansion history. We adopt the flat ΛCDM Friedmann form,
+with $E(z) \equiv H(z)/H_0$. The framework introduces no new parameter for the evolution; the only input is the cosmological expansion history. $H(z)$ is imported from standard cosmology rather than predicted by the scaling law: the framework's edge-mode assignment of $H$ (Appendix A.6) classifies $H$ within its observable hierarchy, and the predictive content of (3.1) is the structural ratio $a_0(z)/H(z) = a_0(0)/H_0$ that holds for any $H(z)$ history. The §2.4 cancellation strips the hierarchy factor $\sqrt{\Omega_H(z)}$ from the ratio regardless of how $H(z)$ is parameterized. We adopt the flat ΛCDM Friedmann form,
 
 $$E(z) = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}, \quad \text{(3.2)}$$
 
@@ -860,15 +860,15 @@ Edge modes inherit the kinematic evolution of $\Omega_H$ through $H(z)$; surface
 
 ### A.6 Well assignments for the present paper
 
-Three constraints fix the well assignments used in §2:
+Three framework-internal eligibility conditions identify which Fibonacci wells are consistent with each observable's measurement class:
 
 1. **Manifold index** separates edge modes ($n = 1$, epoch-dependent: $H_0$, $a_0$) from surface modes ($n = 2$, epoch-independent: $\Lambda$).
 2. **Bosonic projection**: photon-mediated observables access only the 60-grid (even numerators in the 120-domain); dynamical observables access the full 120-grid.
-3. **Antinode requirement for $\Lambda$**: as a topologically protected eigenvalue, $\Lambda$ sits at $60/120$ where $d\ln C/d\Theta = 0$.
+3. **Antinode requirement for $\Lambda$**: as a topologically protected eigenvalue, $\Lambda$ sits at the antinode position $60/120$ where $d\ln C/d\Theta = 0$.
 
-Three forcings then locate the wells uniquely. (a) $a_0$ occupies the coprime well $13/120$, *forced by irreducibility*: $\gcd(13, 120) = 1$ requires the full 120-grid, accessible only to dynamical (non-photon-mediated) observation. (b) $\Lambda$ occupies the antinode $60/120$, *forced by ground-state maximality*: it is the unique position where $C(\Theta)$ takes its maximum and $d\ln C/d\Theta = 0$. (c) Among the remaining Fibonacci wells, only $34/120$ carries an even numerator and therefore survives the bosonic filter for photon-mediated observation; $H_0$ occupies it *by exclusion*. The wells $21/120$ and $55/120$ remain unassigned in this paper.
+Under these conditions, the empirical calibrations to $a_0$, $H_0$, and $\Lambda$ at $z = 0$ resolve as follows. (a) The well calibrated to $a_0$ is $13/120$, the unique coprime position ($\gcd(13, 120) = 1$) consistent with the irreducibility condition that dynamical (non-photon-mediated) observables access the full 120-grid. (b) The well calibrated to $\Lambda$ is $60/120$, consistent with the ground-state maximality condition for a topologically protected eigenvalue. (c) The well calibrated to $H_0$ is $34/120$: among the Fibonacci wells $\{13, 21, 34, 55\}/120$ available to edge-mode observables, $34/120$ is the unique even-numerator option consistent with the bosonic-filter condition for photon-mediated observation. The wells $21/120$ and $55/120$ remain unassigned in this paper.
 
-The numerical match against observation that follows from these assignments, the Milgrom ratio at 0.8% from the well-pair cancellation, is computed in §2.5 of the main text. Other framework realizations of the scaling law at additional $(n, \Omega)$ pairs are outside the scope of the present paper.
+These assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the framework's eligibility conditions; they are not first-principles derivations of the well positions. The combinatorial test in §2.5 quantifies the strength of the match: among the ten unordered Fibonacci-well pairs in $\{13, 21, 34, 55, 60\}/120$, only $(13, 34)$ reproduces the observed Milgrom ratio $a_0/(cH_0)$ within 1%, providing a sparsity check on the calibrated assignment. A first-principles derivation of the well positions from the Hurwitz/Fibonacci structure of the 120-domain is future work; until then, the assignments have the status of two parameters fitting two measurements at $z = 0$ as documented in §2.9. Other framework realizations of the scaling law at additional $(n, \Omega)$ pairs are outside the scope of the present paper.
 
 ---
 
