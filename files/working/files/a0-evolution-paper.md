@@ -400,9 +400,7 @@ Table 3 evaluates (5.1)-(5.3) at $z = 0$ and $z = 2$ for four baryonic-mass arch
 | $L^*$ (NGC 6946-like) | $6.0 \times 10^{10}$ | 2.5 | 8.35 | 4.79 | 176 | 232 |
 | Giant (UGC 2885-like) | $1.5 \times 10^{11}$ | 8.0 | 13.20 | 7.58 | 221 | 292 |
 
-The $L^*$ row provides the worked example. A galaxy with the baryonic distribution of NGC 6946 transitions to the MOND regime at $r_M = 8.35$ kpc at $z = 0$ and at $r_M = 4.79$ kpc at $z = 2$, with the asymptotic flat plateau rising from 176 km/s to 232 km/s. The plateau enhancement of 32% is the §4 BTFR prediction; the new content of §5 is that the plateau is reached at a smaller physical radius at $z = 2$ than at $z = 0$ for the same baryonic distribution.
-
-The Table 3 comparison isolates the effect of $a_0(z)$ at fixed baryonic distribution. Real galaxies at $z = 2$ differ from their local counterparts in structural properties (gas fraction, scale length, velocity dispersion, merger state). §5.5 below gives the observer-facing formulation that uses the measured baryonic properties at each redshift directly, removing the need to assume any particular structural correspondence between local and high-$z$ samples.
+Beyond the §4 plateau-enhancement prediction (32% at $z = 2$ for the $L^*$ archetype), the new content of §5 is that the plateau is reached at a smaller physical radius at higher redshift: $L^*$ transitions at $r_M = 4.79$ kpc at $z = 2$ vs $8.35$ kpc at $z = 0$. The Table 3 comparison isolates this effect at fixed baryonic distribution; real galaxies at $z = 2$ differ from local counterparts in structural properties (gas fraction, scale length, velocity dispersion, merger state), and §5.5 gives the observer-facing formulation that uses the measured baryonic properties at each redshift directly, removing the need to assume a structural correspondence.
 
 ### 5.3 Figure 3: $L^*$ rotation curve at $z = 0$ and $z = 2$
 
@@ -622,7 +620,7 @@ The §7.5 position is conditional on the structural decoupling: (i) the apparent
 
 ### 7.6 Strong gravitational lensing time delays
 
-Strong-lensing time-delay cosmography (TDCOSMO [34], H0LiCOW [35]) probes $H_0$ at sub-percent precision but is not currently sensitive to $a_0(z)$ at the level of the framework's predictions, because the time-delay signal lives at lens-galaxy scales where the MOND interpolating function matters and the deep-MOND ratio prediction (4.3) does not strictly apply. Existing time-delay analyses are consistent with both the framework and standard ΛCDM at current precision; no live constraint exists in this regime.
+Below current sensitivity to the framework's predictions; folded into the Table 5 entry in §7.8.
 
 ### 7.7 JWST early-galaxy collapse-time speedup (supporting evidence)
 
@@ -639,7 +637,7 @@ JWST imaging at $z = 7\text{–}10$ has identified candidate massive galaxies [6
 | Intermediate-$z$ rotation curves | Genzel 2017 [10] | Qualitatively consistent; not a sharp quantitative test |
 | Galaxy clusters | Pointecouteau-Silk 2005 [12] | Inherited problem unaddressed by epoch-dependent $a_0$; not worsened by the framework |
 | CMB ($z \approx 1090$) | Naive over-application | Resolved structurally by the §2 selection rule; minimal-leakage Planck bound $\varepsilon \lesssim 10^{-5}$ confirms consistency with the framework's structural $\varepsilon = 0$ prediction; rigorous derivation open |
-| Strong-lens time delays | TDCOSMO, H0LiCOW | Below current sensitivity; consistent at present |
+| Strong-lens time delays | TDCOSMO [34], H0LiCOW [35] | Below current sensitivity: the time-delay signal lives at lens-galaxy scales where the MOND interpolating function matters and the deep-MOND ratio prediction (4.3) does not strictly apply; consistent with both the framework and ΛCDM at current precision |
 
 The status column reads as one live tension (Übler, with the velocity-correction systematic explanation tested and ruled out by forward-modeling), one inherited open problem (clusters, neither caused nor resolved by the framework), one structurally resolved apparent tension (CMB, with rigorous derivation flagged), one qualitative consistency (Genzel), and two consistencies by construction or below sensitivity.
 
