@@ -287,7 +287,7 @@ The prediction of an evolving $a_0$ is independent of which Friedmann form is ch
 
 ### 3.4 What §3 establishes
 
-Equation (3.1), Table 1, and Figure 1 together fix the inputs that the rest of the paper consumes. Each of §§4-6 takes $a_0(z)$ from this section and evaluates a specific observable: the BTFR normalization (§4), galactic rotation curves (§5), galaxy-galaxy lensing (§6), and JWST star-formation efficiencies (§7.7). All four sections inherit the same epoch dependence from this section; none of them introduces new free parameters. The §§4-6 results are therefore predictions of a single one-parameter relation, calibrated by the local value $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ from SPARC.
+Equation (3.1), Table 1, and Figure 1 together fix the inputs that the rest of the paper consumes. Each downstream section takes $a_0(z)$ from this section and evaluates a specific observable: the BTFR normalization (§4), galactic rotation curves (§5), galaxy-galaxy lensing (§6), and JWST star-formation efficiencies (§7.7). All four inherit the same epoch dependence from this section; none of them introduces new free parameters. The §§4-6 and §7.7 results are therefore predictions of a single one-parameter relation, calibrated by the local value $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ from SPARC.
 
 ## 4. The baryonic Tully-Fisher relation across cosmic time
 
