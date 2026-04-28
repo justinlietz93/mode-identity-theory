@@ -184,7 +184,7 @@ Equation (2.4) holds at all $z$ if and only if the edge-mode rule (2.1) uses $\O
 
 Sub-claims 1 and 2 are forced by the topological reading of the wells and the embedding hierarchy. Sub-claim 3 is the genuine postulate. It says: the observer's hierarchy reference is calibrated through the local measurement at the observer's spacetime location, not anchored to some privileged past or future epoch.
 
-**The alternative.** One could postulate that $N_H$ in (2.2) is permanently $N_H(0)$, so that all edge-mode observables retain their present-day values at every epoch. Under this alternative, $a_0$ is constant. But this alternative *is* itself the addition of a postulate: it requires a privileged "present" epoch to which the calibration is anchored, breaking time-translation symmetry within the bounded cosmic domain. The bounded domain offers no structural support for such a slice. The "local-epoch reading" is therefore not a separate postulate added to the framework: it is the refusal to add one. The scaling law evaluated at face value, with $N_H$ calibrated through the local $H(z)$, gives the local reading by default; freezing $N_H(0)$ is what would require the addition.
+**The alternative.** One could postulate that $N_H$ in (2.2) is permanently $N_H(0)$, so that all edge-mode observables retain their present-day values at every epoch. Under this alternative, $a_0$ is constant. But this alternative *is* itself the addition of a postulate: it requires a privileged "present" epoch to which the calibration is anchored, breaking time-translation symmetry within the bounded cosmic domain. The bounded domain offers no structural support for such a slice. The "local-epoch reading" is therefore not a separate postulate added to the framework: it is the refusal to add one. The scaling law evaluated at face value, with $N_H$ calibrated through the local $H(z)$, gives the local reading by default; freezing $N_H(0)$ is what would require the addition. We acknowledge that the conventional default in physics is constant couplings: a parameter is treated as fixed until evidence forces an evolving form. The local-epoch reading is therefore a specific interpretive choice the framework makes within its bounded-domain structure, not a neutral starting point; the data will adjudicate it through the §§3-6 predictions.
 
 ### 2.7 Generalization: any two edge-mode observables
 
@@ -532,7 +532,7 @@ The framework predictions of §§4-6 are tested against existing measurements in
 
 ### 7.1 Local galactic dynamics: SPARC and THINGS
 
-The framework reproduces local MOND phenomenology by construction. The well assignments in §2 were calibrated against the local values $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ and $H_0 = 67.4$ km/s/Mpc, and the BTFR normalization, rotation-curve fits, and lensing inferences at $z \approx 0$ inherit the standard MOND results documented in the SPARC and THINGS analyses [18,2,3]. No independent test at $z = 0$ is provided by the present paper; the §3 calibration is what the §§4-6 predictions are extrapolations from.
+The framework reproduces local MOND phenomenology by construction. The well assignments in §2 were calibrated against the local values $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ and $H_0 = 67.4$ km/s/Mpc, and the BTFR normalization, rotation-curve fits, and lensing inferences at $z \approx 0$ inherit the standard MOND results documented in the SPARC and THINGS analyses [18,2,3]. Recent weak-lensing extensions of the radial acceleration relation to $\sim$Mpc scales [37] recover constant-$a_0$ behavior at $z \approx 0$ from stacked galaxy-galaxy lensing on early- and late-type samples, consistent with the framework's $z = 0$ prediction by construction; their analysis bins by stellar mass rather than redshift and does not constrain the $a_0(z)$ evolution prediction of §§4-6. No independent test at $z = 0$ is provided by the present paper; the §3 calibration is what the §§4-6 predictions are extrapolations from.
 
 ### 7.2 Intermediate-redshift Tully-Fisher: KMOS3D
 
@@ -925,6 +925,8 @@ The dataset and per-aperture comparison are deposited as `tables/table4.csv` and
 [35] K. C. Wong et al., Mon. Not. R. Astron. Soc. 498, 1420 (2020).
 
 [36] B. Shatto, Mode Identity Theory: Modal Realization from Nested Topology (2025). DOI:10.5281/zenodo.18064856.
+
+[37] T. Mistele, S. S. McGaugh, F. Lelli, J. M. Schombert, and P. Li, Astrophys. J. Lett. 969, L3 (2024).
 
 ---
 
