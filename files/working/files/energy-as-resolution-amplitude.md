@@ -1,4 +1,4 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
 
 ---
 
@@ -127,4 +127,4 @@ A finished result. This is a research note pointing at where the framework appea
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /

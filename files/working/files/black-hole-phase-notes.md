@@ -1,10 +1,10 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
 
 ---
 
 # Black Hole Phase Behavior: Research Notes
 
-Working notes on time, sampling, and the directional problem. Supplements [Black Double Zero's](../../../cosmos/files/black-hole.md).
+Working notes on time, sampling, and the directional problem. Supplements [Black Double Zero's](../../cosmos/files/black-hole.md).
 
 **Status:** Interpretive. Draws on derived results from Sector $\mathcal{A}$ eigenvalue paper and Black Double Zero's §§II, IV.A, VI. No new derivations here; this organizes structural consequences for further work.
 
@@ -176,4 +176,4 @@ The budget $u_0^2 + J^2 = 1$ holds everywhere. Nothing is created or destroyed o
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /

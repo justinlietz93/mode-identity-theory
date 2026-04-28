@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`framework`](../framework/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
 
 ---
 
@@ -100,8 +100,8 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 **Methodology:** Apply the budget identity and the $C(\Theta)$ sampling rule at and inside the horizon; identify the interior as a double zero where $\Theta = 0$ and $\Omega_H = 0$ dissolve the scale hierarchy while wave content persists.
 
-**Dependencies:** Sector $\mathcal{A}$ eigenvalue paper, [Black Double Zero](../../cosmos/files/black-hole.md) §§II, IV.A, VI.
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue paper, [Black Double Zero](../cosmos/files/black-hole.md) §§II, IV.A, VI.
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`framework`](../framework/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
