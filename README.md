@@ -1,5 +1,7 @@
 / **[`framework`](/files/framework/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** /
 
+---
+
 # :ocean: Mode Identity Theory 
 
 [![Topology before Matter](https://img.youtube.com/vi/ANzQhGGzoAk/mqdefault.jpg)](https://www.youtube.com/watch?v=ANzQhGGzoAk)
