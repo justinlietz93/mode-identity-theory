@@ -57,7 +57,7 @@ The only borrowed parameter. $\Omega_m$ enters solely through the Friedmann inte
 
 ---
 
-## [The Topology](https://dmobius3.github.io/mode-identity-theory/files/framework/files/topology.html)
+## [The Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/topology.html)
 
 $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
@@ -132,7 +132,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 
 Three particle generations from three topological vacua.
 
-### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
+### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
 Four factors, each traced independently to the postulate:
 
@@ -295,7 +295,7 @@ The classification index $\mathcal{T}$ compares the gravitational potential drop
 
 The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
 
-## [The Scaling Law](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
+## [The Scaling Law](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
 $$\Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
@@ -363,7 +363,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | ν floor | μ<sub>Λ</sub> ≈ 2.25 meV | Lightest neutrino mass contradicts at >3σ |
 | Rank 16 entry | ~349 MeV, R<sub>5</sub> std | No particle found, or particle found with wrong quantum numbers |
 
-**[Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/framework/files/euclid-dr1.html)**
+**[Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/tools/euclid-dr1.html)**
 
 *Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.*
 
