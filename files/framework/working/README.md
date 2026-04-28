@@ -8,7 +8,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [Phantom Crossing as Template Artifact](./phantom-crossing-template-artifact.md)
+## [Phantom Crossing as Template Artifact](./files/phantom-crossing-template-artifact.md)
 
 **Priority:** Before Euclid DR1.
 
@@ -20,7 +20,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [Epoch-Dependent Acceleration Scale from Bounded Topology](./a0-evolution-paper.md)
+## [Epoch-Dependent Acceleration Scale from Bounded Topology](./files/a0-evolution-paper.md)
 
 **Priority:** Before Euclid DR1.
 
@@ -32,7 +32,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [Phase Field Coherence Scale (SPARC)](./sparc-phase-field-notes.md)
+## [Phase Field Coherence Scale (SPARC)](./files/sparc-phase-field-notes.md)
 
 **Priority:** Before Euclid DR1.
 
@@ -44,7 +44,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [The Temporal Budget Identity](./temporal-budget-notes.md)
+## [The Temporal Budget Identity](./files/temporal-budget-notes.md)
 
 **Priority:** Before Euclid DR1.
 
@@ -56,7 +56,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [McKay Propagator Correction](./mckay-propagator-correction.md)
+## [McKay Propagator Correction](./files/mckay-propagator-correction.md)
 
 **Priority:** Before Euclid DR1.
 
@@ -68,7 +68,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [The Scaling Law as Forced Measurement Postulate on S³/2I](./scaling-law-uniqueness.md)
+## [The Scaling Law as Forced Measurement Postulate on S³/2I](./files/scaling-law-uniqueness.md)
 
 **Priority:** Post-Euclid DR1.
 
@@ -80,7 +80,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [Energy as Resolution Amplitude](./energy-as-resolution-amplitude.md)
+## [Energy as Resolution Amplitude](./files/energy-as-resolution-amplitude.md)
 
 **Priority:** Post-Euclid DR1.
 
@@ -92,7 +92,7 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
-## [Black Hole Phase Behavior](./black-hole-phase-notes.md)
+## [Black Hole Phase Behavior](./files/black-hole-phase-notes.md)
 
 **Priority:** Post-Euclid DR1.
 

@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](./)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -916,4 +916,4 @@ The dataset and per-aperture comparison are deposited as `tables/table4.csv` and
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](./)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
