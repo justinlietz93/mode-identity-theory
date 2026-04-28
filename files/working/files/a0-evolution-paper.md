@@ -268,8 +268,8 @@ Table 1 lists $E(z)$, $H(z)$, $a_0(z)$, the deep-MOND enhancement factor $\sqrt{
 | 2.0 | 3.0327 | 204.41 | $3.64 \times 10^{-10}$ | 3.033 | 1.741 | 3.27 |
 | 3.0 | 4.5682 | 307.90 | $5.48 \times 10^{-10}$ | 4.568 | 2.137 | 2.14 |
 | 5.0 | 8.2972 | 559.23 | $9.96 \times 10^{-10}$ | 8.297 | 2.880 | 1.17 |
-| 10.0 | 20.5255 | 1383.42 | $2.46 \times 10^{-9}$ | 20.526 | 4.530 | 0.470 |
-| 15.0 | 36.0133 | 2427.29 | $4.32 \times 10^{-9}$ | 36.013 | 6.001 | 0.268 |
+| 10.0 | 20.5255 | 1383.42 | $2.46 \times 10^{-9}$ | 20.525 | 4.530 | 0.470 |
+| 15.0 | 36.0133 | 2427.29 | $4.32 \times 10^{-9}$ | 36.012 | 6.001 | 0.268 |
 
 Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ times its local value with deep-MOND enhancement $1.74$; this is the cleanest window for direct rotation-curve and Tully-Fisher tests (§§4-5) and yields a 74% excess in lensing-inferred $M_\text{dyn}/M_b$ over local galaxies of the same baryonic mass (§6). At $z = 10$, $a_0$ reaches $20.5$ times its local value with deep-MOND enhancement $4.53$; this is the regime probed by JWST imaging of the earliest assembled stellar populations (§7.7), where the corresponding $E(z)^{1/4} \approx 2.13$ collapse-time speedup reduces the required star-formation efficiency for the impossibly-early candidates by approximately a factor of two, with the per-candidate verdict deferred to future analysis (§7.7). The $a_0(z) = c H(z)$ heuristic implicit in the local Milgrom coincidence becomes a precise epoch-dependent statement rather than a numerical accident.
 
