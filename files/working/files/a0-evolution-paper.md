@@ -52,7 +52,7 @@ with $E(z) \equiv H(z)/H_0$ the standard Friedmann dimensionless Hubble paramete
 
 §7 treats the existing constraint landscape honestly: a live tension with the KMOS3D BTFR trend shape (§7.2), the inherited cluster-scale MOND mass discrepancy at $z \lesssim 0.3$ (§7.4), the structurally resolved CMB consistency under the framework's selection rule (§7.5), the JWST early-galaxy collapse-time speedup as supporting evidence (§7.7), and below-sensitivity status elsewhere. The framework's monotonic BTFR prediction is in tension with current intermediate-redshift kinematic data [9]; the comparison, including a forward-modeled simulation of the radial pressure-support systematic, is treated in §7.2. §8 connects to a companion analysis (separately submitted) developing the surface-sector prediction. §9 collects the full predictive content into a single table and identifies the falsification windows. §10 closes.
 
-The §§4-6 and §7.7 predictions are not independent: they all derive from (1.2) and depend on $E(z)$ through different powers ($-1$, $-1/2$, $+1/4$, $+1/2$ across §§4-6; $-1/4$ in §7.7). A measurement in any one channel tests $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes. The Euclid DR1 release in October 2026 will deliver the sharpest such test in the form of stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$ stratified by baryonic mass and aperture.
+The §§4-6 and §7.7 predictions are not independent: they all derive from (1.2) and depend on $E(z)$ through different powers ($-1$, $-1/2$, $+1/4$, $+1/2$ across §§4-6; $-1/4$ in §7.7). A measurement in any one channel tests $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes. The Euclid DR1 release [31] in October 2026 will deliver the sharpest such test in the form of stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$ stratified by baryonic mass and aperture.
 
 ### 1.4 Novelty relative to prior literature
 
@@ -361,7 +361,7 @@ The framework predicts a strict monotonic decrease of $A_\text{BTFR}(z)$ with re
 - an observed $A_\text{BTFR}(z)$ at any single redshift inconsistent with the predicted value at $\geq 2\sigma$ after matched velocity-definition systematics are propagated, or
 - an observed non-monotonic $A_\text{BTFR}(z)$ trend across $z$ that cannot be accommodated by any redshift-dependent systematic in the kinematic pressure-support correction.
 
-The first criterion is testable today with stacked KMOS3D, MOSDEF, and KGES samples and will be sharpened by the Euclid DR1 galaxy catalog (October 2026). The second criterion requires kinematic measurements at a minimum of three redshift bins under matched velocity-correction prescriptions, a sample currently in assembly (see §7).
+The first criterion is testable today with stacked KMOS3D, MOSDEF [32], and KGES [33] samples and will be sharpened by the Euclid DR1 galaxy catalog (October 2026). The second criterion requires kinematic measurements at a minimum of three redshift bins under matched velocity-correction prescriptions, a sample currently in assembly (see §7).
 
 Existing intermediate-redshift BTFR measurements [9] test the §4 normalization prediction directly; the comparison, the framework's current status against the observed non-monotonic trend, and the next-generation tests that will resolve the constraint are treated in §7.
 
@@ -622,7 +622,7 @@ The §7.5 position is conditional on the structural decoupling: (i) the apparent
 
 ### 7.6 Strong gravitational lensing time delays
 
-Strong-lensing time-delay cosmography (TDCOSMO, H0LiCOW) probes $H_0$ at sub-percent precision but is not currently sensitive to $a_0(z)$ at the level of the framework's predictions, because the time-delay signal lives at lens-galaxy scales where the MOND interpolating function matters and the deep-MOND ratio prediction (4.3) does not strictly apply. Existing time-delay analyses are consistent with both the framework and standard ΛCDM at current precision; no live constraint exists in this regime.
+Strong-lensing time-delay cosmography (TDCOSMO [34], H0LiCOW [35]) probes $H_0$ at sub-percent precision but is not currently sensitive to $a_0(z)$ at the level of the framework's predictions, because the time-delay signal lives at lens-galaxy scales where the MOND interpolating function matters and the deep-MOND ratio prediction (4.3) does not strictly apply. Existing time-delay analyses are consistent with both the framework and standard ΛCDM at current precision; no live constraint exists in this regime.
 
 ### 7.7 JWST early-galaxy collapse-time speedup (supporting evidence)
 
@@ -911,6 +911,16 @@ The dataset and per-aperture comparison are deposited as `tables/table4.csv` and
 [29] M. Milgrom, Scholarpedia 9(6), 31410 (2014).
 
 [30] H. S. Zhao and B. Famaey, Phys. Rev. D 86, 067301 (2012).
+
+[31] Euclid Collaboration: Y. Mellier et al., arXiv:2405.13491 (2024).
+
+[32] M. Kriek et al., Astrophys. J. Suppl. Ser. 218, 15 (2015).
+
+[33] A. M. Tiley et al., Mon. Not. R. Astron. Soc. 506, 323 (2021).
+
+[34] M. Millon et al., Astron. Astrophys. 639, A101 (2020).
+
+[35] K. C. Wong et al., Mon. Not. R. Astron. Soc. 498, 1420 (2020).
 
 ---
 
