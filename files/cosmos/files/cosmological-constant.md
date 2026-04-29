@@ -136,13 +136,13 @@ $K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological
 
 $$(x_1, x_2, x_3, x_4) \mapsto (-x_1, -x_2, -x_3, x_4)$$
 
-This is an ambient isometry of $S^3$. It preserves $S^2$ setwise, reverses orientation on $S^2$, and fixes the normal direction $x_4$. Since $K_{ij} = 0$ is preserved under ambient isometries, it descends to the Möbius quotient. The Möbius band is totally geodesic in $S^3$.
+This is an ambient isometry of $S^3$. It preserves $S^2$ setwise, reverses orientation on $S^2$, and fixes the normal direction $x_4$. Since $K_{ij} = 0$ is preserved under ambient isometries, it holds on the covering spherical band. The covering $S^2$ is totally geodesic in $S^3$; the Möbius band inherits this metric through the quotient construction.
 
 A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature metric:
 
 $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2$$
 
-Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: a coordinate pole at the midpoint of the band, smooth on the surface.
+Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: the pole of the covering $S^2$, which becomes a cone point on the Möbius quotient.
 
 ### B. [The Eigenvalue](ground-eigenvalue.md)
 
@@ -281,7 +281,7 @@ The derivation yields:
 
 $${\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
-The coefficient 3 decomposes as two factors. The curved eigenvalue $\lambda_0 = 2/R^2$: the ground mode on the totally geodesic surface carries this geometric factor directly. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: $2 \times 3/2 = 3$.
+The coefficient 3 decomposes as two factors. The curved eigenvalue $\lambda_0 = 2/R^2$: the ground mode on the curved Möbius surface carries this geometric factor directly. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: $2 \times 3/2 = 3$.
 
 With $R = 5.3$ Gpc $= 1.64 \times 10^{26}$ m (§II.A):
 
