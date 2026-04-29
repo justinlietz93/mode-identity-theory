@@ -6,11 +6,11 @@
 
 [![Ground mode eigenvalue](https://img.youtube.com/vi/1AZfOvcrIdk/mqdefault.jpg)](https://www.youtube.com/watch?v=1AZfOvcrIdk)
 
-We study the ground eigenvalue of the twisted Laplace-Beltrami operator on the Möbius band constructed as the quotient of a spherical band on the great $S^2 \subset S^3$ by an orientation-reversing isometry, in Sector $\mathcal{A}$ (the reduced $w$-constant admissible regular-branch anti-periodic sector, defined precisely in Section 2). The quotient inherits the metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, which carries constant Gaussian curvature $K = 1/R^2$, with the metric degenerating at the interior cone point $y = \pi R/2$. The Möbius band $M$ is not a totally geodesic submanifold of $S^3$ (totally geodesic submanifolds of $S^3$ are orientable), but it inherits a locally totally geodesic metric from the covering spherical band. The spectral problem is well-posed on this abstract Riemannian manifold. The problem is posed as a regular-branch Sturm-Liouville eigenvalue problem on two smooth half-intervals with continuity at the cone point.
+We study the ground eigenvalue of the twisted Laplace-Beltrami operator in the isotropic anti-periodic sector (Sector $\mathcal{A}$, defined precisely in Section 2) on the Möbius band constructed as the quotient of a spherical band on the great $S^2 \subset S^3$ by an orientation-reversing isometry. The quotient inherits the metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, which carries constant Gaussian curvature $K = 1/R^2$, with the metric degenerating at the interior cone point $y = \pi R/2$. The Möbius band $M$ is not a totally geodesic submanifold of $S^3$ (totally geodesic submanifolds of $S^3$ are orientable), but it inherits a locally totally geodesic metric from the covering spherical band. The spectral problem is well-posed on this abstract Riemannian manifold. The problem is posed as a regular-branch Sturm-Liouville eigenvalue problem on two smooth half-intervals with continuity at the cone point.
 
 Two independent paths establish that the Sector $\mathcal{A}$ ground eigenvalue equals the surface scalar curvature exactly: $\lambda_0 = R_\Sigma = 2/R^2$. The upper bound follows from a direct eigenfunction computation with explicit Rayleigh quotient. The lower bound follows from the Bochner identity, with boundary flux vanishing because the boundary curves $w = \pm W$ are geodesics of the surface. Both bounds are established via cone point excision: near $y = \pi R/2$ the regular-branch eigenfunction satisfies $u' = O(\delta)$, so the excision boundary contributions vanish as $O(\epsilon^2)$.
 
-The flat strip gives $\lambda_0 = 1/R^2 = R_\Sigma/2$. The constant positive curvature $K = 1/R^2$ inherited from $S^2$ supplies the missing factor of 2. To the authors' knowledge this specific model has not received prior treatment.
+The flat strip gives $\lambda_0 = 1/R^2 = R_\Sigma/2$. The constant positive curvature $K = 1/R^2$ inherited from $S^2$ supplies the missing factor of 2. To the author's knowledge this specific model has not received prior treatment.
 
 ---
 
@@ -40,7 +40,7 @@ carries the metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$ (derived in Section 4 from 
 
 $$(0, w) \sim (\pi R, -w)$$
 
-This identification pairs each point on the $y = 0$ edge with a reflected point on the $y = \pi R$ edge. Traversing the meridional direction once returns a field to the opposite transverse edge; a second traversal returns to the start. The boundary $\partial M = S^1$ is a single closed loop traversing the band twice.
+This identification pairs each point on the $y = 0$ edge with a reflected point on the $y = \pi R$ edge. Traversing the meridional direction once returns a field to the opposite transverse edge; a second traversal returns to the start. The boundary $\partial M = S^1$ is a single closed loop traversing the band twice. The boundary loop is embedded as a great circle of $S^3$ of radius $R$ and therefore has circumference $2\pi R$; since the loop traverses the band twice, the meridional period satisfies $L = \pi R$.
 
 **The problem studied in this paper.** We study one specific eigenvalue problem: the twisted Laplace-Beltrami operator on this surface in Sector $\mathcal{A}$, with the metric inherited from the $S^2$ quotient construction derived in Section 4. The problem is stated as a regular-branch Sturm-Liouville problem on two half-intervals with an interior transmission condition at the cone point $y = \pi R/2$.
 
@@ -213,7 +213,7 @@ $$(|\delta|/R \cdot u')' + \lambda\,|\delta|/R \cdot u = 0$$
 
 to leading order. On a single side ($\delta > 0$), substituting $p(\delta) = \delta/R$ and seeking a Frobenius solution $u = \delta^s \sum_{k=0}^\infty a_k \delta^k$:
 
-The indicial equation comes from the leading-order balance in $(\delta \cdot u')' = 0$, giving $s(s) = 0$ (double root at $s = 0$). The two independent local solutions are:
+Substituting $u = \delta^s$ into the leading-order balance $(\delta \cdot u')' = 0$ gives $(\delta \cdot s\delta^{s-1})' = s^2 \delta^{s-1} = 0$, so the indicial equation is $s^2 = 0$ (double root at $s = 0$). The two independent local solutions are:
 
 $$u_1 = a_0 + a_2 \delta^2 + O(\delta^4), \qquad u_2 = \log|\delta| + b_2 \delta^2 + O(\delta^4)$$
 
@@ -279,7 +279,7 @@ Section 6 established the lower bound independently via the Bochner identity:
 
 $$\lambda \geq \frac{2}{R^2}$$
 
-for any admissible eigenfunction in Sector $\mathcal{A}$. Together they force:
+for any admissible eigenfunction in Sector $\mathcal{A}$. In particular this bound applies to the ground eigenfunction, so it applies to $\lambda_0$. Together they force:
 
 $$\boxed{\lambda_0 = R_\Sigma = \frac{2}{R^2}}$$
 
