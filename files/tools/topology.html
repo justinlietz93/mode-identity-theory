@@ -56,7 +56,7 @@
   <button class="ctrl-btn active" data-layer="space"><div class="indicator ind-space"></div><span>S<sup>3</sup> Space</span></button>
   <button class="ctrl-btn active" data-layer="surface"><div class="indicator ind-surface"></div><span>Möbius Surface</span></button>
   <button class="ctrl-btn active" data-layer="edge"><div class="indicator ind-edge"></div><span>S<sup>1</sup> Edge</span></button>
-  <button class="ctrl-btn" data-layer="cone"><div class="indicator ind-cone"></div><span>Cone Point</span></button>
+  <button class="ctrl-btn active" data-layer="cone"><div class="indicator ind-cone"></div><span>Cone Point</span></button>
   <button class="ctrl-btn active" data-layer="wave"><div class="indicator ind-wave"></div><span>u₀ = sin(y/R)</span></button>
   <button class="ctrl-btn active" data-layer="sample"><div class="indicator ind-sample"></div><span>Sample Ψ</span></button>
   <select class="well-select visible" id="wellSelect">
@@ -128,7 +128,7 @@ var spaceGroup = [shMesh, wMesh, gMesh];
 
 // ═══════════════════════════════════════════
 //  MÖBIUS STRIP — totally geodesic on S²
-//  ds² = dy² + cos²(y) dw²
+//  ds² = dy² + cos²(y/R) dw²
 //  Widest at equator (y=0), pinches at pole (y=π/2)
 // ═══════════════════════════════════════════
 var mGeo = new THREE.BufferGeometry();
@@ -194,9 +194,9 @@ var edgeGroup = [eACore, eAGlow, eBCore, eBGlow];
 //  Where cos(y) → 0, geometry quiet, wave loud
 // ═══════════════════════════════════════════
 var cDot = new THREE.Mesh(new THREE.SphereGeometry(0.045, 16, 12), new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.9 }));
-cDot.position.set(0, SR*1.01, 0); cDot.visible = false; scene.add(cDot);
+cDot.position.set(0, SR*1.01, 0); cDot.visible = true; scene.add(cDot);
 var cGlow = new THREE.Mesh(new THREE.SphereGeometry(0.14, 16, 12), new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.15 }));
-cGlow.position.set(0, SR*1.01, 0); cGlow.visible = false; scene.add(cGlow);
+cGlow.position.set(0, SR*1.01, 0); cGlow.visible = true; scene.add(cGlow);
 var coneGroup = [cDot, cGlow];
 
 // ═══════════════════════════════════════════
@@ -273,10 +273,10 @@ document.addEventListener('touchend', function() { drag=false; });
 // ═══════════════════════════════════════════
 //  LAYERS AND ANNOTATIONS
 // ═══════════════════════════════════════════
-var layers = { space:true, surface:true, edge:true, cone:false, wave:true, sample:true };
+var layers = { space:true, surface:true, edge:true, cone:true, wave:true, sample:true };
 var ann = {
   space: { label:"Space", name:"S\u00B3 Hypersphere", body:"Closed, simply connected, no boundary. The Poincar\u00E9 theorem guarantees S\u00B3 is unique. Contains everything. Holds everything.", math:"\u2202S\u00B3 = \u2205" },
-  surface: { label:"Surface", name:"Totally Geodesic M\u00F6bius", body:"The strip lives ON the great S\u00B2 within S\u00B3. Its geodesics are geodesics of space. The metric ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2 carries constant curvature K = 1/R\u00B2. Widest at the equator, pinching to a point at the pole.", math:"ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2" },
+  surface: { label:"Surface", name:"Totally Geodesic M\u00F6bius", body:"The strip lives ON the great S\u00B2 within S\u00B3. Its geodesics are geodesics of space. The metric ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2 carries constant curvature K = 1/R\u00B2. Widest at the equator, pinching to a point at the pole. The twist is topological, not geometric \u2014 it lives in the identification of the boundary, not the embedding.", math:"ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2" },
   edge: { label:"Edge", name:"S\u00B9 Boundary", body:"A single closed loop traversing the strip twice. Two arcs from equator through the cone point and back, connected by the M\u00F6bius twist. Where time lives and where \u03A8 is sampled.", math:"S\u00B9 = \u2202(M\u00F6bius)" },
   cone: { label:"Cone Point", name:"The Antinode", body:"At y = \u03C0R/2, cos(y/R) \u2192 0. The strip pinches to a single point: the pole of S\u00B2. The geometry goes quiet. The eigenfunction peaks: u\u2080 = 1, u\u2080\u2032 = 0. Maximum amplitude at zero width.", math:"u\u2080(\u03C0R/2) = 1" },
   wave: { label:"Eigenfunction", name:"u\u2080 = sin(y/R)", body:"Ground eigenfunction of the twisted Laplacian. Zero at equator, maximum at cone point. Anti-periodic: u\u2080(y + \u03C0R) = \u2212u\u2080(y). The Rayleigh quotient and Bochner bound meet at equality.", math:"\u03BB\u2080 = R\u03A3 = 2/R\u00B2" },
