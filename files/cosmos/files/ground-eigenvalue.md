@@ -6,7 +6,7 @@
 
 [![Ground mode eigenvalue](https://img.youtube.com/vi/1AZfOvcrIdk/mqdefault.jpg)](https://www.youtube.com/watch?v=1AZfOvcrIdk)
 
-We study the ground eigenvalue of the twisted Laplace-Beltrami operator in the isotropic anti-periodic sector (Sector $\mathcal{A}$, defined precisely in Section 2) on the Möbius band constructed as the quotient of a spherical band on the great $S^2 \subset S^3$ by an orientation-reversing isometry. The quotient inherits the metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, which carries constant Gaussian curvature $K = 1/R^2$, with the metric degenerating at the interior cone point $y = \pi R/2$. The Möbius band $M$ is not a totally geodesic submanifold of $S^3$ (totally geodesic submanifolds of $S^3$ are orientable), but it inherits a locally totally geodesic metric from the covering spherical band. The spectral problem is well-posed on this abstract Riemannian manifold. The problem is posed as a regular-branch Sturm-Liouville eigenvalue problem on two smooth half-intervals with continuity at the cone point.
+We study the ground eigenvalue of the twisted Laplace-Beltrami operator in the $w$-constant anti-periodic sector (Sector $\mathcal{A}$, defined precisely in Section 2) on the Möbius band constructed as the quotient of a spherical band on the great $S^2 \subset S^3$ by an orientation-reversing isometry. The quotient inherits the metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, which carries constant Gaussian curvature $K = 1/R^2$, with the metric degenerating at the interior cone point $y = \pi R/2$. The Möbius band $M$ is not a totally geodesic submanifold of $S^3$ (totally geodesic submanifolds of $S^3$ are orientable), but it inherits a locally totally geodesic metric from the covering spherical band. The spectral problem is well-posed on this abstract Riemannian manifold. The problem is posed as a regular-branch Sturm-Liouville eigenvalue problem on two smooth half-intervals with continuity at the cone point.
 
 Two independent paths establish that the Sector $\mathcal{A}$ ground eigenvalue equals the surface scalar curvature exactly: $\lambda_0 = R_\Sigma = 2/R^2$. The upper bound follows from a direct eigenfunction computation with explicit Rayleigh quotient. The lower bound follows from the Bochner identity, with boundary flux vanishing because the boundary curves $w = \pm W$ are geodesics of the surface. Both bounds are established via cone point excision: near $y = \pi R/2$ the regular-branch eigenfunction satisfies $u' = O(\delta)$, so the excision boundary contributions vanish as $O(\epsilon^2)$.
 
@@ -48,7 +48,7 @@ A function $u$ is *admissible* if:
 
 - $u$ is $C^2$ on each of $(0, \pi R/2)$ and $(\pi R/2, \pi R)$
 - $u$ is continuous at $y = \pi R/2$
-- $u(\pi R) = -u(0)$ &emsp; (anti-periodic condition)
+- $u(\pi R) = -u(0)$ and $u'(\pi R) = -u'(0)$ &emsp; (anti-periodic condition)
 
 The eigenvalue problem is: find $\lambda > 0$ and admissible $u \not\equiv 0$ satisfying
 
@@ -71,7 +71,7 @@ $$\int |\nabla u|^2\,dA = \int (u')^2\,|\cos(y/R)|\,dy\,dw < \infty$$
 
 The logarithmic branch fails this condition: $(u')^2 \sim 1/\delta^2$ and $|\cos(y/R)| \sim |\delta|/R$, giving $\int (u')^2|\cos|\,d\delta \sim \int \delta^{-1}\,d\delta = \infty$. The Friedrichs extension therefore coincides with the regular-branch condition (continuity and boundedness at $y = \pi R/2$). Derivative matching at the cone point then follows: the Friedrichs extension selects the regular branch, whose Frobenius expansion (Section 5) gives $u = a_0 + a_2\delta^2 + O(\delta^4)$ with $u' = 2a_2\delta + O(\delta^3) = O(\delta) \to 0$ as $\delta \to 0$, so $u'(\pi R/2) = 0$ from each side. This is not separately imposed; it is a consequence of the finite Dirichlet integral condition selecting the regular branch, combined with the leading-order balance in the eigenequation.
 
-The Friedrichs extension is the unique self-adjoint extension for which the Rayleigh quotient characterizes eigenvalues from below. The upper bound of Section 5 (via the Rayleigh quotient of a trial function in the Friedrichs domain) and the lower bound of Section 6 (via the Bochner identity on the excised manifold, with excision boundary terms vanishing because $u' = O(\delta)$ in the Friedrichs domain) are therefore valid for this operator and yield the same eigenvalue.
+The Friedrichs extension is the self-adjoint extension associated with the closed Dirichlet form, so the Rayleigh quotient characterizes the eigenvalues for the operator considered here. The upper bound of Section 5 (via the Rayleigh quotient of a trial function in the Friedrichs domain) and the lower bound of Section 6 (via the Bochner identity on the excised manifold, with excision boundary terms vanishing because $u' = O(\delta)$ in the Friedrichs domain) are therefore valid for this operator and yield the same eigenvalue.
 
 **Correspondence between 2D and 1D domains.** For $w$-constant functions, the 2D Dirichlet integral factors: $\int_M |\nabla u|^2\,dA = 2W \int_0^{\pi R} (u')^2\,|\cos(y/R)|\,dy$. The finiteness condition defining the Friedrichs domain is therefore equivalent in the 2D and 1D settings: the 2D Friedrichs domain restricted to Sector $\mathcal{A}$ coincides with the 1D Friedrichs domain defined by the regular-branch condition. The Bochner bound (which operates on the 2D manifold) and the Rayleigh quotient (which operates on the reduced 1D problem) therefore act on the same operator domain, which is why the two bounds can meet at equality.
 
@@ -213,7 +213,7 @@ $$(|\delta|/R \cdot u')' + \lambda\,|\delta|/R \cdot u = 0$$
 
 to leading order. On a single side ($\delta > 0$), substituting $p(\delta) = \delta/R$ and seeking a Frobenius solution $u = \delta^s \sum_{k=0}^\infty a_k \delta^k$:
 
-Substituting $u = \delta^s$ into the leading-order balance $(\delta \cdot u')' = 0$ gives $(\delta \cdot s\delta^{s-1})' = s^2 \delta^{s-1} = 0$, so the indicial equation is $s^2 = 0$ (double root at $s = 0$). The two independent local solutions are:
+Substituting $u = \delta^s$ and matching the leading $\delta^{s-1}$ terms gives $s^2 = 0$ (double root at $s = 0$). The two independent local solutions are:
 
 $$u_1 = a_0 + a_2 \delta^2 + O(\delta^4), \qquad u_2 = \log|\delta| + b_2 \delta^2 + O(\delta^4)$$
 
