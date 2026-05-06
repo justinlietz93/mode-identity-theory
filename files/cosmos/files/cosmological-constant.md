@@ -8,11 +8,11 @@
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed 'expansion,' he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving 'expansion.' Einstein was right the first time, for reasons then unknown.
 
-The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss-Codazzi equations under totally geodesic embedding and isotropy convert this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
+The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss equation under totally geodesic embedding and isotropy converts this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
 
 | Quantity | Value |
 |---|---|
-| Derived | $\Lambda \cdot R^2 = 3$, where 3 = eigenvalue (2) $\times$ Gauss-Codazzi (3/2) |
+| Derived | $\Lambda \cdot R^2 = 3$, where 3 = eigenvalue (2) $\times$ Gauss equation (3/2) |
 | Measured | $R \approx 5.3$ Gpc from the Molien gap on $S^3/2I$ (independent of $\Lambda$) |
 | Result | $\Lambda_\text{obs} = 3/R^2 = 1.12 \times 10^{-52}\;\text{m}^{-2}$ |
 | Observed | $1.11 \times 10^{-52}\;\text{m}^{-2}$ |
@@ -42,7 +42,7 @@ In Planck units ($\ell_P^2 = \hbar G / c^3$):
 
 $$\Lambda \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$$
 
-No mechanism assuming simply connected flat topology explains this value.
+No mechanism assuming simply connected flat topology explains this value. The standard approach begins with a 4D spacetime, writes down field equations, and asks what value of Λ those equations permit. On a simply connected, non-compact spatial background, the answer is: any value, or a divergent one. The problem is upstream. General relativity is local: it describes dynamics on a domain but does not specify the domain itself. The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the ground eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are then how observers inside the geometry register that eigenvalue as an expansion rate, not how the eigenvalue is generated.
 
 ## II. The Topology
 
@@ -56,7 +56,7 @@ $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \empty
 | Möbius | 2D | Non-orientable surface; carries eigenproblem |
 | $S^3$ | 3D | Space |
 
-This is the minimal topology: $S^3$ is the unique simply connected closed 3-manifold (Poincaré); Möbius is the unique minimal non-orientable surface with $S^1$ boundary. The anti-periodic boundary condition, the half-integer spectrum, and the $\mathbb{Z}_2$ holonomy all require a surface whose normal direction cannot be globally defined. Orientable surfaces, including $S^2$, have trivial holonomy and produce only periodic boundary conditions and an integer spectrum. Möbius is the only surface satisfying non-orientability, $S^1$ boundary, and minimal complexity.
+This is the minimal topology: $S^3$ is the unique simply connected closed 3-manifold (Poincaré); Möbius is the unique minimal non-orientable surface with $S^1$ boundary. The anti-periodic boundary condition, the half-integer spectrum, and the $\mathbb{Z}_2$ holonomy all require a surface whose normal direction cannot be globally defined. An orientable annulus with $S^1$ boundary would admit the ordinary periodic sector as the natural untwisted ground sector, with no forced $\mathbb{Z}_2$ reversal. The Möbius band is the minimal surface for which the twist is geometric rather than imposed externally.
 
 ### A. The Eigenproblem
 
@@ -89,7 +89,7 @@ $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
 One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
-$R$ is the curvature radius of $S^3$, the single measured scale of the framework. It is constrained independently of $\Lambda$ by the Molien gap of the binary icosahedral group $2I$ acting on $S^3$. The scalar harmonic spectrum on $S^3/2I$ is empty for shells $N = 1$ through $11$; the last empty shell ($N = 10$) maps to CMB multipole:
+$R$ is the curvature radius of $S^3$, the single measured scale of the framework. It is constrained independently of $\Lambda$ by the Molien gap of the binary icosahedral group $2I$ acting on $S^3$. The postulate specifies the minimal boundary topology; the bulk counterpart is maximal exceptional discrete symmetry. Among the finite exceptional subgroups of SU(2) $\cong S^3$, the binary icosahedral group $2I$ is the largest, with $|2I| = 120$. The framework pairs the simplest boundary with the most symmetric exceptional spatial quotient. The scalar harmonic spectrum on $S^3/2I$ is empty for shells $N = 1$ through $11$; the last empty shell ($N = 10$) maps to CMB multipole:
 
 $$\ell_\text{char}(N) = \frac{\sqrt{N(N+2)}}{R}\,\chi_*$$
 
@@ -99,7 +99,7 @@ $$R = \frac{\sqrt{N(N+2)}\;\chi_*}{\ell_\text{char}} = \frac{\sqrt{120} \times 1
 
 The standard cosmological relation $R = c/(H_0\sqrt{\Omega_\Lambda})$ returns the same value, serving as a cross-check.
 
-If the shape is correct, one measurement determines everything. The framework predicts $\Lambda_\text{obs} = 3/R^2$, where the coefficient 3 is derived from the eigenvalue (factor of 2) and the Gauss-Codazzi conversion (factor of 3/2). Every other observable is also fixed by $R$ and the topology: the CMB mode deficit, the spectral gap, the gauge couplings. Each is an independent check that the shape rings true.
+If the shape is correct, one measurement determines everything. The framework predicts $\Lambda_\text{obs} = 3/R^2$, where the coefficient 3 is derived from the eigenvalue (factor of 2) and the Gauss equation conversion (factor of 3/2). Every other observable is also fixed by $R$ and the topology: the CMB mode deficit, the spectral gap, the gauge couplings. Each is an independent check that the shape rings true.
 
 The Möbius band has a single boundary traversed twice. Traversing the band once returns a field to the opposite side — the geometry itself imposes the sign flip:
 
@@ -200,25 +200,25 @@ The slope is exactly zero. Any position with finite slope can be shifted by envi
 
 ## IV. The Conversion
 
-The topological eigenvalue $\Lambda_\text{top}$ is defined on a 2D surface. The observed $\Lambda_\text{obs}$ is inferred from 3D spatial dynamics. The Gauss-Codazzi equations relate them.
+The topological eigenvalue $\Lambda_\text{top}$ is defined on a 2D surface. The observed $\Lambda_\text{obs}$ is inferred from 3D spatial dynamics. The Gauss equation relates them.
 
 ### A. Gauss Equation
 
 The Gauss equation relates intrinsic curvature of an embedded surface to ambient curvature:
 
-$$R_\Sigma = R_\text{space} - 2\,\text{Ric}(\mathbf{n},\mathbf{n}) + K^2 - K_{ij}K^{ij}$$
+$$R_\Sigma = R_\text{space} - 2\,\text{Ric}(\mathbf{n},\mathbf{n}) + H^2 - A_{ij}A^{ij}$$
 
 | Symbol | Meaning |
 |---|---|
 | $R_\Sigma$ | Intrinsic scalar curvature of surface |
 | $R_\text{space}$ | Scalar curvature of ambient space |
-| $K_{ij}$ | Extrinsic curvature |
-| $K$ | Trace of extrinsic curvature ($g^{ij}K_{ij}$) |
+| $A_{ij}$ | Second fundamental form |
+| $H$ | Trace of second fundamental form ($g^{ij}A_{ij}$) |
 | $\mathbf{n}$ | Unit normal to surface |
 
 ### B. Totally Geodesic Embedding
 
-For a totally geodesic embedding ($K_{ij} = 0$), the equation simplifies:
+For a totally geodesic embedding ($A_{ij} = 0$, $H = 0$), the equation simplifies:
 
 $$R_\Sigma = R_\text{space} - 2\,\text{Ric}(\mathbf{n},\mathbf{n})$$
 
@@ -248,13 +248,15 @@ On a de Sitter vacuum, the spatial scalar curvature relates to Λ directly. Λ i
 
 $$R_\text{spatial} = \frac{6}{R^2} = 2\Lambda_\text{obs}$$
 
+The direction of logic is: the topology determines $R_\text{spatial} = 6/R^2$ through the Gauss equation; the Einstein equation then defines Λ as the name general relativity gives to the quantity $R_\text{spatial}/2$. The de Sitter relation is how GR translates spatial curvature into the parameter Λ.
+
 The chain closes:
 
 $$R_\text{spatial} = 3\,R_\Sigma = 3\,\Lambda_\text{top} = 2\Lambda_\text{obs}$$
 
 $$\Lambda_\text{obs} = \tfrac{3}{2}\,\Lambda_\text{top}$$
 
-The 3 comes from isotropic space ($S^3$). The 2 is how General Relativity defines Λ. The 3/2 is their ratio: the Gauss-Codazzi interface between 2D surface geometry and 3D spatial curvature.
+The 3 comes from isotropic space ($S^3$). The 2 is how General Relativity defines Λ. The 3/2 is their ratio: the Gauss equation interface between 2D surface geometry and 3D spatial curvature.
 
 ### F. Summary
 
@@ -277,7 +279,7 @@ The derivation yields:
 
 $${\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
-The coefficient 3 decomposes as two factors. The curved eigenvalue $\lambda_0 = 2/R^2$: the ground mode on the curved Möbius surface carries this geometric factor directly. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: $2 \times 3/2 = 3$.
+The coefficient 3 decomposes as two factors. The curved eigenvalue $\lambda_0 = 2/R^2$: the ground mode on the curved Möbius surface carries this geometric factor directly. The Gauss equation conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: $2 \times 3/2 = 3$.
 
 With $R = 5.3$ Gpc $= 1.64 \times 10^{26}$ m (§II.A):
 
@@ -297,7 +299,7 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | 6 | Ground mode ($m=0$) → totally geodesic → curved metric | $\lambda_0 = 2/R^2 = R_\Sigma$ |
 | 7 | Bochner identity | $\lambda_0 \geq R_\Sigma$; equality unique |
 | 8 | $\lambda_0 = R_\Sigma = \Lambda_\text{top}$ | $\Lambda_\text{top} = 2/R^2$ |
-| 9 | Gauss-Codazzi + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
+| 9 | Gauss equation + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
 | 10 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | $\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}$ |
 | 11 | Result | $\Lambda_\text{obs} = 3/R^2$ |
 
@@ -308,7 +310,7 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | Anti-periodic BC | Derived | Möbius topology |
 | $\lambda_0 = 2/R^2$ | Derived | Twisted Laplacian on curved surface |
 | $\lambda_0 \geq R_\Sigma$ | Derived | Bochner bound (§III.C) |
-| Gauss-Codazzi 3/2 | Derived | Totally geodesic embedding in isotropic $S^3$ |
+| Gauss equation factor 3/2 | Derived | Totally geodesic embedding in isotropic $S^3$ |
 | Coefficient 3 | Derived | Product: $2 \times 3/2$ |
 | Scale $R$ | Imported | Molien gap + CMB multipole structure (§II.A) |
 
@@ -338,10 +340,10 @@ Eigenvalues of the Laplacian on fixed topology are constants. If the topology is
 
 ### Falsification Criteria
 
-| Prediction | Falsified if | Threshold |
+| Prediction | Serious tension | Falsified |
 |---|---|---|
-| Λ constant | Best-fit Λ in redshift bins shows significant variation | >2σ across independent probes (SNe, BAO, CMB) |
-| 3/2 conversion | $\Lambda_\text{obs} \cdot R^2 \neq 3$, with $R$ and $\Lambda_\text{obs}$ from independent probes | >3σ |
+| Λ constant | Independent probes prefer evolving dark energy over ΛCDM at $> 3\sigma$, after accounting for known systematics | Robust multi-probe evidence requires redshift evolution of the dark-energy density at $> 5\sigma$ |
+| $\Lambda_\text{obs} \cdot R^2 = 3$ | Independent determinations give a $> 3\sigma$ departure from 3 | Independent determinations give a $> 5\sigma$ departure from 3, with $R$ obtained without using the Λ-radius relation |
 
 These predictions are stated in advance of the European Space Agency's Euclid Data Release 1, scheduled for October 2026.
 
