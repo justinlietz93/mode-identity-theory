@@ -192,13 +192,13 @@ Both models have three free parameters. The primary results are reported at the 
 
 | | Flat ΛCDM | Λcos |
 |-|-----------|------|
-| **Primary parameter** | Ω_m = 0.312 [0.304, 0.321] | s₀ = 0.073 [0.023, 0.139] |
-| **H₀r_d (km/s)** | 10044 [9976, 10113] | 10010 [9975, 10042] |
+| **Primary parameter** | Ω_m = 0.312 [0.304, 0.321] | s₀ = 0.076 [0.023, 0.143] |
+| **H₀r_d (km/s)** | 10043 [9977, 10111] | 10008 [9972, 10040] |
 | **M_B** | −19.355 [−19.360, −19.350] | −19.353 [−19.357, −19.350] |
 | **χ²_min** | 1772.5 | 1772.6 |
 | **χ²_SN / χ²_BAO** | 1759.9 / 12.6 | 1759.0 / 13.5 |
 
-Uncertainties are posterior median and 68% credible intervals. The Λcos best-fit sits at s₀ = 0.001 (the numerical lower bound of the prior; the analytic ΛCDM limit is s₀ = 0). The posterior median of 0.072 reflects prior volume at s₀ > 0. The 95th percentile gives:
+Uncertainties are posterior median and 68% credible intervals. The Λcos best-fit sits at s₀ = 0.001 (the numerical lower bound of the prior; the analytic ΛCDM limit is s₀ = 0). The posterior median of 0.076 reflects prior volume at s₀ > 0. The 95th percentile gives:
 
 $$s_0 < 0.18 \quad (95\% \text{ CL, flat prior}).$$
 
@@ -214,7 +214,7 @@ Since the Λcos posterior is concentrated near the lower prior boundary, the 95%
 
 | Prior on s₀ | s₀ median | s₀ 95% UL | χ²_min |
 |-------------|-----------|-----------|--------|
-| Flat s₀ ∈ [0.001, 0.99] (baseline) | 0.072 | 0.181 | 1772.6 |
+| Flat s₀ ∈ [0.001, 0.99] (baseline) | 0.076 | 0.185 | 1772.6 |
 | Flat in s₀² (more weight at larger s₀) | 0.115 | 0.208 | 1772.6 |
 | Flat in log₁₀(s₀) (scale-invariant) | 0.011 | 0.115 | 1772.6 |
 
@@ -226,11 +226,11 @@ The primary fit uses Ω_Λ = 0.685 as a fixed reference value. To test robustnes
 
 | Ω_Λ | s₀ median | s₀ 95% UL | Δχ² vs ΛCDM |
 |-----|-----------|-----------|-------------|
-| 0.680 | 0.061 | 0.163 | +0.83 |
-| 0.685 (baseline) | 0.073 | 0.180 | +0.11 |
+| 0.680 | 0.063 | 0.165 | +0.83 |
+| 0.685 (baseline) | 0.076 | 0.185 | +0.11 |
 | 0.690 | 0.089 | 0.205 | +0.07 |
-| 0.700 | 0.149 | 0.261 | +0.96 |
-| 0.715 (CMB-preferred) | 0.277 | 0.349 | +2.38 |
+| 0.700 | 0.147 | 0.260 | +0.96 |
+| 0.715 (CMB-preferred) | 0.278 | 0.349 | +2.38 |
 
 The s₀ constraint varies smoothly with Ω_Λ, with the 95% upper limit ranging from 0.16 to 0.35 across the tested interval. The best Δχ² occurs near Ω_Λ = 0.69. At the CMB-preferred value Ω_Λ = 0.715, the best-fit s₀ shifts to 0.288 (nonzero) and the model is mildly disfavored (Δχ² = +2.38). The results are stable across the tested range; no fine-tuning of Ω_Λ is required.
 
@@ -268,9 +268,9 @@ To contextualize the Λcos result, we compare against wCDM (constant w as a free
 | Λcos (Ω_Λ = 0.715) | 3 | 1774.8 | +2.38 | +2.38 | +2.38 |
 | wCDM | 4 | 1759.4 | −13.0 | −11.0 | −5.6 |
 
-The wCDM fit yields w = −0.852 [−0.89, −0.81] (68% CI), preferring a quintessence-like (w > −1) departure from ΛCDM at ΔAIC = −11.0. This is the same qualitative signal underlying the DESI phantom-crossing result: the SN+BAO data favor some departure from w = −1. The distinction is that wCDM captures this as a constant shift toward w > −1, while CPL projects it into a crossing through w = −1. The Λcos model, for which w_eff > −1 at all redshifts (§3), is consistent with the wCDM direction but does not achieve the same χ² improvement because the data-allowed s₀ is too small to produce a detectable departure.
+The wCDM fit yields w = −0.855 [−0.89, −0.82] (68% CI), preferring a quintessence-like (w > −1) departure from ΛCDM at ΔAIC = −11.0. This is the same qualitative signal underlying the DESI phantom-crossing result: the SN+BAO data favor some departure from w = −1. The distinction is that wCDM captures this as a constant shift toward w > −1, while CPL projects it into a crossing through w = −1. The Λcos model, for which w_eff > −1 at all redshifts (§3), is consistent with the wCDM direction but does not achieve the same χ² improvement because the data-allowed s₀ is too small to produce a detectable departure.
 
-For the baseline flat prior in s₀, a Savage-Dickey density ratio at the s₀ prior boundary (with boundary-reflected KDE) gives B₀₁ ≈ 7.3 (stable to ±0.02 across bandwidths), corresponding to moderate evidence for ΛCDM over Λcos on the Jeffreys scale. This Bayes factor should be interpreted conditional on the baseline prior choice. The result confirms the Δχ² finding: current data do not require the ansatz's correction term.
+For the baseline flat prior in s₀, a Savage-Dickey density ratio at the s₀ prior boundary (with boundary-reflected KDE) gives B₀₁ ≈ 7.1 (stable to ±0.02 across bandwidths), corresponding to moderate evidence for ΛCDM over Λcos on the Jeffreys scale. This Bayes factor should be interpreted conditional on the baseline prior choice. The result confirms the Δχ² finding: current data do not require the ansatz's correction term.
 
 ---
 
