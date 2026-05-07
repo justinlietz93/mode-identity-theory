@@ -282,7 +282,7 @@ The joint SN+BAO fit constrains |β| < 0.011 at 95% CL (from s₀ < 0.18 with Ω
 
 $$\frac{|\beta|(1+z)}{E^2(z)} < 0.7\% \quad (95\% \text{ CL at } z = 1).$$
 
-This is below the per-bin precision of current BAO measurements (~2–3%) but potentially within reach of next-generation BAO measurements at the ~1% level across z = 0.9–1.8 [16]. A statistically significant detection of a negative (1+z)¹ component in H²(z) would constitute evidence for a non-standard contribution to the expansion history. While a domain-wall fluid (w = −2/3) produces the same scaling, the Λcos term is distinguished by the tied coefficient −β(s₀) rather than by an independent energy density. Previous template-bias analyses identify the mechanism generically; the present model commits to a specific functional form whose coefficient is determined by a single parameter already constrained by current data.
+This is below the per-bin precision of current BAO measurements (~2–3%) but potentially within reach of next-generation BAO measurements at the ~1% level across z = 0.9–1.8 [16]. Current per-bin BAO precision is ~2–3% in D_H/r_d (DESI DR2). Euclid DR1 spectroscopic BAO (z = 0.9–1.8, four redshift bins) is forecast at 1–2% per bin [16], marginal for detecting the predicted signal. The discriminating regime is DESI full-survey and Euclid DR2, where per-bin precision of ~0.5% across z = 0.9–1.8 would place the (1+z)¹ signature at approximately 1.5σ per bin for s₀ ~ 0.15, with multiple correlated bins improving the aggregate sensitivity. A definitive test requires the next-generation spectroscopic surveys (MegaMapper, MUST, WST) forecast at sub-0.5% per-bin precision [17], placing the full s₀ > 0.10 range within reach. A statistically significant detection of a negative (1+z)¹ component in H²(z) would constitute evidence for a non-standard contribution to the expansion history. While a domain-wall fluid (w = −2/3) produces the same scaling, the Λcos term is distinguished by the tied coefficient −β(s₀) rather than by an independent energy density. Previous template-bias analyses identify the mechanism generically; the present model commits to a specific functional form whose coefficient is determined by a single parameter already constrained by current data.
 
 ### 6.2 Falsification criteria
 
@@ -385,6 +385,8 @@ Within the power-law clock family, the exponent n = −1/2 is selected analytica
 [15] S. Weinberg, *Gravitation and Cosmology* (Wiley, New York, 1972).
 
 [16] Euclid Collaboration, Astron. Astrophys. 662, A112 (2022).
+
+[17] S. Zhou et al., Mon. Not. R. Astron. Soc. 521, 2 (2023).
 
 ---
 
