@@ -20,13 +20,15 @@ $\Psi$ is the cosmic standing wave. $S$ is the **modal realization amplitude** �
 
 Bounded realization ($S \leq 1$) is the key feature. Nothing in a standard FLRW decomposition has this constraint. Its fingerprint will appear as a forbidden term (§V).
 
+**What the budget produces alone.** With $H$ defined as $(1/S)(dS/dt)$ (phase-time derivative), the budget gives $H^2 = (1-S^2)/(4S^2)$, which scales as $(1+z)^2 - \text{const}$. This is curvature-like, not matter-like. The $(1+z)^3$ matter scaling requires the Waltz clock (§II), which converts phase time to proper time and contributes the additional $S^{-1}$ factor that turns $S^{-2}$ into $S^{-3}$. The budget identity sets the bounded structure; the clock sets the dimensional content.
+
 ---
 
 ## II. The Waltz Clock
 
 The relationship between conformal time $\tau$ and the budget phase $t$ is:
 
-$$\frac{dt}{d\tau} = S^{-1/2} \quad \Longleftrightarrow \quad H \propto S^{-3/2}$$
+$$\frac{dt}{d\tau} = S^{-1/2} \quad \text{together with the budget identity gives} \quad H \propto S^{-3/2}$$
 
 The exponent is not fitted. It is forced by two structural facts.
 
