@@ -12,7 +12,7 @@ The cosmological constant Λ is the ground eigenvalue of the Möbius surface. Ob
 
 | Partner | Character | MIT element |
 |---|---|---|
-| Space | Continuous geometry | $S^3$ curvature, $R_{\text{spatial}}$ |
+| Space | Continuous geometry | $S^3$ curvature, $R_{\text{space}}$ |
 | Surface | Discrete sampling | 120 domain, $\sqrt{\Omega}$ observer, phase wells |
 
 $S^3$ space carries curvature as a continuous field. The Möbius surface carries the topological eigenvalue that sets the boundary condition. The $S^1$ temporal edge is where observation resolves position. The Standard Model treats $G$ as a dictionary entry: a measured constant that translates between the surface's language (curvature) and the space's language (energy) at the Planck floor ($n = 0$). MIT derives it as an exchange rate, fixed by the ratio of two independently sourced quantities (§II).
@@ -23,31 +23,31 @@ The topology independently sources both the curvature ($\Lambda_{\text{obs}} = 3
 
 The scaling law produces $\Lambda_{\text{top}}$ on the Möbius surface. Gauss-Codazzi converts it to $\Lambda_{\text{obs}}$ measured in $S^3$.
 
-The Gauss equation relates intrinsic 2D curvature $R_\Sigma$ of the embedded surface to the 3D Ricci scalar $R_{\text{spatial}}$:
+The Gauss equation relates intrinsic 2D curvature $R_\Sigma$ of the embedded surface to the 3D Ricci scalar $R_{\text{space}}$:
 
-$$R_\Sigma = R_{\text{ambient}} - 2\,\text{Ric}(n,n) + (\text{tr}\,K)^2 - |K|^2$$
+$$R_\Sigma = R_{\text{ambient}} - 2\,\text{Ric}(n,n) + H^2 - A_{ij}A^{ij}$$
 
 Three conditions simplify it:
 
 | Condition | Justification | Consequence |
 |---|---|---|
-| Totally geodesic embedding ($K_{ij} = 0$) | Ground state carries no extrinsic structure | $(\text{tr}\,K)^2 = \|K\|^2 = 0$ |
-| Isotropic space | CMB verified to $10^{-5}$ | $\text{Ric}(n,n) = R_{\text{spatial}}/3$ |
-| de Sitter vacuum | Algebraic definition of Λ in GR | $R_{\text{spatial}} = 2\,\Lambda_{\text{obs}}$ |
+| Totally geodesic embedding ($A_{ij} = 0$) | Ground state carries no extrinsic structure | $H^2 = A_{ij}A^{ij} = 0$ |
+| Isotropic space | CMB verified to $10^{-5}$ | $\text{Ric}(n,n) = R_{\text{space}}/3$ |
+| de Sitter vacuum | Algebraic definition of Λ in GR | $R_{\text{space}} = 2\,\Lambda_{\text{obs}}$ |
 
-Under the first two conditions: $R_\Sigma = R_{\text{spatial}} - 2R_{\text{spatial}}/3 = R_{\text{spatial}}/3$. Inverting: $R_{\text{spatial}} = 3\,R_\Sigma$.
+Under the first two conditions: $R_\Sigma = R_{\text{space}} - 2R_{\text{space}}/3 = R_{\text{space}}/3$. Inverting: $R_{\text{space}} = 3\,R_\Sigma$.
 
-Substituting into the de Sitter relation $R_{\text{spatial}} = 2\,\Lambda_{\text{obs}}$:
+Substituting into the de Sitter relation $R_{\text{space}} = 2\,\Lambda_{\text{obs}}$:
 
 $$3\,\Lambda_{\text{top}} = 2\,\Lambda_{\text{obs}} \quad \Rightarrow \quad \Lambda_{\text{obs}} = \frac{3}{2}\,\Lambda_{\text{top}}$$
 
-This recovers the vacuum Einstein equation as an output. $R_{\text{spatial}} = 2\,\Lambda_{\text{obs}}$ is the algebraic definition of Λ in GR; the topology supplies the specific value $\Lambda_{\text{obs}} = 3/R^2$ that GR takes as input. The dynamical consequence $H^2 = \Lambda/3$ then follows from standard cosmology.
+This recovers the vacuum Einstein equation as an output. The direction of logic is: the topology determines $R_{\text{space}} = 6/R^2$ through the Gauss equation; the Einstein equation then defines Λ as the name general relativity gives to $R_{\text{space}}/2$. The de Sitter relation is how GR translates spatial curvature into the parameter Λ; the topology supplies the specific value $\Lambda_{\text{obs}} = 3/R^2$. The dynamical consequence $H^2 = \Lambda/3$ then follows from standard cosmology.
 
 The Codazzi equation (momentum conservation) is satisfied to leading order in any infinitesimal normal deformation of the totally geodesic surface. For a totally geodesic starting point in a constant-curvature ambient space, the surface curvature contribution and the ambient curvature contribution have equal magnitude and opposite sign. Standing wave modes carry zero net momentum. The bridge is geometry.
 
 ### The surface leads only the vacuum
 
-The full Gauss equation contains extrinsic curvature terms ($K_{ij}$) beyond the vacuum. Excited modes ($m > 0$) on the Möbius surface bend the embedding, producing corrections to $R_{\text{spatial}}$ with the correct algebraic form. The scale is wrong by $\sqrt{\Omega} \approx 10^{61}$: the surface lives at $n = 2$, and extracting an $n = 0$ quantity ($G$) from $n = 2$ data introduces exactly this offset.
+The full Gauss equation contains extrinsic curvature terms ($A_{ij}$) beyond the vacuum. Excited modes ($m > 0$) on the Möbius surface bend the embedding, producing corrections to $R_{\text{space}}$ with the correct algebraic form. The scale is wrong by $\sqrt{\Omega} \approx 10^{61}$: the surface lives at $n = 2$, and extracting an $n = 0$ quantity ($G$) from $n = 2$ data introduces exactly this offset.
 
 The ratio of mode amplitude to energy density ($f^2/\rho$) grows with $R$, so any $G$ extracted from a single surface mode scales with the domain size rather than remaining constant. The scaling law enforces manifold-depth separation: matter enters through $S^3/2I$ spectral geometry (particle spectrum, mass gap, three generations), while the Möbius surface determines the vacuum. The binary icosahedral group determines matter.
 
