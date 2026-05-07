@@ -98,7 +98,10 @@ To define a diagnostic effective dark energy equation of state, one must specify
 
 The effective dark energy density is then:
 
-$$X(z) = E^2(z) - \Omega_m(1+z)^3 = \frac{\Omega_m\, s_0^2}{1 - s_0^2}\left[(1+z)^3 - (1+z)\right] + \Omega_\Lambda$$
+$$\begin{aligned}
+X(z) &= E^2(z) - \Omega_m(1+z)^3 \\
+     &= \frac{\Omega_m\, s_0^2}{1 - s_0^2}\left[(1+z)^3 - (1+z)\right] + \Omega_\Lambda
+\end{aligned}$$
 
 Assuming this effective component satisfies the standard continuity equation dρ_DE/dz = 3(1+w_eff)ρ_DE/(1+z), the diagnostic equation of state is:
 
@@ -119,7 +122,9 @@ For z ≥ 0 (corresponding to S ≤ s₀) and s₀ ∈ (0, 1):
 
 Therefore:
 
-$$\boxed{w_{\rm eff}(z) > -1 \quad \text{for the fiducial-matter diagnostic split, for all } z \geq 0,\; s_0 \in (0,\,1).}$$
+$$\boxed{w_{\rm eff}(z) > -1}$$
+
+for the fiducial-matter diagnostic split, for all $z \geq 0$, $s_0 \in (0, 1)$.
 
 The constraint 0 < s₀ < 1 follows from the definition s₀ = sin(t_now/2) with 0 < t_now ≤ π (§2.1). At s₀ = 0, w_eff = −1 everywhere (the fiducial flat ΛCDM limit). For s₀ > 0, the correction is positive and begins at order s₀².
 
@@ -290,9 +295,9 @@ A statistically significant detection of a negative (1+z)¹ component in H²(z) 
 
 | Observable | Λcos prediction | Falsified if |
 |-----------|----------------|-------------|
-| (1+z)¹ coefficient in H² | Non-positive, with magnitude tied to s₀ | A positive coefficient is robustly detected, or a negative coefficient is measured with magnitude inconsistent with the fitted s₀ relation |
-| Diagnostic w_eff(z) | > −1 for the fiducial-matter split at any s₀ > 0 | The same split robustly requires w_eff < −1 at ≥ 2σ |
-| ΛCDM limit | s₀ = 0 recovers fiducial flat ΛCDM exactly | No additional test required |
+| (1+z)¹ coefficient in H² | Non-positive, magnitude tied to s₀ | Positive coefficient detected, or negative coefficient inconsistent with fitted s₀ |
+| Diagnostic w_eff(z) | > −1 (fiducial split, any s₀ > 0) | Same split gives w_eff < −1 at ≥ 2σ |
+| ΛCDM limit | s₀ = 0 recovers fiducial flat ΛCDM | (none required) |
 
 ---
 
