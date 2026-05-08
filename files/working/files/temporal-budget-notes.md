@@ -201,16 +201,16 @@ At $s_0 = 0.19$: $\quad H^2/H_0^2 = 0.327(1+z)^3 - 0.012(1+z) + 0.685$
 
 | $z$ | MIT ($s_0 = 0.389$) | MIT ($s_0 = 0.19$) | ΛCDM ($\Omega_m = 0.315$) | Δ (high) | Δ (low) |
 |---|---|---|---|---|---|
-| 0.3 | 1.195 | 1.178 | 1.174 | +1.8% | +0.3% |
-| 0.5 | 1.361 | 1.330 | 1.322 | +3.0% | +0.6% |
-| 0.7 | 1.553 | 1.506 | 1.494 | +3.9% | +0.8% |
-| 1.0 | 1.882 | 1.808 | 1.790 | +5.1% | +1.0% |
-| 1.5 | 2.518 | 2.396 | 2.368 | +6.3% | +1.2% |
-| 2.0 | 3.246 | 3.069 | 3.032 | +7.1% | +1.2% |
+| 0.3 | 1.195 | 1.178 | 1.173 | +1.8% | +0.4% |
+| 0.5 | 1.361 | 1.331 | 1.322 | +3.0% | +0.6% |
+| 0.7 | 1.553 | 1.507 | 1.494 | +4.0% | +0.8% |
+| 1.0 | 1.882 | 1.810 | 1.790 | +5.1% | +1.1% |
+| 1.5 | 2.519 | 2.400 | 2.368 | +6.4% | +1.4% |
+| 2.0 | 3.246 | 3.078 | 3.032 | +7.1% | +1.5% |
 
 **Signed direction.** $H_\text{MIT}(z) > H_\text{ΛCDM}(z)$ at all $z > 0$ for any $s_0 > 0$, with the gap growing monotonically with redshift. The prediction is not "different from ΛCDM" — it is **faster than ΛCDM by a specific, computable amount**. The $(1+z)^1$ coefficient is forced negative by the budget identity, not a free sign; the leading driver of the faster-expansion prediction is the budget-dressed $(1+z)^3$ coefficient, with the negative $(1+z)^1$ a subleading partial compensation.
 
-**Discriminating bins.** At $s_0 = 0.389$, the MIT gap exceeds 5% at $z > 1$ — comfortably above Euclid DR1 per-bin sensitivity ($\sim 1$-$2\%$). At $s_0 = 0.19$, the gap is $\sim 1\%$ — marginal for DR1, requiring correlated multi-bin analysis. The $z > 1$ bins carry the most discriminating power in both cases.
+**Discriminating bins.** At $s_0 = 0.389$, the MIT gap exceeds 5% at $z > 1$ — comfortably above Euclid DR1 per-bin sensitivity ($\sim 1$-$2\%$). At $s_0 = 0.19$, the gap is $\sim 1$-$1.5\%$ at $z > 1$ — marginal for DR1, requiring correlated multi-bin analysis. The $z > 1$ bins carry the most discriminating power in both cases.
 
 **Context.** Pantheon+ constrains $\int dz/H(z)$, not $H(z)$ directly — so MIT and ΛCDM agree on distance modulus while diverging on the differential expansion rate. Euclid BAO reads the differential rate. This is where the Pantheon+ degeneracy breaks. The joint SN+BAO fit in the Λcos paper already demonstrates this: BAO data are what pull $s_0$ toward zero.
 
@@ -219,7 +219,7 @@ At $s_0 = 0.19$: $\quad H^2/H_0^2 = 0.327(1+z)^3 - 0.012(1+z) + 0.685$
 | Quantity | MIT ($s_0 = 0.389$) | MIT ($s_0 = 0.19$) | ΛCDM |
 |---|---|---|---|
 | coefficient of $(1+z)$ in $H^2/H_0^2$ | −0.056 | −0.012 | 0 |
-| fractional contribution at $z=1$ | −3.2% | −0.8% | 0 |
+| fractional contribution at $z=1$ | −3.2% | −0.7% | 0 |
 
 No standard FLRW component produces a $(1+z)^1$ term (§V). At the joint 95% CL, the signature is below current per-bin precision. Detection requires $\sim 0.5\%$ per-bin BAO measurements (Euclid DR2 / DESI full-survey) or aggregate multi-bin analysis.
 
