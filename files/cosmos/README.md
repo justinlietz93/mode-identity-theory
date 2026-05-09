@@ -59,7 +59,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 **Embedded sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
 
-When Λ is fixed by the geometry of the universe, what looks like evolution is the observer's phase position on a standing wave. 
+Λ is fixed by geometry. What appears to evolve is the observer’s phase position on the standing wave, misinterpreted as dark energy dynamics. 
 
 ***[Dark Energy](files/dark-energy.md)***
 
