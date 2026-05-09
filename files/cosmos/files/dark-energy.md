@@ -2,7 +2,7 @@
 
 ---
 
-# Phantom Dark Energy as Template Artifact in Static Space
+# Phantom Dark Energy: Template Artifact in Static Space
 
 [![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
 
