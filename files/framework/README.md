@@ -287,13 +287,15 @@ The classification index $\mathcal{T}$ compares the gravitational potential drop
 
 **Closure identity.** Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; their ratio is galaxy-independent: $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$. Every flat-curve disk crosses the threshold by the same factor.
 
-| Well | $\Theta$ | Step | Slope $\times$ Step | Shift |
+| Well | $\Theta$ | Slope sensitivity | Physical shift | Reason |
 |---|---|---|---|---|
-| $a_0$ | 13/120 | $1/120$ | $17.7 \times 1/120$ | ~15% |
-| $H_0$ | 34/120 | $2/120$ | $5.1 \times 2/120$ | 8.4% |
-| $\Lambda_\text{top}$ | 60/120 | $2/120$ | $0 \times 2/120$ | 0% |
+| $a_0$ | 13/120 | 17.7 per step | None | Defines the transition |
+| $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
+| $\Lambda_\text{top}$ | 60/120 | 0 per step | 0% | Topologically protected |
 
-The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
+The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift in the local expansion rate, resolving the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
+
+$a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. Measuring $a_0$ from rotation curves recovers this bare value because the measurement and the threshold are the same object. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
 ## [The Scaling Law](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
