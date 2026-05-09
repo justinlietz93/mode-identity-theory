@@ -55,7 +55,7 @@ Both $a_0$ and $H$ sit on the temporal edge ($n = 1$), referencing the same hier
 
 $$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = \frac{2\sin^2(13\pi/120)}{2\sin^2(34\pi/120)} = \frac{0.223}{1.208} = 0.184$$
 
-With $H_0 = 67.4$ km/s/Mpc (consistent with the MIT phase-clock best-fit), $cH_0 = 6.55 \times 10^{-10}$ m/s², giving observed $a_0/(cH_0) = 1.2/6.55 = 0.183$. The positions 13/120 and 34/120 are Fibonacci numbers on the 120-grid, occupying stability wells where destructive interference is minimised (see the [framework scaling law](../../framework/) for the full Fibonacci-well derivation).
+With $H_0 = 67.4$ km/s/Mpc (consistent with the MIT phase-clock best-fit), $cH_0 = 6.55 \times 10^{-10}$ m/s², giving observed $a_0/(cH_0) = 1.2/6.55 = 0.183$. The positions 13/120 and 34/120 are Fibonacci numbers on the 120-grid, occupying stability wells where destructive interference is minimised.
 
 ### The Evolutionary Law
 
@@ -89,9 +89,9 @@ In the deep-MOND regime ($g \ll a_0$), the effective gravitational acceleration 
 
 $$\frac{g_\text{eff}(z{=}10)}{g_\text{eff}(\text{constant})} = \sqrt{\frac{a_0(z{=}10)}{a_0(0)}} = \sqrt{20.5} \approx 4.5$$
 
-This is a factor of 4.5 enhancement in effective gravitational acceleration at fixed epoch. Both MIT and constant-$a_0$ MOND see the same $H(z)$ at $z = 10$; the difference is solely the strength of the acceleration floor.
+This is a factor of 4.5 enhancement in effective gravitational acceleration at fixed epoch. Both MIT and constant- $a_0$ MOND see the same $H(z)$ at $z = 10$; the difference is solely the strength of the acceleration floor.
 
-Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ collapse approximately 2.1× faster than constant-$a_0$ MOND would predict. The enhancement is maximal in the deep-MOND limit; inner regions of forming halos where $g$ approaches $a_0(z)$ see a smaller correction, so these estimates are upper bounds.
+Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ collapse approximately 2.1× faster than constant- $a_0$ MOND would predict. The enhancement is maximal in the deep-MOND limit; inner regions of forming halos where $g$ approaches $a_0(z)$ see a smaller correction, so these estimates are upper bounds.
 
 ### The Resolution
 
