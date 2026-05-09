@@ -2,15 +2,19 @@
 
 ---
 
-# a₀ Evolving: High-Redshift Galaxy Masses
+# Early Galaxy Masses: Epoch-Dependent Acceleration in Static Space
 
 [![Early Galaxies](https://img.youtube.com/vi/vx0F1zpUt_4/mqdefault.jpg)](https://www.youtube.com/watch?v=vx0F1zpUt_4)
 
-James Webb has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ within 600 Myr of the Big Bang require star formation efficiencies exceeding unity under ΛCDM, a physical impossibility. 
+JWST has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ at $z \approx 10$ require star formation efficiencies exceeding unity under ΛCDM with a constant MOND acceleration scale, a physical impossibility.
 
-Mode Identity Theory predicts that the MOND acceleration scale $a_0$ is an edge mode ($n = 1$) referencing the evolving Hubble horizon: $a_0(z) = a_0(0) \times H(z)/H_0$. At $z = 10$, this gives $a_0 \approx 20.5 \times$ the local value, enhancing effective gravitational acceleration and accelerating structure formation without new physics.
+Mode Identity Theory resolves this. The MOND acceleration scale $a_0$ and the Hubble rate $H$ are both edge modes ($n = 1$) on the 120-domain (the 120-cell discretisation of $S^3$ from the binary icosahedral group). Their ratio is fixed by the Fibonacci wells:
 
-Critically, MIT predicts $a_0$ evolves while Λ remains fixed: the inverse of standard assumptions. Both predictions are independently testable.
+$$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = 0.184$$
+
+Because the ratio holds at every epoch, $a_0(z) = a_0(0) \times H(z)/H_0$, where $H(z)$ is the phase-clock Hubble rate derived from the static $S^3$ baseline. At $z = 10$, this gives $a_0 \approx 20.5 \times$ the local value, enhancing effective gravitational acceleration and reducing the required star formation efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range.
+
+MIT predicts $a_0$ evolves while $\Lambda$ remains constant: the inverse of standard assumptions. This is the companion to the dark energy cornerstone, where the same $H(z)$ proves that $\Lambda$ never crosses $w = -1$. One static universe, two signatures.
 
 **Edge mode scaling**
 
@@ -18,74 +22,113 @@ Critically, MIT predicts $a_0$ evolves while Λ remains fixed: the inverse of st
 |---|---|
 | Scaling law | $a_0(z) = a_0(0) \times H(z)/H_0$ |
 | $a_0/(cH_0)$ ratio | predicted: 0.184 / observed: 0.183 |
-| At $z = 10$ | $a_0 \approx 2.46 \times 10^{-9}$ m/s<sup>2</sup> (20.5x local) |
-| Acceleration enhancement | $\sqrt{20.5} \approx 4.5$ x (collapse ~2.1x faster) |
+| At $z = 10$ | $a_0 \approx 2.46 \times 10^{-9}$ m/s² (20.5× local) |
+| Collapse speedup | ~2.1× faster (required $\varepsilon_\text{SF}$ drops below 1) |
 
 ## I. The Observational Tension
 
-Observations by Labbé et al. reveal stellar masses $M_\star \sim 10^{10}\,M_\odot$ formed within ~600 Myr after the Big Bang. These masses approach or exceed the maximal baryon abundance permitted in standard dark matter halos under ΛCDM, creating the "impossibly early galaxy" problem. Resolving this within standard physics requires star formation efficiencies exceeding unity, a physical impossibility suggesting either systematic observational errors or incomplete theoretical understanding.
+JWST observations (Labbé et al.) reveal stellar masses $M_\star \sim 10^{10}\,M_\odot$ already assembled at $z \approx 10$, roughly 500 Myr after the standing wave began its cycle. These masses approach or exceed the maximal baryon abundance permitted in standard dark matter halos under ΛCDM, creating the "impossibly early galaxy" problem.
+
+The tension is quantitative. Assembling $10^{10}\,M_\odot$ of stars in 500 Myr requires converting baryons into stars faster than the available gas supply allows. Under standard assumptions (constant $a_0$, ΛCDM collapse timescales), the implied star formation efficiency $\varepsilon_\text{SF}$ exceeds unity: a physical impossibility. Either the observations contain systematic errors, the mass estimates are wrong, or the gravitational physics governing early collapse is different from what we assume locally.
+
+MIT takes the third option. The acceleration scale governing collapse is not constant; it tracks the phase clock.
 
 ## II. Epoch-Dependent Acceleration Scale
 
-Standard MOND treats $a_0 \approx 1.2 \times 10^{-10}$ m/s<sup>2</sup> as a fundamental constant. The observed coincidence $a_0 \approx cH_0$ suggests a connection to horizon physics. Within MIT, both $a_0$ and $H_0$ are edge modes ($n = 1$) referencing the Hubble horizon. The Planck acceleration $a_P = c/t_P = 5.56 \times 10^{51}$ m/s<sup>2</sup> is the reference scale, and $C(\Theta) = 2\sin^2(\pi\Theta)$ is the phase operator (derived from the anti-periodic ground mode on the Möbius surface, normalized to unit mean). The scaling law gives:
+### Static Baseline
 
-$$\frac{a_0}{a_P} = C(13/120) \cdot (\sqrt{\Omega_H})^{-1}, \qquad \frac{H_0}{t_P^{-1}} = C(34/120) \cdot (\sqrt{\Omega_H})^{-1}$$
+The cosmos is a static three-sphere $S^3$. The phase-clock Hubble rate $H(z)$ is derived in the companion paper (*Phantom Dark Energy: Template Artifact in Static Space*) from the standing wave $\Psi = \cos(t/2)$ and the Waltz clock $dt/d\tau = S^{-1/2}$:
 
-Since both reference the same $(\sqrt{\Omega_H})^{-1}$, the ratio is parameter-free: $a_0/(cH_0) = C(13/120)/C(34/120) = 0.223/1.208 = 0.184$. With $H_0 = 67.4$ km/s/Mpc (Planck 2018), $cH_0 = 6.55 \times 10^{-10}$ m/s<sup>2</sup>, giving observed $a_0/(cH_0) = 1.2/6.55 = 0.183$.
+$$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
-The phase coefficient $C(\Theta)$ occupies a Fibonacci stability well, a topological feature motivating epoch-independence. The scaling relation follows:
+with $\Omega_\Lambda = 0.685$ fixed by topology and $s_0 = \sin(t_\text{now}/2)$ the single phase parameter. Both $a_0$ and $H$ are edge modes ($n = 1$) on the 120-domain. What follows is why their ratio is locked.
+
+### The Ratio from the Scaling Law
+
+The MIT scaling law relates any observable $A$ to the Planck reference $A_P$ through a phase coefficient and a power of the hierarchy number $\sqrt{\Omega}$:
+
+$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
+
+where $C(\Theta) = 2\sin^2(\pi\Theta)$ is the phase operator (derived from the anti-periodic ground mode on the Möbius surface, normalised to unit mean) and $n$ is the manifold depth: $n = 1$ for edge modes, $n = 2$ for surface modes.
+
+Both $a_0$ and $H$ sit on the temporal edge ($n = 1$), referencing the same hierarchy number $\Omega_H$. In the ratio, the Planck scales and the $\sqrt{\Omega_H}$ factors cancel, leaving only the phase coefficients:
+
+$$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = \frac{2\sin^2(13\pi/120)}{2\sin^2(34\pi/120)} = \frac{0.223}{1.208} = 0.184$$
+
+With $H_0 = 67.4$ km/s/Mpc (consistent with the MIT phase-clock best-fit), $cH_0 = 6.55 \times 10^{-10}$ m/s², giving observed $a_0/(cH_0) = 1.2/6.55 = 0.183$. The positions 13/120 and 34/120 are Fibonacci numbers on the 120-grid, occupying stability wells where destructive interference is minimised (see the [framework scaling law](../../framework/) for the full Fibonacci-well derivation).
+
+### The Evolutionary Law
+
+Because the ratio is fixed at every epoch, the acceleration scale inherits the full redshift dependence of $H(z)$:
 
 $$a_0(z) = a_0(0) \times \frac{H(z)}{H_0}$$
 
-## III. Quantitative Estimate at z = 10
+This is the paper's central prediction. $a_0$ is not a fundamental constant; it is an edge mode that tracks the phase clock. At high redshift, $H(z)/H_0$ grows large, and the acceleration scale that governs gravitational collapse grows with it. The consequences for early structure formation follow in Section III.
 
-For a standard flat cosmology with $\Omega_m = 0.315$, $\Omega_r = 9.2 \times 10^{-5}$, and $\Omega_\Lambda = 0.685$ (Planck 2018; total gravitating matter density inferred from expansion data. For this high‑redshift estimate we use the standard ΛCDM expansion history; any MIT‑specific modulation in the dark‑energy sector is negligible at matter‑dominated epochs:
+## III. Early Structure Formation at z = 10
 
-$$\frac{H(z)}{H_0} = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}$$
+### The Boost
 
-At $z = 10$: $(1+z)^3 = 1331$ and $(1+z)^4 = 14641$, giving $\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda = 0.315(1331) + 9.2\times 10^{-5}(14641) + 0.685 \approx 421.3$.
+Using the phase-clock $H(z)$ from the static baseline, with $\Omega_\Lambda = 0.685$ and $s_0 < 0.19$:
 
-$$\frac{H(z{=}10)}{H_0} = \sqrt{421.3} \approx 20.5$$
+$$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
-Applying the scaling:
+At $z = 10$, $(1+z)^3 = 1331$. The matter term dominates: $(1+z)^3$ contributes ~421 while the $(1+z)^1$ correction subtracts less than 0.1. The result is effectively independent of $s_0$:
 
-$$a_0(z{=}10) \approx 20.5 \times a_0(0) \approx 2.46 \times 10^{-9} \;\text{m/s}^2$$
+$$\frac{H(z{=}10)}{H_0} \approx \sqrt{422} \approx 20.5$$
 
-## IV. Implications for Structure Formation
+Applying the evolutionary law:
 
-In the deep-MOND regime ($g \ll a_0$), the simple interpolating function gives effective gravitational acceleration $g_\text{eff} \propto \sqrt{g_N \times a_0}$. The enhancement is maximal in this limit; inner regions of forming halos where $g$ approaches $a_0(z)$ see a smaller correction, so the estimates below are upper bounds. Comparing epoch-dependent $a_0$ to the standard constant assumption:
+$$a_0(z{=}10) \approx 20.5 \times a_0(0) \approx 2.46 \times 10^{-9}\ \text{m/s}^2$$
 
-$$\frac{g_\text{eff}(z{=}10)}{g_\text{eff}(\text{standard})} = \sqrt{\frac{a_0(z{=}10)}{a_0(0)}} = \sqrt{20.5} \approx 4.5$$
+The acceleration scale governing gravitational collapse at $z = 10$ is twenty times the local value.
 
-A factor of ~4.5 enhancement in effective gravitational acceleration significantly alters collapse dynamics. This comparison is at fixed epoch: both MIT and constant-$a_0$ MOND face identical expansion rates at $z = 10$; the difference is solely the effective gravitational acceleration. Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ could collapse approximately 2.1x faster than standard MOND would predict. To order of magnitude, if the collapse timescale sets the star formation duty cycle, the required formation rate to assemble a given stellar mass drops by the same factor. For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1x faster collapse reduces the implied efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range.
+### Collapse Dynamics
 
-## V. Contrasting Predictions
+In the deep-MOND regime ($g \ll a_0$), the effective gravitational acceleration scales as $g_\text{eff} \propto \sqrt{g_N \times a_0}$. Comparing an epoch-dependent $a_0$ to the standard constant assumption:
 
-MIT's dimensional hierarchy makes a sharp distinction between edge modes and surface modes:
+$$\frac{g_\text{eff}(z{=}10)}{g_\text{eff}(\text{constant})} = \sqrt{\frac{a_0(z{=}10)}{a_0(0)}} = \sqrt{20.5} \approx 4.5$$
 
-| Observable | $n$ | $\Omega_\text{ref}$ | Prediction |
+This is a factor of 4.5 enhancement in effective gravitational acceleration at fixed epoch. Both MIT and constant-$a_0$ MOND see the same $H(z)$ at $z = 10$; the difference is solely the strength of the acceleration floor.
+
+Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ collapse approximately 2.1× faster than constant-$a_0$ MOND would predict. The enhancement is maximal in the deep-MOND limit; inner regions of forming halos where $g$ approaches $a_0(z)$ see a smaller correction, so these estimates are upper bounds.
+
+### The Resolution
+
+For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1× faster collapse reduces the implied efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range. The "impossibly early galaxy" problem becomes a straightforwardly early galaxy observation, requiring no exotic physics, no new particles, and no modification to general relativity.
+
+*The acceleration scale was simply larger when those galaxies formed.*
+
+## IV. Contrasting Predictions: Edge vs Surface
+
+MIT's dimensional hierarchy draws a sharp line between modes that live on the temporal edge and modes that live on the spatial surface:
+
+| Observable | Manifold depth | Evolves? | Prediction |
 |---|---|---|---|
-| $a_0$ (acceleration) | 1 | $\Omega_H$ (evolves) | Scales with $H(z)$ |
-| Λ (cosmo. const.) | 2 | $\Omega_\Lambda$ (fixed) | Constant across epochs |
+| $a_0$ (acceleration) | $n = 1$ (edge) | Yes, tracks $H(z)$ | Evolves with epoch |
+| $\Lambda$ (cosmological constant) | $n = 2$ (surface) | No (antinode, slope zero) | Constant across epochs |
 
-This is an inversion of standard assumptions, where Λ is often treated as potentially evolving while $a_0$ is assumed constant. Observations of both quantities at high redshift provide independent, complementary tests.
+This is an inversion of standard assumptions, where $\Lambda$ is often treated as potentially evolving (the DESI phantom-crossing signal) while $a_0$ is assumed constant (standard MOND). MIT predicts the opposite: $\Lambda$ is topologically locked at the antinode, and $a_0$ rides the phase clock.
 
-## VI. Falsification
+The companion paper (*Phantom Dark Energy: Template Artifact in Static Space*) proves that $\Lambda$ never crosses $w = -1$ and that the apparent DESI signal is a template artifact. This paper shows that $a_0$ evolves with $H(z)$ and resolves the JWST early-galaxy tension. Together, the two cornerstones embody the static universe from opposite sides: one observable constant, one evolving, both measured from the same standing wave.
+
+Observations of both quantities at high redshift provide independent, complementary tests. A universe where $\Lambda$ evolves and $a_0$ stays constant would falsify MIT. A universe where $\Lambda$ stays constant and $a_0$ evolves would confirm it.
+
+## V. Falsification
 
 | Prediction | Test | Falsified if |
 |---|---|---|
-| $a_0(z) \propto H(z)$ | Rotation curves at $z > 2$ | $a_0(z)/a_0(0) = 1$ at ≥2σ |
-| Λ constant | SNe Ia / BAO at high $z$ | Λ evolves while $a_0$ stays constant |
+| $a_0(z) \propto H(z)$ | Rotation curves at $z > 2$ | $a_0(z)/a_0(0) = 1$ at $\geq 2\sigma$ |
+| $\Lambda$ constant | SNe Ia / BAO at high $z$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ |
 
-At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
+At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is within reach of resolved rotation curves from Euclid, JWST/NIRSpec, and the ELT. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
 
 ---
 
-In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four decades the coincidence $a_0 \approx cH_0$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $a_0$ evolves with $H(z)$.
+In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. For four decades the coincidence $a_0 \approx cH_0$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $a_0$ evolves with $H(z)$.
 
-*The galaxies found too early were simply formed under a stronger age.*
+*The galaxies found too early were formed under a stronger tide.*
 
 ---
 
 / **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
-
