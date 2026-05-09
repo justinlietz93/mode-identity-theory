@@ -39,7 +39,7 @@ $$a_0(z) = a_0(0) \times \frac{H(z)}{H_0}$$
 
 ## III. Quantitative Estimate at z = 10
 
-For a standard flat cosmology with $\Omega_m = 0.315$, $\Omega_r = 9.2 \times 10^{-5}$, and $\Omega_\Lambda = 0.685$ (Planck 2018; total gravitating matter density inferred from expansion data; MIT does not modify the expansion history, only galactic-scale dynamics via the $a_0$ threshold):
+For a standard flat cosmology with $\Omega_m = 0.315$, $\Omega_r = 9.2 \times 10^{-5}$, and $\Omega_\Lambda = 0.685$ (Planck 2018; total gravitating matter density inferred from expansion data. For this high‑redshift estimate we use the standard ΛCDM expansion history; any MIT‑specific modulation in the dark‑energy sector is negligible at matter‑dominated epochs:
 
 $$\frac{H(z)}{H_0} = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}$$
 
