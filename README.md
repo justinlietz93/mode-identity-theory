@@ -30,7 +30,7 @@ The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equa
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-The universe samples a standing wave. The mathematics requires it. It began as cosine, at its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
+The universe samples a standing wave. The mathematics requires it. It began as cosine, at its peak. We started at full amplitude; the wave advances from there.
 
 The Möbius twist forces a sign‑flip: the fundamental mode is $4\pi$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
 
@@ -90,7 +90,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 ## :control_knobs: Inputs
 
-Two constants fix the physics. Two measurements anchor the scale. One borrowed parameter locates the time.
+Two constants fix the physics. Two measurements anchor the scale. One phase parameter locates the observer.
 
 **Primitives**
 
@@ -106,11 +106,11 @@ Two constants fix the physics. Two measurements anchor the scale. One borrowed p
 | $R$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$; sets the size of the domain |
 | $m_e$ | $0.511$ MeV | Electron mass; anchors the spectrum |
 
-**Concordance parameter**
+**Phase parameter**
 
 | Parameter | Value | Origin |
 |---|---|---|
-| $\Omega_m$ | 0.315 | Effective clustering fraction; used to fix cosmic epoch. ($t_\text{now} = 5.22$ rad) |
+| $s_0$ | $< 0.19$ (95% CL) | Observer's current phase on the standing wave. $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is output of the temporal budget. |
 
 ---
 
@@ -124,8 +124,8 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_Λ²$) constant | topological protection holds | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
-| [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
-| [↗](/files/cosmos/files/dark-energy.md) $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
+| [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 (FLRW templates) | DESI transition region | awaiting Euclid DR1 |
+| [↗](/files/cosmos/files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ✓ |
 | [↗](/files/cosmos/files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% |
 | [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
@@ -173,18 +173,18 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | Prediction | MIT value | Falsified if | Euclid channel |
 |---|---|---|---|
 | a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
-| Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | Binned $ρ_DE(z)/ρ_DE(0)$ departs from the predicted cosine modulation at 2σ | SNe + BAO + lensing in redshift bins |
+| Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ | SNe + BAO + lensing in redshift bins |
 | Null DM detection | Permanent null | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
 
 ### Secondary (raise or lower credibility)
 
 | Prediction | MIT value | Falsified if |
 |---|---|---|
-| Modulation zero-crossing | z<sub>cross</sub> = 0.663 | Transition center < 0.4 or > 0.9 at 2σ |
-| w(z) shape | Cosine (linear excluded) | Linear CPL preferred at ΔAIC > 4 |
+| $z_\text{cross}$ | 0.663 (FLRW templates) | Transition center < 0.4 or > 0.9 at 2σ |
+| $(1+z)^1$ term in $H^2$ | Negative coefficient tied to $s_0$ | Positive coefficient detected, or magnitude inconsistent with $s_0$ |
 | No phantom crossing | w<sub>eff</sub> > −1 everywhere | Model-independent w < −1 at 2σ |
 | H<sub>0</sub> discrete snap | 8.4% shift (67.4 → 73.1) | H<sub>0</sub> distributed continuously across environments |
-| 3/2 Gauss-Codazzi | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
+| 3/2 Gauss equation | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
 | CMB ℓ<sub>cut</sub> | ~32 | ℓ<sub>cut</sub> outside [15, 50] on reanalysis |
 | Gauge couplings | α 0.5%, α<sub>s</sub> 1.4%, α<sub>W</sub> 0.4% | Any coupling outside 5% under refined Ω<sub>Λ</sub> |
 | Three forces only | Grid ladder exhausted at 3 rungs | Fourth fundamental force or SUSY partners observed |
