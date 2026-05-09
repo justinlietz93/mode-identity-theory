@@ -2,7 +2,7 @@
 
 ---
 
-# Phantom Dark Energy as Template Artifact on a Static S³
+# Phantom Dark Energy as Template Artifact
 
 [![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
 
