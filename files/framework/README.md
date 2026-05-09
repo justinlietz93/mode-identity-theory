@@ -6,7 +6,7 @@
 
 MIT was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was twisted besides Plato after the fact.
 
-One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), two constants, two measured scales, and one borrowed parameter. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
+One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), two constants, two measured scales, and one phase parameter. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
 
 From this: $\Lambda$ at 2%, three gauge couplings at <2%, $H_0$ tension at <1%, three particle generations from three topological vacua, a mass gap from positive curvature, and 10 of 12 fermion masses assigned with 9 within $\times 3$. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
@@ -27,7 +27,7 @@ Each step depends on the one before; nothing later exists independently from wha
 
 ## Inputs
 
-Two constants fix the physics. Two measurements anchor the scale. One borrowed parameter locates the time.
+Two constants fix the physics. Two measurements anchor the scale. One phase parameter locates the observer.
 
 **Primitives**
 
@@ -47,13 +47,13 @@ These are irreducible. $c$ defines the causal structure of spacetime; the topolo
 
 These are irreducible. The topology is a shape, not a size: a sphere of any radius is still a sphere. $R$ sets the scale. The mass formula gives every particle mass as $m_e$ times dimensionless topological ratios times a power of $\Omega$; without one mass, you have all the ratios but no absolute scale. Two measurements because the mass formula with unknowns $(R, G)$ and one known $(m_e)$ gives one equation in two unknowns.
 
-**Concordance parameter**
+**Phase parameter**
 
 | Parameter | Value | Role |
 |---|---|---|
-| $\Omega_m$ | 0.315 | Matter density fraction; locates the present epoch ($t_\text{now} = 5.22$ rad) |
+| $s_0$ | $< 0.19$ (95% CL) | Observer's current phase on the standing wave. $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is derived from the budget, not borrowed. |
 
-The only borrowed parameter. $\Omega_m$ enters solely through the Friedmann integral to determine where the observer stands on the standing wave. Whether the topology constrains $\Omega_m$ is an OPEN question.
+The single free parameter of the phase-clock distance-redshift relation, constrained by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM.
 
 ---
 
@@ -156,7 +156,7 @@ The icosahedron carries three stabilizer subgroups. Restricting each irrep to th
 | Face ($Z_3$) | 3 | Color: singlet (lepton) vs triplet (quark) | Generation-independent; face geometry identical from all three vacua |
 | Edge ($Z_4$) | 4 | Spin-statistics: $D = 120$ (half-int) vs $D = 60$ (int) | Complex vs real $Z_4$ content |
 | Vertex ($Z_5$) | 5 | Electroweak interface | Galois conjugate vacua $R_1$, $R_2$ differ in $Z_5$ content |
-| Face/Edge | 3/2 | Gravity: Gauss-Codazzi conversion | Surface eigenvalue to space observable |
+| Face/Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue to space observable |
 | Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by Möbius $\mathbb{Z}_2$ |
 
 The three stabilizer orders are the primes dividing $|2I| = 120$. They generate color, domain, and the electroweak interface. The mass formula computes how heavy. The stabilizer structure says what.
@@ -173,34 +173,23 @@ $$\Large {\Psi = \cos(t/2)}$$
 | $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\|_{t=0} = 0$ |
 | Ground state $m_h = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
-The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral with Planck 2018 parameters ($\Omega_m = 0.315$, $H_0 = 67.4$ km/s/Mpc).
+The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by distance data. The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to proper time; the relationship is nonlinear, with early proper time compressed in phase. The derived proper-time age is consistent with the observed ~13.8 Gyr.
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
 ### The Present Epoch
 
-$$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \text{ rad}$$
-
-| $\Psi$ | Step | $t$ (rad) | Epoch | ~Gyr |
-|---|---|---|---|---|
-| $+1$ | 0 | 0 | Initial | 0 |
-| $0$ | 30 | $\pi$ | First crossing | 8.3 |
-| $-0.86$ | *~50* | *5.22* | *Present* | *13.8* |
-| $-1$ | 60 | $2\pi$ | Turnaround | 16.6 |
-| $0$ | 90 | $3\pi$ | Second crossing | 24.9 |
-| $+1$ | 120 | $4\pi$ | Completion | 33 |
-
-The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$.
+Two phase parameterizations exist for the current epoch. The engine phase $\varphi = 4\pi\, T/T_\text{cycle}$ (linear in proper time) gives $\varphi_\text{now} \approx 5.22$ rad. The budget phase $t$ (argument of $\Psi = \cos(t/2)$, nonlinear in proper time through the Waltz clock) is constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\varphi)$ is OPEN; both parameterizations reproduce the same distance-redshift relation. The full $4\pi$ period and the 120-step chronon structure are topology-native and independent of which parameterization is used.
 
 ## Cosmic Scale
 
 ### The Scale Hierarchy
 
-$\Omega_\Lambda$ is fixed by $\Lambda$ and epoch-independent. The Hubble scale evolves:
+$\Omega_\Lambda$ is fixed by $\Lambda$ and epoch-independent. The phase-gradient scale changes with epoch:
 
-$$\Omega_H(z) \equiv \left(\frac{R_H(z)}{\ell_P}\right)^2, \quad R_H = c/H(z)$$
+$$\Omega_H(z) \equiv \left(\frac{\ell_\text{phase}(z)}{\ell_P}\right)^2, \quad \ell_\text{phase} = c/|d\ln\Psi/d\tau|$$
 
-At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The coincidence is structural: the observer sits near the temporal midpoint of $\Psi$.
+At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The near-coincidence is structural: the observer's phase-gradient length is set by the same curvature that fixes $\Lambda$.
 
 ### [The Observer](../cosmos/files/cmb-anomalies.md)
 
@@ -218,7 +207,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 |---|---|---|---|---|
 | 0 | Planck floor | 1 | 1 | $G$ |
 | 1 | Temporal edge $S^1$ | $\Omega_H$ | $10^{-61}$ | $H_0$, $a_0$ |
-| 3/2 | Gauss-Codazzi | — | — | $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ (geometric conversion) |
+| 3/2 | Gauss equation | — | — | $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ (geometric conversion) |
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
@@ -293,7 +282,7 @@ The classification index $\mathcal{T}$ compares the gravitational potential drop
 | $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
 | $\Lambda_\text{top}$ | 60/120 | 0 per step | 0% | Topologically protected |
 
-The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift in the local expansion rate, resolving the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
+The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift in the locally measured phase-clock rate, resolving the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
 
 $a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. Measuring $a_0$ from rotation curves recovers this bare value because the measurement and the threshold are the same object. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
@@ -318,7 +307,7 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 | [H₀](../cosmos/files/hubble-tension.md) | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ | Calibration |
 | [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * | Prediction |
 
-> * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
+> * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 
 **Calibration structure.** $H_0$ serves as the calibration observable that fixes the universal hierarchy normalization $N$ for all edge-mode predictions. The scaling law does not derive $H$ from topology; it uses $H$ to set the scale from which $a_0$ and other edge-mode observables are predicted. The $\approx$ in the scaling law reflects this: the kinematic expression $(c/(H\ell_P))^2$ is the physical identification of $\Omega_H$, and $N = H t_P / C(34/120)$ is the precise normalization calibrated through measurement. The ratio of any two edge-mode $C$ factors is a zero-parameter prediction independent of the calibration. The $\Lambda$ derivation follows an independent calibration path through $R$ (from CMB) and the Laplace-Beltrami eigenvalue.
 
@@ -347,18 +336,18 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | Prediction | MIT value | Falsified if | Euclid channel |
 |---|---|---|---|
 | a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
-| Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | Binned $ρ_DE(z)/ρ_DE(0)$ departs from the predicted cosine modulation at 2σ | SNe + BAO + lensing in redshift bins |
+| Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ | SNe + BAO + lensing in redshift bins |
 | Null DM detection | Permanent null (suppressed to 10<sup>−183</sup>) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
 
 ### Secondary (raise or lower credibility)
 
 | Prediction | MIT value | Falsified if |
 |---|---|---|
-| Modulation zero-crossing | z<sub>cross</sub> = 0.663 | Transition center < 0.4 or > 0.9 at 2σ |
-| w(z) shape | Cosine (linear excluded) | Linear CPL preferred at ΔAIC > 4 |
+| $(1+z)^1$ term in $H^2$ | Negative coefficient tied to $s_0$ | Positive coefficient detected, or magnitude inconsistent with $s_0$ |
+| $w(z)$ diagnostic | $w_\text{eff} > -1$ (fiducial split) | Fiducial split gives $w_\text{eff} < -1$ at $\geq 2\sigma$ |
 | No phantom crossing | w<sub>eff</sub> > −1 everywhere | Model-independent w < −1 at 2σ |
 | H<sub>0</sub> discrete snap | 8.4% shift (67.4 → 73.1) | H<sub>0</sub> distributed continuously across environments |
-| 3/2 Gauss-Codazzi | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
+| 3/2 Gauss equation | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
 | CMB ℓ<sub>cut</sub> | ~32 | ℓ<sub>cut</sub> outside [15, 50] on reanalysis |
 | Gauge couplings | α 0.5%, α<sub>s</sub> 1.4%, α<sub>W</sub> 0.4% | Any coupling outside 5% under refined Ω<sub>Λ</sub> |
 | Three forces only | Grid ladder exhausted at 3 rungs | Fourth fundamental force or SUSY partners observed |
