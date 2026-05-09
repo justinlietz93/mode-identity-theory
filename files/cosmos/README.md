@@ -4,7 +4,16 @@
 
 # :ringed_planet: Κόσμος
 
-Five foundations of Mode Identity Theory map to five cosmological anomalies that standard physics catalogs separately. Each paper takes one anomaly and shows how its foundation resolves it. The topology produces the structure; the scaling law reveals the result. Black Holes are nodes of the wave where sampling ceases.
+The cosmos is a finite, static three‑sphere of radius $R \approx 5.3\ \text{Gpc}$. Space does not expand. What we read as cosmic expansion is the observer’s phase advancing on a standing wave that lives on the temporal edge of a Möbius surface embedded in $S^3$.
+
+The standing wave is $\Psi = \cos(t/2)$, with the present phase $t_{\text{now}}$ fixed by a single parameter $s_0 = \sin(t_{\text{now}}/2)$. Redshift is a ratio of phase positions, $1+z = s_0/S$. A Waltz clock $dt/d\tau = S^{-1/2}$, forced by the icosahedral stabilizer ratio $3/2$, converts phase time to proper time and gives the effective distance–redshift relation
+
+$$
+\frac{H^2(z)}{H_0^2} = \frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3 - \frac{(1-\Omega_\Lambda)s_0^2}{1-s_0^2}(1+z) + \Omega_\Lambda,
+\qquad \Omega_\Lambda = 0.685\ \text{(topology)}.
+$$
+
+The cosmological constant $\Lambda$ is the ground eigenvalue of the Möbius surface, $2/R^2$. It never varies. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. Together they embody the static universe: one constant, one evolving, both measured from the same standing wave.
 
 ---
 
