@@ -71,19 +71,17 @@ $$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \fra
 
 where $\Delta\Theta$ is the step size (1/120 for dynamical observables, 2/120 for bosonic).
 
-The same step size produces different fractional shifts depending on where it lands:
+The slope of the phase operator differs at each well. What matters is which wells physically shift and which do not:
 
-| Well | Θ | Slope | Step | ΔC/C | Consequence |
-|---|---|---|---|---|---|
-| $a_0$ | 13/120 | 17.7 | 1/120 | ~15% | Constitutive: $a_0$ defines $\mathcal{T}_c$ and $L_f$ |
-| $H_0$ | 34/120 | 5.1 | 2/120 | 8.4% | Hubble tension |
-| Λ | 60/120 | 0 | 2/120 | 0% | Topologically protected at antinode |
+| Well | Θ | Slope sensitivity | Physical shift | Role |
+|---|---|---|---|---|
+| $a_0$ | 13/120 | 17.7 per step | None | Defines the transition threshold |
+| $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
+| Λ | 60/120 | 0 per step | 0% | Topologically protected at antinode |
 
-The $a_0$ well sits on a steep slope; it absorbs a 15% shift from a single step (1/120). The step sizes differ because the two observables access the lattice differently. The full 120-lattice ($|2I| = 120$) contains both fermionic and bosonic representations. Dynamical observables like $a_0$ (measured through accelerations, which couple to the full gravitational field) resolve the full lattice; the minimum step is 1/120. Cosmographic observables like $H_0$ (measured through photon redshifts, which are bosonic) access only the bosonic projection $|I| = 60$; the minimum step doubles to 2/120.
+$\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift. The step size is $2/120$ because $H_0$ is measured through photon redshifts (bosonic), accessing only the $|I| = 60$ projection of the full $|2I| = 120$ lattice.
 
-The logical direction for $a_0$: the lattice geometry fixes the well position at $\Theta = 13/120$ and the step size at 1/120. These produce $a_0$ as an output of the scaling law. That value of $a_0$ then enters the coherence scale $L_f = v_c^2/a_0$ and the threshold $\mathcal{T}_c$, which determine whether the phase field triggers. The well defines the observable; the observable defines the trigger. There is no circularity because the lattice comes first.
-
-The Λ well sits at the antinode where the slope vanishes; the cosmological constant is topologically immune to the phase field. The $H_0$ well sits between: steep enough to produce a measurable shift, shallow enough that it remains a perturbation.
+$a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The lattice geometry fixes the well position at $\Theta = 13/120$. The scaling law produces $a_0 = C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$ as output. That value of $a_0$ then enters the coherence scale $L_f = v_c^2/a_0$ and the threshold $\mathcal{T}_c$, which determine whether the phase field triggers. The well defines the observable; the observable defines the trigger. Measuring $a_0$ from rotation curves recovers the bare well value because the measurement and the threshold are the same object. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
 ### The numerical closure
 
