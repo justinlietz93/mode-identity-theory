@@ -110,7 +110,7 @@ Two constants fix the physics. Two measurements anchor the scale. One borrowed p
 
 | Parameter | Value | Origin |
 |---|---|---|
-| $\Omega_m$ | 0.315 | Matter density fraction; locates the present epoch ($t_\text{now} = 5.22$ rad) |
+| $\Omega_m$ | 0.315 | Effective clustering fraction; used to fix cosmic epoch. ($t_\text{now} = 5.22$ rad) |
 
 ---
 
@@ -151,7 +151,7 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/mass-spectrum.md) Fermion masses | 24 entries | 10/12 SM assigned: 9/10 within ×3 | systematic |
 | [↗](/files/spectrum/files/mass-spectrum.md) $m_\mu$ (muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | [↗](/files/spectrum/files/mass-spectrum.md) $m_u$ (up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| [↗](/files/spectrum/files/mass-spectrum.md) $m_e$ (electron) | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| [↗](/files/spectrum/files/mass-spectrum.md) $m_e$ (electron) | scale anchor | 0.511 MeV | measured |
 | [↗](/files/spectrum/files/mass-spectrum.md) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
 | [↗](/files/spectrum/files/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
 | [↗](/files/spectrum/files/mass-spectrum.md) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
