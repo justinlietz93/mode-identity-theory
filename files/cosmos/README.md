@@ -21,7 +21,7 @@ The cosmological constant $\Lambda$ is the ground eigenvalue of the Möbius surf
 
 Λ is fixed by geometry. What appears to evolve is the observer’s phase position on the standing wave, misinterpreted as dark energy dynamics. 
 
-***[Phantom Dark Energy](files/dark-energy.md)***
+***[Dark Energy](files/dark-energy.md)***
 
 [![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
 
