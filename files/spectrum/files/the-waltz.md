@@ -6,7 +6,7 @@
 
 [![The Waltz](https://img.youtube.com/vi/5QDKZavD5g4/mqdefault.jpg)](https://www.youtube.com/watch?v=5QDKZavD5g4)
 
-The cosmological constant Λ is the ground eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss-Codazzi equations supply the interface between the two: a $3/2$ conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $G$ as an exchange rate between the curvature scale and the vacuum energy floor.
+The cosmological constant Λ is the ground eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss equation supplies the interface between the two: a $3/2$ conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $G$ as an exchange rate between the curvature scale and the vacuum energy floor.
 
 ## I. The Two Partners
 
@@ -17,11 +17,11 @@ The cosmological constant Λ is the ground eigenvalue of the Möbius surface. Ob
 
 $S^3$ space carries curvature as a continuous field. The Möbius surface carries the topological eigenvalue that sets the boundary condition. The $S^1$ temporal edge is where observation resolves position. The Standard Model treats $G$ as a dictionary entry: a measured constant that translates between the surface's language (curvature) and the space's language (energy) at the Planck floor ($n = 0$). MIT derives it as an exchange rate, fixed by the ratio of two independently sourced quantities (§II).
 
-The topology independently sources both the curvature ($\Lambda_{\text{obs}} = 3/R^2$ from the Möbius eigenvalue through Gauss-Codazzi) and the energy floor ($\mu_\Lambda$ from the mass spectrum). $G$ is the exchange rate between them (§II). $\ell_P \equiv \sqrt{\hbar G/c^3}$ is derived from $c$, $\hbar$, $G$. $\Omega = (R/\ell_P)^2$ is a geometric scale ratio: the squared number of Planck lengths in $R$.
+The topology independently sources both the curvature ($\Lambda_{\text{obs}} = 3/R^2$ from the Möbius eigenvalue through the Gauss equation) and the energy floor ($\mu_\Lambda$ from the mass spectrum). $G$ is the exchange rate between them (§II). $\ell_P \equiv \sqrt{\hbar G/c^3}$ is derived from $c$, $\hbar$, $G$. $\Omega = (R/\ell_P)^2$ is a geometric scale ratio: the squared number of Planck lengths in $R$.
 
 ## II. Gravity as the Cost to Dance
 
-The scaling law produces $\Lambda_{\text{top}}$ on the Möbius surface. Gauss-Codazzi converts it to $\Lambda_{\text{obs}}$ measured in $S^3$.
+The scaling law produces $\Lambda_{\text{top}}$ on the Möbius surface. The Gauss equation converts it to $\Lambda_{\text{obs}}$ measured in $S^3$.
 
 The Gauss equation relates intrinsic 2D curvature $R_\Sigma$ of the embedded surface to the 3D Ricci scalar $R_{\text{space}}$:
 
@@ -55,9 +55,9 @@ The ratio of mode amplitude to energy density ($f^2/\rho$) grows with $R$, so an
 |---|---|
 | 3 | Spatial Ricci trace (isotropic space); icosahedral face stabilizer order |
 | 2 | Antinode intensity + de Sitter relation; icosahedral edge stabilizer order |
-| 3/2 | Gauss-Codazzi interface = face order / edge order |
+| 3/2 | Gauss equation interface = face order / edge order |
 
-The 3 reflects $S^3$'s three-dimensionality. The 2 is the GR definition of Λ. The $3/2$ is their ratio: the Gauss-Codazzi interface between 3D curvature and 2D geometry. In icosahedral geometry, this is face stabilizer order 3 to edge stabilizer order 2, intrinsic to the polyhedral group.
+The 3 reflects $S^3$'s three-dimensionality. The 2 is the GR definition of Λ. The $3/2$ is their ratio: the Gauss equation interface between 3D curvature and 2D geometry. In icosahedral geometry, this is face stabilizer order 3 to edge stabilizer order 2, intrinsic to the polyhedral group.
 
 ### The dictionary has a definition
 
@@ -79,7 +79,7 @@ Substituting $\Lambda_{\text{obs}} = 3/R^2$:
 
 $$\boxed{G = \frac{3 c^4}{8\pi R^2 \mu_\Lambda^4}}$$
 
-In standard physics this is circular: $\mu_\Lambda$ is defined from $G$ and $\Lambda$, so solving back returns the input. In MIT, both sides are independently sourced. $R$ is fixed kinematically by the late-time Hubble horizon $c/H_\infty$, measured from the expansion history without invoking Einstein's equations or a value of $G$. The numerator $3c^4/R^2$ is therefore $G$-free. The denominator comes from the mass spectrum: each particle mass equals $\mu_\Lambda$ times dimensionless topological ratios times the hierarchy factor $(\sqrt{\Omega})^{\text{dist}/30}$.
+In standard physics this is circular: $\mu_\Lambda$ is defined from $G$ and $\Lambda$, so solving back returns the input. In MIT, both sides are independently sourced. $R$ is fixed by the topology ($\Lambda_\text{obs} = 3/R^2$) and confirmed by the phase-clock distance-redshift relation without invoking a value of $G$. The numerator $3c^4/R^2$ is therefore $G$-free. The denominator comes from the mass spectrum: each particle mass equals $\mu_\Lambda$ times dimensionless topological ratios times the hierarchy factor $(\sqrt{\Omega})^{\text{dist}/30}$.
 
 $G$ appears on both sides through $\Omega_\Lambda = R^2 c^3/\hbar G$ inside the hierarchy factor. Collecting powers resolves this: $\mu_\Lambda \propto G^{-1/4}$ (from the prefactor), and $(\sqrt{\Omega_\Lambda})^{\text{dist}/30} = \Omega_\Lambda^{\text{dist}/60} \propto G^{-\text{dist}/60}$ (from the hierarchy factor). Total $G$-exponent in $m$: $-1/4 - \text{dist}/60 = -(15+\text{dist})/60$. The mass formula becomes $m = K \cdot G^{-(15+d)/60}$ with $K$ containing only $c$, $\hbar$, $R$, and the dimensionless topological ratios. Solving:
 
@@ -90,7 +90,7 @@ One equation, one unknown, no iteration. The apparent circularity collects into 
 | Input set | What you measure | What the framework provides |
 |---|---|---|
 | Standard physics | $c$, $\hbar$, $G$, $\Lambda$, each mass independently | Each quantity separate |
-| MIT | $c$, $\hbar$, $R$ (from $H_\infty$), one particle mass | $G$, $\Lambda$, all other masses, all couplings |
+| MIT | $c$, $\hbar$, $R$ (from $\Lambda = 3/R^2$), one particle mass | $G$, $\Lambda$, all other masses, all couplings |
 
 The dictionary entry has a closed form. $G$ is not a measured constant; it is the exchange rate between the curvature the surface produces and the energy floor the spectrum produces. Computable once the topology is anchored to one measurement on each side.
 
@@ -98,7 +98,7 @@ The dictionary entry has a closed form. $G$ is not a measured constant; it is th
 
 Gravity is an interface connecting two sectors of differing character: continuous geometry ($S^3$) and discrete sampling (the 120 domain). The $3/2$ conversion bridges their difference in kind. A quantum theory of gravity in the standard sense would require either discretizing the geometry or making the mode spectrum continuous. The topology forbids both.
 
-Discretizing $S^3$ would remove the structure that sources $\Lambda$ through Gauss-Codazzi. Continualizing the 120 domain would dissolve the particle spectrum, the mass gap, and three generations. The 120 is forced by $|2I|$ being the largest exceptional discrete subgroup of $\text{SU}(2) \cong S^3$.
+Discretizing $S^3$ would remove the structure that sources $\Lambda$ through the Gauss equation. Continualizing the 120 domain would dissolve the particle spectrum, the mass gap, and three generations. The 120 is forced by $|2I|$ being the largest exceptional discrete subgroup of $\text{SU}(2) \cong S^3$.
 
 Standard quantization programs assume objects of the same type on both sides of the interface. Gravity is the one interface where this fails structurally. The resistance is not a technical obstacle awaiting a better method; it is the signature of an interface doing work no single-type quantization can do. The $3/2$ factor is the cost of carrying information across that interface, measured in every gravitational observation.
 
@@ -110,7 +110,7 @@ Space ($n=3$) couples only gravitationally. Detectors couple through surface and
 
 The silence follows from the scaling law's manifold hierarchy. The scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ assigns each manifold depth an exponential suppression: $n = 1$ (edge) gives $\sim 10^{-61}$ (matter), $n = 2$ (surface) gives $\sim 10^{-122}$ (vacuum energy), $n = 3$ (space) gives $\sim 10^{-183}$. Non-gravitational couplings require gauge-field propagation within a shared manifold. Detectors couple through the surface and gauge sectors ($n \leq 2$); space ($n = 3$) carries curvature but no gauge degrees of freedom. Gravity couples to stress-energy regardless of manifold depth; the gauge forces do not. The $n = 3$ sector is gravitationally present and gauge-invisible by construction.
 
-"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space. MIT identifies it as the ground mode of the Möbius surface ($n = 2$, $m_h = 0$), the eigenvalue of a bounded geometry, derived from surface curvature through Gauss-Codazzi embedding.
+"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space. MIT identifies it as the ground mode of the Möbius surface ($n = 2$, $m_h = 0$), the eigenvalue of a bounded geometry, derived from surface curvature through the Gauss equation.
 
 | Label | MIT identity | Manifold |
 |---|---|---|
@@ -134,7 +134,7 @@ The topological postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \
 
 | Structure | What it determines | Mechanism |
 |---|---|---|
-| Möbius surface (2D) | Vacuum energy Λ | Ground eigenvalue, Gauss-Codazzi |
+| Möbius surface (2D) | Vacuum energy Λ | Ground eigenvalue, Gauss equation |
 | Binary icosahedral group 2I | Particle spectrum, mass gap, generations | McKay decomposition, Reidemeister torsion |
 | Stabilizer triple (2, 3, 5) | Color, domain, forces, gravity ratio | Face/edge/vertex decompositions and interfaces |
 | Observer at $\sqrt{\Omega}$ | Coupling constants, hierarchy | Scaling law at Fibonacci wells |
@@ -172,7 +172,7 @@ An observer is anywhere the wave resolves to a finite value. A hydrogen atom is 
 
 The sampling operation has three coordinates. The observer sits at structural depth $\sqrt{\Omega} \approx 10^{61}$, the IR↔UV fixed point between Planck and cosmic scale, shared by all observers within our domain. The observer occupies a geodesic position $\chi$ in $S^3$; for our observer, $\chi \approx 0.40$ rad from the domain center. The observer samples at a phase position on $S^1$, currently $t \approx 5.22$ rad, advancing in chronon steps of $\pi/30$.
 
-$S^3$ is fixed and finite. What the SM reads as metric expansion is evolution of the sampling relationship with a fixed venue. Phase advances on $S^1$; the standing wave $\Psi(t) = \cos(t/2)$ modulates what the observer resolves from the same surface-mode eigenvalue. Redshift, luminosity distance, and the apparent evolution of $w(z)$ are perspective effects from this sampling evolution. The coupling between the observer's geodesic position $\chi$ and the modulation amplitude $\varepsilon$ is the companion $w$-evolving paper's subject; the structural form $\varepsilon \sim (d/R)^2$ is consistent to better than 1%, with the first-principles derivation open.
+$S^3$ is fixed and finite. What the SM reads as metric expansion is evolution of the sampling relationship with a fixed venue. Phase advances on $S^1$; the standing wave $\Psi(t) = \cos(t/2)$ modulates what the observer resolves from the same surface-mode eigenvalue. Redshift, luminosity distance, and the apparent evolution of $w(z)$ are perspective effects from this sampling evolution. The phase-clock distance-redshift relation produces a non-phantom $H(z)$ that standard two-parameter templates misread as dynamical dark energy.
 
 The observer resolves the wave at these parameters, and the resolution yields what we call an event. What the SM reads as "the event happened at spacetime point $(t, x, y, z)$" is one coordinate description of the resolution. The description is correct as a chart at the observer's scale. It is incomplete as an ontology.
 
