@@ -2,110 +2,232 @@
 
 ---
 
-# w Evolving: Λ Topological Resolution
+# Phantom Dark Energy as Template Artifact on a Static S³
 
 [![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
 
-DESI reports mounting evidence (2.8--4.2σ) that the dark energy equation of state $w$ evolves with redshift. If true, it would overturn the cosmological constant and reshape modern physics. 
+DESI DR2 reports a 2.8–4.2σ preference for dynamical dark energy, with CPL fits favoring an apparent crossing of $w = -1$. We show that a non-phantom distance-redshift relation can produce such crossings when analyzed with two-parameter templates (CPL, BA, JBP), and that Mode Identity Theory provides that relation from a static geometric foundation.
 
-Mode Identity Theory says the change is an illusion: Λ is fixed by the geometry of the universe, and what looks like evolution is the observer's phase position on a standing wave. The "phantom crossing" through $w = -1$ arises as a template artifact rather than exotic physics.
+The cosmos is a finite, static three-sphere $S^3$. The standing wave $\Psi = \cos(t/2)$ on the temporal edge, with the Waltz clock $dt/d\tau = S^{-1/2}$, gives the effective distance-redshift relation
 
-Tested against DESI DR2 baryon acoustic oscillation data, the Pantheon+ supernova compilation, and a Planck-calibrated CMB ruler prior, MIT with locked parameters achieves $\Delta\text{AIC} = -2.1$ over ΛCDM at the same parameter count.
+$$\frac{H^2(z)}{H_0^2} = \frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3 - \frac{(1-\Omega_\Lambda)s_0^2}{1-s_0^2}(1+z) + \Omega_\Lambda,$$
 
-**DESI DR2 + Pantheon+ + Planck**
+where $\Omega_\Lambda = 0.685$ is fixed by topology and $s_0 = \sin(t_{\text{now}}/2)$ is the single phase parameter. The diagnostic effective equation of state satisfies $w_{\text{eff}}(z) > -1$ for all $z$: no phantom crossing occurs.
+
+Fitting CPL, BA, and JBP templates to MIT noise-free distances produces apparent phantom crossings from this non-phantom truth, establishing template bias as a structural source of phantom-crossing signals. Joint MCMC fits to Pantheon+ (1701 SNe) and DESI DR2 BAO (13 data points) yield $\Delta\chi^2 = +0.11$ relative to flat ΛCDM at the same parameter count, with $s_0 < 0.19$ (95% CL). The model predicts a negative $(1+z)^1$ term in $H^2(z)$, a distinctive signature absent from the four canonical FLRW components, testable by next-generation BAO surveys.
+
+**Pantheon+ & DESI DR2 BAO**
 
 | Quantity | Value |
 |---|---|
-| MIT vs ΛCDM | $\Delta\text{AIC} = -2.1$ |
-| Profiled coupling | $\Delta\chi^2 = -7.9$ ($\Delta\text{AIC} = -5.9$ at $k = 3$) |
-| Zero-crossing | $z_\text{cross} = 0.663$ (registered blind prediction) |
-| Phantom crossing | $w_\text{eff}(z) > -1$ at all redshifts |
+| $\Delta\chi^2$ vs ΛCDM (SN+BAO) | $+0.11$ (same $k$) |
+| Phase parameter | $s_0 < 0.19$ (95% CL) |
+| Phantom crossing | $w_\text{eff}(z) > -1$ at all redshifts (proven) |
+| Distinctive signature | Negative $(1+z)^1$ term in $H^2(z)$ |
 
 ## I. The Observational Landscape
 
 The DESI DR2 results present the most precise baryon acoustic oscillation measurements to date, drawing from over 14 million galaxies and quasars across 11 billion years of cosmic history. When combined with CMB data and supernova compilations, the results indicate that dark energy's equation of state $w$ may not equal $-1$ as assumed in ΛCDM.
 
-The emerging picture: present value $w_0 \approx -0.85$ to $-0.70$ (less negative than Λ), past behavior $w < -1$ at higher redshifts (phantom-like), and a "phantom crossing" through $w = -1$ near $z \approx 0.5$. Single-field models face fundamental difficulties crossing $w = -1$; proposed solutions require exotic field content.
+The emerging picture: present value $w_0 \approx -0.85$ to $-0.70$ (less negative than $\Lambda$), past behavior $w < -1$ at higher redshifts (phantom-like), and a "phantom crossing" through $w = -1$ near $z \approx 0.5$. Single-field models face fundamental difficulties crossing $w = -1$; proposed solutions require exotic field content. Cortês and Liddle flag the crossing location at the center of the observable window as a "substantial and unsettling coincidence." The DESI extended analysis reports consistent phantom-crossing behavior across five additional parameterizations (BA, JBP, exponential, logarithmic, and model-free binned).
 
-This presents sharp tension for any framework treating the cosmological constant as fundamental. MIT derives Λ from surface-mode projection on bounded topology. If Λ itself evolved, the framework would face direct structural contradiction. However, DESI constrains the inferred equation of state $w(z)$, not vacuum energy Λ directly. While related in standard cosmology, these quantities separate in a topological framework.
+The possibility that apparent phantom crossings can arise from parameterization choice has been recognized. Linder and Huterer demonstrated that the CPL form introduces systematic bias when the true $w(z)$ lies outside its functional family. Shafieloo, Sahni, and Starobinsky showed that model-dependent reconstruction can produce spurious features, including phantom crossings, when applied to models outside the fitting basis.
 
-## II. The Mechanism
+MIT sharpens this question. $\Lambda$ is the ground eigenvalue of the Möbius surface embedded in $S^3$: $\lambda_0 = 2/R^2$ (giving the observed $\Lambda_\text{obs} = 3/R^2$ after the Gauss equation conversion). The logarithmic slope $d\ln C/d\Theta$ vanishes exactly at the antinode; no environmental perturbation shifts it to a different well. $\Lambda$ is topologically protected. What can vary is the observer's phase position on the standing wave. The question this paper answers: does a static $\Lambda$ viewed from a moving phase produce distances that standard templates misread as dynamical dark energy?
 
-MIT's anti-periodic boundary conditions admit a standing wave on the bounded domain:
+## II. The Phase-Clock Distance-Redshift Relation
 
-$$\Psi = \cos(t/2)$$
+### The Static Baseline
 
-The full cycle spans $4\pi$ (~33 Gyr). The present epoch sits at $t \approx 5.22$ rad, approximately 2.8 Gyr before the geometric turnaround at $t = 2\pi$.
+The cosmos is a finite, static three-sphere of radius $R \approx 5.3\ \text{Gpc}$. Space does not expand. The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
 
-MIT identifies Λ as a surface-mode eigenvalue. The topological protection established in the $\Lambda$ derivation is against displacement in $\Theta$, the position coordinate on the mode spectrum. The logarithmic slope $d\ln C/d\Theta$ vanishes exactly at the antinode; no environmental perturbation can shift $\Lambda$ to a different well. The modulation here acts in $t$, the observer's phase within the cosmic cycle. $\Lambda$ occupies a fixed position (the antinode); what varies is the standing wave amplitude $\Psi(t) = \cos(t/2)$ at the observer's epoch. The surface-mode eigenvalue is constant; its projection into the expansion history carries the temporal phase of $\Psi$.
+Redshift is a ratio of phase positions:
 
-The cosmic wave therefore modulates the dark energy sector, with an amplitude set by the projection into Friedmann variables (see The Coupling ε below), leaving matter and radiation untouched. The Friedmann equation becomes:
+$$1 + z = \frac{s_0}{S}, \qquad s_0 = \sin(t_\text{now}/2)$$
 
-$$E_{\text{MIT}}^2(z) = \Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda^{\text{bare}}\bigl[1 + \varepsilon\cos\theta(z)\bigr]$$
+This introduces exactly one new degree of freedom: the observer's current phase $s_0 \in (0, 1)$. The fiducial flat ΛCDM limit is recovered as $s_0 \to 0$, where $S/s_0$ reduces to a conventional scale factor.
 
-where $\theta(z) = (2\pi + \delta)/\bigl(2(1+z)\bigr)$: the standing wave phase is $t(z) = (2\pi + \delta) \cdot a = (2\pi + \delta)/(1+z)$ (linear in scale factor $a$, the minimal ansatz keeping the topological phase independent of the dynamics it modulates), and $\theta = t/2$ because $\Psi = \cos(t/2)$. The bare cosmological constant $\Omega_\Lambda^{\text{bare}} = (1 - \Omega_m - \Omega_r)/(1 + \varepsilon\cos\theta_0)$ with $\theta_0 = (2\pi + \delta)/2$ enforces $E^2(0) = 1$. The ΛCDM limit is recovered at $\varepsilon \to 0$.
+### The Waltz Clock
 
-The surface-mode coupling is invisible to the CMB by construction. At recombination ($z_* \approx 1090$), $E^2(z_*) \approx \Omega_m(1091)^3 \approx 4 \times 10^8$, so $\Omega_\Lambda^{\text{bare}} / E^2(z_*) \approx 1.7 \times 10^{-9}$; the modulation contributes $\varepsilon \times 1.7 \times 10^{-9} \approx 4 \times 10^{-10}$ to $E^2$, far below observational sensitivity. At low redshift, where Λ dominates the energy budget, the full BAO and supernova signatures are preserved.
+Phase time $t$ and proper time $\tau$ are related by a clock rate. From $S = \sin(t/2)$:
 
-### The Phase Offset δ
+$$\frac{1}{S}\frac{dS}{d\tau} = \frac{\cos(t/2)}{2\sin(t/2)} \cdot \frac{dt}{d\tau}$$
 
-The observer's position within the cosmic cycle is measured from the geometric turnaround ($t = 2\pi$, where $\Psi = -1$; $t$ increases monotonically from $t = 0$). The derivation:
+For a power-law clock $dt/d\tau = S^n$, the requirement that the non-vacuum sector reproduce the observed matter-era scaling $H^2 \propto (1+z)^3$ at high redshift selects $n = -1/2$:
 
-$$\Omega_m, \Omega_\Lambda, H_0 \xrightarrow{\text{Friedmann}} T_\text{cycle} \approx 33.2 \text{ Gyr} \xrightarrow{t = 4\pi\, T/T_\text{cycle}} t_\text{now} = 4\pi \times \frac{13.8}{33.2} = 5.22 \text{ rad} \xrightarrow{\delta \equiv t - 2\pi} \delta = -1.06 \text{ rad}$$
+$$\frac{dt}{d\tau} = S^{-1/2}$$
 
-All inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$ coincides with the center of DESI's non-parametric $w(z)$ transition region. This coincidence is a consistency check, not a calibration. The prediction is registered on Zenodo prior to Euclid DR1.
+This is the Waltz clock. At early times $S \ll 1$, the clock $dt/d\tau \propto S^{-1/2}$ makes $H \propto S^{-3/2} \propto (1+z)^{3/2}$, which squares to the familiar matter-density scaling. The exponent traces to the face/edge stabilizer ratio (3/2) of the icosahedral group native to $S^3$ ($|2I| = 120$). Integer alternatives ($n = 0, -1, +1$) produce $(1+z)^1$, $(1+z)^2$, and $(1+z)^0$ scalings respectively; all three are ruled out at $\Delta\chi^2 > 60$ against Pantheon+ (Appendix A of the companion analysis).
 
-### The Coupling ε
+### The Hubble Rate
 
-ε is a translation coefficient, measuring how the MIT standing wave projects into the Friedmann equation. It belongs to the interface between the two frameworks: MIT's own structure (boundary conditions, standing wave, surface-mode eigenvalue) contains no free amplitude parameter. The projection into standard Friedmann variables requires one because the two descriptions parameterize the expansion history differently.
+With the Waltz clock, the exact non-vacuum kernel is:
 
-The CMB topology analysis independently determines the observer's geodesic distance from the domain center: $d = 2.1$ Gpc, corresponding to $\chi = d/R = 0.40$ rad in $S^3$ (constrained by four CMB observables). The profiled coupling $\varepsilon \approx 0.16$ is numerically consistent with $(d/R)^2 = 0.160$ to better than 1%. This suggests the modulation amplitude may trace to the standing wave energy density at the observer's position, whose lowest spatially-varying mode scales as $\chi^2$ at small $\chi$. A first-principles derivation equating the local mode amplitude with the Friedmann-sector coupling remains open; the functional form of the $z$-dependence has not been verified from this geometric picture.
+$$K(z;\, s_0) = \frac{(1+z)^3 - s_0^2\,(1+z)}{1 - s_0^2}$$
 
-The calibration proceeds by inject-and-recover: MIT distances are generated at trial ε, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields ε = 0.255 and is locked before the DESI analysis (prediction mode, $k = 2$). Separately, profiling ε on the DESI combination yields a best-fit of ε = 0.16 (profile mode, $k = 3$; see Results). The residual difference between the two values likely reflects dataset-dependent systematics and the distortion introduced by fitting a cosine modulation through a linear CPL template.
+normalized so $K(0;\, s_0) = 1$. The cosmological constant, a vacuum energy density independent of the phase evolution, enters as a separate additive component:
 
-## III. The Phantom Crossing
+$$\frac{H^2(z)}{H_0^2} = (1 - \Omega_\Lambda)\,K(z;\, s_0) + \Omega_\Lambda$$
 
-Standard cosmology treats "phantom" behavior ($w < -1$) as exotic, requiring negative kinetic energy or ghost fields. MIT requires no such machinery.
+with $\Omega_\Lambda = 0.685$ fixed by topology (ground eigenvalue $\lambda_0 = 2/R^2$, Gauss equation conversion $\times 3/2$). Expanding:
 
-The effective equation of state from Friedmann inversion is:
+$$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
-$$w_{\text{eff}}(z) = -1 + \frac{\varepsilon\,(2\pi + \delta)\,\sin\theta(z)}{6(1+z)\bigl[1 + \varepsilon\cos\theta(z)\bigr]}$$
+Defining $\alpha \equiv (1-\Omega_\Lambda)/(1-s_0^2)$ and $\beta \equiv (1-\Omega_\Lambda)\,s_0^2/(1-s_0^2)$, the expression reads $H^2/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$, with $\alpha - \beta + \Omega_\Lambda = 1$ enforcing $E(0) = 1$.
 
-The correction term is strictly positive for all $z \geq 0$: with $\theta_0 \approx 2.61 < \pi$, the phase satisfies $\theta(z) \in (0, \theta_0)$ so $\sin\theta > 0$ throughout, and $1 + \varepsilon\cos\theta > 0$ for $\varepsilon < 1$. Therefore $w_\text{eff}(z) > -1$ at all physical redshifts. MIT's effective dark energy never goes phantom.
+The matter fraction $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is output of the budget, not an independent input. The $(1+z)^3$ coefficient $\alpha = \Omega_m/(1 - s_0^2)$ is a dressed version; at any $s_0$, $\alpha(1 - s_0^2) = \Omega_m = 0.315$.
 
-The modulation $\varepsilon\cos\theta(z)$ changes sign where $\cos\theta = 0$, i.e. $\theta = \pi/2$:
+### The $(1+z)^1$ Term
 
-$$\frac{2\pi + \delta}{2(1 + z_\text{cross})} = \frac{\pi}{2} \implies 1 + z_\text{cross} = \frac{2\pi + \delta}{\pi} \implies z_{\text{cross}} = 1 + \frac{\delta}{\pi} = 0.663$$
+The negative $(1+z)^1$ term is absent from the four canonical FLRW density components:
 
-This is the zero-crossing of the modulation function $\varepsilon\cos\theta$. The deviation of $E_\text{MIT}$ from $E_\Lambda\text{CDM}$ peaks near this redshift (~4.6% in $E(z)$) because the flatness normalization sets $\Omega_\Lambda^\text{bare} > \Omega_\Lambda$: absorbing the negative modulation at $z = 0$ raises the bare value, so when $\cos\theta$ passes through zero the bare excess is fully exposed. When observers fit these distances using CPL templates ($w_0 + w_a(1-a)$), the linear form cannot capture the cosine shape. CPL compensates by placing $w_0 > -1$ and $w_a < 0$. The phantom crossing is not in the expansion history but in the template used to fit it.
+| Component | Redshift scaling |
+|---|---|
+| Radiation | $(1+z)^4$ |
+| Matter | $(1+z)^3$ |
+| Curvature | $(1+z)^2$ |
+| Cosmological constant | $(1+z)^0$ |
+| Phase-clock correction | $(1+z)^1$ |
 
-When CPL is fit to noise-free MIT distances, the recovered sum $w_0 + w_a = -1.00$ sits at the ΛCDM value. The template does not cross $w = -1$. The crossing in DESI's fit arises from the CPL template interacting with data scatter.
+Its coefficient $-\beta = -(1-\Omega_\Lambda)\,s_0^2/(1-s_0^2)$ is strictly negative for $s_0 > 0$ and vanishes in the ΛCDM limit. This term is the fingerprint of the bounded phase parameterization: the $\sqrt{1 - S^2}$ factor in the non-vacuum kernel equals unity at high $z$ and generates the correction at low $z$. It is the paper's primary falsifiable prediction.
 
-## IV. Results
+## III. $w_\text{eff}(z) > -1$ at All Redshifts
 
-Tested against DESI DR2 BAO (13 observables, 7 redshift bins), Pantheon+ (~1590 Type Ia supernovae), and a Planck-calibrated CMB ruler prior ($H_0 r_d = 9908 \pm 81$ km/s). MIT parameters are locked prior to fitting; only the shared cosmological parameters ($\Omega_m$, $H_0 r_d$) are adjusted.
+To define a diagnostic effective dark energy equation of state, we adopt the fiducial-matter split: deviations from the fiducial matter scaling are assigned to the effective dark-energy sector, using $\Omega_m = 1 - \Omega_\Lambda = 0.315$ (the fiducial matter fraction, independent of $s_0$).
 
-| Model | $k$ | $\chi^2_\text{BAO}$ | $\Omega_m$ | ΔAIC |
-|---|---|---|---|---|
-| ΛCDM | 2 | 13.54 | 0.313 | 0 |
-| MIT ($\varepsilon = 0.255$) | 2 | 11.21 | 0.294 | $-2.1$ |
-| CPL | 4 | 8.58 | 0.307 | $-4.0$ |
+The effective dark energy density is:
 
-MIT improves on ΛCDM by $\Delta\chi^2 = -2.1$ at the same parameter count. The improvement comes from a better BAO fit ($\Delta\chi^2_\text{BAO} = -2.3$) and a substantially better match to the CMB-calibrated ruler. MIT's $H_0 r_d = 9860$ sits 0.6σ from the Planck center; ΛCDM's $H_0 r_d = 10023$ sits 1.4σ away.
+$$X(z) = E^2(z) - \Omega_m(1+z)^3 = \frac{\Omega_m\,s_0^2}{1 - s_0^2}\bigl[(1+z)^3 - (1+z)\bigr] + \Omega_\Lambda$$
 
-**Coupling Amplitude Profile (profile mode, $k = 3$).** Profiling $\varepsilon$ over a grid while fitting $\Omega_m$ and $H_0 r_d$, the data prefer $\varepsilon = 0.16$ with $\Delta\chi^2 = -7.9$ relative to ΛCDM. Counting $\varepsilon$ as a third parameter yields $\Delta\text{AIC} = -5.9$. Both prediction mode ($\varepsilon = 0.255$ locked, $k = 2$, $\Delta\text{AIC} = -2.1$) and profile mode ($\varepsilon = 0.16$ fitted, $k = 3$, $\Delta\text{AIC} = -5.9$) favor nonzero modulation over ΛCDM.
+For an effective fluid with density $X(z)$ obeying $d\rho/dz = 3\rho(1+w)/(1+z)$, the equation of state is:
 
-## V. Falsification
+$$w_\text{eff}(z) = -1 + \frac{(1+z)}{3X}\frac{dX}{dz}$$
+
+Computing the derivative:
+
+$$\frac{dX}{dz} = \frac{\Omega_m\,s_0^2}{1 - s_0^2}\bigl[3(1+z)^2 - 1\bigr]$$
+
+The correction to $w = -1$ is therefore:
+
+$$w_\text{eff}(z) + 1 = \frac{\Omega_m\,s_0^2\,(1+z)\bigl[3(1+z)^2 - 1\bigr]}{3(1 - s_0^2)\bigl[\frac{\Omega_m\,s_0^2}{1 - s_0^2}\bigl((1+z)^3 - (1+z)\bigr) + \Omega_\Lambda\bigr]}$$
+
+For $z \geq 0$ and $s_0 \in (0, 1)$:
+
+- **Numerator:** $3(1+z)^2 - 1 \geq 2$ (equality at $z = 0$). Strictly positive.
+- **Denominator:** $(1+z)^3 - (1+z) = (1+z)(z)(2+z) \geq 0$ for $z \geq 0$, and the additive $\Omega_\Lambda > 0$ ensures $X(z)$ is strictly positive at every $z$. The denominator is strictly positive at every redshift.
+
+Therefore:
+
+$$w_\text{eff}(z) > -1$$
+
+for the fiducial-matter diagnostic split, for all $z \geq 0$, $s_0 \in (0, 1)$.
+
+At $s_0 = 0$, $w_\text{eff} = -1$ everywhere (the fiducial flat ΛCDM limit). For $s_0 > 0$, the correction is positive and begins at order $s_0^2$.
+
+Whether you see phantom behavior depends on what you subtract as "matter." The dressed split (subtracting $\alpha(1+z)^3$) assigns the correction to the matter sector and yields $w_\text{eff} < -1$ at high $z$. Both are valid decompositions of the same distance-redshift relation; neither changes the physical distances or the Hubble rate. This paper adopts the fiducial split because it holds the matter fraction fixed as $s_0$ varies, making the diagnostic equation of state a function of the single new parameter alone. The convention-dependence is itself part of the template bias finding: the same $H(z)$ is diagnosed as phantom or non-phantom depending on the subtraction.
+
+## IV. Template Bias Demonstration
+
+### Method
+
+To test whether standard $w(z)$ parameterizations produce apparent phantom crossings from phase-clock distances, we generate noise-free BAO observables (comoving distance $D_M$, Hubble distance $D_H$, and volume-averaged distance $D_V$, all scaled by the sound horizon $r_d$) from the MIT $H(z)$ at the seven DESI DR2 effective redshifts ($z = 0.295, 0.510, 0.706, 0.934, 1.321, 1.484, 2.330$), using $H_0 = 67.4$ km/s/Mpc and $r_d = 147.1$ Mpc. We then fit four $w(z)$ parameterizations to these mock observables using the published DESI covariance structure, with $\Omega_m = 0.315$ held fixed to isolate the effect of the $w(z)$ parameterization.
+
+The four parameterizations are CPL, Barboza-Alcaniz (BA), Jassal-Bagla-Padmanabhan (JBP), and a three-parameter polynomial in $(1-a)$. Each is a standard fitting form used in the DESI extended analysis. The mock exercise uses $s_0 = 0.389$ to maximize visibility of the effect. The template bias mechanism operates at any $s_0 > 0$.
+
+### Results
+
+Three of four parameterizations produce phantom crossings from input that satisfies $w > -1$ everywhere (Section III):
+
+| Parameterization | Best-fit parameters | $\chi^2$ | Crosses $w = -1$? |
+|---|---|---|---|
+| CPL: $w_0 + w_a(1-a)$ | $w_0 = -1.045$, $w_a = 0.925$ | 1.31 | Yes |
+| BA: $w_0 + w_a\frac{a(1-a)}{a^2-2a+2}$ | $w_0 = -1.200$, $w_a = 2.654$ | 11.48 | Yes |
+| JBP: $w_0 + w_a\,a(1-a)$ | $w_0 = -1.167$, $w_a = 2.197$ | 7.21 | Yes |
+| Polynomial (3-param) | $w_0 = -0.918$, $w_1 = -0.213$, $w_2 = 1.739$ | 0.004 | No |
+
+The polynomial, with one additional free parameter, fits the phase-clock distances to $\chi^2 \approx 0$ and does not produce a phantom crossing. The apparent crossing in the two-parameter forms is purely a basis-restriction artifact: the effect arises from projecting the curvature of the MIT distance-redshift relation onto a restricted two-parameter basis, absorbing the residual into phantom-crossing parameter values.
+
+### Threshold Scan
+
+To determine the amplitude of the template bias at data-allowed values of $s_0$, we repeat the CPL fit across $s_0 \in [0.01, 0.40]$:
+
+| $s_0$ | $w_0$ | $w_a$ | $w_0$ deviation from $-1$ |
+|---|---|---|---|
+| 0.01 | $-1.00007$ | $+0.001$ | $7 \times 10^{-5}$ |
+| 0.06 | $-1.003$ | $+0.030$ | 0.003 |
+| 0.18 | $-1.022$ | $+0.261$ | 0.022 |
+| 0.39 | $-1.044$ | $+0.928$ | 0.044 |
+| DESI observed | $-0.75$ | $-0.86$ | 0.25 |
+
+The crossing persists at every tested $s_0 > 0$, confirming that the template bias is a structural property of two-parameter bases applied to non-phantom models of this type. At the largest $s_0$ still allowed by data, the template-induced crossing is real but tiny: about a tenth of what DESI reports.
+
+### Comparison with the DESI Best Fit
+
+The DESI CPL best fit reports $w_0 \approx -0.75$ and $w_a \approx -0.86$. The phase-clock-induced distortion at data-allowed $s_0$ differs in both amplitude ($|w_0 + 1| = 0.02$ vs $0.25$, a factor of ~10) and sign ($w_a = +0.29$ vs $-0.86$).
+
+The template bias mechanism is established as a structural effect: a non-phantom $H(z)$ produces apparent phantom crossings under standard two-parameter templates. The phase-clock model at its current constraint does not reproduce the DESI best-fit parameters quantitatively. Bridging the amplitude gap would require either a larger bounded deformation ($s_0 \gtrsim 0.4$, ruled out by current data) or a different functional form for the effective dark-energy sector.
+
+## V. Observational Constraints
+
+### Data
+
+Joint fits use the Pantheon+ supernova compilation (1701 SNe Ia with full statistical and systematic covariance) and DESI DR2 BAO measurements (1 isotropic $D_V/r_d$ at $z = 0.295$ and 6 anisotropic $D_M/r_d$, $D_H/r_d$ pairs at $z = 0.51$–$2.33$, with published cross-correlations). The total dataset comprises 1714 observables.
+
+### Primary Fit: SN+BAO
+
+MCMC sampling uses an affine-invariant ensemble sampler (32 walkers, 5000 steps, 1000 burn-in). Flat ΛCDM free parameters: $\Omega_m$, $H_0 r_d$, $M_B$ (the standardised peak brightness of Type Ia supernovae). MIT free parameters: $s_0$, $H_0 r_d$, $M_B$. Both models have three free parameters, with $\Omega_\Lambda = 0.685$ fixed in the MIT case.
+
+| | Flat ΛCDM | MIT |
+|---|---|---|
+| Primary parameter | $\Omega_m = 0.312$ [0.304, 0.321] | $s_0 = 0.076$ [0.023, 0.143] |
+| $H_0 r_d$ (km/s) | 10043 [9977, 10111] | 10008 [9972, 10040] |
+| $M_B$ | $-19.355$ [$-19.360$, $-19.350$] | $-19.353$ [$-19.357$, $-19.350$] |
+| $\chi^2_\text{min}$ | 1772.5 | 1772.6 |
+| $\chi^2_\text{SN}$ / $\chi^2_\text{BAO}$ | 1759.9 / 12.6 | 1759.0 / 13.5 |
+
+The phase-clock best-fit sits at $s_0 = 0.001$ (the numerical prior floor; the analytic ΛCDM limit is $s_0 = 0$). The 95th percentile gives:
+
+$$s_0 < 0.19 \quad (95\%\ \text{CL, flat prior})$$
+
+$\Delta\chi^2 = +0.11$ at equal parameter count: no preference for either model. The two distance-redshift relations are indistinguishable at current precision.
+
+### Robustness
+
+**Prior sensitivity.** The 95% upper limit ranges from 0.12 (log-flat prior) to 0.21 (flat in $s_0^2$). The constraint is prior-sensitive in detail but data-driven in character: all priors yield $s_0 \ll 1$.
+
+**$\Omega_\Lambda$ sensitivity.** The $s_0$ constraint is stable across the range $\Omega_\Lambda = 0.68$–$0.715$. The best $\Delta\chi^2$ occurs near $\Omega_\Lambda = 0.69$. At the CMB-preferred value $\Omega_\Lambda = 0.715$, $s_0$ shifts to 0.288 and the model is mildly disfavored ($\Delta\chi^2 = +2.38$). No fine-tuning of $\Omega_\Lambda$ is required.
+
+**CMB distance priors.** Adding compressed Planck 2018 distance priors (summary constraints on the distance to the CMB, not the full Planck likelihood) and freeing $\Omega_\Lambda$ gives a four-parameter fit indistinguishable from non-flat ΛCDM ($\Delta\chi^2 = +0.28$ at equal parameter count).
+
+### Context: wCDM
+
+A constant-$w$ model (wCDM, 4 free parameters) fitted to the same SN+BAO dataset yields $w = -0.855$ [$-0.89$, $-0.82$] with $\Delta\text{AIC} = -11.0$ relative to ΛCDM. *The data favour some departure from $w = -1$, but do not require a phantom crossing.* The question is whether that departure is a constant shift toward $w > -1$ (as wCDM captures) or a phantom crossing (as CPL captures). The phase-clock model, for which $w_\text{eff} > -1$ at all redshifts, is consistent with the wCDM direction but at data-allowed $s_0$ the departure is too small to produce a detectable signal. The wCDM preference identifies a real tension with ΛCDM that the phase-clock at current constraints does not resolve. Whether that tension is a statistical fluctuation or a hint of additional structure will be clarified by Euclid.
+
+## VI. Predictions and Falsification
+
+### The $(1+z)^1$ Signature
+
+The joint SN+BAO fit constrains $|\beta| < 0.012$ at 95% CL (from $s_0 < 0.19$ with $\Omega_m = 0.315$). The predicted fractional contribution to $H^2(z)$ at $z = 1$ is:
+
+$$\frac{|\beta|(1+z)}{E^2(z)} < 0.8\% \quad (95\%\ \text{CL at}\ z = 1)$$
+
+This is below the precision of current BAO measurements (DESI DR2: ~2–3% per bin in $D_H/r_d$) but potentially within reach of the next generation. Euclid DR1 spectroscopic BAO ($z = 0.9$–$1.8$, four redshift bins) is forecast at 1–2% per bin, marginal for detection. The discriminating regime is DESI full-survey and Euclid DR2 at ~0.5% per bin, where the $(1+z)^1$ signature reaches approximately 1.5σ per bin for $s_0 \sim 0.15$, with correlated bins improving aggregate sensitivity.
+
+A statistically significant detection of a negative $(1+z)^1$ component in $H^2(z)$ would constitute evidence for a non-standard contribution to the distance-redshift relation. While a domain-wall fluid ($w = -2/3$) produces the same scaling, the phase-clock term is distinguished by the tied coefficient $-\beta(s_0)$ rather than an independent energy density.
+
+### Falsification Criteria
 
 All predictions are registered on Zenodo prior to Euclid DR1 (expected October 2026):
 
-| Prediction | MIT Value | Falsified if |
+| Observable | MIT prediction | Falsified if |
 |---|---|---|
-| $z_\text{cross}$ | 0.663 | Transition center < 0.4 or > 0.9 (2σ) |
-| $w(z)$ form | Phase modulation | Linear preferred at $\Delta\text{AIC} > 4$ |
-| Λ | Constant, $w_\text{eff} > -1$ | True phantom confirmed at 2σ |
+| $(1+z)^1$ coefficient in $H^2$ | Non-positive, magnitude tied to $s_0$ | Positive coefficient detected, or magnitude inconsistent with fitted $s_0$ |
+| Diagnostic $w_\text{eff}(z)$ | $> -1$ (fiducial split, any $s_0 > 0$) | Fiducial split gives $w_\text{eff} < -1$ at $\geq 2\sigma$ |
+| ΛCDM limit | $s_0 = 0$ recovers fiducial flat ΛCDM | (none required) |
 
-MIT predicts $w(z)$ has curvature. A purely linear $w(z)$ at high precision would falsify the phase modulation signature. The inverse prediction: $a_0(z) \propto H(z)$ while Λ remains constant.
+### Connection to $a_0(z)$
+
+The same $H(z)$ derived here determines the epoch-dependent acceleration scale. Because $a_0$ and $H$ are both edge modes on the 120-domain (the 120-cell discretisation of $S^3$ from the binary icosahedral group), their ratio is fixed by Fibonacci wells: $a_0/cH = 0.184$. This ratio holds at every epoch, giving $a_0(z) = a_0(0) \times H(z)/H_0$. The two cornerstone papers embody the static universe from opposite sides: $\Lambda$ stays constant while $a_0$ evolves, both measured from the same standing wave.
 
 ---
 
