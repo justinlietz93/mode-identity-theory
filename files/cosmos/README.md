@@ -17,6 +17,16 @@ The cosmological constant $\Lambda$ is the ground eigenvalue of the Möbius surf
 
 ---
 
+**Embedded sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
+
+Λ is fixed by geometry. What appears to evolve is the observer’s phase position on the standing wave, misinterpreted as dark energy dynamics. 
+
+***[Phantom Dark Energy](files/dark-energy.md)***
+
+[![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
+
+---
+
 **Wave-matter identity.** Five symbols: $\lambda = h/p$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $h/p$. Acceleration follows the same rule at the boundary.
 
 In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four decades the coincidence $a_0 \approx cH_0$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $a_0$ evolves with $H(z)$; the galaxies JWST found too early were simply formed under a stronger age.
@@ -54,16 +64,6 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 ***[Hubble Tension](files/hubble-tension.md)***
 
 [![Hubble Tension](https://img.youtube.com/vi/zg7il8pWhAY/mqdefault.jpg)](https://www.youtube.com/watch?v=zg7il8pWhAY)
-
----
-
-**Embedded sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
-
-Λ is fixed by geometry. What appears to evolve is the observer’s phase position on the standing wave, misinterpreted as dark energy dynamics. 
-
-***[Dark Energy](files/dark-energy.md)***
-
-[![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
 
 ---
 
