@@ -122,7 +122,7 @@ Blind outputs of a fixed structure, checked against observation:
 |---|---|---|---|
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
 | [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_Λ²$) constant | topological protection holds | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
 | [↗](/files/cosmos/files/dark-energy.md) $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
@@ -173,7 +173,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | Prediction | MIT value | Falsified if | Euclid channel |
 |---|---|---|---|
 | a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
-| Λ constant | Λ<sub>obs</sub> = 3/R<sub>Λ</sub>² | Binned ρ<sub>DE</sub>(z)/ρ<sub>DE</sub>(0) departs from unity at 2σ | SNe + BAO + lensing in redshift bins |
+| Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | Binned $ρ_DE(z)/ρ_DE(0)$ departs from the predicted cosine modulation at 2σ | SNe + BAO + lensing in redshift bins |
 | Null DM detection | Permanent null | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
 
 ### Secondary (raise or lower credibility)
