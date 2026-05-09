@@ -126,6 +126,7 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 (FLRW templates) | DESI transition region | awaiting Euclid DR1 |
 | [↗](/files/cosmos/files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
+| [↗](/files/cosmos/files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
 | [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ✓ |
 | [↗](/files/cosmos/files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% |
 | [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
