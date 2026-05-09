@@ -37,7 +37,7 @@ MIT takes the third option. The acceleration scale governing collapse is not con
 
 ### Static Baseline
 
-The cosmos is a static three-sphere $S^3$. The phase-clock Hubble rate $H(z)$ is derived in the companion paper (*Phantom Dark Energy: Template Artifact in Static Space*) from the standing wave $\Psi = \cos(t/2)$ and the Waltz clock $dt/d\tau = S^{-1/2}$:
+The cosmos is a static three-sphere $S^3$. The phase-clock Hubble rate $H(z)$ is derived from the standing wave $\Psi = \cos(t/2)$ and the Waltz clock $dt/d\tau = S^{-1/2}$:
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
