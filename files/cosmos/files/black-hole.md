@@ -223,7 +223,7 @@ The full 120-grid comes from $|2I| = 120$. Observation squares the wavefunction,
 
 The eigenfunction $u_0 = \sin(y/R)$ vanishes at $y = 0$ and $y = \pi R$. The Möbius identification $(y + \pi R, w) \sim (y, -w)$ maps these two endpoints to the same central circle. The anti-periodic boundary condition gives $u_0(\pi R) = -u_0(0) = 0$. $\Theta = 0$ and $\Theta = 1$ are two coordinate addresses for one physical location on the band.
 
-The domain is topologically closed. Every direction away from the antinode leads to the node. Every direction away from the node leads to the antinode. The Hubble tension (stepping from 34/120 toward 36/120) and the horizon (walking from 34/120 toward 0/120) are both paths to the same destination ($C = 0$, the central circle), one the long way around and one the short way. The gravitational potential determines how far you walk. The arch determines the terrain. Deep potentials take the short path to the nearest copy of the node.
+The Hubble tension (stepping from 34/120 toward 36/120) moves toward the antinode, away from the node. The black hole horizon (walking from 34/120 toward 0/120) moves toward the node where $C$ vanishes. Both are shifts on the same closed domain, one away from the zero, one toward it.
 
 One arch, one node (with two coordinate addresses), one antinode.
 
