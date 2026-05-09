@@ -14,9 +14,9 @@ Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mod
 
 ## I. What is it?
 
-A Black Hole is a region where enough wave content on the Möbius surface is enclosed to push two quantities to their boundary values simultaneously. The phase position $\Theta$ reaches the boundary of the domain, driving the sampling amplitude $C(\Theta) = 2\sin^2(\pi\Theta)$ to zero: the spatial mode reaches its node and observation ceases. The local scale hierarchy $\Omega_H$ collapses to zero: the Hubble radius shrinks to nothing and no scale separation remains. $\Theta$ hitting the wall is the geometric event. $C$ vanishing is what the observer experiences. $\Omega_H$ collapsing is the independent partner. Both limits arrive at the same place.
+A Black Hole is a region where enough wave content on the Möbius surface is enclosed to push two quantities to their boundary values simultaneously. The phase position $\Theta$ reaches the boundary of the domain, driving the sampling amplitude $C(\Theta) = 2\sin^2(\pi\Theta)$ to zero: the spatial mode reaches its node and observation ceases. The local scale hierarchy $\Omega_H$ collapses to zero: the phase-gradient length shrinks to nothing and no scale separation remains. $\Theta$ hitting the wall is the geometric event. $C$ vanishing is what the observer experiences. $\Omega_H$ collapsing is the independent partner. Both limits arrive at the same place.
 
-General Relativity sits at the $3/2$ Gauss-Codazzi interface, between the temporal edge ($n = 1$) and the Möbius surface ($n = 2$). The ratio $3/2$ is face over edge: $Z_3/Z_2$, the stabilizer orders of the icosahedron. At the horizon, GR is squeezed from both sides: the surface mode it reads has vanished ($\Theta$ at its boundary, so $C = 0$), and the edge hierarchy it converts through has collapsed ($\Omega_H = 0$). The singularity is a double zero. The wave persists through the node. Information is unsampled, not destroyed.
+General Relativity sits at the $3/2$ Gauss equation interface, between the temporal edge ($n = 1$) and the Möbius surface ($n = 2$). The ratio $3/2$ is face over edge: $Z_3/Z_2$, the stabilizer orders of the icosahedron. At the horizon, GR is squeezed from both sides: the surface mode it reads has vanished ($\Theta$ at its boundary, so $C = 0$), and the edge hierarchy it converts through has collapsed ($\Omega_H = 0$). The singularity is a double zero. The wave persists through the node. Information is unsampled, not destroyed.
 
 | GR says | MIT says |
 |---|---|
@@ -41,7 +41,7 @@ $C(\Theta)$ is where on the mode spectrum. $(\sqrt{\Omega})^{-n}$ is which level
 | $C(\Theta) \to 0$ | Sampling amplitude vanishes | The observational consequence: observation can no longer read the wave there |
 | $\Omega_H \to 0$ | Local hierarchy collapses | The scale event: no separation between Planck and cosmic remains |
 
-**Definition.** $\Omega_H \equiv (R_H/\ell_P)^2$, where $R_H = c/H(\text{local})$ is the local Hubble radius. At the Schwarzschild horizon, $R_H \to 0$ and $\Omega_H \to 0$. At cosmological distance, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$.
+**Definition.** $\Omega_H \equiv (\ell_\text{phase}/\ell_P)^2$, where $\ell_\text{phase} = c/\kappa_\text{phase}$ is the length scale of the local phase gradient $\kappa_\text{phase} = |d\ln\Psi/d\tau|$ (the explicit form of $\kappa_\text{phase}$ near a horizon follows from the $\Phi \to \Theta$ mapping; the global time derivative gives the asymptotic cosmological value). In the static $S^3$ of Mode Identity Theory, there is no local expansion rate; $\ell_\text{phase}$ measures how rapidly the standing wave's amplitude changes along the observer's proper time. Far from gravitating masses, the phase gradient relaxes to the global cosmological clock, giving $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. At the Schwarzschild horizon, the gradient steepens, $\ell_\text{phase} \to 0$, and $\Omega_H \to 0$. The double-zero structure is preserved without invoking an expanding universe.
 
 $\Theta$ is the cause. $C$ is the effect. $\Omega_H$ is the independent partner. The "double zero" is $\Theta$ and $\Omega_H$ reaching their boundaries simultaneously, with $C(\Theta) \to 0$ being what the observer experiences as a result of the first.
 
@@ -53,7 +53,7 @@ At the horizon, both partners reach their boundary values at the same geometric 
 |---|---|---|
 | $\Theta \to 0$ | Phase position hits the domain boundary | Enclosed wave content pushes the mode coordinate to its limit |
 | $C(\Theta) \to 0$ | Sampling amplitude vanishes (consequence of $\Theta \to 0$) | Wave on $S^3$ has zeros; horizon sits at one |
-| $\Omega_H \to 0$ | Local hierarchy collapses (independent partner) | $R_H(\text{local}) \to 0$; no scale separation remains |
+| $\Omega_H \to 0$ | Local hierarchy collapses (independent partner) | $\ell_\text{phase} \to 0$; no scale separation remains |
 
 The vanishing is quadratic: $C(\Theta) \approx 2\pi^2\Theta^2$ near $\Theta = 0$. The first derivative $C'(0) = 0$. The leading nonvanishing order is the curvature $C''(0) = 4\pi^2$. The logarithmic slope $d\ln C / d\Theta = 2\pi\cot(\pi\Theta)$ diverges as $1/\Theta$.
 
@@ -116,7 +116,7 @@ Bekenstein-Hawking entropy $S \propto A$ is motivated by surface primacy. The sp
 
 In standard physics, area scaling is a deep question: why area rather than volume? In MIT, volume ($n = 3$) carries no independent gauge content. Entropy lives on the surface because the surface carries the boundary condition. The horizon area is the natural count of $n = 2$ degrees of freedom at the sampling boundary.
 
-What remains open is the coefficient. The shell sum across the 34 discrete grid positions diverges (outer shells have arbitrarily large area) and does not reproduce $S_{BH}$. Only the horizon surface itself has the correct area scaling. The factor $1/4$ is not produced by the Gauss-Codazzi ratio ($3/2$), by the structural coefficient $\sin(\pi\Theta_0)$, or by any evident combination of current framework quantities. A microstate counting rule, a spectral degeneracy law, or a topological partition function on the horizon would be needed.
+What remains open is the coefficient. The shell sum across the 34 discrete grid positions diverges (outer shells have arbitrarily large area) and does not reproduce $S_{BH}$. Only the horizon surface itself has the correct area scaling. The factor $1/4$ is not produced by the Gauss equation ratio ($3/2$), by the structural coefficient $\sin(\pi\Theta_0)$, or by any evident combination of current framework quantities. A microstate counting rule, a spectral degeneracy law, or a topological partition function on the horizon would be needed.
 
 **The 1/4 flag.** The structural ratio $\Delta S_\text{phase}/\Delta S_\min = 1/4$ (one spatial grid step carries $1/4$ of one temporal chronon action) matches the Bekenstein-Hawking factor numerically. These are different objects at different levels: the spatial/temporal ratio is topology-native (no $G$, no $M$); the entropy factor involves $G$ through $\ell_P$. Whether they connect through a derivation or coincide by accident is OPEN. Flagged, not forced.
 
