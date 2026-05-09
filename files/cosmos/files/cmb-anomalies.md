@@ -52,11 +52,11 @@ The curvature radius $R$ is fixed by the cosmological constant:
 
 $$\Lambda = \frac{3}{R^2} \qquad \Rightarrow \qquad R \approx 5.3 \; \text{Gpc}$$
 
-This is the single geometric parameter. The curvature radius $R = 5.3$ Gpc is a fixed property of $S^3$, not a time-dependent scale in an expanding-space framework. In the present model, space does not expand; the observed redshift arises from the phase evolution of the cosmic standing wave on $S^1 = \partial(\text{Möbius})$. The Molien gap constrains which harmonic modes exist on the fixed spatial domain. The phase dynamics govern what the observer measures as expansion and redshift.
+This is the single geometric parameter. The curvature radius $R = 5.3$ Gpc is a fixed property of $S^3$, not a time-dependent scale. Space does not expand; the observed redshift arises from the phase evolution of the cosmic standing wave on $S^1 = \partial(\text{Möbius})$. The Molien gap constrains which harmonic modes exist on the fixed spatial domain. The phase dynamics govern what the observer measures as redshift.
 
 The identification $\Lambda = 3/R^2$ follows from a three-step chain: the ground eigenvalue of the Laplace-Beltrami operator on the totally geodesic Möbius surface gives $\lambda_0 = R_\Sigma = 2/R^2$; the Gauss equation under isotropy gives $R_{3D} = 3R_\Sigma = 6/R^2$; and the de Sitter relation gives $\Lambda = R_{3D}/2 = 3/R^2$. The 3/2 ratio ($\Lambda/\lambda_0$) reflects the dimensional relationship between 3D and 2D curvature on a totally geodesic embedding in an isotropic space.
 
-The standard Friedmann decomposition into matter, curvature, and vacuum terms approximates the phase dynamics in the distance-redshift relation. The derived expansion history contains no $(1+z)^2$ curvature term: $H^2/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$, where $\alpha$ and $\beta$ are controlled by a single parameter $s_0$ constrained to $s_0 < 0.18$ by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM. The absence of $(1+z)^2$ is not an inconsistency; the spatial curvature is a static boundary condition producing the mode spectrum, not a dynamical term competing with $\Lambda$. The observed spatial flatness ($|\Omega_K| < 0.005$) is a prediction of this structure. The comoving distance to last scattering is $\chi_* \approx 14.0$ Gpc.
+The phase-clock distance-redshift relation (derived in *Phantom Dark Energy: Template Artifact in Static Space*) contains no $(1+z)^2$ curvature term: $H^2/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$, where $\alpha$ and $\beta$ are controlled by a single parameter $s_0$ constrained to $s_0 < 0.19$ by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM. The absence of $(1+z)^2$ is not an inconsistency; the spatial curvature is a static boundary condition producing the mode spectrum, not a dynamical term competing with $\Lambda$. The apparent spatial curvature $\Omega_K$ inferred from standard FLRW fits is forced to zero because the true distance-redshift relation contains no $(1+z)^2$ term. The comoving distance to last scattering is $\chi_* \approx 14.0$ Gpc (dominated by the matter era, where the phase-clock and ΛCDM integrands differ by less than 0.3%; the $(1+z)^1$ correction contributes ~0.02 out of ~400 at recombination).
 
 ### B. The Möbius Surface
 
@@ -203,7 +203,7 @@ The strongest test is the last row. If the parity ratio, alignment angle, and qu
 
 A forward prediction independent of current anomaly fits: the non-orientable identification should produce correlated parity asymmetry ($R < 1$) in $TE$ and $EE$ spectra with the same sign as $TT$, and the preferred axis should be consistent across all three, testable with LiteBIRD and CMB-S4.
 
-The primary external test is Euclid DR1 (October 2026), which probes the companion prediction $a_0(z) \propto H(z)$. If the broader framework falls, this paper falls with it.
+The primary external test is Euclid DR1 (October 2026), which probes the companion predictions: $\Lambda$ constant (*Phantom Dark Energy: Template Artifact in Static Space*) and $a_0(z) \propto H(z)$ (*Resolving Early Galaxy Masses: Epoch-Dependent Acceleration in Static Space*). The same static $S^3$, the same observer position, the same phase clock. If the broader framework falls, this paper falls with it.
 
 ---
 
