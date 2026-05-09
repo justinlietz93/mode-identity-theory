@@ -19,7 +19,7 @@ Measurements of the Hubble constant have split into two persistent camps: the co
 
 ## I. The Tension
 
-The Planck satellite infers $H_0 = 67.4 \pm 0.5$ km/s/Mpc from the cosmic microwave background at $z \approx 1100$. The SH0ES collaboration measures $H_0 = 73.0 \pm 1.0$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $z \approx 0$. The gap is ~9%, persistent across independent local methods: Cepheids, tip of the red giant branch, surface brightness fluctuations, and megamasers.
+The Planck CMB measurement gives $H_0 = 67.4 \pm 0.5$ km/s/Mpc at $z \approx 1100$. The SH0ES collaboration measures $H_0 = 73.0 \pm 1.0$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $z \approx 0$. The gap is ~9%, persistent across independent local methods: Cepheids, tip of the red giant branch, surface brightness fluctuations, and megamasers. The MIT phase-clock best-fit to Pantheon+ and DESI DR2 BAO independently recovers $H_0 \approx 67.4$ km/s/Mpc, confirming the CMB value as the bare-well measurement.
 
 Systematic explanations have been scrutinized for a decade. The tension survives. It appears to be real.
 
@@ -97,7 +97,7 @@ The ratio:
 
 $$\frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084$$
 
-Planck gives $H_0 = 67.4$ km/s/Mpc at the bare well. Multiply by the ratio:
+The bare well gives $H_0 = 67.4$ km/s/Mpc (the MIT phase-clock best-fit, consistent with Planck). Multiply by the ratio:
 
 $$67.4 \times 1.084 \approx 73 \;\text{km/s/Mpc}$$
 
