@@ -33,7 +33,7 @@ Two classes of H₀ measurement persistently disagree:
 | CMB (Planck) | 67.4 ± 0.5 | Global; unphased |
 | Local distance ladder (SH0ES) | 73.0 ± 1.0 | Inside disk galaxies; phased |
 
-MIT resolves this as a phase-field effect. The standing wave $\Psi = \cos(t/2)$ on $S^3/2I$ is sampled at Fibonacci wells on the 120-domain. The H₀ well sits at $\Theta = 34/120$ with $C(34/120) = 1.208$. Inside a disk galaxy, the local gravitational potential shifts the sampling position by one bosonic step (2/120) to $\Theta = 36/120$ with $C(36/120) = 1.309$. The ratio:
+MIT resolves this as a phase-field effect. The standing wave $\Psi = \cos(t/2)$ on the temporal edge is sampled at Fibonacci wells on the 120-domain of $S^3/2I$. The H₀ well sits at $\Theta = 34/120$ with $C(34/120) = 1.208$. Inside a disk galaxy, the local gravitational potential shifts the sampling position by one bosonic step (2/120) to $\Theta = 36/120$ with $C(36/120) = 1.309$. The ratio:
 
 $$\frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084$$
 
@@ -47,7 +47,9 @@ The phase field is active within a coherence scale:
 
 $$L_f = \frac{v_c^2}{a_0}$$
 
-For the Milky Way ($v_c \approx 220$ km/s, $a_0 \approx 1.2 \times 10^{-10}$ m/s²): $L_f \approx 13$ kpc.
+where $a_0 = a_0(z{=}0) \approx 1.2 \times 10^{-10}$ m/s² is the local edge-mode value. The acceleration scale evolves with epoch ($a_0(z) = a_0(0) \times H(z)/H_0$), but all SPARC galaxies are at $z \approx 0$, so the local value applies throughout this analysis.
+
+For the Milky Way ($v_c \approx 220$ km/s): $L_f \approx 13$ kpc.
 
 The phase field activates when the trigger index exceeds a critical threshold:
 
@@ -200,7 +202,7 @@ The key advantage of the test. If it fails, we know which piece broke:
 
 ### McGaugh's Radial Acceleration Relation
 
-McGaugh et al. (2016) established a tight correlation between observed and baryonic acceleration in galaxies (the RAR). MIT's phase field mechanism reproduces the RAR as a consequence: inside $L_f$, the shifted sampling position mimics additional mass. The RAR is real but is a geometric effect, not a modified force law.
+McGaugh et al. (2016) established a tight correlation between observed and baryonic acceleration in galaxies (the RAR). If the phase field mechanism is correct, it should reproduce the RAR as a consequence: inside $L_f$, the shifted sampling position would mimic additional mass, producing the observed tight correlation between baryonic and observed acceleration. This reproduction is MOTIVATED but not yet derived from the phase field equations.
 
 Key distinction: the RAR alone does not predict H₀ bimodality. MIT does. This is the additional prediction that separates the frameworks.
 
@@ -212,7 +214,7 @@ Key distinction: MOND modifies the force law. MIT does not. Gravity remains inve
 
 ### ΛCDM + Dark Matter Particles
 
-ΛCDM fits rotation curves by adding a dark matter halo. MIT fits them through the Gauss-Codazzi 3/2 curvature conversion from the embedded Möbius surface. Both reproduce the data. The discriminant is direct detection: MIT predicts permanent null. Every null result from LUX, XENON, PandaX, SuperCDMS, and future experiments is consistent with MIT and increasingly difficult for particle dark matter.
+ΛCDM fits rotation curves by adding a dark matter halo. MIT fits them through the Gauss equation 3/2 curvature conversion from the embedded Möbius surface. Both reproduce the data. The discriminant is direct detection: MIT predicts permanent null. Every null result from LUX, XENON, PandaX, SuperCDMS, and future experiments is consistent with MIT and increasingly difficult for particle dark matter.
 
 ---
 
