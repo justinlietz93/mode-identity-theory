@@ -4,7 +4,7 @@
 
 # :rainbow: Στοιχεῖα
 
-The cosmological anomalies resolved at the far end of the universe occur at the same boundary beneath our feet. The same geometry confines gauge fields, returns $\alpha$ to the first step of $\Lambda$, and accounts gravity as the exchange rate. The same curvature that protects the zeros allows anything to exist at all.
+The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises the domain into 120 positions; three flat connections give three generations; positive curvature confines gauge fields. The three prime stabilisers $(2,3,5)$ assign color, spin, and electroweak identity. Gauge couplings are the fine structure of $\Lambda$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
 
 ---
 
