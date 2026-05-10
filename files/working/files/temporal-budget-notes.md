@@ -168,7 +168,7 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 | Connection | Content |
 |---|---|
 | [Spatial budget $u_0^2 + J^2 = 1$](../../cosmos/files/cosmological-constant.md) | The temporal budget is its twin. Spatial budget sets $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$; temporal budget sets the Waltz clock. Same $3/2$ in both. |
-| [Sector $\mathcal{A}$ eigenvalue](../../cosmos/files/ground-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
+| [Sector $\mathcal{A}$ eigenvalue](../../framework/ground-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
 | [Hubble tension](../../cosmos/files/hubble-tension.md) | The Waltz clock $H \propto S^{-3/2}$ is the mechanism underlying the early/late discrete snap. |
 | [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md) | Same sampling-operation picture. Redshift as phase ratio + energy as resolution amplitude should unify into a single account. Open. |
 | Λcos paper (PRD, submitted May 2026) | Presents Model D+Λ as a standalone phenomenological model ("Λcos") without framework language. Joint SN+BAO constraint: $s_0 < 0.19$ (95% CL). Template bias demonstrated: CPL/BA/JBP produce phantom crossings from non-phantom input. Clock exponent empirically validated. First peer-reviewed constraint on the budget phase parameter. |

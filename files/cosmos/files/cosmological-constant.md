@@ -140,7 +140,7 @@ $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2$$
 
 Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: the pole of the covering $S^2$, which becomes a cone point on the Möbius quotient.
 
-### B. [The Eigenvalue](ground-eigenvalue.md)
+### B. [The Eigenvalue](../../framework/ground-eigenvalue.md)
 
 For the metric $ds^2 = dy^2 + f(y)^2\,dw^2$ with $f = \cos(y/R)$, the Laplace-Beltrami operator on $y$-dependent functions is:
 
