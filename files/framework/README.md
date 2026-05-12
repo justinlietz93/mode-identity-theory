@@ -95,7 +95,9 @@ The chronon and standing wave period operate in the phase parameter $t \in [0, 4
 
 ### The Observable Domain
 
-The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral group $2I$, with $|2I| = 120$. The discrete subgroups of SU(2) $\cong S^3$ are classified: cyclic and binary dihedral families (infinite, parameterized by $n$) and three exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). The mode spectrum requires the finest discrete partition compatible with $S^3$; $2I$ is selected as the largest exceptional discrete subgroup, giving maximum resolution.
+The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral group $2I$, with $|2I| = 120$. The discrete subgroups of SU(2) $\cong S^3$ are classified: open families (cyclic $Z_n$ and binary dihedral $2D_n$, parameterized by $n$) and three closed exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). 
+
+Open families require external choice of $n$ and are excluded by the framework's input-minimization: every free parameter is a violation of the foundation. Among the closed exceptional cases, $2I$ is terminal; largest in order and maximal under the McKay correspondence ($2I \leftrightarrow E_8$, the largest exceptional Lie algebra). The selection is forced by the framework's own principle.
 
 Four auxiliary paths converge on this number (three independent):
 1. Group theory of $S^3$ gives $|2I| = 120$ directly
