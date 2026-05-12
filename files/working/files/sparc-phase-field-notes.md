@@ -125,13 +125,19 @@ Every galaxy with a flat rotation curve should satisfy $\mathcal{T}/\mathcal{T}_
 
 The radius at which gravitational behavior transitions from Newtonian to "anomalous" (the MOND transition) should correlate with $L_f = v_c^2/a_0$. For each SPARC galaxy, identify the radius $r_t$ where observed acceleration crosses $a_0$. Plot $r_t$ against $L_f$. Prediction: linear correlation with slope ≈ 1.
 
+### Flat-curve onset radius tracks L_f
+
+A second observable independent of $r_t$: define $R_\text{flat}$ as the radius where the rotation curve first reaches its flat value. Plot $R_\text{flat}$ against $L_f$ for each galaxy. Prediction: linear correlation. The two correlations probe different physics. $r_t$ marks the onset of anomalous acceleration; $R_\text{flat}$ marks the onset of curve flatness. These are not the same radius in every galaxy. Agreement of both with $L_f$ is a stronger test than either alone.
+
 ### Dwarf galaxies without flat curves
 
 Galaxies with rising rotation curves (no flat region) may fail to cross the threshold and would be unphased, predicting no H₀ shift in their environment. Identify these galaxies in SPARC; check if their environmental H₀ measurements differ from disk galaxies.
 
-### No continuous spread
+### No continuous spread (forward-looking; not testable with SPARC alone)
 
-H₀ measurements should cluster in two populations (67 and 73), not form a continuous distribution correlated with $v_c$ or $L_f$. If H₀ varied continuously with $v_c$, you would see a gradient. MIT predicts binary: inside $L_f$ = shifted, outside = unshifted. No intermediate values.
+H₀ measurements at the per-galaxy level should cluster in two populations (CMB-like or SH0ES-like), not form a continuous distribution correlated with $v_c$ or $L_f$. MIT predicts binary: inside $L_f$ = shifted, outside = unshifted. No intermediate values.
+
+SPARC does not provide per-galaxy H₀ measurements. SH0ES gives one aggregate H₀ across multiple Cepheid hosts, not a per-galaxy distribution. Verifying this prediction requires per-host H₀ estimates from forthcoming JWST Cepheid programs, TRGB calibrators, or megamaser distances. Registered here as a prediction; verification awaits future data.
 
 ---
 
@@ -157,7 +163,11 @@ And the baryonic (Newtonian) acceleration from the mass model:
 
 $$g_\text{bar}(r) = \frac{v_\text{bar}(r)^2}{r}$$
 
-The transition radius $r_t$ is where $g_\text{obs}$ begins to exceed $g_\text{bar}$ systematically, or equivalently where $g_\text{obs}$ crosses $a_0$.
+**Operational algorithm for $r_t$.** Define $r_t$ as the smallest radius such that $g_\text{obs}(r)/g_\text{bar}(r) \geq 1.2$ for all measured points at $r \geq r_t$. The 1.2 threshold ensures the crossing reflects systematic divergence rather than pointwise scatter from bumpy rotation curves. The same algorithm applies to every galaxy in the sample without per-galaxy adjustment. Galaxies where no such radius exists within the measured range are flagged and counted as a separate sub-population; they represent a sample-selection question, not a prediction failure.
+
+### Identifying R_flat
+
+Define $R_\text{flat}$ as the smallest radius such that $|v(r) - v_c|/v_c \leq 0.05$ for all measured points at $r \geq R_\text{flat}$, where $v_c$ is the flat-region velocity from the SPARC catalog. The 5% tolerance accounts for measurement scatter within the flat region. Apply uniformly to all galaxies.
 
 ### Correlation analysis
 
@@ -170,10 +180,10 @@ The transition radius $r_t$ is where $g_\text{obs}$ begins to exceed $g_\text{ba
 ```
 T_c = 2 * xi * v_c**2 / c**2
 T = T_c / xi  # for flat rotation curves
-ratio = T / T_c  # should be ≈ 2.2 for all flat-curve galaxies
+ratio = T / T_c  # predicted ≈ 2.2 for all flat-curve galaxies
 ```
 
-Verify ratio > 1 for all flat-curve galaxies. Identify any exceptions.
+Pre-registered acceptance: among quality-filtered flat-curve galaxies (quality flag 1 or 2, inclination ≥ 30°), no more than 5% may fall below $\mathcal{T}/\mathcal{T}_c = 1$. The 5% margin accounts for SPARC measurement scatter (inclination errors, asymmetric rotation curves, distance uncertainties propagating to $v_c$). If more than 5% fall below threshold, the closure identity fails.
 
 ### Binary vs. continuous
 
@@ -192,9 +202,10 @@ The key advantage of the test. If it fails, we know which piece broke:
 |---|---|---|
 | $r_t$ does not correlate with $L_f$ | $L_f = v_c^2/a_0$ is wrong | Phase field coherence scale is incorrect |
 | Threshold not universally crossed | Closure identity fails | $\mathcal{T}_c$ formulation or $\xi$ value is wrong |
-| H₀ varies continuously with $v_c$ | Binary response is wrong | Phase field is graded, not snapping |
 | Scatter correlates with metallicity or density | Environmental variable dominates | Phase field is not the primary mechanism |
 | $r_t$ correlates with $L_f$ but with wrong slope | $a_0$ value or formula structure is off | Specific coefficient needs correction |
+
+The H₀ binary-vs-continuous failure mode is not in this table because SPARC does not provide the data to test it. That failure mode is registered in §IV for future per-galaxy H₀ datasets.
 
 ---
 
@@ -210,7 +221,11 @@ Key distinction: the RAR alone does not predict H₀ bimodality. MIT does. This 
 
 Milgrom (1983) identified $a_0$ as a fundamental acceleration scale. MIT derives $a_0$ from the scaling law: $a_0/a_P = C(13/120) \times (\sqrt{\Omega_H})^{-1}$. The value is not fitted. The coincidence $a_0 \approx cH_0$ is explained: both are edge modes on the standing wave, and their ratio $C(13/120)/C(34/120) = 0.184$ is fixed by the topology.
 
-Key distinction: MOND modifies the force law. MIT does not. Gravity remains inverse-square everywhere. The "missing mass" is a curvature conversion, not a force modification. Recent pairwise cluster data (Gallardo et al., PRL 136, 2026) confirms inverse-square at cluster scales, consistent with MIT, inconsistent with MOND.
+The structural distinction: MOND modifies the force law. MIT keeps gravity inverse-square everywhere. The "missing mass" inside galaxies is a curvature conversion from the embedded Möbius surface through the Gauss equation 3/2 factor. Inside the coherence scale $L_f$, the shifted sampling position on the bosonic grid ($\Theta = 34/120 \to 36/120$) mimics additional mass while leaving the force law intact.
+
+This distinction has a sharp observational discriminant at cluster scales. MOND requires deviations from inverse-square gravity at low accelerations; MIT predicts inverse-square is exact at all scales. The Gallardo et al. (2026) pairwise kinematic Sunyaev-Zel'dovich analysis with DESI and Planck (PRL 136, 151002) confirms cluster pairwise dynamics consistent with Newtonian inverse-square gravity at cluster scales. Result favors MIT.
+
+This is the strongest discriminator the current paper can leverage: the phase field reproduces the radial acceleration relation without modifying gravity, while MOND requires a force law change that recent cluster data disfavors. Full development of this argument belongs in the paper-level write-up as a stand-alone subsection.
 
 ### ΛCDM + Dark Matter Particles
 
@@ -224,12 +239,14 @@ Key distinction: MOND modifies the force law. MIT does not. Gravity remains inve
 |---|---|
 | Download SPARC data | Week 1 |
 | Compute $L_f$ for all galaxies | Week 1 |
-| Identify transition radii | Week 2 |
+| Identify $r_t$ and $R_\text{flat}$ | Week 2 |
 | Correlation analysis | Week 2–3 |
 | Write results | Week 3–4 |
 | Submit | Before Euclid DR1 (October 2026) |
 
 Target journal: MNRAS Letters or ApJ Letters.
+
+Budget note: operational algorithms (§V) apply uniformly across the sample, removing the need for per-galaxy judgment calls on radius identification. The time-intensive step is verifying algorithm applicability for galaxies with noisy outer rotation curves or uncertain mass models (expected ~20% of the sample). These flagged cases are counted and documented as a separate sub-population.
 
 ---
 
@@ -253,10 +270,6 @@ If all four hold across 175 galaxies, the phase field mechanism is confirmed ind
 - Milgrom, M. (1983). A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis. ApJ, 270, 365.
 - Gallardo, P. A., et al. (2026). Pairwise kinematic Sunyaev-Zel'dovich effect with DESI galaxies and Planck. PRL, 136, 151002.
 - Shatto, B. (2026). Mode Identity Theory engine file. github.com/dmobius3/mode-identity-theory
-
----
-
-*Topology holds. Wave is. Particle samples.*
 
 ---
 
