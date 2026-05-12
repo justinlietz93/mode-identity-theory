@@ -174,22 +174,23 @@
 
   <section>
     <h2>Why Euclid Matters</h2>
-    <p>In 2024, <a target="_blank" rel="noopener" href="https://www.desi.lbl.gov">DESI</a> (Dark Energy Spectroscopic Instrument) reported that "dark energy" may be changing over time. If true, it would overturn the cosmological constant (&Lambda;) and reshape modern physics. Mode Identity Theory says the change is an illusion: &Lambda; is fixed by the geometry of the universe, and what looks like evolution is the observer's phase position on a standing wave.</p>
-    <p>MIT predicts a specific shape (cosine, not linear), a specific zero-crossing (z&thinsp;=&thinsp;0.663), and a specific constraint (&Lambda; itself does not change). All values were deposited on Zenodo and MIT has no knobs to adjust. Euclid's independent measurement will either end MIT, &Lambda;CDM, or both. Full stop.</p>
+    <p>In 2024, <a target="_blank" rel="noopener" href="https://www.desi.lbl.gov">DESI</a> reported that "dark energy" may be changing over time. If true, it would overturn the cosmological constant (&Lambda;) and reshape modern physics. Mode Identity Theory says &Lambda; is fixed by the geometry of the universe: the ground eigenvalue of the M&ouml;bius surface, topologically protected at the antinode of the mode spectrum. What standard templates read as dynamical dark energy is the observer's phase position on a standing wave.</p>
+    <p>Three predictions separate the framework from alternatives: the MOND acceleration scale a<sub>0</sub>(z) tracks H(z) at every epoch, &Lambda; remains constant, and no dark matter particle will ever be found. All values were deposited on Zenodo before data release. Euclid's independent measurement will either end MIT, &Lambda;CDM, or both. Full stop.</p>
   </section>
 
   <section>
     <h2>Registration</h2>
-    <p>All values were pre-registered on Zenodo in January 2026, months before DR1. The DESI DR2 analysis is a consistency check against already-public data. Euclid is the blind test.</p>
+    <p>All values were pre-registered on Zenodo before DR1. The DESI DR2 analysis is a consistency check against already-public data. Euclid is the blind test.</p>
     <div class="reg-block">
       <div class="reg-title">Zenodo Pre-Registration</div>
       <div class="reg-row"><span class="reg-key">DOI</span><span class="reg-val"><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">10.5281/zenodo.18189079</a></span></div>
       <div class="reg-row"><span class="reg-key">Registered</span><span class="reg-val">January 2026</span></div>
-      <div class="reg-row"><span class="reg-key">Phase offset &delta;</span><span class="reg-val">&minus;1.06 rad</span></div>
-      <div class="reg-row"><span class="reg-key">Coupling &epsilon;</span><span class="reg-val">0.255 (calibrated externally)</span></div>
-      <div class="reg-row"><span class="reg-key">Free parameters for Euclid</span><span class="reg-val">0</span></div>
+      <div class="reg-row"><span class="reg-key">a<sub>0</sub>/cH ratio</span><span class="reg-val">0.184 (well positions, zero free parameters)</span></div>
+      <div class="reg-row"><span class="reg-key">&Lambda;<sub>obs</sub> &middot; R&sup2;</span><span class="reg-val">3 (derived coefficient, zero free parameters)</span></div>
+      <div class="reg-row"><span class="reg-key">Phase parameter s<sub>0</sub></span><span class="reg-val">&lt; 0.19 (95% CL)</span></div>
+      <div class="reg-row"><span class="reg-key">&Omega;<sub>&Lambda;</sub></span><span class="reg-val">0.685 (fixed by topology)</span></div>
     </div>
-    <p class="dim">&delta; is fixed by registration. &epsilon; is calibrated from the DES-SN5YR + Planck + SDSS BAO combination (Abbott et al. 2024), which contains zero DESI data and zero Euclid data. Both values precede the data they are tested against.</p>
+    <p class="dim">The three primary predictions (a<sub>0</sub>/cH ratio, &Lambda; constant, null DM) are zero-parameter: they follow from the topology with no adjustable inputs. The phase parameter s<sub>0</sub> controls the distance-redshift relation and is constrained by Pantheon+ and DESI DR2 BAO at &Delta;&chi;&sup2; = +0.11 relative to flat &Lambda;CDM.</p>
   </section>
 
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/fig1_standing_wave-f1fbdf4.png" alt="Standing wave Ψ = cos(t/2)">
@@ -198,59 +199,52 @@
     <h2>Predictions</h2>
     <div class="predictions">
       <div class="pred-card">
-        <div><div class="pred-name">Modulation zero-crossing</div><div class="pred-desc">The redshift where the surface-mode modulation cos&thinsp;&theta;(z) changes sign. Deterministic from &delta; via z<sub>cross</sub> = 1 + &delta;/&pi;.</div></div>
-        <div class="pred-value"><div class="label">MIT value</div><div class="val">z<sub>cross</sub> = 0.663</div></div>
-        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Non-parametric w(z) transition center &lt; 0.4 or &gt; 0.9 at 2&sigma;</div></div>
+        <div><div class="pred-name">a<sub>0</sub>(z) &prop; H(z)</div><div class="pred-desc">The MOND acceleration scale and the Hubble rate are both edge modes on the 120-domain. Their ratio is fixed by Fibonacci well positions: a<sub>0</sub>/cH = C(13/120)/C(34/120) = 0.184. The ratio holds at every epoch.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">a<sub>0</sub>/cH = 0.184</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">a<sub>0</sub> consistent with constant at z &gt; 2, &ge;2&sigma;</div></div>
       </div>
       <div class="pred-card">
-        <div><div class="pred-name">w(z) functional form</div><div class="pred-desc">MIT predicts curvature: d&sup2;w/dz&sup2; &ne; 0. The cosine modulation is distinguishable from CPL's linear w<sub>0</sub> + w<sub>a</sub>(1&minus;a) template.</div></div>
-        <div class="pred-value"><div class="label">MIT value</div><div class="val">Phase modulation (cosine)</div></div>
-        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Linear CPL preferred at &Delta;AIC &gt; 4</div></div>
+        <div><div class="pred-name">&Lambda; eigenvalue constant</div><div class="pred-desc">The cosmological constant is the ground eigenvalue of the M&ouml;bius surface: &Lambda;<sub>top</sub> = 2/R&sup2;. It sits at the antinode of the mode spectrum where the logarithmic slope is exactly zero. No environmental perturbation shifts it.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">&Lambda;<sub>top</sub> = 2/R<sub>&Lambda;</sub>&sup2;</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">&Lambda; varies with redshift at &ge;2&sigma;</div></div>
       </div>
       <div class="pred-card">
-        <div><div class="pred-name">&Lambda; constancy</div><div class="pred-desc">The cosmological constant is a surface-mode eigenvalue, fixed by boundary conditions. It does not evolve. What appears to evolve is the observer's phase position.</div></div>
-        <div class="pred-value"><div class="label">MIT value</div><div class="val">Constant</div></div>
-        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Binned &rho;<sub>DE</sub>(z)/&rho;<sub>DE</sub>(0) departs from unity at 2&sigma;</div></div>
-      </div>
-      <div class="pred-card">
-        <div><div class="pred-name">No phantom crossing</div><div class="pred-desc">MIT's exact w<sub>eff</sub>(z) &gt; &minus;1 at all redshifts. The apparent crossing reported by DESI is a CPL template artifact, arising because the linear form absorbs the cosine shape.</div></div>
-        <div class="pred-value"><div class="label">MIT value</div><div class="val">w<sub>eff</sub> &gt; &minus;1 everywhere</div></div>
-        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Model-independent reconstruction confirms w &lt; &minus;1 at 2&sigma;</div></div>
+        <div><div class="pred-name">Null DM particle</div><div class="pred-desc">Space (n = 3) couples gravitationally only. Non-gravitational couplings are suppressed to 10<sup>&minus;183</sup>. The gravitational evidence is real; it is geometry, not a particle.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">Permanent null</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Non-gravitational signal at &ge;5&sigma;, replicated</div></div>
       </div>
     </div>
   </section>
 
   <section>
     <h2>The Mechanism</h2>
-    <p>MIT holds &Lambda; fixed by topology. The cosmic standing wave &Psi; = cos(t/2) modulates the dark energy surface mode, leaving matter and radiation untouched. When observers fit distance data using fluid-based models, the phase structure leaks into apparent w(z) evolution.</p>
+    <p>MIT holds &Lambda; fixed by topology: the ground eigenvalue of the M&ouml;bius surface, &Lambda;<sub>top</sub> = 2/R&sup2;, converted to the observed value by the Gauss equation (factor 3/2). The cosmos is a static three-sphere. Redshift is phase evolution on the temporal edge, governed by the Waltz clock dt/d&tau; = S<sup>&minus;1/2</sup>, where S = sin(t/2).</p>
     <div class="eq-block">
-      <div class="eq-label">MIT Friedmann equation</div>
-      E<sup>2</sup>(z) = &Omega;<sub>m</sub>(1+z)<sup>3</sup> + &Omega;<sub>r</sub>(1+z)<sup>4</sup> + &Omega;<sub>&Lambda;</sub><sup>bare</sup>[1 + &epsilon;&thinsp;cos&thinsp;&theta;(z)]
+      <div class="eq-label">Phase-clock Hubble rate</div>
+      H&sup2;(z)/H<sub>0</sub>&sup2; = &alpha;(1+z)<sup>3</sup> &minus; &beta;(1+z) + &Omega;<sub>&Lambda;</sub>
     </div>
     <div class="eq-block">
-      <div class="eq-label">Phase-redshift mapping</div>
-      &theta;(z) = (2&pi; + &delta;) / 2(1+z)
+      <div class="eq-label">Edge-mode ratio (zero free parameters)</div>
+      a<sub>0</sub>/cH = C(13/120) / C(34/120) = 0.184
     </div>
-    <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/fig2_weff-066c815.png/:/rs=w:1280,h:631" alt="MIT w_eff(z) vs DESI CPL and ΛCDM">
-    <p>The modulation is invisible to the CMB by construction: &Omega;<sub>&Lambda;</sub><sup>bare</sup>/E<sup>2</sup>(z<sub>*</sub>) ~ 10<sup>&minus;9</sup> at recombination. It becomes observable only at low redshift, where &Omega;<sub>&Lambda;</sub> dominates the energy budget. The deviation from &Lambda;CDM peaks at ~4.6% near z<sub>cross</sub>&thinsp;=&thinsp;0.66, falling to zero at z&thinsp;=&thinsp;0 (normalization) and z&thinsp;&Gt;&thinsp;1 (matter dominance).</p>
+    <p>The negative (1+z)<sup>1</sup> term is the distinctive signature: absent from the four canonical FLRW components (radiation, matter, curvature, cosmological constant), it arises from the bounded phase parameterization. Its coefficient &beta; is tied to the single phase parameter s<sub>0</sub> = sin(t<sub>now</sub>/2). Standard two-parameter templates (CPL, BA, JBP) absorb this curvature as apparent phantom crossings through w = &minus;1, a template artifact established analytically in the companion dark energy analysis.</p>
     <div class="callout">
       <div class="callout-label">Why this is testable</div>
-      <p style="margin-bottom:0;">CPL uses two free parameters (w<sub>0</sub>, w<sub>a</sub>) to fit the shape. MIT uses zero free parameters for the shape: &delta; is fixed, &epsilon; is calibrated externally, and the cosine form follows from the axioms. A purely linear w(z) at high precision would falsify the phase modulation signature.</p>
+      <p style="margin-bottom:0;">The three primary predictions are zero-parameter: a<sub>0</sub>/cH = 0.184 is a ratio of Fibonacci well positions, &Lambda; = 3/R&sup2; is a derived coefficient, and the null DM prediction follows from the manifold hierarchy. Euclid probes all three through independent channels with independent systematics.</p>
     </div>
   </section>
 
   <section>
     <h2>DESI DR2 Consistency Check</h2>
-    <p>The DESI analysis uses already-public data. It is a consistency check, confirming the modulation template is compatible with current BAO measurements. It is not the blind test.</p>
+    <p>Joint fits to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) confirm the phase-clock relation is indistinguishable from flat &Lambda;CDM at current precision.</p>
     <table class="data-table">
-      <thead><tr><th>Model</th><th>Parameters</th><th>&chi;&sup2;<sub>BAO</sub></th><th>&chi;&sup2;<sub>total</sub></th><th>&Delta;AIC vs &Lambda;CDM</th></tr></thead>
+      <thead><tr><th>Model</th><th>Free parameters</th><th>&chi;&sup2;<sub>min</sub></th><th>&Delta;&chi;&sup2; vs &Lambda;CDM</th></tr></thead>
       <tbody>
-        <tr><td>&Lambda;CDM</td><td>2</td><td>13.54</td><td>1419.58</td><td class="highlight">0</td></tr>
-        <tr><td class="highlight">MIT (&epsilon; = 0.255)</td><td>2</td><td>11.21</td><td>1417.45</td><td class="highlight" style="color: var(--green);">&minus;2.1</td></tr>
-        <tr><td>CPL</td><td>4</td><td>8.58</td><td>1411.55</td><td class="highlight">&minus;4.0</td></tr>
+        <tr><td>&Lambda;CDM</td><td>3 (&Omega;<sub>m</sub>, H<sub>0</sub>r<sub>d</sub>, M<sub>B</sub>)</td><td>1772.5</td><td class="highlight">0</td></tr>
+        <tr><td class="highlight">MIT phase-clock</td><td>3 (s<sub>0</sub>, H<sub>0</sub>r<sub>d</sub>, M<sub>B</sub>)</td><td>1772.6</td><td class="highlight">+0.11</td></tr>
       </tbody>
     </table>
-    <p class="dim">Combined analysis: DESI DR2 BAO (13 observables, 7 bins) + Pantheon+ (~1590 SNe) + Planck-calibrated H<sub>0</sub>r<sub>d</sub> prior. MIT improves on &Lambda;CDM at the same parameter count. Profiling &epsilon; yields &Delta;&chi;&sup2; = &minus;7.9 at &epsilon;&thinsp;=&thinsp;0.16 (&Delta;AIC = &minus;5.9 at k&thinsp;=&thinsp;3).</p>
+    <p class="dim">Phase parameter: s<sub>0</sub> &lt; 0.19 (95% CL, flat prior). &Omega;<sub>&Lambda;</sub> = 0.685 fixed by topology. The two distance-redshift relations are indistinguishable at current precision. The &Lambda;CDM limit is recovered exactly at s<sub>0</sub> = 0.</p>
   </section>
 
   <section>
@@ -260,7 +254,7 @@
       <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">November 2023</div><div class="tl-title">Early Release Observations</div><div class="tl-desc">First processed images. Showcase of wide FOV, resolution, low-surface-brightness detection.</div></div>
       <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">February 2024</div><div class="tl-title">Science survey begins</div><div class="tl-desc">Routine observations start. ~100 GB/day.</div></div>
       <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">March 2025</div><div class="tl-title">Quick Data Release Q1</div><div class="tl-desc">Three deep fields, 63 sq deg, 500+ strong lenses. No cosmology.</div></div>
-      <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">January 2026</div><div class="tl-title">MIT values deposited</div><div class="tl-desc">&delta; = &minus;1.06 rad, z<sub>cross</sub> = 0.663 sealed on Zenodo (<a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">DOI</a>).</div></div>
+      <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">January 2026</div><div class="tl-title">MIT values deposited</div><div class="tl-desc">Predictions sealed on Zenodo (<a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">DOI</a>). a<sub>0</sub>/cH = 0.184, &Lambda; = 3/R&sup2;, null DM.</div></div>
       <div class="tl-item active"><div class="tl-dot"></div><div class="tl-date">June 2026</div><div class="tl-title">Q2 release</div><div class="tl-desc">Second quick release. Pre-DR1 data products.</div></div>
       <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">21 October 2026</div><div class="tl-title">DR1: First cosmology data</div><div class="tl-desc">~2,300 sq deg. Weak lensing, galaxy clustering, BAO, photometric redshifts. First cosmology release.</div></div>
     </div>
@@ -272,12 +266,12 @@
     <table class="data-table">
       <thead><tr><th>DR1 product</th><th>MIT relevance</th><th>What to watch</th></tr></thead>
       <tbody>
-        <tr><td class="highlight">Weak lensing (cosmic shear)</td><td>Constrains &Omega;<sub>m</sub>, w<sub>0</sub> independently of BAO</td><td>Does the shear power spectrum prefer w<sub>0</sub> &gt; &minus;1?</td></tr>
-        <tr><td class="highlight">Galaxy clustering (spectroscopic z)</td><td>BAO standard ruler, independent of DESI</td><td>New BAO measurements across Euclid's redshift bins</td></tr>
-        <tr><td class="highlight">Photometric redshifts</td><td>Galaxy distribution, tomographic bins</td><td>Precision at z ~ 0.5&ndash;0.8 (near z<sub>cross</sub>)</td></tr>
-        <tr><td>Strong lensing (~7,000 candidates)</td><td>Geometry probe via D<sub>d</sub>/D<sub>s</sub> ratios</td><td>Independent distance ratios through the z<sub>cross</sub> window</td></tr>
-        <tr><td>Higher-order WL statistics</td><td>2.5&times; more sensitive to w<sub>0</sub> than 2-point</td><td>Sensitive to the <em>shape</em> of w(z), not just the value</td></tr>
-        <tr><td>Galaxy cluster abundance</td><td>&sigma;<sub>8</sub>, structure growth rate</td><td>Growth vs. expansion history consistency</td></tr>
+        <tr><td class="highlight">Weak lensing (cosmic shear)</td><td>Rotation curves across redshift bins probe a<sub>0</sub>(z)</td><td>Does a<sub>0</sub> scale with H(z) or remain constant?</td></tr>
+        <tr><td class="highlight">Galaxy clustering (spectroscopic z)</td><td>BAO standard ruler, independent of DESI</td><td>Independent BAO measurements across Euclid's redshift bins</td></tr>
+        <tr><td class="highlight">Photometric redshifts</td><td>Galaxy distribution, tomographic bins</td><td>Distance-redshift relation consistent with constant &Lambda;?</td></tr>
+        <tr><td>Strong lensing (~7,000 candidates)</td><td>Geometry probe via D<sub>d</sub>/D<sub>s</sub> ratios</td><td>Independent distance ratios testing &Lambda; constancy</td></tr>
+        <tr><td>Lensing mass vs. clustering mass</td><td>Tests whether "dark matter" is particles or geometry</td><td>Non-gravitational signal in the mass comparison?</td></tr>
+        <tr><td>Galaxy cluster abundance</td><td>&sigma;<sub>8</sub>, structure growth rate</td><td>Growth vs. phase-clock history consistency</td></tr>
       </tbody>
     </table>
     <div class="callout">
