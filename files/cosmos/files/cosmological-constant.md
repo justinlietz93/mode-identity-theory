@@ -6,7 +6,7 @@
 
 [![Cosmological Constant](https://img.youtube.com/vi/hN8iArWssNU/mqdefault.jpg)](https://www.youtube.com/watch?v=hN8iArWssNU)
 
-Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed 'expansion,' he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving 'expansion.' Einstein was right the first time, for reasons then unknown.
+Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: Λ is set by the ground-mode eigenvalue of the cosmic boundary, a static universe where redshift is phase evolution on the boundary. Einstein was right the first time, for reasons then unknown.
 
 The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss equation under totally geodesic embedding and isotropy converts this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
 
@@ -44,7 +44,7 @@ $$\Lambda \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$$
 
 No mechanism assuming simply connected flat topology explains this value. The standard approach begins with a 4D spacetime, writes down field equations, and asks what value of Λ those equations permit. On a simply connected, non-compact spatial background, the answer is: any value, or a divergent one. The problem is upstream. General relativity is local: it describes dynamics on a domain but does not specify the domain itself. 
 
-The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the ground eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are then how observers inside the geometry register that eigenvalue as an expansion rate, not how the eigenvalue is generated.
+The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the ground eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are how observers inside the geometry register that eigenvalue as a phase-clock rate.
 
 ## II. The Topology
 
@@ -330,7 +330,7 @@ This framework provides what the equation leaves undefined: the value of Λ and 
 
 $$H^2 = \Lambda / 3$$
 
-translates the geometric mode into expansion dynamics. General relativity describes dynamics in space; topology specifies the boundary condition. The topology constrains the metric the way a cavity constrains its resonant frequencies: the boundary is logically prior to the vibration. Independent evidence for this priority comes from four CMB observables that follow from the same topology at a single observer position.
+is how observers inside the geometry register that eigenvalue as a phase-clock rate. General relativity describes dynamics in space; topology specifies the boundary condition. The topology constrains the metric the way a cavity constrains its resonant frequencies: the boundary is logically prior to the vibration. Independent evidence for this priority comes from four CMB observables that follow from the same topology at a single observer position.
 
 The standard cosmological constant problem moves Λ to the right-hand side and identifies it with zero-point vacuum energy density. That step is a reinterpretation, not a derivation. Λ appears on the left-hand side multiplying the metric, a geometric property of the domain, not a matter source. 
 
