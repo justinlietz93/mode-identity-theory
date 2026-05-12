@@ -163,7 +163,7 @@ Blind outputs of a fixed structure, checked against observation:
 
 ---
 
-## :crystal_ball: Falsification
+## :crystal_ball: Pre-Registered Euclid DR1 Predictions
 
 Every prediction in the Score table is independently testable. Three are decisive. All values deposited on Zenodo before data release.
 
