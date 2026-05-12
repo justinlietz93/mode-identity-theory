@@ -12,6 +12,8 @@ Research-in-progress across the framework. Ordered by value: items that strength
 
 Publishable results that strengthen the framework's position before October 2026.
 
+---
+
 ### [Phase Field Coherence Scale (SPARC)](./files/sparc-phase-field-notes.md)
 
 **Problem:** The Hubble-tension mechanism predicts a binary phase shift inside a coherence scale $L_f = v_c^2/a_0$, but it has no test outside the cosmological distance ladder. The phase field should also reproduce the Radial Acceleration Relation (McGaugh et al. 2016) as a consequence; reproduction motivated, not derived.
@@ -47,6 +49,8 @@ Publishable results that strengthen the framework's position before October 2026
 ## Foundation
 
 Closing any one of these upgrades everything downstream.
+
+---
 
 ### [Scaling Law Uniqueness](./files/scaling-law-uniqueness.md)
 
@@ -91,6 +95,8 @@ Closing any one of these upgrades everything downstream.
 ## Resolution
 
 Technical gaps with specific paths forward.
+
+---
 
 ### [Black Hole Phase Behavior](./files/black-hole-phase-notes.md)
 
@@ -173,6 +179,8 @@ Technical gaps with specific paths forward.
 ---
 
 ## Waiting on External Data
+
+---
 
 ### $\nu_2$ Mass
 
