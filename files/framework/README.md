@@ -327,36 +327,9 @@ Dimensionless couplings resolve within the hierarchy at the grid level rather th
 
 The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). The fourth rung (spinorial carrier, bosonic target) is structurally closed: it would require reconstructing $\psi$ from $|\psi|^2$, inverting the firing order. Three gauge forces, three rungs, no vacancy to fill.
 
-## Pre-Registered Predictions / Falsification
+---
 
-Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever fire. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
-
-### Primary (any one kills the framework)
-
-| Prediction | MIT value | Falsified if | Euclid channel |
-|---|---|---|---|
-| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
-| Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ | SNe + BAO + lensing in redshift bins |
-| Null DM detection | Permanent null (suppressed to 10<sup>−183</sup>) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
-
-### Secondary (raise or lower credibility)
-
-| Prediction | MIT value | Falsified if |
-|---|---|---|
-| $(1+z)^1$ term in $H^2$ | Negative coefficient tied to $s_0$ | Positive coefficient detected, or magnitude inconsistent with $s_0$ |
-| $w(z)$ diagnostic | $w_\text{eff} > -1$ (fiducial split) | Fiducial split gives $w_\text{eff} < -1$ at $\geq 2\sigma$ |
-| No phantom crossing | w<sub>eff</sub> > −1 everywhere | Model-independent w < −1 at 2σ |
-| H<sub>0</sub> discrete snap | 8.4% shift (67.4 → 73.1) | H<sub>0</sub> distributed continuously across environments |
-| 3/2 Gauss equation | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
-| CMB ℓ<sub>cut</sub> | ~32 | ℓ<sub>cut</sub> outside [15, 50] on reanalysis |
-| Gauge couplings | α 0.5%, α<sub>s</sub> 1.4%, α<sub>W</sub> 0.4% | Any coupling outside 5% under refined Ω<sub>Λ</sub> |
-| Three forces only | Grid ladder exhausted at 3 rungs | Fourth fundamental force or SUSY partners observed |
-| ν floor | μ<sub>Λ</sub> ≈ 2.25 meV | Lightest neutrino mass contradicts at >3σ |
-| Rank 16 entry | ~349 MeV, R<sub>5</sub> std | No particle found, or particle found with wrong quantum numbers |
-
-**[Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/tools/euclid-dr1.html)**
-
-*Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.*
+*Topology holds. Wave is. Particle samples.*
 
 ---
 
