@@ -165,7 +165,7 @@ Blind outputs of a fixed structure, checked against observation:
 
 ## :crystal_ball: Pre-Registered Euclid DR1 Predictions / Falsification
 
-Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational 'dark' signal will ever be found. All values deposited on Zenodo before data release.
+Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no dark matter particle will ever be found. All values deposited on Zenodo before data release.
 
 **:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/tools/euclid-dr1.html)**
 
