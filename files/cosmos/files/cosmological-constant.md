@@ -42,7 +42,9 @@ In Planck units ($\ell_P^2 = \hbar G / c^3$):
 
 $$\Lambda \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$$
 
-No mechanism assuming simply connected flat topology explains this value. The standard approach begins with a 4D spacetime, writes down field equations, and asks what value of Λ those equations permit. On a simply connected, non-compact spatial background, the answer is: any value, or a divergent one. The problem is upstream. General relativity is local: it describes dynamics on a domain but does not specify the domain itself. The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the ground eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are then how observers inside the geometry register that eigenvalue as an expansion rate, not how the eigenvalue is generated.
+No mechanism assuming simply connected flat topology explains this value. The standard approach begins with a 4D spacetime, writes down field equations, and asks what value of Λ those equations permit. On a simply connected, non-compact spatial background, the answer is: any value, or a divergent one. The problem is upstream. General relativity is local: it describes dynamics on a domain but does not specify the domain itself. 
+
+The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the ground eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are then how observers inside the geometry register that eigenvalue as an expansion rate, not how the eigenvalue is generated.
 
 ## II. The Topology
 
