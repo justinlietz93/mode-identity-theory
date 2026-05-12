@@ -2,7 +2,7 @@
 
 ---
 
-# :ocean: The Universe from One Shape
+# :triangular_ruler: The Universe from One Shape
 
 Mode Identity Theory was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was twisted besides Plato after the fact.
 
