@@ -8,7 +8,7 @@ Research-in-progress across the framework. Ordered by value: items that strength
 
 ---
 
-## Pre-Euclid
+## :telescope: Pre-Euclid
 
 Publishable results that strengthen the framework's position before October 2026.
 
@@ -46,7 +46,7 @@ Publishable results that strengthen the framework's position before October 2026
 
 ---
 
-## Foundation
+## :house: Foundation
 
 Closing any one of these upgrades everything downstream.
 
@@ -92,7 +92,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-## Resolution
+## :mag_right: Resolution
 
 Technical gaps with specific paths forward.
 
@@ -178,7 +178,7 @@ Technical gaps with specific paths forward.
 
 ---
 
-## Waiting on External Data
+## :bar_chart: Waiting on External Data
 
 ---
 
