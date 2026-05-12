@@ -161,7 +161,7 @@ The icosahedron carries three stabilizer subgroups. Restricting each irrep to th
 | Face/Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue to space observable |
 | Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by Möbius $\mathbb{Z}_2$ |
 
-The three stabilizer orders are the primes dividing $|2I| = 120$. They generate color, domain, and the electroweak interface. The mass formula computes how heavy. The stabilizer structure says what.
+The three stabilizer orders are the primes dividing $|2I| = 120$. Each physical role is forced by group action on irreps: $Z_3$ uniquely produces the singlet/triplet decomposition (color); $Z_4$ contains the central element $-I$ acting as $\pm 1$ on integer vs half-integer spin irreps (spin-statistics); $Z_5$ uniquely distinguishes the Galois pair $R_1$, $R_2$ (electroweak). The mass formula computes how heavy. The stabilizer structure says what.
 
 ## [The Cosmic Standing Wave](../cosmos/files/dark-energy.md)
 
@@ -213,7 +213,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
-**The scale selection rule.** Edge modes ($n = 1$) reference $\Omega_H(z) = (c/H(z)\ell_P)^2$, which evolves: epoch-dependent observables ($H_0$, $a_0$) live here. Surface and space modes ($n = 2, 3$) reference $\Omega_\Lambda = (R_\Lambda/\ell_P)^2$, which is fixed by the boundary condition: epoch-independent observables ($\Lambda$, null DM) live here. Wrong assignments fail by 61 orders of magnitude.
+**The scale selection rule.** Two observational properties determine the manifold index $n$: where the quantity lives in the topology, and whether it evolves with epoch. Edge quantities (rates on $S^1$) take $n = 1$ and reference $\Omega_H(z) = (c/H(z)\ell_P)^2$, which evolves. Surface quantities (eigenvalues on Möbius) take $n = 2$ and reference $\Omega_\Lambda = (R_\Lambda/\ell_P)^2$, fixed by the boundary condition. Space quantities ($S^3$ curvature only) take $n = 3$, also referencing $\Omega_\Lambda$. Dimensionless couplings bypass manifold dilution with fractional $n$. The rule reads off each quantity's $n$ from its observational character.
 
 ### Selection Rules
 
@@ -284,7 +284,7 @@ The classification index $\mathcal{T}$ compares the gravitational potential drop
 | $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
 | $\Lambda_\text{top}$ | 60/120 | 0 per step | 0% | Topologically protected |
 
-The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift in the locally measured phase-clock rate, resolving the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
+The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift in the locally measured phase-clock rate, resolving the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The shift is the geometric ratio $C(36/120)/C(34/120) = 1.084$, fixed by well positions and independent of the calibration value. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
 
 $a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. Measuring $a_0$ from rotation curves recovers this bare value because the measurement and the threshold are the same object. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
@@ -313,7 +313,7 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 
 **Calibration structure.** $H_0$ serves as the calibration observable that fixes the universal hierarchy normalization $N$ for all edge-mode predictions. The scaling law does not derive $H$ from topology; it uses $H$ to set the scale from which $a_0$ and other edge-mode observables are predicted. The $\approx$ in the scaling law reflects this: the kinematic expression $(c/(H\ell_P))^2$ is the physical identification of $\Omega_H$, and $N = H t_P / C(34/120)$ is the precise normalization calibrated through measurement. The ratio of any two edge-mode $C$ factors is a zero-parameter prediction independent of the calibration. The $\Lambda$ derivation follows an independent calibration path through $R$ (from CMB) and the Laplace-Beltrami eigenvalue.
 
-$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution.
+$\alpha$ and $a_0$ share the Fibonacci index 13 but live on different grids ($\alpha$ at 13/60, $a_0$ at 13/120), reference different scales ($\Omega_\Lambda$ vs $\Omega_H$), and carry different exponents (1/30 vs 1). The shared index reflects Fibonacci stability operating at the topological level for both. Each prediction is independent.
 
 The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes sharing the same calibrated normalization $N$, the ratio holds at every epoch: $a_0(z) \propto H(z)$.
 
@@ -327,7 +327,9 @@ Dimensionless couplings resolve within the hierarchy at the grid level rather th
 | Strong | 60R (bosonic carrier) | 120 (confined fermions) | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | 0.1162 | 0.1179 | 1.4% |
 | Weak | 120 (spinorial carrier) | 120 (fermion transitions) | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% |
 
-The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). The fourth rung (spinorial carrier, bosonic target) is structurally closed: it would require reconstructing $\psi$ from $|\psi|^2$, inverting the firing order. Three gauge forces, three rungs, no vacancy to fill.
+The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). 
+
+The fourth rung (spinorial carrier, bosonic target) is structurally closed: the bosonic projection $\psi \to |\psi|^2$ is non-invertible (both $\psi$ and $-\psi$ map to the same image), and the same non-invertibility grounds the spin-statistics theorem. A coupling running from spinorial carrier to bosonic target would reverse this projection.
 
 ---
 
