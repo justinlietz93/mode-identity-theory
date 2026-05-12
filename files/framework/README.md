@@ -1,4 +1,4 @@
-/ **[`main`](../../README.md)** / **['working'](../working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`working`](../working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
 
 ---
 
@@ -333,4 +333,4 @@ The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conju
 
 ---
 
-/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`working`](../working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
