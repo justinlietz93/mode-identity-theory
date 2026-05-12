@@ -163,13 +163,13 @@ Blind outputs of a fixed structure, checked against observation:
 
 ---
 
-## :crystal_ball: Pre-Registered Euclid DR1 Predictions / Falsification
+## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
 
 Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no dark matter particle will ever be found. All values deposited on Zenodo before data release.
 
 **:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/tools/euclid-dr1.html)**
 
-| Prediction | MIT value | Falsified if | Euclid channel |
+| Prediction | MIT value | Falsified if | Euclid DR1 channel |
 |---|---|---|---|
 | a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
 | Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ | SNe + BAO + lensing in redshift bins |
