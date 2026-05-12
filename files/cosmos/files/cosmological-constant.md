@@ -89,7 +89,9 @@ $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
 One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
-$R$ is the curvature radius of $S^3$, the single measured scale of the framework. It is constrained independently of $\Lambda$ by the Molien gap of the binary icosahedral group $2I$ acting on $S^3$. The postulate specifies the minimal boundary topology; the bulk counterpart is maximal exceptional discrete symmetry. Among the finite exceptional subgroups of SU(2) $\cong S^3$, the binary icosahedral group $2I$ is the largest, with $|2I| = 120$. The framework pairs the simplest boundary with the most symmetric exceptional spatial quotient. The scalar harmonic spectrum on $S^3/2I$ is empty for shells $N = 1$ through $11$; the last empty shell ($N = 10$) maps to CMB multipole:
+$R$ is the curvature radius of $S^3$, the single measured scale of the framework. It is constrained independently of $\Lambda$ by the Molien gap of the binary icosahedral group $2I$ acting on $S^3$. The postulate specifies the minimal boundary topology; the bulk counterpart is maximal exceptional discrete symmetry. Among the finite exceptional subgroups of SU(2) $\cong S^3$, the binary icosahedral group $2I$ is the largest, with $|2I| = 120$. The framework pairs the simplest boundary with the most symmetric exceptional spatial quotient. 
+
+The center element of $2I$ acts on degree $N$ by $(-1)^N$, restricting invariants to even $N$. Among even shells, the Molien series shows the first nontrivial invariant at $N = 12$, leaving five shells ($N = 2, 4, 6, 8, 10$) empty. The last empty shell ($N = 10$) maps to CMB multipole:
 
 $$\ell_\text{char}(N) = \frac{\sqrt{N(N+2)}}{R}\,\chi_*$$
 
