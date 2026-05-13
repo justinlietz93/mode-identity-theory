@@ -24,7 +24,7 @@ What we called the axis of evil may be the universe revealing the geometry of it
 
 ***[CMB Anomalies](files/cmb-anomalies.md)***
 
-[![CMB Anomalies](https://img.youtube.com/vi/bBoBazf76lA/mqdefault.jpg)](https://www.youtube.com/watch?v=bBoBazf76lA)
+[![CMB Anomalies](https://img.youtube.com/vi/B-cQsP-ul_E/mqdefault.jpg)](https://www.youtube.com/watch?v=B-cQsP-ul_E)
 
 ---
 
