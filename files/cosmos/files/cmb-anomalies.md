@@ -4,7 +4,7 @@
 
 # CMB Anomalies from Topology
 
-[![CMB Anomalies](https://img.youtube.com/vi/bBoBazf76lA/mqdefault.jpg)](https://www.youtube.com/watch?v=bBoBazf76lA)
+[![CMB Anomalies](https://img.youtube.com/vi/B-cQsP-ul_E/mqdefault.jpg)](https://www.youtube.com/watch?v=B-cQsP-ul_E)
 
 Four large-angle CMB features have persisted across COBE, WMAP, and Planck with no explanation within ΛCDM. The Möbius embedding in S³ restricts the mode spectrum at large scales through the Molien gap of the binary icosahedral group, breaks even-odd symmetry through the non-orientable identification, suppresses the quadrupole through radial projection, and defines a preferred axis as the twist normal. What has been called the "axis of evil" may be the universe revealing the geometry of its beginning.
 
