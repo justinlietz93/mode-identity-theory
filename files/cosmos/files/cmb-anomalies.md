@@ -17,7 +17,7 @@ Four large-angle CMB features have persisted across COBE, WMAP, and Planck with 
 | Parity sign | R<sub>TT</sub> < 1 | R<sub>TT</sub> ≈ 0.81 |
 | Parity magnitude | R<sub>TT</sub> ≈ 0.81 | R<sub>TT</sub> ≈ 0.81 |
 | Preferred axis | exists | Δθ₂₃ ≈ 10° |
-| $\Lambda$ from CMB-constrained $R$ | $1.12 \times 10^{-52}$ m$^{-2}$ | $1.11 \times 10^{-52}$ m$^{-2}$ |
+| $\Lambda$ from CMB-constrained $R$ | $1.12 \times 10^{-52}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² |
 
 One position in S³, five observables.
 
@@ -153,7 +153,7 @@ Observed: R<sub>TT</sub> ≈ 0.81.
 | Parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ | prediction |
 | Alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | 14% | prediction |
 | Parity magnitude | $R_{TT} \approx 0.81$ at $d = 2.1$ Gpc | $R_{TT} \approx 0.81$ | < 1% | fit (fixes $d$) |
-| $\Lambda$ from $R$ | $\Lambda = 3/R^2 = 1.12 \times 10^{-52}$ m$^{-2}$ | $1.11 \times 10^{-52}$ m$^{-2}$ | 2% | consistency (§V) |
+| $\Lambda$ from $R$ | $\Lambda = 3/R^2 = 1.12 \times 10^{-52}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² | 2% | consistency (§V) |
 
 ---
 
@@ -187,7 +187,7 @@ The curvature radius $R$ was constrained above by CMB observables alone: the Mol
 
 Independently, the ground eigenvalue of the Laplace-Beltrami operator on the totally geodesic Möbius surface gives $\lambda_0 = 2/R^2$. The Gauss equation under isotropy converts to $R_{3\mathrm{D}} = 3\lambda_0 = 6/R^2$, and the de Sitter relation gives $\Lambda = R_{3\mathrm{D}}/2 = 3/R^2$. The 3/2 ratio ($\Lambda/\lambda_0$) reflects the dimensional conversion between surface and space curvature on a totally geodesic embedding.
 
-At $R = 5.3$ Gpc: $\Lambda = 3/R^2 = 1.12 \times 10^{-52}$ m$^{-2}$, matching the Planck 2018 value $\Lambda_\mathrm{obs} = 1.11 \times 10^{-52}$ m$^{-2}$ to 2%.
+At $R = 5.3$ Gpc: $\Lambda = 3/R^2 = 1.12 \times 10^{-52}$ m⁻², matching the Planck 2018 value $\Lambda_\mathrm{obs} = 1.11 \times 10^{-52}$ m⁻² to 2%.
 
 The CMB anomalies constrain $R$. The eigenvalue chain converts $R$ to $\Lambda$. The agreement is a fifth observable falling out of the same geometry for free.
 
