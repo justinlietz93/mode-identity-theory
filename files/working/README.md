@@ -52,6 +52,14 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
+### [Cone Point Coherence](./files/cone-point-coherence-notes.md)
+
+**Problem:** Galactic coherence (all observers measuring the same $\mathbb{R}^4$) may be the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature is $10^7$ too weak to produce a Jacobi zero within $L_f$; the needed curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at the topology-gravity interface.
+
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$, 120-grid scale-free projection.
+
+---
+
 ### [Scaling Law Uniqueness](./files/scaling-law-uniqueness.md)
 
 **Problem:** $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ is currently a declared measurement postulate; every downstream result inherits that status. Anti-periodic BC forces $C(\Theta)$, dimensionless output forces factorization (steps 1-4 walked). The open link is step 5: proving $(\sqrt{\Omega})^{-n}$ is the only hierarchy function on a bounded domain with observer at $\sqrt{\Omega}$. A Gleason-type result would promote the scaling law from declared to forced.
