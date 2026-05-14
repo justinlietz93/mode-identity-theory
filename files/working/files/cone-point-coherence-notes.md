@@ -116,7 +116,7 @@ This is the critical open question. What sets the curvature of the galactic-scal
 
 ### GR tidal curvature alone does not produce a galactic cone point
 
-The coherence domain is centered on Sgr A*, the supermassive black hole at the galactic center ($M \approx 4 \times 10^6\,M_\odot$). The gravitational field has two regimes:
+The coherence domain is centered on Sagittarius A* (Sgr A*), the supermassive black hole at the galactic center ($M \approx 4 \times 10^6\,M_\odot$). The gravitational field has two regimes:
 
 **Keplerian regime** ($r \lesssim 0.7$ pc): Sgr A* dominates. Tidal curvature $K = 2GM/(r^3 c^2)$ is strong and falls as $1/r^3$. At $r \sim 1.9$ pc, the Keplerian curvature matches $K_g$. The Jacobi equation is oscillatory; tidal focusing can produce zeros.
 
@@ -148,6 +148,8 @@ The coherence scale $L_f = v_c^2/a_0$ sits at the interface between gravity ($v_
 The problem is not the magnitude; it is the character. The flat rotation curve produces an Euler-type Jacobi equation whose solutions are power laws. Power laws do not oscillate and do not cross zero. The Sgr A* Keplerian core does produce oscillatory behavior, but it spans only $\sim 0.005\%$ of $L_f$. The vast bulk of the coherence domain lives in the structurally non-oscillatory regime.
 
 This is parallel to the MOND regime: $a_0$ marks where Newtonian gravity alone fails to account for the dynamics. Here, GR tidal curvature fails not just quantitatively but qualitatively: the Jacobi equation has the wrong character (power-law instead of oscillatory) to produce a cone point within $L_f$. The topology must supply the missing structure.
+
+The [SPARC phase field notes](sparc-phase-field-notes.md) test $L_f$ empirically across 175 galaxies. That analysis asks whether $L_f$ predicts the gravitational transition radius; this section asks why $L_f$ is the coherence scale geometrically. If the SPARC correlations hold, the curvature sourcing question sharpens: whatever sources $K_g$ must produce $L_f = v_c^2/a_0$ as a consequence.
 
 **Assessment:** The galactic cone point (Reading B) cannot be sourced by GR curvature. It requires the topological scale $a_0$. If the 120-grid projects at every scale with constant curvature inherited from the Mobius structure (not from the gravitational field), then $K_g = \pi^2/L_f^2$ is set by the topology-gravity interface, and the cone point exists. If the curvature must be sourced purely by GR, the cone point does not exist within the galaxy, and galactic coherence must work by a different mechanism (Reading A or something else).
 

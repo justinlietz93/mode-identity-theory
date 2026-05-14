@@ -261,6 +261,8 @@ This paper tests one specific component of Mode Identity Theory: the phase field
 
 If all four hold across 175 galaxies, the phase field mechanism is confirmed independently of Euclid. If any fail, the specific failure mode tells you what to fix.
 
+The geometric mechanism behind $L_f$ as a coherence scale is explored in the [cone point coherence notes](cone-point-coherence-notes.md), which ask whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the cone point analysis on the Mobius band) nests to galactic scale. The SPARC test is empirical; the cone point analysis is structural. Both probe the same object ($L_f$) from different directions.
+
 ---
 
 ## References
