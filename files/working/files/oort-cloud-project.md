@@ -239,7 +239,9 @@ Status: OBSERVATION. Intriguing. Possibly coincidence. Requires nested chronon d
 | 5 | $\times 1000$ factor | 144 appears at the structural level ($F_{12}$, $12^2$). The physical boundary is at 144,000 AU. Where does the $\times 10^3$ come from? Scaling between hierarchy levels? | MEDIUM |
 | 6 | Oort Cloud observational precision | Literature review: how well is the boundary actually constrained? Is 144,000 AU within the uncertainty, or is it a specific measured value? | LOW (but determines whether Piece D is meaningful) |
 
-The [cone point coherence notes](cone-point-coherence-notes.md) add a seventh gap upstream of Gap 1: **what sources the curvature $K_g$ at galactic scale?** The Frobenius program in that file determines whether the cone point mechanism provides the geometric foundation for nested coherence. Gap 1 here and the curvature sourcing question there are coupled: both ask how the topological structure interfaces with the gravitational field at sub-cosmic scales.
+| 7 | Arpeggio structure | Black hole (node) → galaxy (first harmonic) → universe (fundamental) → octave (Möbius double cover). If the cone point nests, each scale is a partial of the same standing wave, and the progression across scales is an arpeggio through the chord. Is the relationship between nested coherence domains harmonic? Does the node-to-mode progression follow the same spectral structure at every level? | MEDIUM (conceptual; sharpens after Gap 1) |
+
+The [cone point coherence notes](cone-point-coherence-notes.md) add an eighth gap upstream of Gap 1: **what sources the curvature $K_g$ at galactic scale?** The Frobenius program in that file determines whether the cone point mechanism provides the geometric foundation for nested coherence. Gap 1 here and the curvature sourcing question there are coupled: both ask how the topological structure interfaces with the gravitational field at sub-cosmic scales.
 
 ---
 
@@ -254,6 +256,8 @@ Cosmic mode (T = 33 Gyr, boundary = R_Λ)
     |        |
     |        |--- 120-grid projects into galactic chronon
     |        |
+    |        |--- Black holes = nodes (double zeros: Θ → 0, Ω_H → 0)
+    |        |
     |        |--- Stellar mode (T = ?, boundary ≈ 144,000 AU)
     |                 |
     |                 |--- Ecliptic defines local sampling plane
@@ -264,6 +268,8 @@ Cosmic mode (T = 33 Gyr, boundary = R_Λ)
     |                 |--- Planetary mode (T = ?, boundary = Hill sphere)
     |                          |
     |                          |--- (further nesting, not yet explored)
+    |
+    Arpeggio: node → harmonic → fundamental → octave (Möbius double cover)
 ```
 
 At every level:
