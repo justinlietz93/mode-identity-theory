@@ -198,6 +198,14 @@ Technical gaps with specific paths forward.
 
 ---
 
+### Black Hole Node Distribution on Static $S^3$
+
+**Problem:** If $S^3$ is static and black holes are topological nodes (double zeros where $\Theta \to 0$ and $\Omega_H \to 0$), their spatial distribution should reflect the symmetry of the 120-cell rather than FLRW comoving evolution. Quasar catalogs (Milliquas, SDSS) provide ~900,000 angular positions and redshifts. The missing piece is the $z$-to-$S^3$-position map: converting redshift to location on the static 3-sphere without assuming spatial expansion. Once available, test whether supermassive black hole positions correlate with 120-cell structure.
+
+**Dependencies:** Friedmann as Output (provides the static $S^3$ coordinate system), $z$-to-phase map from temporal budget.
+
+---
+
 ### Next Cycle Initiation
 
 **Problem:** What happens at $t = 4\pi$ is outside the current framework. The standing wave completes its period. Whether the cycle repeats, terminates, or transforms is not addressed.
