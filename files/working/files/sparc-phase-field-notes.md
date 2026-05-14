@@ -63,6 +63,10 @@ $$\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)$$
 
 One bosonic grid step or nothing. No continuous tuning.
 
+### Open: discrete snap derivation
+
+The binary response is declared and testable, but the mechanism that enforces quantization is not derived. Why does the phase field lock to exactly one bosonic grid step (2/120) rather than sliding continuously with potential depth? The 120-domain structure discretizes the available positions, but the selection rule that permits only a single-step jump (and forbids multi-step or fractional shifts) has no first-principles derivation. This is the gap between "the grid exists" and "the grid enforces a step function." Resolution likely requires the 120-domain selection rules; connection to the cone point analysis ([cone point coherence notes](cone-point-coherence-notes.md)) is possible but speculative.
+
 ### Closure identity
 
 $a_0$ cancels in the threshold:

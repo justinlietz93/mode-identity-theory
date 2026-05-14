@@ -38,14 +38,6 @@ Publishable results that strengthen the framework's position before October 2026
 
 ---
 
-### Discrete Snap Mechanism
-
-**Problem:** The phase field locks to one bosonic grid step (2/120) inside a galactic coherence scale. Why a discrete snap rather than a continuous slide? The binary response is testable (H₀ bimodality), but the mechanism that enforces quantization is not derived.
-
-**Dependencies:** 120-domain structure, phase field coherence scale $L_f$.
-
----
-
 ## :house: Foundation
 
 Closing any one of these upgrades everything downstream.
