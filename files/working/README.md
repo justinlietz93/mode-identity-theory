@@ -52,9 +52,17 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
+### [Oort Cloud Project: Nested Coherence Domains](./files/oort-cloud-project.md)
+
+**Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: generalizing $L_f = v_c^2/a_0$ from galactic to stellar and planetary scales. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
+
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$, 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
+
+---
+
 ### [Cone Point Coherence](./files/cone-point-coherence-notes.md)
 
-**Problem:** Galactic coherence (all observers measuring the same $\mathbb{R}^4$) may be the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature is $10^7$ too weak to produce a Jacobi zero within $L_f$; the needed curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at the topology-gravity interface.
+**Problem:** Galactic coherence (all observers measuring the same $\mathbb{R}^4$) may be the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at the topology-gravity interface.
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$, 120-grid scale-free projection.
 
