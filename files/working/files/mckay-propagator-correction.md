@@ -305,6 +305,7 @@ If a single multiplicative correction computable from the McKay graph structure 
 | Dead zone (OPEN) | Six entries between eV and keV with no SM occupants. If the branch-point correction modifies the dead zone masses, some entries might shift into or out of the experimentally probed range. The dead zone is the most interesting region strategically: any propagating state found there is a discovery |
 | Charm as homeless (NEW) | R4 entries locked to T₃ = -1/2 by Coxeter-Galois gate. Charm needs T₃ = +1/2. Either the gate has a subtlety at the branch point or charm signals a limit of the current formula |
 | Galois vacuum enhanced gap (ESTABLISHED) | 9× enhancement at Galois (first allowed k = 5) is the likely source of vacuum-dependent residual at high dist |
+| Vertex $Z_5$ completion (OPEN) | The $(1+z)^1$ term in $H^2(z)$ may derive from the vertex stabilizer $Z_5$, completing the face/edge/vertex decomposition of the 3/2 accounting. Face ($Z_3$) contributes matter dilution, edge ($Z_2$) contributes the Friedmann square root. The vertex role in the temporal correction is unwalked. The stabilizer decomposition $\|2I\| = 2^3 \cdot 3 \cdot 5$ is the same group whose McKay graph governs the mass formula; the branch point at R8 may be where the vertex contribution becomes visible |
 
 ---
 

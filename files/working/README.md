@@ -68,14 +68,6 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### Vertex $Z_5$ Completion
-
-**Problem:** The $(1+z)^1$ term in $H^2(z)$ may derive from the vertex stabilizer $Z_5$, completing the face/edge/vertex decomposition of the 3/2 accounting. Face ($Z_3$) contributes matter dilution, edge ($Z_2$) contributes the Friedmann square root. The vertex role in the temporal correction is unwalked.
-
-**Dependencies:** Temporal budget identity, stabilizer decomposition.
-
----
-
 ### [Energy as Resolution Amplitude](./files/energy-as-resolution-amplitude.md)
 
 **Problem:** $E^2 = (mc^2)^2 + (pc)^2$ may be the Pythagorean theorem on the mode decomposition of the sampling operation: temporal-mode amplitude (rest mass) orthogonal to spatial-mode amplitude (momentum). Five promotion steps unwalked: spatial-mode coupling, orthogonality proof, $c^2$ factor from $S^1$ structure, Lorentz recovery as sampling symmetry, connection to mass formula.
