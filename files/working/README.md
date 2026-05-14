@@ -68,14 +68,6 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### Waltz Clock from Postulate
-
-**Problem:** The exponent $n = -1/2$ is selected by matter-era scaling and empirically validated ($\Delta\chi^2 > 60$ for integer alternatives). The connection to the face/edge stabilizer ratio (3/2) is noted but not derived from the embedding without invoking GR.
-
-**Dependencies:** $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, stabilizer decomposition $|2I| = 2^3 \cdot 3 \cdot 5$.
-
----
-
 ### Vertex $Z_5$ Completion
 
 **Problem:** The $(1+z)^1$ term in $H^2(z)$ may derive from the vertex stabilizer $Z_5$, completing the face/edge/vertex decomposition of the 3/2 accounting. Face ($Z_3$) contributes matter dilution, edge ($Z_2$) contributes the Friedmann square root. The vertex role in the temporal correction is unwalked.
