@@ -333,6 +333,8 @@ The fourth rung (spinorial carrier, bosonic target) is structurally closed: the 
 
 ---
 
+[![Resonant Universe](https://img.youtube.com/vi/I3AOKh-RRTA/mqdefault.jpg)](https://www.youtube.com/watch?v=I3AOKh-RRTA)
+
 *Topology holds. Wave is. Particle samples.*
 
 ---
