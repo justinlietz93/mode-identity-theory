@@ -8,7 +8,7 @@ Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau/
 
 **Status:** Established at model level. With $S = \sin(t/2)$ and the Waltz clock, Model D+Λ reproduces the Pantheon+ distance ladder at $\Delta\chi^2 = +0.6$ relative to flat ΛCDM on 1701 SNe Ia with full covariance, using two free parameters ($s_0$, $H_0$) — the same count as ΛCDM. $\Omega_m = 0.315$ is recovered from the $(1+z)^3$ coefficient. First-principles derivation of the clock exponent from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR remains open.
 
-**Update (May 2026, Λcos paper submitted to PRD).** Joint fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) tightens the constraint to $\Delta\chi^2 = +0.11$ at equal parameter count, with $s_0 < 0.19$ (95% CL, flat prior). The best-fit sits at the ΛCDM boundary ($s_0 = 0.001$); the posterior median is 0.076. The Pantheon+-only value $s_0 = 0.389$ remains within the Pantheon+ posterior but is disfavored by the BAO data. The prediction ledger (§XI) now carries both values. The paper also demonstrates that standard two-parameter w(z) templates (CPL, BA, JBP) produce apparent phantom crossings when fitted to non-phantom Λcos distances, establishing template bias as a structural effect. Clock-exponent selection is empirically validated: integer alternatives $n = 0, -1, +1$ give $\Delta\chi^2 > 60$ relative to ΛCDM (Appendix A of the Λcos paper).
+**Update (May 2026, Λcos paper).** Joint fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) tightens the constraint to $\Delta\chi^2 = +0.11$ at equal parameter count, with $s_0 < 0.19$ (95% CL, flat prior). The best-fit sits at the ΛCDM boundary ($s_0 = 0.001$); the posterior median is 0.076. The Pantheon+-only value $s_0 = 0.389$ remains within the Pantheon+ posterior but is disfavored by the BAO data. The prediction ledger (§XI) now carries both values. The paper also demonstrates that standard two-parameter $w(z)$ templates (CPL, BA, JBP) produce apparent phantom crossings when fitted to non-phantom Λcos distances, establishing template bias as a structural effect. Clock-exponent selection is empirically validated: integer alternatives $n = 0, -1, +1$ give $\Delta\chi^2 > 60$ relative to ΛCDM (Appendix A of the Λcos paper). A growth-level consistency check against DESI DR1 ShapeFit+BAO $f\sigma_{s8}$ at six tracer effective redshifts gives $\Delta\chi^2_\text{RSD} < 0.3$ relative to flat ΛCDM across the data-allowed parameter range.
 
 ---
 
@@ -113,7 +113,7 @@ None gives a $(1+z)^1$. The term is the fingerprint of bounded realization: $\si
 
 Currently below Pantheon+ detection threshold. Future surveys (Euclid, Roman, LSST) are expected to reach percent-level $H(z)$ precision. The sign and approximate magnitude of the term are prediction.
 
-**Updated magnitude.** At $s_0 = 0.389$ (Pantheon+-only), $|\beta| = 0.056$, contributing $\sim 4\%$ of $H^2$ at $z = 1$. At $s_0 < 0.19$ (joint SN+BAO 95% CL), $|\beta| < 0.012$, contributing $< 0.8\%$ of $H^2$ at $z = 1$. The Λcos paper notes this is below DESI DR2 per-bin precision ($\sim 2$-$3\%$) but potentially within reach of Euclid DR2/DESI full-survey at $\sim 0.5\%$ per bin, where the signature reaches $\sim 1.5\sigma$ per bin for $s_0 \sim 0.15$ with correlated bins improving aggregate sensitivity. A definitive test of the full $s_0 > 0.10$ range requires next-generation spectroscopic surveys (MegaMapper, MUST, WST) at sub-$0.5\%$ per-bin precision.
+**Updated magnitude.** At $s_0 = 0.389$ (Pantheon+-only), $|\beta| = 0.056$, contributing $\sim 4\%$ of $H^2$ at $z = 1$. At $s_0 < 0.19$ (joint SN+BAO 95% CL), $|\beta| < 0.012$, contributing $< 0.8\%$ of $H^2$ at $z = 1$. The Λcos paper notes this is below DESI DR2 per-bin precision ($\sim 2$-$3\%$) but potentially within reach of next-generation surveys projected to reach sub-percent per-bin precision (Euclid DR2, DESI full-survey, MegaMapper-class), where the $(1+z)^1$ signature approaches per-bin detectability for $s_0$ in the upper portion of the data-allowed range with correlated bins improving aggregate sensitivity.
 
 ---
 
@@ -171,7 +171,7 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 | [Sector $\mathcal{A}$ eigenvalue](../../framework/ground-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
 | [Hubble tension](../../cosmos/files/hubble-tension.md) | The Waltz clock $H \propto S^{-3/2}$ is the mechanism underlying the early/late discrete snap. |
 | [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md) | Same sampling-operation picture. Redshift as phase ratio + energy as resolution amplitude should unify into a single account. Open. |
-| Λcos paper (PRD, submitted May 2026) | Presents Model D+Λ as a standalone phenomenological model ("Λcos") without framework language. Joint SN+BAO constraint: $s_0 < 0.19$ (95% CL). Template bias demonstrated: CPL/BA/JBP produce phantom crossings from non-phantom input. Clock exponent empirically validated. First peer-reviewed constraint on the budget phase parameter. |
+| [Λcos paper](https://github.com/dmobius3/lambda-cos) | Presents Model D+Λ as a standalone phenomenological model ("Λcos") without framework language. Joint SN+BAO constraint: $s_0 < 0.19$ (95% CL). Template bias demonstrated: CPL/BA/JBP produce phantom crossings from non-phantom input. Clock exponent empirically validated. Linear-growth consistency check against DESI DR1 ShapeFit+BAO at six tracer effective redshifts gives $\Delta\chi^2_\text{RSD} < 0.3$ relative to flat ΛCDM. First quantitative constraint on the budget phase parameter from joint background and growth data. |
 
 ---
 
@@ -184,7 +184,7 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 | $\varphi \leftrightarrow t$ relation | High | The two phase parameters must be reconciled. |
 | Vertex-$Z_5$ role in $\Psi$ denominator | Medium | If the $(1+z)^1$ term derives from $Z_5$ in the temporal budget, the face/edge/vertex completion of the 3/2 accounting becomes explicit. |
 | Redshift mechanism (fully derived) | Medium | Model D+Λ gives the right distances. The phase-ratio picture on $S^1$ is understood in outline; the full derivation chain from postulate to observed $H(z)$ is partially walked. |
-| $(1+z)^1$ detection threshold | Medium (promoted) | At $s_0 < 0.19$, the signature is $< 0.8\%$ of $H^2$ at $z = 1$. Below DESI DR2 per-bin precision but potentially within reach of Euclid DR2 / DESI full-survey at $\sim 0.5\%$ per bin. Quantify aggregate sensitivity from correlated bins. |
+| $(1+z)^1$ detection threshold | Medium (promoted) | At $s_0 < 0.19$, the signature is $< 0.8\%$ of $H^2$ at $z = 1$. Below DESI DR2 per-bin precision ($\sim 2$-$3\%$). Discriminating regime requires sub-percent per-bin precision: Euclid DR2, DESI full-survey, MegaMapper-class. Signature approaches per-bin detectability for $s_0$ in the upper portion of the data-allowed range; correlated bins improve aggregate sensitivity. |
 | SN vs BAO tension on $s_0$ | Medium (new) | Pantheon+ alone accommodates $s_0 \sim 0.4$; BAO pulls toward zero. Whether this reflects a real tension (different aspects of the expansion history constraining $s_0$ differently) or simply the expected tightening from complementary data needs investigation. The $\Omega_\Lambda$ sensitivity analysis (Λcos paper V.D) shows the constraint varies smoothly with $\Omega_\Lambda$, with the best $\Delta\chi^2$ near $\Omega_\Lambda = 0.69$. |
 
 ---
@@ -223,16 +223,18 @@ At $s_0 = 0.19$: $\quad H^2/H_0^2 = 0.327(1+z)^3 - 0.012(1+z) + 0.685$
 
 No standard FLRW component produces a $(1+z)^1$ term (§V). At the joint 95% CL, the signature is below current per-bin precision. Detection requires $\sim 0.5\%$ per-bin BAO measurements (Euclid DR2 / DESI full-survey) or aggregate multi-bin analysis.
 
-### C. Growth of structure $f(z)\sigma_8(z)$ from RSD  *(leading-order; full numerical integration needed)*
+### C. Growth of structure $f(z)\sigma_8(z)$ from RSD
 
-With EFE unchanged, linear growth obeys $\ddot\delta + 2H\dot\delta - 4\pi G\bar\rho_m\delta = 0$. Modified $H(z)$ and the budget-dressed $\Omega_m$ enter differently: the expansion rate uses the dressed coefficient (0.371), while the gravitational source uses the underlying $\Omega_m = 0.315$ (§IV).
+With EFE unchanged, linear growth obeys $\delta'' + (2 + H'/H)\delta' - (3/2)\Omega_m(z)\delta = 0$ in $x = \ln a$. The Λcos modification enters only through $H(z)$; no perturbation-level sound-speed or anisotropic-stress parameter is needed (the $(1+z)^1$ correction is a background-level term, not an independent clustering component). The full ODE solve at the SN+BAO best fit is reported in the Λcos paper §VI.C.
 
-| Quantity | MIT (leading-order) | ΛCDM |
-|---|---|---|
-| $f(0) \approx \Omega_m(0)^\gamma$, $\gamma \approx 0.55$ | ~0.58 (with $\Omega_m^\text{eff} = 0.371$) | ~0.53 |
-| $f\sigma_8(0)$ | ~0.47 | ~0.43 |
+| Quantity | MIT ($s_0 = 0.076$, posterior median) | MIT ($s_0 = 0.185$, 95% UL) | ΛCDM |
+|---|---|---|---|
+| $f\sigma_8(z)$ deviation from ΛCDM, per bin | $\leq 0.2\%$ across $z \in [0.3, 1.5]$ | $\leq 1\%$ (peak at $z \approx 1$) | 0 |
+| $\chi^2_\text{RSD}$ against DESI DR1 ShapeFit+BAO (6 tracer bins) | 4.68 | 4.90 | 4.64 |
+| $\Delta\chi^2_\text{RSD}$ vs ΛCDM | +0.04 | +0.26 | 0 |
+| $\Omega_m(z)$ split at $z = 2.3$ (95% UL) | — | $-2.9\%$ | 0 |
 
-The ~10% $f(0)$ gap is well above Euclid DR1 RSD precision. Numerical integration of the growth equation with the Model D+Λ $H(z)$ across all Euclid RSD bins is needed to replace the leading-order estimate with a full curve.
+At current DR1 FS precision (9-23% per bin), the Λcos-vs-ΛCDM gap is buried in the measurement uncertainty: the data carry no discriminating power between the two models at the SN+BAO-allowed $s_0$. The earlier leading-order estimate that placed the gap at $\sim 10\%$ ($f(0) \approx 0.58$ vs $0.53$) used the dressed coefficient $0.371$ in place of $\Omega_m(z=0)$ in the source term; the source term carries the underlying $\Omega_m = 0.315$ (same as ΛCDM at $z = 0$) and the leading-order f-estimate is identical for both models, with the actual model-to-model difference set by the small $H(z)$ deformation that the full ODE solve captures. Distinguishing the two in growth observables requires Euclid DR2 / DESI full-survey full-shape analyses at sub-percent per-bin precision, or higher-redshift growth measurements extending past $z = 1.49$ (the DR1 FS ceiling) where the $\Omega_m(z)$ split is most pronounced.
 
 ### D. Early-galaxies acceleration $a_0(z)$
 
@@ -244,7 +246,7 @@ $a_0(z)/a_0(0) = H(z)/H_0$ (derived, early-galaxies paper).
 | 1.0 | $1.88 \times a_{0,\text{local}}$ | high-$z$ rotation curves |
 | 2.0 | $3.25 \times a_{0,\text{local}}$ | high-$z$ rotation curves |
 
-### E. Phantom-crossing channel  *(Λcos paper, submitted PRD May 2026)*
+### E. Phantom-crossing channel  *(Λcos paper)*
 
 | Quantity | MIT | ΛCDM |
 |---|---|---|
@@ -280,12 +282,12 @@ The prediction set is over-determined in principle. One fit parameter ($s_0$) fo
 
 **Current tension.** Pantheon+ alone accommodates $s_0 \sim 0.39$; joint SN+BAO constrains $s_0 < 0.19$ (95% CL). The BAO data are pulling the clock toward zero. Euclid DR1 BAO will either confirm the tighter constraint (in which case the model's observable departures from ΛCDM become marginal at DR1 precision and the discriminating test moves to DR2/next-generation) or open room for larger $s_0$ (in which case the full prediction ledger remains live). Either outcome is informative.
 
-This remains pre-registration at the deepest level: **predict the time, then look**. The Λcos paper has placed the first joint constraint into the peer-review pipeline.
+This remains pre-registration at the deepest level: **predict the time, then look**. The Λcos paper has placed the first joint background-and-growth constraint on the budget phase parameter.
 
-### Two open computations for this ledger
+### Status of the two open computations
 
-1. Numerical integration of the growth equation $\ddot\delta + 2H\dot\delta - 4\pi G\bar\rho_m\delta = 0$ with Model D+Λ $H(z)$, across Euclid's RSD bins, replacing the §XI.C leading-order $f(0)$ estimate with a full $f\sigma_8(z)$ curve.
-2. Distance integrals $D_A(z)$, $D_L(z)$, $D_V(z)$ from $\int dz/H(z)$, giving the angular BAO scale across Euclid's spectroscopic bins.
+1. **Closed (Λcos paper §VI.C).** Numerical integration of the linear-growth equation with Model D+Λ $H(z)$, compared to DESI DR1 ShapeFit+BAO at six tracer effective redshifts (BGS, LRG1-3, ELG2, QSO; $z \in [0.30, 1.49]$). The full $f\sigma_{s8}(z)$ trajectory at the SN+BAO posterior median gives $\chi^2_\text{RSD} = 4.68$ (vs $4.64$ for ΛCDM); at the 95% UL, $\chi^2_\text{RSD} = 4.90$. The $\Omega_m(z)$ diagnostic shows a $2.9\%$ split at $z = 2.3$ at the upper limit, beyond the current growth-data reach. The earlier leading-order $f(0)$ estimate (§XI.C, prior version) overstated the gap and has been replaced.
+2. **Partially closed.** The joint SN+BAO MCMC in the Λcos paper computes $D_M/r_d$, $D_H/r_d$, $D_V/r_d$ at the seven DESI DR2 effective redshifts as part of its likelihood. Explicit Euclid-band forecasts of $D_A(z)$, $D_L(z)$, $D_V(z)$ at allowed parameter values remain to be tabulated for the prediction ledger.
 
 ---
 

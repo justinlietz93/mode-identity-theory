@@ -30,7 +30,7 @@ Publishable results that strengthen the framework's position before October 2026
 
 ---
 
-### [Temporal Budget Identity](./files/temporal-budget-notes.md)
+### [Temporal Budget Identity](./files/temporal-budget.md)
 
 **Problem:** The phase-clock derivation rests on $\Psi^2 + S^2 = 1$ and the Waltz clock $d\tau/dt = S^{1/2}$, which recovers $\Omega_m = 0.315$ at $\Delta\chi^2 = +0.11$ vs flat ΛCDM. The clock exponent $n = -1/2$ is empirically validated (integer alternatives ruled out at $\Delta\chi^2 > 60$) but not derived from the embedding. The two phase parameterizations ($\varphi$ engine phase and $t$ budget phase) are not yet reconciled.
 
