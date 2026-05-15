@@ -2,7 +2,7 @@
 
 ---
 
-# The Temporal Budget Identity: Research Notes
+# The Temporal Budget Identity
 
 Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau/dt = S^{1/2}$, and the Pantheon+ fit that recovers $\Omega_m$ as output.
 
