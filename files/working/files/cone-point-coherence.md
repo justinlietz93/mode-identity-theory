@@ -2,7 +2,7 @@
 
 ---
 
-# Cone Point Coherence: Working Notes
+# Cone Point Coherence
 
 Working notes on the cone point as the mechanism of galactic coherence. Supplements [Ground Eigenvalue](../../framework/ground-eigenvalue.md), [Black Double Zero's](../../cosmos/files/black-hole.md), and the Oort Cloud project.
 
