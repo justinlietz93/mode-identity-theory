@@ -2,7 +2,7 @@
 
 ---
 
-# Black Hole Phase Behavior: Research Notes
+# Black Hole Phase Behavior
 
 Working notes on time, sampling, and the directional problem. Supplements [Black Double Zero's](../../cosmos/files/black-hole.md).
 
