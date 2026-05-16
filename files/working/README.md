@@ -44,7 +44,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Cone Point Coherence](./files/cone-point-coherence-notes.md)
+### [Cone Point Coherence](./files/cone-point-coherence.md)
 
 **Problem:** Galactic coherence (all observers measuring the same $\mathbb{R}^4$) may be the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at the topology-gravity interface.
 
@@ -82,7 +82,7 @@ Technical gaps with specific paths forward.
 
 ---
 
-### [Black Hole Phase Behavior](./files/black-hole-phase-notes.md)
+### [Black Hole Phase Behavior](./files/black-hole-phase.md)
 
 **Problem:** $\Phi \to \Theta$ mapping derived at leading order ($C/C_0 = 1 - r_s/r$, $\beta = 1$ forced). Hawking temperature $1/M$ and coefficient derived; thermal character inherited. Area entropy motivated by surface primacy; $1/4$ factor not derived. Two-attractor landscape established. Global corrections and quantitative evaporation rate remain open.
 
