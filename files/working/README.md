@@ -14,7 +14,7 @@ Publishable results that strengthen the framework's position before October 2026
 
 ---
 
-### [Phase Field Coherence Scale (SPARC)](./files/sparc-phase-field-notes.md)
+### [Phase Field Coherence Scale (SPARC)](./files/sparc-phase-field.md)
 
 **Problem:** The Hubble-tension mechanism predicts a binary phase shift inside a coherence scale $L_f = v_c^2/a_0$, but it has no test outside the cosmological distance ladder. The phase field should also reproduce the Radial Acceleration Relation (McGaugh et al. 2016) as a consequence; reproduction motivated, not derived.
 
