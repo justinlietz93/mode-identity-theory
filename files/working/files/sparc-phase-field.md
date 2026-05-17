@@ -300,14 +300,15 @@ Budget note: operational algorithms (§IV) apply uniformly across the sample, re
 
 ## X. Connection to MIT Framework
 
-This paper tests one specific component of Mode Identity Theory: the phase field mechanism that resolves the Hubble tension. It does not require the full framework to be accepted. The test is:
+This paper tests one specific component of Mode Identity Theory: the phase field mechanism that resolves the Hubble tension. It does not require the full framework to be accepted. SPARC adjudicates three claims:
 
 1. $L_f = v_c^2/a_0$ predicts a coherence scale for each galaxy.
 2. The gravitational transition radius should track $L_f$ across the sample.
-3. The threshold should be universally crossed for flat-rotation-curve galaxies.
-4. The H₀ shift should be binary, not continuous.
+3. The trigger index should predict kinematic morphology, flat versus rising.
 
-If all four hold across 175 galaxies, the phase field mechanism is confirmed independently of Euclid. If any fail, the specific failure mode tells you what to fix.
+A fourth claim, that the H₀ shift is binary rather than continuous, is not testable with SPARC and is registered as forward-looking (§VIII).
+
+If the three SPARC-testable claims hold across the sample, the phase field mechanism is supported independently of Euclid. If any fail, the specific failure mode tells you what to fix.
 
 The geometric mechanism behind $L_f$ as a coherence scale is explored in the [cone point coherence notes](cone-point-coherence-notes.md), which ask whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the cone point analysis on the Mobius band) nests to galactic scale. The SPARC test is empirical; the cone point analysis is structural. Both probe the same object ($L_f$) from different directions.
 
