@@ -12,36 +12,22 @@
 
 ## The Question
 
-Mode Identity Theory predicts a binary phase field that shifts the local sampling position of the Hubble parameter by one bosonic grid step (2/120) inside a coherence scale $L_f = v_c^2/a_0$. Does the SPARC sample of 175 galaxies bear this out?
+Mode Identity Theory proposes a coherence scale $L_f = v_c^2/a_0$ inside which a binary phase field operates. This note registers one empirical question, narrow and falsifiable:
 
-Three independent tests, each separable from the others:
+**Does $v_c^2/a_0$ behave like a real coherence radius across the SPARC sample of 175 galaxies, after controlling for ordinary galactic size scaling?**
 
-1. Does the gravitational transition radius track $L_f$ across the sample?
-2. Is the phase-field threshold universally crossed for all flat-rotation-curve galaxies?
-3. Do H₀ measurements correlate with being inside or outside $L_f$ rather than with density, metallicity, or other environmental variables?
+Two SPARC-testable components, each separable from the other:
 
-The point of separating the tests is component-level falsification: failure isolates whether the binary threshold, the closure identity, or $L_f$ itself is the broken piece.
+1. Do the gravitational transition radius $r_t$ and the flat-onset radius $R_\text{flat}$ track $L_f$, and more tightly than they track generic size proxies?
+2. Does the phase-field trigger index, computed without kinematic pre-classification, predict which galaxies have flat versus rising rotation curves?
 
----
+A third prediction, H₀ bimodality, is not testable with SPARC alone and is registered separately as forward-looking (§VIII).
 
-## I. The Hubble Tension as a Phase Field Effect
-
-Two classes of H₀ measurement persistently disagree:
-
-| Method | H₀ (km/s/Mpc) | Environment |
-|---|---|---|
-| CMB (Planck) | 67.4 ± 0.5 | Global; unphased |
-| Local distance ladder (SH0ES) | 73.0 ± 1.0 | Inside disk galaxies; phased |
-
-MIT resolves this as a phase-field effect. The standing wave $\Psi = \cos(t/2)$ on the temporal edge is sampled at Fibonacci wells on the 120-domain of $S^3/2I$. The H₀ well sits at $\Theta = 34/120$ with $C(34/120) = 1.208$. Inside a disk galaxy, the local gravitational potential shifts the sampling position by one bosonic step (2/120) to $\Theta = 36/120$ with $C(36/120) = 1.309$. The ratio:
-
-$$\frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084$$
-
-Predicted shift: 8.4%. Observed tension: 67.4 → 73.0 ≈ 8.3%. Agreement < 1%.
+The point of separating the tests is component-level falsification: failure isolates whether the binary threshold, the closure identity, or $L_f$ itself is the broken piece. The phase-field and Hubble-tension interpretation that motivates $L_f$ is given in §VI. It is the motivation for the coherence scale, not a result of this analysis. The SPARC test stands or falls on its own data.
 
 ---
 
-## II. The Coherence Scale and the Trigger
+## I. The Coherence Scale and the Trigger
 
 The phase field is active within a coherence scale:
 
@@ -77,7 +63,7 @@ The MOND scale sets the coherence radius but drops out of the threshold conditio
 
 ---
 
-## III. Data: The SPARC Sample
+## II. Data: The SPARC Sample
 
 SPARC (Spitzer Photometry and Accurate Rotation Curves): Lelli, McGaugh, Schombert (2016).
 
@@ -108,7 +94,7 @@ Expected usable sample: ~120–140 galaxies.
 
 ---
 
-## IV. Predictions
+## III. Predictions
 
 ### Predicted L_f range across galaxy types
 
@@ -121,39 +107,45 @@ Using $a_0 = 1.2 \times 10^{-10}$ m/s²:
 | Low-mass spiral | 100–150 | 3–6 |
 | Dwarf irregular | 30–70 | 0.2–1.3 |
 
-### Universal threshold crossing
-
-Every galaxy with a flat rotation curve should satisfy $\mathcal{T}/\mathcal{T}_c \approx 1/\xi \approx 2.2$ regardless of mass or size. Compute $\mathcal{T}_c$ for each galaxy; verify $\mathcal{T}/\mathcal{T}_c > 1$ for all flat-curve galaxies.
-
-**Caveat on what this test proves.** For any galaxy already classified as flat-curve, $\mathcal{T}/\mathcal{T}_c = 1/\xi$ follows algebraically from the flat-curve assumption: among that sub-sample the prediction is true by construction, not by observation. The test has genuine teeth only on galaxies whose curves are rising or arguably flat, where the computed ratio can land near 1. Compute $\mathcal{T}/\mathcal{T}_c$ across the whole sample without the flat-curve pre-cut: the rising-curve dwarfs (see below) are where threshold crossing is actually at stake. The "universal threshold crossing" and "dwarfs without flat curves" tests are the same test, sharp only on the non-flat sub-population.
-
 ### Transition radius tracks L_f
 
-The radius at which gravitational behavior transitions from Newtonian to "anomalous" should correlate with $L_f = v_c^2/a_0$. For each SPARC galaxy, identify $r_t$ as the baryon-to-total divergence radius defined operationally in §V ($g_\text{obs}/g_\text{bar} \geq 1.2$). Plot $r_t$ against $L_f$. Prediction: linear correlation with slope ≈ 1.
+The radius at which gravitational behavior transitions from Newtonian to "anomalous" should correlate with $L_f = v_c^2/a_0$. For each SPARC galaxy, identify $r_t$ as the baryon-to-total divergence radius defined operationally in §IV ($g_\text{obs}/g_\text{bar} \geq 1.2$). Plot $r_t$ against $L_f$. Prediction: linear correlation with slope ≈ 1.
 
 $r_t$ must **not** be defined as the radius where $g_\text{obs}$ crosses $a_0$. For a flat rotation curve $g_\text{obs}(r) = v_c^2/r$, so that radius is $v_c^2/a_0 = L_f$ identically: the correlation would be an arithmetic identity, not a physical result. The $g_\text{obs}/g_\text{bar}$ definition depends on the baryonic mass model, which $a_0$ does not enter, so a correlation with $L_f$ is a genuine empirical claim.
 
 ### Flat-curve onset radius tracks L_f
 
-A second observable independent of $r_t$: define $R_\text{flat}$ as the radius where the rotation curve first reaches its flat value (operational form in §V). Plot $R_\text{flat}$ against $L_f$ for each galaxy. Prediction: linear correlation with slope ≈ 1 in physical units (kpc vs kpc), intercept consistent with zero.
+A second observable independent of $r_t$: define $R_\text{flat}$ as the radius where the rotation curve first reaches its flat value (operational form in §IV). Plot $R_\text{flat}$ against $L_f$ for each galaxy. Prediction: linear correlation with slope ≈ 1 in physical units (kpc vs kpc), intercept consistent with zero.
 
 **The bare correlation is not sufficient evidence.** $L_f \propto v_c^2$, and any galactic radius grows with $v_c$, so $R_\text{flat}$ and $L_f$ will correlate even with no phase field, through shared mass scaling alone. The test must show that $R_\text{flat}$ tracks $L_f = v_c^2/a_0$ specifically: better than it tracks a null size proxy (optical scale length, $R_\text{last}$, or $v_c^1$), via partial correlation. A correlation that does not survive this control is "large galaxies are large," not a confirmation of the coherence scale.
 
 The two correlations probe different physics. $r_t$ marks the onset of anomalous acceleration; $R_\text{flat}$ marks the onset of curve flatness. These are not the same radius in every galaxy. Agreement of both with $L_f$ is a stronger test than either alone.
 
+### Primary registered outcome: dimensionless ratios
+
+The correlations above are necessary but not sufficient. The primary pre-registered outcome is stated as two dimensionless ratios:
+
+$$\eta_t = \frac{r_t}{L_f}, \qquad \eta_\text{flat} = \frac{R_\text{flat}}{L_f}$$
+
+Prediction: across the quality-filtered sample, $\eta_t$ and $\eta_\text{flat}$ cluster around order unity with bounded scatter, rather than scattering freely or clustering at a value far from 1. A ratio near unity is the quantitative claim that the velocity-to-length conversion constant is $1/a_0$ specifically. A correlation alone leaves the constant free; the ratio fixes it.
+
+The acceptance scatter bound $\sigma_\text{pred}$ must be set before data contact, derived by propagating SPARC's measurement uncertainties on $v_c$ and on the rotation-curve points through the $r_t$ and $R_\text{flat}$ algorithms. It is part of the frozen pipeline (§IV). "Clustering near unity" without a pre-registered $\sigma_\text{pred}$ is not falsifiable; with it, the test passes only if observed scatter is consistent with measurement error and fails if the ratios scatter beyond it.
+
+### Universal threshold crossing
+
+Every galaxy with a flat rotation curve should satisfy $\mathcal{T}/\mathcal{T}_c \approx 1/\xi \approx 2.2$ regardless of mass or size. Compute $\mathcal{T}_c$ for each galaxy; verify $\mathcal{T}/\mathcal{T}_c > 1$ for all flat-curve galaxies.
+
+**Caveat on what this test proves, and how to run it correctly.** For any galaxy already classified as flat-curve, $\mathcal{T}/\mathcal{T}_c = 1/\xi$ follows algebraically from the flat-curve assumption: among that sub-sample the prediction is true by construction, not by observation. Computing the trigger index from a curve already labeled flat makes the index a consequence of the morphology, not a test of it.
+
+Run the test in the opposite direction. Compute $\mathcal{T}/\mathcal{T}_c$ for every galaxy from its rotation curve without any flat/rising pre-classification, then ask whether the trigger index *predicts* the kinematic taxonomy: do galaxies the index places above threshold turn out to be the flat-curve systems, and those below threshold the rising-curve systems, when morphology is classified independently? In that direction the trigger index is a predictor of kinematic morphology rather than a restatement of it. The discriminating power lives in the rising-curve dwarfs, marginal curves, low-surface-brightness systems, and noisy outer curves: the cases where the index and the morphology could disagree. The "universal threshold crossing" and "dwarfs without flat curves" tests are the same test, sharp only on this non-flat sub-population.
+
 ### Dwarf galaxies without flat curves
 
 Galaxies with rising rotation curves (no flat region) may fail to cross the threshold and would be unphased, predicting no H₀ shift in their environment. Identify these galaxies in SPARC; check if their environmental H₀ measurements differ from disk galaxies.
 
-### No continuous spread (forward-looking; not testable with SPARC alone)
-
-H₀ measurements at the per-galaxy level should cluster in two populations (CMB-like or SH0ES-like), not form a continuous distribution correlated with $v_c$ or $L_f$. MIT predicts binary: inside $L_f$ = shifted, outside = unshifted. No intermediate values.
-
-SPARC does not provide per-galaxy H₀ measurements. SH0ES gives one aggregate H₀ across multiple Cepheid hosts, not a per-galaxy distribution. Verifying this prediction requires per-host H₀ estimates from forthcoming JWST Cepheid programs, TRGB calibrators, or megamaser distances. Registered here as a prediction; verification awaits future data.
-
 ---
 
-## V. Analysis Methods
+## IV. Analysis Methods
 
 ### Computing L_f
 
@@ -187,6 +179,16 @@ Define $R_\text{flat}$ as the smallest radius such that $|v(r) - v_c|/v_c \leq 0
 - Residual analysis: check if scatter correlates with distance, inclination, Hubble type, surface brightness, or metallicity.
 - If scatter correlates with a non-MIT variable, the phase field mechanism is in trouble.
 
+### Null models
+
+A correlation between $r_t$ (or $R_\text{flat}$) and $L_f$ is not evidence on its own. $L_f = v_c^2/a_0$ is proportional to $v_c^2$, and every galactic radius grows with $v_c$, so some correlation is guaranteed by size scaling. The test is whether $L_f$ beats the full family of plausible alternatives. Pre-registered null models, fit with the same procedure as $L_f$:
+
+- Pure size proxies: $R_d$ (disk scale length), $R_\text{eff}$ (effective radius), $R_\text{last}$ (last measured rotation-curve point).
+- Velocity scalings: $v_c$, $v_c^{1.5}$, $v_c^2$.
+- Mass scalings: $M_b^{1/3}$, $M_b^{1/2}$ (baryonic mass).
+
+$v_c^2$ is the null model that must lose. Since $L_f \propto v_c^2$, a correlation with $L_f$ that is no tighter than the correlation with $v_c^2$ cannot distinguish "phase field coherence radius" from "larger galaxies are larger." The acceleration scale $a_0$ enters only through the proportionality constant: $L_f = v_c^2/a_0$ claims that constant is exactly $1/a_0$, not some other velocity-to-length conversion. That claim is tested by the dimensionless ratio (§III), not by the correlation.
+
 ### Threshold verification
 
 ```
@@ -206,13 +208,13 @@ If local H₀ estimates exist for SPARC galaxies (or for galaxies in similar env
 
 ### Analysis protocol and registration status
 
-This is a locked-pipeline blind analysis of pre-existing data, and the writeup should say so plainly. SPARC has been public since 2016. Freezing the pipeline (the §V operational algorithms, the 1.2 and 5% thresholds, the sample cuts) and depositing the tagged commit before the data is touched defends against one objection: that the algorithm thresholds were tuned to the data. It does not defend against the objection that the data was already visible. Those are different claims and should not be conflated.
+This is a locked-pipeline blind analysis of pre-existing data, and the writeup should say so plainly. SPARC has been public since 2016. Freezing the pipeline (the operational algorithms above, the 1.2 and 5% thresholds, the sample cuts) and depositing the tagged commit before the data is touched defends against one objection: that the algorithm thresholds were tuned to the data. It does not defend against the objection that the data was already visible. Those are different claims and should not be conflated.
 
 The primary defense is therefore not a timestamp. It is that $L_f = v_c^2/a_0$ and the slope ≈ 1 predictions are parameter-free consequences of the MIT topology, fixed before any galaxy was examined: nothing in the pipeline is fitted. The deposit is the secondary defense, retiring the threshold-tuning objection. The genuine pre-registered test against unseen data is Euclid DR1, not SPARC. Keep the two distinct: SPARC is a blind reanalysis, Euclid is the pre-registration.
 
 ---
 
-## VI. Falsification at the Component Level
+## V. Falsification at the Component Level
 
 The key advantage of the test. If it fails, we know which piece broke:
 
@@ -224,7 +226,26 @@ The key advantage of the test. If it fails, we know which piece broke:
 | $r_t$ correlates with $L_f$ but with wrong slope | $a_0$ value or formula structure is off | Specific coefficient needs correction |
 | $r_t$ and $R_\text{flat}$ both track $L_f$ but with different slopes | Single-$L_f$ picture is too coarse | Coherence scale is real, but anomalous acceleration and kinematic flattening respond to different radii |
 
-The H₀ binary-vs-continuous failure mode is not in this table because SPARC does not provide the data to test it. That failure mode is registered in §IV for future per-galaxy H₀ datasets.
+The H₀ binary-vs-continuous failure mode is not in this table because SPARC does not provide the data to test it. That failure mode is registered in §VIII for future per-galaxy H₀ datasets.
+
+---
+
+## VI. Motivation: The Hubble Tension as a Phase Field Effect
+
+This section gives the theoretical motivation for the coherence scale $L_f$ tested above. It is context, not evidence: the SPARC analysis in §III–§V does not depend on any of it.
+
+Two classes of H₀ measurement persistently disagree:
+
+| Method | H₀ (km/s/Mpc) | Environment |
+|---|---|---|
+| CMB (Planck) | 67.4 ± 0.5 | Global; unphased |
+| Local distance ladder (SH0ES) | 73.0 ± 1.0 | Inside disk galaxies; phased |
+
+MIT resolves this as a phase-field effect. The standing wave $\Psi = \cos(t/2)$ on the temporal edge is sampled at Fibonacci wells on the 120-domain of $S^3/2I$. The H₀ well sits at $\Theta = 34/120$ with $C(34/120) = 1.208$. Inside a disk galaxy, the local gravitational potential shifts the sampling position by one bosonic step (2/120) to $\Theta = 36/120$ with $C(36/120) = 1.309$. The ratio:
+
+$$\frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084$$
+
+Predicted shift: 8.4%. Observed tension: 67.4 → 73.0 ≈ 8.3%. Agreement < 1%.
 
 ---
 
@@ -242,9 +263,9 @@ Milgrom (1983) identified $a_0$ as a fundamental acceleration scale. MIT derives
 
 The structural distinction: MOND modifies the force law. MIT keeps gravity inverse-square everywhere. The "missing mass" inside galaxies is a curvature conversion from the embedded Möbius surface through the Gauss equation 3/2 factor. Inside the coherence scale $L_f$, the shifted sampling position on the bosonic grid ($\Theta = 34/120 \to 36/120$) mimics additional mass while leaving the force law intact.
 
-This distinction has a sharp observational discriminant at cluster scales. MOND requires deviations from inverse-square gravity at low accelerations; MIT predicts inverse-square is exact at all scales. The Gallardo et al. (2026) pairwise kinematic Sunyaev-Zel'dovich analysis with DESI and Planck (PRL 136, 151002) confirms cluster pairwise dynamics consistent with Newtonian inverse-square gravity at cluster scales. Result favors MIT.
+This distinction has an observational discriminant on cosmological scales. MOND requires deviations from inverse-square gravity at low accelerations; MIT predicts inverse-square is exact at all scales. Gallardo et al. (2026), using Atacama Cosmology Telescope CMB maps and an SDSS galaxy catalog, measured the gravitational force-law exponent from pairwise kinematic Sunyaev-Zel'dovich velocities over 30–230 Mpc halo-pair separations and found $n = 2.1 \pm 0.3$, consistent with inverse-square gravity and a poor fit for MOND (PRL 136, 151002).
 
-This is the strongest discriminator the current paper can leverage: the phase field reproduces the radial acceleration relation without modifying gravity, while MOND requires a force law change that recent cluster data disfavors. Full development of this argument belongs in the paper-level write-up as a stand-alone subsection.
+This is external context, not evidence for MIT. It provides independent motivation for mechanisms that preserve inverse-square gravity on large scales, but the SPARC test in §III–§V does not depend on it and is neither strengthened nor weakened by it. If the SPARC analysis stands on its own data, the Gallardo result is a convergence; if it does not, no credibility has been staked on another group's paper. The point that the phase field reproduces the radial acceleration relation without modifying gravity belongs in the paper-level write-up as a stand-alone subsection, framed as a comparison of mechanisms rather than a verdict.
 
 ### ΛCDM + Dark Matter Particles
 
@@ -252,7 +273,15 @@ This is the strongest discriminator the current paper can leverage: the phase fi
 
 ---
 
-## VIII. Timeline and Submission
+## VIII. Forward-Looking: H₀ Bimodality
+
+H₀ measurements at the per-galaxy level should cluster in two populations (CMB-like or SH0ES-like), not form a continuous distribution correlated with $v_c$ or $L_f$. MIT predicts binary: inside $L_f$ = shifted, outside = unshifted. No intermediate values.
+
+SPARC does not provide per-galaxy H₀ measurements. SH0ES gives one aggregate H₀ across multiple Cepheid hosts, not a per-galaxy distribution. Verifying this prediction requires per-host H₀ estimates from forthcoming JWST Cepheid programs, TRGB calibrators, or megamaser distances. Registered here as a prediction; verification awaits future data.
+
+---
+
+## IX. Timeline and Submission
 
 | Step | Target |
 |---|---|
@@ -265,11 +294,11 @@ This is the strongest discriminator the current paper can leverage: the phase fi
 
 Target journal: MNRAS Letters or ApJ Letters.
 
-Budget note: operational algorithms (§V) apply uniformly across the sample, removing the need for per-galaxy judgment calls on radius identification. The time-intensive step is verifying algorithm applicability for galaxies with noisy outer rotation curves or uncertain mass models (expected ~20% of the sample). These flagged cases are counted and documented as a separate sub-population.
+Budget note: operational algorithms (§IV) apply uniformly across the sample, removing the need for per-galaxy judgment calls on radius identification. The time-intensive step is verifying algorithm applicability for galaxies with noisy outer rotation curves or uncertain mass models (expected ~20% of the sample). These flagged cases are counted and documented as a separate sub-population.
 
 ---
 
-## IX. Connection to MIT Framework
+## X. Connection to MIT Framework
 
 This paper tests one specific component of Mode Identity Theory: the phase field mechanism that resolves the Hubble tension. It does not require the full framework to be accepted. The test is:
 
@@ -289,7 +318,7 @@ The geometric mechanism behind $L_f$ as a coherence scale is explored in the [co
 - Lelli, F., McGaugh, S. S., Schombert, J. M. (2016). SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves. AJ, 152, 157.
 - McGaugh, S. S., Lelli, F., Schombert, J. M. (2016). The Radial Acceleration Relation in Rotationally Supported Galaxies. PRL, 117, 201101.
 - Milgrom, M. (1983). A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis. ApJ, 270, 365.
-- Gallardo, P. A., et al. (2026). Pairwise kinematic Sunyaev-Zel'dovich effect with DESI galaxies and Planck. PRL, 136, 151002.
+- Gallardo, P. A., et al. (2026). Test of the Gravitational Force Law on Cosmological Scales Using the Kinematic Sunyaev-Zel'dovich Effect. PRL, 136, 151002. arXiv:2604.14327.
 - Shatto, B. (2026). Mode Identity Theory engine file. github.com/dmobius3/mode-identity-theory
 
 ---
