@@ -125,13 +125,21 @@ Using $a_0 = 1.2 \times 10^{-10}$ m/s²:
 
 Every galaxy with a flat rotation curve should satisfy $\mathcal{T}/\mathcal{T}_c \approx 1/\xi \approx 2.2$ regardless of mass or size. Compute $\mathcal{T}_c$ for each galaxy; verify $\mathcal{T}/\mathcal{T}_c > 1$ for all flat-curve galaxies.
 
+**Caveat on what this test proves.** For any galaxy already classified as flat-curve, $\mathcal{T}/\mathcal{T}_c = 1/\xi$ follows algebraically from the flat-curve assumption: among that sub-sample the prediction is true by construction, not by observation. The test has genuine teeth only on galaxies whose curves are rising or arguably flat, where the computed ratio can land near 1. Compute $\mathcal{T}/\mathcal{T}_c$ across the whole sample without the flat-curve pre-cut: the rising-curve dwarfs (see below) are where threshold crossing is actually at stake. The "universal threshold crossing" and "dwarfs without flat curves" tests are the same test, sharp only on the non-flat sub-population.
+
 ### Transition radius tracks L_f
 
-The radius at which gravitational behavior transitions from Newtonian to "anomalous" (the MOND transition) should correlate with $L_f = v_c^2/a_0$. For each SPARC galaxy, identify the radius $r_t$ where observed acceleration crosses $a_0$. Plot $r_t$ against $L_f$. Prediction: linear correlation with slope ≈ 1.
+The radius at which gravitational behavior transitions from Newtonian to "anomalous" should correlate with $L_f = v_c^2/a_0$. For each SPARC galaxy, identify $r_t$ as the baryon-to-total divergence radius defined operationally in §V ($g_\text{obs}/g_\text{bar} \geq 1.2$). Plot $r_t$ against $L_f$. Prediction: linear correlation with slope ≈ 1.
+
+$r_t$ must **not** be defined as the radius where $g_\text{obs}$ crosses $a_0$. For a flat rotation curve $g_\text{obs}(r) = v_c^2/r$, so that radius is $v_c^2/a_0 = L_f$ identically: the correlation would be an arithmetic identity, not a physical result. The $g_\text{obs}/g_\text{bar}$ definition depends on the baryonic mass model, which $a_0$ does not enter, so a correlation with $L_f$ is a genuine empirical claim.
 
 ### Flat-curve onset radius tracks L_f
 
-A second observable independent of $r_t$: define $R_\text{flat}$ as the radius where the rotation curve first reaches its flat value. Plot $R_\text{flat}$ against $L_f$ for each galaxy. Prediction: linear correlation. The two correlations probe different physics. $r_t$ marks the onset of anomalous acceleration; $R_\text{flat}$ marks the onset of curve flatness. These are not the same radius in every galaxy. Agreement of both with $L_f$ is a stronger test than either alone.
+A second observable independent of $r_t$: define $R_\text{flat}$ as the radius where the rotation curve first reaches its flat value (operational form in §V). Plot $R_\text{flat}$ against $L_f$ for each galaxy. Prediction: linear correlation with slope ≈ 1 in physical units (kpc vs kpc), intercept consistent with zero.
+
+**The bare correlation is not sufficient evidence.** $L_f \propto v_c^2$, and any galactic radius grows with $v_c$, so $R_\text{flat}$ and $L_f$ will correlate even with no phase field, through shared mass scaling alone. The test must show that $R_\text{flat}$ tracks $L_f = v_c^2/a_0$ specifically: better than it tracks a null size proxy (optical scale length, $R_\text{last}$, or $v_c^1$), via partial correlation. A correlation that does not survive this control is "large galaxies are large," not a confirmation of the coherence scale.
+
+The two correlations probe different physics. $r_t$ marks the onset of anomalous acceleration; $R_\text{flat}$ marks the onset of curve flatness. These are not the same radius in every galaxy. Agreement of both with $L_f$ is a stronger test than either alone.
 
 ### Dwarf galaxies without flat curves
 
@@ -196,6 +204,12 @@ If local H₀ estimates exist for SPARC galaxies (or for galaxies in similar env
 - Test for bimodality vs. unimodal spread.
 - KS test or Hartigan's dip test for bimodality.
 
+### Analysis protocol and registration status
+
+This is a locked-pipeline blind analysis of pre-existing data, and the writeup should say so plainly. SPARC has been public since 2016. Freezing the pipeline (the §V operational algorithms, the 1.2 and 5% thresholds, the sample cuts) and depositing the tagged commit before the data is touched defends against one objection: that the algorithm thresholds were tuned to the data. It does not defend against the objection that the data was already visible. Those are different claims and should not be conflated.
+
+The primary defense is therefore not a timestamp. It is that $L_f = v_c^2/a_0$ and the slope ≈ 1 predictions are parameter-free consequences of the MIT topology, fixed before any galaxy was examined: nothing in the pipeline is fitted. The deposit is the secondary defense, retiring the threshold-tuning objection. The genuine pre-registered test against unseen data is Euclid DR1, not SPARC. Keep the two distinct: SPARC is a blind reanalysis, Euclid is the pre-registration.
+
 ---
 
 ## VI. Falsification at the Component Level
@@ -208,6 +222,7 @@ The key advantage of the test. If it fails, we know which piece broke:
 | Threshold not universally crossed | Closure identity fails | $\mathcal{T}_c$ formulation or $\xi$ value is wrong |
 | Scatter correlates with metallicity or density | Environmental variable dominates | Phase field is not the primary mechanism |
 | $r_t$ correlates with $L_f$ but with wrong slope | $a_0$ value or formula structure is off | Specific coefficient needs correction |
+| $r_t$ and $R_\text{flat}$ both track $L_f$ but with different slopes | Single-$L_f$ picture is too coarse | Coherence scale is real, but anomalous acceleration and kinematic flattening respond to different radii |
 
 The H₀ binary-vs-continuous failure mode is not in this table because SPARC does not provide the data to test it. That failure mode is registered in §IV for future per-galaxy H₀ datasets.
 
