@@ -15,7 +15,7 @@ Measurements of the Hubble constant have split into two persistent camps: the co
 | Phase shift | $\Theta_f = 2/120$ (one bosonic step) |
 | $\Delta C/C$ at $H_0$ well | 8.4% |
 | Predicted local $H_0$ | 67.4 x 1.084 ≈ 73 km/s/Mpc |
-| Closure identity | $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$ (universal) |
+| Trigger condition | $\langle v^2\rangle_{L_f}/v_c^2 > \xi \approx 0.46$ |
 
 ## I. The Tension
 
@@ -51,13 +51,35 @@ The trigger index $\mathcal{T}$ compares the gravitational potential drop across
 
 $$\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}\Phi_\text{rel}(l)\,dl$$
 
-where $\Phi_\text{rel}(l) \equiv \Phi(L_f) - \Phi(l)$ is the potential difference from the coherence boundary (gauge-invariant). For a flat rotation curve, $\Phi(r) = v_c^2\ln(r/r_0)$, so $\Phi_\text{rel}(l) = v_c^2\ln(L_f/l)$. The integral evaluates exactly: $\int_0^{L_f} v_c^2\ln(L_f/l)\,dl = v_c^2 L_f$ (substituting $u = l/L_f$, $\int_0^1 (-\ln u)\,du = 1$). Therefore $\mathcal{T} = 2v_c^2/c^2$, and the ratio becomes independent of the galaxy:
+where $\Phi_\text{rel}(l) \equiv \Phi(L_f) - \Phi(l)$ is the potential difference from the coherence boundary (gauge-invariant). For a flat rotation curve, $\Phi(r) = v_c^2\ln(r/r_0)$, so $\Phi_\text{rel}(l) = v_c^2\ln(L_f/l)$. The integral evaluates exactly: $\int_0^{L_f} v_c^2\ln(L_f/l)\,dl = v_c^2 L_f$ (substituting $u = l/L_f$, $\int_0^1 (-\ln u)\,du = 1$). Therefore $\mathcal{T} = 2v_c^2/c^2$, and the ratio becomes independent of the galaxy.
+
+The flat-curve evaluation is a special case of a general identity. For any circular rotation curve, $v^2(r) = r\,d\Phi/dr$, so
+
+$$\Phi_\text{rel}(l) = \Phi(L_f) - \Phi(l) = \int_l^{L_f}\frac{v^2(s)}{s}\,ds.$$
+
+Switching the order of integration in $\int_0^{L_f}\Phi_\text{rel}(l)\,dl$ gives
+
+$$\int_0^{L_f}\Phi_\text{rel}(l)\,dl = \int_0^{L_f}v^2(l)\,dl.$$
+
+Thus
+
+$$\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}v^2(l)\,dl = \frac{2\langle v^2\rangle_{L_f}}{c^2},$$
+
+where $\langle v^2\rangle_{L_f}$ is the radial mean-square circular velocity over the coherence interval $[0, L_f]$. For a flat curve, $\langle v^2\rangle_{L_f} = v_c^2$, recovering the result above. In that limit:
 
 $$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2$$
 
-This is a closure identity. Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; their ratio is galaxy-independent. Every flat-curve disk crosses the threshold by the same factor. The response is binary: below threshold $\Theta_f = 0$; at or above it, one bosonic step ($\Theta_f = 2/120$).
+In the flat-curve limit, this is a closure identity. Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; their ratio is galaxy-independent. Every flat-curve disk crosses the threshold by the same factor. The response is binary: below threshold $\Theta_f = 0$; at or above it, one bosonic step ($\Theta_f = 2/120$).
 
-The identity is robust to realistic rotation curves. The exact integral $\int_0^1(-\ln u)\,du = 1$ holds for a perfectly flat curve; deviations from flatness (rising inner regions, mild outer declines) perturb the integral at the few-percent level, leaving $\mathcal{T}/\mathcal{T}_c$ well above unity. The trigger margin ($\approx 2.2\times$ threshold) absorbs realistic profile variations without changing the binary outcome.
+For a general rotation curve, the threshold ratio becomes
+
+$$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{\langle v^2\rangle_{L_f}}{\xi\,v_c^2}.$$
+
+The flat-curve closure value $1/\xi \approx 2.2$ is therefore modified only by the ratio $\langle v^2\rangle_{L_f}/v_c^2$. For rising-to-flat curves this factor is below unity; for peaked or mildly declining curves it is computed directly from the observed profile. The trigger condition becomes the transparent inequality
+
+$$\frac{\langle v^2\rangle_{L_f}}{v_c^2} > \xi \approx 0.46$$
+
+where $v_c$ is the outer flat-region velocity. The phase field remains active whenever the mean-square velocity across the coherence interval exceeds roughly half the flat-curve value.
 
 $$\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)$$
 
@@ -65,7 +87,7 @@ The step size $2/120$ is the minimum observable shift on the 60R-grid. The full 
 
 ## III. Well Sensitivity
 
-The closure identity guarantees the trigger fires. What determines the observable consequence is the logarithmic slope of the phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ (the anti-periodic ground mode intensity, normalized to unit mean) at each Fibonacci well:
+Once the trigger condition is satisfied, the observable consequence is set by the logarithmic slope of the phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ (the anti-periodic ground mode intensity, normalized to unit mean) at each Fibonacci well:
 
 $$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \frac{d\ln C}{d\Theta} \times \Delta\Theta$$
 
