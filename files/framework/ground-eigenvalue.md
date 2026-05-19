@@ -4,7 +4,7 @@
 
 # Ground Eigenvalue of the Twisted Laplacian on a Constant-Curvature Möbius Band in the Reduced Anti-Periodic Sector
 
-[![Ground mode eigenvalue](https://img.youtube.com/vi/1AZfOvcrIdk/mqdefault.jpg)](https://www.youtube.com/watch?v=1AZfOvcrIdk)
+[![Ground mode eigenvalue](https://img.youtube.com/vi/TRl91vBIupI/mqdefault.jpg)](https://www.youtube.com/watch?v=TRl91vBIupI)
 
 We study the ground eigenvalue of the twisted Laplace-Beltrami operator in the $w$-constant anti-periodic sector (Sector $\mathcal{A}$) on the Möbius band constructed from a spherical band on the great $S^2 \subset S^3$ by twisted boundary-edge identification. The resulting surface inherits the metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, with the metric degenerating at the interior cone point $y = \pi R/2$. The Möbius band inherits constant curvature $K = 1/R^2$ from the covering $S^2$; the spectral problem reduces to a regular-branch Sturm-Liouville eigenvalue problem on two smooth half-intervals joined at the interior cone point.
 
