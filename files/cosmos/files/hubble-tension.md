@@ -179,17 +179,17 @@ The phase field produces a discrete prediction. Local $H_0$ should cluster at qu
 | Void-embedded calibrators return $H_0 \approx 70 \pm 1$ | Intermediate state exists; $2/120$ step is incomplete |
 | Environment-binned $H_0$ shows smooth gradient | Phase field is continuously sourced, not triggered |
 
-The test is operational now. Ladder calibrations built from hosts in void-like vs overdense regions, late-time geometric methods binned by environment, and histograms of $H_0$ tested for bimodality vs continuous spread all probe the fork directly.
+An exploratory compilation of 18 published $H_0$ measurements (13 independent) was tested for bimodality against this table. Hartigan's dip test fails to reject unimodality in all configurations; BIC does not cleanly separate 1- from 2-component Gaussian mixtures; and the predicted 69-71 gap is populated by TRGB/CCHP at 69.8 ± 1.7. The first three rows of the table above all register against the discrete picture. Analysis: [h0-bimodality-test.md](../working/files/h0-bimodality-test.md).
 
-The original prediction was that all disk galaxies with developed halos select the same quantized state. The SPARC test falsifies this for $L_f = v_c^2/a_0$. The discrete-vs-continuous fork remains testable with an independently derived trigger or direct $H_0$ stratification data.
+The original prediction was that all disk galaxies with developed halos select the same quantized state. The SPARC test falsifies the specific trigger $L_f = v_c^2/a_0$; the bimodality test finds no evidence of the predicted two-population structure. The discrete-vs-continuous fork remains open to future data from per-host $H_0$ programs and purely geometric calibrations.
 
 ---
 
 The lattice calculation remains sharp: a one-step bosonic displacement from $\Theta_0 = 34/120$ to $\Theta = 36/120$ converts the bare value $H_0 = 67.4$ km/s/Mpc into $H_0 \approx 73$ km/s/Mpc through the phase-operator slope. What fails is the proposed galactic trigger that would force ordinary disk galaxies to realize that displacement.
 
-The SPARC test therefore separates two claims. The 8.4% well sensitivity is intact as lattice math; the specific coherence-scale trigger $L_f = v_c^2/a_0$ is falsified as a physical mechanism.
+The SPARC and bimodality tests therefore separate three claims. The 8.4% well sensitivity is intact as lattice math; the specific coherence-scale trigger $L_f = v_c^2/a_0$ is falsified as a physical mechanism; and the predicted discrete two-population $H_0$ structure is not observed.
 
-*The Hubble-tension phase-field trigger, as formulated here, does not survive its first registered galactic test.*
+*The Hubble-tension phase-field trigger, as formulated here, does not survive its first registered galactic test. The discrete $H_0$ signature it predicts is not found in current data.*
 
 ---
 
