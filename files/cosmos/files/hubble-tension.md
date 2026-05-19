@@ -6,16 +6,16 @@
 
 [![Hubble Tension](https://img.youtube.com/vi/zg7il8pWhAY/mqdefault.jpg)](https://www.youtube.com/watch?v=zg7il8pWhAY)
 
-Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc; local distance ladders give 73. The discrepancy survives every systematic check and every independent method. Mode Identity Theory resolves the tension through the phase field: observers embedded in galactic structure sample from a shifted position on the 120-domain. The shift is one bosonic step, $\Theta_f = 2/120$, and the logarithmic slope of the phase operator at the $H_0$ well converts that step into an 8.4% increase. Both measurements are correct. They sample different positions on the same wave.
+Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc; local distance ladders give 73. The discrepancy survives every systematic check and every independent method. Mode Identity Theory proposes a resolution through the phase field: observers embedded in galactic structure would sample from a shifted position on the 120-domain. The shift is one bosonic step, $\Theta_f = 2/120$, and the logarithmic slope of the phase operator at the $H_0$ well converts that step into an 8.4% increase. If the shift is physically realized, both measurements are correct: they sample different positions on the same wave.
 
 **Phase field shift at the H₀ well**
 
-| Quantity | Value |
+| Quantity | Status |
 |---|---|
-| Phase shift | $\Theta_f = 2/120$ (one bosonic step) |
-| $\Delta C/C$ at $H_0$ well | 8.4% |
-| Predicted local $H_0$ | 67.4 x 1.084 ≈ 73 km/s/Mpc |
-| Trigger condition | $\langle v^2\rangle_{L_f}/v_c^2 > \xi \approx 0.46$ |
+| Phase shift required | $\Theta_f = 2/120$ |
+| $\Delta C/C$ at $H_0$ well | 8.4%, unchanged |
+| Predicted shifted value if triggered | $67.4 \times 1.084 \approx 73$ km/s/Mpc |
+| Proposed trigger | $L_f = v_c^2/a_0$, falsified by SPARC |
 
 ## I. The Tension
 
@@ -23,11 +23,11 @@ The Planck CMB measurement gives $H_0 = 67.4 \pm 0.5$ km/s/Mpc at $z \approx 110
 
 Systematic explanations have been scrutinized for a decade. The tension survives. It appears to be real.
 
-Within MIT, the resolution is structural. Both values emerge from the same Fibonacci well ($\Theta_0 = 34/120$), sampled at two different positions. The CMB measures the bare well. Local observations measure the well shifted by one bosonic step. The difference is fixed by the lattice, not fitted to the data.
+Within MIT, the proposed resolution is structural. Both values emerge from the same Fibonacci well ($\Theta_0 = 34/120$), sampled at two different positions. The CMB measures the bare well. The local value corresponds to a one-step shift, but the galactic trigger proposed to realize that shift is falsified by the SPARC test in §II.
 
 ## II. The Phase Field
 
-The scaling law produces cosmic observables from Fibonacci well positions on the 120-domain. Phase field mechanics extends this to galactic observables: when an observer sits inside a disk galaxy with a flat rotation curve, the sampling position shifts.
+The scaling law produces cosmic observables from Fibonacci well positions on the 120-domain. Phase field mechanics extends this to galactic observables: the mechanism proposed here is that when an observer sits inside a triggered disk galaxy, the sampling position shifts.
 
 ### Phase decomposition
 
@@ -43,7 +43,7 @@ The phase field is coherent over a scale set by the galactic rotation curve and 
 
 $$L_f = \frac{v_c^2}{a_0}$$
 
-This is the galactocentric radius where the gravitational field drops to $a_0$. For the Milky Way ($v_c \approx 220$ km/s, $a_0 \approx 1.2 \times 10^{-10}$ m/s²): $L_f \approx 13$ kpc. Every calibrator inside this radius shares the same phase shift.
+This is the galactocentric radius where the gravitational field drops to $a_0$. For the Milky Way ($v_c \approx 220$ km/s, $a_0 \approx 1.2 \times 10^{-10}$ m/s²): $L_f \approx 13$ kpc. In the trigger model, every calibrator inside this radius would share the same phase shift. The SPARC test below shows this coherence radius does not trigger reliably in observed disk galaxies.
 
 ### Trigger and closure
 
@@ -80,6 +80,18 @@ The flat-curve closure value $1/\xi \approx 2.2$ is therefore modified only by t
 $$\frac{\langle v^2\rangle_{L_f}}{v_c^2} > \xi \approx 0.46$$
 
 where $v_c$ is the outer flat-region velocity. The phase field remains active whenever the mean-square velocity across the coherence interval exceeds roughly half the flat-curve value.
+
+### Registered SPARC test
+
+The coherence-scale trigger was tested against 123 quality-filtered SPARC rotation curves in a frozen, pre-registered pipeline ([dmobius3/phase-field](https://github.com/dmobius3/phase-field), archived at DOI: [10.5281/zenodo.20271702](https://doi.org/10.5281/zenodo.20271702)). The pipeline was locked before data contact and executed once.
+
+The result falsifies the trigger mechanism as formulated here. The observed transition-radius slope is 0.23 (registered interval: 0.7 to 1.3); the flat-onset slope is 0.33; the median $r_t/L_f$ is 0.38; and 53.7% of flat-curve galaxies fall below $\mathcal{T}/\mathcal{T}_c = 1$ (registered limit: 5%). All verdicts are stable across the registered 27-cell sensitivity grid.
+
+The general identity above makes the failure precise. Real SPARC rotation curves are not flat over $[0, L_f]$. For most disks, $L_f$ extends into the rising inner rotation curve, so $\langle v^2\rangle_{L_f} < v_c^2$. The typical mean-square suppression is near 0.41, below the trigger threshold $\xi \approx 0.46$. The flat-curve closure identity is not realized by the observed galaxy population.
+
+No revised coherence scale is introduced here. Any replacement trigger must be derived independently and tested separately.
+
+The binary rule tested by the registered pipeline was:
 
 $$\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)$$
 
@@ -123,11 +135,13 @@ The bare well gives $H_0 = 67.4$ km/s/Mpc (the MIT phase-clock best-fit, consist
 
 $$67.4 \times 1.084 \approx 73 \;\text{km/s/Mpc}$$
 
-This matches SH0ES. The 8.4% is an output of the lattice geometry at $\Theta_0 = 34/120$, produced by a step whose size is fixed at $2/120$.
+This is the SH0ES value. The 8.4% is an output of the lattice geometry at $\Theta_0 = 34/120$, produced by a step whose size is fixed at $2/120$.
 
 ## IV. Method Classification
 
-The phase field shifts $H_0$ measurements differently depending on calibration class. How much of the 8.4% reaches the final answer depends on where the absolute calibration is set. Two channels transmit the bias.
+If a galactic trigger exists, local distance ladders would inherit its shift through their anchors. The SPARC result (§II) shows that the specific trigger proposed in this paper does not supply that condition. The classification below remains a map of how a phase-domain shift would propagate, not evidence that the shift is realized by $L_f = v_c^2/a_0$.
+
+If triggered, the phase field would shift $H_0$ measurements differently depending on calibration class. How much of the 8.4% reaches the final answer depends on where the absolute calibration is set. Two channels would transmit the bias.
 
 ### Calibration inheritance
 
@@ -139,7 +153,7 @@ Geometric methods (time-delay lensing, standard sirens) integrate $1/H(z)$ along
 
 ### Which mechanism applies where
 
-| Method | Calibration | Channel | Expected H₀ |
+| Method | Calibration | Channel | Expected H₀ if triggered |
 |---|---|---|---|
 | Cepheid/SN ladder (SH0ES) | Local anchors | Inheritance (full shift) | ~73 |
 | TRGB | Local anchors | Inheritance (full shift) | ~73 |
@@ -149,7 +163,7 @@ Geometric methods (time-delay lensing, standard sirens) integrate $1/H(z)$ along
 | BAO + BBN | Early-universe ruler | Neither (bare well) | ~67 |
 | CMB (Planck) | Early-universe physics | Neither (bare well) | ~67 |
 
-The key distinction is where the absolute calibration is set. The CMB records a phase epoch before local structure existed ($\Theta_f = 0$ by construction). BAO and BBN use an early-universe ruler ($r_d$) that predates the phase field. Local ladders import the full shift because every anchor sits inside the coherence domain.
+The key distinction is where the absolute calibration is set. The CMB records a phase epoch before local structure existed ($\Theta_f = 0$ by construction). BAO and BBN use an early-universe ruler ($r_d$) that predates the phase field. In the trigger model, local ladders would import the full shift because their anchors sit inside the coherence domain; after the SPARC result, this remains a propagation rule for any future trigger, not a demonstrated consequence of $L_f = v_c^2/a_0$.
 
 The prediction is stratification: $H_0$ values should sort by calibration class, with locally-anchored methods clustering near 73 and early-universe methods clustering near 67. Current TDCOSMO time-delay results sit near 73, above the predicted ~67 for geometric methods. The phase field interpretation is that these analyses inherit local priors (lens model calibrations anchored to local distance scales) rather than measuring the bare well directly. If future analyses with purely geometric calibration (no local anchors) still return ~73, the averaging prediction is falsified.
 
@@ -167,13 +181,15 @@ The phase field produces a discrete prediction. Local $H_0$ should cluster at qu
 
 The test is operational now. Ladder calibrations built from hosts in void-like vs overdense regions, late-time geometric methods binned by environment, and histograms of $H_0$ tested for bimodality vs continuous spread all probe the fork directly.
 
-The MIT prediction: all disk galaxies with developed halos select the same quantized state. The $H_0$ distribution should be bimodal (CMB-anchored at ~67, locally-calibrated at ~73), not a continuous spread.
+The original prediction was that all disk galaxies with developed halos select the same quantized state. The SPARC test falsifies this for $L_f = v_c^2/a_0$. The discrete-vs-continuous fork remains testable with an independently derived trigger or direct $H_0$ stratification data.
 
 ---
 
-Both measurements are correct. The CMB samples the Fibonacci well at $\Theta_0 = 34/120$. Local distance ladders sample from inside a triggered galaxy, shifted by one bosonic step to $\Theta = 36/120$. The closure identity guarantees the trigger fires for every flat-curve disk. The slope of the phase operator at that well converts the step into 8.4%.
+The lattice calculation remains sharp: a one-step bosonic displacement from $\Theta_0 = 34/120$ to $\Theta = 36/120$ converts the bare value $H_0 = 67.4$ km/s/Mpc into $H_0 \approx 73$ km/s/Mpc through the phase-operator slope. What fails is the proposed galactic trigger that would force ordinary disk galaxies to realize that displacement.
 
-*The Hubble tension is phase field mechanics.*
+The SPARC test therefore separates two claims. The 8.4% well sensitivity is intact as lattice math; the specific coherence-scale trigger $L_f = v_c^2/a_0$ is falsified as a physical mechanism.
+
+*The Hubble-tension phase-field trigger, as formulated here, does not survive its first registered galactic test.*
 
 ---
 
