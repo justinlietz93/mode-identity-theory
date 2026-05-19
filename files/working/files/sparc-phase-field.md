@@ -67,7 +67,7 @@ One bosonic grid step or nothing. No continuous tuning.
 
 ### Open: discrete snap derivation
 
-The binary response is declared and testable, but the mechanism that enforces quantization is not derived. Why does the phase field lock to exactly one bosonic grid step (2/120) rather than sliding continuously with potential depth? The 120-domain structure discretizes the available positions, but the selection rule that permits only a single-step jump (and forbids multi-step or fractional shifts) has no first-principles derivation. This is the gap between "the grid exists" and "the grid enforces a step function." Resolution likely requires the 120-domain selection rules; connection to the cone point analysis ([cone point coherence notes](cone-point-coherence-notes.md)) is possible but speculative.
+The binary response is declared and testable, but the mechanism that enforces quantization is not derived. Why does the phase field lock to exactly one bosonic grid step (2/120) rather than sliding continuously with potential depth? The 120-domain structure discretizes the available positions, but the selection rule that permits only a single-step jump (and forbids multi-step or fractional shifts) has no first-principles derivation. This is the gap between "the grid exists" and "the grid enforces a step function." Resolution likely requires the 120-domain selection rules; connection to the cone point analysis ([cone point coherence notes](cone-point-coherence.md)) is possible but speculative.
 
 ### Closure identity
 
@@ -317,7 +317,7 @@ A fourth claim, that the H₀ shift is binary rather than continuous, is not tes
 
 If the three SPARC-testable claims hold across the sample, the phase field mechanism is supported independently of Euclid. If any fail, the specific failure mode tells you what to fix.
 
-The geometric mechanism behind $L_f$ as a coherence scale is explored in the [cone point coherence notes](cone-point-coherence-notes.md), which ask whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the cone point analysis on the Mobius band) nests to galactic scale. The SPARC test is empirical; the cone point analysis is structural. Both probe the same object ($L_f$) from different directions.
+The geometric mechanism behind $L_f$ as a coherence scale is explored in the [cone point coherence notes](cone-point-coherence.md), which ask whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the cone point analysis on the Mobius band) nests to galactic scale. The SPARC test is empirical; the cone point analysis is structural. Both probe the same object ($L_f$) from different directions.
 
 ---
 

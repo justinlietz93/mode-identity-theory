@@ -149,7 +149,7 @@ The problem is not the magnitude; it is the character. The flat rotation curve p
 
 This is parallel to the MOND regime: $a_0$ marks where Newtonian gravity alone fails to account for the dynamics. Here, GR tidal curvature fails not just quantitatively but qualitatively: the Jacobi equation has the wrong character (power-law instead of oscillatory) to produce a cone point within $L_f$. The topology must supply the missing structure.
 
-The [SPARC phase field notes](sparc-phase-field-notes.md) test $L_f$ empirically across 175 galaxies. That analysis asks whether $L_f$ predicts the gravitational transition radius; this section asks why $L_f$ is the coherence scale geometrically. If the SPARC correlations hold, the curvature sourcing question sharpens: whatever sources $K_g$ must produce $L_f = v_c^2/a_0$ as a consequence.
+The [SPARC phase field notes](sparc-phase-field.md) test $L_f$ empirically across 175 galaxies. That analysis asks whether $L_f$ predicts the gravitational transition radius; this section asks why $L_f$ is the coherence scale geometrically. If the SPARC correlations hold, the curvature sourcing question sharpens: whatever sources $K_g$ must produce $L_f = v_c^2/a_0$ as a consequence.
 
 **Assessment:** The galactic cone point (Reading B) cannot be sourced by GR curvature. It requires the topological scale $a_0$. If the 120-grid projects at every scale with constant curvature inherited from the Mobius structure (not from the gravitational field), then $K_g = \pi^2/L_f^2$ is set by the topology-gravity interface, and the cone point exists. If the curvature must be sourced purely by GR, the cone point does not exist within the galaxy, and galactic coherence must work by a different mechanism (Reading A or something else).
 

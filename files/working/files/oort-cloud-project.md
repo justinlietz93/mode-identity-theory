@@ -120,7 +120,7 @@ Phase field mechanics: $\alpha = \alpha_0 + \alpha_f$, where $\alpha_f$ depends 
 
 Status: DERIVED at galactic scale. The principle (coherence required for sampling) is general. The specific derivation ($L_f = v_c^2/a_0$) is galactic.
 
-The [cone point coherence notes](cone-point-coherence-notes.md) explore the geometric mechanism: whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the Frobenius/Friedrichs/excision analysis at the cone point) is the structural reason coherence holds within $L_f$. Key finding from that analysis: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature lives at the topology-gravity interface.
+The [cone point coherence notes](cone-point-coherence.md) explore the geometric mechanism: whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the Frobenius/Friedrichs/excision analysis at the cone point) is the structural reason coherence holds within $L_f$. Key finding from that analysis: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature lives at the topology-gravity interface.
 
 ---
 
@@ -241,7 +241,7 @@ Status: OBSERVATION. Intriguing. Possibly coincidence. Requires nested chronon d
 
 | 7 | Arpeggio structure | Black hole (node) → galaxy (first harmonic) → universe (fundamental) → octave (Möbius double cover). If the cone point nests, each scale is a partial of the same standing wave, and the progression across scales is an arpeggio through the chord. Is the relationship between nested coherence domains harmonic? Does the node-to-mode progression follow the same spectral structure at every level? | MEDIUM (conceptual; sharpens after Gap 1) |
 
-The [cone point coherence notes](cone-point-coherence-notes.md) add an eighth gap upstream of Gap 1: **what sources the curvature $K_g$ at galactic scale?** The Frobenius program in that file determines whether the cone point mechanism provides the geometric foundation for nested coherence. Gap 1 here and the curvature sourcing question there are coupled: both ask how the topological structure interfaces with the gravitational field at sub-cosmic scales.
+The [cone point coherence notes](cone-point-coherence.md) add an eighth gap upstream of Gap 1: **what sources the curvature $K_g$ at galactic scale?** The Frobenius program in that file determines whether the cone point mechanism provides the geometric foundation for nested coherence. Gap 1 here and the curvature sourcing question there are coupled: both ask how the topological structure interfaces with the gravitational field at sub-cosmic scales.
 
 ---
 
