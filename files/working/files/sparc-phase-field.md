@@ -30,14 +30,48 @@ The point of separating the tests is component-level falsification: failure isol
 
 The pre-registered pipeline was run once against SPARC on 2026-05-19. The pipeline, predictions, acceptance criteria, and sample cuts were frozen beforehand at tag `v1.0-preregistration` (github.com/dmobius3/phase-field, DOI 10.5281/zenodo.20271702).
 
-**The registered predictions are not borne out.** Of 123 quality-filtered galaxies, all four registered predictions fail, and the verdicts are stable across all 27 cells of the sensitivity grid: the failure is not an artifact of any analyst threshold.
+**The registered predictions are not borne out.** Of 123 quality-filtered galaxies, the three testable predictions fail and the fourth is untestable on this sample.
+
+| Prediction | Registered criterion | Observed | Verdict |
+|---|---|---|---|
+| 1. Transition radius tracks $L_f$ | $r_t$-vs-$L_f$ OLS slope in [0.7, 1.3] | slope ≈ 0.23; $\eta_t$ median 0.38 | Fail |
+| 2. Flat-onset radius tracks $L_f$ | $\eta_\text{flat}$ in precision window [0.75, 1.25] | median 1.26 (n = 56 measurable) | Fail (near-miss) |
+| 3. Closure identity holds | ≤ 5% of flat-curve galaxies below $\mathcal{T}/\mathcal{T}_c = 1$ | 53.7% below | Fail |
+| 4. Trigger index predicts morphology | AUC separating flat from rising curves | no rising-curve galaxies in the sample; AUC undefined | Untestable |
+
+All verdicts are stable across the full 27-cell sensitivity grid (slope $r_t$ 0.18 to 0.30, slope $R_\text{flat}$ 0.11 to 0.33, predictions 1 to 4 unchanged in every cell): the failure is not an artifact of any analyst threshold.
 
 - **Transition radius.** $r_t$ correlates with $L_f$ but with OLS slope ≈ 0.23, far below the registered [0.7, 1.3]. The ratio $\eta_t = r_t/L_f$ has median 0.38: the anomalous-acceleration transition occurs at roughly 40% of the predicted coherence radius, consistently.
 - **Flat-onset radius.** $R_\text{flat}$ vs $L_f$ has slope ≈ 0.33; the ratio $\eta_\text{flat}$ has median 1.26 over the measurable sub-sample. Order unity, but the curve flattens beyond $L_f$, not at it.
 - **Closure identity.** 53.7% of flat-curve galaxies fall below $\mathcal{T}/\mathcal{T}_c = 1$, against a registered tolerance of 5%. Universal threshold crossing fails.
 - **Trigger index as predictor.** Untestable on this sample: the quality cuts leave no rising-curve galaxies, so there is no negative class. At stricter onset criteria roughly 27 of the 123 would be classed rising; the registered primary-cell labels leave none.
 
+![Transition radius versus coherence scale, with null-model comparison](figures/sparc-fig2-rt-vs-Lf.png)
+
+Left: $r_t$ against $L_f = v_c^2/a_0$ for the 123 galaxies, with the OLS slope of 0.23 against the slope-1 expectation. Right: $|$Spearman $\rho|$ of $r_t$ with $L_f$ and with each registered null model. $M_b^{1/3}$ and $M_b^{1/2}$ both correlate with $r_t$ more tightly than $L_f$ does.
+
+![Flat-onset ratio histogram](figures/sparc-fig1-eta-flat-histogram.png)
+
+The flat-onset ratio $\eta_\text{flat} = R_\text{flat}/L_f$ over the 56 measurable galaxies. The median 1.26 sits just outside the registered precision window [0.75, 1.25] (yellow), though inside the coarse gate [0.5, 2.0] (grey).
+
 **Diagnosis.** The two radii fail in opposite directions: $r_t \approx 0.38\,L_f$ (transition too early), $R_\text{flat} \approx 1.26\,L_f$ (flatness onset too late). The single-$L_f$ picture is too coarse: anomalous acceleration and kinematic flattening respond to different scales, with $L_f$ between them. A post-hoc null-model check finds $r_t$ tracks the baryonic mass distribution more tightly than $L_f$, and this holds across the plausible disk mass-to-light range: the transition radius is set by baryonic mass, not by $v_c^2/a_0$. The closure failure has a clear cause: for most SPARC galaxies $L_f = v_c^2/a_0$ reaches into the rising inner rotation curve where $v(r) \ll v_c$, so $\langle v^2 \rangle_{L_f}$ falls well below $v_c^2$. The flat-curve closure assumed $\langle v^2 \rangle = v_c^2$; real curves break that assumption substantially, not at the few-percent level the closure argument allowed.
+
+### Robustness checks
+
+Post-hoc checks, not part of the registered pipeline (`scripts/robustness.py` in the phase-field repo). They sharpen the diagnosis; they change no verdict.
+
+The mass-to-light sweep recomputes $r_t$ at three disk $\Upsilon_\text{disk}$ values and asks whether $L_f$ ever out-predicts baryonic mass:
+
+| $\Upsilon_\text{disk}$ | $r_t$-vs-$L_f$ OLS slope | Spearman $\rho(r_t, L_f)$ | Spearman $\rho(r_t, M_b)$ | $L_f$ beats $M_b$? |
+|---|---|---|---|---|
+| 0.3 | 0.16 | 0.53 | 0.58 | No |
+| 0.5 | 0.23 | 0.61 | 0.68 | No |
+| 0.7 | 0.44 | 0.61 | 0.70 | No |
+
+At every plausible mass-to-light ratio, $r_t$ correlates with baryonic mass more tightly than with $L_f$: the baryonic-mass dependence is real, not a mass-to-light artifact, and no value lifts the slope into the registered window. ($\Upsilon_\text{disk} = 0.7$ moves two galaxies off the flat-curve class, n = 121.)
+
+- **Coverage.** 97.6% of galaxies have $L_f$ inside the measured rotation curve (median $R_\text{last}/L_f \approx 4.3$): the closure failure is not an extrapolation artifact.
+- **Label stability.** Across the 9-cell (tolerance, persistence) grid, 27 of 123 galaxies flip flat/rising, but all 27 are flat at the primary cell and none is rising in every cell.
 
 Component-level (§V): $L_f = v_c^2/a_0$ does not behave as the galactic coherence radius the framework posited, and the closure identity does not hold. This is a pre-registered negative result: a locked pipeline, archived with a DOI, run once. The genuine forward test against unseen data remains Euclid DR1 (§VIII).
 
