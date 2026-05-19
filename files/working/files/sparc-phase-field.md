@@ -77,6 +77,10 @@ Component-level (§V): $L_f = v_c^2/a_0$ does not behave as the galactic coheren
 
 ---
 
+*The sections below preserve the registered theoretical motivation and analysis protocol. They are retained for auditability; statements of prediction should be read as the tested hypotheses, not as conclusions.*
+
+---
+
 ## I. The Coherence Scale and the Trigger
 
 The phase field is active within a coherence scale:
