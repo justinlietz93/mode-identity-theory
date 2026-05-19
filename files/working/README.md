@@ -14,14 +14,6 @@ Publishable results that strengthen the framework's position before October 2026
 
 ---
 
-### [Phase Field Coherence Scale (SPARC)](./files/sparc-phase-field.md)
-
-**Problem:** The Hubble-tension mechanism predicts a binary phase shift inside a coherence scale $L_f = v_c^2/a_0$, but it has no test outside the cosmological distance ladder. The phase field should also reproduce the Radial Acceleration Relation (McGaugh et al. 2016) as a consequence; reproduction motivated, not derived.
-
-**Dependencies:** Hubble-tension well assignment ($\Theta = 34/120 \to 36/120$), MOND scale $a_0$ from $C(13/120)$, closure identity $\mathcal{T}_c = 2\xi v_c^2/c^2$.
-
----
-
 ### [McKay Propagator Correction](./files/mckay-propagator-correction.md)
 
 **Problem:** Two of twelve SM fermions overshoot at high McKay distance (down ×3.2, top ×3.9). The misses are vacuum-dependent: at dist 5, gal misses while triv and std hit within 6%; at dist 7, triv misses while gal hits within 28%. The reversal at the R8 branch point rules out distance-only corrections. Separately, the Coxeter-Galois gate locks all $R_4$ entries to $T_3 = -1/2$, displacing charm. The branch-point correction and charm displacement may be the same problem.
@@ -167,6 +159,28 @@ Technical gaps with specific paths forward.
 **Problem:** Three convergent paths connect interaction character to grid resolution ($D = 60$ vs $D = 120$). Formal derivation open.
 
 **Dependencies:** Stabilizer decomposition, boson/fermion domain split.
+
+---
+
+## :file_cabinet: Internal Data
+
+Registered and exploratory tests run against existing public datasets. Completed analyses with verdicts, not open problems.
+
+---
+
+### [Phase Field Coherence Scale (SPARC)](./files/sparc-phase-field.md)
+
+**Test:** Does $L_f = v_c^2/a_0$ behave as a galactic coherence radius across the SPARC sample, after controlling for ordinary size scaling? Pre-registered pipeline, frozen at tag `v1.0-preregistration` (DOI 10.5281/zenodo.20271702), run once against 123 quality-filtered galaxies.
+
+**Result (2026-05-19):** The registered predictions are not borne out. The transition radius tracks $L_f$ with slope ≈ 0.23 (registered [0.7, 1.3]); 53.7% of flat-curve galaxies fall below the closure threshold (registered limit 5%). Verdicts stable across all 27 sensitivity-grid cells. $L_f$ is not the coherence radius the framework posited, and the closure identity does not hold. The lattice arithmetic is untouched.
+
+---
+
+### [H₀ Bimodality (Discrete-vs-Continuous Fork)](./files/h0-bimodality-test.md)
+
+**Test:** Do published H₀ measurements cluster into two discrete populations (~67 and ~73), as the Hubble-tension Section V fork predicts, or form a continuous spread? Hartigan dip test, Gaussian mixture, and gap test on 18 compiled measurements (13-row independent subset). Exploratory, not pre-registered.
+
+**Result (2026-05-19):** The discrete two-cluster prediction is not supported. The dip test fails to reject unimodality in every configuration (primary p = 0.217); the Gaussian mixture's 2-component preference is statistically negligible (ΔBIC < 1.2) and points to clusters at 68.4 / 73.2 rather than 67 / 73; the predicted 69-71 gap contains TRGB / CCHP at 69.8. The data sorts by calibration class but does not quantize.
 
 ---
 
