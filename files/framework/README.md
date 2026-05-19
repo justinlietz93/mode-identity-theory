@@ -53,7 +53,7 @@ These are irreducible. The topology is a shape, not a size: a sphere of any radi
 |---|---|---|
 | $s_0$ | $< 0.19$ (95% CL) | Observer's current phase on the standing wave. $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is output of the temporal budget. |
 
-[The single free parameter of the phase-clock distance-redshift relation,](/working/files/temporal-budget.md) constrained by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM.
+[The single free parameter of the phase-clock distance-redshift relation,](../working/files/temporal-budget.md) constrained by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM.
 
 ---
 
