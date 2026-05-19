@@ -30,7 +30,7 @@ The distribution is statistically consistent with a single continuous population
 Three tests, run on a full 18-measurement set and a 13-row independent subset, with the model-dependent TDCOSMO value swapped between its two published determinations as a sensitivity check. All four configurations agree.
 
 - **Hartigan dip test.** Fails to reject unimodality in every configuration. Primary config (independent subset, TDCOSMO = Shajib): p = 0.217 unweighted, median p = 0.469 with measurement uncertainties propagated by Monte Carlo, and only 5.3% of MC draws reach p < 0.05. No statistical signal of bimodality.
-- **Gaussian mixture.** BIC nominally prefers 2 components everywhere, but ΔBIC ranges 0.15 to 1.18, all below the ΔBIC ≈ 2 threshold for even weak evidence. The 1- and 2-component models are effectively tied. Where the 2-component fit is taken at face value, its means land near 68.4 and 73.2 to 73.5, not the lattice-predicted 67 and 73.
+- **Gaussian mixture.** BIC does not cleanly separate 1- from 2-component fits: the independent subset weakly favours 2 components, the full set weakly favours 1, and every ΔBIC is far below the ≈ 2 threshold for even weak evidence. The models are effectively tied. Where a 2-component fit is the nominal pick, its means land near 68.4 and 73.5, not the lattice-predicted 67 and 73.
 - **Gap test.** The predicted 69 to 71 gap is not empty. TRGB / CCHP (Freedman) at 69.8 ± 1.7 falls inside it, and JAGB / CCHP at 67.8 blurs the low edge.
 
 By the Section V kill table, a failure to reject unimodality is evidence against the quantized-step picture.
@@ -59,10 +59,10 @@ Eighteen published H₀ determinations, one row per independent analysis, compil
 | Megamasers, MCP | geometric | 73.90 | 3.00 | Pesce et al. 2020 | Y |
 | Time-delay lensing, TDCOSMO | geometric | 74.20 | 1.60 | Shajib et al. 2023 | Y |
 | Standard sirens, GW170817 | geometric | 70.00 | 10.00 | Abbott et al. 2017 | Y |
-| Cepheids only, no SNe | local-ladder | 72.35 | 1.30 | Stiskalek et al. 2026 | N |
+| Cepheids only, no SNe | local-ladder | 71.70 | 1.30 | Stiskalek et al. 2026 | N |
 | Type II SNe, tailored EPM | independent | 74.90 | 1.90 | Vogl et al. 2025 | Y |
 
-Notes on individual rows. The Stiskalek et al. 2026 value is estimated from the paper's stated 1.8% precision and should be confirmed against the source. GW170817 has an asymmetric interval (+12/−8); a symmetric σ ≈ 10 is used as a placeholder. The TDCOSMO row is model-dependent: Shajib et al. 2023 (parametrized mass profiles) gives 74.2 ± 1.6, Birrer et al. 2020 (maximally flexible mass models) gives 67.4 ± 3.7. Both are carried as a sensitivity check.
+Notes on individual rows. The Stiskalek et al. 2026 value is the MNRAS abstract figure 71.7 ± 1.3, the result under the paper's main stated selection assumption. GW170817 has an asymmetric interval (+12/−8); a symmetric σ ≈ 10 is used as a placeholder. The TDCOSMO row is model-dependent: Shajib et al. 2023 (parametrized mass profiles) gives 74.2 ± 1.6, Birrer et al. 2020 (maximally flexible mass models) gives 67.4 ± 3.7. Both are carried as a sensitivity check.
 
 ---
 
@@ -103,9 +103,9 @@ Every measurement with its error bar, sorted by H₀ and coloured by class. The 
 | Configuration | dip p (unweighted) | median p (MC) | MC fraction p < 0.05 |
 |---|---|---|---|
 | Independent, TDCOSMO = Shajib (primary) | 0.217 | 0.469 | 5.3% |
-| Full, TDCOSMO = Shajib | 0.722 | 0.596 | 2.7% |
+| Full, TDCOSMO = Shajib | 0.722 | 0.606 | 2.3% |
 | Independent, TDCOSMO = Birrer | 0.661 | 0.648 | 2.9% |
-| Full, TDCOSMO = Birrer | 0.308 | 0.600 | 2.3% |
+| Full, TDCOSMO = Birrer | 0.308 | 0.620 | 1.9% |
 
 The null hypothesis is unimodal. It is not rejected anywhere.
 
@@ -115,7 +115,7 @@ The KDE shows a soft two-hump shape driven by the genuine class stratification, 
 
 ### Gaussian mixture
 
-BIC nominally prefers 2 components in all four configurations, with ΔBIC between 0.15 and 1.18. All values sit below the ΔBIC ≈ 2 threshold for even weak evidence, so the 1- and 2-component models are statistically tied. The 2-component means come out near 68.4 and 73.2 to 73.5: the low cluster is roughly one unit above the lattice value of 67.
+BIC does not cleanly prefer two components. The independent subset weakly favours a 2-component fit (ΔBIC 0.47 with TDCOSMO = Shajib, 0.15 with Birrer); the full 18-row set weakly favours a single component (ΔBIC 0.73 and 0.30 the other way). Every margin is far below the ΔBIC ≈ 2 threshold for even weak evidence, so the 1- and 2-component models are statistically tied in all four configurations. Where a 2-component fit is the nominal pick (the independent subset), its means come out near 68.4 and 73.4 to 73.5: the low cluster is roughly one unit above the lattice value of 67.
 
 ![GMM model selection](figures/h0-bimodality-fig3-gmm.png)
 
@@ -125,7 +125,7 @@ One independent local-ladder method falls in the predicted 69 to 71 gap: TRGB / 
 
 ### Class means
 
-Inverse-variance weighted: early-universe 67.7 (n = 4, range 66.8 to 68.5); local-ladder 71.9 to 72.1; geometric 74.0; Type II SNe EPM 74.9. The class stratification is real. The discrete quantization is not.
+Inverse-variance weighted: early-universe 67.7 (n = 4, range 66.8 to 68.5); local-ladder 71.9 to 72.0; geometric 74.0; Type II SNe EPM 74.9. The class stratification is real. The discrete quantization is not.
 
 ---
 
@@ -134,7 +134,7 @@ Inverse-variance weighted: early-universe 67.7 (n = 4, range 66.8 to 68.5); loca
 | Pre-stated outcome | Observed | Implication |
 |---|---|---|
 | Continuous spread 67 to 73 | Dip test cannot reject unimodality | Falsifies quantized step |
-| Two clusters at wrong values (e.g. 68 and 72) | GMM, taken at face value, gives 68.4 / 73.2 | Quantized step wrong size |
+| Two clusters at wrong values (e.g. 68 and 72) | GMM, where it picks 2 components, gives 68.4 / 73.5 | Quantized step wrong size |
 | TRGB or JAGB land near 70 | TRGB / CCHP at 69.8, in the gap | Intermediate state; single-step picture fails |
 | Local methods near 73, early-universe near 67 | Holds: see class means | Method-class stratification present |
 
