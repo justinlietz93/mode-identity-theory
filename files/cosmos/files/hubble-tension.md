@@ -179,9 +179,9 @@ The phase field produces a discrete prediction. Local $H_0$ should cluster at qu
 | Void-embedded calibrators return $H_0 \approx 70 \pm 1$ | Intermediate state exists; $2/120$ step is incomplete |
 | Environment-binned $H_0$ shows smooth gradient | Phase field is continuously sourced, not triggered |
 
-An exploratory compilation of 18 published $H_0$ measurements (13 independent) was tested for bimodality against this table. Hartigan's dip test fails to reject unimodality in all configurations; BIC does not cleanly separate 1- from 2-component Gaussian mixtures; and the predicted 69-71 gap is populated by TRGB/CCHP at 69.8 ± 1.7. The first three rows of the table above all register against the discrete picture. Analysis: [h0-bimodality-test.md](../working/files/h0-bimodality-test.md).
+An exploratory compilation of 18 published $H_0$ measurements (13 independent) was tested for bimodality against this table. Hartigan's dip test fails to reject unimodality in all configurations; BIC does not cleanly separate 1- from 2-component Gaussian mixtures; and the predicted 69-71 gap is populated by TRGB/CCHP at 69.8 ± 1.7. The first three rows of the table above all register against the discrete picture. Analysis: [h0-bimodality-test.md](https://github.com/dmobius3/mode-identity-theory/blob/main/files/working/files/h0-bimodality-test.md).
 
-The original prediction was that all disk galaxies with developed halos select the same quantized state. The SPARC test falsifies the specific trigger $L_f = v_c^2/a_0$; the bimodality test finds no evidence of the predicted two-population structure. The discrete-vs-continuous fork remains open to future data from per-host $H_0$ programs and purely geometric calibrations.
+The original prediction was that all disk galaxies with developed halos select the same quantized state. The [SPARC test](https://github.com/dmobius3/mode-identity-theory/blob/main/files/working/files/sparc-phase-field.md) falsifies the specific trigger $L_f = v_c^2/a_0$; the [bimodality test](https://github.com/dmobius3/mode-identity-theory/blob/main/files/working/files/h0-bimodality-test.md) finds no evidence of the predicted two-population structure. The discrete-vs-continuous fork remains open to future data from per-host $H_0$ programs and purely geometric calibrations.
 
 ---
 
