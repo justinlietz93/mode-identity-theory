@@ -4,8 +4,7 @@
 
 # Phase Field Coherence Scale Predictions Across the SPARC Galaxy Sample
 
-**Status:** Working draft. Predictions registered; analysis pending.
-**Priority:** Pre-Euclid DR1 (October 2026 target).
+**Status:** Analysis complete (2026-05-19). The registered predictions are not borne out by SPARC; see the Result section. Pre-registration and pipeline: github.com/dmobius3/phase-field, tag `v1.0-preregistration`, DOI 10.5281/zenodo.20271702.
 **Dependencies:** Hubble tension mechanism (Θ = 34/120 → 36/120 shift), MOND scale a₀ from scaling law C(13/120), closure identity T_c = 2ξ v_c²/c².
 
 ---
@@ -24,6 +23,23 @@ Two SPARC-testable components, each separable from the other:
 A third prediction, H₀ bimodality, is not testable with SPARC alone and is registered separately as forward-looking (§VIII).
 
 The point of separating the tests is component-level falsification: failure isolates whether the binary threshold, the closure identity, or $L_f$ itself is the broken piece. The phase-field and Hubble-tension interpretation that motivates $L_f$ is given in §VI. It is the motivation for the coherence scale, not a result of this analysis. The SPARC test stands or falls on its own data.
+
+---
+
+## Result
+
+The pre-registered pipeline was run once against SPARC on 2026-05-19. The pipeline, predictions, acceptance criteria, and sample cuts were frozen beforehand at tag `v1.0-preregistration` (github.com/dmobius3/phase-field, DOI 10.5281/zenodo.20271702).
+
+**The registered predictions are not borne out.** Of 123 quality-filtered galaxies, all four registered predictions fail, and the verdicts are stable across all 27 cells of the sensitivity grid: the failure is not an artifact of any analyst threshold.
+
+- **Transition radius.** $r_t$ correlates with $L_f$ but with OLS slope ≈ 0.23, far below the registered [0.7, 1.3]. The ratio $\eta_t = r_t/L_f$ has median 0.38: the anomalous-acceleration transition occurs at roughly 40% of the predicted coherence radius, consistently.
+- **Flat-onset radius.** $R_\text{flat}$ vs $L_f$ has slope ≈ 0.33; the ratio $\eta_\text{flat}$ has median 1.26 over the measurable sub-sample. Order unity, but the curve flattens beyond $L_f$, not at it.
+- **Closure identity.** 53.7% of flat-curve galaxies fall below $\mathcal{T}/\mathcal{T}_c = 1$, against a registered tolerance of 5%. Universal threshold crossing fails.
+- **Trigger index as predictor.** Untestable on this sample: the quality cuts leave no rising-curve galaxies, so there is no negative class. At stricter onset criteria roughly 27 of the 123 would be classed rising; the registered primary-cell labels leave none.
+
+**Diagnosis.** The two radii fail in opposite directions: $r_t \approx 0.38\,L_f$ (transition too early), $R_\text{flat} \approx 1.26\,L_f$ (flatness onset too late). The single-$L_f$ picture is too coarse: anomalous acceleration and kinematic flattening respond to different scales, with $L_f$ between them. A post-hoc null-model check finds $r_t$ tracks the baryonic mass distribution more tightly than $L_f$, and this holds across the plausible disk mass-to-light range: the transition radius is set by baryonic mass, not by $v_c^2/a_0$. The closure failure has a clear cause: for most SPARC galaxies $L_f = v_c^2/a_0$ reaches into the rising inner rotation curve where $v(r) \ll v_c$, so $\langle v^2 \rangle_{L_f}$ falls well below $v_c^2$. The flat-curve closure assumed $\langle v^2 \rangle = v_c^2$; real curves break that assumption substantially, not at the few-percent level the closure argument allowed.
+
+Component-level (§V): $L_f = v_c^2/a_0$ does not behave as the galactic coherence radius the framework posited, and the closure identity does not hold. This is a pre-registered negative result: a locked pipeline, archived with a DOI, run once. The genuine forward test against unseen data remains Euclid DR1 (§VIII).
 
 ---
 
@@ -226,6 +242,8 @@ The key advantage of the test. If it fails, we know which piece broke:
 | $r_t$ correlates with $L_f$ but with wrong slope | $a_0$ value or formula structure is off | Specific coefficient needs correction |
 | $r_t$ and $R_\text{flat}$ both track $L_f$ but with different slopes | Single-$L_f$ picture is too coarse | Coherence scale is real, but anomalous acceleration and kinematic flattening respond to different radii |
 
+**Observed (2026-05-19).** The SPARC run realized three of the modes above: the threshold is not universally crossed (closure identity fails); $r_t$ correlates with $L_f$ but with slope far below 1; and $r_t$ and $R_\text{flat}$ track $L_f$ with different, both-too-shallow slopes. See the Result section. The component-level reading: $L_f$ is not the coherence radius, and the closure identity does not hold.
+
 The H₀ binary-vs-continuous failure mode is not in this table because SPARC does not provide the data to test it. That failure mode is registered in §VIII for future per-galaxy H₀ datasets.
 
 ---
@@ -281,20 +299,9 @@ SPARC does not provide per-galaxy H₀ measurements. SH0ES gives one aggregate H
 
 ---
 
-## IX. Timeline and Submission
+## IX. Analysis Status
 
-| Step | Target |
-|---|---|
-| Download SPARC data | Week 1 |
-| Compute $L_f$ for all galaxies | Week 1 |
-| Identify $r_t$ and $R_\text{flat}$ | Week 2 |
-| Correlation analysis | Week 2–3 |
-| Write results | Week 3–4 |
-| Submit | Before Euclid DR1 (October 2026) |
-
-Target journal: MNRAS Letters or ApJ Letters.
-
-Budget note: operational algorithms (§IV) apply uniformly across the sample, removing the need for per-galaxy judgment calls on radius identification. The time-intensive step is verifying algorithm applicability for galaxies with noisy outer rotation curves or uncertain mass models (expected ~20% of the sample). These flagged cases are counted and documented as a separate sub-population.
+Complete. The pre-registered pipeline was executed once against SPARC on 2026-05-19. The registered run output, the three figures, and the post-hoc robustness checks are in the phase-field repository (github.com/dmobius3/phase-field). The outcome is the Result section above. Of 175 galaxies, 123 passed the quality, inclination, and velocity cuts and entered the analysis.
 
 ---
 
