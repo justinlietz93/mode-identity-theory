@@ -8,7 +8,7 @@ Mode Identity Theory was a topological thought formed on philosophical grounds b
 
 One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), two constants, two measured scales, and one phase parameter. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
 
-From this: $\Lambda$ at 2%, three gauge couplings at <2%, $H_0$ tension at <1%, three particle generations from three topological vacua, a mass gap from positive curvature, and 10 of 12 fermion masses assigned with 9 within $\times 3$. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
+From this: $\Lambda$ at 2%, three gauge couplings at <2%, $H_0$ tension scale at <1%, three particle generations from three topological vacua, a mass gap from positive curvature, and 10 of 12 fermion masses assigned with 9 within $\times 3$. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
 [![The Perfect Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 
@@ -53,7 +53,7 @@ These are irreducible. The topology is a shape, not a size: a sphere of any radi
 |---|---|---|
 | $s_0$ | $< 0.19$ (95% CL) | Observer's current phase on the standing wave. $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is output of the temporal budget. |
 
-The single free parameter of the phase-clock distance-redshift relation, constrained by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM.
+[The single free parameter of the phase-clock distance-redshift relation,](/working/files/temporal-budget.md) constrained by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM.
 
 ---
 
@@ -267,26 +267,15 @@ $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by 
 
 The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0$ is the Fibonacci well (fixed) and $\Theta_f$ is the local environmental shift.
 
-| Environment | $\Theta_f$ | Effect |
-|---|---|---|
-| Global (CMB, BAO) | 0 | Gpc integration erases local structure |
-| Inside flat-curve disk galaxy | $2/120$ | One bosonic step; minimum shift the 60-grid can register |
-
-The response is binary: below threshold $\Theta_f = 0$; at or above it $\Theta_f = 2/120$. The coherence scale $L_f = v_c^2/a_0 \approx 13$ kpc for the Milky Way. 
-
-The classification index $\mathcal{T}$ compares the gravitational potential drop across $L_f$ to a critical value $\mathcal{T}_c = 2\xi\, v_c^2/c^2$, where $\xi \approx 0.46$ is the mean potential depth computed from standard halo profiles (isothermal, NFW, Hernquist all give 0.44 to 0.47).
-
-**Closure identity.** Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; their ratio is galaxy-independent: $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$. Every flat-curve disk crosses the threshold by the same factor.
-
-| Well | $\Theta$ | Slope sensitivity | Physical shift | Reason |
+| Well | Θ | Slope sensitivity | Physical shift | Reason |
 |---|---|---|---|---|
 | $a_0$ | 13/120 | 17.7 per step | None | Defines the transition |
 | $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
 | $\Lambda_\text{top}$ | 60/120 | 0 per step | 0% | Topologically protected |
 
-The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift in the locally measured phase-clock rate, resolving the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The shift is the geometric ratio $C(36/120)/C(34/120) = 1.084$, fixed by well positions and independent of the calibration value. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value.
+The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift: $C(36/120)/C(34/120) = 1.084$, giving $67.4 \times 1.084 \approx 73$ km/s/Mpc. This arithmetic is fixed by well positions and independent of any galactic mechanism.
 
-$a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. Measuring $a_0$ from rotation curves recovers this bare value because the measurement and the threshold are the same object. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
+$a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
 ## [The Scaling Law](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
