@@ -38,9 +38,9 @@ The $\tan(y/R)$ term is the entire difference between curved and flat. It select
 
 | Location | $y$ | $\tan(y/R)$ | Curvature term | $u_0$ | $J$ |
 |---|---|---|---|---|---|
-| Central circle (horizon) | $0$ or $\pi R$ | $0$ | Vanishes | $0$ | $1$ |
+| Central circle (horizon) | 0 or $\pi R$ | 0 | Vanishes | 0 | 1 |
 | Mid-domain | intermediate | moderate | Active | intermediate | intermediate |
-| Cone point (antinode) | $\pi R/2$ | $\to \infty$ | Maximal | $1$ | $0$ |
+| Cone point (antinode) | $\pi R/2$ | $\to \infty$ | Maximal | 1 | 0 |
 
 At $\Theta = 0$: the curvature term in the operator is zero. The operator reduces locally to $-d^2/dy^2$. The observer at the horizon cannot distinguish the curved Möbius band from a flat strip, because the curvature signature is zero at that location.
 
@@ -122,7 +122,7 @@ $$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta)$$
 
 The antinode is a gentle plateau: step onto it and stay. That is $\Lambda$, topologically protected, immovable by environment. The node is a cliff: once $\Theta$ starts approaching zero, the log slope diverges, the approach accelerates, runaway collapse. That is the black hole.
 
-The galactic phase field (one bosonic step, $2/120$) is a small perturbation on the plateau near $34/120$. The gravitational potential at $\Phi/c^2 \to -1/2$ throws you off the plateau entirely into the runaway basin of the node.
+The galactic phase field (one bosonic step, 2/120) is a small perturbation on the plateau near 34/120. The gravitational potential at $\Phi/c^2 \to -1/2$ throws you off the plateau entirely into the runaway basin of the node.
 
 ### Connection to the Complementarity
 
@@ -153,7 +153,7 @@ Clean direction is toward the zero on both sides. Both are filters: the critical
 $C(\Theta)$ is an arch on $[0, 1]$ with one maximum and two minima.
 
 - **Top of arch** ($\Theta = 1/2$): $\Lambda$. Topologically protected. Zero slope. Immovable. Cone point geometry ($J = 0$, $u_0 = 1$). Curvature fully expressed. Maximum sampling.
-- **Bottom of arch** ($\Theta = 0$ or $1$): Horizon. Runaway attractor. Zero slope. Irreversible once entered. Central circle geometry ($J = 1$, $u_0 = 0$). Curvature silent. Sampling closed.
+- **Bottom of arch** ($\Theta = 0$ or 1): Horizon. Runaway attractor. Zero slope. Irreversible once entered. Central circle geometry ($J = 1$, $u_0 = 0$). Curvature silent. Sampling closed.
 - **Between**: Everything observed. Galaxies, particles, phase fields, Fibonacci wells.
 
 The budget $u_0^2 + J^2 = 1$ holds everywhere. Nothing is created or destroyed on the walk from top to bottom. Amplitude converts to slope, eigenfunction to geometry, reading to room.

@@ -112,7 +112,7 @@ Ratio: $\tau_c/\tau_P \approx 10^{61} = \sqrt{\Omega}$. The observer's structura
 
 Status: DERIVED. The 120-grid projects identically at every scale.
 
-Independent confirmation: the Molien series on $S^3/2I$ shows $2I$ filtering scalar harmonics on the full 3D $S^3$, producing a sparse zone below $j = 10$ that matches the observed CMB low-$\ell$ deficit. The same algebra that sets the 120 domain on the surface operates on the 3D harmonics of the venue. The filtering is genuinely volumetric, not confined to the 2D Mobius surface. This strengthens the claim that the 120-grid projects into every gravitationally coherent scale: the structure is already confirmed to operate at both 2D (surface eigenvalue) and 3D (cavity mode spectrum) levels.
+Independent confirmation: the Molien series on $S^3/2I$ shows $2I$ filtering scalar harmonics on the full 3D $S^3$, producing a sparse zone below $j = 10$ that matches the observed CMB low-<i>ℓ</i> deficit. The same algebra that sets the 120 domain on the surface operates on the 3D harmonics of the venue. The filtering is genuinely volumetric, not confined to the 2D Mobius surface. This strengthens the claim that the 120-grid projects into every gravitationally coherent scale: the structure is already confirmed to operate at both 2D (surface eigenvalue) and 3D (cavity mode spectrum) levels.
 
 ### Joint 3: Observation is sampling through a coherent domain
 
@@ -205,7 +205,7 @@ Status: OBSERVATION. The numerical coincidence is real. Whether MIT predicts it 
 
 ### Piece E: CMB-ecliptic alignment
 
-Standard cosmology calls it the "axis of evil": the CMB quadrupole and octopole align with our ecliptic plane. No causal mechanism in $\Lambda$CDM connects a cosmological signal to a local solar system feature.
+Standard cosmology calls it the "axis of evil": the CMB quadrupole and octopole align with our ecliptic plane. No causal mechanism in ΛCDM connects a cosmological signal to a local solar system feature.
 
 MIT reading: if the observer's coherence domain is anchored to the ecliptic (Piece C), then the CMB is resolved through the ecliptic sampling frame. The alignment is not contamination; it is the sampling theorem operating through the local coherence domain.
 
@@ -218,7 +218,7 @@ Status: DOWNSTREAM. Requires Pieces A, B, and C. If they lock, this follows. If 
 | Quantity | Value |
 |----------|-------|
 | $\tau_c = T_{\text{cosmic}}/120$ | $\approx 275$ Myr |
-| Galactic Year (MW orbital period) | $\approx 225$-$250$ Myr |
+| Galactic Year (MW orbital period) | $\approx 225-250$ Myr |
 
 These are close. If the cosmic chronon is the minimum resolvable phase advance at cosmic scale, and the Milky Way orbits at roughly one chronon per revolution, that suggests the galaxy is operating near one "tick" of cosmic resolution.
 

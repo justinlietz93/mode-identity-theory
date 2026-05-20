@@ -12,10 +12,10 @@ The fine structure constant $\alpha \approx 1/137$ governs the strength of elect
 
 | Coupling | Predicted | Observed | Agreement |
 |---|---|---|---|
-| $\alpha$ | $0.00733$ | $0.00730$ | $0.5\%$ |
-| $\alpha_s$ | $0.1162$ | $0.1179$ | $1.4\%$ |
-| $\alpha_W$ | $0.0339$ | $0.0338$ | $0.4\%$ |
-| $\alpha_s / \alpha_W$ | $3.426$ | $3.490$ | $1.8\%$ (pure geometry, no $\Omega$) |
+| $\alpha$ | 0.00733 | 0.00730 | 0.5% |
+| $\alpha_s$ | 0.1162 | 0.1179 | 1.4% |
+| $\alpha_W$ | 0.0339 | 0.0338 | 0.4% |
+| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | 1.8% (pure geometry, no $\Omega$) |
 
 ## I. The Problem
 
@@ -44,7 +44,7 @@ The antinode (Λ well) is unchanged: $C(60/120) = C(30/60) = 2$. Grid choice onl
 
 ### The matter well
 
-The well at $13/120$ governs matter dynamics: it is the Fibonacci well ($F_7 = 13$) assigned to the MOND acceleration scale $a_0$. It satisfies $\gcd(13, 120) = 1$, making it maximally coprime to the grid and maximally detached from geometric symmetry. This is where matter sits on the mode spectrum.
+The well at 13/120 governs matter dynamics: it is the Fibonacci well ($F_7 = 13$) assigned to the MOND acceleration scale $a_0$. It satisfies $\gcd(13, 120) = 1$, making it maximally coprime to the grid and maximally detached from geometric symmetry. This is where matter sits on the mode spectrum.
 
 The photon couples matter to matter. Electromagnetic interaction reads the well of what it couples. The EM coupling references the matter well because $\alpha$ is the force between charged matter, evaluated on the bosonic grid: $\Theta = 13/60$.
 
@@ -72,7 +72,7 @@ These three modifications — bosonic grid, matter well, fractional exponent —
 | 3 | $\lvert\psi\rvert^2$ (bosonic) | 60R-grid | Derived |
 | 4 | Minimum grid step | $1/60 = 1/\lvert I \rvert$ | Arithmetic |
 | 5 | $F_7 = 13$, $\gcd(13, 120) = 1$ | $a_0$ well | Derived |
-| 6 | EM couples matter | Well $13/60$ on bosonic grid | Derived |
+| 6 | EM couples matter | Well 13/60 on bosonic grid | Derived |
 | 7 | $\alpha$ epoch-independent | Reference $\Omega_\Lambda$ | Derived |
 | 8 | One grid step of hierarchy | $\Omega_\Lambda^{-1/60}$ | Established |
 | 9 | $C(13/60) \times \Omega_\Lambda^{-1/60}$ | $\alpha = 0.00733$ | Output |
@@ -171,10 +171,10 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 
 | Coupling | Formula | Predicted | Observed | Agreement | Status |
 |---|---|---|---|---|---|
-| $\alpha$ | $C(13/60) \cdot \Omega_\Lambda^{-1/60}$ | $0.00733$ | $0.00730$ | $0.5\%$ | Closed |
-| $\alpha_s$ | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | $0.1162$ | $0.1179$ | $1.4\%$ | Established |
-| $\alpha_W$ | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | $0.0339$ | $0.0338$ | $0.4\%$ | Motivated |
-| $\alpha_s/\alpha_W$ | $C(17/60) / [C(17/120) \cdot \cos(\pi/10)]$ | $3.426$ | $3.490$ | $1.8\%$ | Established |
+| $\alpha$ | $C(13/60) \cdot \Omega_\Lambda^{-1/60}$ | 0.00733 | 0.00730 | 0.5% | Closed |
+| $\alpha_s$ | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | 0.1162 | 0.1179 | 1.4% | Established |
+| $\alpha_W$ | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% | Motivated |
+| $\alpha_s/\alpha_W$ | $C(17/60) / [C(17/120) \cdot \cos(\pi/10)]$ | 3.426 | 3.490 | 1.8% | Established |
 
 ## V. The α-Λ Connection
 
@@ -184,11 +184,11 @@ $$\Lambda \cdot \ell_P^2 = \Omega_\Lambda^{-1} \cdot C(60/120) = 2\,\Omega_\Lamb
 
 $$\alpha = \Omega_\Lambda^{-1/60} \cdot C(13/60)$$
 
-Λ uses the full hierarchy (exponent 1). $\alpha$ uses $1/60$-th: one grid step. The ratio of log-scalings confirms the relationship:
+Λ uses the full hierarchy (exponent 1). $\alpha$ uses 1/60-th: one grid step. The ratio of log-scalings confirms the relationship:
 
 $$\frac{\log\alpha}{\log(\Lambda \cdot \ell_P^2)} \approx \frac{-2.13}{-121.7} \approx \frac{1}{57}$$
 
-Close to $1/60$; the offset comes from $C(13/60) \neq C(60/120)$. The coupling constant measures how much hierarchy one quantum of exchange crosses. Λ is the total vacuum energy, the entire surface mode. $\alpha$ is one interaction within that vacuum, one resolved step.
+Close to 1/60; the offset comes from $C(13/60) \neq C(60/120)$. The coupling constant measures how much hierarchy one quantum of exchange crosses. Λ is the total vacuum energy, the entire surface mode. $\alpha$ is one interaction within that vacuum, one resolved step.
 
 ### Running
 
@@ -259,7 +259,7 @@ The grid ladder was constructed to derive coupling constants. It was not designe
 | Running structure | Precision tests of $\alpha(q^2)$ exclude power-law in favor of pure log | Decisive |
 | Scale consistency | Three couplings require evaluation at incompatible energy scales | Open |
 | $\alpha$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
-| $\alpha$ – $\Lambda$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
+| $\alpha$ – $\Lambda$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by 1/60) |
 
 The strongest tests are the first four. The grid ladder and Plato twist have already passed. The force count and SUSY vacancy are tested by every collider run. The open question is scale consistency: the three predictions are made at different energy scales ($\alpha$ at low energy, $\alpha_s$ and $\alpha_W$ near $M_Z$), and deriving RG running from the MIT hierarchy structure remains open.
 

@@ -24,7 +24,7 @@ The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises
 
 ---
 
-**Fine structure.** In 1985, Feynman described $1/137$ as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One step of $\Lambda$. At the Planck scale $\alpha$ approaches unity; its running to $1/137$ is the hierarchy expressed across the domain. The number has an address.
+**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One step of $\Lambda$. At the Planck scale $\alpha$ approaches unity; its running to 1/137 is the hierarchy expressed across the domain. The number has an address.
 
 ***[Fine Structure](files/fine-structure.md)***
 
@@ -34,7 +34,7 @@ The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises
 
 **Gravity.** For decades, the search for dark matter focused on particles and detectors aimed at the smallest scales. The absence of signal is the confirmation of light. What was sought was in the geometry of space itself. An interface long present in its formalism, only awaiting its topological interpretation.
 
-Embed the surface in space and the curvature converts the sample to energy by $3/2$; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
+Embed the surface in space and the curvature converts the sample to energy by 3/2; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
 
 ***[The Waltz](files/the-waltz.md)***
 
@@ -61,7 +61,7 @@ Embed the surface in space and the curvature converts the sample to energy by $3
 | [↗](files/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
 | [↗](files/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
 | [↗](files/mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
-| [↗](files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| [↗](files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs 120 (half-int) | integer/half-integer split | exact |
 | [↗](files/mass-spectrum.md) Weak isospin $T_3$ | $j_\text{first}$ parity + Coxeter-Galois gate | 10/10 SM-assigned entries | exact |
 | [↗](files/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
 | [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 10/12 SM assigned: 9/10 within ×3 | systematic |

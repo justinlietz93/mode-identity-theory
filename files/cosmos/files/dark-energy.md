@@ -20,16 +20,16 @@ Fitting CPL, BA, and JBP templates to MIT noise-free distances produces apparent
 
 | Quantity | Value |
 |---|---|
-| $\Delta\chi^2$ vs ΛCDM (SN+BAO) | $+0.11$ (same $k$) |
+| $\Delta\chi^2$ vs ΛCDM (SN+BAO) | +0.11 (same $k$) |
 | Phase parameter | $s_0 < 0.19$ (95% CL) |
 | Phantom crossing | $w_\text{eff}(z) > -1$ at all redshifts (proven) |
 | Distinctive signature | Negative $(1+z)^1$ term in $H^2(z)$ |
 
 ## I. The Observational Landscape
 
-The DESI DR2 results present the most precise baryon acoustic oscillation measurements to date, drawing from over 14 million galaxies and quasars across 11 billion years of cosmic history. When combined with CMB data and supernova compilations, the results indicate that dark energy's equation of state $w$ may not equal $-1$ as assumed in ΛCDM.
+The DESI DR2 results present the most precise baryon acoustic oscillation measurements to date, drawing from over 14 million galaxies and quasars across 11 billion years of cosmic history. When combined with CMB data and supernova compilations, the results indicate that dark energy's equation of state $w$ may not equal -1 as assumed in ΛCDM.
 
-The emerging picture: present value $w_0 \approx -0.85$ to $-0.70$ (less negative than $\Lambda$), past behavior $w < -1$ at higher redshifts (phantom-like), and a "phantom crossing" through $w = -1$ near $z \approx 0.5$. Single-field models face fundamental difficulties crossing $w = -1$; proposed solutions require exotic field content. Cortês and Liddle flag the crossing location at the center of the observable window as a "substantial and unsettling coincidence." The DESI extended analysis reports consistent phantom-crossing behavior across five additional parameterizations (BA, JBP, exponential, logarithmic, and model-free binned).
+The emerging picture: present value $w_0 \approx -0.85$ to -0.70 (less negative than $\Lambda$), past behavior $w < -1$ at higher redshifts (phantom-like), and a "phantom crossing" through $w = -1$ near $z \approx 0.5$. Single-field models face fundamental difficulties crossing $w = -1$; proposed solutions require exotic field content. Cortês and Liddle flag the crossing location at the center of the observable window as a "substantial and unsettling coincidence." The DESI extended analysis reports consistent phantom-crossing behavior across five additional parameterizations (BA, JBP, exponential, logarithmic, and model-free binned).
 
 The possibility that apparent phantom crossings can arise from parameterization choice has been recognized. Linder and Huterer demonstrated that the CPL form introduces systematic bias when the true $w(z)$ lies outside its functional family. Shafieloo, Sahni, and Starobinsky showed that model-dependent reconstruction can produce spurious features, including phantom crossings, when applied to models outside the fitting basis.
 
@@ -151,19 +151,19 @@ The polynomial, with one additional free parameter, fits the phase-clock distanc
 
 To determine the amplitude of the template bias at data-allowed values of $s_0$, we repeat the CPL fit across $s_0 \in [0.01, 0.40]$:
 
-| $s_0$ | $w_0$ | $w_a$ | $w_0$ deviation from $-1$ |
+| $s_0$ | $w_0$ | $w_a$ | $w_0$ deviation from -1 |
 |---|---|---|---|
-| 0.01 | $-1.00007$ | $+0.001$ | $7 \times 10^{-5}$ |
-| 0.06 | $-1.003$ | $+0.030$ | 0.003 |
-| 0.18 | $-1.022$ | $+0.261$ | 0.022 |
-| 0.39 | $-1.044$ | $+0.928$ | 0.044 |
-| DESI observed | $-0.75$ | $-0.86$ | 0.25 |
+| 0.01 | -1.00007 | +0.001 | $7 \times 10^{-5}$ |
+| 0.06 | -1.003 | +0.030 | 0.003 |
+| 0.18 | -1.022 | +0.261 | 0.022 |
+| 0.39 | -1.044 | +0.928 | 0.044 |
+| DESI observed | -0.75 | -0.86 | 0.25 |
 
 The crossing persists at every tested $s_0 > 0$, confirming that the template bias is a structural property of two-parameter bases applied to non-phantom models of this type. At the largest $s_0$ still allowed by data, the template-induced crossing is real but tiny: about a tenth of what DESI reports.
 
 ### Comparison with the DESI Best Fit
 
-The DESI CPL best fit reports $w_0 \approx -0.75$ and $w_a \approx -0.86$. The phase-clock-induced distortion at data-allowed $s_0$ differs in both amplitude ($|w_0 + 1| = 0.02$ vs $0.25$, a factor of ~10) and sign ($w_a = +0.29$ vs $-0.86$).
+The DESI CPL best fit reports $w_0 \approx -0.75$ and $w_a \approx -0.86$. The phase-clock-induced distortion at data-allowed $s_0$ differs in both amplitude ($|w_0 + 1| = 0.02$ vs 0.25, a factor of ~10) and sign ($w_a = +0.29$ vs -0.86).
 
 The template bias mechanism is established as a structural effect: a non-phantom $H(z)$ produces apparent phantom crossings under standard two-parameter templates. The phase-clock model at its current constraint does not reproduce the DESI best-fit parameters quantitatively. Bridging the amplitude gap would require either a larger bounded deformation ($s_0 \gtrsim 0.4$, ruled out by current data) or a different functional form for the effective dark-energy sector.
 
@@ -171,7 +171,7 @@ The template bias mechanism is established as a structural effect: a non-phantom
 
 ### Data
 
-Joint fits use the Pantheon+ supernova compilation (1701 SNe Ia with full statistical and systematic covariance) and DESI DR2 BAO measurements (1 isotropic $D_V/r_d$ at $z = 0.295$ and 6 anisotropic $D_M/r_d$, $D_H/r_d$ pairs at $z = 0.51$–$2.33$, with published cross-correlations). The total dataset comprises 1714 observables.
+Joint fits use the Pantheon+ supernova compilation (1701 SNe Ia with full statistical and systematic covariance) and DESI DR2 BAO measurements (1 isotropic $D_V/r_d$ at $z = 0.295$ and 6 anisotropic $D_M/r_d$, $D_H/r_d$ pairs at $z = 0.51$–2.33, with published cross-correlations). The total dataset comprises 1714 observables.
 
 ### Primary Fit: SN+BAO
 
@@ -181,7 +181,7 @@ MCMC sampling uses an affine-invariant ensemble sampler (32 walkers, 5000 steps,
 |---|---|---|
 | Primary parameter | $\Omega_m = 0.312$ [0.304, 0.321] | $s_0 = 0.076$ [0.023, 0.143] |
 | $H_0 r_d$ (km/s) | 10043 [9977, 10111] | 10008 [9972, 10040] |
-| $M_B$ | $-19.355$ [$-19.360$, $-19.350$] | $-19.353$ [$-19.357$, $-19.350$] |
+| $M_B$ | -19.355 [-19.360, -19.350] | -19.353 [-19.357, -19.350] |
 | $\chi^2_\text{min}$ | 1772.5 | 1772.6 |
 | $\chi^2_\text{SN}$ / $\chi^2_\text{BAO}$ | 1759.9 / 12.6 | 1759.0 / 13.5 |
 
@@ -195,13 +195,13 @@ $\Delta\chi^2 = +0.11$ at equal parameter count: no preference for either model.
 
 **Prior sensitivity.** The 95% upper limit ranges from 0.12 (log-flat prior) to 0.21 (flat in $s_0^2$). The constraint is prior-sensitive in detail but data-driven in character: all priors yield $s_0 \ll 1$.
 
-**$\Omega_\Lambda$ sensitivity.** The $s_0$ constraint is stable across the range $\Omega_\Lambda = 0.68$–$0.715$. The best $\Delta\chi^2$ occurs near $\Omega_\Lambda = 0.69$. At the CMB-preferred value $\Omega_\Lambda = 0.715$, $s_0$ shifts to 0.288 and the model is mildly disfavored ($\Delta\chi^2 = +2.38$). No fine-tuning of $\Omega_\Lambda$ is required.
+**$\Omega_\Lambda$ sensitivity.** The $s_0$ constraint is stable across the range $\Omega_\Lambda = 0.68$–0.715. The best $\Delta\chi^2$ occurs near $\Omega_\Lambda = 0.69$. At the CMB-preferred value $\Omega_\Lambda = 0.715$, $s_0$ shifts to 0.288 and the model is mildly disfavored ($\Delta\chi^2 = +2.38$). No fine-tuning of $\Omega_\Lambda$ is required.
 
 **CMB distance priors.** Adding compressed Planck 2018 distance priors (summary constraints on the distance to the CMB, not the full Planck likelihood) and freeing $\Omega_\Lambda$ gives a four-parameter fit indistinguishable from non-flat ΛCDM ($\Delta\chi^2 = +0.28$ at equal parameter count).
 
 ### Context: wCDM
 
-A constant-$w$ model (wCDM, 4 free parameters) fitted to the same SN+BAO dataset yields $w = -0.855$ [$-0.89$, $-0.82$] with $\Delta\text{AIC} = -11.0$ relative to ΛCDM. *The data favour some departure from $w = -1$, but do not require a phantom crossing.* The question is whether that departure is a constant shift toward $w > -1$ (as wCDM captures) or a phantom crossing (as CPL captures). The phase-clock model, for which $w_\text{eff} > -1$ at all redshifts, is consistent with the wCDM direction but at data-allowed $s_0$ the departure is too small to produce a detectable signal. The wCDM preference identifies a real tension with ΛCDM that the phase-clock at current constraints does not resolve. Whether that tension is a statistical fluctuation or a hint of additional structure will be clarified by Euclid.
+A constant-<i>w</i> model (wCDM, 4 free parameters) fitted to the same SN+BAO dataset yields $w = -0.855$ [-0.89, -0.82] with $\Delta\text{AIC} = -11.0$ relative to ΛCDM. *The data favour some departure from $w = -1$, but do not require a phantom crossing.* The question is whether that departure is a constant shift toward $w > -1$ (as wCDM captures) or a phantom crossing (as CPL captures). The phase-clock model, for which $w_\text{eff} > -1$ at all redshifts, is consistent with the wCDM direction but at data-allowed $s_0$ the departure is too small to produce a detectable signal. The wCDM preference identifies a real tension with ΛCDM that the phase-clock at current constraints does not resolve. Whether that tension is a statistical fluctuation or a hint of additional structure will be clarified by Euclid.
 
 ## VI. Predictions and Falsification
 
@@ -211,7 +211,7 @@ The joint SN+BAO fit constrains $|\beta| < 0.012$ at 95% CL (from $s_0 < 0.19$ w
 
 $$\frac{|\beta|(1+z)}{E^2(z)} < 0.8\% \quad (95\%\ \text{CL at}\ z = 1)$$
 
-This is below the precision of current BAO measurements (DESI DR2: ~2–3% per bin in $D_H/r_d$) but potentially within reach of the next generation. Euclid DR1 spectroscopic BAO ($z = 0.9$–$1.8$, four redshift bins) is forecast at 1–2% per bin, marginal for detection. The discriminating regime is DESI full-survey and Euclid DR2 at ~0.5% per bin, where the $(1+z)^1$ signature reaches approximately 1.5σ per bin for $s_0 \sim 0.15$, with correlated bins improving aggregate sensitivity.
+This is below the precision of current BAO measurements (DESI DR2: ~2–3% per bin in $D_H/r_d$) but potentially within reach of the next generation. Euclid DR1 spectroscopic BAO ($z = 0.9$–1.8, four redshift bins) is forecast at 1–2% per bin, marginal for detection. The discriminating regime is DESI full-survey and Euclid DR2 at ~0.5% per bin, where the $(1+z)^1$ signature reaches approximately 1.5σ per bin for $s_0 \sim 0.15$, with correlated bins improving aggregate sensitivity.
 
 A statistically significant detection of a negative $(1+z)^1$ component in $H^2(z)$ would constitute evidence for a non-standard contribution to the distance-redshift relation. While a domain-wall fluid ($w = -2/3$) produces the same scaling, the phase-clock term is distinguished by the tied coefficient $-\beta(s_0)$ rather than an independent energy density.
 

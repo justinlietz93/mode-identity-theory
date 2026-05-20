@@ -117,7 +117,7 @@ The Möbius band $M$ is constructed from a spherical band on the great $S^2 \sub
 
 $$J'' + \frac{1}{R^2}J = 0, \qquad J(0) = 1, \quad J'(0) = 0$$
 
-so $J(y) = \cos(y/R)$. Hence the induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, with $\cos(y/R)$ vanishing at $y = \pi R/2$. The associated Riemannian density is therefore $|\cos(y/R)|\,dy\,dw$. The parameter $y$ runs from $0$ to $\pi R$, passing through the pole at $y = \pi R/2$ and reaching the antipodal great circle at $y = \pi R$.
+so $J(y) = \cos(y/R)$. Hence the induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, with $\cos(y/R)$ vanishing at $y = \pi R/2$. The associated Riemannian density is therefore $|\cos(y/R)|\,dy\,dw$. The parameter $y$ runs from 0 to $\pi R$, passing through the pole at $y = \pi R/2$ and reaching the antipodal great circle at $y = \pi R$.
 
 **The cone singularity.** At $y = \pi R/2$ the metric coefficient $\cos^2(y/R)$ vanishes. Setting $\delta = y - \pi R/2$ and $\rho = |\delta|$, the metric near $\rho = 0$ takes the form $ds^2 \approx d\rho^2 + (\rho/R)^2\,dw^2$, with total angular range $2W/R < 2\pi$ for $W < \pi R$: a genuine cone with deficit angle $2\pi - 2W/R$. On the covering $S^2$, $w$ ranges over $2\pi R$ and the deficit vanishes; the quotient identification restricts the range and creates the singularity. The Gaussian curvature $K = 1/R^2$ extends continuously to the cone point on the smooth locus. The Friedrichs extension and excision argument are detailed in Sections 2 and 6.
 
@@ -251,7 +251,7 @@ $$\int_M |\nabla^2 u|^2\,dA = (\lambda - K)\int_M |\nabla u|^2\,dA$$
 
 $$|\nabla^2 u|^2 = \sum_{i,j} u_{ij}^2 \geq \frac{1}{2}\left(\sum_i u_{ii}\right)^2 = \frac{(\text{tr}\,\nabla^2 u)^2}{2} = \frac{(\Delta u)^2}{2}$$
 
-The factor of $1/2$ arises because the trace squares two diagonal terms and the inequality distributes over the off-diagonal terms. Substituting $\Delta u = -\lambda u$:
+The factor of 1/2 arises because the trace squares two diagonal terms and the inequality distributes over the off-diagonal terms. Substituting $\Delta u = -\lambda u$:
 
 $$|\nabla^2 u|^2 \geq \frac{\lambda^2 u^2}{2}$$
 

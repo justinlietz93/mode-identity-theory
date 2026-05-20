@@ -76,7 +76,7 @@ Technical gaps with specific paths forward.
 
 ### [Black Hole Phase Behavior](./files/black-hole-phase.md)
 
-**Problem:** $\Phi \to \Theta$ mapping derived at leading order ($C/C_0 = 1 - r_s/r$, $\beta = 1$ forced). Hawking temperature $1/M$ and coefficient derived; thermal character inherited. Area entropy motivated by surface primacy; $1/4$ factor not derived. Two-attractor landscape established. Global corrections and quantitative evaporation rate remain open.
+**Problem:** $\Phi \to \Theta$ mapping derived at leading order ($C/C_0 = 1 - r_s/r$, $\beta = 1$ forced). Hawking temperature $1/M$ and coefficient derived; thermal character inherited. Area entropy motivated by surface primacy; 1/4 factor not derived. Two-attractor landscape established. Global corrections and quantitative evaporation rate remain open.
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, [Black Double Zero's](../cosmos/files/black-hole.md).
 
@@ -124,7 +124,7 @@ Technical gaps with specific paths forward.
 
 ### $L_\text{strip}/L_\text{fund}$ Ratio
 
-**Problem:** Spectral: $8.17 \pm 0.1$. Observational: $7.93$. A 3% gap that has persisted through every revision. Unresolved.
+**Problem:** Spectral: $8.17 \pm 0.1$. Observational: 7.93. A 3% gap that has persisted through every revision. Unresolved.
 
 **Dependencies:** Length scale hierarchy (engine §3).
 
@@ -206,7 +206,7 @@ Registered and exploratory tests run against existing public datasets. Completed
 
 ### Physical Observation Scale
 
-**Problem:** $\sqrt{\ell_P \cdot R_\Lambda} \sim 50\,\mu$m places the observer at the cellular scale. The geometric midpoint is derived; the dimensionless derivation connecting this to biological observation is pending.
+**Problem:** $\sqrt{\ell_P \cdot R_\Lambda} \sim 50\,\mu\text{m}$ places the observer at the cellular scale. The geometric midpoint is derived; the dimensionless derivation connecting this to biological observation is pending.
 
 **Dependencies:** Observer position at $\sqrt{\Omega}$, scale hierarchy.
 
@@ -214,7 +214,7 @@ Registered and exploratory tests run against existing public datasets. Completed
 
 ### Black Hole Node Distribution on Static $S^3$
 
-**Problem:** If $S^3$ is static and black holes are topological nodes (double zeros where $\Theta \to 0$ and $\Omega_H \to 0$), their spatial distribution should reflect the symmetry of the 120-cell rather than FLRW comoving evolution. Quasar catalogs (Milliquas, SDSS) provide ~900,000 angular positions and redshifts. The missing piece is the $z$-to-$S^3$-position map: converting redshift to location on the static 3-sphere without assuming spatial expansion. Once available, test whether supermassive black hole positions correlate with 120-cell structure.
+**Problem:** If $S^3$ is static and black holes are topological nodes (double zeros where $\Theta \to 0$ and $\Omega_H \to 0$), their spatial distribution should reflect the symmetry of the 120-cell rather than FLRW comoving evolution. Quasar catalogs (Milliquas, SDSS) provide ~900,000 angular positions and redshifts. The missing piece is the $z$-to-<i>S<sup>3</sup></i>-position map: converting redshift to location on the static 3-sphere without assuming spatial expansion. Once available, test whether supermassive black hole positions correlate with 120-cell structure.
 
 **Dependencies:** Friedmann as Output (provides the static $S^3$ coordinate system), $z$-to-phase map from temporal budget.
 

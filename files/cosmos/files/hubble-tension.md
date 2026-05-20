@@ -41,7 +41,7 @@ where $\Delta\Theta$ is the step size (1/120 for dynamical observables, 2/120 fo
 | $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
 | Λ | 60/120 | 0 per step | 0% | Topologically protected at antinode |
 
-$\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift. The step size is $2/120$ because $H_0$ is measured through photon redshifts (bosonic), accessing only the $|I| = 60$ projection of the full $|2I| = 120$ lattice.
+$\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step (2/120) as an 8.4% shift. The step size is 2/120 because $H_0$ is measured through photon redshifts (bosonic), accessing only the $|I| = 60$ projection of the full $|2I| = 120$ lattice.
 
 $a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The lattice geometry fixes the well position at $\Theta = 13/120$. The scaling law produces $a_0 = C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$ as output. Its steep slope explains why the MOND transition is sharp in the lattice description: a binary on/off behavior rather than a gradual ramp. The failed trigger hypothesis tested in §III used this $a_0$ value to define the proposed coherence radius.
 
@@ -63,7 +63,7 @@ The bare well gives $H_0 = 67.4$ km/s/Mpc (the MIT phase-clock best-fit, consist
 
 $$67.4 \times 1.084 \approx 73 \;\text{km/s/Mpc}$$
 
-This is the SH0ES-scale value. The 8.4% is an output of the lattice geometry at $\Theta_0 = 34/120$, produced by a step whose size is fixed at $2/120$. No galactic physics enters this calculation.
+This is the SH0ES-scale value. The 8.4% is an output of the lattice geometry at $\Theta_0 = 34/120$, produced by a step whose size is fixed at 2/120. No galactic physics enters this calculation.
 
 ## III. The Trigger Hypothesis and SPARC Test
 
@@ -123,7 +123,7 @@ where $v_c$ is the outer flat-region velocity. In the trigger hypothesis, the ph
 
 $$\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)$$
 
-One bosonic grid step or nothing. The step size $2/120$ is the minimum observable shift on the 60R-grid. The full 120-lattice is set by $\lvert 2I \rvert = 120$ (binary icosahedral group on $S^3$); observation accesses the bosonic projection $\lvert I \rvert = 60$, so the smallest realized step is $2/120 = 1/60$.
+One bosonic grid step or nothing. The step size 2/120 is the minimum observable shift on the 60R-grid. The full 120-lattice is set by $\lvert 2I \rvert = 120$ (binary icosahedral group on $S^3$); observation accesses the bosonic projection $\lvert I \rvert = 60$, so the smallest realized step is $2/120 = 1/60$.
 
 ### SPARC result
 

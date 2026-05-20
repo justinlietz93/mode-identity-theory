@@ -43,7 +43,7 @@ These are irreducible. $c$ defines the causal structure of spacetime; the topolo
 | Scale | Value | Role |
 |---|---|---|
 | $R$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$; sets the size of the domain |
-| $m_e$ | $0.511$ MeV | Electron mass; anchors the particle spectrum |
+| $m_e$ | 0.511 MeV | Electron mass; anchors the particle spectrum |
 
 These are irreducible. The topology is a shape, not a size: a sphere of any radius is still a sphere. $R$ sets the scale. The mass formula gives every particle mass as $m_e$ times dimensionless topological ratios times a power of $\Omega$; without one mass, you have all the ratios but no absolute scale. Two measurements because the mass formula with unknowns $(R, G)$ and one known $(m_e)$ gives one equation in two unknowns.
 
@@ -109,8 +109,8 @@ Four auxiliary paths converge on this number (three independent):
 
 | Grid | Positions | Minimum step | Observables |
 |---|---|---|---|
-| Full domain | 120 | $1/120$ | $a_0$ (dynamical) |
-| Bosonic projection | 60 | $2/120$ | $H_0$, $\Lambda$, $\alpha$ (photon-mediated) |
+| Full domain | 120 | 1/120 | $a_0$ (dynamical) |
+| Bosonic projection | 60 | 2/120 | $H_0$, $\Lambda$, $\alpha$ (photon-mediated) |
 
 **The chronon** is the smallest phase advance the domain can register:
 
@@ -219,7 +219,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 
 | Observable | Character | $n$ | $\Omega$ | $(\sqrt{\Omega})^{-n}$ |
 |---|---|---|---|---|
-| $\alpha$ | Epoch-independent, dimensionless | $1/30$ | $\Omega_\Lambda$ | $\Omega_\Lambda^{-1/60}$ |
+| $\alpha$ | Epoch-independent, dimensionless | 1/30 | $\Omega_\Lambda$ | $\Omega_\Lambda^{-1/60}$ |
 | $H_0$, $a_0$ | Epoch-dependent | 1 | $\Omega_H$ | $10^{-61}$ |
 | $\Lambda$ | Epoch-independent, geometric | 2 | $\Omega_\Lambda$ | $10^{-122}$ |
 | Dark matter | Gravity-only | 3 | $\Omega_\Lambda$ | $10^{-183}$ |
@@ -273,7 +273,7 @@ The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0
 | $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
 | $\Lambda_\text{top}$ | 60/120 | 0 per step | 0% | Topologically protected |
 
-The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step ($2/120$) as an 8.4% shift: $C(36/120)/C(34/120) = 1.084$, giving $67.4 \times 1.084 \approx 73$ km/s/Mpc. This arithmetic is fixed by well positions and independent of any galactic mechanism.
+The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step (2/120) as an 8.4% shift: $C(36/120)/C(34/120) = 1.084$, giving $67.4 \times 1.084 \approx 73$ km/s/Mpc. This arithmetic is fixed by well positions and independent of any galactic mechanism.
 
 $a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
@@ -293,7 +293,7 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 
 | Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ | Role |
 |---|---|---|---|---|---|---|---|
-| [α](../spectrum/files/fine-structure.md) | 1 | 60R | 13/60 | 0.792 | $1/30$ | $7.33 \times 10^{-3}$ | Prediction |
+| [α](../spectrum/files/fine-structure.md) | 1 | 60R | 13/60 | 0.792 | 1/30 | $7.33 \times 10^{-3}$ | Prediction |
 | [a₀](../cosmos/files/early-galaxies.md) | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ | Prediction |
 | [H₀](../cosmos/files/hubble-tension.md) | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ | Calibration |
 | [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * | Prediction |

@@ -6,7 +6,7 @@
 
 [![The Waltz](https://img.youtube.com/vi/5QDKZavD5g4/mqdefault.jpg)](https://www.youtube.com/watch?v=5QDKZavD5g4)
 
-The cosmological constant Λ is the ground eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss equation supplies the interface between the two: a $3/2$ conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $G$ as an exchange rate between the curvature scale and the vacuum energy floor.
+The cosmological constant Λ is the ground eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss equation supplies the interface between the two: a 3/2 conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $G$ as an exchange rate between the curvature scale and the vacuum energy floor.
 
 ## I. The Two Partners
 
@@ -57,7 +57,7 @@ The ratio of mode amplitude to energy density ($f^2/\rho$) grows with $R$, so an
 | 2 | Antinode intensity + de Sitter relation; icosahedral edge stabilizer order |
 | 3/2 | Gauss equation interface = face order / edge order |
 
-The 3 reflects $S^3$'s three-dimensionality. The 2 is the GR definition of Λ. The $3/2$ is their ratio: the Gauss equation interface between 3D curvature and 2D geometry. In icosahedral geometry, this is face stabilizer order 3 to edge stabilizer order 2, intrinsic to the polyhedral group.
+The 3 reflects $S^3$'s three-dimensionality. The 2 is the GR definition of Λ. The 3/2 is their ratio: the Gauss equation interface between 3D curvature and 2D geometry. In icosahedral geometry, this is face stabilizer order 3 to edge stabilizer order 2, intrinsic to the polyhedral group.
 
 ### The dictionary has a definition
 
@@ -96,11 +96,11 @@ The dictionary entry has a closed form. $G$ is not a measured constant; it is th
 
 ## III. Why Gravity Resists Quantization
 
-Gravity is an interface connecting two sectors of differing character: continuous geometry ($S^3$) and discrete sampling (the 120 domain). The $3/2$ conversion bridges their difference in kind. A quantum theory of gravity in the standard sense would require either discretizing the geometry or making the mode spectrum continuous. The topology forbids both.
+Gravity is an interface connecting two sectors of differing character: continuous geometry ($S^3$) and discrete sampling (the 120 domain). The 3/2 conversion bridges their difference in kind. A quantum theory of gravity in the standard sense would require either discretizing the geometry or making the mode spectrum continuous. The topology forbids both.
 
 Discretizing $S^3$ would remove the structure that sources $\Lambda$ through the Gauss equation. Continualizing the 120 domain would dissolve the particle spectrum, the mass gap, and three generations. The 120 is forced by $|2I|$ being the largest exceptional discrete subgroup of $\text{SU}(2) \cong S^3$.
 
-Standard quantization programs assume objects of the same type on both sides of the interface. Gravity is the one interface where this fails structurally. The resistance is not a technical obstacle awaiting a better method; it is the signature of an interface doing work no single-type quantization can do. The $3/2$ factor is the cost of carrying information across that interface, measured in every gravitational observation.
+Standard quantization programs assume objects of the same type on both sides of the interface. Gravity is the one interface where this fails structurally. The resistance is not a technical obstacle awaiting a better method; it is the signature of an interface doing work no single-type quantization can do. The 3/2 factor is the cost of carrying information across that interface, measured in every gravitational observation.
 
 ## IV. Dark Matter and Dark Energy as Geometry
 

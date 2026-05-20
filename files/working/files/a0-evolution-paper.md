@@ -30,7 +30,7 @@ This paper develops one hypothesis and its consequences. Within a bounded-topolo
 
 $$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = 0.1845, \quad \text{(1.1)}$$
 
-agreeing with the observed $0.1833$ at the $0.7\%$ level. The ratio itself is not a separate adjustable parameter: once the $a_0$ and $H$ wells are fixed by separately calibrated well assignments sharing the same edge-mode hierarchy, (1.1) follows algebraically. The non-trivial content is the 0.7% match at a combinatorially sparse position (§2). Among the framework's six Fibonacci-well pairs, $(13, 34)$ is the unique pair that reproduces the observed ratio within 1% (§2).
+agreeing with the observed 0.1833 at the 0.7% level. The ratio itself is not a separate adjustable parameter: once the $a_0$ and $H$ wells are fixed by separately calibrated well assignments sharing the same edge-mode hierarchy, (1.1) follows algebraically. The non-trivial content is the 0.7% match at a combinatorially sparse position (§2). Among the framework's six Fibonacci-well pairs, $(13, 34)$ is the unique pair that reproduces the observed ratio within 1% (§2).
 
 Because both $a_0$ and $H$ reference the same epoch-dependent hierarchy in the framework's scaling law, the ratio (1.1) holds at every cosmic epoch. The evolution follows:
 
@@ -66,7 +66,7 @@ The two well assignments are separately calibrated: $H$ calibrates the edge hier
 
 **Local-epoch reading.** Equation (2.4) holds at every $z$ because $N_H(z)$ is calibrated through the local $H(z)$ at the observer's epoch, not frozen at $N_H(0)$. The alternative, anchoring $N_H$ to the present, would require a privileged time slice. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred epoch; the standing wave $\Psi(t) = \cos(t/2)$ that governs the cosmic cycle is itself $t$-dependent throughout. The local-epoch reading is the default; freezing $N_H(0)$ would be the addition of a postulate the topology does not motivate. The two readings are observably distinct at every $z > 0$: at $z = 2$ the BTFR normalization differs by a factor of 3 between them, and the Euclid DR1 test (§5) will distinguish them.
 
-**Why Λ does not evolve.** The same scaling law places $\Lambda$ at the antinode $\Theta = 60/120$ with $n = 2$ (surface mode), referenced to $\Omega_\Lambda$: the fixed eigenvalue hierarchy associated with the $\Lambda$ eigenvalue, not the redshift-dependent fractional density parameter of standard cosmological notation. Under the local-epoch reading, this eigenvalue hierarchy is the same at every $z$. The phase position $60/120$ has $d\ln C/d\Theta = 0$, giving topological protection against perturbation. The two predictions are structurally inverse: $a_0$ evolves because it references $\Omega_H$; $\Lambda$ does not because it references $\Omega_\Lambda$. This inversion is forced by the selection rule (Appendix A.2).
+**Why Λ does not evolve.** The same scaling law places $\Lambda$ at the antinode $\Theta = 60/120$ with $n = 2$ (surface mode), referenced to $\Omega_\Lambda$: the fixed eigenvalue hierarchy associated with the $\Lambda$ eigenvalue, not the redshift-dependent fractional density parameter of standard cosmological notation. Under the local-epoch reading, this eigenvalue hierarchy is the same at every $z$. The phase position 60/120 has $d\ln C/d\Theta = 0$, giving topological protection against perturbation. The two predictions are structurally inverse: $a_0$ evolves because it references $\Omega_H$; $\Lambda$ does not because it references $\Omega_\Lambda$. This inversion is forced by the selection rule (Appendix A.2).
 
 Thus the result is a conditional prediction of the framework: given the scaling law, selection rule, calibrated well assignments, and local-epoch reading, the redshift evolution follows by substitution, with no additional evolution parameter.
 
@@ -123,7 +123,7 @@ At $z = 2$, the transition happens at 57% of the local radius. The asymptotic ve
 | Archetype | $M_b$ [$M_\odot$] | $r_M(0)$ [kpc] | $r_M(2)$ [kpc] | $v_\text{flat}(0)$ [km/s] | $v_\text{flat}(2)$ [km/s] |
 |---|---:|---:|---:|---:|---:|
 | Dwarf (DDO 154) | $3.5 \times 10^8$ | 0.64 | 0.37 | 49 | 64 |
-| Sub-$L^*$ (NGC 2403) | $1.0 \times 10^{10}$ | 3.41 | 1.96 | 112 | 148 |
+| Sub-<i>L*</i> (NGC 2403) | $1.0 \times 10^{10}$ | 3.41 | 1.96 | 112 | 148 |
 | $L^*$ (NGC 6946) | $6.0 \times 10^{10}$ | 8.35 | 4.79 | 176 | 232 |
 | Giant (UGC 2885) | $1.5 \times 10^{11}$ | 13.20 | 7.58 | 221 | 292 |
 
@@ -158,7 +158,7 @@ In the deep-MOND regime, $g_\text{eff} = \sqrt{g_N \cdot a_0(z)}$ scales as $\sq
 | Observable | Scaling | Value at $z = 2$ | Primary test |
 |---|---|---:|---|
 | BTFR normalization | $E(z)^{-1}$ | 0.330 | Euclid DR1, KMOS3D |
-| MOND radius | $E(z)^{-1/2}$ | 0.574 | High-$z$ rotation curves |
+| MOND radius | $E(z)^{-1/2}$ | 0.574 | High-<i>z</i> rotation curves |
 | Asymptotic velocity at fixed $M_b$ | $E(z)^{+1/4}$ | 1.320 | Euclid DR1, KMOS3D |
 | Lensing $M_\text{dyn}/M_b$ | $E(z)^{+1/2}$ | 1.741 | Euclid DR1 stacked lensing |
 | Free-fall collapse time | $E(z)^{-1/4}$ | 0.758 | JWST spectroscopy |
@@ -179,15 +179,15 @@ The framework predicts
 
 $$\Delta b^{\text{MIT}}(z{=}0.9) = -0.227~\text{dex}, \qquad \Delta b^{\text{MIT}}(z{=}2.3) = -0.540~\text{dex}.$$
 
-Two features matter. First, the magnitudes overlap: both the prediction and the data place the high-$z$ BTFR substantially below the local relation. Second, the trend shapes disagree: the data are non-monotonic ($-0.44 \to -0.27$), while the prediction is strictly monotonic ($-0.227 \to -0.540$) (Figure 4).
+Two features matter. First, the magnitudes overlap: both the prediction and the data place the high-<i>z</i> BTFR substantially below the local relation. Second, the trend shapes disagree: the data are non-monotonic ($-0.44 \to -0.27$), while the prediction is strictly monotonic ($-0.227 \to -0.540$) (Figure 4).
 
 The tension is quantified across three uncertainty budgets:
 
 | Budget | $T(z{=}0.9)$ [σ] | $T(z{=}2.3)$ [σ] | Joint [σ] |
 |---|---:|---:|---:|
-| Übler statistical only | $-5.4$ | $+5.4$ | 7.6 |
-| + local-baseline (0.05 dex) | $-3.4$ | $+3.8$ | 5.1 |
-| + velocity-correction (0.10 dex) | $-1.8$ | $+2.2$ | 2.9 |
+| Übler statistical only | -5.4 | +5.4 | 7.6 |
+| + local-baseline (0.05 dex) | -3.4 | +3.8 | 5.1 |
+| + velocity-correction (0.10 dex) | -1.8 | +2.2 | 2.9 |
 
 Even under the most conservative budget, the joint tension is 2.9σ. We treat this as a provisional tension rather than a formal falsification, because the comparison combines heterogeneous velocity definitions and cross-redshift pressure-support corrections. Formal falsification requires a matched-systematics measurement: single instrument, uniform tracer, identical correction prescription across redshift bins (§5).
 
@@ -218,7 +218,7 @@ Local SPARC and THINGS measurements are consistent by construction: the well ass
 | Regime | Status |
 |---|---|
 | Local ($z = 0$) | Consistent by construction |
-| Intermediate-$z$ BTFR (Übler [10]) | 2.9σ tension on trend shape |
+| Intermediate-<i>z</i> BTFR (Übler [10]) | 2.9σ tension on trend shape |
 | Galaxy clusters [14] | Inherited, unaddressed (~8% vs factor-5) |
 | CMB ($z = 1090$) | Structurally decoupled; $\varepsilon \leq 1.2 \times 10^{-5}$ from Planck |
 | Strong-lens time delays | Below current sensitivity |
@@ -235,7 +235,7 @@ Euclid's stated objective is to characterize the dark Universe and its evolution
 
 **What the framework predicts.** At fixed baryonic mass and aperture, $M_\text{dyn}/M_b$ is enhanced by $\sqrt{E(z)}$ relative to $z = 0$: a 15% excess at $z = 0.5$, 34% at $z = 1$, and 74% at $z = 2$ (Table 4). The enhancement is universal across galaxy mass and lensing aperture in the deep-MOND regime.
 
-**Why this discriminates from ΛCDM.** Under ΛCDM, $M_\text{dyn}/M_b$ also evolves with redshift through halo concentration evolution and stellar-to-halo mass relation shifts [11,12]. The ΛCDM prediction is mass-dependent and aperture-dependent: at $z = 2$ relative to $z = 0$, the ΛCDM ratio shifts by a factor of 0.76 for a Sub-$L^*$ galaxy, 0.98 for $L^*$, and 1.13 for a Giant at the canonical $R = 100$ kpc aperture, spanning 37 percentage points across the mass range (Appendix B). The framework predicts the same factor 1.74 for all three. A Euclid DR1 analysis stratified by both stellar mass and aperture tests the magnitude and the universality of the prediction in a single dataset.
+**Why this discriminates from ΛCDM.** Under ΛCDM, $M_\text{dyn}/M_b$ also evolves with redshift through halo concentration evolution and stellar-to-halo mass relation shifts [11,12]. The ΛCDM prediction is mass-dependent and aperture-dependent: at $z = 2$ relative to $z = 0$, the ΛCDM ratio shifts by a factor of 0.76 for a Sub-<i>L*</i> galaxy, 0.98 for $L^*$, and 1.13 for a Giant at the canonical $R = 100$ kpc aperture, spanning 37 percentage points across the mass range (Appendix B). The framework predicts the same factor 1.74 for all three. A Euclid DR1 analysis stratified by both stellar mass and aperture tests the magnitude and the universality of the prediction in a single dataset.
 
 **Falsification criteria.**
 
@@ -243,9 +243,9 @@ Euclid's stated objective is to characterize the dark Universe and its evolution
 
 | Prediction | Signature | Reportable tension if | Key systematic |
 |---|---|---|---|
-| BTFR normalization | $A(z)/A(0) = 1/E(z)$ | Single-$z$ inconsistency at $\geq 2\sigma$ | Pressure-support correction |
+| BTFR normalization | $A(z)/A(0) = 1/E(z)$ | Single-<i>z</i> inconsistency at $\geq 2\sigma$ | Pressure-support correction |
 | BTFR trend shape | Monotonic decrease | Non-monotonic trend confirmed under matched systematics | Cross-instrument tracer mismatch |
-| MOND radius | $r_M(z)/r_M(0) = E(z)^{-1/2}$ | Single-$z$ inconsistency at $\geq 2\sigma$ | Baryonic mass model |
+| MOND radius | $r_M(z)/r_M(0) = E(z)^{-1/2}$ | Single-<i>z</i> inconsistency at $\geq 2\sigma$ | Baryonic mass model |
 | Lensing enhancement | $\sqrt{E(z)}$, mass/aperture-independent | Inconsistency at $\geq 2\sigma$, or mass/aperture-dependent shift | Halo concentration evolution |
 | Collapse-time correction | $t_\text{ff}(z)/t_\text{ff}(0) = E(z)^{-1/4}$ | Corrected formation timescales incompatible with spectroscopic ages at $\geq 2\sigma$ | Halo-mass priors |
 
@@ -267,7 +267,7 @@ All programs listed are existing or imminent. No new instrument or observational
 
 # §6 Conclusions
 
-The Milgrom coincidence $a_0 \approx cH_0$ is accounted for, within the bounded-topology framework of Appendix A, by a fixed ratio of two phase-operator values at Fibonacci wells: $a_0/(cH) = C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at $0.7\%$. The $a_0$ and $H$ wells are fixed by separately calibrated assignments at $z = 0$ sharing the same edge-mode hierarchy; the ratio follows algebraically and is unique among the framework's Fibonacci-well pairs (§2).
+The Milgrom coincidence $a_0 \approx cH_0$ is accounted for, within the bounded-topology framework of Appendix A, by a fixed ratio of two phase-operator values at Fibonacci wells: $a_0/(cH) = C(13/120)/C(34/120) = 0.1845$, agreeing with the observed 0.1833 at 0.7%. The $a_0$ and $H$ wells are fixed by separately calibrated assignments at $z = 0$ sharing the same edge-mode hierarchy; the ratio follows algebraically and is unique among the framework's Fibonacci-well pairs (§2).
 
 Because both observables reference the same epoch-dependent hierarchy, the ratio holds at every cosmic epoch: $a_0(z) = a_0(0)\,E(z)$. Five observable channels follow as different powers of $E(z)$, with no additional free parameter. The BTFR normalization shifts as $E(z)^{-1}$, the MOND transition radius contracts as $E(z)^{-1/2}$, the asymptotic velocity at fixed baryonic mass rises as $E(z)^{+1/4}$, the lensing-inferred dynamical mass enhancement scales as $E(z)^{+1/2}$, and the gravitational collapse time shortens as $E(z)^{-1/4}$. The five exponents are correlated, not independent: consistency across channels at the same redshift tests the universality of the deep-MOND scaling.
 
@@ -329,7 +329,7 @@ Under the eligibility conditions:
 
 (c) $\Lambda$ is assigned $\Theta = 60/120$: the antinode, where the phase operator takes its maximum and the log-slope vanishes.
 
-The wells $21/120$ and $55/120$ remain unassigned in this paper. The assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the eligibility conditions. The manifold-mode classification, bosonic-projection filter, selection rule, and the prediction $a_0(z) \propto H(z)$ were established in the framework's foundational deposit [20] prior to the present paper's calibration, foreclosing post-hoc adjustment of the eligibility conditions to fit the well assignments. A first-principles derivation from the Hurwitz/Fibonacci structure of the 120-domain is future work.
+The wells 21/120 and 55/120 remain unassigned in this paper. The assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the eligibility conditions. The manifold-mode classification, bosonic-projection filter, selection rule, and the prediction $a_0(z) \propto H(z)$ were established in the framework's foundational deposit [20] prior to the present paper's calibration, foreclosing post-hoc adjustment of the eligibility conditions to fit the well assignments. A first-principles derivation from the Hurwitz/Fibonacci structure of the 120-domain is future work.
 
 ---
 
@@ -344,7 +344,7 @@ Four baryonic-mass archetypes span the SPARC range:
 | Archetype | $M_b$ [$M_\odot$] |
 |---|---:|
 | Dwarf (DDO 154) | $3.5 \times 10^8$ |
-| Sub-$L^*$ (NGC 2403) | $1.0 \times 10^{10}$ |
+| Sub-<i>L*</i> (NGC 2403) | $1.0 \times 10^{10}$ |
 | $L^*$ (NGC 6946) | $6.0 \times 10^{10}$ |
 | Giant (UGC 2885) | $1.5 \times 10^{11}$ |
 
@@ -356,7 +356,7 @@ Representative halo masses and concentrations at the $L^*$ archetype, consistent
 | 1 | $1.0 \times 10^{12}$ | 5.0 |
 | 2 | $7.0 \times 10^{11}$ | 3.5 |
 
-Sub-$L^*$ and Giant archetypes use mass-appropriate $(M_\text{halo}, c)$ values from the same parameterization. The SHMR mapping is used only to set representative halo masses; the discriminator depends on the relative mass- and aperture-dependence of the ΛCDM prediction, not the absolute baryonic-to-halo normalization. These are representative defaults; alternative SHMR inversions shift the absolute ΛCDM values but preserve the mass- and aperture-dependence that constitutes the §5 discriminator.
+Sub-<i>L*</i> and Giant archetypes use mass-appropriate $(M_\text{halo}, c)$ values from the same parameterization. The SHMR mapping is used only to set representative halo masses; the discriminator depends on the relative mass- and aperture-dependence of the ΛCDM prediction, not the absolute baryonic-to-halo normalization. These are representative defaults; alternative SHMR inversions shift the absolute ΛCDM values but preserve the mass- and aperture-dependence that constitutes the §5 discriminator.
 
 ## B.2 NFW enclosed mass
 
@@ -378,9 +378,9 @@ The ratio $M_\text{dyn}/M_b$ is computed under the same Newtonian inversion used
 
 At the canonical $R = 100$ kpc aperture, the ΛCDM $M_\text{dyn}/M_b$ ratio at $z = 2$ relative to $z = 0$ is:
 
-| Archetype | ΛCDM ratio ($z{=}2$/$z{=}0$) | Framework ratio |
+| Archetype | ΛCDM ratio ($z{=}2/z{=}0$) | Framework ratio |
 |---|---:|---:|
-| Sub-$L^*$ | 0.76 | 1.74 |
+| Sub-<i>L*</i> | 0.76 | 1.74 |
 | $L^*$ | 0.98 | 1.74 |
 | Giant | 1.13 | 1.74 |
 

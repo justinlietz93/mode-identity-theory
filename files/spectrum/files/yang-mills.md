@@ -66,7 +66,7 @@ On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted
 
 ### Representation content at each level
 
-The left-$\mathrm{SU}(2)$ content of coexact 1-forms at eigenvalue $(k+1)^2/R^2$ is $V_{k-1} \oplus V_{k+1}$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}\vert_{2I} = R_1 \otimes V_l\vert_{2I} - V_{l-1}\vert_{2I}$ gives:
+The left-<i>SU(2)</i> content of coexact 1-forms at eigenvalue $(k+1)^2/R^2$ is $V_{k-1} \oplus V_{k+1}$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}\vert_{2I} = R_1 \otimes V_l\vert_{2I} - V_{l-1}\vert_{2I}$ gives:
 
 $$V_0 = R_0, \quad V_1 = R_1, \quad V_2 = R_3, \quad V_3 = R_6, \quad V_4 = R_7, \quad V_5 = R_8, \quad V_6 = R_5 \oplus R_4$$
 

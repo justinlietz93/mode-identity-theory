@@ -27,10 +27,10 @@ Joint Pantheon+ + DESI DR2 BAO MCMC fit at fixed $\Omega_\Lambda = 0.685$:
 | $s_0$ posterior median | 0.076 [0.023, 0.143] |
 | $s_0$ 95% upper limit | $< 0.19$ (flat prior) |
 | $H_0 r_d$ (km/s) | 10008 [9972, 10040] |
-| $\Delta\chi^2$ vs flat ΛCDM (equal parameter count) | $+0.11$ |
+| $\Delta\chi^2$ vs flat ΛCDM (equal parameter count) | +0.11 |
 | Savage-Dickey Bayes factor $B_{01}$ at $s_0$ prior floor | $\approx 7.1$ ($\pm 0.03$ across KDE bandwidths) |
 
-The constraint is prior-sensitive in detail ($s_0 < 0.12$–$0.21$ across flat, $s_0^2$-flat, and $\log_{10}$-flat priors) but data-driven in character: all priors yield $s_0 \ll 1$. The constraint is also stable to $\Omega_\Lambda$ variations over $0.68$–$0.715$; best $\Delta\chi^2$ near $\Omega_\Lambda = 0.69$.
+The constraint is prior-sensitive in detail ($s_0 < 0.12$–0.21 across flat, $s_0^2$-flat, and $\log_{10}$-flat priors) but data-driven in character: all priors yield $s_0 \ll 1$. The constraint is also stable to $\Omega_\Lambda$ variations over 0.68–0.715; best $\Delta\chi^2$ near $\Omega_\Lambda = 0.69$.
 
 CPL recovery at $s_0 = 0.19$:
 
@@ -46,8 +46,8 @@ Linear-growth consistency check against DESI DR1 ShapeFit+BAO $f\sigma_{s8}$ at 
 | Model | $\chi^2_{\rm RSD}$ (6 bins) | $\Delta\chi^2$ vs flat ΛCDM |
 |---|---|---|
 | flat ΛCDM ($\Omega_m = 0.315$) | 4.64 | 0 |
-| Λcos ($s_0 = 0.076$, median) | 4.68 | $+0.04$ |
-| Λcos ($s_0 = 0.185$, 95% UL) | 4.90 | $+0.26$ |
+| Λcos ($s_0 = 0.076$, median) | 4.68 | +0.04 |
+| Λcos ($s_0 = 0.185$, 95% UL) | 4.90 | +0.26 |
 
 The model deviation in $f\sigma_{s8}$ is below 1% per bin at all DR1 effective redshifts, well within the 9-23% per-bin measurement precision. The $\Omega_m(z)$ trajectory shows a $\sim 2.9\%$ split at $z = 2.3$ at the upper limit — the most distinctive available diagnostic, beyond the current growth-data reach ($z_{\rm max} = 1.49$).
 
@@ -61,7 +61,7 @@ Clock-exponent selection is empirically validated: integer alternatives $n = 0, 
 |---|---|
 | [Temporal budget $\Psi^2 + S^2 = 1$](./temporal-budget.md) | Λcos is the cosmological-scale realization of the Waltz clock $dt/d\tau = S^{-1/2}$. The paper presents Λcos in its own terms (no MIT vocabulary); the framework-level reading is in the temporal-budget note. |
 | Bounded auxiliary variable | $S = \sin(t/2)$ on the monotonic branch $0 < t \leq \pi$. Maps to FLRW scale factor through $1+z = s_0/S$. |
-| Clock exponent $-1/2$ | Selected by matter-era Friedmann scaling at high $z$; empirically validated against integer alternatives. |
+| Clock exponent -1/2 | Selected by matter-era Friedmann scaling at high $z$; empirically validated against integer alternatives. |
 | Reference value $\Omega_\Lambda = 0.685$ | Topology-fixed input from Möbius eigenvalue (sector $\mathcal{A}$); not fitted. |
 | $(1+z)^1$ signature | Falsifiable signature absent from canonical FLRW density scalings. Tied coefficient $-\beta(s_0)$ distinguishes from a free-coefficient domain-wall fluid ($w = -2/3$). |
 

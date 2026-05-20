@@ -76,10 +76,10 @@ Two independent derivation paths (combinatorial Reidemeister + spectral analytic
 
 | Irrep | $\log T^2$ | L-basis |
 |-------|------------|---------|
-| R3 | $-1.186$ | $-4L'(0,\chi_0^{(2)}) + 2L'(0,\chi_0^{(5)}) - \sqrt{5}\cdot L(1,\chi_2)$ |
-| R7 | $+0.811$ | $4L'(0,\chi_0^{(2)}) - 4L'(0,\chi_0^{(3)})$ |
-| R5 | $+1.022$ | $4L'(0,\chi_0^{(3)}) - 4L'(0,\chi_0^{(5)})$ |
-| R4 | $+0.739$ | $-4L'(0,\chi_0^{(2)}) + 2L'(0,\chi_0^{(5)}) + \sqrt{5}\cdot L(1,\chi_2)$ |
+| R3 | -1.186 | $-4L'(0,\chi_0^{(2)}) + 2L'(0,\chi_0^{(5)}) - \sqrt{5}\cdot L(1,\chi_2)$ |
+| R7 | +0.811 | $4L'(0,\chi_0^{(2)}) - 4L'(0,\chi_0^{(3)})$ |
+| R5 | +1.022 | $4L'(0,\chi_0^{(3)}) - 4L'(0,\chi_0^{(5)})$ |
+| R4 | +0.739 | $-4L'(0,\chi_0^{(2)}) + 2L'(0,\chi_0^{(5)}) + \sqrt{5}\cdot L(1,\chi_2)$ |
 
 Selectivity: maximum (4 of 16 characters). Domain: $s=0$ only.
 
@@ -145,7 +145,7 @@ Per-irrep twisted etas computed via fusion matrices for all three flat connectio
 | C2 closed form | $\eta([-e],s)=2^{s-1}[\beta(s)-\beta(s-2)]$ | Algebraic + numerical |
 | Tier 2 closed forms | Universal trig. formula; C8 involves $\zeta(s)$ | Exact |
 | Torsion $\times$ eta | Inherited arithmetic, no emergent structure | Exact |
-| Vacuum-twisted eta | 3 sign patterns; $(2/5)\times$integer | Exact |
+| Vacuum-twisted eta | 3 sign patterns; (2/5)×integer | Exact |
 | Higher-form Laplacians | Hodge duality; no combination factors | Structural proof |
 | Signature operator | Collapsed to Dirac eta | Structural |
 | Type 2 equiv. eta | Uniformly worse, all 8 classes | C2: structural; non-central: mod-120 exact ($S_1/S_0$) |
@@ -164,7 +164,7 @@ The eight lemmas defeat specific strategies for leveraging the reading capacity 
 **Lemma 1 (Curvature / Pochhammer Obstruction).**
 **Strategy defeated:** Extend the torsion's selectivity (4 of 16 characters) from $s=0$ to a strip containing the critical strip.
 
-*Proof.* The scalar Laplacian on $S^3/2I$ has eigenvalues $l(l+2)=(l+1)^2-1$. The Ricci curvature shift "$-1$" generates a Pochhammer expansion:
+*Proof.* The scalar Laplacian on $S^3/2I$ has eigenvalues $l(l+2)=(l+1)^2-1$. The Ricci curvature shift "-1" generates a Pochhammer expansion:
 
 $$Z_{0,\sigma}(s)=\sum_{k\geq0}\frac{(s)_k}{k!}\cdot\widetilde{H}_k(s)$$
 
@@ -172,7 +172,7 @@ At $s=0$: $(0)_k=0$ for $k\geq1$ collapses the tower to a single term — the me
 
 No linear combination $a\cdot Z_0+b\cdot Z_1$ with $a\neq0$ factors at general $s$: the Pochhammer tower from $Z_0$ cannot be cancelled by the unshifted $Z_1$. The Lichnerowicz formula $D^2=\nabla^*\nabla+R_\text{scalar}/4$ connects Dirac eigenvalues to scalar Laplacian eigenvalues through an additive constant shift ($3/(2R^2)$). This does not recreate the Pochhammer obstruction for the Dirac operator — the Dirac spectral zeta does factor finitely at all $s$ (§ III.B). The obstruction here is specific to the scalar/torsion route: the curvature shift blocks the extension of torsion selectivity from $s=0$ to general $s$. The Dirac route avoids this obstruction but faces a different one: insufficient character selectivity (28–32 of 32 characters survive, making zero isolation impossible).
 
-The torsion's selectivity is a property of $s=0$, not a property that extends. The curvature that gives the Yang-Mills mass gap blocks the general-$s$ factorization for the scalar route. $\square$
+The torsion's selectivity is a property of $s=0$, not a property that extends. The curvature that gives the Yang-Mills mass gap blocks the general-<i>s</i> factorization for the scalar route. $\square$
 
 ---
 
@@ -270,7 +270,7 @@ The spectral and arithmetic L-functions attached to $2I$ are different mathemati
 
 **Proposition 3 (Kernel Reduction).** Let $\sigma$ be any irrep of $2I$ and $A$ any admissible operator on sections of $E_\sigma$ over $S^3/2I$. Then: (1) $K_t^A(x,x)=\sum_{\gamma\in2I}\sigma(\gamma)\cdot k_t(d(x,\gamma x))$ with $k_t$ scalar; (2) every spectral invariant reduces to $\sum_{[g]\subset2I}\chi_\sigma(g)\cdot G_t([g])$; (3) no basis-independent content of the kernel lies outside the character table of $2I$.
 
-*Proof.* The right-$\mathrm{SU}(2)$ action commutes with any natural operator, so the heat kernel depends only on geodesic distance. Combined with left-$2I$ equivariance:
+*Proof.* The right-<i>SU(2)</i> action commutes with any natural operator, so the heat kernel depends only on geodesic distance. Combined with left-<i>2I</i> equivariance:
 
 $$\tilde{K}_t^A(x,\gamma x) = \sigma(\gamma)\cdot k_t(d(x,\gamma x))$$
 
@@ -300,7 +300,7 @@ The character table is the complete basis-independent invariant of the group act
 
 *Proof.* Four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition) prove no such map exists. Every eigenspace on $S^1$ with anti-periodic BC is 2-dimensional (sin and cos). $C(\Theta)$ depends on choosing $\sin$ over $\cos$. The spectral zeta sees only eigenvalues and multiplicities, blind to this choice. The two $\mathbb{Z}_2$ symmetries — $C(\Theta)=C(1-\Theta)$ from spatial reflection; $\xi(s)=\xi(1-s)$ from Poisson/modular duality — arise from different mechanisms and are not related by a natural map.
 
-On $S^3/2I$: the McKay correspondence resolves the basis ambiguity (multiplicities are canonical), but continuous geometric position drops out by Schur's lemma: the right-$\mathrm{SU}(2)$ acts transitively, forcing the twisted heat kernel to be constant on the diagonal of each fiber. $\square$
+On $S^3/2I$: the McKay correspondence resolves the basis ambiguity (multiplicities are canonical), but continuous geometric position drops out by Schur's lemma: the right-<i>SU(2)</i> acts transitively, forcing the twisted heat kernel to be constant on the diagonal of each fiber. $\square$
 
 ---
 
@@ -329,7 +329,7 @@ The Ricci curvature of $S^3$ is $\mathrm{Ric}=2/R^2>0$. This positive number doe
 
 **Physics (Weitzenböck bound):** All gauge fluctuations on $S^3/2I$ satisfy $\lambda\geq2/R^2>0$. The mass gap exists. Every mode is massive. Matter is realized.
 
-**Arithmetic (Pochhammer obstruction):** The scalar Laplacian eigenvalues shift from $(l+1)^2$ to $l(l+2)=(l+1)^2-1$. The "$-1$" generates the infinite Pochhammer tower that blocks general-$s$ factorization. The torsion's maximum selectivity is locked to $s=0$. L-function zeros are shielded.
+**Arithmetic (Pochhammer obstruction):** The scalar Laplacian eigenvalues shift from $(l+1)^2$ to $l(l+2)=(l+1)^2-1$. The "-1" generates the infinite Pochhammer tower that blocks general-<i>s</i> factorization. The torsion's maximum selectivity is locked to $s=0$. L-function zeros are shielded.
 
 | Step | Physics | Arithmetic |
 |------|---------|-----------|

@@ -319,7 +319,7 @@ shows the first nontrivial invariant at $N = 12$. Shells $N = 2, 4, 6, 8, 10$ ar
 
 ### C. Mapping to the CMB Sky
 
-Each shell maps to $\ell_\text{char}(N) = \sqrt{N(N+2)}\,\chi_*/R$, where $\chi_* \approx 14.0$ Gpc is the comoving distance to last scattering (fixed by the acoustic peaks independently of $\Lambda$). The last empty shell ($N = 10$) maps to $\ell \approx 29$; the first surviving shell ($N = 12$) to $\ell \approx 34$. The transition matches the observed low-$\ell$ CMB power deficit documented across COBE, WMAP, and Planck.
+Each shell maps to $\ell_\text{char}(N) = \sqrt{N(N+2)}\,\chi_*/R$, where $\chi_* \approx 14.0$ Gpc is the comoving distance to last scattering (fixed by the acoustic peaks independently of $\Lambda$). The last empty shell ($N = 10$) maps to $\ell \approx 29$; the first surviving shell ($N = 12$) to $\ell \approx 34$. The transition matches the observed low-<i>ℓ</i> CMB power deficit documented across COBE, WMAP, and Planck.
 
 ### D. Determining R
 

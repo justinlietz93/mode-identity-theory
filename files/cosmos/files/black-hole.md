@@ -8,7 +8,7 @@
 
 Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mode Identity Theory.*
 
-**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature functional form ($1/M$ and coefficient) derived, thermal character inherited (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the $1/4$ factor remains open (§III). The domain is topologically closed (§VI).
+**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature functional form ($1/M$ and coefficient) derived, thermal character inherited (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the 1/4 factor remains open (§III). The domain is topologically closed (§VI).
 
 ---
 
@@ -16,14 +16,14 @@ Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mod
 
 A Black Hole is a region where enough wave content on the Möbius surface is enclosed to push two quantities to their boundary values simultaneously. The phase position $\Theta$ reaches the boundary of the domain, driving the sampling amplitude $C(\Theta) = 2\sin^2(\pi\Theta)$ to zero: the spatial mode reaches its node and observation ceases. The local scale hierarchy $\Omega_H$ collapses to zero: the phase-gradient length shrinks to nothing and no scale separation remains. $\Theta$ hitting the wall is the geometric event. $C$ vanishing is what the observer experiences. $\Omega_H$ collapsing is the independent partner. Both limits arrive at the same place.
 
-General Relativity sits at the $3/2$ Gauss equation interface, between the temporal edge ($n = 1$) and the Möbius surface ($n = 2$). The ratio $3/2$ is face over edge: $Z_3/Z_2$, the stabilizer orders of the icosahedron. At the horizon, GR is squeezed from both sides: the surface mode it reads has vanished ($\Theta$ at its boundary, so $C = 0$), and the edge hierarchy it converts through has collapsed ($\Omega_H = 0$). The singularity is a double zero. The wave persists through the node. Information is unsampled, not destroyed.
+General Relativity sits at the 3/2 Gauss equation interface, between the temporal edge ($n = 1$) and the Möbius surface ($n = 2$). The ratio 3/2 is face over edge: $Z_3/Z_2$, the stabilizer orders of the icosahedron. At the horizon, GR is squeezed from both sides: the surface mode it reads has vanished ($\Theta$ at its boundary, so $C = 0$), and the edge hierarchy it converts through has collapsed ($\Omega_H = 0$). The singularity is a double zero. The wave persists through the node. Information is unsampled, not destroyed.
 
 | GR says | MIT says |
 |---|---|
 | Singularity: infinite density | $\Theta \to 0$ (geometric event) and $\Omega_H \to 0$ (scale collapse) simultaneously. $C(\Theta) \to 0$ follows from the first. Double zero in the scaling law. |
 | Event horizon: point of no return | Radius where enclosed $n = 2$ content closes the sampling channel |
 | Information destroyed | Information unsampled. Wave persists through the node. |
-| Entropy scales with area | Surface ($n = 2$) is fundamental. Area scaling is motivated; the factor $1/4$ is open. |
+| Entropy scales with area | Surface ($n = 2$) is fundamental. Area scaling is motivated; the factor 1/4 is open. |
 
 ---
 
@@ -98,7 +98,7 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 
 The physical event is one double zero with two witnesses (scaling and eigenfunction). The spectral analog is a parallel double zero in its own domain.
 
-**What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; the spectral-to-physical bridge (§VIII.5) remains open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by Lemma 8 (The Mirror), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-$\mathrm{SU}(2)$ homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. The physical $\Phi \to \Theta$ mapping avoids the spectral obstruction: the gravitational potential provides the discrete localization that spectral geometry lacks, because mass at a specific location breaks the right-$\mathrm{SU}(2)$ isometry.
+**What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; the spectral-to-physical bridge (§VIII.5) remains open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by Lemma 8 (The Mirror), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-<i>SU(2)</i> homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. The physical $\Phi \to \Theta$ mapping avoids the spectral obstruction: the gravitational potential provides the discrete localization that spectral geometry lacks, because mass at a specific location breaks the right-<i>SU(2)</i> isometry.
 
 ---
 
@@ -112,13 +112,13 @@ Bekenstein-Hawking entropy $S \propto A$ is motivated by surface primacy. The sp
 | 2 | $S^3$ volume ($n = 3$) has no independent gauge degrees of freedom | DERIVED (engine §13) |
 | 3 | Degrees of freedom of a bounded region are counted by the surface, not the volume | MOTIVATED by 1 + 2 |
 | 4 | $S \propto A$ (area, not volume) | MOTIVATED |
-| 5 | $S = A/(4\ell_P^2)$ with the factor $1/4$ | OPEN |
+| 5 | $S = A/(4\ell_P^2)$ with the factor 1/4 | OPEN |
 
 In standard physics, area scaling is a deep question: why area rather than volume? In MIT, volume ($n = 3$) carries no independent gauge content. Entropy lives on the surface because the surface carries the boundary condition. The horizon area is the natural count of $n = 2$ degrees of freedom at the sampling boundary.
 
-What remains open is the coefficient. The shell sum across the 34 discrete grid positions diverges (outer shells have arbitrarily large area) and does not reproduce $S_{BH}$. Only the horizon surface itself has the correct area scaling. The factor $1/4$ is not produced by the Gauss equation ratio ($3/2$), by the structural coefficient $\sin(\pi\Theta_0)$, or by any evident combination of current framework quantities. A microstate counting rule, a spectral degeneracy law, or a topological partition function on the horizon would be needed.
+What remains open is the coefficient. The shell sum across the 34 discrete grid positions diverges (outer shells have arbitrarily large area) and does not reproduce $S_{BH}$. Only the horizon surface itself has the correct area scaling. The factor 1/4 is not produced by the Gauss equation ratio (3/2), by the structural coefficient $\sin(\pi\Theta_0)$, or by any evident combination of current framework quantities. A microstate counting rule, a spectral degeneracy law, or a topological partition function on the horizon would be needed.
 
-**The 1/4 flag.** The structural ratio $\Delta S_\text{phase}/\Delta S_\min = 1/4$ (one spatial grid step carries $1/4$ of one temporal chronon action) matches the Bekenstein-Hawking factor numerically. These are different objects at different levels: the spatial/temporal ratio is topology-native (no $G$, no $M$); the entropy factor involves $G$ through $\ell_P$. Whether they connect through a derivation or coincide by accident is OPEN. Flagged, not forced.
+**The 1/4 flag.** The structural ratio $\Delta S_\text{phase}/\Delta S_\min = 1/4$ (one spatial grid step carries 1/4 of one temporal chronon action) matches the Bekenstein-Hawking factor numerically. These are different objects at different levels: the spatial/temporal ratio is topology-native (no $G$, no $M$); the entropy factor involves $G$ through $\ell_P$. Whether they connect through a derivation or coincide by accident is OPEN. Flagged, not forced.
 
 ---
 
@@ -261,14 +261,14 @@ The power $\beta = 1$ is uniquely forced by the requirement that the eigenfuncti
 
 | Property | Result |
 |----------|--------|
-| Galactic consistency | Smooth shift at $r/r_s = 10^6$ is $2 \times 10^{-7}$, far below one bosonic step ($2/120$) |
+| Galactic consistency | Smooth shift at $r/r_s = 10^6$ is $2 \times 10^{-7}$, far below one bosonic step (2/120) |
 | Near-horizon slope | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$, finite and nonzero, proportional to surface gravity |
 | Uniqueness of $\beta = 1$ | Only value giving finite nonzero slope; all other $\beta$ fail |
 | Self-consistency | $C(\Theta)/C(\Theta_0) \div (1 - r_s/r) = 1$ exactly at all radii |
 
 **What remains open:** Global corrections (functions $f(x)$ with $f(x) \sim x$ near $x = 0$ but $f(x) \neq x$ globally) would affect intermediate regimes while leaving the horizon and galactic results intact. The Kerr generalization ($C/C_0 = g_{tt}$ for rotating black holes) is natural but untested.
 
-Lemma 8 (The Mirror) proved that the direct map $s \leftrightarrow \Theta$ does not exist on the spectral side. The physical $\Phi \to \Theta$ mapping avoids this obstruction: a gravitational potential breaks the right-$\mathrm{SU}(2)$ homogeneity that forces continuous position out of spectral data (mass at a specific location breaks the isometry).
+Lemma 8 (The Mirror) proved that the direct map $s \leftrightarrow \Theta$ does not exist on the spectral side. The physical $\Phi \to \Theta$ mapping avoids this obstruction: a gravitational potential breaks the right-<i>SU(2)</i> homogeneity that forces continuous position out of spectral data (mass at a specific location breaks the isometry).
 
 ### VIII.2 Minimum Black Hole Mass (Priority 2)
 
@@ -328,13 +328,13 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 | $C'(0) = C'(1)$ | 0 | Quadratic vanishing |
 | $C''(0)$ | $4\pi^2$ | Leading nonvanishing order |
 | $C(60/120)$ | 2.00 | Antinode ($\Lambda$) |
-| $\Phi/c^2$ at Schwarzschild horizon | $-1/2$ | GR (exact) |
+| $\Phi/c^2$ at Schwarzschild horizon | -1/2 | GR (exact) |
 | $\Phi \to \Theta$ mapping | $C/C_0 = 1 - r_s/r$, $\beta = 1$ forced | DERIVED (leading order) |
 | Bosonic domain | $[0, 60/120]$ | $\lvert I \rvert = 60$ from squaring |
 | Bosonic step | $2/120 = 1/60$ | Minimum observable shift |
 | Full domain | $[0, 120/120]$ | $\lvert 2I \rvert = 120$ |
-| Fermionic step | $1/120$ | Full lattice resolution |
-| Bekenstein-Hawking entropy | $S = A/(4\ell_P^2)$ | Observed; MIT: motivated by surface primacy ($n = 2$); $1/4$ factor OPEN |
+| Fermionic step | 1/120 | Full lattice resolution |
+| Bekenstein-Hawking entropy | $S = A/(4\ell_P^2)$ | Observed; MIT: motivated by surface primacy ($n = 2$); 1/4 factor OPEN |
 | Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$; $1/M$ and coefficient DERIVED; thermal character INHERITED |
 | Minimum mass | $\approx 7.4\,m_P$ (full grid) | Interface-level ($\ell_P$); topology gives no threshold ($\Delta S_\text{phase}/\Delta S_\min = 1/4$) |
 | $Z_\sigma(0)$ | 0 | Spectral determinant at boundary (nontrivial $\sigma$) |

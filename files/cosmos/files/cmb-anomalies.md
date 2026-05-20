@@ -59,7 +59,7 @@ The phase-clock distance-redshift relation contains no $(1+z)^2$ curvature term:
 
 The covering $S^2 \subset S^3$ is totally geodesic ($K_{ij} = 0$). The quotient $S^3/2I$ is an orientable 3-manifold; the binary icosahedral group preserves orientation under left multiplication. The non-orientable structure resides on the embedded 2-dimensional surface, not on the spatial manifold itself. The Möbius band is constructed from a spherical band on this $S^2$ by the boundary-edge identification $(0, w) \sim (\pi R, -w)$. The band is a surface within $S^3/2I$; the construction does not re-quotient the spatial domain. The induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, carrying constant Gaussian curvature $K = 1/R^2$. Fields coupled to the surface's orientation structure (sections of the orientation line bundle) satisfy anti-periodic boundary conditions: traversing the strip once flips the sign; two traversals return to the start.
 
-The surface is not incidental to the 3D spectrum. The ground eigenfunction on the Möbius band (eigenvalue $\lambda_0 = 2/R^2$) sets the spectral floor for the entire domain: it is the lowest nontrivial mode of the twisted Laplacian, and its eigenvalue determines $\Lambda$. Fields on $S^3/2I$ decompose into representations of $2I$; representations whose restriction to the normal bundle of the totally geodesic surface is nontrivial inherit the anti-periodic boundary conditions. The even-$\ell$ suppression ($R_{TT} < 1$) follows because anti-periodic modes have a higher eigenvalue floor than periodic modes, systematically reducing even-$\ell$ power in the Gegenbauer projection onto the observer's sky.
+The surface is not incidental to the 3D spectrum. The ground eigenfunction on the Möbius band (eigenvalue $\lambda_0 = 2/R^2$) sets the spectral floor for the entire domain: it is the lowest nontrivial mode of the twisted Laplacian, and its eigenvalue determines $\Lambda$. Fields on $S^3/2I$ decompose into representations of $2I$; representations whose restriction to the normal bundle of the totally geodesic surface is nontrivial inherit the anti-periodic boundary conditions. The even-<i>ℓ</i> suppression ($R_{TT} < 1$) follows because anti-periodic modes have a higher eigenvalue floor than periodic modes, systematically reducing even-<i>ℓ</i> power in the Gegenbauer projection onto the observer's sky.
 
 ### C. The Molien Spectrum
 
@@ -104,9 +104,9 @@ Observed: power deficit below $\ell \lesssim 30$.
 
 The quadrupole ($\ell = 2$) is suppressed by two mechanisms acting together.
 
-The Molien gap removes shells $N = 2$ through $10$ that would primarily feed power into $\ell = 2$. The first surviving shell ($N = 12$) contributes to $\ell = 2$ only through the tail of its radial profile.
+The Molien gap removes shells $N = 2$ through 10 that would primarily feed power into $\ell = 2$. The first surviving shell ($N = 12$) contributes to $\ell = 2$ only through the tail of its radial profile.
 
-The observer position amplifies the suppression. At $\chi = 0.40$ rad, the radial profile $\Pi_{12,\ell}(\chi) \propto \sin^\ell(\chi)$ peaks at $\ell = 3$ to $4$, further suppressing the $\ell = 2$ component relative to $\ell = 3$.
+The observer position amplifies the suppression. At $\chi = 0.40$ rad, the radial profile $\Pi_{12,\ell}(\chi) \propto \sin^\ell(\chi)$ peaks at $\ell = 3$ to 4, further suppressing the $\ell = 2$ component relative to $\ell = 3$.
 
 At $d = 2.1$ Gpc, the mode sum gives $C_2/C_3 \approx 0.13$ in $\ell(\ell+1)$ normalization.
 
@@ -169,7 +169,7 @@ More fundamentally, the Möbius identification constrains the eigenmode spectrum
 
 A single geometric structure accounts for four persistent CMB features. The topology determines which modes exist. The observer's position determines how those modes project onto the sky.
 
-**Mode density deficit.** The Molien series for the binary icosahedral group empties five even-degree shells ($N = 2$ through $10$) after the constant mode. The gap boundary at $N = 10$ maps to $\ell \approx 29$ on the CMB sky. One group, one graph, two applications: the same McKay filtering that produces the Yang-Mills spectral gap (adjoint representation) produces the CMB mode deficit here (trivial representation).
+**Mode density deficit.** The Molien series for the binary icosahedral group empties five even-degree shells ($N = 2$ through 10) after the constant mode. The gap boundary at $N = 10$ maps to $\ell \approx 29$ on the CMB sky. One group, one graph, two applications: the same McKay filtering that produces the Yang-Mills spectral gap (adjoint representation) produces the CMB mode deficit here (trivial representation).
 
 **Quadrupole suppression.** The Molien gap removes the shells that feed the quadrupole. The observer's radial position further suppresses $\ell = 2$ relative to $\ell = 3$ through the Gegenbauer profile. The two mechanisms are independent and additive.
 
