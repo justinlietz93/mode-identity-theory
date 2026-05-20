@@ -2,7 +2,7 @@
 
 ---
 
-# Euclid DR1 Scorecard: A Pre-Registered Contender Showdown
+# :telescope: Euclid DR1: A Pre-Registered Contender Showdown
 
 The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. A separate post-DR1 column will be added in a later commit when the data arrive.
 
