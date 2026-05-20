@@ -17,7 +17,7 @@ The point is not to claim victory in advance. It is to make every contender's po
 | Freeze date | 2026-05-20 |
 | Reference | Tagged GitHub release of this commit, archived to Zenodo |
 | Expected Euclid DR1 release | October 2026 |
-| Data products in scope | Cosmology release: spectroscopic BAO ($z = 0.9$–$1.8$), photometric weak lensing, high-<i>z</i> stellar mass function. Quick-look products are not bound by this card. |
+| Data products in scope | Cosmology release: spectroscopic BAO (<i>z</i> = 0.9–1.8), photometric weak lensing, high-<i>z</i> stellar mass function. Quick-look products are not bound by this card. |
 
 **Ground rules.**
 
@@ -42,7 +42,7 @@ The point is not to claim victory in advance. It is to make every contender's po
 
 ## I. $\Lambda$ Epoch-Independence
 
-This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to the cosmic-expansion data; it is the ground eigenvalue of the Möbius surface embedded in $S^3$, $\lambda_0 = 2/R^2$, with $\Lambda_\text{obs} = 3/R^2$ after the Gauss equation conversion. The value test was passed by Planck ($\Lambda_\text{obs} \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$, predicted $2.9 \times 10^{-122}$). What Euclid DR1 adjudicates is whether $\Lambda$ stays constant across cosmic time, or whether the dark-energy density evolves.
+This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to the cosmic-expansion data; it is the ground eigenvalue of the Möbius surface embedded in $S^3$, $\lambda_0 = 2/R^2$, with $\Lambda_\text{obs} = 3/R^2$ after the Gauss equation conversion. The value test was passed by Planck ($\Lambda_\text{obs} \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$, predicted 2.9 × 10<sup>−122</sup>). What Euclid DR1 adjudicates is whether $\Lambda$ stays constant across cosmic time, or whether the dark-energy density evolves.
 
 | Framework | Prediction | Source |
 |---|---|---|
@@ -78,17 +78,17 @@ Euclid DR1 photometric weak lensing combined with high-<i>z</i> kinematic sample
 
 ## III. $w_\text{eff}(z)$ Trajectory and Apparent $z_\text{cross}$
 
-Euclid DR1 will deliver spectroscopic BAO in four redshift bins between $z = 0.9$ and $1.8$, combined with photometric weak lensing. The headline cosmology result will be reported in the w<sub>0</sub>w<sub>a</sub>CDM (CPL) parameterization. This row carries two linked claims: that the underlying $w(z)$ never crosses $w = -1$, and that any apparent crossing in CPL fits is a template-projection artifact concentrated near $z \approx 0.663$.
+Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i> = 0.9 and 1.8, combined with photometric weak lensing. The headline cosmology result will be reported in the w<sub>0</sub>w<sub>a</sub>CDM (CPL) parameterization. This row carries two linked claims: that the underlying $w(z)$ never crosses $w = -1$, and that any apparent crossing in CPL fits is a template-projection artifact concentrated near $z \approx 0.663$.
 
 | Framework | Prediction | Source |
 |---|---|---|
 | **MIT** | $w_\text{eff}(z) > -1$ at all $z$ in the fiducial-matter split; no real crossing | [dark-energy.md](dark-energy.md) §III (proof) |
 | **ΛCDM** | $w(z) = -1$ exactly, no crossing possible | Standard Friedmann cosmology |
-| **w<sub>0</sub>w<sub>a</sub>CDM** | Parameterization permits crossing; DESI DR2 best fit ($w_0 \approx -0.75$, $w_a \approx -0.86$) implies a crossing near $z \approx 0.4$–$0.5$ | DESI DR2 BAO+SN combined fit |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | Parameterization permits crossing; DESI DR2 best fit ($w_0 \approx -0.75$, $w_a \approx -0.86$) implies a crossing near <i>z</i> ≈ 0.4–0.5 | DESI DR2 BAO+SN combined fit |
 | **EDE** | $w(z) \approx -1$ at Euclid DR1 redshifts; the EDE component is active near $z \sim 3000$ | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology; AeST does not constrain $w(z)$ at this precision |
 
-**If a crossing is detected.** MIT's sub-claim is that any CPL crossing is a template-projection artifact of a non-phantom truth, located near $z \approx 0.663$. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near $z \approx 0.4$–$0.5$. EDE and MOND give no late-time crossing.
+**If a crossing is detected.** MIT's sub-claim is that any CPL crossing is a template-projection artifact of a non-phantom truth, located near $z \approx 0.663$. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.
 
 *Falsification of MIT.* Fiducial split of the DR1 best-fit $H(z)$ gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ for any $z$ in the DR1 range; or a CPL crossing is detected at $z_\text{cross}$ outside $[0.50, 0.85]$ at $\geq 2\sigma$.
 
