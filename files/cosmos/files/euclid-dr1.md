@@ -153,7 +153,7 @@ The ΛCDM column is the null hypothesis. It carries definite predictions on ever
 
 The compact view. Theories down the rows, the five observables across the columns, with a final column for the per-theory Euclid result once DR1 lands.
 
-| Theory | I. Λ const | II. a₀(z) | III. w(z) | IV. SMF z ≳ 10 | V. (1+z)¹ in H² | Euclid result |
+|  | Λ const | a₀(z) | w(z) | SMF z ≳ 10 | (1+z)¹ in H² | Euclid result |
 |---|---|---|---|---|---|---|
 | **MIT** | $\Lambda = 3/R^2$, const | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | $w > -1$; $z_\text{cross} \approx 0.663$ | JWST-class persists | negative, \|β\| < 0.012 | — |
 | **ΛCDM** | $\Lambda$ const | no $a_0$ | $w = -1$ exact | within forecasts | zero | — |
