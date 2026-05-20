@@ -51,9 +51,9 @@ The hierarchy terminates at S³ because ∂S³ = ∅. S³ is the unique simply-c
 
 The topology is a shape, not a size. The postulate fixes the nested structure ($S^1$, Möbius, $S^3/2I$) but leaves the curvature radius $R$ of $S^3$ as a free geometric parameter. $R$ is a fixed property of the manifold, not a time-dependent scale. Space does not expand; the observed redshift arises from the phase evolution of the cosmic standing wave on $S^1 = \partial(\text{Möbius})$.
 
-The Molien gap (§II.C) constrains which harmonic modes exist on the spatial domain. Each surviving shell maps to a characteristic multipole on the CMB sky through $\ell_{\mathrm{char}}(N) = \sqrt{N(N+2)}\,\chi_*/R$, where $\chi_* \approx 14.0$ Gpc is the comoving distance to last scattering. The observed deficit boundary near $\ell \sim 30$ requires $R$ in a specific range. The parity magnitude and quadrupole ratio then fix the observer distance $d$ at that $R$. Section III derives these constraints; the resulting value is $R \approx 5.2\text{--}5.4$ Gpc. Section V shows that this CMB-constrained $R$ independently recovers the observed cosmological constant through $\Lambda = 3/R^2$ to within 2%.
+The Molien gap (§II.C) constrains which harmonic modes exist on the spatial domain. Each surviving shell maps to a characteristic multipole on the CMB sky through $\ell_{\mathrm{char}}(N) = \sqrt{N(N+2)}\,\chi_{*}/R$, where $\chi_{*} \approx 14.0$ Gpc is the comoving distance to last scattering. The observed deficit boundary near $\ell \sim 30$ requires $R$ in a specific range. The parity magnitude and quadrupole ratio then fix the observer distance $d$ at that $R$. Section III derives these constraints; the resulting value is $R \approx 5.2\text{--}5.4$ Gpc. Section V shows that this CMB-constrained $R$ independently recovers the observed cosmological constant through $\Lambda = 3/R^2$ to within 2%.
 
-The phase-clock distance-redshift relation contains no $(1+z)^2$ curvature term: $H^2/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$, where $\alpha$ and $\beta$ are controlled by a single parameter $s_0$ constrained to $s_0 < 0.19$ by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM. The absence of $(1+z)^2$ is not an inconsistency; the spatial curvature is a static boundary condition producing the mode spectrum, not a dynamical term competing with $\Lambda$. The apparent spatial curvature $\Omega_K$ inferred from standard FLRW fits is forced to zero because the true distance-redshift relation contains no $(1+z)^2$ term. The comoving distance to last scattering is $\chi_* \approx 14.0$ Gpc (dominated by the matter era, where the phase-clock and ΛCDM integrands differ by less than 0.3%; the $(1+z)^1$ correction contributes ~0.02 out of ~400 at recombination).
+The phase-clock distance-redshift relation contains no $(1+z)^2$ curvature term: $H^2/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$, where $\alpha$ and $\beta$ are controlled by a single parameter $s_0$ constrained to $s_0 < 0.19$ by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM. The absence of $(1+z)^2$ is not an inconsistency; the spatial curvature is a static boundary condition producing the mode spectrum, not a dynamical term competing with $\Lambda$. The apparent spatial curvature $\Omega_K$ inferred from standard FLRW fits is forced to zero because the true distance-redshift relation contains no $(1+z)^2$ term. The comoving distance to last scattering is $\chi_{*} \approx 14.0$ Gpc (dominated by the matter era, where the phase-clock and ΛCDM integrands differ by less than 0.3%; the $(1+z)^1$ correction contributes ~0.02 out of ~400 at recombination).
 
 ### B. The Möbius Surface
 
@@ -84,7 +84,7 @@ where $\chi = d/R$ is the observer's angular position in $S^3$.
 | $R$ | 5.2--5.4 Gpc | Constrained by CMB observables (§III); recovers $\Lambda$ via $3/R^2$ (§V) |
 | $d$ | 2.1 Gpc | Determined by four CMB observables |
 | $\chi$ | 0.40 rad | $d/R$; about 25% from pole to equator of $S^3$ |
-| $\chi_*$ | 14.0 Gpc | Comoving distance to last scattering |
+| $\chi_{*}$ | 14.0 Gpc | Comoving distance to last scattering |
 
 ---
 
@@ -94,9 +94,9 @@ where $\chi = d/R$ is the observer's angular position in $S^3$.
 
 The Molien gap produces a mode density deficit at large angular scales. Each shell $N$ on $S^3$ maps to a characteristic multipole on the CMB sky:
 
-$$\ell_{\mathrm{char}}(N) = \frac{\sqrt{N(N+2)}}{R}\,\chi_*$$
+$$\ell_{\mathrm{char}}(N) = \frac{\sqrt{N(N+2)}}{R}\,\chi_{*}$$
 
-The last empty shell ($N = 10$) has $\ell_{\mathrm{char}} \approx 29$. The first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. These values follow from $R \approx 5.3$ Gpc, which is itself constrained by the observed deficit: inverting the formula, the deficit boundary at $\ell \sim 30$ requires $R = \sqrt{N(N+2)}\,\chi_*/\ell_{\mathrm{char}} \approx 5.1\text{--}5.5$ Gpc. Below $\ell \sim 30$, the scalar mode spectrum is sparse: only the constant mode ($N = 0$) exists. Above $\ell \sim 34$, modes begin to populate. This is a transition, not a wall, consistent with the observed gradual deficit.
+The last empty shell ($N = 10$) has $\ell_{\mathrm{char}} \approx 29$. The first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. These values follow from $R \approx 5.3$ Gpc, which is itself constrained by the observed deficit: inverting the formula, the deficit boundary at $\ell \sim 30$ requires $R = \sqrt{N(N+2)}\,\chi_{*}/\ell_{\mathrm{char}} \approx 5.1\text{--}5.5$ Gpc. Below $\ell \sim 30$, the scalar mode spectrum is sparse: only the constant mode ($N = 0$) exists. Above $\ell \sim 34$, modes begin to populate. This is a transition, not a wall, consistent with the observed gradual deficit.
 
 Observed: power deficit below $\ell \lesssim 30$.
 
@@ -126,7 +126,7 @@ The Möbius twist axis defines a preferred direction in $S^3$. The embedding of 
 
 The observed 10° misalignment is parallax. The observer's displacement $d$ from the domain center shifts the apparent axis on the last-scattering sphere:
 
-$$\Delta\theta_{23} \approx \frac{d}{\chi_*} = \frac{2.1}{14.0} = 0.150 \;\text{rad} = 8.6°$$
+$$\Delta\theta_{23} \approx \frac{d}{\chi_{*}} = \frac{2.1}{14.0} = 0.150 \;\text{rad} = 8.6°$$
 
 Observed: $\Delta\theta_{23} \approx 10°$. Agreement: 14%.
 
@@ -175,7 +175,7 @@ A single geometric structure accounts for four persistent CMB features. The topo
 
 **Parity.** The non-orientable identification drives $R_{TT} < 1$ systematically. The method of images gives the leading-order formula; the effective attenuation $\eta_{\mathrm{eff}} \approx 0.150$ emerges from the mode sum at $d = 2.1$ Gpc.
 
-**Alignment.** The Möbius twist axis defines the preferred direction. The embedding of $2I$ in SU(2) aligns this axis with an icosahedral symmetry axis, so the $2I$-invariant modes inherit axial symmetry about it. The observed misalignment is parallax: $d/\chi_* = 8.6°$.
+**Alignment.** The Möbius twist axis defines the preferred direction. The embedding of $2I$ in SU(2) aligns this axis with an icosahedral symmetry axis, so the $2I$-invariant modes inherit axial symmetry about it. The observed misalignment is parallax: $d/\chi_{*} = 8.6°$.
 
 **One position, five observables.** The observer sits at geodesic distance $d = 2.1$ Gpc from the domain center, corresponding to $\chi = 0.40$ rad in $S^3$. This single parameter controls the parity magnitude, the alignment angle, the quadrupole suppression, and (through the Molien gap) the low-ℓ transition scale. The CMB-constrained $R$ then recovers $\Lambda$ through the eigenvalue chain (below). Five independent measurements constrain one geometry. The over-determination is the test.
 

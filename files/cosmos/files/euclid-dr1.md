@@ -98,7 +98,7 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 
 ## IV. Stellar Mass Function at $z \gtrsim 10$
 
-Euclid's wide-area photometric survey will dramatically extend the JWST-discovered population of high-redshift massive galaxies, replacing small-area surprise with cosmologically significant statistics. The question this row asks is whether the abundance of $M_* \sim 10^{10}\ M_\odot$ galaxies at $z \gtrsim 10$ is what standard structure formation expects or what JWST already suggests it is not.
+Euclid's wide-area photometric survey will dramatically extend the JWST-discovered population of high-redshift massive galaxies, replacing small-area surprise with cosmologically significant statistics. The question this row asks is whether the abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z \gtrsim 10$ is what standard structure formation expects or what JWST already suggests it is not.
 
 | Framework | Prediction | Source |
 |---|---|---|
@@ -108,7 +108,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 | **EDE** | Marginal enhancement of early structure from shifted matter-radiation equality, insufficient to reach JWST levels | Klypin, Murray, Macciò calculations |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
 
-*Falsification of MIT.* Euclid wide-area abundance of $M_* \sim 10^{10}\ M_\odot$ galaxies at $z \gtrsim 10$ falls within standard ΛCDM forecasts at $\geq 2\sigma$, indicating the JWST tension was a selection or systematics artifact.
+*Falsification of MIT.* Euclid wide-area abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z \gtrsim 10$ falls within standard ΛCDM forecasts at $\geq 2\sigma$, indicating the JWST tension was a selection or systematics artifact.
 
 *DR1 outcome:* *(to be recorded after October 2026)*
 
