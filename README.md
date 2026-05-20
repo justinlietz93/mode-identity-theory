@@ -164,15 +164,17 @@ Blind outputs of a fixed structure, checked against observation:
 
 ## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
 
-Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no dark matter particle will ever be found. All values deposited on Zenodo before data release.
+Five predictions are locked before October 2026: Λ stays constant, a₀(z) tracks H(z), w(z) never crosses −1 with z_cross ≈ 0.663 as a CPL-template artifact if seen, JWST-class galaxies persist at z > 10, and H²(z) carries a distinctive negative (1+z)¹ term. All values deposited on Zenodo before data release.
 
-**:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/files/tools/euclid-dr1.html)**
+**:telescope: [Judgment Day: October 21, 2026 — Full Scorecard](/files/cosmos/files/euclid-dr1.md)**
 
 | Prediction | MIT value | Falsified if | Euclid DR1 channel |
 |---|---|---|---|
-| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>/cH = 0.184 | a<sub>0</sub> consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
-| Λ eigenvalue constant | $\Lambda_\text{top} = 2/R_Λ²$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ | SNe + BAO + lensing in redshift bins |
-| Null DM detection | Permanent null | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
+| Λ epoch-independence | $\Lambda_\text{top} = 2/R^2$ | $\Omega_\text{DE}(z)$ varies at ≥2σ across DR1 bins, or $w_a \neq 0$ at ≥2σ in CPL fit | Spec BAO + photometric weak lensing (3×2pt) |
+| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>(z=1.5) ≈ 2.4× local | DR1 SMHM shows no enhancement AND external z ≈ 1–1.5 kinematics finds a<sub>0</sub> constant at ≥2σ | Galaxy-galaxy lensing SMHM + external kinematic follow-up |
+| w(z) trajectory | w > −1 at all z; z_cross ≈ 0.663 if CPL crossing seen | w_eff(z) < −1 at ≥2σ, or z_cross outside [0.50, 0.85] at ≥2σ | Spec BAO (z = 0.9–1.8) + CPL posterior |
+| SMF at z ≳ 10 | JWST-class abundance persists | Falls within Boylan-Kolchin (2023) ΛCDM SMF at ≥2σ | Wide-area high-z photometric catalog |
+| (1+z)¹ in H²(z) | Negative; \|β\| < 0.012 tied to s<sub>0</sub> | Coefficient positive at ≥2σ, or inconsistent with fitted s<sub>0</sub> | Spec BAO precision (null not counted in tally) |
 
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission">
