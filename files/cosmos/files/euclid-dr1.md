@@ -155,11 +155,11 @@ The compact view. Theories down the rows, the five observables across the column
 
 |  | Λ | a₀(z) | w(z) | SMF z ≳ 10 | (1+z)¹ in H² | Euclid result |
 |---|---|---|---|---|---|---|
-| **MIT** | $\Lambda = 3/R^2$, fixed by topology | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | $w > -1$; $z_\text{cross} \approx 0.663$ | JWST-class persists | negative, \|β\| < 0.012 | — |
-| **ΛCDM** | fixed by construction | no $a_0$ | $w = -1$ exact | within forecasts | zero | — |
-| **w<sub>0</sub>w<sub>a</sub>CDM** | $\Omega_\text{DE}(z)$ varies | no $a_0$ | crossing near $z$ ≈ 0.4–0.5 | within forecasts | ≈ zero | — |
-| **EDE** | fixed at low $z$, EDE component at $z \sim 3000$ | no $a_0$ | $w \approx -1$ at DR1 $z$ | marginal help | ≈ zero | — |
-| **MOND** | — | $a_0$ fixed ≈ 1.2 × 10<sup>−10</sup> m/s² | — | qualitative help | — | — |
+| **MIT** | $\Lambda = 3/R^2$, fixed by topology | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | $w > -1$; $z_\text{cross} \approx 0.663$ | abundance matches JWST under $a_0(z{=}10) \approx 20.5\times$ | negative; \|β\| < 0.012 tied to $s_0$ | — |
+| **ΛCDM** | fixed by construction | no $a_0$ | $w = -1$ exact | predicted SMF below JWST (tension) | term absent from Friedmann | — |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | $\Omega_\text{DE}(z)$ varies | no $a_0$ | crossing near $z$ ≈ 0.4–0.5 | same tension as ΛCDM | term absent in CPL expansion | — |
+| **EDE** | fixed at low $z$, EDE component at $z \sim 3000$ | no $a_0$ | $w \approx -1$ at DR1 $z$ | small uplift, still below JWST | term absent at DR1 $z$ | — |
+| **MOND** | — | $a_0$ fixed ≈ 1.2 × 10<sup>−10</sup> m/s² | — | enhanced gravity qualitatively helps; no quantitative SMF | — | — |
 
 **Glyph legend.** ✓ prediction satisfied. ✗ falsified. ~ ambiguous (within DR1 noise). — no prediction.
 
