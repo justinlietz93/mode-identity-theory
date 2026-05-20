@@ -4,7 +4,7 @@
 
 # Euclid DR1 Scorecard: A Pre-Registered Contender Showdown
 
-The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, $w_0 w_a$CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. A separate post-DR1 column will be added in a later commit when the data arrive.
+The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. A separate post-DR1 column will be added in a later commit when the data arrive.
 
 The point is not to claim victory in advance. It is to make every contender's position on every observable visible *now*, so the reading of DR1 cannot be retrofit.
 
@@ -48,7 +48,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 |---|---|---|
 | **MIT** | $\Lambda_\text{obs}$ is a topological eigenvalue; $\Omega_\text{DE}(z)$ is flat at every DR1 redshift bin | [cosmological-constant.md](cosmological-constant.md), [framework/ground-eigenvalue.md](../../framework/ground-eigenvalue.md) |
 | **ΛCDM** | $\Lambda$ constant by construction | Standard Friedmann cosmology |
-| **$w_0 w_a$CDM** | DESI DR2 best fit prefers $w_a \approx -0.86$, implying time-varying dark energy density; $\Omega_\text{DE}(z)$ not flat | DESI DR2 BAO+SN combined fit |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | DESI DR2 best fit prefers $w_a \approx -0.86$, implying time-varying dark energy density; $\Omega_\text{DE}(z)$ not flat | DESI DR2 BAO+SN combined fit |
 | **EDE** | Early dark energy component active near $z \sim 3000$; at low $z$, $\Omega_\text{DE}(z)$ approximately flat | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology |
 
@@ -66,9 +66,9 @@ Euclid DR1 photometric weak lensing combined with high-$z$ kinematic samples wil
 |---|---|---|
 | **MIT** | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}2) \approx 3\times$ local, $a_0(z{=}10) \approx 20.5\times$ | [early-galaxies.md](early-galaxies.md) |
 | **ΛCDM** | No acceleration scale; rotation curves explained by dark matter halos of mass-dependent profile | Navarro-Frenk-White, standard structure formation |
-| **$w_0 w_a$CDM** | No acceleration scale | Same as ΛCDM |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | No acceleration scale | Same as ΛCDM |
 | **EDE** | No acceleration scale | Same as ΛCDM |
-| **MOND / RelMOND** | $a_0 = $ const $\approx 1.2 \times 10^{-10}$ m/s² at all $z$ | Milgrom (1983); AeST in cosmological regime |
+| **MOND / RelMOND** | a<sub>0</sub> = const ≈ 1.2 × 10<sup>−10</sup> m/s² at all <i>z</i> | Milgrom (1983); AeST in cosmological regime |
 
 *Falsification of MIT.* DR1 measurement of $a_0$ at $z = 2$ consistent with the local value at $\geq 2\sigma$ falsifies the MIT scaling and is simultaneous vindication of MOND on this row.
 
@@ -78,17 +78,17 @@ Euclid DR1 photometric weak lensing combined with high-$z$ kinematic samples wil
 
 ## III. $w_\text{eff}(z)$ Trajectory and Apparent $z_\text{cross}$
 
-Euclid DR1 will deliver spectroscopic BAO in four redshift bins between $z = 0.9$ and $1.8$, combined with photometric weak lensing. The headline cosmology result will be reported in the $w_0 w_a$CDM (CPL) parameterization. This row carries two linked claims: that the underlying $w(z)$ never crosses $w = -1$, and that any apparent crossing in CPL fits is a template-projection artifact concentrated near $z \approx 0.663$.
+Euclid DR1 will deliver spectroscopic BAO in four redshift bins between $z = 0.9$ and $1.8$, combined with photometric weak lensing. The headline cosmology result will be reported in the w<sub>0</sub>w<sub>a</sub>CDM (CPL) parameterization. This row carries two linked claims: that the underlying $w(z)$ never crosses $w = -1$, and that any apparent crossing in CPL fits is a template-projection artifact concentrated near $z \approx 0.663$.
 
 | Framework | Prediction | Source |
 |---|---|---|
 | **MIT** | $w_\text{eff}(z) > -1$ at all $z$ in the fiducial-matter split; no real crossing | [dark-energy.md](dark-energy.md) §III (proof) |
 | **ΛCDM** | $w(z) = -1$ exactly, no crossing possible | Standard Friedmann cosmology |
-| **$w_0 w_a$CDM** | Parameterization permits crossing; DESI DR2 best fit ($w_0 \approx -0.75$, $w_a \approx -0.86$) implies a crossing near $z \approx 0.4$–$0.5$ | DESI DR2 BAO+SN combined fit |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | Parameterization permits crossing; DESI DR2 best fit ($w_0 \approx -0.75$, $w_a \approx -0.86$) implies a crossing near $z \approx 0.4$–$0.5$ | DESI DR2 BAO+SN combined fit |
 | **EDE** | $w(z) \approx -1$ at Euclid DR1 redshifts; the EDE component is active near $z \sim 3000$ | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology; AeST does not constrain $w(z)$ at this precision |
 
-**If a crossing is detected.** MIT's sub-claim is that any CPL crossing is a template-projection artifact of a non-phantom truth, located near $z \approx 0.663$. ΛCDM predicts no crossing exists. $w_0 w_a$CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near $z \approx 0.4$–$0.5$. EDE and MOND give no late-time crossing.
+**If a crossing is detected.** MIT's sub-claim is that any CPL crossing is a template-projection artifact of a non-phantom truth, located near $z \approx 0.663$. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near $z \approx 0.4$–$0.5$. EDE and MOND give no late-time crossing.
 
 *Falsification of MIT.* Fiducial split of the DR1 best-fit $H(z)$ gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ for any $z$ in the DR1 range; or a CPL crossing is detected at $z_\text{cross}$ outside $[0.50, 0.85]$ at $\geq 2\sigma$.
 
@@ -104,7 +104,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 |---|---|---|
 | **MIT** | Wide-area statistics confirm JWST-class abundance; reachable under standard $\varepsilon_\text{SF} \lesssim 1$ with $a_0(z{=}10) \approx 20.5\times$ local | [early-galaxies.md](early-galaxies.md) |
 | **ΛCDM** | Stellar mass function at $z \gtrsim 10$ within standard halo-abundance forecasts; the JWST tension is anomalous and resolves with better selection / dust corrections | Standard structure formation |
-| **$w_0 w_a$CDM** | Same as ΛCDM (dark energy modifications do not change early structure growth) | Standard structure formation |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | Same as ΛCDM (dark energy modifications do not change early structure growth) | Standard structure formation |
 | **EDE** | Marginal enhancement of early structure from shifted matter-radiation equality, insufficient to reach JWST levels | Klypin, Murray, Macciò calculations |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
 
@@ -122,7 +122,7 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 |---|---|---|
 | **MIT** | Negative coefficient $-\beta$ with $\|\beta\| < 0.012$ at 95% CL from current data; magnitude tied to $s_0$ | [dark-energy.md](dark-energy.md) §II, §VI |
 | **ΛCDM** | Exactly zero (Friedmann has no $(1+z)^1$ component) | Standard Friedmann cosmology |
-| **$w_0 w_a$CDM** | Approximately zero; CPL has no isolated linear-in-$z$ coefficient in $H^2$ | Linder (2003) parameterization |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | Approximately zero; CPL has no isolated linear-in-$z$ coefficient in $H^2$ | Linder (2003) parameterization |
 | **EDE** | Approximately zero at Euclid DR1 redshifts | Poulin et al. class |
 | **MOND / RelMOND** | No prediction | Same as above |
 
