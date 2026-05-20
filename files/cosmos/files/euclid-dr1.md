@@ -124,8 +124,6 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 
 ## :musical_score: Scoreboard
 
-The compact view. Theories down the rows, the five observables across the columns. The bottom **Winner(s)** row is filled when DR1 lands.
-
 |  | Λ | a₀(z) | w(z) | SMF z ≳ 10 | (1+z)¹ in H² |
 |---|---|---|---|---|---|
 | **MIT** | $\Lambda = 3/R^2$, fixed by topology | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | $w > -1$; $z_\text{cross} \approx 0.663$ | abundance matches JWST under $a_0(z{=}10) \approx 20.5\times$ | negative; \|β\| < 0.012 tied to $s_0$ |
