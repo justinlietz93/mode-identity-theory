@@ -28,7 +28,7 @@ The point is not to claim victory in advance. It is to make every contender's po
 
 ---
 
-## :ringed_planet: Summary Matrix
+## :crystal_ball: Prediction Summary
 
 | # | Observable | Euclid DR1 channel | MIT prediction | Falsifies MIT if |
 |---|---|---|---|---|
