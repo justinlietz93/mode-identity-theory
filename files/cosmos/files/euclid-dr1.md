@@ -139,8 +139,4 @@ The **Winner(s)** row is filled post-October 2026: per observable, the theory or
 
 ---
 
-*The scorecard does not predict victory. It locks the bets and prints the date.*
-
----
-
 / **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
