@@ -24,7 +24,7 @@ The point is not to claim victory in advance. It is to make every contender's po
 1. MIT prediction cells, contender prediction cells, and falsification thresholds are immutable after the tagged release. Any edit voids the pre-registration for that row.
 2. Post-DR1 results enter via a new column ("DR1 outcome") on a clearly dated later commit. Earlier columns are not edited at that time.
 3. Contender predictions cite either a published canonical source or the best-fit posterior from the most recent public data release of that framework. Where a contender is silent on an observable, the cell reads "no prediction" and that silence counts as data.
-4. The card adjudicates the five rows independently. A single falsification falsifies that row; the framework as a whole stands or falls on the collective pattern, evaluated in Section VI.
+4. The card adjudicates the five rows independently. A single falsification falsifies that row; the framework as a whole stands or falls on the collective pattern, evaluated in *How to Read the Result*.
 
 ---
 
@@ -132,7 +132,7 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 
 ---
 
-## VI. How to Read the Result
+## How to Read the Result
 
 The five rows are independent observables, not a single combined likelihood. Each row's falsification threshold is a hard statement about MIT, evaluated row by row.
 
@@ -149,7 +149,7 @@ The ΛCDM column is the null hypothesis. It carries definite predictions on ever
 
 ---
 
-## VII. Full Scorecard
+## :musical_score: Scoreboard
 
 The compact view. Theories down the rows, the five observables across the columns, with a final column for the per-theory Euclid result once DR1 lands.
 
