@@ -17,7 +17,7 @@ The point is not to claim victory in advance. It is to make every contender's po
 | Freeze date | 2026-05-20 |
 | Reference | Tagged GitHub release of this commit, archived to Zenodo |
 | Expected Euclid DR1 release | October 2026 |
-| Data products in scope | Cosmology release: spectroscopic BAO ($z = 0.9$–$1.8$), photometric weak lensing, high-$z$ stellar mass function. Quick-look products are not bound by this card. |
+| Data products in scope | Cosmology release: spectroscopic BAO ($z = 0.9$–$1.8$), photometric weak lensing, high-<i>z</i> stellar mass function. Quick-look products are not bound by this card. |
 
 **Ground rules.**
 
@@ -60,7 +60,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 
 ## II. $a_0(z)$ Evolution
 
-Euclid DR1 photometric weak lensing combined with high-$z$ kinematic samples will probe the acceleration scale at $z > 1$ through stacked rotation curve and cluster-scale tests. MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal and constant; ΛCDM has no acceleration scale at all. This is the sharpest head-to-head on the card.
+Euclid DR1 photometric weak lensing combined with high-<i>z</i> kinematic samples will probe the acceleration scale at $z > 1$ through stacked rotation curve and cluster-scale tests. MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal and constant; ΛCDM has no acceleration scale at all. This is the sharpest head-to-head on the card.
 
 | Framework | Prediction | Source |
 |---|---|---|
@@ -122,7 +122,7 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 |---|---|---|
 | **MIT** | Negative coefficient $-\beta$ with $\|\beta\| < 0.012$ at 95% CL from current data; magnitude tied to $s_0$ | [dark-energy.md](dark-energy.md) §II, §VI |
 | **ΛCDM** | Exactly zero (Friedmann has no $(1+z)^1$ component) | Standard Friedmann cosmology |
-| **w<sub>0</sub>w<sub>a</sub>CDM** | Approximately zero; CPL has no isolated linear-in-$z$ coefficient in $H^2$ | Linder (2003) parameterization |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | Approximately zero; CPL has no isolated linear-in-<i>z</i> coefficient in $H^2$ | Linder (2003) parameterization |
 | **EDE** | Approximately zero at Euclid DR1 redshifts | Poulin et al. class |
 | **MOND / RelMOND** | No prediction | Same as above |
 
@@ -143,7 +143,7 @@ The honest readings of post-DR1 patterns are:
 * **Two or more rows falsify.** The phase-clock and edge-mode structure that connects these rows is no longer holding the predictions together; the underlying postulate stack needs reexamination.
 * **No row clearly resolves.** DR1 precision is insufficient to falsify or confirm; predictions roll forward to DR2 (~2028) or LiteBIRD / CMB-S4 / next-generation BAO without modification.
 
-The MOND column is silent on four of five rows by construction. That silence is itself a statement: standard MOND has no late-time cosmology and offers no contender position on $\Lambda$, $w(z)$, the $(1+z)^1$ signature, or the high-$z$ stellar mass function. The second row, $a_0(z)$, is the head-to-head where MOND and MIT disagree sharply on whether the acceleration scale evolves.
+The MOND column is silent on four of five rows by construction. That silence is itself a statement: standard MOND has no late-time cosmology and offers no contender position on $\Lambda$, $w(z)$, the $(1+z)^1$ signature, or the high-<i>z</i> stellar mass function. The second row, $a_0(z)$, is the head-to-head where MOND and MIT disagree sharply on whether the acceleration scale evolves.
 
 The ΛCDM column is the null hypothesis. It carries definite predictions on every row, and it agrees with MIT on the headline question of $\Lambda$ constancy. The two diverge on the dynamics (rows II–V), where MIT predicts specific shapes and signatures and ΛCDM predicts none of them.
 
