@@ -159,10 +159,10 @@ The compact view. Theories down the rows, the five observables across the column
 | **ΛCDM** | fixed by construction | no $a_0$ | $w = -1$ exact | predicted SMF below JWST (tension) | coefficient = 0 (term absent from Friedmann) |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | $\Omega_\text{DE}(z)$ varies | no $a_0$ | crossing near $z$ ≈ 0.4–0.5 | same tension as ΛCDM | coefficient = 0 (CPL has no linear-$z$ term) |
 | **EDE** | fixed at low $z$, EDE component at $z \sim 3000$ | no $a_0$ | $w \approx -1$ at DR1 $z$ | small uplift, still below JWST | coefficient ≈ 0 at DR1 $z$ |
-| **MOND** | — | $a_0$ fixed ≈ 1.2 × 10<sup>−10</sup> m/s² | — | enhanced gravity qualitatively helps; no quantitative SMF | — |
+| **MOND** | no prediction | $a_0$ fixed ≈ 1.2 × 10<sup>−10</sup> m/s² | no prediction | enhanced gravity qualitatively helps; no quantitative SMF | no prediction |
 | **Winner(s)** |  |  |  |  |  |
 
-`—` means no prediction. The **Winner(s)** row is filled post-October 2026: per observable, the theory or theories whose prediction matched DR1.
+The **Winner(s)** row is filled post-October 2026: per observable, the theory or theories whose prediction matched DR1.
 
 ---
 
