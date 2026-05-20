@@ -50,7 +50,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 | **EDE** | Early dark energy component active near $z \sim 3000$; at low $z$, $\Omega_\text{DE}(z)$ approximately flat | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology |
 
-*DR1 outcome:* *(to be recorded after October 2026)*
+> 🎯 *DR1 outcome to be recorded after October 2026.*
 
 ---
 
@@ -66,7 +66,7 @@ Euclid DR1 photometric weak lensing combined with high-<i>z</i> kinematic sample
 | **EDE** | No acceleration scale | Same as ΛCDM |
 | **MOND / RelMOND** | a<sub>0</sub> = const ≈ 1.2 × 10<sup>−10</sup> m/s² at all <i>z</i> | Milgrom (1983); AeST in cosmological regime |
 
-*DR1 outcome:* *(to be recorded after October 2026)*
+> 🎯 *DR1 outcome to be recorded after October 2026.*
 
 ---
 
@@ -84,7 +84,7 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 
 **If a crossing is detected.** MIT's sub-claim is that any CPL crossing is a template-projection artifact of a non-phantom truth, located near $z \approx 0.663$. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.
 
-*DR1 outcome:* *(to be recorded after October 2026)*
+> 🎯 *DR1 outcome to be recorded after October 2026.*
 
 ---
 
@@ -100,7 +100,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 | **EDE** | Marginal enhancement of early structure from shifted matter-radiation equality, insufficient to reach JWST levels | Klypin, Murray, Macciò calculations |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
 
-*DR1 outcome:* *(to be recorded after October 2026)*
+> 🎯 *DR1 outcome to be recorded after October 2026.*
 
 ---
 
@@ -116,7 +116,9 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 | **EDE** | Approximately zero at Euclid DR1 redshifts | Poulin et al. class |
 | **MOND / RelMOND** | No prediction | Same as above |
 
-*DR1 outcome:* *(to be recorded after October 2026)*
+> ⚠️ *DR1 BAO precision (forecast 1–2% per bin) is marginal for direct detection of this term at the current $s_0$ bound. A null result here is consistent with both the MIT prediction and a stronger DR2 test.*
+
+> 🎯 *DR1 outcome to be recorded after October 2026.*
 
 ---
 
