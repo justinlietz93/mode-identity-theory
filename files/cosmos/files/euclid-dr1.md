@@ -4,9 +4,7 @@
 
 # :telescope: Euclid DR1: A Pre-Registered Contender Showdown
 
-The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. A separate post-DR1 column will be added in a later commit when the data arrive.
-
-The point is not to claim victory in advance. It is to make every contender's position on every observable visible *now*, so the reading of DR1 cannot be retrofit.
+The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. DR1 results will be added in a later commit when the data arrive.
 
 ---
 
@@ -22,7 +20,7 @@ The point is not to claim victory in advance. It is to make every contender's po
 **Ground rules.**
 
 1. MIT prediction cells, contender prediction cells, and falsification thresholds are immutable after the tagged release. Any edit voids the pre-registration for that row.
-2. Post-DR1 results enter via a new column ("DR1 outcome") on a clearly dated later commit. Earlier columns are not edited at that time.
+2. Post-DR1 results enter via the Winner(s) row of the Scoreboard and the per-observable DR1 outcome lines on a clearly dated later commit. Earlier content is not edited at that time.
 3. Contender predictions cite either a published canonical source or the best-fit posterior from the most recent public data release of that framework. Where a contender is silent on an observable, the cell reads "no prediction" and that silence counts as data.
 4. The card adjudicates the five rows independently. A single falsification falsifies that row; the framework as a whole stands or falls on the collective pattern.
 
@@ -52,8 +50,6 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 | **EDE** | Early dark energy component active near $z \sim 3000$; at low $z$, $\Omega_\text{DE}(z)$ approximately flat | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology |
 
-*Falsification of MIT.* Direct reconstruction of $\Omega_\text{DE}(z)$ across DR1 redshift bins shows variation at $\geq 2\sigma$; equivalently, the CPL fit returns $w_a \neq 0$ at $\geq 2\sigma$ from the same data combination.
-
 *DR1 outcome:* *(to be recorded after October 2026)*
 
 ---
@@ -69,8 +65,6 @@ Euclid DR1 photometric weak lensing combined with high-<i>z</i> kinematic sample
 | **w<sub>0</sub>w<sub>a</sub>CDM** | No acceleration scale | Same as ΛCDM |
 | **EDE** | No acceleration scale | Same as ΛCDM |
 | **MOND / RelMOND** | a<sub>0</sub> = const ≈ 1.2 × 10<sup>−10</sup> m/s² at all <i>z</i> | Milgrom (1983); AeST in cosmological regime |
-
-*Falsification of MIT.* DR1 measurement of $a_0$ at $z = 2$ consistent with the local value at $\geq 2\sigma$ falsifies the MIT scaling and is simultaneous vindication of MOND on this row.
 
 *DR1 outcome:* *(to be recorded after October 2026)*
 
@@ -90,8 +84,6 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 
 **If a crossing is detected.** MIT's sub-claim is that any CPL crossing is a template-projection artifact of a non-phantom truth, located near $z \approx 0.663$. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.
 
-*Falsification of MIT.* Fiducial split of the DR1 best-fit $H(z)$ gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ for any $z$ in the DR1 range; or a CPL crossing is detected at $z_\text{cross}$ outside $[0.50, 0.85]$ at $\geq 2\sigma$.
-
 *DR1 outcome:* *(to be recorded after October 2026)*
 
 ---
@@ -108,8 +100,6 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 | **EDE** | Marginal enhancement of early structure from shifted matter-radiation equality, insufficient to reach JWST levels | Klypin, Murray, Macciò calculations |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
 
-*Falsification of MIT.* Euclid wide-area abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z \gtrsim 10$ falls within standard ΛCDM forecasts at $\geq 2\sigma$, indicating the JWST tension was a selection or systematics artifact.
-
 *DR1 outcome:* *(to be recorded after October 2026)*
 
 ---
@@ -125,8 +115,6 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 | **w<sub>0</sub>w<sub>a</sub>CDM** | Approximately zero; CPL has no isolated linear-in-<i>z</i> coefficient in $H^2$ | Linder (2003) parameterization |
 | **EDE** | Approximately zero at Euclid DR1 redshifts | Poulin et al. class |
 | **MOND / RelMOND** | No prediction | Same as above |
-
-*Falsification of MIT.* DR1 BAO precision (forecast 1–2% per bin) is marginal for direct detection of this term at the current $s_0$ bound. The falsification threshold is a positive coefficient detected at $\geq 2\sigma$, or a magnitude inconsistent with the fitted $s_0$ from the same data combination.
 
 *DR1 outcome:* *(to be recorded after October 2026)*
 
