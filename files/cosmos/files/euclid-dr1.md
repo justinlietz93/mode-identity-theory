@@ -24,7 +24,7 @@ The point is not to claim victory in advance. It is to make every contender's po
 1. MIT prediction cells, contender prediction cells, and falsification thresholds are immutable after the tagged release. Any edit voids the pre-registration for that row.
 2. Post-DR1 results enter via a new column ("DR1 outcome") on a clearly dated later commit. Earlier columns are not edited at that time.
 3. Contender predictions cite either a published canonical source or the best-fit posterior from the most recent public data release of that framework. Where a contender is silent on an observable, the cell reads "no prediction" and that silence counts as data.
-4. The card adjudicates the five rows independently. A single falsification falsifies that row; the framework as a whole stands or falls on the collective pattern, evaluated in *How to Read the Result*.
+4. The card adjudicates the five rows independently. A single falsification falsifies that row; the framework as a whole stands or falls on the collective pattern.
 
 ---
 
@@ -132,26 +132,9 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 
 ---
 
-## How to Read the Result
-
-The five rows are independent observables, not a single combined likelihood. Each row's falsification threshold is a hard statement about MIT, evaluated row by row.
-
-The honest readings of post-DR1 patterns are:
-
-* **All five MIT cells survive.** No contender clears more than two rows without "no prediction" gaps. The pre-registration becomes citable evidence that MIT made specific, falsifiable claims and the data did not falsify them.
-* **One row falsifies, four survive.** That row is closed. The framework continues on the remaining structure, with the falsified row triggering a derivation review of the failing prediction.
-* **Two or more rows falsify.** The phase-clock and edge-mode structure that connects these rows is no longer holding the predictions together; the underlying postulate stack needs reexamination.
-* **No row clearly resolves.** DR1 precision is insufficient to falsify or confirm; predictions roll forward to DR2 (~2028) or LiteBIRD / CMB-S4 / next-generation BAO without modification.
-
-The MOND column is silent on four of five rows by construction. That silence is itself a statement: standard MOND has no late-time cosmology and offers no contender position on $\Lambda$, $w(z)$, the $(1+z)^1$ signature, or the high-<i>z</i> stellar mass function. The second row, $a_0(z)$, is the head-to-head where MOND and MIT disagree sharply on whether the acceleration scale evolves.
-
-The ΛCDM column is the null hypothesis. It carries definite predictions on every row, and it agrees with MIT on the headline question of $\Lambda$ constancy. The two diverge on the dynamics (rows II–V), where MIT predicts specific shapes and signatures and ΛCDM predicts none of them.
-
----
-
 ## :musical_score: Scoreboard
 
-The compact view. Theories down the rows, the five observables across the columns, with a final column for the per-theory Euclid result once DR1 lands.
+The compact view. Theories down the rows, the five observables across the columns. The bottom **Winner(s)** row is filled when DR1 lands.
 
 |  | Λ | a₀(z) | w(z) | SMF z ≳ 10 | (1+z)¹ in H² |
 |---|---|---|---|---|---|
