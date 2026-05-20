@@ -31,9 +31,9 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 | # | Observable | Euclid DR1 channel | MIT prediction | Falsifies MIT if |
 |---|---|---|---|---|
 | I | $\Lambda$ epoch-independence | Spectroscopic BAO across four $z$ bins + photometric weak lensing (3×2pt); $\Omega_\text{DE}(z)$ reconstruction and CPL fit | $\Lambda_\text{obs} = 3/R^2$ is the topological ground eigenvalue; $\Omega_\text{DE}(z)$ flat across all DR1 redshift bins | Reconstructed $\Omega_\text{DE}(z)$ varies at $\geq 2\sigma$ across DR1 bins, or $w_a \neq 0$ at $\geq 2\sigma$ in the CPL fit |
-| II | $a_0(z)$ evolution | Stacked rotation curves of NISP spectroscopic galaxies at $z > 1$; weak-lensing rotation curve composites; cluster-scale lensing tests | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}2) \approx 3\times$ local | $a_0(z{=}2)$ consistent with $a_0(0)$ at $\geq 2\sigma$ |
+| II | $a_0(z)$ evolution | Tully-Fisher zero-point evolution from Hα linewidths in NISP spectroscopic sample ($z \approx 0.9$–1.5); weak-lensing $M_\text{dyn}/M_b$ ratios at galaxy-halo scale | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local (DR1 reach); $a_0(z{=}10) \approx 20.5\times$ for later facilities | $a_0$ measured at $z \approx 1.5$ consistent with $a_0(0)$ at $\geq 2\sigma$. The $z = 10$ test rides on JWST / ELT, not DR1. |
 | III | $w_\text{eff}(z)$ trajectory and apparent $z_\text{cross}$ | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split); if a CPL crossing is detected, $z_\text{cross} \approx 0.663$ as a template artifact | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$; or detected $z_\text{cross}$ outside $[0.50, 0.85]$ at $\geq 2\sigma$ |
-| IV | Stellar mass function at $z \gtrsim 10$ | Wide-area photometric source catalog with high-$z$ selection; NISP spectroscopic confirmation of candidates | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Early massive galaxy abundance falls within standard ΛCDM expectations at $\geq 2\sigma$ |
+| IV | Stellar mass function at $z \gtrsim 10$ | Wide-area photometric source catalog with high-$z$ selection; NISP spectroscopic confirmation of candidates | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
 | V | $(1+z)^1$ coefficient in $H^2(z)$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from $H(z)$ expansion | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
 
 ---
@@ -56,7 +56,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 
 ## II. $a_0(z)$ Evolution
 
-Euclid DR1 photometric weak lensing combined with high-<i>z</i> kinematic samples will probe the acceleration scale at $z > 1$ through stacked rotation curve and cluster-scale tests. MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal and constant; ΛCDM has no acceleration scale at all. This is the sharpest head-to-head on the card.
+Euclid DR1 will probe the acceleration scale at $z \approx 1$–1.5 through two specific channels: Tully-Fisher zero-point evolution from Hα linewidths in the spectroscopic sample, and weak-lensing $M_\text{dyn}/M_b$ ratios at galaxy-halo scale. Spatially resolved rotation curves at higher redshift are not a DR1 deliverable; the $z = 10$ prediction is for JWST and ELT. MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal and constant; ΛCDM has no acceleration scale at all. This is the sharpest head-to-head on the card.
 
 | Framework | Prediction | Source |
 |---|---|---|
@@ -95,7 +95,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 | Framework | Prediction | Source |
 |---|---|---|
 | **MIT** | Wide-area statistics confirm JWST-class abundance; reachable under standard $\varepsilon_\text{SF} \lesssim 1$ with $a_0(z{=}10) \approx 20.5\times$ local | [early-galaxies.md](early-galaxies.md) |
-| **ΛCDM** | Stellar mass function at $z \gtrsim 10$ within standard halo-abundance forecasts; the JWST tension is anomalous and resolves with better selection / dust corrections | Standard structure formation |
+| **ΛCDM** | Stellar mass function at $z \gtrsim 10$ within standard halo-abundance forecasts; the JWST tension is anomalous and resolves with better selection / dust corrections | Boylan-Kolchin (2023) SMF forecast; standard structure formation |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | Same as ΛCDM (dark energy modifications do not change early structure growth) | Standard structure formation |
 | **EDE** | Marginal enhancement of early structure from shifted matter-radiation equality, insufficient to reach JWST levels | Klypin, Murray, Macciò calculations |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
@@ -116,7 +116,7 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 | **EDE** | Approximately zero at Euclid DR1 redshifts | Poulin et al. class |
 | **MOND / RelMOND** | No prediction | Same as above |
 
-> ⚠️ *DR1 BAO precision (forecast 1–2% per bin) is marginal for direct detection of this term at the current $s_0$ bound. A null result here is consistent with both the MIT prediction and a stronger DR2 test.*
+> ⚠️ *DR1 BAO precision (forecast 1–2% per bin) is marginal for direct detection of this term at the current $s_0$ bound. A null result here is consistent with both the MIT prediction and a stronger DR2 test, and is not counted in the row-by-row tally.*
 
 > 🎯 *DR1 outcome to be recorded after October 2026.*
 
