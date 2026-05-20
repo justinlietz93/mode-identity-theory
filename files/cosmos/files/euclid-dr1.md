@@ -151,24 +151,19 @@ The ΛCDM column is the null hypothesis. It carries definite predictions on ever
 
 ## VII. Full Scorecard
 
-The compact view. One row per observable, contenders across the columns, with a glyph row below each prediction that gets filled when DR1 lands. Use this as the at-a-glance reference; Sections I–V carry the detail.
+The compact view. Theories down the rows, the five observables across the columns, with a final column for the per-theory Euclid result once DR1 lands.
 
-| # | Observable | MIT | ΛCDM | w<sub>0</sub>w<sub>a</sub>CDM | EDE | MOND |
+| Theory | I. Λ const | II. a₀(z) | III. w(z) | IV. SMF z ≳ 10 | V. (1+z)¹ in H² | Euclid result |
 |---|---|---|---|---|---|---|
-| **I** | $\Lambda$ epoch-independence | $\Lambda = 3/R^2$, const | $\Lambda$ const | $\Omega_\text{DE}(z)$ varies | $\Lambda$ const at low $z$ | — |
-|   | *DR1 outcome* | — | — | — | — | — |
-| **II** | $a_0(z)$ evolution | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | no $a_0$ | no $a_0$ | no $a_0$ | $a_0$ const ≈ 1.2 × 10<sup>−10</sup> m/s² |
-|   | *DR1 outcome* | — | — | — | — | — |
-| **III** | $w_\text{eff}(z)$ trajectory | $w > -1$; $z_\text{cross} \approx 0.663$ if seen | $w = -1$ exact | crossing near $z$ ≈ 0.4–0.5 | $w \approx -1$ at DR1 $z$ | — |
-|   | *DR1 outcome* | — | — | — | — | — |
-| **IV** | SMF at $z \gtrsim 10$ | JWST-class persists | within ΛCDM forecasts | within ΛCDM forecasts | marginal help | qualitative help |
-|   | *DR1 outcome* | — | — | — | — | — |
-| **V** | $(1+z)^1$ in $H^2(z)$ | negative, \|β\| < 0.012 | zero | ≈ zero | ≈ zero | — |
-|   | *DR1 outcome* | — | — | — | — | — |
+| **MIT** | $\Lambda = 3/R^2$, const | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | $w > -1$; $z_\text{cross} \approx 0.663$ | JWST-class persists | negative, \|β\| < 0.012 | — |
+| **ΛCDM** | $\Lambda$ const | no $a_0$ | $w = -1$ exact | within forecasts | zero | — |
+| **w<sub>0</sub>w<sub>a</sub>CDM** | $\Omega_\text{DE}(z)$ varies | no $a_0$ | crossing near $z$ ≈ 0.4–0.5 | within forecasts | ≈ zero | — |
+| **EDE** | $\Lambda$ const at low $z$ | no $a_0$ | $w \approx -1$ at DR1 $z$ | marginal help | ≈ zero | — |
+| **MOND** | — | $a_0$ const ≈ 1.2 × 10<sup>−10</sup> m/s² | — | qualitative help | — | — |
 
-**Glyph legend.** ✓ prediction satisfied. ✗ prediction falsified. ~ ambiguous (within DR1 noise). — no prediction, or outcome pending.
+**Glyph legend.** ✓ prediction satisfied. ✗ falsified. ~ ambiguous (within DR1 noise). — no prediction.
 
-Cells are filled post-October 2026 by editing the *DR1 outcome* rows in a separately dated commit.
+Post-October 2026: each prediction cell gets a trailing glyph indicating its DR1 status; the **Euclid result** column gets the per-theory tally.
 
 ---
 
