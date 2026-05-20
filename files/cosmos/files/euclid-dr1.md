@@ -149,6 +149,29 @@ The ΛCDM column is the null hypothesis. It carries definite predictions on ever
 
 ---
 
+## VII. Full Scorecard
+
+The compact view. One row per observable, contenders across the columns, with a glyph row below each prediction that gets filled when DR1 lands. Use this as the at-a-glance reference; Sections I–V carry the detail.
+
+| # | Observable | MIT | ΛCDM | w<sub>0</sub>w<sub>a</sub>CDM | EDE | MOND |
+|---|---|---|---|---|---|---|
+| **I** | $\Lambda$ epoch-independence | $\Lambda = 3/R^2$, const | $\Lambda$ const | $\Omega_\text{DE}(z)$ varies | $\Lambda$ const at low $z$ | — |
+|   | *DR1 outcome* | — | — | — | — | — |
+| **II** | $a_0(z)$ evolution | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | no $a_0$ | no $a_0$ | no $a_0$ | $a_0$ const ≈ 1.2 × 10<sup>−10</sup> m/s² |
+|   | *DR1 outcome* | — | — | — | — | — |
+| **III** | $w_\text{eff}(z)$ trajectory | $w > -1$; $z_\text{cross} \approx 0.663$ if seen | $w = -1$ exact | crossing near $z$ ≈ 0.4–0.5 | $w \approx -1$ at DR1 $z$ | — |
+|   | *DR1 outcome* | — | — | — | — | — |
+| **IV** | SMF at $z \gtrsim 10$ | JWST-class persists | within ΛCDM forecasts | within ΛCDM forecasts | marginal help | qualitative help |
+|   | *DR1 outcome* | — | — | — | — | — |
+| **V** | $(1+z)^1$ in $H^2(z)$ | negative, \|β\| < 0.012 | zero | ≈ zero | ≈ zero | — |
+|   | *DR1 outcome* | — | — | — | — | — |
+
+**Glyph legend.** ✓ prediction satisfied. ✗ prediction falsified. ~ ambiguous (within DR1 noise). — no prediction, or outcome pending.
+
+Cells are filled post-October 2026 by editing the *DR1 outcome* rows in a separately dated commit.
+
+---
+
 *The scorecard does not predict victory. It locks the bets and prints the date.*
 
 ---
