@@ -164,9 +164,9 @@ Blind outputs of a fixed structure, checked against observation:
 
 ## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
 
-Five predictions are locked before October 2026: Λ stays constant, a₀(z) tracks H(z), w(z) never crosses −1 with z_cross ≈ 0.663 as a CPL-template artifact if seen, JWST-class galaxies persist at z > 10, and H²(z) carries a distinctive negative (1+z)¹ term. All values deposited on Zenodo before data release.
+All predictions locked before October 2026 and deposited on Zenodo. Each row below names a Euclid DR1 channel and a falsification threshold.
 
-**:telescope: [Judgment Day: October 21, 2026 — Full Scorecard](/files/cosmos/files/euclid-dr1.md)**
+**:telescope: [Judgment Day: October 21, 2026](/files/cosmos/files/euclid-dr1.md)**
 
 | Prediction | MIT value | Falsified if | Euclid DR1 channel |
 |---|---|---|---|
