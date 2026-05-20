@@ -153,7 +153,7 @@ The ΛCDM column is the null hypothesis. It carries definite predictions on ever
 
 The compact view. Theories down the rows, the five observables across the columns, with a final column for the per-theory Euclid result once DR1 lands.
 
-|  | Λ | a₀(z) | w(z) | SMF z ≳ 10 | (1+z)¹ in H² | Euclid result |
+|  | Λ | a₀(z) | w(z) | SMF z ≳ 10 | (1+z)¹ in H² | Winner(s) |
 |---|---|---|---|---|---|---|
 | **MIT** | $\Lambda = 3/R^2$, fixed by topology | $a_0 \propto H(z)$; ≈ 3× at $z = 2$ | $w > -1$; $z_\text{cross} \approx 0.663$ | abundance matches JWST under $a_0(z{=}10) \approx 20.5\times$ | negative; \|β\| < 0.012 tied to $s_0$ | — |
 | **ΛCDM** | fixed by construction | no $a_0$ | $w = -1$ exact | predicted SMF below JWST (tension) | term absent from Friedmann | — |
@@ -163,7 +163,7 @@ The compact view. Theories down the rows, the five observables across the column
 
 **Glyph legend.** ✓ prediction satisfied. ✗ falsified. ~ ambiguous (within DR1 noise). — no prediction.
 
-Post-October 2026: each prediction cell gets a trailing glyph indicating its DR1 status; the **Euclid result** column gets the per-theory tally.
+Post-October 2026: each prediction cell gets a trailing glyph indicating its DR1 status; the **Winner(s)** column lists, per theory, the observables that theory won outright (and any shared wins with other theories).
 
 ---
 
