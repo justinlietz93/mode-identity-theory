@@ -171,7 +171,7 @@ All predictions locked before October 2026 and deposited on Zenodo. Each row bel
 | Prediction | MIT value | Falsified if | Euclid DR1 channel |
 |---|---|---|---|
 | Λ epoch-independence | $\Lambda_\text{top} = 2/R^2$ | $\Omega_\text{DE}(z)$ varies at ≥2σ across DR1 bins, or $w_a \neq 0$ at ≥2σ in CPL fit | Spec BAO + photometric weak lensing (3×2pt) |
-| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>(z=1.5) ≈ 2.4× local | DR1 SMHM shows no enhancement AND external z ≈ 1–1.5 kinematics finds a<sub>0</sub> constant at ≥2σ | Galaxy-galaxy lensing SMHM + external kinematic follow-up |
+| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>(z=1.5) ≈ 2.4× local | DR1 SMHM shows no enhancement and external z ≈ 1–1.5 kinematics finds a<sub>0</sub> constant at ≥2σ | Galaxy-galaxy lensing SMHM + external kinematic follow-up |
 | w(z) trajectory | w > −1 at all z; z_cross ≈ 0.663 if CPL crossing seen | w_eff(z) < −1 at ≥2σ, or z_cross outside [0.50, 0.85] at ≥2σ | Spec BAO (z = 0.9–1.8) + CPL posterior |
 | SMF at z ≳ 10 | JWST-class abundance persists | Falls within Boylan-Kolchin (2023) ΛCDM SMF at ≥2σ | Wide-area high-z photometric catalog |
 | (1+z)¹ in H²(z) | Negative; \|β\| < 0.012 tied to s<sub>0</sub> | Coefficient positive at ≥2σ, or inconsistent with fitted s<sub>0</sub> | Spec BAO precision (null not counted in tally) |
