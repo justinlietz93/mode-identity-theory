@@ -167,7 +167,7 @@ All predictions locked before October 2026 and will be deposited on Zenodo prior
 
 **:telescope: [Judgment Day: October 21, 2026](/files/cosmos/files/euclid-dr1.md)**
 
-| Prediction | MIT value | Euclid DR1 channel | Falsified if |
+| Prediction | Value | Euclid DR1 channel | Falsified if |
 |---|---|---|---|
 | $\Lambda$ epoch-independence | $\Lambda_\text{obs} = 3/R^2$ is the topological ground eigenvalue; $\Omega_\text{DE}(z)$ flat across all DR1 redshift bins | Spectroscopic BAO across four $z$ bins + photometric weak lensing (3×2pt); $\Omega_\text{DE}(z)$ reconstruction and CPL fit | Reconstructed $\Omega_\text{DE}(z)$ varies at $\geq 2\sigma$ across DR1 bins in a model-independent (binned or non-parametric) reconstruction |
 | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local. (The $z = 10$ extrapolation $\approx 20.5\times$ is for JWST / ELT, not DR1.) | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations. Direct resolved rotation-curve or Tully-Fisher $a_0(z)$ tests require external kinematic follow-up and are not a standalone DR1 deliverable. | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up finds $a_0$ consistent with $a_0(0)$ at $\geq 2\sigma$. |
