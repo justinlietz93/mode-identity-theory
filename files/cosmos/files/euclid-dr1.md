@@ -46,7 +46,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | $\Lambda_\text{obs}$ is a topological eigenvalue; $\Omega_\text{DE}(z)$ is flat at every DR1 redshift bin | [cosmological-constant.md](cosmological-constant.md), [framework/ground-eigenvalue.md](../../framework/ground-eigenvalue.md) |
+| **MIT** | $\Lambda_\text{obs}$ is a topological eigenvalue; $\Omega_\text{DE}(z)$ is flat at every DR1 redshift bin | [cosmological-constant](cosmological-constant.md), [ground-eigenvalue](../../framework/ground-eigenvalue.md) |
 | **ΛCDM** | $\Lambda$ constant by construction | Standard Friedmann cosmology |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | DESI DR2 best fit: $(w_0, w_a) = (-0.42 \pm 0.21,\; -1.75 \pm 0.58)$ (BAO+CMB), implying time-varying dark energy density; $\Omega_\text{DE}(z)$ not flat | DESI DR2 BAO+CMB combined fit |
 | **EDE** | Early dark energy component active near $z \sim 3000$; at low $z$, $\Omega_\text{DE}(z)$ approximately flat | Poulin, Smith, Karwal class |
@@ -62,7 +62,7 @@ Euclid DR1's contribution to the acceleration scale at $z \approx 1$–1.5 comes
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}2) \approx 3\times$ local, $a_0(z{=}10) \approx 20.5\times$ | [early-galaxies.md](early-galaxies.md) |
+| **MIT** | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}2) \approx 3\times$ local, $a_0(z{=}10) \approx 20.5\times$ | [early-galaxies](early-galaxies.md) |
 | **ΛCDM** | No acceleration scale; rotation curves explained by dark matter halos of mass-dependent profile | Navarro-Frenk-White, standard structure formation |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | No acceleration scale | Same as ΛCDM |
 | **EDE** | No acceleration scale | Same as ΛCDM |
@@ -78,7 +78,7 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | $w_\text{eff}(z) > -1$ at all $z$ in the fiducial-matter split; no real crossing | [dark-energy.md](dark-energy.md) §III (proof) |
+| **MIT** | $w_\text{eff}(z) > -1$ at all $z$ in the fiducial-matter split; no real crossing | [dark-energy](dark-energy.md) §III (proof) |
 | **ΛCDM** | $w(z) = -1$ exactly, no crossing possible | Standard Friedmann cosmology |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | Parameterization permits crossing; DESI DR2 best fit $(w_0, w_a) \approx (-0.4,\; -1.8)$ implies a crossing near <i>z</i> ≈ 0.4–0.5 | DESI DR2 BAO+CMB combined fit |
 | **EDE** | $w(z) \approx -1$ at Euclid DR1 redshifts; the EDE component is active near $z \sim 3000$ | Poulin, Smith, Karwal class |
@@ -96,7 +96,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | Wide-area statistics confirm JWST-class abundance; reachable under standard $\varepsilon_\text{SF} \lesssim 1$ with $a_0(z{=}10) \approx 20.5\times$ local | [early-galaxies.md](early-galaxies.md) |
+| **MIT** | Wide-area statistics confirm JWST-class abundance; reachable under standard $\varepsilon_\text{SF} \lesssim 1$ with $a_0(z{=}10) \approx 20.5\times$ local | [early-galaxies](early-galaxies.md) |
 | **ΛCDM** | Stellar mass function at $z \gtrsim 10$ within standard halo-abundance forecasts; the JWST tension is anomalous and resolves with better selection / dust corrections | Boylan-Kolchin (2023) SMF forecast; standard structure formation |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | Same as ΛCDM (dark energy modifications do not change early structure growth) | Standard structure formation |
 | **EDE** | Enhanced early structure from shifted matter-radiation equality; consistent with JWST UV luminosity functions at $z \sim 4$–16 with moderate $\varepsilon_\text{SF}$; quantitative SMF at $z > 10$ TBD | Klypin et al. (2021); Shen, Vogelsberger, Boylan-Kolchin (2024) |
@@ -112,7 +112,7 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | Negative coefficient $-\beta$ with $\|\beta\| < 0.012$ at 95% CL from current data; magnitude tied to $s_0$ | [dark-energy.md](dark-energy.md) §II, §VI |
+| **MIT** | Negative coefficient $-\beta$ with $\|\beta\| < 0.012$ at 95% CL from current data; magnitude tied to $s_0$ | [dark-energy](dark-energy.md) §II, §VI |
 | **ΛCDM** | Exactly zero (Friedmann has no $(1+z)^1$ component) | Standard Friedmann cosmology |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | Approximately zero; CPL has no isolated linear-in-<i>z</i> coefficient in $H^2$ | Linder (2003) parameterization |
 | **EDE** | Approximately zero at Euclid DR1 redshifts | Poulin et al. class |
