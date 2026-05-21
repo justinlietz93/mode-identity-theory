@@ -168,13 +168,13 @@ All predictions locked before October 2026 and deposited on Zenodo. Each row bel
 
 **:telescope: [Judgment Day: October 21, 2026](/files/cosmos/files/euclid-dr1.md)**
 
-| Prediction | MIT value | Falsified if | Euclid DR1 channel |
+| Prediction | MIT value | Euclid DR1 channel | Falsified if |
 |---|---|---|---|
-| Λ epoch-independence | $\Lambda_\text{top} = 2/R^2$ | $\Omega_\text{DE}(z)$ varies at ≥2σ across DR1 bins, or $w_a \neq 0$ at ≥2σ in CPL fit | Spec BAO + photometric weak lensing (3×2pt) |
-| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>(z=1.5) ≈ 2.4× local | DR1 SMHM shows no enhancement and external z ≈ 1–1.5 kinematics finds a<sub>0</sub> constant at ≥2σ | Galaxy-galaxy lensing SMHM + external kinematic follow-up |
-| w(z) trajectory | w > −1 at all z; z_cross ≈ 0.663 if CPL crossing seen | w_eff(z) < −1 at ≥2σ, or z_cross outside [0.50, 0.85] at ≥2σ | Spec BAO (z = 0.9–1.8) + CPL posterior |
-| SMF at z ≳ 10 | JWST-class abundance persists | Falls within Boylan-Kolchin (2023) ΛCDM SMF at ≥2σ | Wide-area high-z photometric catalog |
-| (1+z)¹ in H²(z) | Negative; \|β\| < 0.012 tied to s<sub>0</sub> | Coefficient positive at ≥2σ, or inconsistent with fitted s<sub>0</sub> | Spec BAO precision (null not counted in tally) |
+| Λ epoch-independence | $\Lambda_\text{top} = 2/R^2$ | Spec BAO + photometric weak lensing (3×2pt) | $\Omega_\text{DE}(z)$ varies at ≥2σ across DR1 bins, or $w_a \neq 0$ at ≥2σ in CPL fit |
+| a<sub>0</sub>(z) ∝ H(z) | a<sub>0</sub>(z=1.5) ≈ 2.4× local | Galaxy-galaxy lensing SMHM + external kinematic follow-up | DR1 SMHM shows no enhancement and external z ≈ 1–1.5 kinematics finds a<sub>0</sub> constant at ≥2σ |
+| w(z) trajectory | w > −1 at all z; z_cross ≈ 0.663 if CPL crossing seen | Spec BAO (z = 0.9–1.8) + CPL posterior | w_eff(z) < −1 at ≥2σ, or z_cross outside [0.50, 0.85] at ≥2σ |
+| SMF at z ≳ 10 | JWST-class abundance persists | Wide-area high-z photometric catalog | Falls within Boylan-Kolchin (2023) ΛCDM SMF at ≥2σ |
+| (1+z)¹ in H²(z) | Negative; \|β\| < 0.012 tied to s<sub>0</sub> | Spec BAO precision (null not counted in tally) | Coefficient positive at ≥2σ, or inconsistent with fitted s<sub>0</sub> |
 
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission">
