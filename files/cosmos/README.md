@@ -70,6 +70,8 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 ***[Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)***
 
+[![Euclid DR1](https://img.youtube.com/vi/34daWwdRC7E/mqdefault.jpg)](https://www.youtube.com/watch?v=34daWwdRC7E)
+
 ---
 
 ## :ringed_planet: Score
