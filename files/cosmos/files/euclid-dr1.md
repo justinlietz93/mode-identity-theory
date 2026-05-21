@@ -99,7 +99,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 | **MIT** | Wide-area statistics confirm JWST-class abundance; reachable under standard $\varepsilon_\text{SF} \lesssim 1$ with $a_0(z{=}10) \approx 20.5\times$ local | [early-galaxies.md](early-galaxies.md) |
 | **ΛCDM** | Stellar mass function at $z \gtrsim 10$ within standard halo-abundance forecasts; the JWST tension is anomalous and resolves with better selection / dust corrections | Boylan-Kolchin (2023) SMF forecast; standard structure formation |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | Same as ΛCDM (dark energy modifications do not change early structure growth) | Standard structure formation |
-| **EDE** | Enhanced early structure from shifted matter-radiation equality; consistent with JWST UV luminosity functions at $z \sim 4$–16 with moderate $\varepsilon_\text{SF}$; quantitative SMF at $z > 10$ TBD | Klypin, Poulin et al. (2021); Shen, Vogelsberger, Boylan-Kolchin (2024) |
+| **EDE** | Enhanced early structure from shifted matter-radiation equality; consistent with JWST UV luminosity functions at $z \sim 4$–16 with moderate $\varepsilon_\text{SF}$; quantitative SMF at $z > 10$ TBD | Klypin et al. (2021); Shen, Vogelsberger, Boylan-Kolchin (2024) |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
 
 > 🎯 *DR1 outcome to be recorded after October 2026.*
