@@ -92,7 +92,7 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 
 ## IV. Stellar Mass Function at $z \gtrsim 10$
 
-Euclid's wide-area photometric survey will dramatically extend the JWST-discovered population of high-redshift massive galaxies, replacing small-area surprise with cosmologically significant statistics. The question this row asks is whether the abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z \gtrsim 10$ is what standard structure formation expects or what JWST already suggests it is not.
+Euclid's wide-area photometric survey will dramatically extend the JWST-discovered population of high-redshift massive galaxies, replacing small-area surprise with cosmologically significant statistics. The question this row asks is whether the abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z \gtrsim 10$ is what standard structure formation expects or what JWST already suggests it is not. MIT and EDE both predict enhanced high-redshift abundance relative to ΛCDM, by different mechanisms (epoch-dependent $a_0$ vs. shifted matter-radiation equality). This row discriminates MIT from ΛCDM and w<sub>0</sub>w<sub>a</sub>CDM; the MIT-vs-EDE tiebreaker is Row II ($a_0(z)$ evolution).
 
 | Framework | Prediction | Source |
 |---|---|---|
