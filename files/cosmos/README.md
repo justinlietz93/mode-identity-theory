@@ -66,9 +66,9 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 ---
 
-**Falsification gate.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Euclid's Data Release 1 is expected October 2026. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. The card adjudicates by row. Silence in a contender column counts as data.
+**Judgment Day: October 21, 2026.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. The card adjudicates by row. Silence in a contender column counts as data.
 
-***[Euclid DR1 Scorecard](files/euclid-dr1.md)***
+***[Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)***
 
 ---
 
