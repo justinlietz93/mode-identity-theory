@@ -140,7 +140,7 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 | **EDE** | fixed at low $z$, EDE component at $z \sim 3000$ | no $a_0$ | $w \approx -1$ at DR1 $z$ | consistent with JWST UVLFs; quantitative SMF at $z > 10$ TBD | coefficient ≈ 0 at DR1 $z$ |
 | **MOND** | no prediction | $a_0$ fixed ≈ 1.2 × 10<sup>−10</sup> m/s² | no prediction | enhanced gravity qualitatively helps; no quantitative SMF | no prediction |
 | 🎯 **DR1 outcome** |  |  |  |  |  |
-| **Winner(s)** |  |  |  |  |  |
+| 🏆 **Winner(s)** |  |  |  |  |  |
 
 The **Winner(s)** row is filled post-October 2026: per observable, the theory or theories whose prediction matched DR1.
 
