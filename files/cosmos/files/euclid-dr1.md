@@ -33,8 +33,8 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 | # | Observable | MIT prediction | Euclid DR1 channel | Falsifies MIT if |
 |---|---|---|---|---|
 | I | $\Lambda$ epoch-independence | $\Lambda_\text{obs} = 3/R^2$ is the topological ground eigenvalue; $\Omega_\text{DE}(z)$ flat across all DR1 redshift bins | Spectroscopic BAO across four $z$ bins + photometric weak lensing (3×2pt); $\Omega_\text{DE}(z)$ reconstruction and CPL fit | Reconstructed $\Omega_\text{DE}(z)$ varies at $\geq 2\sigma$ across DR1 bins in a model-independent (binned or non-parametric) reconstruction |
-| II | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local. (The $z = 10$ extrapolation $\approx 20.5\times$ is for JWST / ELT, not DR1.) | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations. Direct resolved rotation-curve or Tully-Fisher $a_0(z)$ tests require external kinematic follow-up and are not a standalone DR1 deliverable. | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up finds $a_0$ consistent with $a_0(0)$ at $\geq 2\sigma$. |
-| III | $w_\text{eff}(z)$ trajectory | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split, proven); any apparent CPL crossing is a template-projection artifact, not a physical crossing; the Waltz-clock model does not predict a crossing redshift | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ |
+| II | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up finds $a_0$ consistent with $a_0(0)$ at $\geq 2\sigma$ |
+| III | $w_\text{eff}(z)$ trajectory | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split, proven) | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ |
 | IV | Stellar mass function at $z \gtrsim 10$ | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Wide-area photometric source catalog with high-<i>z</i> selection; NISP/ancillary spectroscopic confirmation where available | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
 | V | $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from $H(z)$ expansion | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
 
@@ -58,7 +58,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 
 ## II. $a_0(z)$ Evolution
 
-Euclid DR1's contribution to the acceleration scale at $z \approx 1$–1.5 comes through galaxy-galaxy weak lensing and the stellar-mass-halo-mass relation, plus photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations. Direct Tully-Fisher or resolved rotation-curve $a_0(z)$ tests require external kinematic follow-up and are not a standalone DR1 deliverable; the $z = 10$ prediction is for JWST and ELT. MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal and constant; ΛCDM has no acceleration scale at all. This is the sharpest head-to-head on the card.
+MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal and constant; ΛCDM has no acceleration scale at all. This is the sharpest three-way split on the card. The $z = 10$ extrapolation ($\approx 20.5\times$ local) is for JWST and ELT; Euclid DR1's contribution comes through galaxy-galaxy weak lensing and the stellar-mass-halo-mass relation at $z \approx 1$–1.5.
 
 | Framework | Prediction | Source |
 |---|---|---|
@@ -67,6 +67,8 @@ Euclid DR1's contribution to the acceleration scale at $z \approx 1$–1.5 comes
 | **w<sub>0</sub>w<sub>a</sub>CDM** | No acceleration scale | Same as ΛCDM |
 | **EDE** | No acceleration scale | Same as ΛCDM |
 | **MOND / RelMOND** | a<sub>0</sub> = const ≈ 1.2 × 10<sup>−10</sup> m/s² at all <i>z</i> | Milgrom (1983); AeST in cosmological regime |
+
+> ⚠️ *Euclid DR1 galaxy-galaxy lensing constrains the stellar-mass-halo-mass relation but does not directly measure $a_0(z)$. If DR1 lensing data lack the sensitivity to distinguish the predicted enhancement from standard halo-mass scatter, this row is deferred to DR2 and external kinematic follow-up and is not counted in the row-by-row tally.*
 
 > 🎯 *DR1 outcome to be recorded after October 2026.*
 
@@ -84,7 +86,9 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 | **EDE** | $w(z) \approx -1$ at Euclid DR1 redshifts; the EDE component is active near $z \sim 3000$ | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology; AeST does not constrain $w(z)$ at this precision |
 
-> ⚠️ **If a crossing is detected.** *MIT's position is that any CPL crossing is a template-projection artifact of a non-phantom truth; the framework does not predict a specific crossing redshift. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.*
+> ⚠️ **If a crossing is detected.** *MIT's position is that any CPL crossing is a template-projection artifact of a non-phantom truth; the framework does not predict a specific crossing redshift. The diagnostic is reconstruction-basis dependence: crossings that appear in two-parameter bases (CPL, BA, JBP) but vanish in non-parametric reconstructions are template artifacts; a crossing that persists across reconstruction methods would constitute evidence against that interpretation.*
+>
+> *Other contenders: ΛCDM predicts no crossing. w<sub>0</sub>w<sub>a</sub>CDM best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.*
 
 > 🎯 *DR1 outcome to be recorded after October 2026.*
 
@@ -102,7 +106,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 | **EDE** | Enhanced early structure from shifted matter-radiation equality; consistent with JWST UV luminosity functions at $z \sim 4$–16 with moderate $\varepsilon_\text{SF}$; quantitative SMF at $z > 10$ TBD | Klypin et al. (2021); Shen, Vogelsberger, Boylan-Kolchin (2024) |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
 
-> ⚠️ *Euclid DR1 wide-area photometry at z > 10 may yield a catalog too sparse or selection-dominated to distinguish the MIT and ΛCDM mass-function forecasts at the stated threshold. If DR1 reports fewer than [N] spectroscopically or photometrically confirmed candidates at M<sub>*</sub> ~ 10<sup>10</sup> M<sub>☉</sub> and z > 10, this row is deferred to DR2 / JWST cross-calibration and is not counted in the row-by-row tally.*
+> ⚠️ *Euclid DR1 wide-area photometry at z > 10 may yield a catalog too sparse or selection-dominated to distinguish the MIT and ΛCDM mass-function forecasts at the stated threshold. If DR1 uncertainties or selection systematics are too large to determine whether the abundance of M<sub>*</sub> ~ 10<sup>10</sup> M<sub>☉</sub> galaxies at z > 10 lies above or within the Boylan-Kolchin (2023) ΛCDM forecast at the stated 2σ threshold, this row is deferred to DR2 / JWST cross-calibration and is not counted in the row-by-row tally.*
 
 > 🎯 *DR1 outcome to be recorded after October 2026.*
 
