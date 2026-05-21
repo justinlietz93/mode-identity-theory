@@ -124,7 +124,6 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_Λ²$) constant | topological protection holds | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
-| [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 (FLRW templates) | DESI transition region | awaiting Euclid DR1 |
 | [↗](/files/cosmos/files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](/files/cosmos/files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
 | [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ✓ |
