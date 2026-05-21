@@ -84,7 +84,7 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 | **EDE** | $w(z) \approx -1$ at Euclid DR1 redshifts; the EDE component is active near $z \sim 3000$ | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology; AeST does not constrain $w(z)$ at this precision |
 
-**If a crossing is detected.** MIT's position is that any CPL crossing is a template-projection artifact of a non-phantom truth; the framework does not predict a specific crossing redshift. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.
+> ⚠️ **If a crossing is detected.** *MIT's position is that any CPL crossing is a template-projection artifact of a non-phantom truth; the framework does not predict a specific crossing redshift. ΛCDM predicts no crossing exists. w<sub>0</sub>w<sub>a</sub>CDM does not predict a specific $z_\text{cross}$ value; its current best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.*
 
 > 🎯 *DR1 outcome to be recorded after October 2026.*
 
