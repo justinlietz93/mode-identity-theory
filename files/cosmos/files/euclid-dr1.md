@@ -142,8 +142,6 @@ This is the distinctive signature row. The phase-clock expansion produces a $(1+
 | 🎯 **DR1 outcome** |  |  |  |  |  |
 | 🏆 **Winner(s)** |  |  |  |  |  |
 
-The **Winner(s)** row is filled post-October 2026: per observable, the theory or theories whose prediction matched DR1.
-
 ---
 
 / **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
