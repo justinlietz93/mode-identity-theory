@@ -102,6 +102,8 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 | **EDE** | Enhanced early structure from shifted matter-radiation equality; consistent with JWST UV luminosity functions at $z \sim 4$–16 with moderate $\varepsilon_\text{SF}$; quantitative SMF at $z > 10$ TBD | Klypin et al. (2021); Shen, Vogelsberger, Boylan-Kolchin (2024) |
 | **MOND / RelMOND** | Enhanced gravity at low accelerations qualitatively eases early structure formation; no clean quantitative mass-function prediction available | Sanders, McGaugh review |
 
+> ⚠️ *Euclid DR1 wide-area photometry at z > 10 may yield a catalog too sparse or selection-dominated to distinguish the MIT and ΛCDM mass-function forecasts at the stated threshold. If DR1 reports fewer than [N] spectroscopically or photometrically confirmed candidates at M<sub>*</sub> ~ 10<sup>10</sup> M<sub>☉</sub> and z > 10, this row is deferred to DR2 / JWST cross-calibration and is not counted in the row-by-row tally.*
+
 > 🎯 *DR1 outcome to be recorded after October 2026.*
 
 ---
