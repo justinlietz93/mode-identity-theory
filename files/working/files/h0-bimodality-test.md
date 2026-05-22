@@ -6,6 +6,7 @@
 
 **Status:** Analysis complete (2026-05-19). Exploratory, not pre-registered. The discrete two-cluster prediction is not supported; the Section V fork leans continuous.
 **Dependencies:** Hubble-tension mechanism (Θ = 34/120 → 36/120 bosonic shift), the Section V discrete-vs-continuous prediction, the bosonic step 2/120.
+**Related:** [hubble-tension.md](../../cosmos/files/hubble-tension.md), [sparc-phase-field.md](sparc-phase-field.md).
 
 ---
 

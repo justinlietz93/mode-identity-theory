@@ -9,6 +9,8 @@
 Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau/dt = S^{1/2}$, and the Pantheon+ fit that recovers $\Omega_m$ as output.
 
 **Status:** Established at model level. With $S = \sin(t/2)$ and the Waltz clock, Model D+Λ reproduces the Pantheon+ distance ladder at $\Delta\chi^2 = +0.6$ relative to flat ΛCDM on 1701 SNe Ia with full covariance, using two free parameters ($s_0$, $H_0$) — the same count as ΛCDM. $\Omega_m = 0.315$ is recovered from the $(1+z)^3$ coefficient. First-principles derivation of the clock exponent from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR remains open.
+**Dependencies:** Sector $\mathcal{A}$ spatial budget $u_0^2 + J^2 = 1$; $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$; Pantheon+ and DESI DR2 BAO (Λcos paper).
+**Related:** [Phantom Crossing as Template Bias](phantom-crossing-template-artifact.md), [The Waltz](../../spectrum/files/the-waltz.md).
 
 **Update (May 2026, Λcos paper).** Joint fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) tightens the constraint to $\Delta\chi^2 = +0.11$ at equal parameter count, with $s_0 < 0.19$ (95% CL, flat prior). The best-fit sits at the ΛCDM boundary ($s_0 = 0.001$); the posterior median is 0.076. The Pantheon+-only value $s_0 = 0.389$ remains within the Pantheon+ posterior but is disfavored by the BAO data. The prediction ledger (§XI) now carries both values. 
 

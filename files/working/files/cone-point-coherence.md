@@ -4,9 +4,11 @@
 
 # Cone Point Coherence
 
-Working notes on the cone point as the mechanism of galactic coherence. Supplements [Ground Eigenvalue](../../framework/ground-eigenvalue.md), [Black Double Zero's](../../cosmos/files/black-hole.md), and the [Oort Cloud project](oort-cloud-project.md).
+Working notes on the cone point as the mechanism of galactic coherence.
 
 **Status:** The cosmic cone point analysis is DERIVED (Sector $\mathcal{A}$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem. The pre-registered SPARC test ([sparc-phase-field.md](sparc-phase-field.md), run 2026-05-19) found that $L_f = v_c^2/a_0$ does not behave like a single galactic coherence radius: the gravitational transition lands at $\approx 0.38\,L_f$ and the flat onset at $\approx 1.26\,L_f$, and the transition radius tracks baryonic mass more tightly than $L_f$. This removes the empirical anchor for Reading B (the nested galactic cone point at $L_f$); Reading A (the cosmic cone point) and the Frobenius chain (Section VII) are untouched.
+**Dependencies:** Sector $\mathcal{A}$ cone point analysis (Frobenius/Friedrichs/excision), 120-grid scale-free projection, phase field coherence scale ($L_f$ SPARC-falsified; $L_g$ open).
+**Related:** [Ground Eigenvalue](../../framework/ground-eigenvalue.md), [Black Double Zero's](../../cosmos/files/black-hole.md), [Oort Cloud project](oort-cloud-project.md), [SPARC phase field notes](sparc-phase-field.md).
 
 ---
 
