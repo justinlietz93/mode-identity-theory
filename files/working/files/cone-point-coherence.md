@@ -6,13 +6,13 @@
 
 Working notes on the cone point as the mechanism of galactic coherence. Supplements [Ground Eigenvalue](../../framework/ground-eigenvalue.md), [Black Double Zero's](../../cosmos/files/black-hole.md), and the Oort Cloud project.
 
-**Status:** The cosmic cone point analysis is DERIVED (Sector $\mathcal{A}$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem.
+**Status:** The cosmic cone point analysis is DERIVED (Sector $\mathcal{A}$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem. The pre-registered SPARC test ([sparc-phase-field.md](sparc-phase-field.md), run 2026-05-19) found that $L_f = v_c^2/a_0$ does not behave like a single galactic coherence radius: the gravitational transition lands at $\approx 0.38\,L_f$ and the flat onset at $\approx 1.26\,L_f$, and the transition radius tracks baryonic mass more tightly than $L_f$. This removes the empirical anchor for Reading B (the nested galactic cone point at $L_f$); Reading A (the cosmic cone point) and the Frobenius chain (Section VI) are untouched.
 
 ---
 
 ## I. The Question
 
-Within a galaxy, all observers measure the same $\mathbb{R}^4$: same $\Lambda$, same $G$, same particle masses, same coupling constants. The phase field mechanics derives a coherence scale $L_f = v_c^2/a_0 \approx 13$ kpc within which the environmental phase shift $\alpha_f$ is uniform. But uniform $\alpha_f$ within $L_f$ is a statement of WHAT happens. The question is WHY.
+Within a galaxy, all observers measure the same $\mathbb{R}^4$: same $\Lambda$, same $G$, same particle masses, same coupling constants. The phase field mechanics proposed a coherence scale $L_f = v_c^2/a_0 \approx 13$ kpc within which the environmental phase shift $\alpha_f$ would be uniform. The SPARC test falsified $L_f$ as a single coherence radius: the gravitational transition lands at $0.38\,L_f$ and tracks baryonic mass ($\rho \approx 0.68$) more tightly than $L_f$ ($\rho \approx 0.61$). The geometric question survives: if galactic coherence has a topological origin, what sets the scale? But the target radius is no longer $L_f$.
 
 On the cosmic Mobius band, the cone point at $y = \pi R/2$ collapses all transverse positions to a single geometric point. The eigenvalue $\lambda_0 = 2/R^2$ is $W$-independent: it does not depend on the transverse width of the band. Every observer, at any $w$-position, in any band of any width, measures the same eigenvalue.
 
@@ -149,11 +149,23 @@ The problem is not the magnitude; it is the character. The flat rotation curve p
 
 This is parallel to the MOND regime: $a_0$ marks where Newtonian gravity alone fails to account for the dynamics. Here, GR tidal curvature fails not just quantitatively but qualitatively: the Jacobi equation has the wrong character (power-law instead of oscillatory) to produce a cone point within $L_f$. The topology must supply the missing structure.
 
-The [SPARC phase field notes](sparc-phase-field.md) test $L_f$ empirically across 175 galaxies. That analysis asks whether $L_f$ predicts the gravitational transition radius; this section asks why $L_f$ is the coherence scale geometrically. If the SPARC correlations hold, the curvature sourcing question sharpens: whatever sources $K_g$ must produce $L_f = v_c^2/a_0$ as a consequence.
+The [SPARC phase field notes](sparc-phase-field.md) tested $L_f$ empirically across the quality-filtered SPARC sample. That analysis asked whether $L_f$ predicts the gravitational transition radius; this section asks why $L_f$ is the coherence scale geometrically. The correlations did not hold: the transition radius lands at $r_t \approx 0.38\,L_f$ and the flat onset at $R_\text{flat} \approx 1.26\,L_f$ (the two radii bracket $L_f$ rather than coinciding with it), and $r_t$ correlates more tightly with baryonic mass $M_b$ than with $L_f$, robust across the disk mass-to-light range. So the single-$L_f$ cone-point target is not where the data places galactic structure, and whatever sources the transition tracks baryonic mass, not the $a_0$ and $v_c$ combination. This sharpens the curvature-sourcing skepticism of this section by an empirical route rather than relieving it.
 
 **Assessment:** The galactic cone point (Reading B) cannot be sourced by GR curvature. It requires the topological scale $a_0$. If the 120-grid projects at every scale with constant curvature inherited from the Mobius structure (not from the gravitational field), then $K_g = \pi^2/L_f^2$ is set by the topology-gravity interface, and the cone point exists. If the curvature must be sourced purely by GR, the cone point does not exist within the galaxy, and galactic coherence must work by a different mechanism (Reading A or something else).
 
 This is the fork. The Frobenius program (Section VI) sits on the far side of it.
+
+---
+
+## Relation to the SPARC Result
+
+The SPARC test ([sparc-phase-field.md](sparc-phase-field.md)) falsified $L_f = v_c^2/a_0$ as the galactic coherence radius. Two findings bear directly on this note.
+
+The transition radius lands at $r_t \approx 0.38\,L_f$ and correlates more tightly with baryonic mass than with $L_f$, stable across the $\Upsilon_\text{disk}$ sweep. This is a directional mismatch with §V's curvature sourcing argument, which derives $K_g$ from $a_0$ and $v_c$. The data points toward mass distribution instead.
+
+The mean-square velocity suppression ($\langle v^2 \rangle_{L_f} / v_c^2 \approx 0.41$) falls below the trigger threshold ($\xi \approx 0.46$). Real rotation curves are not flat over $[0, L_f]$, so the closure identity that guaranteed universal triggering does not hold.
+
+Reading B (nested galactic cone point at $L_f$) loses its empirical anchor. Reading A (shared cosmic cone point) and the Frobenius chain (§VI) are untouched. The fork in §V sharpens: GR tidal curvature was already shown to fail; $L_f$ itself now fails empirically. If a galactic cone point exists, its radius must come from somewhere other than $v_c^2/a_0$, and whatever sets it must account for the observed $M_b$ dependence.
 
 ---
 
@@ -258,7 +270,7 @@ To derive the Oort Cloud radius, one would need: the stellar analog of $L_f$, or
 
 | # | Question | Depends on | Priority |
 |---|----------|-----------|----------|
-| 1 | What sources $K_g$? GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions (no zeros at any radius); the Keplerian core near Sgr A* is oscillatory but spans $< 0.01\%$ of $L_f$. The topology-gravity interface ($a_0$, $v_c$) gives oscillatory solutions with a zero at $L_f/2$. What justifies constant curvature across the coherence domain? | Curvature sourcing (§V) | CRITICAL |
+| 1 | What sources $K_g$? GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions (no zeros at any radius); the Keplerian core near Sgr A* is oscillatory but spans $< 0.01\%$ of $L_f$. The topology-gravity interface ($a_0$, $v_c$) gives oscillatory solutions with a zero at $L_f/2$. What justifies constant curvature across the coherence domain? Note the empirical headwind: SPARC places the transition at $\approx 0.38\,L_f$ tracking $M_b$, not at $L_f/2$, so the $L_f/2$ zero is not observationally supported. | Curvature sourcing (§V) | CRITICAL |
 | 2 | Does the 120-grid force constant curvature at every scale? If yes, the cone point exists by algebraic structure, not by gravitational focusing. | Scale-free projection (Oort §Joint 2) | HIGH |
 | 3 | Reading A or B? One cone point or many? | Questions 1 and 2 | HIGH |
 | 4 | Variable-curvature budget identity: what replaces $u^2 + J^2 = 1$ when $K$ is not constant? | Frobenius program, Step 7 | MEDIUM |
@@ -272,6 +284,7 @@ To derive the Oort Cloud radius, one would need: the stellar analog of $L_f$, or
 | Prediction | Falsified if... |
 |------------|-----------------|
 | Nested cone point exists (Reading B) | Galactic-scale Jacobi field proved to have no zero from any curvature source |
+| $L_f$ is the galactic coherence radius | Empirical support removed: SPARC finds the transition at $\approx 0.38\,L_f$, the flat onset at $\approx 1.26\,L_f$, and $r_t$ tracking $M_b$ over $L_f$, stable across all 27 sensitivity cells |
 | Frobenius structure preserved | Indicial exponents differ from $s^2 = 0$ at galactic scale (requires non-linear vanishing of $f_g$) |
 | $W_g$-independence | Galactic eigenvalue shown to depend on galaxy size (different-sized galaxies measure different $\Lambda$) |
 | Curvature from topology-gravity interface | $K_g$ shown to require fine-tuning rather than following from $a_0$ and $v_c$ |
