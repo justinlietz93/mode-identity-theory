@@ -118,7 +118,7 @@ Independent confirmation: the Molien series on $S^3/2I$ shows $2I$ filtering sca
 
 Phase field mechanics: $\alpha = \alpha_0 + \alpha_f$, where $\alpha_f$ depends on environment (gravitational potential). Sampling requires a domain where potential is coherent. At galactic scale, the proposed coherence radius was $L_f \approx 13$ kpc (SPARC-falsified).
 
-Status: DERIVED at galactic scale. The principle (coherence required for sampling) is general. The specific derivation ($L_f = v_c^2/a_0$) is galactic.
+Status: The principle (coherence required for sampling) is DERIVED and general. The specific galactic scale $L_f = v_c^2/a_0$ was derived, tested against SPARC, and falsified. The galactic coherence scale $L_g$ is open.
 
 The [cone point coherence notes](cone-point-coherence.md) explore the geometric mechanism: whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the Frobenius/Friedrichs/excision analysis at the cone point) is the structural reason coherence holds within $L_g$. Key findings from that analysis: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero, so the needed curvature lives at the topology-gravity interface; and SPARC falsified $L_f = v_c^2/a_0$ as the coherence radius, shifting the cone-point target from $L_f$ to whatever $L_g$ turns out to be.
 
