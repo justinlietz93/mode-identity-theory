@@ -7,7 +7,7 @@
 > The grid doesn't set a size; it sets a structure.
 
 **Status:** Working bench. Locked parts (Section II) are derived. Joints (Section IV) are under load. Pieces (Section V) are motivated but not yet joined. Gaps (Section VI) are genuinely open.
-**Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$, 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$ (tested, falsified by SPARC; the unknown galactic coherence scale is $L_g$), 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
 **Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $L_f$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $L_f$ across 175 galaxies).
 
 ---
@@ -37,7 +37,7 @@ Derived, tested, load-bearing. Pick up and use.
 | $\Lambda_{\text{obs}} \approx 2.9 \times 10^{-122}$ | Cosmological constant prediction | Scaling law + 3/2 conversion (~2% agreement) | [The Waltz](../../spectrum/files/the-waltz.md) |
 | $\tau = T/120$ | Chronon at any scale | 120-grid applied to mode period $T$ | Chronon note |
 | $\tau_c/\tau_P = \sqrt{\Omega}$ | Chronon ratio spans $10^{61}$ | Same midpoint, temporal channel | Chronon note |
-| $L_f = v_c^2/a_0$ | Coherence scale (galactic, ~13 kpc) | Phase field mechanics | MIT II.G |
+| $L_f = v_c^2/a_0$ | Coherence scale (galactic, ~13 kpc). SPARC-falsified as single coherence radius; retained as the tested candidate | Phase field mechanics | MIT II.G |
 | $\Delta\alpha_{\min} = 2/120$ | Minimum bosonic step | Spinor-to-scalar projection | MIT II.D |
 | $\alpha_f^{\text{env}} \approx 2/120$ (MW) | Environmental phase shift | Minimum step at Milky Way potential | MIT II.G |
 
@@ -116,11 +116,11 @@ Independent confirmation: the Molien series on $S^3/2I$ shows $2I$ filtering sca
 
 ### Joint 3: Observation is sampling through a coherent domain
 
-Phase field mechanics: $\alpha = \alpha_0 + \alpha_f$, where $\alpha_f$ depends on environment (gravitational potential). Sampling requires a domain where potential is coherent. At galactic scale, this is $L_f \approx 13$ kpc.
+Phase field mechanics: $\alpha = \alpha_0 + \alpha_f$, where $\alpha_f$ depends on environment (gravitational potential). Sampling requires a domain where potential is coherent. At galactic scale, the proposed coherence radius was $L_f \approx 13$ kpc (SPARC-falsified).
 
 Status: DERIVED at galactic scale. The principle (coherence required for sampling) is general. The specific derivation ($L_f = v_c^2/a_0$) is galactic.
 
-The [cone point coherence notes](cone-point-coherence.md) explore the geometric mechanism: whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the Frobenius/Friedrichs/excision analysis at the cone point) is the structural reason coherence holds within $L_f$. Key finding from that analysis: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature lives at the topology-gravity interface.
+The [cone point coherence notes](cone-point-coherence.md) explore the geometric mechanism: whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the Frobenius/Friedrichs/excision analysis at the cone point) is the structural reason coherence holds within $L_g$. Key findings from that analysis: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero, so the needed curvature lives at the topology-gravity interface; and SPARC falsified $L_f = v_c^2/a_0$ as the coherence radius, shifting the cone-point target from $L_f$ to whatever $L_g$ turns out to be.
 
 ---
 
@@ -149,13 +149,13 @@ If the 120-grid is scale-free (Joint 2), and sampling requires coherence (Joint 
 | Mode | Dominant potential | Witness stand boundary | Approximate scale |
 |------|-------------------|------------------------|--------------------|
 | Cosmic | $\Lambda$ | $R_\Lambda$ (de Sitter horizon) | $\sim 10^{26}$ m |
-| Galactic | Dark matter halo | $L_f \approx 13$ kpc | $\sim 4 \times 10^{20}$ m |
+| Galactic | Dark matter halo | $L_g$ (unknown; original candidate $L_f$ falsified) | $\sim 4 \times 10^{20}$ m |
 | Stellar | Solar gravity | Oort Cloud | $\sim 2 \times 10^{16}$ m (~144,000 AU) |
 | Planetary | Earth gravity | Hill sphere | $\sim 1.5 \times 10^{9}$ m |
 
 At each boundary: the dominant mode changes. The observer transitions from one witness stand to the next. The wave is the same wave. The Logos holds it at every scale. What changes is which instrument the observer is listening through.
 
-The machinery that derives $L_f = v_c^2/a_0$ at galactic scale has not been run at other scales. The question: does $L_f$ generalize directly, or does each scale need its own derivation?
+The machinery that derives $L_f = v_c^2/a_0$ at galactic scale has not been run at other scales. The question: does the coherence-scale concept generalize, or does each scale need its own derivation?
 
 Status: MOTIVATED. This is the central open question of the project.
 
@@ -232,7 +232,7 @@ Status: OBSERVATION. Intriguing. Possibly coincidence. Requires nested chronon d
 
 | # | Gap | What would fill it | Priority |
 |---|-----|--------------------|----------|
-| 1 | Nested $L_f$ derivation | Run phase field machinery at solar-system scale. Does $v_c^2/a_0$ generalize? What plays the role of $v_c$ for a star? Orbital velocity at the boundary? | HIGH (everything depends on this) |
+| 1 | Nested $L_g$ derivation | Run phase field machinery at solar-system scale. $v_c^2/a_0$ doesn't work at its own scale; the nested derivation question is now what sets $L_g$ at any scale. What plays the role of $v_c$ for a star? Orbital velocity at the boundary? | HIGH (everything depends on this) |
 | 2 | Oort Cloud radius from first principles | Can MIT predict ~144,000 AU, or only explain it after observation? If predicted, what inputs? | HIGH |
 | 3 | Galactic Year $\approx \tau_c$ coupling | Derive the relationship or demonstrate independence. | MEDIUM |
 | 4 | The radial channel (formal operator) | Conceptually identified: phase-reading along $S^1$. Redshift is the observable expression. Formal operator definition connecting this to the sampling theorem remains open. | LOW (concept clear; formalism follows) |
@@ -252,7 +252,7 @@ Cosmic mode (T = 33 Gyr, boundary = R_Λ)
     |
     |--- 120-grid projects into cosmic chronon (τ_c ≈ 275 Myr)
     |
-    |--- Galactic mode (T ≈ Galactic Year, boundary = L_f ≈ 13 kpc)
+    |--- Galactic mode (T ≈ Galactic Year, boundary = L_g)
     |        |
     |        |--- 120-grid projects into galactic chronon
     |        |
@@ -289,8 +289,8 @@ The structure doesn't change. The scale does. The Love doesn't change. The witne
 | Step | Action | Unlocks |
 |------|--------|---------|
 | 1 | Formalize the radial channel operator (Gap 4) | Locks Piece A (concept already clear; formalism needed) |
-| 2 | Generalize $L_f$ to arbitrary gravitational mode (Gap 1) | Locks Piece B |
-| 3 | Apply generalized $L_f$ to solar system (Gap 2) | Locks Piece C |
+| 2 | Derive $L_g$ at arbitrary gravitational mode (Gap 1) | Locks Piece B |
+| 3 | Apply the $L_g$ derivation to solar system (Gap 2) | Locks Piece C |
 | 4 | Literature review on Oort Cloud constraints (Gap 6) | Determines if Piece D is structural or approximate |
 | 5 | Derive or exclude Galactic Year coupling (Gap 3) | Resolves Piece F |
 | 6 | Trace $\times 1000$ factor (Gap 5) | Strengthens or weakens the 144,000 identification |
