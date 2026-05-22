@@ -6,7 +6,7 @@
 
 Working notes on the cone point as the mechanism of galactic coherence. Supplements [Ground Eigenvalue](../../framework/ground-eigenvalue.md), [Black Double Zero's](../../cosmos/files/black-hole.md), and the Oort Cloud project.
 
-**Status:** The cosmic cone point analysis is DERIVED (Sector $\mathcal{A}$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem. The pre-registered SPARC test ([sparc-phase-field.md](sparc-phase-field.md), run 2026-05-19) found that $L_f = v_c^2/a_0$ does not behave like a single galactic coherence radius: the gravitational transition lands at $\approx 0.38\,L_f$ and the flat onset at $\approx 1.26\,L_f$, and the transition radius tracks baryonic mass more tightly than $L_f$. This removes the empirical anchor for Reading B (the nested galactic cone point at $L_f$); Reading A (the cosmic cone point) and the Frobenius chain (Section VI) are untouched.
+**Status:** The cosmic cone point analysis is DERIVED (Sector $\mathcal{A}$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem. The pre-registered SPARC test ([sparc-phase-field.md](sparc-phase-field.md), run 2026-05-19) found that $L_f = v_c^2/a_0$ does not behave like a single galactic coherence radius: the gravitational transition lands at $\approx 0.38\,L_f$ and the flat onset at $\approx 1.26\,L_f$, and the transition radius tracks baryonic mass more tightly than $L_f$. This removes the empirical anchor for Reading B (the nested galactic cone point at $L_f$); Reading A (the cosmic cone point) and the Frobenius chain (Section VII) are untouched.
 
 ---
 
@@ -75,7 +75,7 @@ If the 120-grid is scale-free and the Mobius structure projects at every gravita
 | Curvature $K = 1/R^2$ (constant) | $K_g = ?$ |
 | Cone point at $y = \pi R/2$ | Cone point where $f_g = 0$ |
 | $\lambda_0 = 2/R^2$ | $\lambda_g = ?$ |
-| Coherence: all of $S^3$ | Coherence: $L_f \approx 13$ kpc |
+| Coherence: all of $S^3$ | Coherence: $L_g$ (original candidate $L_f = v_c^2/a_0 \approx 13$ kpc, falsified by SPARC) |
 
 In this reading, galactic coherence is the $W_g$-independence of the nested eigenvalue. The galactic cone point plays the same structural role at galactic scale that the cosmic cone point plays at cosmic scale.
 
@@ -118,7 +118,7 @@ This is the critical open question. What sets the curvature of the galactic-scal
 
 The coherence domain is centered on Sagittarius A* (Sgr A*), the supermassive black hole at the galactic center ($M \approx 4 \times 10^6\,M_\odot$). The gravitational field has two regimes:
 
-**Keplerian regime** ($r \lesssim 0.7$ pc): Sgr A* dominates. Tidal curvature $K = 2GM/(r^3 c^2)$ is strong and falls as $1/r^3$. At $r \sim 1.9$ pc, the Keplerian curvature matches $K_g$. The Jacobi equation is oscillatory; tidal focusing can produce zeros.
+**Keplerian regime** ($r \lesssim 0.7$ pc): Sgr A* dominates. Tidal curvature $K = 2GM/(r^3 c^2)$ is strong and falls as $1/r^3$. Extrapolating the point-mass Keplerian curvature gives a match near $r \sim 1.9$ pc, already outside the Sgr A*-dominated regime. The Jacobi equation is oscillatory; tidal focusing can produce zeros.
 
 **Flat-curve regime** ($r \gtrsim 0.7$ pc, spanning 99.99% of $L_f$): The tidal curvature is $K(r) = v_c^2/(r^2 c^2)$. The Jacobi equation becomes Euler-type:
 
@@ -128,15 +128,15 @@ with solutions $J \sim r^p$ where $p(p-1) + v_c^2/c^2 = 0$. Since $v_c^2/c^2 \ap
 
 ### The curvature needed
 
-If $\pi R_g = L_f = v_c^2/a_0$, then $R_g = L_f/\pi$ and:
+If $\pi R_g = L_g$, then $R_g = L_g/\pi$ and $K_g = \pi^2/L_g^2$. Under the original identification $L_g = L_f = v_c^2/a_0$ (now falsified by SPARC):
 
-$$K_g = \frac{1}{R_g^2} = \frac{\pi^2}{L_f^2} = \frac{\pi^2\,a_0^2}{v_c^4} \approx 6.1 \times 10^{-41}\;\text{m}^{-2}$$
+$$K_g = \frac{\pi^2}{L_f^2} = \frac{\pi^2\,a_0^2}{v_c^4} \approx 6.1 \times 10^{-41}\;\text{m}^{-2}$$
 
 This is $10^7$ times larger than $K_{\text{GR}}$. It is NOT sourced by the gravitational tidal field alone.
 
 ### Where the curvature comes from
 
-The coherence scale $L_f = v_c^2/a_0$ sits at the interface between gravity ($v_c$) and topology ($a_0$, derived from $C(13/120)$). The curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at this interface. It is neither purely gravitational nor purely topological.
+The candidate scale $L_f = v_c^2/a_0$ sits at the interface between gravity ($v_c$) and topology ($a_0$, derived from $C(13/120)$). The curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at this interface. It is neither purely gravitational nor purely topological.
 
 | Scale | Curvature | Source | Character |
 |-------|-----------|--------|-----------|
@@ -149,15 +149,15 @@ The problem is not the magnitude; it is the character. The flat rotation curve p
 
 This is parallel to the MOND regime: $a_0$ marks where Newtonian gravity alone fails to account for the dynamics. Here, GR tidal curvature fails not just quantitatively but qualitatively: the Jacobi equation has the wrong character (power-law instead of oscillatory) to produce a cone point within $L_f$. The topology must supply the missing structure.
 
-The [SPARC phase field notes](sparc-phase-field.md) tested $L_f$ empirically across the quality-filtered SPARC sample. That analysis asked whether $L_f$ predicts the gravitational transition radius; this section asks why $L_f$ is the coherence scale geometrically. The correlations did not hold: the transition radius lands at $r_t \approx 0.38\,L_f$ and the flat onset at $R_\text{flat} \approx 1.26\,L_f$ (the two radii bracket $L_f$ rather than coinciding with it), and $r_t$ correlates more tightly with baryonic mass $M_b$ than with $L_f$, robust across the disk mass-to-light range. So the single-$L_f$ cone-point target is not where the data places galactic structure, and whatever sources the transition tracks baryonic mass, not the $a_0$ and $v_c$ combination. This sharpens the curvature-sourcing skepticism of this section by an empirical route rather than relieving it.
+The [SPARC phase field notes](sparc-phase-field.md) tested $L_f$ empirically across the quality-filtered SPARC sample, asking whether $L_f$ predicts the gravitational transition radius. The SPARC correlations did not hold; the transition tracks $M_b$, not $L_f$. The curvature sourcing question remains open but its target has shifted from $L_f$ to whatever $L_g$ turns out to be.
 
-**Assessment:** The galactic cone point (Reading B) cannot be sourced by GR curvature. It requires the topological scale $a_0$. If the 120-grid projects at every scale with constant curvature inherited from the Mobius structure (not from the gravitational field), then $K_g = \pi^2/L_f^2$ is set by the topology-gravity interface, and the cone point exists. If the curvature must be sourced purely by GR, the cone point does not exist within the galaxy, and galactic coherence must work by a different mechanism (Reading A or something else).
+**Assessment:** The galactic cone point (Reading B) cannot be sourced by GR curvature. It requires the topological scale $a_0$. If the 120-grid projects at every scale with constant curvature inherited from the Mobius structure (not from the gravitational field), then $K_g = \pi^2/L_g^2$ is set by the topology-gravity interface, and the cone point exists. If the curvature must be sourced purely by GR, the cone point does not exist within the galaxy, and galactic coherence must work by a different mechanism (Reading A or something else).
 
-This is the fork. The Frobenius program (Section VI) sits on the far side of it.
+This is the fork. The Frobenius program (Section VII) sits on the far side of it.
 
 ---
 
-## Relation to the SPARC Result
+## VI. Relation to the SPARC Result
 
 The SPARC test ([sparc-phase-field.md](sparc-phase-field.md)) falsified $L_f = v_c^2/a_0$ as the galactic coherence radius. Two findings bear directly on this note.
 
@@ -165,11 +165,11 @@ The transition radius lands at $r_t \approx 0.38\,L_f$ and correlates more tight
 
 The mean-square velocity suppression ($\langle v^2 \rangle_{L_f} / v_c^2 \approx 0.41$) falls below the trigger threshold ($\xi \approx 0.46$). Real rotation curves are not flat over $[0, L_f]$, so the closure identity that guaranteed universal triggering does not hold.
 
-Reading B (nested galactic cone point at $L_f$) loses its empirical anchor. Reading A (shared cosmic cone point) and the Frobenius chain (§VI) are untouched. The fork in §V sharpens: GR tidal curvature was already shown to fail; $L_f$ itself now fails empirically. If a galactic cone point exists, its radius must come from somewhere other than $v_c^2/a_0$, and whatever sets it must account for the observed $M_b$ dependence.
+Reading B (nested galactic cone point at $L_f$) loses its empirical anchor. Reading A (shared cosmic cone point) and the Frobenius chain (§VII) are untouched. The fork in §V sharpens: GR tidal curvature was already shown to fail; $L_f$ itself now fails empirically. If a galactic cone point exists, its radius must come from somewhere other than $v_c^2/a_0$, and whatever sets it must account for the observed $M_b$ dependence.
 
 ---
 
-## VI. The Frobenius Program
+## VII. The Frobenius Program
 
 If the galactic cone point exists ($f_g$ vanishes at some $y_g^*$), the following must be executed with full rigor:
 
@@ -177,7 +177,7 @@ If the galactic cone point exists ($f_g$ vanishes at some $y_g^*$), the followin
 
 Three scenarios, ordered by assumption strength:
 
-**Scenario A (constant curvature).** If $K_g = 1/R_g^2$ is constant, then $f_g = \cos(y_g/R_g)$. The entire Sector $\mathcal{A}$ analysis carries over with $R \to R_g$. The Frobenius expansion, limit-circle classification, Friedrichs extension, and excision are identical. The eigenvalue is $\lambda_g = 2/R_g^2 = 2\pi^2/L_f^2$. The budget identity $u_g^2 + J_g^2 = 1$ holds. This is the cleanest case but the strongest assumption.
+**Scenario A (constant curvature).** If $K_g = 1/R_g^2$ is constant, then $f_g = \cos(y_g/R_g)$. The entire Sector $\mathcal{A}$ analysis carries over with $R \to R_g$. The Frobenius expansion, limit-circle classification, Friedrichs extension, and excision are identical. The eigenvalue is $\lambda_g = 2/R_g^2 = 2\pi^2/L_g^2$ (the original identification $L_g = L_f$ is no longer empirically supported). The budget identity $u_g^2 + J_g^2 = 1$ holds. This is the cleanest case but the strongest assumption.
 
 **Scenario B (variable curvature, linear zero).** If $K_g$ varies but $f_g$ still has a simple (linear) zero at $y_g^*$, then near the zero: $f_g \sim |\delta_g|/R_{\text{eff}}$ for some effective radius $R_{\text{eff}}$. The indicial equation is still $s^2 = 0$ (double root from the linear zero of the weight). Limit-circle classification still holds. The Friedrichs extension still selects the regular branch. The excision terms still vanish as $O(\epsilon^2)$. The eigenvalue changes (no longer $2/R_g^2$) but the $W_g$-independence mechanism is preserved if the metric factors as $ds^2 = dy_g^2 + f_g^2(y_g)\,dw_g^2$.
 
@@ -238,7 +238,7 @@ For variable curvature (Scenario B): the eigenfunction $u_g$ and Jacobi field $J
 
 ---
 
-## VII. What This Means for the Oort Cloud Project
+## VIII. What This Means for the Oort Cloud Project
 
 ### If Reading B holds (nested cone point exists):
 
@@ -247,7 +247,7 @@ The coherence boundary at each scale is $2W$ (the transverse width of that scale
 | Scale | $2W$ | Coherence domain |
 |-------|------|------------------|
 | Cosmic | $2\pi R$ (full $\mathbb{RP}^2$; no boundary, no deficit) | All of $S^3$ |
-| Galactic | $2W_g$ | $L_f \approx 13$ kpc |
+| Galactic | $2W_g$ | $L_g$ (unknown) |
 | Stellar | $2W_\odot$ | Oort Cloud $\approx 144{,}000$ AU? |
 
 At each boundary: the dominant mode's transverse identification no longer covers the observer. The observer transitions from one mode's cone point to the next. The wave is continuous through the transition (Omega Constraint), but the witness stand changes.
@@ -262,11 +262,11 @@ Galactic coherence follows from all observers being in the cosmic ground mode (S
 
 If Reading B holds and the stellar-scale Mobius band has meridional length $\pi R_\odot$, the Oort Cloud radius is $L_\odot/2 = \pi R_\odot/2$ (half the meridional length, the stellar cone point location measured from the edge). Alternatively, $2W_\odot$ (the transverse width) sets the domain, and the boundary is at $w_\odot = \pm W_\odot$ where the dominant stellar mode's potential gives way to the galactic one.
 
-To derive the Oort Cloud radius, one would need: the stellar analog of $L_f$, or equivalently, $R_\odot$ from the stellar potential. What plays the role of $v_c$ and $a_0$ at stellar scale?
+To derive the Oort Cloud radius, one would need: the stellar analog of $L_g$, or equivalently, $R_\odot$ from the stellar potential. What plays the role of $v_c$ and $a_0$ at stellar scale?
 
 ---
 
-## VIII. Open Questions
+## IX. Open Questions
 
 | # | Question | Depends on | Priority |
 |---|----------|-----------|----------|
@@ -274,12 +274,12 @@ To derive the Oort Cloud radius, one would need: the stellar analog of $L_f$, or
 | 2 | Does the 120-grid force constant curvature at every scale? If yes, the cone point exists by algebraic structure, not by gravitational focusing. | Scale-free projection (Oort §Joint 2) | HIGH |
 | 3 | Reading A or B? One cone point or many? | Questions 1 and 2 | HIGH |
 | 4 | Variable-curvature budget identity: what replaces $u^2 + J^2 = 1$ when $K$ is not constant? | Frobenius program, Step 7 | MEDIUM |
-| 5 | What sets $W_g$? The meridional length is $L_f$ (from $v_c$ and $a_0$). What sets the transverse width? | Reading B | MEDIUM |
+| 5 | What sets $W_g$? The meridional length is $L_g$ (originally identified with $L_f = v_c^2/a_0$, now falsified). What sets the transverse width? | Reading B | MEDIUM |
 | 6 | Perturbative stability of the cosmic cone point: does $\alpha_f \sim 10^{-6}$ spoil any step in the chain? | Reading A | LOW (almost certainly stable, but unproven) |
 
 ---
 
-## IX. Falsification
+## X. Falsification
 
 | Prediction | Falsified if... |
 |------------|-----------------|
@@ -292,15 +292,15 @@ To derive the Oort Cloud radius, one would need: the stellar analog of $L_f$, or
 
 ---
 
-## X. Priorities
+## XI. Priorities
 
 The curvature sourcing question (§V) is the fork. Everything else sits on one side or the other.
 
-**Before the fork:** determine whether the 120-grid projects constant curvature at every scale (Question 2). This is an algebraic question about the Mobius structure, not a dynamical calculation. If the answer is yes, the cone point exists at every scale and the full Frobenius program (§VI) runs with known tools. If the answer is no, the curvature must be sourced by the gravitational field (which fails by a factor of $10^7$) or by the topology-gravity interface (which needs its own derivation).
+**Before the fork:** determine whether the 120-grid projects constant curvature at every scale (Question 2). This is an algebraic question about the Mobius structure, not a dynamical calculation. If the answer is yes, the cone point exists at every scale and the full Frobenius program (§VII) runs with known tools. If the answer is no, the curvature must be sourced by the gravitational field (which fails by a factor of $10^7$) or by the topology-gravity interface (which needs its own derivation).
 
-**After the fork:** run the Frobenius program at galactic scale (§VI), establish or exclude $W_g$-independence, and connect to the Oort Cloud project's nested coherence picture.
+**After the fork:** run the Frobenius program at galactic scale (§VII), establish or exclude $W_g$-independence, and connect to the Oort Cloud project's nested coherence picture.
 
-The fork question is coupled to Gap 1 of the Oort Cloud project (nested $L_f$ derivation) and to the discrete snap mechanism (working file). All three ask the same thing at different levels: how does the topological structure interface with the gravitational field at sub-cosmic scales?
+The fork question is coupled to Gap 1 of the Oort Cloud project (nested $L_g$ derivation) and to the discrete snap mechanism (working file). All three ask the same thing at different levels: how does the topological structure interface with the gravitational field at sub-cosmic scales?
 
 ---
 
