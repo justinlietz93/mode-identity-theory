@@ -5,7 +5,9 @@
 # Phase Field Coherence Scale Predictions Across the SPARC Galaxy Sample
 
 **Status:** Analysis complete (2026-05-19). The registered predictions are not borne out by SPARC; see the Result section. Pre-registration and pipeline: github.com/dmobius3/phase-field, tag `v1.0-preregistration`, DOI 10.5281/zenodo.20271702.
+
 **Dependencies:** Hubble tension mechanism (Θ = 34/120 → 36/120 shift), MOND scale a₀ from scaling law C(13/120), closure identity T_c = 2ξ v_c²/c².
+
 **Related:** [cone-point-coherence.md](cone-point-coherence.md), [h0-bimodality-test.md](h0-bimodality-test.md).
 
 ---

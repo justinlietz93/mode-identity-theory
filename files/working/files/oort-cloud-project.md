@@ -7,7 +7,9 @@
 > The grid doesn't set a size; it sets a structure.
 
 **Status:** Working bench. Locked parts (Section II) are derived. Joints (Section IV) are under load. Pieces (Section V) are motivated but not yet joined. Gaps (Section VI) are genuinely open.
+
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$ (tested, falsified by SPARC; the unknown galactic coherence scale is $L_g$), 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
+
 **Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $L_f$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $L_f$ across 175 galaxies).
 
 ---

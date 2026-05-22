@@ -5,6 +5,7 @@
 # McKay Propagator Correction to the Fermion Mass Formula
 
 **Status:** OPEN. Priority A.
+
 **Dependencies:** Fermion mass formula (engine file), C_geom and torsion tables, Coxeter-Galois gate, McKay graph for binary icosahedral group.
 
 ---
