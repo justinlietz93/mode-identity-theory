@@ -58,7 +58,7 @@ with $\Theta = 13/60$ (matter well on bosonic grid) and $\Omega_\Lambda = (R_\La
 
 **Phase factor.** The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ evaluated at $\Theta = 13/60$:
 
-$$C(13/60) = 2\sin^2\!\left(\frac{13\pi}{60}\right) = 2 \times (0.6293)^2 = 0.7921$$
+$$C(13/60) = 2\sin^2\left(\pi \cdot \frac{13}{60}\right) = 2 \times (0.6293)^2 = 0.7921$$
 
 **Hierarchy suppression.** One grid step of the vacuum hierarchy:
 
