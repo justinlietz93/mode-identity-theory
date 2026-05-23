@@ -21,15 +21,19 @@ The fine structure constant $\alpha \approx 1/137$ governs the strength of elect
 
 The fine structure constant $\alpha = e^2/(4\pi\varepsilon_0\hbar c) \approx 1/137.036$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units.
 
-Within MIT, dimensional observables scale from Planck references via the scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$, where $n = 1, 2, 3$ counts manifold embedding depth and each integer floor suppresses by $\sqrt{\Omega} \approx 10^{61}$. For dimensional observables, $A_P$ is the Planck reference (e.g. $\ell_P^{-2}$ for Λ, $t_P^{-1}$ for $H_0$). For a dimensionless coupling, $A_P = 1$: couplings are order unity at the Planck scale. The question becomes: what is $n$?
+Within MIT, dimensional observables scale from Planck references via the scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$, where $n = 1, 2, 3$ counts manifold embedding depth and each integer floor suppresses by $\sqrt{\Omega} \approx 10^{61}$. For dimensional observables, $A_P$ is the Planck reference (e.g. $\ell_P^{-2}$ for Λ, $t_P^{-1}$ for $H_0$). For a dimensionless coupling, $A_P = 1$: couplings are order unity at the Planck scale. The question becomes: where in the hiearchy?
 
-$\alpha$ does not belong to a single manifold. It couples matter (edge, $n = 1$) to geometry (surface, $n = 2$) through the photon, a boson. This is cross-manifold structure. The scaling law handles it through three modifications: a different grid, a different well evaluation, and a fractional exponent.
+$\alpha$ does not belong to a single manifold. It couples matter (edge, $n = 1$) to geometry (surface, $n = 2$) through the photon, a boson. This is cross-manifold structure. The scaling law handles this through three specific modifications: in the matter well, on the bosonic grid, and at a fractional exponent.
 
 ## II. Three Modifications
 
+### The matter well
+
+The well at 13/120 governs matter dynamics: it is the Fibonacci well ($F_7 = 13$) assigned to the MOND acceleration scale $a_0$. It satisfies $\gcd(13, 120) = 1$, making it maximally coprime to the grid and maximally detached from geometric symmetry. This is where matter sits on the mode spectrum.
+
 ### The bosonic grid
 
-On the 120-grid (spinor, $\lvert 2I \rvert$), the wavefunction $\psi$ has anti-period 1 and full period 2. On the 60R-grid (bosonic, $\lvert I \rvert$), the observable intensity $\lvert\psi\rvert^2$ has period 1. The coupling $\alpha$ is an observable intensity: photons are bosons, and coupling constants are squared amplitudes. They live on the 60R-grid.
+The photon couples matter to matter. On the 120-grid (spinor, $\lvert 2I \rvert$), the wavefunction $\psi$ has anti-period 1 and full period 2. On the 60R-grid (bosonic, $\lvert I \rvert$), the observable intensity $\lvert\psi\rvert^2$ has period 1. The coupling $\alpha$ is an observable intensity: photons are bosons, and coupling constants are squared amplitudes. They live on the 60R-grid.
 
 The domain sizes $60 = |I|$ and $120 = |2I|$ trace to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content (domain $D = 60$), half-integer carry only complex pairs ($D = 120$). The bosonic/spinorial grid distinction is the spin-statistics connection built into the icosahedral geometry.
 
@@ -37,16 +41,10 @@ The well label (13) stays the same. The grid denominator changes: $120 \to 60$. 
 
 | Grid | Position | C | Physics |
 |---|---|---|---|
-| 120 (spinor) | 13/120 | 0.22 | Matter dynamics ($a_0$) |
 | 60R (bosonic) | 13/60 | 0.79 | Matter coupling ($\alpha$) |
+| 120 (spinor) | 13/120 | 0.22 | Matter dynamics ($a_0$) |
 
-The antinode (Λ well) is unchanged: $C(60/120) = C(30/60) = 2$. Grid choice only matters away from the antinode.
-
-### The matter well
-
-The well at 13/120 governs matter dynamics: it is the Fibonacci well ($F_7 = 13$) assigned to the MOND acceleration scale $a_0$. It satisfies $\gcd(13, 120) = 1$, making it maximally coprime to the grid and maximally detached from geometric symmetry. This is where matter sits on the mode spectrum.
-
-The photon couples matter to matter. Electromagnetic interaction reads the well of what it couples. The EM coupling references the matter well because $\alpha$ is the force between charged matter, evaluated on the bosonic grid: $\Theta = 13/60$.
+> The antinode (Λ well) is unchanged: $C(60/120) = C(30/60) = 2$. Grid choice only matters away from the antinode.
 
 ### The fractional exponent
 
@@ -60,6 +58,10 @@ For dimensional observables, $n = 1, 2, 3$ counts whole manifold embeddings. Eac
 | 4 | One step of $\Omega$ on 60 positions | $\Omega^{1/60}$ |
 
 Dimensional observables count whole floors because they carry Planck dimensions (powers of $\ell_P$, $t_P$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. The exponent $1/60 = 1/\lvert I \rvert$ on $\Omega$ follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, producing 9/12 SM fermion masses within a factor of 3.
+
+## III. The formula
+
+(add computation here)
 
 ### The derivation chain
 
@@ -79,7 +81,7 @@ These three modifications — bosonic grid, matter well, fractional exponent —
 
 Six topological derivations. One arithmetic step. One established result. The Grid-Hierarchy exponent (stage 8) is established to professional certainty: two convergent paths (McKay packetization, dimensionless dilution rule) and a uniqueness scan confirming structural selection. The Phase-log $\Omega$ path is closed by Lemma 8.
 
-## III. Uniqueness
+## IV. Uniqueness
 
 Accuracy alone cannot distinguish the formula from numerology. A scan of all combinations $C(\Theta) \times \Omega^{-1/d}$ across grid positions and candidate denominators tests whether the MIT formula is structurally selected or merely lucky.
 
@@ -115,7 +117,7 @@ Only the MIT formula passes all six constraints:
 
 Accuracy alone is inconclusive. Structure selects the MIT formula uniquely.
 
-## IV. The Gauge Ladder
+## V. The Gauge Ladder
 
 The $\alpha$ derivation uses two structural choices: a phase well (which Kostant exponent) and a grid resolution (60R or 120). For the electromagnetic coupling, both slots are bosonic. A single principle extends this to all three gauge forces: each formula slot inherits the grid matching the interaction character of its participant. The phase slot tracks the carrier. The exponent slot tracks what the force confines.
 
@@ -176,7 +178,7 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 | $\alpha_W$ | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% | Motivated |
 | $\alpha_s/\alpha_W$ | $C(17/60) / [C(17/120) \cdot \cos(\pi/10)]$ | 3.426 | 3.490 | 1.8% | Established |
 
-## V. The α-Λ Connection
+## VI. The α-Λ Connection
 
 Both the cosmological constant and the fine structure constant reference the same hierarchy $\Omega_\Lambda$. The difference is how much of it they use.
 
@@ -204,7 +206,7 @@ The running from ~1 at the Planck scale to ~1/137 at human scales is the hierarc
 
 All three gauge couplings follow the same structure at different wells and grid fractions. They converge to order unity near the Planck scale as $\Omega \to 1$. This is the geometric origin of grand unification: not a symmetry imposed at high energy, but the hierarchy collapsing to its floor.
 
-## VI. The Vacant Rung
+## VII. The Vacant Rung
 
 The grid ladder in Section IV assigns two structural properties to each gauge force: the character of its carrier (phase grid) and the character of what it confines (exponent grid). Each slot resolves as bosonic (60R, intensity $|\psi|^2$, period 1) or spinorial (120, wavefunction $\psi$, anti-period 1). Two binary choices across two formula slots yield four possible rungs, three occupied.
 
@@ -248,7 +250,7 @@ Supersymmetric partners, in their standard formulation as gaugino-mediated inter
 
 The grid ladder was constructed to derive coupling constants. It was not designed to count forces. That it produces exactly three occupied rungs matching exactly three observed gauge interactions, with the vacancy mapping onto exactly the sector that decades of collider searches have failed to populate, is a structural output of the framework rather than an input to it.
 
-## VII. Falsification
+## VIII. Falsification
 
 | Test | Kills framework if | Sharpness |
 |---|---|---|
