@@ -6,9 +6,9 @@
 
 [![Mass Spectrum](https://img.youtube.com/vi/eYO7BNcjxQI/mqdefault.jpg)](https://www.youtube.com/watch?v=eYO7BNcjxQI)
 
-The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This paper constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
+The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This page constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
-The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of these, 10 correspond to Standard Model fermions: 9 are reproduced within a factor of 3 and all 10 within a factor of 4. Two SM fermions have no assignment: $\nu_2$ falls between adjacent entries, and the charm quark is displaced by the $T_3$ resolution at rank 17. Eight predictions have no SM assignments.
+The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 ranked mass entries. After the structural identity filters are applied, 10 of the 12 Standard Model fermions receive preferred assignments: 9 within a factor of 3, and all 10 within a factor of 4. Two SM fermions have no assignment: $\nu_2$ falls between adjacent entries, and the charm quark is displaced by the $T_3$ resolution at rank 17. Eight entries have no SM assignments.
 
 | Result | Count |
 |---|---|
@@ -38,7 +38,7 @@ The vacuum energy density of the cosmological constant defines the overall mass 
 
 $$\mu_\Lambda \equiv \rho_\Lambda^{1/4} \approx 2.25 \text{ meV}$$
 
-This is the fourth root of Λ, set by the ground mode ($m_h = 0$) of the Mobius surface. All particle masses trace back to this vacuum energy floor, scaled by the hierarchical factors that place each irrep at its position on the spectrum.
+This is the fourth root of Λ, set by the ground mode ($m_h = 0$) of the Möbius surface. All particle masses trace back to this vacuum energy floor, scaled by the hierarchical factors that place each irrep at its position on the spectrum.
 
 The neutrino mass sector provides direct access to this scale:
 
@@ -47,7 +47,7 @@ The neutrino mass sector provides direct access to this scale:
 | Solar: $\sqrt{\Delta m^2_{21}}$ | $\approx 8.6$ meV | $\sim 4\,\mu_\Lambda$ |
 | Atmospheric: $\sqrt{\Delta m^2_{31}}$ | $\approx 50$ meV | $\sim 22\,\mu_\Lambda$ |
 
-The multipliers (4, 22) emerge from parity violation due to the Mobius twist. KATRIN and cosmological bounds provide the falsification window.
+The multipliers (4, 22) emerge from parity violation due to the Möbius twist. KATRIN and cosmological bounds provide the falsification window.
 
 ### 2. Kostant Sunflower  $C_{\text{geom}}(\rho)$ 
 
@@ -123,7 +123,7 @@ Integer-spin irreps have exact closed forms. The Galois pair ratio $T^2(R_3)/T^2
 
 Half-integer irreps ($R_1$, $R_2$, $R_6$, $R_8$) are computed from the same spectral data by the same method: the Laplacian eigenvalues and their multiplicities are exact (from $SU(2)$ representation theory and the $2I$ character table), and the spectral zeta function has a unique meromorphic continuation. The Hurwitz decomposition expresses each torsion as a finite sum of $L$-function derivatives at $s = 0$, each computable to arbitrary precision. 
 
-The difference is selectivity: integer-spin irreps retain only 4 of 16 Dirichlet characters (conductors 2, 3, 5, 5), producing algebraic closed forms. Half-integer irreps retain 28 to 32 characters. The resulting sums are equally exact; they remain as finite combinations of $L'(0, \chi)$ values rather than reducing to algebraic expressions. The decimal values displayed throughout this paper are truncations of well-defined mathematical constants, computable to any desired precision by the same methods that verified the integer-spin values to 79 digits.
+The difference is selectivity: integer-spin irreps retain only 4 of 16 Dirichlet characters (conductors 2, 3, 5, 5), producing algebraic closed forms. Half-integer irreps retain 28 to 32 characters. The resulting sums are equally exact; they remain as finite combinations of $L'(0, \chi)$ values rather than reducing to algebraic expressions. The decimal values displayed throughout this page are truncations of well-defined mathematical constants, computable to any desired precision by the same methods that verified the integer-spin values to 79 digits.
 
 The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$:
 
@@ -140,7 +140,7 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 
 ## III. The 24 Predictions
 
-24 predictions from the mass formula. The table below shows assignments to Standard Model (SM) fermions and unassigned predictions.
+24 predictions from the mass formula. The table below shows assignments to Standard Model (SM) fermions and unassigned predictions. Bold rows are the preferred SM assignments counted in the headline scorecard. Unbolded repeated labels show nearby candidate entries or mass-shell clusters; they are not counted as separate assignments.
 
 The assignment is constrained, not free. The formula produces 24 ranked entries; four structural filters narrow which entries can correspond to which fermions. The Coxeter-Galois gate (§IV.4) assigns weak isospin $T_3 = \pm 1/2$ to each entry. The $Z_3$ face decomposition (§IV.1) restricts color-charged assignments to irreps carrying colored pairs. The $Z_4$ edge decomposition (§IV.2) fixes the domain for each spin parity. The eta sign gate (§IV.3) restricts positive electric charge to negative-eta entries. Together these filters determine the quantum numbers $(T_3, Y, Q)$ at each $(\rho, \sigma)$ pair before any mass comparison is made.
 
@@ -156,21 +156,21 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 | 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | | dead zone | |
 | 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | | dead zone | |
 | 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | | dead zone | |
-| 10 | $R_7$ | 4 | std | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 |
-| 11 | $R_7$ | 4 | gal | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 |
+| 10 | $R_7$ | 4 | std | $2.58 \times 10^{-4}$ | $e$ candidate | $5.11 \times 10^{-4}$ | 1.98 |
+| 11 | $R_7$ | 4 | gal | $2.58 \times 10^{-4}$ | $e$ candidate | $5.11 \times 10^{-4}$ | 1.98 |
 | **12** | **$R_7$** | **4** | **triv** | $\mathbf{5.21 \times 10^{-4}}$ | **$e$** | $\mathbf{5.11 \times 10^{-4}}$ | **1.02** |
 | **13** | **$R_8$** | **5** | **triv** | $\mathbf{2.03 \times 10^{-3}}$ | **$u$** | $\mathbf{2.16 \times 10^{-3}}$ | **1.06** |
 | 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | $d$ | $4.67 \times 10^{-3}$ | 3.22 |
 | **15** | **$R_8$** | **5** | **std** | $\mathbf{1.03 \times 10^{-1}}$ | **$\mu$ / $s$** | $\mathbf{1.057 \times 10^{-1}}$ / $\mathbf{9.34 \times 10^{-2}}$ | **1.02** / **1.10** |
 | 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | target | |
 | 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | $\tau$ | 1.777 | 2.42 |
-| 18 | $R_2$ | 7 | gal | 5.33 | $b$ | 4.18 | 1.28 |
-| 19 | $R_4$ | 6 | gal | 5.84 | $b$ | 4.18 | 1.40 |
-| 20 | $R_4$ | 6 | triv | 5.97 | $b$ | 4.18 | 1.43 |
-| 21 | $R_5$ | 6 | triv | 7.96 | $b$ | 4.18 | 1.91 |
-| 22 | $R_5$ | 6 | gal | 11.72 | $b$ | 4.18 | 2.80 |
-| 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 |
-| 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 |
+| **18** | **$R_2$** | **7** | **gal** | **5.33** | **$b$** | **4.18** | **1.28** |
+| 19 | $R_4$ | 6 | gal | 5.84 | $b$ shell | 4.18 | 1.40 |
+| 20 | $R_4$ | 6 | triv | 5.97 | $b$ shell | 4.18 | 1.43 |
+| 21 | $R_5$ | 6 | triv | 7.96 | $b$ shell | 4.18 | 1.91 |
+| 22 | $R_5$ | 6 | gal | 11.72 | $b$ shell | 4.18 | 2.80 |
+| 23 | $R_2$ | 7 | triv | 44.54 | $t$ candidate | 172.7 | 3.88 |
+| **24** | **$R_2$** | **7** | **std** | **261.46** | **$t$** | **172.7** | **1.51** |
 
 **Notes on the table:**
 
