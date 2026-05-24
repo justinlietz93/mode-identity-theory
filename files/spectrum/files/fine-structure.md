@@ -19,9 +19,9 @@ The fine structure constant $\alpha \approx 1/137$ governs the strength of elect
 
 ## I. The Problem
 
-Within MIT, dimensional observables scale from Planck references via the scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$, where $\Omega_\Lambda = (R_\Lambda / \ell_P)^2 \approx 10^{122}$ and $n = 1, 2, 3$ counts manifold embedding depth. Each integer floor suppresses by $\sqrt{\Omega_\Lambda} \approx 10^{61}$: one floor gives $H_0$ and $a_0$, two floors give $\Lambda$, three floors give the null dark-matter signal. Dimensionless couplings carry no Planck units, so manifold floors do not apply. They access the same hierarchy $\Omega_\Lambda$ at a different resolution: grid steps rather than manifold depth.
+Within MIT, dimensional observables scale from Planck references via the scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$. Edge modes such as $H_0$ and $a_0$ reference the evolving hierarchy $\Omega_H(z)$, while surface/space modes reference the fixed boundary hierarchy $\Omega_\Lambda = (R_\Lambda / \ell_P)^2 \approx 10^{122}$. 
 
-In MIT, edge modes such as $H_0$ and $a_0$ reference the evolving hierarchy $\Omega_H(z)$, while surface/space modes and dimensionless couplings reference the fixed boundary hierarchy $\Omega_\Lambda$.
+$n = 1, 2, 3$ counts manifold embedding depth. Each integer floor suppresses by $\sqrt{\Omega_\Lambda} \approx 10^{61}$: one floor gives $H_0$ and $a_0$, two floors give $\Lambda$, three floors give the null dark-matter signal. Dimensionless couplings carry no Planck units, so manifold floors do not apply. They access the same hierarchy $\Omega_\Lambda$ at a different resolution: grid steps rather than manifold depth.
 
 $\alpha$ couples matter (edge, $n = 1$) to geometry (surface, $n = 2$) through the photon, a boson. In the formal Planck-floor limit, the coupling becomes order unity; in the present low-energy universe, the fixed boundary hierarchy suppresses it. How it is suppressed, and by how much, is what the rest of this page derives: which well, which grid, and which fractional power of $\Omega_\Lambda$.
 
