@@ -77,6 +77,7 @@ Candidate approaches:
 | Spectral | The eigenvalue spacing on S³/2I at manifold depth n scales as Ω⁻ⁿ/². If measurement resolves eigenvalues, the scaling is forced. | Connects to Lemma 8 territory. May require extending spectral results. |
 | Information-theoretic | The observer at √Ω has access to log(√Ω) = ½ log Ω bits per dimension. The information content at depth n is n × ½ log Ω. Exponentiating gives (√Ω)⁻ⁿ. | Attractive but requires defining "information" on S³/2I rigorously. |
 | Representation-theoretic | The Peter-Weyl decomposition on S³/2I organizes modes by spin j. The amplitude at mode j relative to Planck is set by the Casimir scaling. If Casimir scaling reduces to (√Ω)⁻ⁿ under the 2I quotient, the hierarchy is forced. | Most technically demanding. Most likely to produce a clean theorem if it works. |
+| Selberg trace formula | The Selberg trace formula on S³/2I relates Laplacian eigenvalues (spectral side) to primitive closed geodesics determined by the 9 conjugacy classes of 2I (geometric side). If the geodesic-length structure forces eigenvalue ratios to scale as power laws at the √Ω midpoint, the hierarchy function is locked by the geometry of the 120-domain itself. | Not yet investigated. Potentially unifies the spectral and representation-theoretic paths into a single rigidity argument. See note below. |
 
 ---
 
@@ -89,6 +90,16 @@ The scaling law is not an assumption. It is the unique measurement postulate com
 This would change the audit verdict on the scaling law from DECLARED to AXIOM (forced). Everything downstream (coupling constants, mass formula structure, Hubble tension mechanism) would inherit that upgrade.
 
 The well assignments, manifold indices, and grid types would remain as the next layer of open work. The bridge would be secured. The traffic rules on the bridge would be the remaining target.
+
+---
+
+## Note: The Selberg Merge
+
+The spectral approach (row 2) and the representation-theoretic approach (row 4) may not be independent paths. The Selberg trace formula is the bridge between them: it equates sums over eigenvalues to sums over geodesics, with the geodesics determined by conjugacy classes of the fundamental group. On S³/2I, the fundamental group is 2I, which has 9 conjugacy classes and geodesic lengths fixed by group structure. Peter-Weyl gives the eigenvalues; Selberg locks them to the geodesic lengths. If the geodesic structure forces power-law dilution at √Ω, both paths close simultaneously.
+
+The technical question: is the Selberg rigidity on S³/2I strong enough to exclude alternatives to (√Ω)⁻ⁿ? The 120-domain has 9 conjugacy classes generating a finite set of primitive geodesic lengths. That finiteness may provide exactly the constraint Step 5 needs.
+
+**Source:** The Selberg connection was flagged during review of Schepis, *Observer-Resonance Theory* (2026), Ch. F §3.3-3.4. Schepis identifies the Selberg trace formula as the structural analog of the Euler product for bounded manifolds and cites Connes' spectral triples matching zeta zeros at 10⁻⁵⁵ precision using primes ≤ 13. He does not apply the formula to any specific manifold. The application to S³/2I is new.
 
 ---
 
