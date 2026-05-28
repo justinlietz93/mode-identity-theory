@@ -36,7 +36,7 @@ Two constants fix the physics. Two measurements anchor the scale. One phase para
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 
-These are irreducible. $c$ defines the causal structure of spacetime; the topology lives inside it. $\hbar$ converts dimensionless ratios (which the topology provides) into physical energies. Without both, the mathematics exists but the physics doesn't.
+These are irreducible. $c$ defines causal propagation; the topology defines where it propagates. $\hbar$ converts dimensionless ratios (which the topology provides) into physical energies. Without both, the mathematics exists but the physics doesn't.
 
 **Measured scales**
 
