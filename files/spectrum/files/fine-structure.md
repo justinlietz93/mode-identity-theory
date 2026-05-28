@@ -105,7 +105,7 @@ The most accurate alternative is $C(34/120) \times \Omega_\Lambda^{-1/55}$, achi
 | Test | MIT formula | Competitor |
 |---|---|---|
 | Grid type | Bosonic (60R): photon is boson | Spinor (120): wrong statistics |
-| Well | 13 (matter / $a_0$): EM couples matter | 34 ($H_0$): expansion, not coupling |
+| Well | 13 (matter / $a_0$): EM couples matter | 34 ($H_0$): phase clock, not coupling |
 | Exponent denominator | $60 = \lvert I \rvert$ (group order) | $55 = F_{10}$ (Fibonacci, not group) |
 
 ### Structural checklist
