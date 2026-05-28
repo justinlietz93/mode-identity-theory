@@ -36,13 +36,13 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 | II | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up finds $a_0$ consistent with $a_0(0)$ at $\geq 2\sigma$ |
 | III | $w_\text{eff}(z)$ trajectory | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split, proven) | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ |
 | IV | Stellar mass function at $z \gtrsim 10$ | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Wide-area photometric source catalog with high-<i>z</i> selection; NISP/ancillary spectroscopic confirmation where available | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
-| V | $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from $H(z)$ expansion | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
+| V | $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from the $H^2(z)$ form | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
 
 ---
 
 ## I. $\Lambda$ Epoch-Independence
 
-This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to the cosmic-expansion data; it is the ground eigenvalue of the Möbius surface embedded in $S^3$, $\lambda_0 = 2/R^2$, with $\Lambda_\text{obs} = 3/R^2$ after the Gauss equation conversion. The value test was passed by Planck ($\Lambda_\text{obs} \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$, predicted 2.9 × 10<sup>−122</sup>). What Euclid DR1 adjudicates is whether $\Lambda$ stays constant across cosmic time, or whether the dark-energy density evolves.
+This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to the cosmological redshift–distance data; it is the ground eigenvalue of the Möbius surface embedded in $S^3$, $\lambda_0 = 2/R^2$, with $\Lambda_\text{obs} = 3/R^2$ after the Gauss equation conversion. The value test was passed by Planck ($\Lambda_\text{obs} \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$, predicted 2.9 × 10<sup>−122</sup>). What Euclid DR1 adjudicates is whether $\Lambda$ stays constant across cosmic time, or whether the dark-energy density evolves.
 
 | Framework | Prediction | Source |
 |---|---|---|
@@ -114,7 +114,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 
 ## V. $(1+z)^1$ Coefficient in $H^2(z)$
 
-This is the distinctive signature row. The phase-clock expansion produces a $(1+z)^1$ term in $H^2(z)$ that is absent from every canonical FLRW component (radiation, matter, curvature, $\Lambda$). The coefficient is strictly negative for $s_0 > 0$ and tied to the fitted phase parameter. No other model on this card predicts this term at all.
+This is the distinctive signature row. The phase-clock $H^2(z)$ form contains a $(1+z)^1$ term that is absent from every canonical FLRW component (radiation, matter, curvature, $\Lambda$). The coefficient is strictly negative for $s_0 > 0$ and tied to the fitted phase parameter. No other model on this card predicts this term at all.
 
 | Framework | Prediction | Source |
 |---|---|---|
