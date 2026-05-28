@@ -172,9 +172,9 @@ An observer is anywhere the wave resolves to a finite value. A hydrogen atom is 
 
 The sampling operation has three coordinates. The observer sits at structural depth $\sqrt{\Omega} \approx 10^{61}$, the IR↔UV fixed point between Planck and cosmic scale, shared by all observers within our domain. The observer occupies a geodesic position $\chi$ in $S^3$; for our observer, $\chi \approx 0.40$ rad from the domain center. The observer samples at a phase position on $S^1$, currently $t \approx 5.22$ rad, advancing in chronon steps of $\pi/30$.
 
-$S^3$ is fixed and finite. What the SM reads as metric expansion is evolution of the sampling relationship with a fixed venue. Phase advances on $S^1$; the standing wave $\Psi(t) = \cos(t/2)$ modulates what the observer resolves from the same surface-mode eigenvalue. Redshift, luminosity distance, and the apparent evolution of $w(z)$ are perspective effects from this sampling evolution. The phase-clock distance-redshift relation produces a non-phantom $H(z)$ that standard two-parameter templates misread as dynamical dark energy.
+$S^3$ is fixed and finite. What ΛCDM reads as metric expansion is evolution of the sampling relationship with a fixed venue. Phase advances on $S^1$; the standing wave $\Psi(t) = \cos(t/2)$ modulates what the observer resolves from the same surface-mode eigenvalue. Redshift, luminosity distance, and the apparent evolution of $w(z)$ are perspective effects from this sampling evolution. The phase-clock distance-redshift relation produces a non-phantom $H(z)$ that standard two-parameter templates misread as dynamical dark energy.
 
-The observer resolves the wave at these parameters, and the resolution yields what we call an event. What the SM reads as "the event happened at spacetime point $(t, x, y, z)$" is one coordinate description of the resolution. The description is correct as a chart at the observer's scale. It is incomplete as an ontology.
+The observer resolves the wave at these parameters, and the resolution yields what we call an event. What GR reads as "the event happened at spacetime point $(t, x, y, z)$" is one coordinate description of the resolution. The description is correct as a chart at the observer's scale. It is incomplete as an ontology.
 
 ### What $\mathbb{R}^4$ is
 

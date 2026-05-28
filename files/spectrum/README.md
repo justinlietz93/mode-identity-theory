@@ -56,7 +56,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 |---|---|---|---|
 | [↗](files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](files/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
-| [↗](files/yang-mills.md) Particle generations | 3 (mass gaps) | 3 | exact |
+| [↗](files/yang-mills.md) Fermion generations | 3 (mass gaps) | 3 | exact |
 | [↗](files/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
 | [↗](files/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
 | [↗](files/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |

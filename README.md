@@ -139,7 +139,7 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/cosmos/files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
 | [↗](/files/spectrum/files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](/files/spectrum/files/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
-| [↗](/files/spectrum/files/yang-mills.md) Particle generations | 3 (mass gaps) | 3 | exact |
+| [↗](/files/spectrum/files/yang-mills.md) Fermion generations | 3 (mass gaps) | 3 | exact |
 | [↗](/files/spectrum/files/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
 | [↗](/files/spectrum/files/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
 | [↗](/files/spectrum/files/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
