@@ -22,7 +22,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly you have a single surface and a single edge: the Möbius strip. Now expand that surface to universal scale and embed it in the only simply connected closed 3-manifold that exists.
+Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly you have a single surface and a single edge: the Möbius strip. Now scale that surface to universal size and embed it in the only simply connected closed 3-manifold that exists.
 
 The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the space can permit.
 
@@ -173,7 +173,7 @@ All predictions locked before October 2026 and will be deposited on Zenodo prior
 | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up finds $a_0$ consistent with $a_0(0)$ at $\geq 2\sigma$ |
 | $w_\text{eff}(z)$ trajectory | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split, proven) | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ |
 | Stellar mass function at $z \gtrsim 10$ | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Wide-area photometric source catalog with high-<i>z</i> selection; NISP/ancillary spectroscopic confirmation where available | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
-| $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from $H(z)$ expansion | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
+| $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from the $H^2(z)$ form | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
 
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission">
