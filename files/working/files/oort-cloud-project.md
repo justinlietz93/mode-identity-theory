@@ -34,7 +34,7 @@ Derived, tested, load-bearing. Pick up and use.
 | $C(\alpha) = 2\sin^2(\pi\alpha)$ | Phase operator | Anti-periodic BC, unit normalization | MIT II.D |
 | 120-grid | Phase resolution native to $S^3$ | Binary icosahedral group ($\|2I\| = 120$) | MIT II.D |
 | $\sqrt{\Omega} = 10^{61}$ | Observer midpoint | UV-IR fixed point on bounded domain | MIT II.C |
-| $(\sqrt{\Omega})^{-n}$ | Scale factor | Volume dilution in $n$-manifold | MIT II.C |
+| $(\sqrt{\Omega})^{-n}$ | Hierarchy factor | Volume dilution in $n$-manifold | MIT II.C |
 | 3/2 conversion | Perception geometry: surface-to-venue | Gauss-Codazzi, minimal embedding, isotropy | [The Waltz](../../spectrum/files/the-waltz.md) |
 | $\Lambda_{\text{obs}} \approx 2.9 \times 10^{-122}$ | Cosmological constant prediction | Scaling law + 3/2 conversion (~2% agreement) | [The Waltz](../../spectrum/files/the-waltz.md) |
 | $\tau = T/120$ | Chronon at any scale | 120-grid applied to mode period $T$ | Chronon note |

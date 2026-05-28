@@ -49,7 +49,7 @@ The exponent is not fitted. It is forced by two structural facts.
 
 Their ratio is 3/2 — the same 3/2 that relates $\Lambda_\text{obs} = (3/2) \Lambda_\text{top}$ by Gauss-Codazzi embedding. It appears as the exponent on $H$ and as -1/2 on the clock ($1 - 3/2 = -1/2$). One ratio, two surface readings.
 
-Alternative integer-power clocks ($S^0$, $S^{-1}$, $S^{+1}$ — Models A, B, C) produce $(1+z)^0$, $(1+z)^2$, $(1+z)^1$ in $H^2$. Only the 3/2 clock gives $(1+z)^3$, which is what a matter-dominated expansion requires. Data closes the selection; structure forces it.
+Alternative integer-power clocks ($S^0$, $S^{-1}$, $S^{+1}$ — Models A, B, C) produce $(1+z)^0$, $(1+z)^2$, $(1+z)^1$ in $H^2$. Only the 3/2 clock gives $(1+z)^3$, which is what matter-era Friedmann scaling requires. Data closes the selection; structure forces it.
 
 **Empirical validation (Λcos paper, 2026).** All three integer alternatives were fitted to the joint Pantheon+ + DESI DR2 BAO dataset. Results:
 
@@ -83,7 +83,7 @@ Two free parameters: $s_0 = \sin(t_\text{now}/2)$ and $H_0$. Same count as ΛCDM
 | $H_0 r_d$ (km/s) | — | 10008 [9972, 10040] | Fit |
 | $\Delta\chi^2$ vs flat ΛCDM | +0.6 | +0.11 | 1701 SNe + 13 BAO |
 
-The joint fit is driven by BAO data at $z > 1$ which constrain the differential expansion rate, breaking the Pantheon+ distance-integral degeneracy. The Pantheon+-only value $s_0 = 0.389$ remains within the SN posterior alone but is pulled toward zero by the BAO sector. The 95% CL is prior-sensitive (ranging from 0.12 to 0.21 across flat, $s_0^2$-flat, and log-flat priors) but data-driven in character: all priors yield $s_0 \ll 1$.
+The joint fit is driven by BAO data at $z > 1$ which constrain the differential Hubble rate, breaking the Pantheon+ distance-integral degeneracy. The Pantheon+-only value $s_0 = 0.389$ remains within the SN posterior alone but is pulled toward zero by the BAO sector. The 95% CL is prior-sensitive (ranging from 0.12 to 0.21 across flat, $s_0^2$-flat, and log-flat priors) but data-driven in character: all priors yield $s_0 \ll 1$.
 
 Pure budget without $\Lambda$ gives $q_0 = +0.5$ (deceleration). Data requires $q_0 \approx -0.55$ (acceleration). $\Lambda$ from topology is necessary; it is also already derived elsewhere in the framework (not a parameter introduced here).
 
@@ -193,7 +193,7 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 | Vertex-<i>Z<sub>5</sub></i> role in $\Psi$ denominator | Medium | If the $(1+z)^1$ term derives from $Z_5$ in the temporal budget, the face/edge/vertex completion of the 3/2 accounting becomes explicit. |
 | Redshift mechanism (fully derived) | Medium | Model D+Λ gives the right distances. The phase-ratio picture on $S^1$ is understood in outline; the full derivation chain from postulate to observed $H(z)$ is partially walked. |
 | $(1+z)^1$ detection threshold | Medium (promoted) | At $s_0 < 0.19$, the signature is $< 0.8\%$ of $H^2$ at $z = 1$. Below DESI DR2 per-bin precision ($\sim 2-3\%$). Discriminating regime requires sub-percent per-bin precision: Euclid DR2, DESI full-survey, MegaMapper-class. Signature approaches per-bin detectability for $s_0$ in the upper portion of the data-allowed range; correlated bins improve aggregate sensitivity. |
-| SN vs BAO tension on $s_0$ | Medium (new) | Pantheon+ alone accommodates $s_0 \sim 0.4$; BAO pulls toward zero. Whether this reflects a real tension (different aspects of the expansion history constraining $s_0$ differently) or simply the expected tightening from complementary data needs investigation. The $\Omega_\Lambda$ sensitivity analysis (Λcos paper V.D) shows the constraint varies smoothly with $\Omega_\Lambda$, with the best $\Delta\chi^2$ near $\Omega_\Lambda = 0.69$. |
+| SN vs BAO tension on $s_0$ | Medium (new) | Pantheon+ alone accommodates $s_0 \sim 0.4$; BAO pulls toward zero. Whether this reflects a real tension (different aspects of the $H(z)$ trajectory constraining $s_0$ differently) or simply the expected tightening from complementary data needs investigation. The $\Omega_\Lambda$ sensitivity analysis (Λcos paper V.D) shows the constraint varies smoothly with $\Omega_\Lambda$, with the best $\Delta\chi^2$ near $\Omega_\Lambda = 0.69$. |
 
 ---
 
@@ -201,7 +201,7 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 
 Model D+Λ predictions depend on $s_0$, which is now constrained differently by Pantheon+-only ($s_0 = 0.389$) and joint SN+BAO ($s_0 < 0.19$ at 95% CL). The ledger carries both values. If Euclid DR1 BAO confirms the tighter constraint, the model's observable departures from ΛCDM shrink to marginal levels at DR1 precision, and the discriminating test moves to DR2 and next-generation surveys. If Euclid opens room for larger $s_0$, the Pantheon+-only predictions remain live.
 
-### A. Expansion rate $H(z)/H_0$ from BAO
+### A. Hubble rate $H(z)/H_0$ from BAO
 
 At $s_0 = 0.389$: $\quad H^2/H_0^2 = 0.371(1+z)^3 - 0.056(1+z) + 0.685$
 
@@ -216,11 +216,11 @@ At $s_0 = 0.19$: $\quad H^2/H_0^2 = 0.327(1+z)^3 - 0.012(1+z) + 0.685$
 | 1.5 | 2.519 | 2.400 | 2.368 | +6.4% | +1.4% |
 | 2.0 | 3.246 | 3.078 | 3.032 | +7.1% | +1.5% |
 
-**Signed direction.** $H_\text{MIT}(z) > H_\text{ΛCDM}(z)$ at all $z > 0$ for any $s_0 > 0$, with the gap growing monotonically with redshift. The prediction is not "different from ΛCDM" — it is **faster than ΛCDM by a specific, computable amount**. The $(1+z)^1$ coefficient is forced negative by the budget identity, not a free sign; the leading driver of the faster-expansion prediction is the budget-dressed $(1+z)^3$ coefficient, with the negative $(1+z)^1$ a subleading partial compensation.
+**Signed direction.** $H_\text{MIT}(z) > H_\text{ΛCDM}(z)$ at all $z > 0$ for any $s_0 > 0$, with the gap growing monotonically with redshift. The prediction is not "different from ΛCDM" — it is **larger than ΛCDM's $H(z)$ by a specific, computable amount**. The $(1+z)^1$ coefficient is forced negative by the budget identity, not a free sign; the leading driver of the larger-$H(z)$ prediction is the budget-dressed $(1+z)^3$ coefficient, with the negative $(1+z)^1$ a subleading partial compensation.
 
 **Discriminating bins.** At $s_0 = 0.389$, the MIT gap exceeds 5% at $z > 1$ — comfortably above Euclid DR1 per-bin sensitivity ($\sim 1-2\%$). At $s_0 = 0.19$, the gap is $\sim 1-1.5\%$ at $z > 1$ — marginal for DR1, requiring correlated multi-bin analysis. The $z > 1$ bins carry the most discriminating power in both cases.
 
-**Context.** Pantheon+ constrains $\int dz/H(z)$, not $H(z)$ directly — so MIT and ΛCDM agree on distance modulus while diverging on the differential expansion rate. Euclid BAO reads the differential rate. This is where the Pantheon+ degeneracy breaks. The joint SN+BAO fit in the Λcos paper already demonstrates this: BAO data are what pull $s_0$ toward zero.
+**Context.** Pantheon+ constrains $\int dz/H(z)$, not $H(z)$ directly — so MIT and ΛCDM agree on distance modulus while diverging on the differential Hubble rate. Euclid BAO reads the differential rate. This is where the Pantheon+ degeneracy breaks. The joint SN+BAO fit in the Λcos paper already demonstrates this: BAO data are what pull $s_0$ toward zero.
 
 ### B. The $(1+z)^1$ signature
 
@@ -264,7 +264,7 @@ $a_0(z)/a_0(0) = H(z)/H_0$ (derived, early-galaxies paper).
 | Apparent $w_a$ from CPL fit at $s_0 = 0.19$ | $\approx +0.29$ | 0 |
 | $\Delta\chi^2$ vs ΛCDM (SN+BAO) | +0.11 | 0 |
 
-The apparent phantom crossing is a structural artifact of projecting a non-phantom expansion history onto two-parameter templates (CPL, BA, JBP). The three-parameter polynomial does not produce the crossing (Λcos paper Table II). At data-allowed $s_0$, the induced distortion is modest and of opposite sign to the DESI best-fit ($w_0 \approx -0.75$, $w_a \approx -0.86$). The mechanism is established; the amplitude gap remains.
+The apparent phantom crossing is a structural artifact of projecting a non-phantom $H(z)$ form onto two-parameter templates (CPL, BA, JBP). The three-parameter polynomial does not produce the crossing (Λcos paper Table II). At data-allowed $s_0$, the induced distortion is modest and of opposite sign to the DESI best-fit ($w_0 \approx -0.75$, $w_a \approx -0.86$). The mechanism is established; the amplitude gap remains.
 
 ### F. Null channels (topology-fixed)
 

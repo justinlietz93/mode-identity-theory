@@ -12,7 +12,7 @@ Working-note summary of the cosmological-scale phantom-crossing analysis. The fu
 
 It constructs a one-parameter bounded-clock deformation of fiducial flat ΛCDM (the cosmological-scale realization of the Waltz clock from [Temporal Budget Identity](./temporal-budget.md)), and uses it to answer a question made urgent by DESI DR2:
 
-> If the underlying expansion history is non-phantom under the fiducial-matter diagnostic split, can standard two-parameter $w_0 w_a$ templates still produce apparent phantom crossings when fitted to its distances?
+> If the underlying $H(z)$ form is non-phantom under the fiducial-matter diagnostic split, can standard two-parameter $w_0 w_a$ templates still produce apparent phantom crossings when fitted to its distances?
 
 The answer is yes, demonstrated both analytically (the diagnostic $w_{\rm eff}(z) > -1$ for all $z \geq 0$ is proved in closed form) and empirically (CPL, BA, and JBP recover apparent crossings from Λcos mock data; the three-parameter polynomial does not).
 
