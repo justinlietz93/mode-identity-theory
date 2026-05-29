@@ -4,7 +4,7 @@
 
 # Fermion Mass Formula from Spectral Geometry on $S^3/2I$
 
-[![Mass Spectrum](https://img.youtube.com/vi/eYO7BNcjxQI/mqdefault.jpg)](https://www.youtube.com/watch?v=eYO7BNcjxQI)
+[![Mass Spectrum](https://img.youtube.com/vi/9rm-X0DlFeI/mqdefault.jpg)](https://www.youtube.com/watch?v=9rm-X0DlFeI)
 
 The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This page constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
