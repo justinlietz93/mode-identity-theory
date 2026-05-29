@@ -44,7 +44,7 @@ In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four deca
 
 ***[Early Galaxies](files/early-galaxies.md)***
 
-[![Early Galaxies](https://img.youtube.com/vi/vx0F1zpUt_4/mqdefault.jpg)](https://www.youtube.com/watch?v=vx0F1zpUt_4)
+[![Early Galaxies](https://img.youtube.com/vi/BuxnEmMGMFE/mqdefault.jpg)](https://www.youtube.com/watch?v=BuxnEmMGMFE)
 
 ---
 
