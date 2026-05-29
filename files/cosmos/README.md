@@ -54,7 +54,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 ***[Hubble Tension](files/hubble-tension.md)***
 
-[![Hubble Tension](https://img.youtube.com/vi/zg7il8pWhAY/mqdefault.jpg)](https://www.youtube.com/watch?v=zg7il8pWhAY)
+[![Hubble Tension](https://img.youtube.com/vi/ZICE7beEQh8/mqdefault.jpg)](https://www.youtube.com/watch?v=ZICE7beEQh8)
 
 ---
 
