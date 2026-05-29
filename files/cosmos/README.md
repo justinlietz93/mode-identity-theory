@@ -34,7 +34,7 @@ $\Lambda$ is fixed by geometry. What appears to evolve is the observer's phase p
 
 ***[Dark Energy](files/dark-energy.md)***
 
-[![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
+[![Dark Energy](https://img.youtube.com/vi/7l8AbmXyz-0/mqdefault.jpg)](https://www.youtube.com/watch?v=7l8AbmXyz-0)
 
 ---
 
