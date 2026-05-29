@@ -4,7 +4,7 @@
 
 # H₀ Local: Hubble Tension as Phase Field
 
-[![Hubble Tension](https://img.youtube.com/vi/zg7il8pWhAY/mqdefault.jpg)](https://www.youtube.com/watch?v=zg7il8pWhAY)
+[![Hubble Tension](https://img.youtube.com/vi/ZICE7beEQh8/mqdefault.jpg)](https://www.youtube.com/watch?v=ZICE7beEQh8)
 
 Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc; local distance ladders give 73. The discrepancy has persisted across many systematic checks and independent methods. Mode Identity Theory identifies a candidate mechanism through the phase field: a one-step bosonic displacement on the 120-domain, whose size is fixed by the lattice geometry at 8.4%. The lattice calculation is untouched by the empirical failure. The galactic trigger proposed to realize the displacement does not survive its SPARC test.
 
