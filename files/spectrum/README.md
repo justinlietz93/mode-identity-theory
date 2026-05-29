@@ -38,7 +38,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 
 ***[The Waltz](files/the-waltz.md)***
 
-[![The Waltz](https://img.youtube.com/vi/5QDKZavD5g4/mqdefault.jpg)](https://www.youtube.com/watch?v=5QDKZavD5g4)
+[![The Waltz](https://img.youtube.com/vi/aoLJwZDkNGk/mqdefault.jpg)](https://www.youtube.com/watch?v=aoLJwZDkNGk)
 
 ---
 
