@@ -4,7 +4,7 @@
 
 # Phantom Dark Energy: Template Artifact in Static Space
 
-[![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
+[![Dark Energy](https://img.youtube.com/vi/7l8AbmXyz-0/mqdefault.jpg)](https://www.youtube.com/watch?v=7l8AbmXyz-0)
 
 DESI DR2 reports a 2.8–4.2σ preference for dynamical dark energy, with CPL fits favoring an apparent crossing of $w = -1$. We show that a non-phantom distance-redshift relation can produce such crossings when analyzed with two-parameter templates (CPL, BA, JBP), and that Mode Identity Theory provides that relation from a static geometric foundation.
 
