@@ -147,7 +147,7 @@ $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
 | $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; generation splitter | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
 
-Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 10 map to Standard Model fermions; 9 land within a factor of 3. The electron anchors the scale through the electron-muon geometric mean (closure residual <1%); the up quark (6%) and muon (3%) are blind predictions from the fixed topological skeleton.
+Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 10 map to Standard Model fermions; 9 land within a factor of 3. The electron and muon together anchor the scale through their geometric mean (closure residuals <1% and 3%); the up quark at 6% is the genuine blind prediction from the fixed topological skeleton.
 
 ### [Particle Identity](../spectrum/files/mass-spectrum.md)
 
