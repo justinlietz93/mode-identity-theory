@@ -28,9 +28,39 @@ $$\Psi^2 + S^2 = 1, \quad \Psi = \cos(t/2), \quad S = \sin(t/2)$$
 
 $\Psi$ is the cosmic standing wave. $S$ is the **modal realization amplitude** — the bounded fraction of the wave expressed as resolvable modes at phase $t$. The sum closes by construction ($\sin^2 + \cos^2 = 1$), but its content is physical: the realized-mode content and the standing-wave content exhaust the total at every phase.
 
+**Complex phase form.** The budget admits a single complex exponential:
+
+$$\Psi + iS = \cos(t/2) + i\sin(t/2) = e^{it/2}$$
+
+This is a bookkeeping representation of the two real budget components, not an additional complex field. The budget identity is $|e^{it/2}|^2 = 1$. The temporal evolution of the universe is rotation on the unit circle in the complex plane. $\Psi$ (standing wave) is the real part; $S$ (modal realization) is the imaginary part. The half-angle $t/2$ in the exponent is the Möbius signature: two traversals of the boundary restore the sign, giving the $4\pi$ period.
+
+Structural milestones read as positions on the unit circle:
+
+| Phase $t$ | $e^{it/2}$ | Position | Physical epoch |
+|---|---|---|---|
+| 0 | 1 | Real axis, positive | Pure wave. No realization. Formal hot dense limit. |
+| $\pi$ | $i$ | Imaginary axis | First zero crossing. $\Psi = 0$, $S = 1$. Full realization. |
+| $2\pi$ | $-1$ | Real axis, negative | Turnaround. $\Psi = -1$. |
+| $3\pi$ | $-i$ | Imaginary axis | Second zero crossing. |
+| $4\pi$ | 1 | Real axis, positive | Full cycle. Return. |
+
+The present epoch sits partway around the first quadrant ($0 < t_\text{now} < \pi$), between pure wave and full realization.
+
 Bounded realization ($S \leq 1$) is the key feature. Nothing in a standard FLRW decomposition has this constraint. Its fingerprint will appear as a forbidden term (§V).
 
 **What the budget produces alone.** With $H$ defined as $(1/S)(dS/dt)$ (phase-time derivative), the budget gives $H^2 = (1-S^2)/(4S^2)$, which scales as $(1+z)^2 - \text{const}$. This is curvature-like, not matter-like. The $(1+z)^3$ matter scaling requires the Waltz clock (§II), which converts phase time to proper time and contributes the additional $S^{-1}$ factor that turns $S^{-2}$ into $S^{-3}$. The budget identity sets the bounded structure; the clock sets the dimensional content.
+
+### I.A Cooling Without an Outside
+
+A space-filling radiation bath in thermal equilibrium has no exterior to radiate into. In a genuinely static space at fixed volume, such a bath holds its temperature indefinitely. Cooling must be earned, not assumed.
+
+The budget identity provides the mechanism. At early phase ($t \to 0$), $\Psi^2 \approx 1$ and $S^2 \approx 0$: nearly all budget weight resides in the standing wave (unresolved background). As the phase advances, $S$ grows and $\Psi$ shrinks. Budget weight transfers from $\Psi^2$ into $S^2$ — from unresolved wave into realized modes. The total is conserved ($\Psi^2 + S^2 = 1$), but the partition shifts.
+
+Photon energies at observation scale as $S(t_\text{emit})/S(t_\text{obs}) = 1/(1+z)$. All wavelengths scale by the same factor, so a blackbody at emission remains a blackbody at observation — just cooler. Temperature tracks $T \propto 1/S \propto (1+z)$. The cooling is internal redistribution within a closed budget, not leakage into an exterior.
+
+This is functionally equivalent to FLRW redshift cooling, where $T \propto 1/a$ and the scale factor $a$ plays the role of $S$. At the kinematic level the equivalence is exact: if the same variable governs photon redshift and temperature evolution, a blackbody remains a blackbody with $T \propto 1/S$. Distance observables additionally require a clock choice ($dt/d\tau$), handled separately by the budget-clock construction (§II).
+
+**Status:** ESTABLISHED as a kinematic equivalence with the FLRW thermal redshift law. First-principles derivation of the cooling from the postulate, including photon phase-space density and thermodynamic entropy, remains OPEN.
 
 ---
 
@@ -93,7 +123,7 @@ Pure budget without $\Lambda$ gives $q_0 = +0.5$ (deceleration). Data requires $
 
 ## IV. $\Omega_m$ as Output
 
-$\Omega_m = 0.315$ is not a fit input. It emerges from the $(1+z)^3$ coefficient through the budget dressing $1/(1-s_0^2)$. Two readings of the same quantity:
+$\Omega_m = 0.315$ is not fitted by the SN+BAO likelihood in this construction; it is inherited from the topology-fixed $\Omega_\Lambda = 0.685$ through flat closure. What the budget dressing changes is the effective $(1+z)^3$ coefficient, not the underlying matter fraction. Two readings of the same quantity:
 
 $$\Omega_m^\text{underlying} = 1 - \Omega_\Lambda = 0.315 \quad \text{(topology)}$$
 
@@ -125,13 +155,27 @@ Currently below Pantheon+ detection threshold. Future surveys (Euclid, Roman, LS
 
 ---
 
-## VI. The $\Psi$ Denominator
+## VI. The $\Psi$ Numerator
 
-The full clock rate is:
+The clock rate is:
 
-$$\frac{dt}{d\tau} = \frac{S^{-1/2}}{\Psi} = \frac{1}{\sqrt{\sin(t/2)} \cdot \cos(t/2)}$$
+$$\frac{dt}{d\tau} = S^{-1/2}$$
 
-The $\Psi$ in the denominator produces the $(1+z)^1$ term. Structural reading: face ($Z_3$) contributes to matter dilution, edge ($Z_2$) contributes to the Friedmann square root, and the vertex stabilizer ($Z_5$) is the candidate source of this temporal correction. The shape is visible; the derivation is unwalked. If it closes, the vertex's role in the temporal budget becomes the three-stabilizer completion of the 3/2 accounting.
+The $\Psi$ factor enters through the phase derivative:
+
+$$\frac{dS}{dt} = \frac{1}{2}\cos(t/2) = \frac{\Psi}{2}$$
+
+Therefore:
+
+$$\frac{1}{S}\frac{dS}{d\tau} = \frac{\Psi}{2S^{3/2}}$$
+
+and:
+
+$$H^2 \propto \frac{\Psi^2}{S^3} = \frac{1 - S^2}{S^3}$$
+
+This $\Psi^2 = 1 - S^2$ numerator is what produces the negative $(1+z)^1$ correction. Without it, the clock gives pure matter scaling. The $(1+z)^1$ term is therefore not produced by an extra denominator in the clock; it is produced by the bounded budget factor already present in $dS/dt$.
+
+Structural reading: face ($Z_3$) contributes to matter dilution, edge ($Z_2$) contributes to the Friedmann square root, and the vertex stabilizer ($Z_5$) is the candidate source of the $\Psi$ numerator's role in the temporal correction. The shape is visible; the derivation is unwalked. If it closes, the vertex's role in the temporal budget becomes the three-stabilizer completion of the 3/2 accounting.
 
 ---
 
@@ -190,7 +234,7 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 | Clock from postulate | High | The exponent -1/2 is forced by consistency with budget + GR + $S^3$ dimensionality. Integer alternatives empirically ruled out at $\Delta\chi^2 > 60$ (Λcos paper). A derivation from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ that does not invoke GR would promote this from ESTABLISHED to DERIVED. |
 | $t_\text{now}$ from topology | High | The Pantheon+-only fit gives $t_\text{now} = 0.80$ rad; the joint SN+BAO constraint gives $t_\text{now} < 0.38$ rad (95% CL). The BAO data pull the clock toward zero (the ΛCDM limit). Deriving $t_\text{now}$ from topology alone, rather than from data, closes the program, but the empirical value is now uncertain by a factor of $\sim 2$ depending on dataset combination. |
 | $\varphi \leftrightarrow t$ relation | High | The two phase parameters must be reconciled. |
-| Vertex-<i>Z<sub>5</sub></i> role in $\Psi$ denominator | Medium | If the $(1+z)^1$ term derives from $Z_5$ in the temporal budget, the face/edge/vertex completion of the 3/2 accounting becomes explicit. |
+| Vertex-<i>Z<sub>5</sub></i> role in bounded-budget correction | Medium | If the $(1+z)^1$ term derives from $Z_5$ in the temporal budget, the face/edge/vertex completion of the 3/2 accounting becomes explicit. |
 | Redshift mechanism (fully derived) | Medium | Model D+Λ gives the right distances. The phase-ratio picture on $S^1$ is understood in outline; the full derivation chain from postulate to observed $H(z)$ is partially walked. |
 | $(1+z)^1$ detection threshold | Medium (promoted) | At $s_0 < 0.19$, the signature is $< 0.8\%$ of $H^2$ at $z = 1$. Below DESI DR2 per-bin precision ($\sim 2-3\%$). Discriminating regime requires sub-percent per-bin precision: Euclid DR2, DESI full-survey, MegaMapper-class. Signature approaches per-bin detectability for $s_0$ in the upper portion of the data-allowed range; correlated bins improve aggregate sensitivity. |
 | SN vs BAO tension on $s_0$ | Medium (new) | Pantheon+ alone accommodates $s_0 \sim 0.4$; BAO pulls toward zero. Whether this reflects a real tension (different aspects of the $H(z)$ trajectory constraining $s_0$ differently) or simply the expected tightening from complementary data needs investigation. The $\Omega_\Lambda$ sensitivity analysis (Λcos paper V.D) shows the constraint varies smoothly with $\Omega_\Lambda$, with the best $\Delta\chi^2$ near $\Omega_\Lambda = 0.69$. |
@@ -248,11 +292,13 @@ At current DR1 FS precision (9-23% per bin), the Λcos-vs-ΛCDM gap is buried in
 
 $a_0(z)/a_0(0) = H(z)/H_0$ (derived, early-galaxies paper).
 
-| $z$ | MIT | Euclid observable |
-|---|---|---|
-| 0.5 | $1.36 \times a_{0,\text{local}}$ | high-<i>z</i> rotation curves |
-| 1.0 | $1.88 \times a_{0,\text{local}}$ | high-<i>z</i> rotation curves |
-| 2.0 | $3.25 \times a_{0,\text{local}}$ | high-<i>z</i> rotation curves |
+| $z$ | MIT ($s_0 = 0.389$) | MIT ($s_0 = 0.19$) | ΛCDM | Euclid-adjacent observable |
+|---|---|---|---|---|
+| 0.5 | $1.36 \times a_{0,\text{local}}$ | $1.33 \times a_{0,\text{local}}$ | $1.32 \times a_{0,\text{local}}$ | Galaxy-galaxy lensing / scaling relations |
+| 1.0 | $1.88 \times a_{0,\text{local}}$ | $1.81 \times a_{0,\text{local}}$ | $1.79 \times a_{0,\text{local}}$ | Galaxy-galaxy lensing / scaling relations |
+| 2.0 | $3.25 \times a_{0,\text{local}}$ | $3.08 \times a_{0,\text{local}}$ | $3.03 \times a_{0,\text{local}}$ | Galaxy-galaxy lensing / scaling relations |
+
+Direct $a_0(z)$ rotation-curve tests require external kinematic follow-up beyond the Euclid survey footprint.
 
 ### E. Phantom-crossing channel  *(Λcos paper)*
 
