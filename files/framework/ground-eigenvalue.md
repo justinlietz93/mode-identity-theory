@@ -163,7 +163,7 @@ $$u_N^+ = u_N^- \qquad \text{(flux matching: conserved current at the cone)}$$
 
 The first condition excludes the discontinuous zero mode $\phi_0$. The second is the Kirchhoff condition familiar from quantum-graph vertex theory [BK].
 
-**Why $K = \mathrm{Id}$ is forced by the covering geometry.** The cone point $p_c$ on $M$ corresponds to a smooth pole on the covering $S^2 \subset S^3$. Any section of $\mathcal{L}$ that lifts to a smooth function on $S^2$ is automatically regular at the pole: in the $(y, w)$ coordinates it belongs to the regular Frobenius branch ($u = a_0 + a_2\delta^2 + O(\delta^4)$, with $u' = O(\delta)$). Since $\delta = 0^+$ and $\delta = 0^-$ both correspond to the same geometric point (the pole) on the covering $S^2$, a smooth lifted function satisfies $u(0^+) = u(0^-)$ and $(|\delta|/R)\,u'(0^+) = (|\delta|/R)\,u'(0^-) = 0$. These are exactly the transmission conditions with $K = \mathrm{Id}$: any other $K \in \mathrm{SL}_2(\mathbb{R})$ would force the lifted function to have either a value discontinuity or a logarithmic singularity at the pole, contradicting the smoothness of $S^2$. Moreover, the smooth $\mathcal{L}$-sections on the closed covering $S^2$ form a core for the Laplacian (their closure in the graph norm exhausts the maximal domain of the transmission extension), so the transmission extension is the unique self-adjoint extension whose domain contains all smooth lifted sections.
+**Why $K = \mathrm{Id}$ is selected by the covering geometry.** The cone point $p_c$ on $M$ corresponds to a smooth pole on the covering $S^2 \subset S^3$. Any section of $\mathcal{L}$ that lifts to a smooth function on $S^2$ is automatically regular at the pole: in the $(y, w)$ coordinates it belongs to the regular Frobenius branch ($u = a_0 + a_2\delta^2 + O(\delta^4)$, with $u' = O(\delta)$). Since $\delta = 0^+$ and $\delta = 0^-$ both correspond to the same geometric point (the pole) on the covering $S^2$, a smooth lifted function satisfies $u(0^+) = u(0^-)$ and $(|\delta|/R)\,u'(0^+) = (|\delta|/R)\,u'(0^-) = 0$. Among the self-adjoint extensions classified by [BP, Theorem 1.8], $K = \mathrm{Id}$ is the extension whose domain enforces continuity across the cone. The covering geometry selects it: any extension with $K \neq \mathrm{Id}$ would admit sections that are discontinuous at a point which is smooth on $S^2$.
 
 ### 3.6 Summary of the domain
 
@@ -211,7 +211,101 @@ This zero-capacity property explains why the Friedrichs form closure does not im
 
 ## 5. Sector $\mathcal{A}$: Zonal Legendre Spectrum
 
-*To be drafted. Flat strip baseline as one-paragraph motivation, Legendre reduction, spectrum $\{\ell(\ell+1)/R^2 : \ell \text{ odd}\}$, ground $\ell = 1 = Y_1^0$ restricted to band, eigenvalue $2/R^2$.*
+The constant transverse mode ($k = 0$ even family, $\Phi_0^{\rm e} \equiv 1$) reduces the eigenvalue problem to a single ODE in $y$ with anti-periodic boundary conditions. This is the **zonal sector**, denoted Sector $\mathcal{A}$, whose spectrum governs the ground state in the narrow regime.
+
+### 5.1 Flat-strip baseline
+
+On a flat strip with Euclidean metric $ds^2 = dy^2 + dw^2$, the zonal operator reduces to $-u'' = \lambda u$ with the anti-periodic condition $u(y + \pi R) = -u(y)$. The solutions $u \propto e^{iky}$ satisfy $e^{ik\pi R} = -1$, giving $k = (2m+1)/R$ for integer $m \geq 0$. The eigenvalues are $(2m+1)^2/R^2$; the ground state is $m = 0$ with
+
+$$\lambda_0^{\rm flat} = \frac{1}{R^2} = \frac{R_{\rm sm}}{2}.$$
+
+The flat strip recovers half the scalar curvature. The curved operator (§5.2) doubles this to $R_{\rm sm}$, as shown in §5.7.
+
+### 5.2 The reduced operator
+
+On the constant-curvature band, the zonal eigenequation from §3.4 with $\mu = 0$ is
+
+$$-\Delta u = -u'' + \frac{1}{R}\tan\!\left(\frac{y}{R}\right)u' = \lambda\,u \qquad \text{on } (0, \pi R),$$
+
+with anti-periodic boundary conditions $u(\pi R) = -u(0)$ and $u'(\pi R) = -u'(0)$, and the transmission condition at the cone $y = \pi R/2$ (§3.5): continuity of $u$ and matching of the weighted flux $\lim_{\delta \to 0^+}(|\delta|/R)\,u' = \lim_{\delta \to 0^-}(|\delta|/R)\,u'$. For the regular Legendre solutions below, this common flux is zero.
+
+### 5.3 Legendre reduction
+
+The coordinate $y$ on the covering $S^2$ is related to the standard colatitude $\theta$ by $\theta = \pi/2 - y/R$, so that $y = 0$ corresponds to the equator ($\theta = \pi/2$) and $y = \pi R/2$ to the north pole ($\theta = 0$). The substitution
+
+$$x = \sin(y/R) = \cos\theta$$
+
+maps $(0, \pi R/2)$ bijectively to $(0, 1)$ and converts the zonal operator to the Legendre equation. Concretely, with $u(y) = v(\sin(y/R))$:
+
+$$\frac{d}{dx}\!\left[(1-x^2)\frac{dv}{dx}\right] + \nu(\nu+1)\,v = 0, \qquad \lambda = \frac{\nu(\nu+1)}{R^2},$$
+
+where $\nu \geq 0$ is a continuous spectral parameter, not a priori restricted to integers. This equation has two families of solutions: the Legendre function of the first kind $P_\nu(x)$, which satisfies $P_\nu(1) = 1$ and is regular at $x = 1$ (the cone), and the Legendre function of the second kind $Q_\nu(x)$, which diverges logarithmically as $x \to 1$.
+
+Regularity at the cone excludes $Q_\nu$: in our coordinates, $Q_\nu(\sin(y/R)) \sim \log|\delta|$ near $\delta = 0$, which is the logarithmic Frobenius branch of §3.4 with infinite Dirichlet energy. Both the transmission and Friedrichs domains exclude it. The admissible solutions are therefore $P_\nu(\sin(y/R))$ for $\nu \geq 0$.
+
+Since $\sin(y/R)$ maps $(0, \pi R)$ onto $(0, 1, 0)$ symmetrically about $y = \pi R/2$, each $P_\nu(\sin(y/R))$ is well-defined on the full interval and symmetric about the cone. The quantization of $\nu$ to discrete values is imposed by the anti-periodic boundary condition (§5.5).
+
+### 5.4 The full solution space and the transmission selection
+
+The substitution $x = \sin(y/R)$ is two-to-one: both $y$ and $\pi R - y$ map to the same $x$. It produces only solutions that are symmetric about the cone. The full solution space of the second-order zonal ODE has two branches at each eigenvalue:
+
+| Solution family | Behavior at cone | Transmission domain? | Friedrichs domain? | Anti-periodic for |
+|---|---|---|---|---|
+| Symmetric: $P_\ell(\sin(y/R))$ | continuous, value $P_\ell(1) = 1$ | ✓ | ✓ | odd $\ell$ |
+| Antisymmetric: $\mathrm{sgn}(\delta)\,P_\ell(\sin(y/R))$ | jumps by $2P_\ell(1) = 2$ | **excluded** | ✓ | even $\ell$ |
+
+The antisymmetric branch satisfies the value condition $u(\pi R) = -u(0)$ for all $\ell$, but the derivative condition $u'(\pi R) = -u'(0)$ requires $P_\ell'(0) = 0$, selecting even $\ell$. The $\ell = 0$ antisymmetric row is precisely the piecewise-constant zero mode $\phi_0$ from §3.5: eigenvalue 0, anti-periodic, discontinuous at the cone. The transmission condition (continuity at $p_c$) excludes the entire antisymmetric column. A continuous antisymmetric mode would have to vanish at the cone, but both indicial exponents at $\delta = 0$ are $s = 0$ (§3.4), so no nonzero solution of the constant-sector equation vanishes there. The symmetric branch therefore exhausts the transmission spectrum of Sector $\mathcal{A}$.
+
+This is the mechanism of the paper: §3 built the transmission extension to exclude discontinuous sections at the cone; §5 is where that exclusion raises the ground eigenvalue from $0$ (Friedrichs) to $2/R^2$ (transmission).
+
+(In §6, the odd sectors will admit non-integer associated Legendre functions $P_\alpha^\alpha$ because the transverse potential shifts the indicial exponents away from zero, opening a fractional-power regular branch. The contrast with the integer spectrum here is structural.)
+
+### 5.5 The anti-periodic selection rule
+
+The anti-periodic condition $u(\pi R) = -u(0)$ quantizes the continuous spectral parameter $\nu$ from §5.3 to a discrete set. For the admissible symmetric solutions $P_\nu(\sin(y/R))$, both seams evaluate to
+
+$$u(0) = P_\nu(0), \qquad u(\pi R) = P_\nu(0).$$
+
+The condition $P_\nu(0) = -P_\nu(0)$ requires $P_\nu(0) = 0$. The standard formula
+
+$$P_\nu(0) = \frac{\sqrt{\pi}}{\,\Gamma\!\left(\frac{1-\nu}{2}\right)\,\Gamma\!\left(1 + \frac{\nu}{2}\right)}$$
+
+vanishes when $\Gamma\!\left(\frac{1-\nu}{2}\right)$ has a pole, i.e., when $(1-\nu)/2$ is a non-positive integer. This gives $\nu = 1, 3, 5, \ldots$: the odd positive integers.
+
+The derivative condition $u'(\pi R) = -u'(0)$ is then satisfied automatically:
+
+$$u'(y) = P_\nu'(\sin(y/R))\cdot\frac{\cos(y/R)}{R}, \qquad u'(\pi R) = P_\nu'(0)\cdot\frac{\cos\pi}{R} = -\frac{P_\nu'(0)}{R} = -u'(0).$$
+
+The zonal anti-periodic spectrum of Sector $\mathcal{A}$ is therefore
+
+$$\sigma(\text{Sector } \mathcal{A}) = \left\{\frac{\ell(\ell+1)}{R^2} : \ell = 1, 3, 5, \ldots\right\}.$$
+
+The ground eigenvalue is $\ell = 1$:
+
+$$\lambda_0 = \frac{1 \cdot 2}{R^2} = \frac{2}{R^2} = R_{\rm sm}.$$
+
+### 5.6 The ground eigenfunction
+
+The $\ell = 1$ eigenfunction is $P_1(\sin(y/R)) = \sin(y/R)$. On the covering $S^2$, this is the restriction of the $\ell = 1$ zonal spherical harmonic $Y_1^0 \propto \cos\theta = \sin(y/R)$ to the band.
+
+**Anti-periodicity.** The eigenfunction vanishes at both seams: $\sin(0) = \sin(\pi) = 0$. The value condition $u(\pi R) = -u(0)$ is satisfied because the section vanishes on the seam; this is a structural property of odd-degree Legendre polynomials ($P_\ell(0) = 0$ for $\ell$ odd), not an accident of the particular eigenfunction. The derivative condition $u'(\pi R) = -1/R = -u'(0)$ is nontrivial and fixes the correct anti-periodic gluing of the first jets. The function $\sin(y/R)$ is a bona fide section of the orientation bundle $\mathcal{L}$.
+
+**Ground-state status.** Within the odd-$\ell$ Legendre family selected by §5.5, the smallest admissible degree is $\ell = 1$. The eigenvalue $\ell(\ell+1)/R^2$ is strictly increasing in $\ell$, so $\ell = 1$ gives the sector ground state at $2/R^2$. The eigenvalue is simple in Sector $\mathcal{A}$, and the eigenfunction $\sin(y/R)$ is strictly positive on the open interval $(0, \pi R)$.
+
+**Regularity at the cone.** At $y = \pi R/2$: $u_0 = \sin(\pi/2) = 1$ (maximum), $u_0' = \cos(\pi/2)/R = 0$. The eigenfunction belongs to the regular Frobenius branch ($u = 1 - \delta^2/(2R^2) + O(\delta^4)$, $u' = O(\delta)$) and lies in the transmission domain of §3.5.
+
+**Independence from $W$.** The eigenvalue $2/R^2$ and the eigenfunction $\sin(y/R)$ are independent of the transverse half-width $W$. This is because the constant sector has no $w$-dependence: the eigenvalue is determined entirely by the $y$-direction geometry and the anti-periodic condition.
+
+### 5.7 Comparison with the flat strip
+
+| Quantity | Flat strip | Curved band | Ratio |
+|---|---|---|---|
+| Operator | $-u''$ | $-u'' + (1/R)\tan(y/R)\,u'$ | curvature adds the $\tan$ term |
+| Ground eigenfunction | $\sin(y/R)$ | $\sin(y/R)$ | same function, different operator |
+| Ground eigenvalue | $1/R^2$ | $2/R^2$ | $\times 2$ |
+| Relation to $R_{\rm sm}$ | $R_{\rm sm}/2$ | $R_{\rm sm}$ | curvature closes the gap |
+
+The flat strip and the curved band share the same ground eigenfunction. The curvature term $(1/R)\tan(y/R)\,u'$ in the operator, absent on the flat strip, contributes an additional $1/R^2$ to the eigenvalue. This mirrors the familiar spherical fact that the $\ell = 1$ harmonics on $S^2(R)$ have eigenvalue $2/R^2 = R_{\rm sm}$. A Bochner-type lower bound confirming this value independently on the singular surface is discussed in §9.
 
 ---
 
