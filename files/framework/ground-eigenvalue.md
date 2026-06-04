@@ -20,7 +20,23 @@ where $\alpha = \pi R/(2W)$. The transition occurs at $W = \pi R/2$, where both 
 
 ## 2. The Geometric Model $M(W)$
 
-*To be drafted. Spherical band on $S^2 \subset S^3$, Möbius edge gluing, metric $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, boundary $\partial M = S^1$, cone point at $y = \pi R/2$, smooth-locus curvature $R_{\rm sm} = 2/R^2$, $\tau$ as involutive isometry with fixed point at apex, cone topology and local model.*
+Consider the round 2-sphere $S^2(R)$ of radius $R$. Let $\gamma$ be a great circle, and let $y$ denote arclength along a meridian measured from $\gamma$, so that $y = 0$ and $y = \pi R$ correspond to antipodal arcs of $\gamma$ reached on opposite sides of the pole at $y = \pi R/2$. Let $w$ denote arclength along $\gamma$, with $w \in [-W, W]$ for a half-width parameter $0 < W < \pi R$. The induced metric on the band $\{(y, w) : 0 \leq y \leq \pi R,\; |w| \leq W\}$ is
+
+$$ds^2 = dy^2 + \cos^2(y/R)\,dw^2.$$
+
+The Gauss curvature is $K = 1/R^2$ on the smooth locus; the scalar curvature is $R_{\rm sm} = 2/R^2$.
+
+**The Möbius identification.** The map $\tau(y, w) = (\pi R - y, -w)$ is an orientation-preserving isometric involution of the band ($D\tau = \mathrm{diag}(-1, -1)$, $\det D\tau = +1$) with a single fixed point at $(y, w) = (\pi R/2, 0)$. Identifying $(0, w) \sim (\pi R, -w)$ via $\tau$ produces a non-orientable surface
+
+$$M(W) = [0, \pi R] \times [-W, W] \;/\; (0, w) \sim (\pi R, -w)$$
+
+with boundary $\partial M \cong S^1$ (the two arcs $w = \pm W$ join into a single closed curve under the identification). The non-orientability arises from the edge identification itself: transporting a frame $(\partial_y, \partial_w)$ across the seam sends $\partial_w \mapsto -\partial_w$, reversing the frame orientation.
+
+**The cone point.** At $y = \pi R/2$, the metric coefficient $\cos(y/R)$ vanishes, collapsing the transverse fiber $\{y = \pi R/2\} \times [-W, W]$ to a single point $p_c$ in the metric space. Both boundary arcs $w = \pm W$ pass through $p_c$ (the boundary meridians all meet at the pole), so $p_c \in \partial M$: the boundary curve has a corner at the cone vertex. The local model is a half-cone (a spherical lune vertex): the link at $p_c$ is the interval $[-W, W]$ of angular length $2W/R$, with the boundary arcs as its two endpoints. The full cone angle is $2W/R$. In the operator theory of §3, the Neumann boundary conditions at $w = \pm W$ allow the transverse problem to be unfolded onto a circle of circumference $4W/R$ (§3.4), recovering the circle-link framework of Boscain and Prandi [BP] with parameter $\alpha_{\rm BP} = -1$.
+
+**The $y$-direction.** The cone point sits at $y = \pi R/2$, which is interior to the longitudinal interval $(0, \pi R)$. The reduced one-dimensional eigenvalue problems in §§4-5 inherit this: $p_c$ is an interior singular point of the $y$-domain, and the extension theory of §3 applies in full.
+
+**Width regimes.** The cone angle $2W/R$ equals $\pi$ at the critical width $W = \pi R/2$. For $W < \pi R/2$ (narrow band), the cone angle is less than $\pi$; for $W > \pi R/2$ (wide band), it exceeds $\pi$. As $W \to \pi R$, each half of the band approaches a hemisphere.
 
 ---
 
@@ -66,7 +82,7 @@ At the cone point, $f(\pi R/2) = \cos(\pi/2) = 0$. Setting $\delta = y - \pi R/2
 
 $$f(y) = \cos(y/R) = -\sin(\delta/R) \quad \Longrightarrow \quad |f| \sim \frac{|\delta|}{R} \quad \text{as } \delta \to 0.$$
 
-The transverse circle of circumference $2W|f(y)|$ collapses to a point. On the covering $S^2 \subset S^3$, the coordinate $y = \pi R/2$ is a smooth pole; on the edge-identified Möbius band, the same collapse produces a conical singularity with cone angle $2W/R$.
+The transverse fiber $[-W, W]$ has metric length $2W|f(y)|$, which collapses to zero. On the covering $S^2$, the coordinate $y = \pi R/2$ is a smooth pole; on the edge-identified Möbius band, the same collapse produces a conical singularity with cone angle $2W/R$.
 
 The surface is smooth away from $p_c$, with constant Gaussian curvature $K = 1/R^2$ and smooth-locus scalar curvature
 
