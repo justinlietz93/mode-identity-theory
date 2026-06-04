@@ -380,13 +380,7 @@ At $W = \pi R/2$ both branches give $2/R^2$, and the ground eigenvalue is doubly
 
 **(iii) Even nonconstant sectors.** Ground eigenvalue $\alpha_k(\alpha_k + 1)/R^2$ with $\alpha_k = k\pi R/W \geq \pi R/W > 1$ for all $k \geq 1$ and $W < \pi R$. This is the exact sector minimum established by the half-interval Neumann argument of §5.7, and the sharp $+1$ in $\alpha_k(\alpha_k + 1)$ is essential: a cruder potential-only bound gives $\alpha_k^2/R^2$, which fails to clear $2/R^2$ when $\alpha_k \in (1, \sqrt{2})$. Since $\alpha_k > 1$, the exact expression gives $\alpha_k(\alpha_k + 1)/R^2 > 1 \cdot 2/R^2 = 2/R^2$.
 
-The global ground eigenvalue is therefore $\lambda_0 = \min(2/R^2,\;\alpha_0(\alpha_0+1)/R^2)$. The function $\alpha \mapsto \alpha(\alpha+1)$ is increasing for $\alpha > 0$, and $\alpha_0 = \pi R/(2W)$ is decreasing in $W$, so $\alpha_0(\alpha_0+1)$ is strictly decreasing in $W$. The comparison:
-
-- $W < \pi R/2 \implies \alpha_0 > 1 \implies \alpha_0(\alpha_0+1) > 2 \implies$ the zonal mode wins.
-- $W = \pi R/2 \implies \alpha_0 = 1 \implies \alpha_0(\alpha_0+1) = 2 \implies$ both branches tie.
-- $W > \pi R/2 \implies \alpha_0 < 1 \implies \alpha_0(\alpha_0+1) < 2 \implies$ the odd-sector mode wins.
-
-The even nonconstant sectors are strictly above $2/R^2$ throughout and never compete. $\square$
+The global ground eigenvalue is therefore $\lambda_0 = \min(2/R^2,\;\alpha_0(\alpha_0+1)/R^2)$. The function $\alpha \mapsto \alpha(\alpha+1)$ is increasing for $\alpha > 0$, and $\alpha_0 = \pi R/(2W)$ is decreasing in $W$, so $\alpha_0(\alpha_0+1)$ is strictly decreasing in $W$. The comparison reduces to $\alpha_0 \gtrless 1$: the ground eigenvalue is $2/R^2$ when $W \leq \pi R/2$ (where $\alpha_0 \geq 1$ and the zonal mode wins), and $\alpha_0(\alpha_0+1)/R^2$ when $W > \pi R/2$ (where $\alpha_0 < 1$ and the odd-sector mode wins). At $W = \pi R/2$ the two branches meet. The even nonconstant sectors are strictly above $2/R^2$ throughout and never compete. $\square$
 
 **Corollary (Degeneracy at the transition).** At $W = \pi R/2$, the ground eigenspace is exactly two-dimensional. The only sector minima attaining $2/R^2$ are the constant sector ($\ell = 1$ zonal, §4.5) and the $j = 0$ odd sector ($\alpha_0 = 1$, §5.5); the next odd sector ($j = 1$) gives $3 \cdot 4/R^2 = 12/R^2$, and the lowest even sector ($k = 1$) gives $2 \cdot 3/R^2 = 6/R^2$. The two ground-state modes are
 
