@@ -4,11 +4,13 @@
 
 # Ground-State Transition for the Twisted Laplacian on a Constant-Curvature Möbius Band
 
-On the constant-curvature Möbius band $M(W)$ constructed from a spherical band on $S^2 \subset S^3$ with half-width $W$, the twisted Laplacian is equipped with the continuous transmission extension (continuous sections across the cone apex in every sector). The ground eigenvalue exhibits a width-dependent transition:
+We study the Laplace-Beltrami operator on sections of the orientation line bundle over a constant-curvature Möbius band $M(W)$ of half-width $W$, constructed from a spherical band on $S^2(R)$ with the antipodal-edge identification. The metric degeneracy at the identification's fixed point creates a conical singularity where the operator fails to be essentially self-adjoint in the constant transverse sector. We adopt the continuous transmission extension and prove that the ground eigenvalue exhibits a width-dependent transition:
 
-$$\lambda_0(W) = \begin{cases} 2/R^2 & W \leq \pi R/2 \quad \text{(cone angle} \leq \pi\text{)} \\ \alpha(\alpha+1)/R^2 & W > \pi R/2 \quad \text{(cone angle} > \pi\text{)} \end{cases}$$
+$$\lambda_0(W) = \begin{cases} 2/R^2 & 0 < W \leq \pi R/2, \\ \alpha(\alpha+1)/R^2,\quad \alpha = \pi R/(2W) & \pi R/2 < W < \pi R. \end{cases}$$
 
-where $\alpha = \pi R/(2W)$. The transition occurs at $W = \pi R/2$, where both branches give $2/R^2$ and the ground eigenvalue is doubly degenerate. Both branches are realized by explicit eigenfunctions: $\sin(y/R)$ (the $\ell = 1$ zonal harmonic) for the narrow regime, and $|\cos(y/R)|^\alpha \sin(\pi w/2W)$ (the sectoral associated Legendre function $P_\alpha^\alpha$) for the wide regime.
+Both branches are realized by explicit eigenfunctions: the $\ell = 1$ zonal Legendre polynomial $\sin(y/R)$ for the narrow regime, and the product $|\cos(y/R)|^\alpha\sin(\pi w/2W)$ (with longitudinal factor $P_\alpha^\alpha$, a sectoral associated Legendre function of non-integer degree) for the wide regime. At $W = \pi R/2$ the ground eigenvalue is doubly degenerate, with the two modes corresponding to $Y_1^0$ and a $Y_1^1$-type harmonic on the covering sphere.
+
+The proof is by exact separation into transverse Neumann sectors, with the reduced Sturm-Liouville problems solved in closed form via Legendre functions for all widths. The Friedrichs extension, by contrast, admits a discontinuous piecewise-constant zero mode and gives $\lambda_0 = 0$ for all $W$; the transmission extension excludes it, and the entire width-dependent transition is a consequence of this exclusion. For $W > \pi R/2$, the ground eigenfunction changes sign, consistent with the nontriviality of the orientation bundle and the inapplicability of Perron-Frobenius positivity methods.
 
 ---
 
