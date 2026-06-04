@@ -10,7 +10,7 @@ $$\lambda_0(W) = \begin{cases} 2/R^2 & 0 < W \leq \pi R/2, \\ \alpha(\alpha+1)/R
 
 Both branches are realized by explicit eigenfunctions: the $\ell = 1$ zonal Legendre polynomial $\sin(y/R)$ for the narrow regime, and the product $|\cos(y/R)|^\alpha\sin(\pi w/2W)$ (with longitudinal factor $P_\alpha^\alpha$, a sectoral associated Legendre function of non-integer degree) for the wide regime. At $W = \pi R/2$ the ground eigenvalue is doubly degenerate, with the two modes corresponding to $Y_1^0$ and a $Y_1^1$-type harmonic on the covering sphere.
 
-The proof is by exact separation into transverse Neumann sectors, with the reduced Sturm-Liouville problems solved in closed form via Legendre functions for all widths. The ground eigenvalue is positive because the transmission extension excludes a discontinuous zero mode that the Friedrichs extension would admit; its value and width-dependence are determined by the sector comparison. For $W > \pi R/2$, the ground eigenfunction changes sign, as a section of a nontrivial orientation bundle must.
+The proof is by exact separation into transverse Neumann sectors, with the reduced Sturm-Liouville problems solved in closed form via Legendre functions for all widths. The ground eigenvalue is positive because the transmission extension excludes a discontinuous zero mode that the Friedrichs extension would admit; its value and width-dependence are determined by the sector comparison. For $W > \pi R/2$, the covering representative of the ground eigenfunction changes sign, reflecting the nontriviality of the orientation bundle.
 
 ---
 
@@ -82,7 +82,7 @@ The boundary $\partial M$ consists of two geodesic arcs at $w = \pm W$. We impos
 
 $$\partial_w\psi\big|_{w = \pm W} = 0.$$
 
-These boundary arcs are geodesics of the surface ($\kappa_g = 0$). For a comparison with the Dirichlet thin-strip setting of [KKZ], see §7.3.
+These boundary arcs are geodesics of the surface ($\kappa_g = 0$).
 
 ### 3.3 The involution and the cone point
 
@@ -164,7 +164,7 @@ This lemma is the geometric reason that the Friedrichs and transmission extensio
 
 The analysis of §3.4 shows that an extension choice arises only in the constant sector ($\mu = 0$), where both local solutions are $L^2$. The two canonical choices are:
 
-**The Friedrichs extension.** In the constant sector [Friedrichs], ($\mu = 0$), the Friedrichs extension is characterized by Theorem 1.8 of [BP] (applied at $\alpha = -1$): its domain consists of functions $u \in D_{\max}(\hat\Delta_0)$ satisfying
+**The Friedrichs extension.** In the constant sector ($\mu = 0$), the Friedrichs extension [Friedrichs] is characterized by Theorem 1.8 of [BP] (applied at $\alpha = -1$): its domain consists of functions $u \in D_{\max}(\hat\Delta_0)$ satisfying
 
 $$\lim_{\delta \to 0^+} \frac{|\delta|}{R}\,u'(\delta) = 0 \qquad \text{and} \qquad \lim_{\delta \to 0^-} \frac{|\delta|}{R}\,u'(\delta) = 0,$$
 
@@ -318,7 +318,7 @@ Two ingredients explain why non-integer $\alpha$ is admissible here but excluded
 
 At both seams: $|\cos(0)|^\alpha = 1$ and $|\cos(\pi)|^\alpha = |-1|^\alpha = 1$, so $u(0) = u(\pi R) = 1$. The derivatives: $u'(0) = -(\alpha/R)\sin(0) = 0$ and $u'(\pi R) = -(\alpha/R)\sin(\pi) = 0$, so $u'(0) = u'(\pi R) = 0$. Both the value and derivative periodicity conditions are satisfied.
 
-Near the cone ($\delta = y - \pi R/2 \to 0$): $|\cos(y/R)|^\alpha \sim |\delta/R|^\alpha \to 0$ for $\alpha > 0$. This is the regular Frobenius branch $|\delta|^{+\alpha}$ identified in §3.4. For all $\alpha > 0$, the eigenfunction lies in both the transmission and Friedrichs domains (§3.4, nonconstant sectors). In the wide regime ($\alpha < 1$), the eigenfunction has a cusp at the cone: $|u'| \sim \alpha|\delta|^{\alpha-1}/R \to \infty$, but the Dirichlet energy $\int|f|\,(u')^2\,dy \sim \int|\delta|^{2\alpha-1}\,d\delta$ is finite for all $\alpha > 0$. The cusp is the visible signature of the wide regime.
+Near the cone ($\delta = y - \pi R/2 \to 0$): $|\cos(y/R)|^\alpha \sim |\delta/R|^\alpha \to 0$ for $\alpha > 0$. This is the regular Frobenius branch $|\delta|^{+\alpha}$ identified in §3.4. For all $\alpha > 0$, the eigenfunction lies in both the transmission and Friedrichs domains (§3.4, nonconstant sectors). In the wide regime ($\alpha < 1$), the eigenfunction is not $C^1$ at the cone ($|u'| \sim \alpha|\delta|^{\alpha-1}/R \to \infty$), but the Dirichlet energy $\int|f|\,(u')^2\,dy \sim \int|\delta|^{2\alpha-1}\,d\delta$ is finite for all $\alpha > 0$.
 
 ### 5.5 Ground state within the odd sectors
 
