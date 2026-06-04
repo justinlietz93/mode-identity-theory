@@ -122,7 +122,7 @@ The cone is **limit-point**. Self-adjointness is unique; no extension choice ari
 
 $$\int (u')^2\,|f|\,d\delta \sim \int \alpha^2\,|\delta|^{-2\alpha-2} \cdot |\delta|\,d\delta = \alpha^2\!\int |\delta|^{-2\alpha-1}\,d\delta = \infty \qquad \text{for all } \alpha > 0.$$
 
-The exponent $-2\alpha - 1 < -1$ for every $\alpha > 0$, so this divergence holds throughout the limit-circle regime. The Friedrichs extension excludes the singular branch by requiring finite Dirichlet integral, selecting the regular solution $|\delta|^{+\alpha}$. The regular eigenfunction $|\delta|^{\alpha} = |\cos(y/R)|^{\alpha}$ vanishes at the cone; continuity there is automatic. The Friedrichs extension and the continuous transmission extension coincide. (The function $|\cos(y/R)|^\alpha$ for non-integer $\alpha \in (0,1)$ is the sectoral associated Legendre function $P_\alpha^\alpha$ restricted to the band; its properties are developed in §6.)
+The exponent $-2\alpha - 1 < -1$ for every $\alpha > 0$, so this divergence holds throughout the limit-circle regime. The Friedrichs extension excludes the singular branch by requiring finite Dirichlet integral, selecting the regular solution $|\delta|^{+\alpha}$. The regular eigenfunction $|\delta|^{\alpha} = |\cos(y/R)|^{\alpha}$ vanishes at the cone; continuity there is automatic. The Friedrichs extension and the continuous transmission extension coincide. (The function $|\cos(y/R)|^\alpha$ for non-integer $\alpha \in (0,1)$ is the sectoral associated Legendre function $P_\alpha^\alpha$ restricted to the band; its properties are developed in §5.)
 
 **Locality of the classification.** The limit-point/limit-circle classification at a singular endpoint depends only on the local behavior of the coefficients [Weidmann]. Near $p_c$, the weight $|f|$ vanishes linearly in $\delta$, matching the flat-cone case $\alpha = -1$ in the notation of Boscain and Prandi [BP]. Their Theorem 1.6(ii) establishes that for $\alpha \in (-3, -1]$ on the model cone $ds^2 = dx^2 + |x|^{-2\alpha}\,d\theta^2$, only the $k = 0$ Fourier component fails to be essentially self-adjoint. Since the limit-circle/limit-point distinction is local, the same conclusion transfers to the constant-curvature Möbius band: the global curvature $K = 1/R^2$ modifies the eigenvalues but does not alter the self-adjoint extension classification at the cone.
 
@@ -179,49 +179,15 @@ The self-adjoint extension adopted throughout this paper is the continuous trans
 
 The Friedrichs extension and the continuous transmission extension differ only in the constant sector ($\mu = 0$), where the vanishing of the angular potential removes the cone's repulsive barrier and exposes the limit-circle character of the endpoint.
 
-**Zero capacity at the cone.** The operator-theoretic reason the Friedrichs extension admits a discontinuous mode is that the cone point has **zero capacity** in the constant sector. The Liouville transform $x = \int^y dy'/|f(y')|$ converts the Sturm-Liouville equation into a standard Schrödinger form on the transformed coordinate. Near $y = \pi R/2$, $|f| = |\cos(y/R)| \sim |\delta|/R$, so
-
-$$x = \int \frac{d\delta}{|\delta|/R} = R\log|\delta| + \text{const},$$
-
-which diverges logarithmically as $\delta \to 0$. The Liouville transform maps the cone point to $x = +\infty$. In Sturm-Liouville theory, the capacity of a boundary point is measured by the **resistance integral** $\int_c^\infty dx/p(x)$: when this integral diverges, the boundary has zero capacity. For the constant sector with $\mu = 0$, the transformed equation has $p = 1$ and the resistance integral diverges (the cone is at $x = +\infty$). For nonconstant sectors with $\mu > 0$, the repulsive potential $\mu R/|\delta|$ in the original coordinate becomes a confining barrier in the Liouville coordinate, and the endpoint classification changes from limit-circle to limit-point (for $\alpha \geq 1$), making the extension unique.
-
-This zero-capacity property explains why the Friedrichs form closure does not impose equality of the two one-sided apex values: the form domain decomposes over the two halves, giving the "disjoint dynamics" of [BP, Theorem 1.8].
-
-### 3.7 Literature
-
-**Cone singularities (Cheeger).** The foundational theory of the Laplacian on spaces with cone-like singularities is due to Cheeger [Cheeger1979, Cheeger1983], who showed that the Friedrichs extension of the Laplacian on a manifold with an isolated conical singularity is self-adjoint, and that the deficiency indices are determined by the link geometry and the cone angle. Our setting is a specific instance: a 2-dimensional surface with a single cone point whose link is a circle of length $2W/R$.
-
-**Conic and anticonic surfaces (Boscain-Prandi).** Boscain and Prandi [BP] classify the self-adjoint extensions of the Laplace-Beltrami operator on the model surface $ds^2 = dx^2 + |x|^{-2\alpha}\,d\theta^2$, $\theta \in \mathbb{T}$. Our cone corresponds to their $\alpha = -1$ case (linear vanishing of the weight). Their Theorem 1.6(ii) establishes that only the $k = 0$ Fourier sector fails to be essentially self-adjoint, and their Theorem 1.8 classifies the extensions of that sector into disjoint and mixed families. Our continuous transmission extension is their bridging extension (Remark 1.9 of [BP]). The present paper extends their model-cone analysis to the constant-curvature setting, where the global geometry modifies the eigenvalues but the local classification at the singular point is unchanged.
-
-**Regular singular operators (Brüning-Seeley).** Brüning and Seeley [BS] develop the Frobenius-type asymptotic theory for elliptic operators near conical singularities, establishing the structure of the maximal domain as a direct sum of the minimal domain and a finite-dimensional space spanned by the singular and regular branches. Our decomposition in §3.4 is a concrete instance of their general framework.
-
-**Inverse-square potentials (Kalf-Schmincke-Walter-Wüst).** For nonconstant sectors ($\mu > 0$), the reduced equation near the cone takes the form of a Schrödinger operator with an inverse-distance potential $\mu R/|\delta|$. The self-adjoint extension theory for such potentials is classical; see [KSWW] and Reed-Simon [RS, Theorem X.10]. The critical coupling in the Calogero-type classification corresponds in our setting to $\alpha = \sqrt{\mu}\,R = 1$, which is the boundary between the limit-point and limit-circle regimes.
-
-**Quantum-graph vertex conditions.** The transmission condition at the cone is analogous to the standard Kirchhoff (or free) vertex condition in quantum-graph theory [BK]: continuity of the function and conservation of current at a graph vertex. The cone point plays the role of a graph vertex connecting the two halves of the band. The Friedrichs extension, which decouples the halves, is the analogue of Dirichlet (absorbing) vertex conditions.
-
-**What is claimed here.** The general phenomenon, that a conical singularity on a non-orientable surface can admit a discontinuous zero mode in the Friedrichs extension, is a specific instance of the theories above. What the present paper contributes is the specific realization on the constant-curvature Möbius band: an interior cone disconnecting a non-orientable surface, manufacturing a zero mode in the twisted anti-periodic setting, whose exclusion by the transmission extension determines the ground-state spectrum for all widths.
+*[Literature review paragraphs (Cheeger, BP, Brüning-Seeley, KSWW, quantum-graph analogy) to be integrated into §1 Introduction when written. Key citations are already inline throughout §3.]*
 
 ---
 
-## 4. Separation into Transverse Sectors
-
-*To be drafted. Neumann modes in $w$, parity coupling: even $n$ → anti-periodic $y$, odd $n$ → periodic $y$, reduced Sturm-Liouville problems.*
-
----
-
-## 5. Sector $\mathcal{A}$: Zonal Legendre Spectrum
+## 4. Sector $\mathcal{A}$: Zonal Legendre Spectrum
 
 The constant transverse mode ($k = 0$ even family, $\Phi_0^{\rm e} \equiv 1$) reduces the eigenvalue problem to a single ODE in $y$ with anti-periodic boundary conditions. This is the **zonal sector**, denoted Sector $\mathcal{A}$, whose spectrum governs the ground state in the narrow regime.
 
-### 5.1 Flat-strip baseline
-
-On a flat strip with Euclidean metric $ds^2 = dy^2 + dw^2$, the zonal operator reduces to $-u'' = \lambda u$ with the anti-periodic condition $u(y + \pi R) = -u(y)$. The solutions $u \propto e^{iky}$ satisfy $e^{ik\pi R} = -1$, giving $k = (2m+1)/R$ for integer $m \geq 0$. The eigenvalues are $(2m+1)^2/R^2$; the ground state is $m = 0$ with
-
-$$\lambda_0^{\rm flat} = \frac{1}{R^2} = \frac{R_{\rm sm}}{2}.$$
-
-The flat strip recovers half the scalar curvature. The curved operator (§5.2) doubles this to $R_{\rm sm}$, as shown in §5.7.
-
-### 5.2 The reduced operator
+### 4.1 The reduced operator
 
 On the constant-curvature band, the zonal eigenequation from §3.4 with $\mu = 0$ is
 
@@ -229,7 +195,7 @@ $$-\Delta u = -u'' + \frac{1}{R}\tan\!\left(\frac{y}{R}\right)u' = \lambda\,u \q
 
 with anti-periodic boundary conditions $u(\pi R) = -u(0)$ and $u'(\pi R) = -u'(0)$, and the transmission condition at the cone $y = \pi R/2$ (§3.5): continuity of $u$ and matching of the weighted flux $\lim_{\delta \to 0^+}(|\delta|/R)\,u' = \lim_{\delta \to 0^-}(|\delta|/R)\,u'$. For the regular Legendre solutions below, this common flux is zero.
 
-### 5.3 Legendre reduction
+### 4.2 Legendre reduction
 
 The coordinate $y$ on the covering $S^2$ is related to the standard colatitude $\theta$ by $\theta = \pi/2 - y/R$, so that $y = 0$ corresponds to the equator ($\theta = \pi/2$) and $y = \pi R/2$ to the north pole ($\theta = 0$). The substitution
 
@@ -243,9 +209,9 @@ where $\nu \geq 0$ is a continuous spectral parameter, not a priori restricted t
 
 Regularity at the cone excludes $Q_\nu$: in our coordinates, $Q_\nu(\sin(y/R)) \sim \log|\delta|$ near $\delta = 0$, which is the logarithmic Frobenius branch of §3.4 with infinite Dirichlet energy. Both the transmission and Friedrichs domains exclude it. The admissible solutions are therefore $P_\nu(\sin(y/R))$ for $\nu \geq 0$.
 
-Since $\sin(y/R)$ maps $(0, \pi R)$ onto $(0, 1, 0)$ symmetrically about $y = \pi R/2$, each $P_\nu(\sin(y/R))$ is well-defined on the full interval and symmetric about the cone. The quantization of $\nu$ to discrete values is imposed by the anti-periodic boundary condition (§5.5).
+Since $\sin(y/R)$ maps $(0, \pi R)$ onto $(0, 1, 0)$ symmetrically about $y = \pi R/2$, each $P_\nu(\sin(y/R))$ is well-defined on the full interval and symmetric about the cone. The quantization of $\nu$ to discrete values is imposed by the anti-periodic boundary condition (§4.4).
 
-### 5.4 The full solution space and the transmission selection
+### 4.3 The full solution space and the transmission selection
 
 The substitution $x = \sin(y/R)$ is two-to-one: both $y$ and $\pi R - y$ map to the same $x$. It produces only solutions that are symmetric about the cone. The full solution space of the second-order zonal ODE has two branches at each eigenvalue:
 
@@ -256,13 +222,13 @@ The substitution $x = \sin(y/R)$ is two-to-one: both $y$ and $\pi R - y$ map to 
 
 The antisymmetric branch satisfies the value condition $u(\pi R) = -u(0)$ for all $\ell$, but the derivative condition $u'(\pi R) = -u'(0)$ requires $P_\ell'(0) = 0$, selecting even $\ell$. The $\ell = 0$ antisymmetric row is precisely the piecewise-constant zero mode $\phi_0$ from §3.5: eigenvalue 0, anti-periodic, discontinuous at the cone. The transmission condition (continuity at $p_c$) excludes the entire antisymmetric column. A continuous antisymmetric mode would have to vanish at the cone, but both indicial exponents at $\delta = 0$ are $s = 0$ (§3.4), so no nonzero solution of the constant-sector equation vanishes there. The symmetric branch therefore exhausts the transmission spectrum of Sector $\mathcal{A}$.
 
-This is the mechanism of the paper: §3 built the transmission extension to exclude discontinuous sections at the cone; §5 is where that exclusion raises the ground eigenvalue from $0$ (Friedrichs) to $2/R^2$ (transmission).
+This is the mechanism of the paper: §3 built the transmission extension to exclude discontinuous sections at the cone; §4 is where that exclusion raises the ground eigenvalue from $0$ (Friedrichs) to $2/R^2$ (transmission).
 
-(In §6, the odd sectors will admit non-integer associated Legendre functions $P_\alpha^\alpha$ because the transverse potential shifts the indicial exponents away from zero, opening a fractional-power regular branch. The contrast with the integer spectrum here is structural.)
+(In §5, the odd sectors will admit non-integer associated Legendre functions $P_\alpha^\alpha$ because the transverse potential shifts the indicial exponents away from zero, opening a fractional-power regular branch. The contrast with the integer spectrum here is structural.)
 
-### 5.5 The anti-periodic selection rule
+### 4.4 The anti-periodic selection rule
 
-The anti-periodic condition $u(\pi R) = -u(0)$ quantizes the continuous spectral parameter $\nu$ from §5.3 to a discrete set. For the admissible symmetric solutions $P_\nu(\sin(y/R))$, both seams evaluate to
+The anti-periodic condition $u(\pi R) = -u(0)$ quantizes the continuous spectral parameter $\nu$ from §4.2 to a discrete set. For the admissible symmetric solutions $P_\nu(\sin(y/R))$, both seams evaluate to
 
 $$u(0) = P_\nu(0), \qquad u(\pi R) = P_\nu(0).$$
 
@@ -284,19 +250,11 @@ The ground eigenvalue is $\ell = 1$:
 
 $$\lambda_0 = \frac{1 \cdot 2}{R^2} = \frac{2}{R^2} = R_{\rm sm}.$$
 
-### 5.6 The ground eigenfunction
+### 4.5 The ground eigenfunction
 
-The $\ell = 1$ eigenfunction is $P_1(\sin(y/R)) = \sin(y/R)$. On the covering $S^2$, this is the restriction of the $\ell = 1$ zonal spherical harmonic $Y_1^0 \propto \cos\theta = \sin(y/R)$ to the band.
+The $\ell = 1$ eigenfunction is $P_1(\sin(y/R)) = \sin(y/R)$, the restriction of the zonal harmonic $Y_1^0 \propto \cos\theta = \sin(y/R)$ to the band. The value condition at the seams holds because $\sin(y/R)$ vanishes there ($P_\ell(0) = 0$ for odd $\ell$, a structural property); the derivative condition $u'(\pi R) = -u'(0) = -1/R$ is nontrivial. Within the odd-$\ell$ family, $\ell = 1$ is the smallest admissible degree, so $2/R^2$ is the sector ground eigenvalue. The eigenfunction is strictly positive on $(0, \pi R)$, belongs to the regular Frobenius branch at the cone ($u(\pi R/2) = 1$, $u'(\pi R/2) = 0$), and lies in the transmission domain of §3.5. The eigenvalue $2/R^2$ is independent of the transverse half-width $W$.
 
-**Anti-periodicity.** The eigenfunction vanishes at both seams: $\sin(0) = \sin(\pi) = 0$. The value condition $u(\pi R) = -u(0)$ is satisfied because the section vanishes on the seam; this is a structural property of odd-degree Legendre polynomials ($P_\ell(0) = 0$ for $\ell$ odd), not an accident of the particular eigenfunction. The derivative condition $u'(\pi R) = -1/R = -u'(0)$ is nontrivial and fixes the correct anti-periodic gluing of the first jets. The function $\sin(y/R)$ is a bona fide section of the orientation bundle $\mathcal{L}$.
-
-**Ground-state status.** Within the odd-$\ell$ Legendre family selected by §5.5, the smallest admissible degree is $\ell = 1$. The eigenvalue $\ell(\ell+1)/R^2$ is strictly increasing in $\ell$, so $\ell = 1$ gives the sector ground state at $2/R^2$. The eigenvalue is simple in Sector $\mathcal{A}$, and the eigenfunction $\sin(y/R)$ is strictly positive on the open interval $(0, \pi R)$.
-
-**Regularity at the cone.** At $y = \pi R/2$: $u_0 = \sin(\pi/2) = 1$ (maximum), $u_0' = \cos(\pi/2)/R = 0$. The eigenfunction belongs to the regular Frobenius branch ($u = 1 - \delta^2/(2R^2) + O(\delta^4)$, $u' = O(\delta)$) and lies in the transmission domain of §3.5.
-
-**Independence from $W$.** The eigenvalue $2/R^2$ and the eigenfunction $\sin(y/R)$ are independent of the transverse half-width $W$. This is because the constant sector has no $w$-dependence: the eigenvalue is determined entirely by the $y$-direction geometry and the anti-periodic condition.
-
-### 5.7 Comparison with the flat strip
+### 4.6 Comparison with the flat strip
 
 | Quantity | Flat strip | Curved band | Ratio |
 |---|---|---|---|
@@ -305,15 +263,15 @@ The $\ell = 1$ eigenfunction is $P_1(\sin(y/R)) = \sin(y/R)$. On the covering $S
 | Ground eigenvalue | $1/R^2$ | $2/R^2$ | $\times 2$ |
 | Relation to $R_{\rm sm}$ | $R_{\rm sm}/2$ | $R_{\rm sm}$ | curvature closes the gap |
 
-The flat strip and the curved band share the same ground eigenfunction. The curvature term $(1/R)\tan(y/R)\,u'$ in the operator, absent on the flat strip, contributes an additional $1/R^2$ to the eigenvalue. This mirrors the familiar spherical fact that the $\ell = 1$ harmonics on $S^2(R)$ have eigenvalue $2/R^2 = R_{\rm sm}$. A Bochner-type lower bound confirming this value independently on the singular surface is discussed in §9.
+The flat strip and the curved band share the same ground eigenfunction. The curvature term $(1/R)\tan(y/R)\,u'$ in the operator, absent on the flat strip, contributes an additional $1/R^2$ to the eigenvalue. This mirrors the familiar spherical fact that the $\ell = 1$ harmonics on $S^2(R)$ have eigenvalue $2/R^2 = R_{\rm sm}$. A Bochner-type lower bound confirming this value independently on the singular surface is discussed in §7.
 
 ---
 
-## 6. Odd Sectors and the Associated Legendre Branch
+## 5. Odd Sectors and the Associated Legendre Branch
 
-The odd transverse modes ($\Phi_j^{\rm o}$, $j = 0, 1, 2, \ldots$) produce periodic longitudinal functions (§3.4). This is the **periodic sector**, whose spectrum governs the ground state in the wide regime. In contrast to §5, the indicial exponents are nonzero and the spectral parameter is non-integer: the eigenfunctions are fractional-power associated Legendre functions rather than polynomials.
+The odd transverse modes ($\Phi_j^{\rm o}$, $j = 0, 1, 2, \ldots$) produce periodic longitudinal functions (§3.4). This is the **periodic sector**, whose spectrum governs the ground state in the wide regime. In contrast to §4, the indicial exponents are nonzero and the spectral parameter is non-integer: the eigenfunctions are fractional-power associated Legendre functions rather than polynomials.
 
-### 6.1 The reduced operator
+### 5.1 The reduced operator
 
 For the $j$-th odd transverse mode with eigenvalue $\mu_j = \bigl((2j+1)\pi/(2W)\bigr)^2$, the reduced eigenequation from §3.4 is
 
@@ -321,7 +279,7 @@ $$-\bigl(|f|\,u'\bigr)' + \frac{\mu_j}{|f|}\,u = \lambda\,|f|\,u, \qquad f(y) = 
 
 on $(0, \pi R)$ with periodic boundary conditions $u(\pi R) = u(0)$, $u'(\pi R) = u'(0)$. The transmission condition at the cone (§3.5) is continuity plus matching of weighted flux; for the regular Frobenius branch at $\alpha_j > 0$, the Friedrichs and transmission extensions coincide (§3.4), and the eigenfunction vanishes at the cone.
 
-### 6.2 The exact eigenfunction
+### 5.2 The exact eigenfunction
 
 **Claim.** The function $u = |\cos(y/R)|^{\alpha}$ with $\alpha = (2j+1)\pi R/(2W)$ satisfies the reduced equation with eigenvalue
 
@@ -347,25 +305,25 @@ With $\mu_j = \alpha^2/R^2$ (the definition $\alpha = R\sqrt{\mu_j}$), the const
 
 $$-\bigl(|f|\,u'\bigr)' + \frac{\mu_j}{|f|}\,u = \frac{\alpha(\alpha+1)}{R^2}\,r^{\alpha+1} = \frac{\alpha(\alpha+1)}{R^2}\,|f|\,u. \qquad \square$$
 
-### 6.3 Identification as the sectoral Legendre function
+### 5.3 Identification as the sectoral Legendre function
 
-Under the substitution $x = \sin(y/R)$ of §5.3, the function $|\cos(y/R)|^{\alpha} = (1 - x^2)^{\alpha/2}$ is the **sectoral associated Legendre function** $P_\alpha^\alpha(x)$ (up to a standard normalization constant depending only on $\alpha$). For non-integer $\alpha$, this is a generalized Legendre function, not a spherical harmonic in the classical sense. At the transition $\alpha = 1$, it reduces to the honest spherical harmonic $Y_1^1$ on $S^2$.
+Under the substitution $x = \sin(y/R)$ of §4.2, the function $|\cos(y/R)|^{\alpha} = (1 - x^2)^{\alpha/2}$ is the **sectoral associated Legendre function** $P_\alpha^\alpha(x)$ (up to a standard normalization constant depending only on $\alpha$). For non-integer $\alpha$, this is a generalized Legendre function, not a spherical harmonic in the classical sense. At the transition $\alpha = 1$, it reduces to the honest spherical harmonic $Y_1^1$ on $S^2$.
 
-**Why non-integer $\alpha$ is admissible here but excluded in §5.** Two ingredients conspire. First, the indicial exponents: in the constant sector (§5), both exponents were zero ($s^2 = 0$), and the singular $Q_\nu$ branch diverged logarithmically. In the odd sectors, the exponents are $s = \pm\alpha$ with $\alpha > 0$; the regular branch $|\delta|^{+\alpha}$ generates $P_\alpha^\alpha$, and no $Q$-type singularity arises. Second, the boundary condition: the anti-periodic condition $P_\nu(0) = 0$ in §5 forced $\nu$ to odd integers through the Gamma-function zeros. The periodic condition $u(\pi R) = u(0)$ imposes no constraint on $\alpha$, since $|\cos(y/R)|^\alpha$ evaluates to $1$ at both seams for all $\alpha$. The spectral parameter runs continuously, set by the transverse width $W$ through $\alpha = (2j+1)\pi R/(2W)$.
+**Why non-integer $\alpha$ is admissible here but excluded in §4.** Two ingredients conspire. First, the indicial exponents: in the constant sector (§4), both exponents were zero ($s^2 = 0$), and the singular $Q_\nu$ branch diverged logarithmically. In the odd sectors, the exponents are $s = \pm\alpha$ with $\alpha > 0$; the regular branch $|\delta|^{+\alpha}$ generates $P_\alpha^\alpha$, and no $Q$-type singularity arises. Second, the boundary condition: the anti-periodic condition $P_\nu(0) = 0$ in §4 forced $\nu$ to odd integers through the Gamma-function zeros. The periodic condition $u(\pi R) = u(0)$ imposes no constraint on $\alpha$, since $|\cos(y/R)|^\alpha$ evaluates to $1$ at both seams for all $\alpha$. The spectral parameter runs continuously, set by the transverse width $W$ through $\alpha = (2j+1)\pi R/(2W)$.
 
-### 6.4 Periodicity and transmission domain
+### 5.4 Periodicity and transmission domain
 
 **Periodicity.** At both seams: $|\cos(0)|^\alpha = 1$ and $|\cos(\pi)|^\alpha = |-1|^\alpha = 1$, so $u(0) = u(\pi R) = 1$. The derivatives: $u'(0) = -(\alpha/R)\sin(0) = 0$ and $u'(\pi R) = -(\alpha/R)\sin(\pi) = 0$, so $u'(0) = u'(\pi R) = 0$. Both the value and derivative periodicity conditions are satisfied.
 
 **Transmission domain.** Near the cone ($\delta = y - \pi R/2 \to 0$): $|\cos(y/R)|^\alpha \sim |\delta/R|^\alpha \to 0$ for $\alpha > 0$. This is the regular Frobenius branch $|\delta|^{+\alpha}$ identified in §3.4. For all $\alpha > 0$, the eigenfunction lies in both the transmission and Friedrichs domains (§3.4, nonconstant sectors). In the wide regime ($\alpha < 1$), the eigenfunction has a cusp at the cone: $|u'| \sim \alpha|\delta|^{\alpha-1}/R \to \infty$, but the Dirichlet energy $\int|f|\,(u')^2\,dy \sim \int|\delta|^{2\alpha-1}\,d\delta$ is finite for all $\alpha > 0$. The cusp is the visible signature of the wide regime.
 
-### 6.5 Ground state within the odd sectors
+### 5.5 Ground state within the odd sectors
 
-**Within each odd sector (ground-state transform).** Set $h = r^\alpha = |\cos(y/R)|^\alpha$ and $\lambda_\alpha = \alpha(\alpha+1)/R^2$. For any $u$ in the periodic form domain of the sector, write $u = hv$. The quadratic form satisfies the identity
+**Within each odd sector (ground-state transform).** Set $h = r^\alpha = |\cos(y/R)|^\alpha$ and $\lambda_\alpha = \alpha(\alpha+1)/R^2$. Define the sector quadratic form $Q_j[u] = \int_0^{\pi R}\bigl(|f|\,|u'|^2 + \mu_j\,|f|^{-1}|u|^2\bigr)\,dy$. For any $u$ in the periodic form domain, writing $u = hv$ gives the identity
 
 $$Q_j[u] - \lambda_\alpha\!\int_0^{\pi R}\!|f|\,|u|^2\,dy = \int_0^{\pi R}\!|f|\,h^2\,|v'|^2\,dy \;+\; \bigl[\text{boundary terms}\bigr].$$
 
-The boundary terms at the seams vanish by periodicity of $u$ and $h$. At the cone, the boundary term is $|f|\cdot W(u, h)$ where $W$ is the Wronskian; since $|f| = r \to 0$ and $W(u,h)$ is bounded (both $u$ and $h$ belong to the regular branch), this vanishes. The right side is therefore non-negative, with equality if and only if $v' = 0$, i.e., $u \propto h$. This proves $\lambda_\alpha$ is the ground eigenvalue and $h$ is the unique ground eigenfunction (up to scalar multiples) in each odd sector.
+The boundary terms at the seams vanish by periodicity of $u$ and $h$. At the cone, the boundary contribution is eliminated by approximating $u$ by compactly supported functions away from $p_c$ and passing to the form closure; since $|f| \to 0$ at the cone, the limiting boundary term vanishes. The right side is therefore non-negative, with equality if and only if $v' = 0$, i.e., $u \propto h$. This proves $\lambda_\alpha$ is the ground eigenvalue and $h$ is the unique ground eigenfunction (up to scalar multiples) in each odd sector.
 
 **Across all odd sectors.** The $j$-th odd sector has $\alpha_j = (2j+1)\pi R/(2W)$ and ground eigenvalue $\alpha_j(\alpha_j + 1)/R^2$. Since $\alpha_j$ is strictly increasing in $j$, the function $\alpha(\alpha+1)$ is increasing for $\alpha > 0$, and the global minimum across all odd sectors occurs at $j = 0$:
 
@@ -373,7 +331,7 @@ $$\lambda_0^{\rm odd}(W) = \frac{\alpha_0(\alpha_0 + 1)}{R^2}, \qquad \alpha_0 =
 
 The full eigenfunction is $\psi_0^{\rm odd}(y, w) = |\cos(y/R)|^{\alpha_0}\,\sin(\pi w/2W)$.
 
-### 6.6 The eigenvalue as a function of width
+### 5.6 The eigenvalue as a function of width
 
 | Width $W$ | $\alpha_0 = \pi R/(2W)$ | $\lambda_0^{\rm odd} = \alpha_0(\alpha_0+1)/R^2$ | Comparison with $2/R^2$ |
 |---|---|---|---|
@@ -385,7 +343,7 @@ The full eigenfunction is $\psi_0^{\rm odd}(y, w) = |\cos(y/R)|^{\alpha_0}\,\sin
 
 At the critical width $W = \pi R/2$, $\alpha_0 = 1$ and the odd-sector eigenfunction becomes $|\cos(y/R)|\,\sin(w/R)$. The absolute value is an artifact of the quotient coordinates: on the covering $S^2$, $\cos(y/R)$ is smooth, and the function $\cos(y/R)\,\sin(w/R)$ is the $\ell = 1$, $m = 1$ spherical harmonic $Y_1^1$ (up to normalization). Its eigenvalue $1 \cdot 2/R^2 = 2/R^2$ coincides with the zonal branch $Y_1^0 \propto \sin(y/R)$: two members of the $\ell = 1$ multiplet meeting at the transition.
 
-### 6.7 The even nonconstant sectors
+### 5.7 The even nonconstant sectors
 
 The even nonconstant modes ($\Phi_k^{\rm e}$ with $k \geq 1$) produce anti-periodic longitudinal functions. The symmetric function $|\cos(y/R)|^\alpha$ is periodic, so it cannot serve these sectors directly. The correct eigenfunction is obtained by a sign flip across the cone:
 
@@ -395,11 +353,11 @@ $$u_k(y) = \mathrm{sgn}(\delta)\,|\cos(y/R)|^{\alpha_k}, \qquad \alpha_k = \frac
 
 **Continuity at the cone.** The sign flip multiplies a vanishing factor: $|\cos(y/R)|^{\alpha_k} \to 0$ as $\delta \to 0$ for $\alpha_k > 0$, so $u_k \to 0$ from both sides. The weighted flux likewise vanishes from both sides. The sign flip introduces no distributional contribution at the cone because the function it multiplies is zero there. The eigenfunction lies in the transmission domain.
 
-**Eigenvalue.** On each smooth half, $|cos(y/R)|^{\alpha_k}$ satisfies the reduced equation with eigenvalue $\alpha_k(\alpha_k + 1)/R^2$ (the same computation as §6.2; the factor $\mathrm{sgn}(\delta) = \pm 1$ is constant on each half). The even-sector ground eigenvalue is therefore $\alpha_k(\alpha_k + 1)/R^2$.
+**Eigenvalue and minimality.** On each smooth half, $|\cos(y/R)|^{\alpha_k}$ satisfies the reduced equation with eigenvalue $\alpha_k(\alpha_k + 1)/R^2$ (the same computation as §5.2; the factor $\mathrm{sgn}(\delta) = \pm 1$ is constant on each half). To see this is the sector ground eigenvalue: restrict to the half-interval $(0, \pi R/2)$ with Neumann condition at the seam ($u'(0) = 0$) and the regular Frobenius condition at the cone. On this half, $|\cos(y/R)|^{\alpha_k}$ is positive and nodeless, so it is the ground state of the half-interval problem. The anti-periodic gluing across the cone produces the unique single-node mode, which is the lowest eigenfunction compatible with anti-periodic boundary conditions. (The sign change at the cone is precisely why the positive ground-state transform of §5.5 cannot be applied directly; the half-interval reduction circumvents this.)
 
 **Comparison with the zonal branch.** Since $k \geq 1$ and $0 < W < \pi R$, the exponent satisfies $\alpha_k = k\pi R/W \geq \pi R/W > 1$ for all admissible widths. Therefore $\alpha_k(\alpha_k + 1)/R^2 > 1 \cdot 2/R^2 = 2/R^2$: every even nonconstant sector lies strictly above the zonal branch for all $W$.
 
-### 6.8 The complete sector ledger
+### 5.8 Sector ground states
 
 All three sector families now have closed-form ground states:
 
@@ -409,48 +367,53 @@ All three sector families now have closed-form ground states:
 | Odd ($j$) | $\sin\!\bigl(\frac{(2j+1)\pi w}{2W}\bigr)$ | periodic | $|\cos(y/R)|^{\alpha_j}$ | $\frac{(2j+1)\pi R}{2W}$ | $\frac{\alpha_j(\alpha_j+1)}{R^2}$ |
 | Even nonconstant ($k \geq 1$) | $\cos\!\bigl(\frac{k\pi w}{W}\bigr)$ | anti-periodic | $\mathrm{sgn}(\delta)\,|\cos(y/R)|^{\alpha_k}$ | $\frac{k\pi R}{W}$ | $\frac{\alpha_k(\alpha_k+1)}{R^2}$ |
 
-**The unifying observation.** The family $\mathrm{sgn}(\delta)\,|\cos(y/R)|^\alpha$ interpolates continuously from the excluded zero mode to the admitted even-sector ground states:
-
-- At $\alpha = 0$: $|\cos(y/R)|^0 = 1$, so the sign flip produces $\mathrm{sgn}(\delta) \cdot 1 = \pm 1$, the piecewise-constant function that is discontinuous at the cone. This is the zero mode $\phi_0$ of §3.5, excluded by the transmission extension.
-- At $\alpha > 0$: the factor $|\cos(y/R)|^\alpha$ vanishes at the cone, so the sign flip is continuous. The transmission extension admits these functions.
-
-Continuity at the collapsed fiber is the single criterion separating the excluded zero mode from the legitimate anti-periodic ground states. It removes only the $\alpha = 0$ member of the family.
+The sector comparison that yields the main theorem is carried out in §6.
 
 ---
 
-## 7. The Global Ground-State Transition
+## 6. The Global Ground-State Transition
 
-*To be drafted. Assemble sector comparison, even $n \geq 2$ bounded below by min-max, main theorem: $\lambda_0(W) = \min(2/R^2,\, \alpha(\alpha+1)/R^2)$, crossover at $W = \pi R/2$.*
+**Theorem.** On the Möbius band $M(W)$ with half-width $0 < W < \pi R$ and the continuous transmission extension, the ground eigenvalue of the twisted Laplacian is
+
+$$\lambda_0(W) = \begin{cases} 2/R^2 & \text{if } 0 < W \leq \pi R/2, \\[4pt] \dfrac{\alpha(\alpha+1)}{R^2}, \quad \alpha = \dfrac{\pi R}{2W} & \text{if } \pi R/2 < W < \pi R. \end{cases}$$
+
+At $W = \pi R/2$ both branches give $2/R^2$, and the ground eigenvalue is doubly degenerate.
+
+*Proof.* The metric coefficient $\cos^2(y/R)$ multiplying $\psi_{ww}$ depends on $y$ alone, so the twisted Laplacian commutes with the transverse Laplacian and the spectrum decomposes as an orthogonal direct sum over the transverse sectors of §3.4. The resolvent is compact (the surface is compact with the extension fixed), so the global ground eigenvalue equals the minimum of the sector ground eigenvalues. By the sector ground states of §5.8:
+
+**(i) Constant sector.** Ground eigenvalue $2/R^2$, independent of $W$ (§4.5).
+
+**(ii) Odd sectors.** Ground eigenvalue $\alpha_j(\alpha_j + 1)/R^2$ with $\alpha_j = (2j+1)\pi R/(2W)$, minimized at $j = 0$ (§5.5). The minimum is $\alpha_0(\alpha_0 + 1)/R^2$ with $\alpha_0 = \pi R/(2W)$.
+
+**(iii) Even nonconstant sectors.** Ground eigenvalue $\alpha_k(\alpha_k + 1)/R^2$ with $\alpha_k = k\pi R/W \geq \pi R/W > 1$ for all $k \geq 1$ and $W < \pi R$. This is the exact sector minimum established by the half-interval Neumann argument of §5.7, and the sharp $+1$ in $\alpha_k(\alpha_k + 1)$ is essential: a cruder potential-only bound gives $\alpha_k^2/R^2$, which fails to clear $2/R^2$ when $\alpha_k \in (1, \sqrt{2})$. Since $\alpha_k > 1$, the exact expression gives $\alpha_k(\alpha_k + 1)/R^2 > 1 \cdot 2/R^2 = 2/R^2$.
+
+The global ground eigenvalue is therefore $\lambda_0 = \min(2/R^2,\;\alpha_0(\alpha_0+1)/R^2)$. The function $\alpha \mapsto \alpha(\alpha+1)$ is increasing for $\alpha > 0$, and $\alpha_0 = \pi R/(2W)$ is decreasing in $W$, so $\alpha_0(\alpha_0+1)$ is strictly decreasing in $W$. The comparison:
+
+- $W < \pi R/2 \implies \alpha_0 > 1 \implies \alpha_0(\alpha_0+1) > 2 \implies$ the zonal mode wins.
+- $W = \pi R/2 \implies \alpha_0 = 1 \implies \alpha_0(\alpha_0+1) = 2 \implies$ both branches tie.
+- $W > \pi R/2 \implies \alpha_0 < 1 \implies \alpha_0(\alpha_0+1) < 2 \implies$ the odd-sector mode wins.
+
+The even nonconstant sectors are strictly above $2/R^2$ throughout and never compete. $\square$
+
+**Corollary (Degeneracy at the transition).** At $W = \pi R/2$, the ground eigenspace is exactly two-dimensional. The only sector minima attaining $2/R^2$ are the constant sector ($\ell = 1$ zonal, §4.5) and the $j = 0$ odd sector ($\alpha_0 = 1$, §5.5); the next odd sector ($j = 1$) gives $3 \cdot 4/R^2 = 12/R^2$, and the lowest even sector ($k = 1$) gives $2 \cdot 3/R^2 = 6/R^2$. The two ground-state modes are
+
+$$\psi_1 = \sin(y/R), \qquad \psi_2 = |\cos(y/R)|\,\sin(w/R).$$
+
+On the smooth covering $S^2$, these correspond to $Y_1^0$ and a $Y_1^1$-type sectoral mode (the absolute value is an artifact of the quotient coordinates; the covering function is $\cos(y/R)\,\sin(w/R)$). Away from $W = \pi R/2$, the ground eigenvalue is simple.
+
+**Corollary (Sign-changing ground state).** For $W > \pi R/2$, the ground eigenfunction $|\cos(y/R)|^{\alpha_0}\sin(\pi w/2W)$ changes sign: the transverse factor $\sin(\pi w/2W)$ is odd in $w$. This contrasts with the narrow regime ($W < \pi R/2$), where the ground eigenfunction $\sin(y/R)$ is positive on the interior. The sign change is not a failure of positivity-improving methods; it is structural. The eigenfunctions are sections of the nontrivial orientation bundle $\mathcal{L}$, which admits no globally positive representative, so the Perron-Frobenius nodeless-ground argument has no domain on which to act. The implications are discussed further in §8.
 
 ---
 
-## 8. Rayleigh Quotient Verification
+## 7. Bochner Lower Bound
 
-*To be drafted. Short direct check of the zonal branch.*
-
----
-
-## 9. Bochner Lower Bound
-
-*To be drafted. Supplementary geometric confirmation for the $R_{\rm sm}$ branch via Lichnerowicz-Obata on a singular surface. Validity boundary at $\alpha = 1$ coincides with spectral transition. Not the backbone of the theorem.*
+*To be drafted. Brief supplementary geometric confirmation for the $2/R^2$ branch via Lichnerowicz-type argument on the singular surface. Validity boundary at $\alpha = 1$ coincides with spectral transition. Short section or appendix.*
 
 ---
 
-## 10. Equality, Degeneracy, and Sharpness
+## 8. Discussion
 
-*To be drafted. Hessian equality for zonal mode, double degeneracy at $W = \pi R/2$, simplicity away from transition.*
-
----
-
-## 11. Discussion
-
-*To be drafted. $\mathbb{RP}^2$ limit discontinuity, extension phenomenon, sign-changing ground state and Perron-Frobenius, relation to prior work.*
-
----
-
-## 12. Conclusion
-
-*To be drafted.*
+*To be drafted. The unifying observation: $\mathrm{sgn}(\delta)\,|\cos|^\alpha$ family interpolates from excluded zero mode ($\alpha = 0$) to admitted ground states ($\alpha > 0$); continuity at the collapsed fiber is the single criterion. Sign-changing ground state and Perron-Frobenius. $\mathbb{RP}^2$ limit discontinuity. Horn-trap contrast. Open questions.*
 
 ---
 
