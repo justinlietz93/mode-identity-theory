@@ -11,6 +11,7 @@
 | Paper | Date | DOI |
 |-------|------|-----|
 | Team Cosine: Euclid DR1 2026 | 2026-01-08 | [10.5281/zenodo.18189078](https://doi.org/10.5281/zenodo.18189078) |
+| Euclid DR1: A Pre-Registered Contender Showdown | 2026-06-05 | [10.5281/zenodo.20563048](https://doi.org/10.5281/zenodo.20563048) |
 
 ### Mathematics
 

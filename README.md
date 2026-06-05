@@ -163,7 +163,7 @@ Blind outputs of a fixed structure, checked against observation:
 
 ## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
 
-All predictions locked before October 2026 and will be deposited on Zenodo prior to the June Q2 release. Each row below names a Euclid DR1 channel and a falsification threshold.
+All predictions locked before October 2026 and deposited on Zenodo ([10.5281/zenodo.20563048](https://doi.org/10.5281/zenodo.20563048)). Each row below names a Euclid DR1 channel and a falsification threshold.
 
 **:telescope: [Judgment Day: October 21, 2026](/files/cosmos/files/euclid-dr1.md)**
 
