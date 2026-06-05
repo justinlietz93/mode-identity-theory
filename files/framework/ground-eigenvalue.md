@@ -4,6 +4,8 @@
 
 # Ground-State Transition for the Twisted Laplacian on a Constant-Curvature Möbius Band
 
+[![The Eigenvalue](https://img.youtube.com/vi/AJCL1RntcpI/mqdefault.jpg)](https://www.youtube.com/watch?v=AJCL1RntcpI)
+
 We study the Laplace-Beltrami operator on sections of the orientation line bundle over a constant-curvature Möbius band $M(W)$ of half-width $W$, constructed from a spherical band on $S^2(R)$ with the antipodal-edge identification. The metric degeneracy at the identification's fixed point creates a conical singularity where the operator fails to be essentially self-adjoint in the constant transverse sector. We adopt the continuous transmission extension and prove that the ground eigenvalue exhibits a width-dependent transition:
 
 $$\lambda_0(W) = \begin{cases} 2/R^2 & 0 < W \leq \pi R/2, \\ \alpha(\alpha+1)/R^2,\quad \alpha = \pi R/(2W) & \pi R/2 < W < \pi R. \end{cases}$$
