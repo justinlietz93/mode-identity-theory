@@ -8,7 +8,7 @@ We study the Laplace-Beltrami operator on sections of the orientation line bundl
 
 $$\lambda_0(W) = \begin{cases} 2/R^2 & 0 < W \leq \pi R/2, \\ \alpha(\alpha+1)/R^2,\quad \alpha = \pi R/(2W) & \pi R/2 < W < \pi R. \end{cases}$$
 
-Both branches are realized by explicit eigenfunctions: the $\ell = 1$ zonal Legendre polynomial $\sin(y/R)$ for the narrow regime, and the product $|\cos(y/R)|^\alpha\sin(\pi w/2W)$ (with longitudinal factor $(1-x^2)^{\alpha/2}$, $x = \sin(y/R)$, which reduces to the sectoral harmonic $P_\alpha^\alpha$ at integer $\alpha$) for the wide regime. At $W = \pi R/2$ the ground eigenvalue is doubly degenerate, with the two modes corresponding to $Y_1^0$ and a $Y_1^1$-type harmonic on the covering sphere.
+Both branches are realized by explicit eigenfunctions: the $\ell = 1$ zonal Legendre polynomial $\sin(y/R)$ for the narrow regime, and the product $\lvert\cos(y/R)\rvert^\alpha\sin(\pi w/2W)$ (with longitudinal factor $(1-x^2)^{\alpha/2}$, $x = \sin(y/R)$, which reduces to the sectoral harmonic $P_\alpha^\alpha$ at integer $\alpha$) for the wide regime. At $W = \pi R/2$ the ground eigenvalue is doubly degenerate, with the two modes corresponding to $Y_1^0$ and a $Y_1^1$-type harmonic on the covering sphere.
 
 The proof is by exact separation into transverse Neumann sectors, with the reduced Sturm-Liouville problems solved in closed form via Legendre functions for all widths. The ground eigenvalue is positive because the transmission extension excludes a discontinuous zero mode that the Friedrichs extension would admit; its value and width-dependence are determined by the sector comparison. For $W > \pi R/2$, the covering representative of the ground eigenfunction changes sign, reflecting the nontriviality of the orientation bundle.
 
@@ -26,7 +26,7 @@ The main result is a closed-form ground eigenvalue that depends on the width:
 
 $$\lambda_0(W) = \begin{cases} 2/R^2 & 0 < W \leq \pi R/2, \\ \alpha(\alpha+1)/R^2, \quad \alpha = \pi R/(2W) & \pi R/2 < W < \pi R. \end{cases}$$
 
-*At $W = \pi R/2$ the ground eigenvalue is doubly degenerate. Both branches are realized by explicit eigenfunctions: $\sin(y/R)$ (the $\ell = 1$ zonal Legendre polynomial) for the narrow regime, and $|\cos(y/R)|^\alpha\sin(\pi w/2W)$ for the wide regime, where the longitudinal factor $|\cos(y/R)|^\alpha = (1-x^2)^{\alpha/2}$ with $x = \sin(y/R)$ reduces to the sectoral harmonic $P_\alpha^\alpha$ at integer degree.*
+*At $W = \pi R/2$ the ground eigenvalue is doubly degenerate. Both branches are realized by explicit eigenfunctions: $\sin(y/R)$ (the $\ell = 1$ zonal Legendre polynomial) for the narrow regime, and $\lvert\cos(y/R)\rvert^\alpha\sin(\pi w/2W)$ for the wide regime, where the longitudinal factor $\lvert\cos(y/R)\rvert^\alpha = (1-x^2)^{\alpha/2}$ with $x = \sin(y/R)$ reduces to the sectoral harmonic $P_\alpha^\alpha$ at integer degree.*
 
 The proof proceeds by separation of variables into transverse Neumann sectors, followed by exact solution of the reduced Sturm-Liouville problem in each sector via Legendre functions. The constant sector yields the width-independent branch $2/R^2$; the odd (periodic) sectors yield the width-dependent branch $\alpha(\alpha+1)/R^2$; the even nonconstant sectors are shown strictly above $2/R^2$ for all admissible widths. The eigenvalues and eigenfunctions are exact and in closed form for all $W \in (0, \pi R)$.
 
@@ -178,9 +178,9 @@ lies in the Friedrichs domain for any constant $c$: it has $\nabla\phi_0 = 0$ on
 
 **The continuous transmission extension.** The extension choice at the constant-sector cone endpoint is governed by the boundary pairing. For $u, v \in D_{\max}(\hat\Delta_0)$, the Lagrange bracket (weighted Wronskian) is
 
-$$[u, v](\delta) = u(\delta)\cdot\frac{|\delta|}{R}\,v'(\delta) - v(\delta)\cdot\frac{|\delta|}{R}\,u'(\delta),$$
+$$\lbrack u, v\rbrack(\delta) = u(\delta)\cdot\frac{|\delta|}{R}\,v'(\delta) - v(\delta)\cdot\frac{|\delta|}{R}\,u'(\delta),$$
 
-where $|\delta|/R \cdot u'$ is the flux through the cone in the natural Sturm-Liouville pairing. Self-adjointness of an extension requires the boundary form to vanish: $[u, v](0^+) = [u, v](0^-)$ for all $u, v$ in the domain. Following [BP, Theorem 1.8], the self-adjoint extensions of $\hat\Delta_0$ are classified into disjoint dynamics (each side independent, parametrized by flux conditions $c^\pm$) and mixed dynamics (the two sides coupled by a matrix $K \in \mathrm{SL}_2(\mathbb{R})$ relating the value-flux pairs $(u_D^\pm, u_N^\pm)$, where $u_D^\pm = \lim_{\delta \to 0^\pm} u(\delta)$ and $u_N^\pm = \lim_{\delta \to 0^\pm} (|\delta|/R)\,u'(\delta)$).
+where $|\delta|/R \cdot u'$ is the flux through the cone in the natural Sturm-Liouville pairing. Self-adjointness of an extension requires the boundary form to vanish: $\lbrack u, v\rbrack(0^+) = \lbrack u, v\rbrack(0^-)$ for all $u, v$ in the domain. Following [BP, Theorem 1.8], the self-adjoint extensions of $\hat\Delta_0$ are classified into disjoint dynamics (each side independent, parametrized by flux conditions $c^\pm$) and mixed dynamics (the two sides coupled by a matrix $K \in \mathrm{SL}_2(\mathbb{R})$ relating the value-flux pairs $(u_D^\pm, u_N^\pm)$, where $u_D^\pm = \lim_{\delta \to 0^\pm} u(\delta)$ and $u_N^\pm = \lim_{\delta \to 0^\pm} (|\delta|/R)\,u'(\delta)$).
 
 The bridging extension is the mixed-dynamics case $K = \mathrm{Id}$ (Remark 1.9 of [BP]). Its domain conditions are:
 
@@ -254,7 +254,7 @@ The anti-periodic condition requires $P_\nu(0) = 0$. Since $P_\nu(0) = \sqrt{\pi
 
 The zonal anti-periodic spectrum of Sector $\mathcal{A}$ is therefore
 
-$$\sigma(\text{Sector } \mathcal{A}) = \left\{\frac{\ell(\ell+1)}{R^2} : \ell = 1, 3, 5, \ldots\right\}.$$
+$$\sigma(\text{Sector } \mathcal{A}) = \lbrace \frac{\ell(\ell+1)}{R^2} : \ell = 1, 3, 5, \ldots\rbrace.$$
 
 The ground eigenvalue is $\ell = 1$:
 
@@ -357,10 +357,9 @@ All three sector families now have closed-form ground states:
 | Sector | Transverse mode | Longitudinal BC | Ground eigenfunction | $\alpha$ | Ground eigenvalue |
 |---|---|---|---|---|---|
 | Constant ($k = 0$) | $1$ | anti-periodic | $\sin(y/R)$ ($\ell = 1$ zonal) | — | $2/R^2$ |
-| Odd ($j$) | $\sin\!\bigl(\frac{(2j+1)\pi w}{2W}\bigr)$ | periodic | $|\cos(y/R)|^{\alpha_j}$ | $\frac{(2j+1)\pi R}{2W}$ | $\frac{\alpha_j(\alpha_j+1)}{R^2}$ |
-| Even nonconstant ($k \geq 1$) | $\cos\!\bigl(\frac{k\pi w}{W}\bigr)$ | anti-periodic | $\mathrm{sgn}(\delta)\,|\cos(y/R)|^{\alpha_k}$ | $\frac{k\pi R}{W}$ | $\frac{\alpha_k(\alpha_k+1)}{R^2}$ |
+| Odd ($j$) | $\sin\!\bigl(\frac{(2j+1)\pi w}{2W}\bigr)$ | periodic | $\lvert\cos(y/R)\rvert^{\alpha_j}$ | $\frac{(2j+1)\pi R}{2W}$ | $\frac{\alpha_j(\alpha_j+1)}{R^2}$ |
+| Even nonconstant ($k \geq 1$) | $\cos\!\bigl(\frac{k\pi w}{W}\bigr)$ | anti-periodic | $\mathrm{sgn}(\delta)\,\lvert\cos(y/R)\rvert^{\alpha_k}$ | $\frac{k\pi R}{W}$ | $\frac{\alpha_k(\alpha_k+1)}{R^2}$ |
 
-The sector comparison that yields the main theorem is carried out in §6.
 
 ---
 
