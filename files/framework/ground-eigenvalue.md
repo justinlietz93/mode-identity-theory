@@ -22,11 +22,11 @@ The setting is the twisted Laplacian (the Laplace-Beltrami operator on sections 
 
 The main result is a closed-form ground eigenvalue that depends on the width:
 
-**Theorem.** On $M(W)$ with the continuous transmission extension, the ground eigenvalue of the twisted Laplacian is*
+**Theorem.** On $M(W)$ with the continuous transmission extension, the ground eigenvalue of the twisted Laplacian is
 
 $$\lambda_0(W) = \begin{cases} 2/R^2 & 0 < W \leq \pi R/2, \\ \alpha(\alpha+1)/R^2, \quad \alpha = \pi R/(2W) & \pi R/2 < W < \pi R. \end{cases}$$
 
-*At $W = \pi R/2$ the ground eigenvalue is doubly degenerate. Both branches are realized by explicit eigenfunctions: $\sin(y/R)$ (the $\ell = 1$ zonal Legendre polynomial) for the narrow regime, and $\lvert\cos(y/R)\rvert^\alpha\sin(\pi w/2W)$ for the wide regime, where the longitudinal factor $\lvert\cos(y/R)\rvert^\alpha = (1-x^2)^{\alpha/2}$ with $x = \sin(y/R)$ reduces to the sectoral harmonic $P_\alpha^\alpha$ at integer degree.
+At $W = \pi R/2$ the ground eigenvalue is doubly degenerate. Both branches are realized by explicit eigenfunctions: $\sin(y/R)$ (the $\ell = 1$ zonal Legendre polynomial) for the narrow regime, and $\lvert\cos(y/R)\rvert^\alpha\sin(\pi w/2W)$ for the wide regime, where the longitudinal factor $\lvert\cos(y/R)\rvert^\alpha = (1-x^2)^{\alpha/2}$ with $x = \sin(y/R)$ reduces to the sectoral harmonic $P_\alpha^\alpha$ at integer degree.
 
 The proof proceeds by separation of variables into transverse Neumann sectors, followed by exact solution of the reduced Sturm-Liouville problem in each sector via Legendre functions. The constant sector yields the width-independent branch $2/R^2$; the odd (periodic) sectors yield the width-dependent branch $\alpha(\alpha+1)/R^2$; the even nonconstant sectors are shown strictly above $2/R^2$ for all admissible widths. The eigenvalues and eigenfunctions are exact and in closed form for all $W \in (0, \pi R)$.
 
