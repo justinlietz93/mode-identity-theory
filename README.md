@@ -163,13 +163,13 @@ Blind outputs of a fixed structure, checked against observation:
 
 ## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
 
-All predictions locked before October 2026 and deposited on Zenodo. Each row below names a Euclid DR1 channel and a falsification threshold.
-
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission">
 </a>
 
 **:telescope: [Judgment Day: October 21, 2026](/files/cosmos/files/euclid-dr1.md)**
+
+All predictions locked before October 2026 and deposited on Zenodo. Each row below names a Euclid DR1 channel and a falsification threshold.
 
 | Prediction | Value | Euclid DR1 channel | Falsified if |
 |---|---|---|---|
