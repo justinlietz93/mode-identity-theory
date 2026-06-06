@@ -4,9 +4,39 @@
 
 # McKay Propagator Correction to the Fermion Mass Formula
 
-**Status:** OPEN. Priority A.
+**Status:** RESOLVED, negative result (2026-06-06). The propagator/branch-point correction is eliminated by the signed-residual test (Result section below). The high-distance residual is not a correctable distance trend; down and tau remain as two separate standing anomalies.
 
 **Dependencies:** Fermion mass formula (engine file), C_geom and torsion tables, Coxeter-Galois gate, McKay graph for binary icosahedral group.
+
+---
+
+## Result: hypothesis eliminated (negative)
+
+The protocol (§6, §11) was run against the full §II data. The formula reproduces all 10 SM-assigned masses to better than 2%, then the signed residual $r = \log_{10}(m_\text{pred}/m_\text{obs})$ was computed and correlated against every parameter-free candidate. Reproducible script: [`mckay-propagator-correction.test.py`](mckay-propagator-correction.test.py).
+
+**1. The residual is not a systematic overshoot.** The two worst assigned fermions miss in opposite directions, so no single multiplicative factor can fix both.
+
+| Fermion | $(\rho, \sigma)$ | dist | $r$ | Direction |
+|---|---|---|---|---|
+| down | R8, gal | 5 | +0.509 | overshoot ×3.23 |
+| tau | R4, std | 6 | -0.384 | undershoot ×2.42 |
+| top (assigned) | R2, std | 7 | +0.181 | overshoot ×1.52 |
+
+The §6.2 critical check assumed both misses were overshoots. They are not.
+
+**2. The reversal that motivates §2 is not in the assigned data.** The "dist-7 triv miss" of §2.2 is R2 triv (44.5 GeV), the unassigned top candidate, and it undershoots: it sits below the 172.7 GeV top, not above. The assigned dist-7 fermions (b on R2 gal, t on R2 std) are both within ×1.5. With no reversal, the branch-point hypothesis (§2.3, §2.4, §4.6) loses its motivating evidence.
+
+**3. No parameter-free candidate tracks the residual** (signed, clean charged set, n = 7):
+
+| Candidate | Pearson vs $r$ | RMS resid after |
+|---|---|---|
+| $\log \Pi_T$ (§4.5, primary) | -0.15 | 0.254 → 0.245 |
+| $\log \Pi_C$ (§4.1) | +0.23 | 0.254 → 0.242 |
+| dist (baseline) | -0.02 | 0.254 → 0.248 |
+
+All are consistent with zero; none cut the scatter by more than a few percent. The branch and Galois forms (§4.6, §4.7) carry sign only through undefined vacuum weights, which violates constraint #1 (no fitted parameters).
+
+**Verdict.** This is the §8 failure mode: no propagation- or branching-based correction improves the fit. The high-distance residual is roughly symmetric scatter at the ~×1.8 level, not a distance trend. Two isolated, unrelated anomalies remain: the down overshoot (a lone Galois miss at R8, borderline given the 4.67 ± 0.5 MeV lattice uncertainty) and the tau undershoot (a lone standard-vacuum miss at R4). They share no mechanism and are not captured by any path quantity. The propagator/branch-point route is closed; §1 to §11 below are retained as the record of what was tried.
 
 ---
 
