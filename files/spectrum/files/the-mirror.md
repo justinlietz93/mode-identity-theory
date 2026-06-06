@@ -222,7 +222,7 @@ In all 7 cases Type 2 strictly exceeds Type 1. The mechanism is the two-componen
 *Proof.*
 *Step 1 — Bundle classification.* Every natural bundle over $S^3/2I=\mathrm{SU}(2)/2I$ is $E_\sigma=\mathrm{SU}(2)\times_{2I}V_\sigma$ for one of the 9 irreps of $2I$. Definition 1 is exhaustive at the bundle level.
 
-*Step 2 — Schur scalar reduction.* By Peter-Weyl, sections decompose as $\Gamma(E_\sigma)=\bigoplus_l V_l^{m(\sigma,l)}$. Any admissible operator commutes with $\mathrm{SU}(2)$ and acts as a scalar $a(l)$ on each block. The spectral zeta $Z_A(s)=\sum_l m(\sigma,l)\cdot(2l+1)\cdot a(l)^{-s}$.
+*Step 2 — Schur scalar reduction.* By Peter-Weyl, sections decompose as $\Gamma(E_\sigma)=\bigoplus_l V_l^{m(\sproofleteteleteatureatureatureanismanismanism,l)}$. Any admissible operator commutes with $\mathrm{SU}(2)$ and acts as a scalar $a(l)$ on each block. The spectral zeta $Z_A(s)=\sum_l m(\sigma,l)\cdot(2l+1)\cdot a(l)^{-s}$.
 
 *Step 3 — Characters fixed by multiplicities.* Character orthogonality mod 120 extracts Dirichlet character content from $m(\sigma,l)$ alone. The function $a(l)$ is a Mellin-type weight; it shifts poles and domains but cannot introduce or remove characters. Different operators produce different spectral zetas with the same character set. $\square$
 
@@ -319,7 +319,7 @@ The eight lemmas organize into four independent obstruction layers. Each layer w
 
 ---
 
-## VI. Mechanism: The Curvature Duality
+## VI. The Mechanism: Curvature Duality
 
 *The proof of Theorem 1 is complete at § V. Sections VI–IX provide the structural mechanism behind the obstruction, its interpretation, scope, and physics implications.*
 
