@@ -6,6 +6,8 @@
 
 [![CMB Anomalies](https://img.youtube.com/vi/B-cQsP-ul_E/mqdefault.jpg)](https://www.youtube.com/watch?v=B-cQsP-ul_E)
 
+> **Status update (June 2026).** An internal review withdrew the four-anomaly claim on this page, pending rebuild. The shell-to-multipole projection fails at the radius this page requires: with $R \approx 5.3$ Gpc taken as physical spatial curvature, the radial map $D_M = R\sin(\chi/R)$ pushes the acoustic-peak structure to the wrong scale (first peak near ℓ ≈ 42), so the low-ℓ deficit and the quadrupole-suppression mapping do not survive. Separately, $S^3/2I$ is chiral (it admits no orientation-reversing self-isometry), so the Möbius identification cannot grade the invariant mode spectrum into even and odd ℓ; this removes the parity sign, the parity magnitude, and the quadrupole-octupole alignment mechanisms. What survives is narrower: the Molien shell structure as a spectral fact (prior work), and chirality itself as a clean no-go. Treat the predictions below as in limbo while the framework is rebuilt from the eigenvalue outward.
+
 Four large-angle CMB features have persisted across COBE, WMAP, and Planck with no explanation within ΛCDM. The Möbius embedding in S³ restricts the mode spectrum at large scales through the Molien gap of the binary icosahedral group, breaks even-odd symmetry through the non-orientable identification, suppresses the quadrupole through radial projection, and defines a preferred axis as the twist normal. What has been called the "axis of evil" may be the universe revealing the geometry of its beginning.
 
 **Four predictions, one consistency check, one locality cost**

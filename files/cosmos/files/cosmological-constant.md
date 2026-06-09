@@ -6,6 +6,8 @@
 
 [![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
 
+> **Status update (June 2026).** The coefficient derivation on this page stands: the ground eigenvalue $\lambda_0 = 2/R^2$ on the curved Möbius surface is proven, and the Gauss-equation conversion gives $\Lambda = 3/R^2$. What was withdrawn is the claim that this is an independent percent-level prediction. $\Lambda R^2 = 3$ is the de Sitter relation renarrated through boundary topology, not a blind hit; and the scale $R$ cannot be fixed from the CMB Molien gap as Section V claims, because that projection is excluded (see the CMB anomalies page). With $R$ unspecified, the 2% agreement is the de Sitter identity, not a test. The eigenvalue and the geometric renarration survive; the headline prediction and the Section V determination of $R$ are in limbo. Setting $R$ is now the framework's central open problem.
+
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: Λ is set by the ground-mode eigenvalue of the cosmic boundary, a static universe where redshift is phase evolution on the boundary. Einstein was right the first time, for reasons then unknown.
 
 The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss equation under totally geodesic embedding and isotropy converts this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.

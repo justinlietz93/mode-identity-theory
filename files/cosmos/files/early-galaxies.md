@@ -6,6 +6,8 @@
 
 [![Early Galaxies](https://img.youtube.com/vi/BuxnEmMGMFE/mqdefault.jpg)](https://www.youtube.com/watch?v=BuxnEmMGMFE)
 
+> **Status update (June 2026).** The headline prediction here, $a_0(z) \propto H(z)$ with $\Lambda$ constant, remains the live Euclid DR1 test and is not withdrawn. Two of its supports are now flagged. The locked ratio $a_0/cH = 0.184$ rests on the scaling law $A/A_P = C(\Theta)(\sqrt{\Omega})^{-n}$, a foundational relation now under review and not yet derived from the postulate; and the static-baseline framing inherits the open $R$ problem (see the cosmological-constant page). Separately, the galactic-scale coherence mechanism $L_f = v_c^2/a_0$ explored for the Hubble tension was falsified by the SPARC test and is not assumed here. The cosmic-scale prediction stands; its foundations are being rebuilt.
+
 JWST has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ at $z \approx 10$ require star formation efficiencies exceeding unity under ΛCDM with a constant MOND acceleration scale, a physical impossibility.
 
 Mode Identity Theory resolves this. The MOND acceleration scale $a_0$ and the Hubble rate $H$ are both edge modes ($n = 1$) on the 120-domain (the 120-cell discretisation of $S^3$ from the binary icosahedral group). Their ratio is fixed by the Fibonacci wells:

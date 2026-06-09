@@ -6,6 +6,8 @@
 
 [![Dark Energy](https://img.youtube.com/vi/7l8AbmXyz-0/mqdefault.jpg)](https://www.youtube.com/watch?v=7l8AbmXyz-0)
 
+> **Status update (June 2026).** The phenomenology in this paper is unaffected and stands on its own: the phase-clock distance-redshift relation is flat, and the template-bias result ($w_\text{eff}(z) > -1$ misread as a phantom crossing, $\Delta\chi^2 = +0.11$ versus flat ΛCDM, the negative $(1+z)^1$ signature) requires no spatial curvature. What is in limbo is the geometric framing around it: the value $R \approx 5.3$ Gpc and the static three-sphere interpretation inherit the open $R$ problem flagged on the cosmological-constant page. Read the distance fit as standalone; treat the static three-sphere framing as provisional while the framework is rebuilt.
+
 DESI DR2 reports a 2.8–4.2σ preference for dynamical dark energy, with CPL fits favoring an apparent crossing of $w = -1$. We show that a non-phantom distance-redshift relation can produce such crossings when analyzed with two-parameter templates (CPL, BA, JBP), and that Mode Identity Theory provides that relation from a static geometric foundation.
 
 The cosmos is a finite, static three-sphere $S^3$. The standing wave $\Psi = \cos(t/2)$ on the temporal edge, with the Waltz clock $dt/d\tau = S^{-1/2}$, gives the effective distance-redshift relation
