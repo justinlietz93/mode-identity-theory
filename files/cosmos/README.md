@@ -91,7 +91,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/cmb-anomalies.md) CMB alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | ⚠ in limbo |
 | [↗](files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ⚠ in limbo |
 | [↗](files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
-| [↗](files/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ~3% |
+| [↗](files/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ⚠ in limbo |
 | [↗](files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
 | [↗](files/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | [↗](files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
