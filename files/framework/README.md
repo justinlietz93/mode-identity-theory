@@ -20,7 +20,7 @@ $$
 
 where $2I$ is the binary icosahedral group of order 120. The topology fixes the mode domain, the boundary condition, the stabilizer structure, and the McKay graph. Measured anchors set absolute scales.
 
-The framework is therefore not an oracle that derives every dimensional number without input. It predicts structural relations: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Absolute scales are calibrated by measured reference observables.
+The framework predicts structural relations: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Absolute scales are calibrated by measured reference observables.
 
 [![The Perfect Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 
@@ -31,12 +31,12 @@ The framework is therefore not an oracle that derives every dimensional number w
 | Topology | Active | The postulate, Möbius boundary condition, $S^3/2I$ domain, and 120-grid structure remain the framework's foundation. |
 | Spectral geometry | Active | The Möbius surface eigenvalue $\lambda_0 = 2/R^2$, the compact-space Yang-Mills gap, and the three isolated flat connections remain geometric results. |
 | Edge sector | Active | $H_0$ calibrates the evolving edge hierarchy $\Omega_H$; the ratio $a_0/(cH_0)$ is predicted by well positions. |
-| Surface sector | Calibrated | The eigenvalue relation survives, but $R$ is not independently fixed. Measured $\Lambda$ calibrates $\Omega_\Lambda = (R/\ell_P)^2$. |
+| Surface sector | Calibrated | The eigenvalue relation survives, but $R$ is not independently fixed. Measured $\Lambda$ calibrates the surface scale $R$, and hence $\Omega_\Lambda = (R/\ell_P)^2$ once the Planck scale is specified. |
 | Mass sector | Active with calibration | Mass ratios and McKay/torsion structure remain active. Absolute masses require the calibrated surface hierarchy and a mass-sector normalization. |
 | Gauge couplings | Active with calibration | Couplings use fractional powers of the calibrated surface hierarchy $\Omega_\Lambda$. Scale matching to conventional running remains open. |
 | Inactive mechanisms | Not used | The CMB-Molien determination of $R$, the CMB-anomaly observer mechanism, and the SPARC phase-trigger mechanism are not active supports of the framework. |
 
-The main correction is local: the framework no longer claims an independent prediction of the numerical value of $\Lambda$. The surface eigenvalue remains geometric, but the absolute surface scale is calibrated from measured $\Lambda$. The edge sector does not depend on this correction, because it references the evolving Hubble hierarchy rather than the surface radius.
+The correction is local. The independent CMB-Molien determination of $R$ is no longer used. The surface eigenvalue remains geometric, while measured $\Lambda$ now calibrates the surface scale. Edge-sector predictions are unaffected because they use $\Omega_H$, not $\Omega_\Lambda$. Mass and coupling calculations continue as calibrated outputs of the surface hierarchy.
 
 ## The Firing Order
 
@@ -72,7 +72,7 @@ These constants are not predicted by the framework. They define the physical uni
 | Sector | Anchor | Role | Status |
 |---|---|---|---|
 | Edge | measured $H_0$ | Fixes the present edge hierarchy $\Omega_H = (c/H_0\ell_P)^2$ | Calibration |
-| Surface / space | measured $\Lambda$ | Fixes $\Omega_\Lambda = (R/\ell_P)^2$ through the surface relation | Calibration |
+| Surface / space | measured $\Lambda$ | Fixes the surface scale $R$ through $\Lambda = 3/R^2$, hence $\Omega_\Lambda = (R/\ell_P)^2$ once the Planck scale is set | Calibration |
 | Mass | mass-sector normalization, conventionally tied to $m_e$ | Fixes the absolute mass scale once ratios are known | Calibration |
 | Phase clock | $s_0$ from distance data | Locates the current observer phase | Fit parameter |
 
