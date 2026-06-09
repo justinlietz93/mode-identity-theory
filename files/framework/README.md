@@ -34,7 +34,7 @@ The framework is therefore not an oracle that derives every dimensional number w
 | Surface sector | Calibrated | The eigenvalue relation survives, but $R$ is not independently fixed. Measured $\Lambda$ calibrates $\Omega_\Lambda = (R/\ell_P)^2$. |
 | Mass sector | Active with calibration | Mass ratios and McKay/torsion structure remain active. Absolute masses require the calibrated surface hierarchy and a mass-sector normalization. |
 | Gauge couplings | Active with calibration | Couplings use fractional powers of the calibrated surface hierarchy $\Omega_\Lambda$. Scale matching to conventional running remains open. |
-| Withdrawn mechanisms | Withdrawn | The CMB-Molien determination of $R$, the CMB-anomaly observer mechanism, and the SPARC phase-trigger mechanism are no longer used as active supports. |
+| Inactive mechanisms | Not used | The CMB-Molien determination of $R$, the CMB-anomaly observer mechanism, and the SPARC phase-trigger mechanism are not active supports of the framework. |
 
 The main correction is local: the framework no longer claims an independent prediction of the numerical value of $\Lambda$. The surface eigenvalue remains geometric, but the absolute surface scale is calibrated from measured $\Lambda$. The edge sector does not depend on this correction, because it references the evolving Hubble hierarchy rather than the surface radius.
 
@@ -240,7 +240,7 @@ $\Omega_\Lambda$ is fixed by $\Lambda$ and epoch-independent. The phase-gradient
 
 $$\Omega_H(z) \equiv \left(\frac{\ell_\text{phase}(z)}{\ell_P}\right)^2, \quad \ell_\text{phase} = c/|d\ln\Psi/d\tau|$$
 
-At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The near-coincidence is structural: the observer's phase-gradient length is set by the same curvature that fixes $\Lambda$.
+At the present epoch, $\Omega_H$ and $\Omega_\Lambda$ are numerically close, both of order $10^{122}$. In the current calibration structure this coincidence is observed, not derived: $\Omega_H$ is anchored by the measured Hubble rate, while $\Omega_\Lambda$ is anchored by measured $\Lambda$.
 
 ### [The Observer](../cosmos/files/cmb-anomalies.md)
 
@@ -291,7 +291,7 @@ The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable
 | $\Theta = 1/2$ (antinode) | 2 | 0 | Maximum amplitude; topologically protected |
 | $\Theta = 1$ (boundary) | 0 | $\to -\infty$ | No observable amplitude |
 
-$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed.
+$\Lambda_\text{top}$ sits at the antinode: slope exactly zero. This fixes the surface-sector placement, not the absolute numerical value of $\Lambda$. In the current calibration structure, measured $\Lambda$ sets the surface scale.
 
 ## Fibonacci Wells
 
@@ -355,7 +355,7 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 >
 > **Status:** numerical $\Lambda$ is a surface-sector calibration, not an independent prediction; the eigenvalue $\lambda_0 = 2/R^2$ is the geometric result (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
 
-**Calibration structure.** $H_0$ serves as the calibration observable that fixes the universal hierarchy normalization $N$ for all edge-mode predictions. The scaling law does not derive $H$ from topology; it uses $H$ to set the scale from which $a_0$ and other edge-mode observables are predicted. The $\approx$ in the scaling law reflects this: the kinematic expression $(c/(H\ell_P))^2$ is the physical identification of $\Omega_H$, and $N = H t_P / C(34/120)$ is the precise normalization calibrated through measurement. The ratio of any two edge-mode $C$ factors is a zero-parameter prediction independent of the calibration. The $\Lambda$ derivation is the separate surface-sector calibration, anchored on $R$; the path that fixed $R$ (the CMB Molien gap) is now withdrawn, so the eigenvalue $\lambda_0 = 2/R^2$ still holds but $R$ itself is open (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
+**Calibration structure.** $H_0$ serves as the calibration observable that fixes the universal hierarchy normalization $N$ for all edge-mode predictions. The scaling law does not derive $H$ from topology; it uses $H$ to set the scale from which $a_0$ and other edge-mode observables are predicted. The $\approx$ in the scaling law reflects this: the kinematic expression $(c/(H\ell_P))^2$ is the physical identification of $\Omega_H$, and $N = H t_P / C(34/120)$ is the precise normalization calibrated through measurement. The ratio of any two edge-mode $C$ factors is a zero-parameter prediction independent of the calibration. The $\Lambda$ relation is the separate surface-sector calibration. The eigenvalue $\lambda_0 = 2/R^2$ still holds, but the path that fixed $R$ independently is withdrawn. Measured $\Lambda$ now calibrates $\Omega_\Lambda = (R/\ell_P)^2$.
 
 $\alpha$ and $a_0$ share the Fibonacci index 13 but live on different grids ($\alpha$ at 13/60, $a_0$ at 13/120), reference different scales ($\Omega_\Lambda$ vs $\Omega_H$), and carry different exponents (1/30 vs 1). The shared index reflects Fibonacci stability operating at the topological level for both. Each prediction is independent.
 
