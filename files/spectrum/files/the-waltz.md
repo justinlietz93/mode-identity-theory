@@ -79,7 +79,7 @@ Substituting $\Lambda_{\text{obs}} = 3/R^2$:
 
 $$\boxed{G = \frac{3 c^4}{8\pi R^2 \mu_\Lambda^4}}$$
 
-In standard physics this is circular: $\mu_\Lambda$ is defined from $G$ and $\Lambda$, so solving back returns the input. In MIT, both sides are independently sourced. $R$ is fixed by the topology ($\Lambda_\text{obs} = 3/R^2$) and confirmed by the phase-clock distance-redshift relation without invoking a value of $G$. The numerator $3c^4/R^2$ is therefore $G$-free. The denominator comes from the mass spectrum: each particle mass equals $\mu_\Lambda$ times dimensionless topological ratios times the hierarchy factor $(\sqrt{\Omega})^{\text{dist}/30}$.
+In standard physics this is circular: $\mu_\Lambda$ is defined from $G$ and $\Lambda$, so solving back returns the input. In MIT, both sides are independently sourced. The surface relation $\Lambda = 3/R^2$ ties the cosmological constant to the surface radius. After the CMB-Molien anchor is removed, $R$ is not fixed independently; it is calibrated by measured $\Lambda$. The numerator $3c^4/R^2$ is therefore $G$-free. The denominator comes from the mass spectrum: each particle mass equals $\mu_\Lambda$ times dimensionless topological ratios times the hierarchy factor $(\sqrt{\Omega})^{\text{dist}/30}$.
 
 $G$ appears on both sides through $\Omega_\Lambda = R^2 c^3/\hbar G$ inside the hierarchy factor. Collecting powers resolves this: $\mu_\Lambda \propto G^{-1/4}$ (from the prefactor), and $(\sqrt{\Omega_\Lambda})^{\text{dist}/30} = \Omega_\Lambda^{\text{dist}/60} \propto G^{-\text{dist}/60}$ (from the hierarchy factor). Total $G$-exponent in $m$: $-1/4 - \text{dist}/60 = -(15+\text{dist})/60$. The mass formula becomes $m = K \cdot G^{-(15+d)/60}$ with $K$ containing only $c$, $\hbar$, $R$, and the dimensionless topological ratios. Solving:
 
@@ -92,7 +92,7 @@ One equation, one unknown, no iteration. The apparent circularity collects into 
 | Standard physics | $c$, $\hbar$, $G$, $\Lambda$, each mass independently | Each quantity separate |
 | MIT | $c$, $\hbar$, $R$ (from $\Lambda = 3/R^2$), one particle mass | $G$, $\Lambda$, all other masses, all couplings |
 
-The dictionary entry has a closed form. $G$ is not a measured constant; it is the exchange rate between the curvature the surface produces and the energy floor the spectrum produces. Computable once the topology is anchored to one measurement on each side.
+The dictionary entry has a closed form. Within this calibration, $G$ is not measured directly but inferred from $\Lambda$ plus one measured mass: the exchange rate between the curvature the surface produces and the energy floor the spectrum produces, computable once the topology is anchored to one measurement on each side.
 
 ## III. Why Gravity Resists Quantization
 

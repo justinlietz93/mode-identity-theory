@@ -74,4 +74,29 @@ Replaces the current "Measured scales" table in the engine.
 
 ---
 
+## Mass/gravity reading: the two dials (draft for the-waltz.md §II)
+
+The mass-and-gravity sector is one closed system. The topology fixes every dimensionless ratio; two dimensionful dials, $\Lambda$ (equivalently $R$) and $G$, set the absolute scales. The mass-spectrum reading and the gravity-constant reading are the same system read from different dials, not competing claims.
+
+| Anchors used | Solves for | Reading |
+|---|---|---|
+| $\Lambda$ and $G$ | Absolute fermion masses | Mass-spectrum reading |
+| $\Lambda$ and one measured mass | $G$ plus the remaining masses | Gravity-constant reading |
+| Ratios only | $m_i/m_j$ | Dimensionless, anchor-free core |
+
+Key phrase: **same two-dial system, different readout.**
+
+Prose to write in your voice (prompts):
+
+- Lead with the bottom row: the dimensionless ratios are the anchor-free predictions, stated before either dial reading.
+- Present the two dial readings as symmetric, not ranked: $\{\Lambda, G\}$ gives the masses; $\{\Lambda, \text{one mass}\}$ gives $G$.
+- Keep the ontology honest: not "$G$ is not a measured constant," but "within this calibration, $G$ can be inferred from $\Lambda$ plus one measured mass."
+
+Editor notes:
+
+- Target: the-waltz.md §II ("The dictionary has a definition"), folded in before public.
+- Already applied to the-waltz.md alongside this draft: the line-82 fix ($R$ calibrated from measured $\Lambda$, not fixed by topology) and the line-95 softening of the "$G$ is not measured" overclaim.
+
+---
+
 / **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
