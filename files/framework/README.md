@@ -4,60 +4,105 @@
 
 # :triangular_ruler: The Universe from One Shape
 
-> **Status update (June 2026).** This document was written as one finished machine; an internal review put several of its parts in limbo. Read it in tiers. The proven spine stands: the topology postulate, the Yang-Mills mass gap (standard Bochner, $\geq 2/R^2$), three generations from three flat connections, and the stabilizer group theory. The rest depends on two things now flagged in the body. First, the curvature radius $R$ is no longer a measured input; it is an open scale, since its CMB determination is withdrawn. With $R$ open the engine splits along the edge/surface line, not the ratio/absolute line. The edge-mode sector ($a_0$, $H_0$) rides on the kinematic hierarchy $\Omega_H = (c/(H\ell_P))^2$, calibrated from the measured Hubble rate, so both the $a_0/H_0$ ratio and the $a_0$ and $H_0$ magnitudes survive without $R$. Dimensionless ratios elsewhere (the gauge-coupling ratios, the mass ratios) survive because $R$ cancels. Only the surface sector needs $R$: $\Lambda$ uses $\Omega_\Lambda = (R/\ell_P)^2$, so the $\Lambda$ value is what falls into limbo. Dropping $R$ also dissolves the account of why the two 122-order hierarchies coincide; the numbers still match, but the coincidence is unexplained again. Second, the cosmology sections flagged below (the Observer, the Phase Field, the $\Lambda$ value) rest on mechanisms that did not survive. The inline notes point to the corrected pages.
+Mode Identity Theory is a boundary-condition framework. It keeps Einstein's field equations and the Standard Model particle content unchanged, but supplies a global topological domain:
 
-Mode Identity Theory was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was twisted besides Plato after the fact.
+$$
+S^1 = \partial(\mathrm{Möbius}) \hookrightarrow S^3,
+\qquad
+\partial S^3 = \emptyset .
+$$
 
-One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), two constants, two measured scales, and one phase parameter. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
+The postulate says that time is the boundary of a non-orientable surface embedded in a closed three-space. The observable domain is the Poincaré homology sphere,
 
-From this: $\Lambda$ at 2%, three gauge couplings at <2%, $H_0$ tension scale at <1%, three particle generations from three topological vacua, a mass gap from positive curvature, and 10 of 12 fermion masses assigned with 9 within $\times 3$. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
+$$
+M = S^3/2I,
+$$
+
+where $2I$ is the binary icosahedral group of order 120. The topology fixes the mode domain, the boundary condition, the stabilizer structure, and the McKay graph. Measured anchors set absolute scales.
+
+The framework is therefore not an oracle that derives every dimensional number without input. It predicts structural relations: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Absolute scales are calibrated by measured reference observables.
 
 [![The Perfect Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 
+## Current Status
+
+| Layer | Status | Meaning |
+|---|---|---|
+| Topology | Active | The postulate, Möbius boundary condition, $S^3/2I$ domain, and 120-grid structure remain the framework's foundation. |
+| Spectral geometry | Active | The Möbius surface eigenvalue $\lambda_0 = 2/R^2$, the compact-space Yang-Mills gap, and the three isolated flat connections remain geometric results. |
+| Edge sector | Active | $H_0$ calibrates the evolving edge hierarchy $\Omega_H$; the ratio $a_0/(cH_0)$ is predicted by well positions. |
+| Surface sector | Calibrated | The eigenvalue relation survives, but $R$ is not independently fixed. Measured $\Lambda$ calibrates $\Omega_\Lambda = (R/\ell_P)^2$. |
+| Mass sector | Active with calibration | Mass ratios and McKay/torsion structure remain active. Absolute masses require the calibrated surface hierarchy and a mass-sector normalization. |
+| Gauge couplings | Active with calibration | Couplings use fractional powers of the calibrated surface hierarchy $\Omega_\Lambda$. Scale matching to conventional running remains open. |
+| Withdrawn mechanisms | Withdrawn | The CMB-Molien determination of $R$, the CMB-anomaly observer mechanism, and the SPARC phase-trigger mechanism are no longer used as active supports. |
+
+The main correction is local: the framework no longer claims an independent prediction of the numerical value of $\Lambda$. The surface eigenvalue remains geometric, but the absolute surface scale is calibrated from measured $\Lambda$. The edge sector does not depend on this correction, because it references the evolving Hubble hierarchy rather than the surface radius.
+
 ## The Firing Order
 
-Each step depends on the one before; nothing later exists independently from what came prior.
+Each layer depends on the one before it.
 
-1. Topology sets what is possible
-2. Embedding defines the structure
-3. The cosmic wave expresses the boundary
-4. Time is phase of the wave
-5. Sampling locates the observer on the domain
-6. The observable is the output; no value precedes the sample
+1. Topology sets the allowed domain.
+2. The embedding supplies the boundary condition.
+3. The boundary condition fixes the mode structure.
+4. The 120-domain fixes the grid.
+5. Stabilizer subgroups assign physical identity.
+6. Measured anchors set absolute scale.
+7. Observables are read from the calibrated mode structure.
+
+No observable value exists before the sampling rule and the calibration anchor are specified.
 
 ---
 
-## Inputs
+## Inputs and Calibration
 
-Two constants fix the physics. Two measurements anchor the scale. One phase parameter locates the observer.
+Two constants define the physical units. Measured anchors set the scale of each sector. The topology supplies the dimensionless structure.
 
-**Primitives**
+### Constants
 
-| Const. | Value | Role |
+| Constant | Value | Role |
 |---|---|---|
-| $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
-| $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
+| $c$ | 299,792,458 m/s | Propagation rate on the temporal boundary |
+| $\hbar$ | $1.055 \times 10^{-34}$ J s | Converts dimensionless mode structure into physical action and energy |
 
-These are irreducible. $c$ defines causal propagation; the topology defines where it propagates. $\hbar$ converts dimensionless ratios (which the topology provides) into physical energies. Without both, the mathematics exists but the physics doesn't.
+These constants are not predicted by the framework. They define the physical unit system in which the topological relations are evaluated.
 
-**Measured scales**
+### Sector anchors
 
-| Scale | Value | Role |
-|---|---|---|
-| $R$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$; sets the size of the domain |
-| $m_e$ | 0.511 MeV | Electron mass; anchors the particle spectrum |
+| Sector | Anchor | Role | Status |
+|---|---|---|---|
+| Edge | measured $H_0$ | Fixes the present edge hierarchy $\Omega_H = (c/H_0\ell_P)^2$ | Calibration |
+| Surface / space | measured $\Lambda$ | Fixes $\Omega_\Lambda = (R/\ell_P)^2$ through the surface relation | Calibration |
+| Mass | mass-sector normalization, conventionally tied to $m_e$ | Fixes the absolute mass scale once ratios are known | Calibration |
+| Phase clock | $s_0$ from distance data | Locates the current observer phase | Fit parameter |
 
-These are irreducible. The topology is a shape, not a size: a sphere of any radius is still a sphere. $R$ sets the scale. The mass formula gives every particle mass as $m_e$ times dimensionless topological ratios times a power of $\Omega$; without one mass, you have all the ratios but no absolute scale. Two measurements because the mass formula with unknowns $(R, G)$ and one known $(m_e)$ gives one equation in two unknowns.
+The edge sector and surface sector use different hierarchies. Edge observables such as $H_0$ and $a_0$ reference the evolving hierarchy $\Omega_H(z)$. Surface and space observables reference the fixed boundary hierarchy $\Omega_\Lambda$.
 
-> ⚠ Update (June 2026): $R$ is no longer a measured input. The determination of $R$ from the CMB Molien gap is withdrawn (see the [cosmological constant](../cosmos/files/cosmological-constant.md) and [CMB anomalies](../cosmos/files/cmb-anomalies.md) pages), so it is an open scale. Predictions that are ratios survive because $R$ cancels; predictions that carry an absolute scale are in limbo until $R$ is set.
+The mass sector inherits the vacuum floor
 
-**Phase parameter**
+$$
+\mu_\Lambda = \rho_\Lambda^{1/4}
+$$
 
-| Parameter | Value | Role |
-|---|---|---|
-| $s_0$ | $< 0.19$ (95% CL) | [Observer's current phase on the standing wave.](../working/files/temporal-budget.md) $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is output of the temporal budget. |
+from the calibrated surface hierarchy. The electron mass is not a second vacuum floor; it is the mass-sector normalization or benchmark used to set the absolute scale of the particle spectrum.
 
-The single free parameter of the phase-clock distance-redshift relation, constrained by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM.
+### What is predicted and what is calibrated
+
+| Quantity | Status |
+|---|---|
+| $H_0$ | Edge-sector calibration anchor |
+| $a_0/H_0$ | Parameter-free edge-sector prediction |
+| $a_0(z) \propto H(z)$ | Edge-sector prediction |
+| $\lambda_0 = 2/R^2$ | Surface spectral result |
+| numerical $\Lambda$ | Surface-sector calibration, not currently an independent prediction |
+| gauge-coupling ratios | Dimensionless structural predictions |
+| absolute gauge couplings | Predictions using calibrated $\Omega_\Lambda$ |
+| fermion mass ratios | Structural predictions from McKay/torsion data |
+| absolute fermion masses | Calibrated mass-sector outputs |
+| three generations | Three isolated flat connections on $S^3/2I$ |
+| compact Yang-Mills gap | Positive spectral gap on the compact curved domain |
+
+This is the current architecture: ratios and structural filters are the anchor-free core; absolute dimensional values require calibrated sector anchors.
 
 ---
 
@@ -199,7 +244,7 @@ At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The ne
 
 ### [The Observer](../cosmos/files/cmb-anomalies.md)
 
-> ⚠ Update (June 2026): the CMB-anomaly reading this section points to is withdrawn. The radial projection fails at the required $R$ and $S^3/2I$ is chiral, so the parity and alignment mechanisms do not hold (see the [CMB anomalies](../cosmos/files/cmb-anomalies.md) page). The $\sqrt{\Omega}$ midpoint below is scale-relative, and the 122-order magnitudes here are the Hubble radius in Planck units, calibrated from the measured Hubble rate, not anchored to $R$; only the surface hierarchy $\Omega_\Lambda = (R/\ell_P)^2$ that fixes $\Lambda$ depends on the open $R$.
+**Status:** The CMB-anomaly mechanism is withdrawn; this section remains only as background for the scalar-harmonic/Molien structure.
 
 The bounded domain spans from $\Omega \sim 10^{122}$ (horizon) to $10^0$ (Planck). The IR $\leftrightarrow$ UV fixed point $x = \Omega/x$ gives:
 
@@ -271,7 +316,7 @@ $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by 
 
 ## [The Phase Field](../cosmos/files/hubble-tension.md)
 
-> ⚠ Update (June 2026): the lattice arithmetic below stands (the well-slope step that maps 67.4 to about 73), but the galactic trigger meant to realize it is falsified by the SPARC test, and the predicted discrete $H_0$ population is not supported (see the [Hubble tension](../cosmos/files/hubble-tension.md) page). The 8.4% step is a topological number in search of a mechanism.
+**Status:** The lattice arithmetic (the well-slope step) stands; the galactic trigger that would realize the $H_0$ shift is withdrawn (SPARC), so the 8.4% step is a topological number without an active mechanism (see the [Hubble tension](../cosmos/files/hubble-tension.md) page).
 
 The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0$ is the Fibonacci well (fixed) and $\Theta_f$ is the local environmental shift.
 
@@ -304,11 +349,11 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 | [α](../spectrum/files/fine-structure.md) | 1 | 60R | 13/60 | 0.792 | 1/30 | $7.33 \times 10^{-3}$ | Prediction |
 | [a₀](../cosmos/files/early-galaxies.md) | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ | Prediction |
 | [H₀](../cosmos/files/hubble-tension.md) | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ | Calibration |
-| [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * | Prediction |
+| [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * | Surface calibration / geometric relation |
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 >
-> ⚠ Update (June 2026): $\Lambda$ here is reclassified from prediction to renarration. The eigenvalue $\lambda_0 = 2/R^2$ and the 3/2 conversion stand as geometry, but $\Lambda R^2 = 3$ renarrates the de Sitter relation rather than predicting it, and its numerical value is an absolute scale anchored to the open $R$ (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
+> **Status:** numerical $\Lambda$ is a surface-sector calibration, not an independent prediction; the eigenvalue $\lambda_0 = 2/R^2$ is the geometric result (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
 
 **Calibration structure.** $H_0$ serves as the calibration observable that fixes the universal hierarchy normalization $N$ for all edge-mode predictions. The scaling law does not derive $H$ from topology; it uses $H$ to set the scale from which $a_0$ and other edge-mode observables are predicted. The $\approx$ in the scaling law reflects this: the kinematic expression $(c/(H\ell_P))^2$ is the physical identification of $\Omega_H$, and $N = H t_P / C(34/120)$ is the precise normalization calibrated through measurement. The ratio of any two edge-mode $C$ factors is a zero-parameter prediction independent of the calibration. The $\Lambda$ derivation is the separate surface-sector calibration, anchored on $R$; the path that fixed $R$ (the CMB Molien gap) is now withdrawn, so the eigenvalue $\lambda_0 = 2/R^2$ still holds but $R$ itself is open (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
 
