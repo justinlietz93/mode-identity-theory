@@ -4,6 +4,8 @@
 
 # :triangular_ruler: The Universe from One Shape
 
+> **Status update (June 2026).** This document was written as one finished machine; an internal review put several of its parts in limbo. Read it in tiers. The proven spine stands: the topology postulate, the Yang-Mills mass gap (standard Bochner, $\geq 2/R^2$), three generations from three flat connections, and the stabilizer group theory. The rest depends on two things now flagged in the body. First, the curvature radius $R$ is no longer a measured input; it is an open scale, since its CMB determination is withdrawn. With $R$ open the engine splits cleanly: dimensionless ratios survive because $R$ cancels (the $a_0/H_0$ ratio, the gauge-coupling ratios, the mass ratios), while absolute-scale outputs need $R$ and fall into limbo with it (the $\Lambda$ value, the 122-order spans, the $a_0$ and $H_0$ magnitudes). Second, the cosmology sections flagged below (the Observer, the Phase Field, the $\Lambda$ value) rest on mechanisms that did not survive. The inline notes point to the corrected pages.
+
 Mode Identity Theory was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was twisted besides Plato after the fact.
 
 One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), two constants, two measured scales, and one phase parameter. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
@@ -46,6 +48,8 @@ These are irreducible. $c$ defines causal propagation; the topology defines wher
 | $m_e$ | 0.511 MeV | Electron mass; anchors the particle spectrum |
 
 These are irreducible. The topology is a shape, not a size: a sphere of any radius is still a sphere. $R$ sets the scale. The mass formula gives every particle mass as $m_e$ times dimensionless topological ratios times a power of $\Omega$; without one mass, you have all the ratios but no absolute scale. Two measurements because the mass formula with unknowns $(R, G)$ and one known $(m_e)$ gives one equation in two unknowns.
+
+*⚠ Update (June 2026): $R$ is no longer a measured input. The determination of $R$ from the CMB Molien gap is withdrawn (see the [cosmological constant](../cosmos/files/cosmological-constant.md) and [CMB anomalies](../cosmos/files/cmb-anomalies.md) pages), so it is an open scale. Predictions that are ratios survive because $R$ cancels; predictions that carry an absolute scale are in limbo until $R$ is set.*
 
 **Phase parameter**
 
@@ -195,6 +199,8 @@ At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The ne
 
 ### [The Observer](../cosmos/files/cmb-anomalies.md)
 
+*⚠ Update (June 2026): the CMB-anomaly reading this section points to is withdrawn. The radial projection fails at the required $R$ and $S^3/2I$ is chiral, so the parity and alignment mechanisms do not hold (see the [CMB anomalies](../cosmos/files/cmb-anomalies.md) page). The $\sqrt{\Omega}$ midpoint below is a scale-relative construction, but the $\Omega \sim 10^{122}$ and $\sqrt{\Omega} \approx 10^{61}$ magnitudes are anchored to the open $R$ and share its limbo.*
+
 The bounded domain spans from $\Omega \sim 10^{122}$ (horizon) to $10^0$ (Planck). The IR $\leftrightarrow$ UV fixed point $x = \Omega/x$ gives:
 
 $$\Large x = \sqrt{\Omega} \approx 10^{61}$$
@@ -265,6 +271,8 @@ $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by 
 
 ## [The Phase Field](../cosmos/files/hubble-tension.md)
 
+*⚠ Update (June 2026): the lattice arithmetic below stands (the well-slope step that maps 67.4 to about 73), but the galactic trigger meant to realize it is falsified by the SPARC test, and the predicted discrete $H_0$ population is not supported (see the [Hubble tension](../cosmos/files/hubble-tension.md) page). The 8.4% step is a topological number in search of a mechanism.*
+
 The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0$ is the Fibonacci well (fixed) and $\Theta_f$ is the local environmental shift.
 
 | Well | Θ | Slope sensitivity | Physical shift | Reason |
@@ -299,6 +307,8 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 | [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * | Prediction |
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
+>
+> *⚠ Update (June 2026): $\Lambda$ here is reclassified from prediction to renarration. The eigenvalue $\lambda_0 = 2/R^2$ and the 3/2 conversion stand as geometry, but $\Lambda R^2 = 3$ renarrates the de Sitter relation rather than predicting it, and its numerical value is an absolute scale anchored to the open $R$ (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).*
 
 **Calibration structure.** $H_0$ serves as the calibration observable that fixes the universal hierarchy normalization $N$ for all edge-mode predictions. The scaling law does not derive $H$ from topology; it uses $H$ to set the scale from which $a_0$ and other edge-mode observables are predicted. The $\approx$ in the scaling law reflects this: the kinematic expression $(c/(H\ell_P))^2$ is the physical identification of $\Omega_H$, and $N = H t_P / C(34/120)$ is the precise normalization calibrated through measurement. The ratio of any two edge-mode $C$ factors is a zero-parameter prediction independent of the calibration. The $\Lambda$ derivation follows an independent calibration path through $R$ (from CMB) and the Laplace-Beltrami eigenvalue.
 
