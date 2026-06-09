@@ -52,6 +52,14 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
+### [Calibration Structure](./files/calibration-structure.md)
+
+**Summary:** Reframes the engine as a calibration scheme: one measured anchor per sector ($H_0$ edge, $\Lambda$ surface, $m_e$ mass-sector normalization), with the topology supplying the exponents, well assignments, and ratios. Localizes the R problem to a single demotion: $\Lambda$ moves from absolute prediction to measured calibration input, and nothing downstream collapses. Draft for a new engine section.
+
+**Dependencies:** a0 paper Appendix A.2, Λ eigenvalue, scaling law.
+
+---
+
 ### Friedmann as Output
 
 **Problem:** The phase-clock $H(z)$ currently uses the Friedmann equation as input. Deriving $H^2 \propto \rho$ from the postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ would close the program: the framework would produce its own dynamics rather than borrowing GR's.
