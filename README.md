@@ -120,18 +120,18 @@ Blind outputs of a fixed structure, checked against observation:
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ⚠ in limbo |
 | [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_Λ²$) constant | topological protection holds | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](/files/cosmos/files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ✓ |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} \approx 0.81$ | $R_{TT} \approx 0.81$ | <1% |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | 14% |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ✓ |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ⚠ in limbo |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | ⚠ in limbo |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} \approx 0.81$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | ⚠ in limbo |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ⚠ in limbo |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ~3% |
 | [↗](/files/cosmos/files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
@@ -158,6 +158,8 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
+
+*⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.*
 
 ---
 
