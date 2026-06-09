@@ -96,7 +96,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | [↗](files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
 
-*⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.*
+> ⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.
 
 ---
 

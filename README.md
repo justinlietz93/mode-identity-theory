@@ -159,7 +159,7 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
 
-*⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.*
+> ⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.
 
 ---
 
