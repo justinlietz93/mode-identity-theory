@@ -1,3 +1,7 @@
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+
+---
+
 # Synthesis & Roadmap
 
 **Status:** Integration of upstream spectral geometry (Sector $\mathcal{A}$ twisted Laplacian) with downstream phenomenological cosmology (Black Hole thermodynamics, Cosmological Expansion, and Fundamental Constants).
@@ -71,3 +75,7 @@ where $\Psi = \cos(t/2)$ is the standing wave, and $S = \sin(t/2)$ is the modal 
 ### PRIORITY 4: The Spectral-Physical Bridge
 *   **The Test:** Connect the discrete torsion values $Z'_\sigma(0) = \{\log 2, \log 3, \log 5, \log \varphi\}$ to the physical limits of the universe.
 *   **The Goal:** Map these specific prime values to the Boscain-Prandi bridging parameter $\ln(\delta_0)$ at the cone singularity, proving the L-function strictly regulates the horizon boundary conditions.
+
+---
+
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
