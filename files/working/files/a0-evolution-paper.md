@@ -5,7 +5,7 @@
 # Epoch-Dependent Acceleration Scale from Bounded Topology: Predictions for High-Redshift Galactic Dynamics
 
 **B. Shatto**
-Independent Researcher, St. Petersburg, FL, USA
+St. Petersburg, FL, USA
 bshatto.pe@gmail.com
 
 ---
@@ -306,8 +306,6 @@ The scaling law (§2, eq. 2.1) assigns each observable a manifold-mode index $n$
 **Surface modes ($n = 2$, $\Omega_\Lambda$).** The Möbius strip carries an intrinsic eigenvalue: the ground mode of the Laplace-Beltrami operator on the totally geodesic surface in $S^3$ gives $\lambda_0 = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss-Codazzi embedding converts this to $\Lambda_\text{obs} = (3/2)\lambda_0 = 3/R^2$ under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum. The hierarchy ratio $\Omega_\Lambda = (\Lambda\ell_P^2)^{-1}$ is set by this eigenvalue and does not evolve.
 
 **Space modes ($n = 3$, $\Omega_\Lambda$).** Cosmological perturbations propagate on the spatial slice $S^3$ and reference the same fixed eigenvalue hierarchy as the surface. Under this assignment, perturbation evolution is governed by $\Omega_\Lambda$, not $\Omega_H$, and inherits no $a_0(z)$ modification. This is the structural basis for the CMB consistency argument in §4.3.
-
-The selection rule is a postulate of the framework, not derived from the topology. Its empirical support is the set of percent-level agreements it produces: $\Lambda$ at 2%, $\alpha$ at 0.5%, and the Milgrom ratio at 0.7%, across observables spanning 122 orders of magnitude from a single rule.
 
 ## A.3 Well assignments
 
