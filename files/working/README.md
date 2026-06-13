@@ -6,8 +6,6 @@
 
 Research-in-progress across the framework. Ordered by value: items that strengthen position before the Euclid DR1 falsification window first, foundational upgrades second, technical resolution third, data-gated items last.
 
-### [Road Map](./files/roadmap.md)
-
 ---
 
 ## :telescope: Pre-Euclid
