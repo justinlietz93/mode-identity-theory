@@ -4,13 +4,11 @@
 
 # Calibration Structure (draft for the framework engine)
 
-**Status:** DRAFT. Proposed new section for `files/framework/README.md`, replacing the buried "Calibration structure" paragraph and reframing the "Measured scales" inputs table.
+**Dependencies:** a0 paper Appendix A.2 (selection rule), first positive eigenvalue $2/R^2$, scaling law.
 
-**Dependencies:** a0 paper Appendix A.2 (selection rule), Λ eigenvalue ($\lambda_0 = 2/R^2$), scaling law.
+**Notation.** Use $\sqrt{\Omega}$ where a quantity dilutes from the observer, since the observer sits at $\sqrt{\Omega} = R/\ell_P$: the master law and the mass elevator. Use bare $\Omega$ when stating the hierarchy as a quantity (its definition, its value) and for the coupling grid step $\Omega^{-1/|\mathrm{grid}|}$, which quantizes the full $\Omega$ rather than diluting from the observer.
 
 ---
-
-## Section draft
 
 ## Calibration Structure
 
@@ -21,9 +19,9 @@ This is the same logic used throughout effective physical theory. The Standard M
 | Sector | Locus | Hierarchy | Anchor | Status |
 |---|---|---|---|---|
 | Edge $(n=1)$ | $S^1$ boundary; kinematic locus, no intrinsic eigenvalue | $\Omega_H = (c/H\ell_P)^2$ | $H_0$ measured | Live |
-| Surface $(n=2)$ | Möbius strip; carries $\lambda_0 = 2/R^2$ | $\Omega_\Lambda = (R/\ell_P)^2$ | $\Lambda$ measured, fixing $R$ (and $\Omega_\Lambda$ once the Planck scale is set) | Live as calibration |
+| Surface $(n=2)$ | Möbius strip; carries first positive eigenvalue $2/R^2$ | $\Omega_\Lambda = (R/\ell_P)^2$ | $\Lambda$ measured, fixing $R$ (and $\Omega_\Lambda$ once the Planck scale is set) | Live as calibration |
 | Space $(n=3)$ | $S^3$ slice; inherits surface eigenvalue | $\Omega_\Lambda$ | Via surface sector | Live with surface |
-| Mass | 120-wells, McKay distance, torsion | $\mu_\Lambda$ and $\Omega_\Lambda^{\mathrm{dist}/60}$ | $\Omega_\Lambda$ from surface; one mass-sector normalization if needed | Live |
+| Mass | 120-wells, McKay distance, torsion | $\mu_\Lambda$ and $(\sqrt{\Omega_\Lambda})^{\mathrm{dist}/30}$ | $\Omega_\Lambda$ from surface; one mass-sector normalization if needed | Live |
 | Couplings | Grid wells and fractional hierarchy steps | $\Omega_\Lambda^{-1/60}$, $\Omega_\Lambda^{-1/120}$ | $\Omega_\Lambda$ from surface | Live |
 
 The prediction/calibration split is sector-by-sector. In the edge sector, the measured value of $H_0$ calibrates the edge hierarchy. The acceleration scale then follows from the ratio of wells:
@@ -32,9 +30,11 @@ $$\frac{a_0}{cH_0}=\frac{C(13/120)}{C(34/120)}.$$
 
 Thus $H_0$ is the anchor, while $a_0/H_0$ is the prediction.
 
-In the surface sector, the intrinsic eigenvalue statement remains intact:
+In the surface sector, the eigenvalue statement remains intact. The first positive eigenvalue is
 
-$$\lambda_0 = \frac{2}{R^2}.$$
+$$\frac{2}{R^2},$$
+
+with the ground state the extension-dependent zero mode (Friedrichs zero gives the $m_h = 0$ background).
 
 What failed was the independent over-determination of $R$ through the CMB-Molien path. Without an independent value of $R$, the framework no longer predicts $\Lambda$ absolutely. Instead, measured $\Lambda$ calibrates the surface radius $R$ through $\Lambda = 3/R^2$, and hence the surface hierarchy
 
@@ -42,13 +42,13 @@ $$\Omega_\Lambda = (R/\ell_P)^2$$
 
 once the Planck scale is fixed by the second dial.
 
-The eigenvalue structure survives; the absolute surface radius is the open piece.
+The eigenvalue structure survives; the absolute surface radius is the open piece. The open path to closing it runs through the mass sector, where two masses at different McKay distances overdetermine $R$ and return $\Lambda$ to a prediction. See the two-dial reading below.
 
-This localizes the blast radius. Losing the independent CMB-Molien anchor demotes exactly one claim: $\Lambda$ is no longer an absolute prediction. It becomes the measured surface-sector calibration input. Downstream mass and coupling calculations do not collapse, because they require the value of $\Omega_\Lambda$, which is fixed once $R$ (from measured $\Lambda$) and the Planck scale (the second dial) are specified. The McKay mass elevator uses powers of $\Omega_\Lambda$; the gauge couplings use fractional powers such as $\Omega_\Lambda^{-1/60}$. They do not require $R$ to be independently predicted, only consistently calibrated.
+This localizes the blast radius. Losing the independent CMB-Molien anchor demotes exactly one claim: $\Lambda$ is no longer an absolute prediction. It becomes the measured surface-sector calibration input. Downstream mass and coupling calculations do not collapse, because they require the value of $\Omega_\Lambda$, which is fixed once $R$ (from measured $\Lambda$) and the Planck scale (the second dial) are specified. The McKay mass elevator uses powers of $\sqrt{\Omega_\Lambda}$; the gauge couplings use fractional powers of $\Omega_\Lambda$ such as $\Omega_\Lambda^{-1/60}$. They do not require $R$ to be independently predicted, only consistently calibrated.
 
 The edge sector is untouched by this correction. It references $\Omega_H$, not $\Omega_\Lambda$, and is anchored by $H_0$. The surface and space sectors reference $\Omega_\Lambda$, now set through measured $\Lambda$ (which fixes $R$) and the Planck scale. The mass and coupling sectors inherit that calibrated hierarchy. Thus the correction does not propagate as a global failure; it changes the status of one surface-sector claim from prediction to calibration.
 
-This also clarifies the role of measured inputs. The framework predicts structural relations: the integer floors $n=1,2,3$, the McKay exponents, the grid fractions, the well assignments, and the dimensionless ratios between observables sharing a calibrated sector. It does not claim that every absolute normalization is derived without empirical reference. A measured anchor per sector is part of the calibration architecture. $\mu_\Lambda = \rho_\Lambda^{1/4}$ is the vacuum floor inherited from the calibrated surface sector; $m_e$ is a mass-sector normalization/benchmark, not a second vacuum floor.
+This also clarifies the role of measured inputs. The framework predicts structural relations: the integer floors $n=1,2,3$, the McKay exponents, the grid fractions, the well assignments, and the dimensionless ratios between observables at the same depth, where the hierarchy factor cancels. It does not claim that every absolute normalization is derived without empirical reference. A measured anchor per sector is part of the calibration architecture. $\mu_\Lambda = \rho_\Lambda^{1/4}$ is the vacuum floor inherited from the calibrated surface sector; $m_e$ is a mass-sector normalization/benchmark, not a second vacuum floor.
 
 The status is therefore honest. The selection rules and well assignments were fixed before this calibration reinterpretation, so the downstream agreements are not produced by retuning them after the fact. But the selection rule itself remains a postulate of the framework, not yet a theorem derived from the topology alone. A first-principles derivation from the Hurwitz/Fibonacci structure of the 120-domain remains open.
 
@@ -62,43 +62,25 @@ Replaces the current "Measured scales" table in the engine.
 |---|---|---|
 | $H_0$ | Edge-sector anchor; fixes $\Omega_H$ | Measured calibration |
 | $\Lambda$ | Surface-sector anchor; fixes $R$ through $\Lambda = 3/R^2$ | Measured calibration |
-| $R$ | Surface radius appearing in $\lambda_0 = 2/R^2$ and $\Omega_\Lambda=(R/\ell_P)^2$ | Calibrated from $\Lambda$; not independently predicted |
+| $R$ | Surface radius in the first positive eigenvalue $2/R^2$ and $\Omega_\Lambda=(R/\ell_P)^2$ | Calibrated from $\Lambda$ today; the mass-spectrum route (two masses at different distances) is the open path to an independent $R$ |
 | $m_e$ or one measured mass | Mass-sector normalization / second dial for the mass-gravity system | Measured calibration or benchmark |
-
----
-
-## Editor notes (resolve before merging into the engine)
-
-- **μ_Λ vs m_e (your caveat).** I added one explicit sentence to the "measured inputs" paragraph: the absolute floor is $\mu_\Lambda = \rho_\Lambda^{1/4}$ from the surface sector, and $m_e$ is the mass-sector normalization, not a second floor. Adjust the wording to taste, or move it to a dedicated mass paragraph.
-- **Display math.** Your `[...]` equation blocks were converted to `$$...$$` so GitHub renders them.
-- **On merge.** Add the inline links (cosmological-constant, cmb-anomalies pages) where the CMB-Molien path and $\Lambda$ are mentioned, and delete the engine's existing one-paragraph "Calibration structure" note that this section supersedes.
-- **Consistency catch.** `scaling-law-uniqueness.md` currently states the per-sector calibration as "H for edge modes, R for surface modes." Update that to "Λ (measured) for surface modes," since the independent R-from-CMB determination is the excluded path.
-- **Public language (vs this working note).** The workshop phrasing here (blast radius, what failed, not an oracle, retuning) stays internal; keep it out of the public engine. The public correction paragraph, already applied to the engine, reads: "The correction is local. The independent CMB-Molien determination of $R$ is no longer used. The surface eigenvalue remains geometric, while measured $\Lambda$ now calibrates the surface scale. Edge-sector predictions are unaffected because they use $\Omega_H$, not $\Omega_\Lambda$. Mass and coupling calculations continue as calibrated outputs of the surface hierarchy."
 
 ---
 
 ## Mass/gravity reading: the two dials (draft for the-waltz.md §II)
 
-The mass-and-gravity sector is one closed system. The topology fixes every dimensionless ratio; two dimensionful dials, $\Lambda$ (equivalently $R$) and $G$, set the absolute scales. The mass-spectrum reading and the gravity-constant reading are the same system read from different dials, not competing claims.
+The mass-and-gravity sector is one closed system. The topology fixes the dimensionless ratios between observables at the same depth; two dimensionful dials, $\Lambda$ (equivalently $R$) and $G$, set the absolute scales. Ratios across depths carry $R$, which is what lets the spectrum read $R$ back. The mass-spectrum reading and the gravity-constant reading are the same system read from different dials, not competing claims.
 
 | Anchors used | Solves for | Reading |
 |---|---|---|
 | $\Lambda$ and $G$ | Absolute fermion masses | Mass-spectrum reading |
 | $\Lambda$ and one measured mass | $G$ and the remaining masses | Gravity-constant reading |
-| Ratios only | $m_i/m_j$ | Anchor-free structural core |
+| Two masses at different McKay distances | $R$, hence $\Lambda$ as a prediction, and $G$ | R-from-spectrum reading (open; needs the $(\rho,\sigma)\to(T_3,Y)$ rule) |
+| Same-distance or same-exponent ratios | $m_i/m_j$ at fixed distance; $\alpha_s/\alpha_W$ | Anchor-free structural core |
+
+The anchor-free core is narrower than "all ratios." A mass ratio drops the overall floor $\mu_\Lambda$, which cancels in any ratio, but it keeps the McKay elevator $(\sqrt{\Omega_\Lambda})^{\mathrm{dist}/30}$ unless both particles sit at the same distance. Across distances the elevator survives, so the ratio carries $(R/\ell_P)^{\Delta\mathrm{dist}/30}$, and the mass hierarchy itself is that surviving factor. The same holds in the coupling sector: $\alpha_s/\alpha_W$ is anchor-free because both forces share the confinement grid, while $\alpha_s/\alpha_{EM}$ carries $R$ because the grids differ. So the genuinely anchor-free predictions are the same-depth ratios, and the cross-depth ratios are the lever for reading $R$.
 
 Key phrase: **same two-dial system, different readout.**
-
-Prose to write in your voice (prompts):
-
-- Lead with the bottom row: the dimensionless ratios are the anchor-free predictions, stated before either dial reading.
-- Present the two dial readings as symmetric, not ranked: $\{\Lambda, G\}$ gives the masses; $\{\Lambda, \text{one mass}\}$ gives $G$.
-- Keep the ontology honest: not "$G$ is not a measured constant," but "within this calibration, $G$ can be inferred from $\Lambda$ plus one measured mass."
-
-Editor notes:
-
-- Target: the-waltz.md §II ("The dictionary has a definition"), folded in before public.
-- Already applied to the-waltz.md alongside this draft: the line-82 fix ($R$ calibrated from measured $\Lambda$, not fixed by topology) and the line-95 softening of the "$G$ is not measured" overclaim.
 
 ---
 
