@@ -38,17 +38,17 @@ Section 2 sets up the geometric model and Section 3 the operator domain, the sel
 
 ---
 
-## 2. The geometric model $M(W)$
+## 2. The Geometric Model $M(W)$
 
 Consider the round 2-sphere $S^2(R)$ of radius $R$. Let $C$ be a great circle, and let $y$ denote arclength along a meridian measured from $C$, so that $y = 0$ and $y = \pi R$ correspond to antipodal arcs of $C$ reached on opposite sides of the pole at $y = \pi R/2$. Let $w$ denote arclength along $C$, with $w \in [-W, W]$ for a half-width parameter $0 < W < \pi R$. The induced metric on the band $\{(y, w) : 0 \le y \le \pi R,\; \lvert w\rvert \le W\}$ is
 
-$$ds^2 = dy^2 + \cos^2(y/R)\,dw^2. \tag{2.1}$$
+$$ds^2 = dy^2 + \cos^2(y/R)\,dw^2.$$
 
 The Gauss curvature is $K = 1/R^2$ on the smooth locus and the scalar curvature is $R_{\mathrm{sm}} = 2/R^2$.
 
 The map $\tau(y, w) = (\pi R - y, -w)$ is an orientation-preserving isometric involution ($D\tau = \mathrm{diag}(-1, -1)$, $\det D\tau = +1$) with a single fixed point at $(\pi R/2, 0)$. Identifying $(0, w) \sim (\pi R, -w)$ via $\tau$ produces the non-orientable surface
 
-$$M(W) = [0, \pi R] \times [-W, W] \;/\; (0, w) \sim (\pi R, -w) \tag{2.2}$$
+$$M(W) = [0, \pi R] \times [-W, W] \;/\; (0, w) \sim (\pi R, -w)$$
 
 with boundary $\partial M \cong S^1$, since the two arcs $w = \pm W$ join into a single closed curve under the identification. The non-orientability arises from the edge identification itself: transporting a frame $(\partial_y, \partial_w)$ across the seam sends $\partial_w \mapsto -\partial_w$, reversing the frame orientation.
 
@@ -62,13 +62,13 @@ The cone angle $2W/R$ equals $\pi$ at the critical width $W = \pi R/2$. For $W <
 
 ---
 
-## 3. Twisted sections and the operator domain
+## 3. Twisted Sections and the Operator Domain
 
 ### 3.1 The orientation line bundle
 
 Since $M(W)$ is non-orientable, scalar functions on it do not capture the full spectral problem. The natural domain for the Laplacian is the space of sections of the orientation line bundle $\mathcal{L}$. A smooth function on the covering band $\widetilde{M} = [0, \pi R] \times [-W, W]$ descends to a section of $\mathcal{L} \to M$ if and only if it satisfies the equivariance condition
 
-$$\psi(\pi R, -w) = -\psi(0, w) \qquad \text{for all } w \in [-W, W]. \tag{3.1}$$
+$$\psi(\pi R, -w) = -\psi(0, w) \qquad \text{for all } w \in [-W, W].$$
 
 This sign reversal is the defining property of sections of $\mathcal{L}$: traversing the core loop once reverses the orientation, so a section of the orientation bundle picks up a factor of $-1$.
 
@@ -78,7 +78,7 @@ The *twisted Laplacian* is the Laplace-Beltrami operator acting on sections of $
 
 On the smooth locus $M^\circ = M \setminus \{p_c\}$ (where $p_c$ denotes the cone point at $y = \pi R/2$), the Laplace-Beltrami operator associated to the metric $ds^2 = dy^2 + f(y)^2\,dw^2$ with $f(y) = \cos(y/R)$ is
 
-$$\Delta\psi = \psi_{yy} + \frac{f'}{f}\psi_y + \frac{1}{f^2}\psi_{ww} = \psi_{yy} - \frac{1}{R}\tan\!\Bigl(\frac{y}{R}\Bigr)\psi_y + \frac{1}{\cos^2(y/R)}\psi_{ww}. \tag{3.2}$$
+$$\Delta\psi = \psi_{yy} + \frac{f'}{f}\psi_y + \frac{1}{f^2}\psi_{ww} = \psi_{yy} - \frac{1}{R}\tan\!\Bigl(\frac{y}{R}\Bigr)\psi_y + \frac{1}{\cos^2(y/R)}\psi_{ww}.$$
 
 The area element is $dA = \lvert f(y)\rvert\,dy\,dw$, and $L^2(M, dA)$ denotes the Hilbert space of square-integrable sections of $\mathcal{L}$ with respect to this measure. Although the formal operator is written using $f$ on each smooth coordinate patch, the global measure and the reduced Sturm-Liouville forms use $\lvert f\rvert$, which is nonnegative across the two sides of the collapsed fiber.
 
@@ -90,7 +90,7 @@ The involution $\tau(y, w) = (\pi R - y, -w)$ is an isometry of the covering ban
 
 At $p_c$, $f(\pi R/2) = \cos(\pi/2) = 0$. Setting $\delta = y - \pi R/2$:
 
-$$f(y) = \cos(y/R) = -\sin(\delta/R) \quad \Longrightarrow \quad \lvert f\rvert \sim \frac{\lvert\delta\rvert}{R} \quad \text{as } \delta \to 0. \tag{3.3}$$
+$$f(y) = \cos(y/R) = -\sin(\delta/R) \quad \Longrightarrow \quad \lvert f\rvert \sim \frac{\lvert\delta\rvert}{R} \quad \text{as } \delta \to 0.$$
 
 The transverse fiber $[-W, W]$ has metric length $2W\lvert f(y)\rvert$, which collapses to zero. On the covering $S^2$, the coordinate $y = \pi R/2$ is a smooth pole; on the edge-identified Möbius band, the same collapse produces a conical singularity with cone angle $2W/R$.
 
@@ -102,13 +102,13 @@ Separation of variables $\psi(y,w) = u(y)\,\Phi(w)$ with $-\Phi'' = \mu\,\Phi$ s
 
 *Even family* (symmetric under $w \mapsto -w$):
 
-$$\Phi_k^{\mathrm{e}}(w) = \cos(k\pi w/W), \qquad \mu_k^{\mathrm{e}} = (k\pi/W)^2, \qquad k = 0, 1, 2, \ldots \tag{3.4}$$
+$$\Phi_k^{\mathrm{e}}(w) = \cos(k\pi w/W), \qquad \mu_k^{\mathrm{e}} = (k\pi/W)^2, \qquad k = 0, 1, 2, \ldots$$
 
 The case $k = 0$ is the constant mode $\Phi_0^{\mathrm{e}} \equiv 1$ with $\mu_0 = 0$.
 
 *Odd family* (antisymmetric under $w \mapsto -w$):
 
-$$\Phi_j^{\mathrm{o}}(w) = \sin\bigl((2j+1)\pi w/(2W)\bigr), \qquad \mu_j^{\mathrm{o}} = \bigl((2j+1)\pi/(2W)\bigr)^2, \qquad j = 0, 1, 2, \ldots \tag{3.5}$$
+$$\Phi_j^{\mathrm{o}}(w) = \sin\bigl((2j+1)\pi w/(2W)\bigr), \qquad \mu_j^{\mathrm{o}} = \bigl((2j+1)\pi/(2W)\bigr)^2, \qquad j = 0, 1, 2, \ldots$$
 
 The Möbius identification $\psi(\pi R, -w) = -\psi(0, w)$ interacts with the transverse parity as follows. For even $\Phi(w) = \Phi(-w)$, the identification forces $u(\pi R) = -u(0)$: the longitudinal function is anti-periodic. For odd $\Phi(-w) = -\Phi(w)$, it forces $u(\pi R) = u(0)$: the longitudinal function is periodic.
 
@@ -118,11 +118,11 @@ A Neumann eigenmode on $[-W, W]$ extends by even reflection to a periodic functi
 
 In each sector, the reduced eigenequation for the longitudinal function $u(y)$ takes the Sturm-Liouville form
 
-$$-\bigl(\lvert f\rvert\,u'\bigr)' + \frac{\mu}{\lvert f\rvert}\,u = \lambda\,\lvert f\rvert\,u, \qquad f(y) = \cos(y/R), \tag{3.6}$$
+$$-\bigl(\lvert f\rvert\,u'\bigr)' + \frac{\mu}{\lvert f\rvert}\,u = \lambda\,\lvert f\rvert\,u, \qquad f(y) = \cos(y/R),$$
 
 on $L^2\bigl((0, \pi R),\,\lvert f\rvert\,dy\bigr)$, where $\mu$ is the transverse eigenvalue of the sector. Near the cone ($\delta \to 0$, $\lvert f\rvert \sim \lvert\delta\rvert/R$), this becomes
 
-$$-\Bigl(\frac{\lvert\delta\rvert}{R}\,u'\Bigr)' + \frac{\mu R}{\lvert\delta\rvert}\,u = \lambda\,\frac{\lvert\delta\rvert}{R}\,u. \tag{3.7}$$
+$$-\Bigl(\frac{\lvert\delta\rvert}{R}\,u'\Bigr)' + \frac{\mu R}{\lvert\delta\rvert}\,u = \lambda\,\frac{\lvert\delta\rvert}{R}\,u.$$
 
 Substituting $u = \lvert\delta\rvert^s$ into the leading-order balance gives the indicial equation $s^2 = \mu R^2$.
 
@@ -156,41 +156,41 @@ For the constant mode $\Phi_0^{\mathrm{e}} \equiv 1$, the product $u(\pi R/2) \c
 
 By §3.4, an extension choice arises only in the constant sector ($\mu = 0$), where both local solutions are $L^2$. Near the cone, the general constant-sector solution has the asymptotic form
 
-$$u(\delta) = u_N\,\ln\frac{\lvert\delta\rvert}{2R} + u_D + o(1) \qquad (\delta \to 0), \tag{3.8}$$
+$$u(\delta) = u_N\,\ln\frac{\lvert\delta\rvert}{2R} + u_D + o(1) \qquad (\delta \to 0),$$
 
 with a log coefficient $u_N$ (the flux datum) and a regularized value $u_D$ (referenced to the length $2R$), independently on each side of the cone. We write $u_D^\pm$ and $u_N^\pm$ for the limits from $\delta \to 0^\pm$. The cone boundary form produced by Green's identity is
 
-$$[u, v]_{p_c} = \frac{1}{R}\sum_{\pm}\bigl(u_D^\pm\,v_N^\pm - u_N^\pm\,v_D^\pm\bigr), \tag{3.9}$$
+$$[u, v]_{p_c} = \frac{1}{R}\sum_{\pm}\bigl(u_D^\pm\,v_N^\pm - u_N^\pm\,v_D^\pm\bigr),$$
 
-where the logarithmic divergences cancel pairwise: a direct computation from (3.7) gives $\lvert f\rvert(u v' - u' v) \to (\mathrm{sgn}\delta/R)(u_D v_N - u_N v_D)$ as $\delta \to 0$, and the two-sided Green identity sums these limits with the outward-normal orientation, yielding (3.9). A self-adjoint extension corresponds to a two-dimensional Lagrangian plane (a subspace on which (3.9) vanishes identically) in the four-dimensional boundary space $(u_D^+, u_N^+, u_D^-, u_N^-)$.
+where the logarithmic divergences cancel pairwise: a direct computation from the near-cone reduced form gives $\lvert f\rvert(u v' - u' v) \to (\mathrm{sgn}\,\delta/R)(u_D v_N - u_N v_D)$ as $\delta \to 0$, and the two-sided Green identity sums these limits with the outward-normal orientation, yielding the boundary form above. A self-adjoint extension corresponds to a two-dimensional Lagrangian plane (a subspace on which this boundary form vanishes identically) in the four-dimensional boundary space $(u_D^+, u_N^+, u_D^-, u_N^-)$.
 
 *The Friedrichs (disjoint) extension.* The Friedrichs extension [Friedrichs] is characterized by Theorem 1.8 of [BP] (applied at $\alpha_{\mathrm{BP}} = -1$): its domain requires
 
-$$u_N^+ = 0 \qquad\text{and}\qquad u_N^- = 0, \tag{3.10}$$
+$$u_N^+ = 0 \qquad\text{and}\qquad u_N^- = 0,$$
 
-with no condition relating $u_D^+$ to $u_D^-$. This is two conditions on four parameters, and the plane $\{u_N^+ = u_N^- = 0\}$ is Lagrangian: the bracket (3.9) vanishes when both fluxes are zero. The domain imposes no matching condition at $p_c$, so the two cone traces $u_D^\pm$ are unconstrained and the constant-sector form $q_0$ decomposes as $q_0^+ \oplus q_0^-$ on the two halves $M^\pm = \{\pm(y - \pi R/2) > 0\}$ (coupled only through the seam identification, not through $p_c$). This is the "disjoint dynamics" case $c^+ = c^- = 0$ of [BP].
+with no condition relating $u_D^+$ to $u_D^-$. This is two conditions on four parameters, and the plane $\{u_N^+ = u_N^- = 0\}$ is Lagrangian: the boundary form vanishes when both fluxes are zero. The domain imposes no matching condition at $p_c$, so the two cone traces $u_D^\pm$ are unconstrained and the constant-sector form $q_0$ decomposes as $q_0^+ \oplus q_0^-$ on the two halves $M^\pm = \{\pm(y - \pi R/2) > 0\}$ (coupled only through the seam identification, not through $p_c$). This is the "disjoint dynamics" case $c^+ = c^- = 0$ of [BP].
 
 *The bridging extension at renormalization length $\delta_0$.* Boscain and Prandi (Theorem 1.8 of [BP]) classify the conic extensions by a matrix $U \in \mathrm{SL}_2(\mathbb{R})$, and their Remark 1.9 names the $U = \mathrm{Id}$ case the bridging extension. Equipping it with a renormalization length $\delta_0 > 0$ is the standard two-dimensional point-interaction renormalization [AGHH, KayStuder], realized inside the conic framework: re-express the data relative to $\delta_0$,
 
-$$u(\delta) = u_N\,\ln\frac{\lvert\delta\rvert}{\delta_0} + \tilde u_D + o(1), \qquad \tilde u_D = u_D + u_N\,\ln\frac{\delta_0}{2R}, \tag{3.11}$$
+$$u(\delta) = u_N\,\ln\frac{\lvert\delta\rvert}{\delta_0} + \tilde u_D + o(1), \qquad \tilde u_D = u_D + u_N\,\ln\frac{\delta_0}{2R},$$
 
 and imposes
 
-$$\tilde u_D^+ = \tilde u_D^- \qquad \text{(continuity of the regularized value),} \tag{3.12}$$
+$$\tilde u_D^+ = \tilde u_D^- \qquad \text{(continuity of the regularized value),}$$
 
-$$u_N^+ + u_N^- = 0 \qquad \text{(Kirchhoff flux matching).} \tag{3.13}$$
+$$u_N^+ + u_N^- = 0 \qquad \text{(Kirchhoff flux matching).}$$
 
-This is two conditions on four parameters. The plane is Lagrangian: since $u_D^\pm = \tilde u_D^\pm - u_N^\pm\ln(\delta_0/2R)$, the $\ln(\delta_0/2R)$ terms cancel pairwise in (3.9), and for $u, v$ both satisfying (3.12)–(3.13),
+This is two conditions on four parameters. The plane is Lagrangian: since $u_D^\pm = \tilde u_D^\pm - u_N^\pm\ln(\delta_0/2R)$, the $\ln(\delta_0/2R)$ terms cancel pairwise in the boundary form, and for $u, v$ both satisfying the bridging conditions,
 
 $$[u, v]_{p_c} = \frac{1}{R}\Bigl[\tilde u_D\bigl(v_N^+ + v_N^-\bigr) - \tilde v_D\bigl(u_N^+ + u_N^-\bigr)\Bigr] = 0.$$
 
-The value condition (3.12) is continuity across the cone; the flux condition (3.13) is the sign-flipped (Kirchhoff) matching dictated by the opposite outward normals on the two sides. Different choices of $\delta_0$ yield distinct self-adjoint extensions with distinct spectra; the renormalization length is a genuine parameter, set neither by the metric nor by the bundle alone.
+The value condition is continuity across the cone; the flux condition is the sign-flipped (Kirchhoff) matching dictated by the opposite outward normals on the two sides. Different choices of $\delta_0$ yield distinct self-adjoint extensions with distinct spectra; the renormalization length is a genuine parameter, set neither by the metric nor by the bundle alone.
 
 For any constant $c \ne 0$, the discontinuous piecewise-constant section
 
-$$\phi_0(y, w) = \begin{cases} +c & \text{if } y < \pi R/2, \\ -c & \text{if } y > \pi R/2, \end{cases} \tag{3.14}$$
+$$\phi_0(y, w) = \begin{cases} +c & \text{if } y < \pi R/2, \\ -c & \text{if } y > \pi R/2, \end{cases}$$
 
-has $u_N^\pm = 0$ and $\tilde u_D^+ = -c \ne +c = \tilde u_D^-$, so it lies in the Friedrichs domain (it satisfies (3.10)) but is excluded from every bridging domain (it fails (3.12)). Since $-\Delta\phi_0 = 0$ on the smooth locus and $\phi_0$ satisfies (3.1), it is a genuine eigenfunction with eigenvalue $0$ for the Friedrichs extension. The constant sector is the only sector in which it lives, by Lemma 3.2.
+has $u_N^\pm = 0$ and $\tilde u_D^+ = -c \ne +c = \tilde u_D^-$, so it lies in the Friedrichs domain (it satisfies the Friedrichs flux conditions) but is excluded from every bridging domain (it fails value-continuity). Since $-\Delta\phi_0 = 0$ on the smooth locus and $\phi_0$ satisfies the equivariance condition, it is a genuine eigenfunction with eigenvalue $0$ for the Friedrichs extension. The constant sector is the only sector in which it lives, by Lemma 3.2.
 
 The covering geometry constrains, but does not by itself fix, the extension. A section of $\mathcal{L}$ that lifts to a function smooth at the pole of the covering $S^2$ is regular there ($u_N = 0$) and even in $\delta$; this forces the regular branch in the symmetric subsector (§4.2) but does not determine the cone condition in the antisymmetric subsector, where the natural candidates are the Friedrichs and bridging conditions above. The remaining choice is the antisymmetric cone condition, which is what separates Friedrichs from bridging in §5.
 
@@ -198,7 +198,7 @@ The covering geometry constrains, but does not by itself fix, the extension. A s
 
 The constant-sector quadratic form
 
-$$q[\psi] = \int_{M^\circ}\lvert\nabla\psi\rvert^2\,dA, \qquad M^\circ = M(W)\setminus\{p_c\}, \tag{3.15}$$
+$$q[\psi] = \int_{M^\circ}\lvert\nabla\psi\rvert^2\,dA, \qquad M^\circ = M(W)\setminus\{p_c\},$$
 
 is nonnegative on $C_c^\infty(M^\circ)$ (twisted sections smooth and compactly supported away from $p_c$). The Friedrichs extension $\Delta_F$ is the self-adjoint operator associated with the closure of $q$; its form domain $\mathcal{D}(q_F) = \overline{C_c^\infty(M^\circ)}^{\,\lVert\cdot\rVert_q}$ is contained in the form domain of every other self-adjoint extension that is bounded below by the lower bound of $q$.
 
@@ -216,7 +216,7 @@ Lemma 3.3 proves the part of Theorem 1.1 that needs no separation of variables: 
 
 ---
 
-## 4. The constant sector by parity
+## 4. The Constant Sector by Parity
 
 The constant transverse mode ($k = 0$ even family, $\Phi_0^{\mathrm{e}} \equiv 1$) reduces the eigenvalue problem to a single ODE in $y$ with anti-periodic boundary conditions. This is the zonal sector, where the extension ambiguity lives. We analyze it by parity about the cone.
 
@@ -224,7 +224,7 @@ The constant transverse mode ($k = 0$ even family, $\Phi_0^{\mathrm{e}} \equiv 1
 
 On the constant-curvature band, the zonal eigenequation from §3.4 with $\mu = 0$ is
 
-$$-\Delta u = -u'' + \frac{1}{R}\tan\!\Bigl(\frac{y}{R}\Bigr)u' = \lambda\,u \qquad \text{on } (0, \pi R), \tag{4.1}$$
+$$-\Delta u = -u'' + \frac{1}{R}\tan\!\Bigl(\frac{y}{R}\Bigr)u' = \lambda\,u \qquad \text{on } (0, \pi R),$$
 
 with anti-periodic boundary conditions $u(\pi R) = -u(0)$ and $u'(\pi R) = -u'(0)$, and a cone condition at $y = \pi R/2$ from §3.5. Decompose the constant-sector functions into modes symmetric and antisymmetric under reflection about the cone $\delta \mapsto -\delta$. Anti-periodicity interacts with this parity as follows.
 
@@ -232,27 +232,27 @@ with anti-periodic boundary conditions $u(\pi R) = -u(0)$ and $u'(\pi R) = -u'(0
 
 *Antisymmetric modes* satisfy $u(\pi R) = -u(0)$ automatically, so the value condition is free and the derivative condition forces $u'(0) = 0$ (Neumann at the seam). The antisymmetric sector is the half-interval problem on $(0, \pi R/2)$ with Neumann at the seam and a cone condition.
 
-On the bridging side, a symmetric mode has equal log coefficients on the two sides, so the Kirchhoff condition (3.13) forces the log coefficient to vanish, and the symmetric mode lies in the Friedrichs domain. An antisymmetric mode has $\tilde u_D^+ = -\tilde u_D^-$, so the value condition (3.12) forces $\tilde u_D = 0$, and the log datum is active. The two subsectors decouple: the symmetric subsector gives the same spectrum for the Friedrichs and bridging extensions and is treated in §4.2; the antisymmetric subsector is where these extensions differ and is treated in §§4.3–4.4.
+On the bridging side, a symmetric mode has equal log coefficients on the two sides, so the Kirchhoff flux condition forces the log coefficient to vanish, and the symmetric mode lies in the Friedrichs domain. An antisymmetric mode has $\tilde u_D^+ = -\tilde u_D^-$, so the value-continuity condition forces $\tilde u_D = 0$, and the log datum is active. The two subsectors decouple: the symmetric subsector gives the same spectrum for the Friedrichs and bridging extensions and is treated in §4.2; the antisymmetric subsector is where these extensions differ and is treated in §§4.3–4.4.
 
 ### 4.2 Legendre reduction and the symmetric tower
 
 The substitution $x = \sin(y/R)$ maps $(0, \pi R/2)$ bijectively to $(0, 1)$ and converts the zonal operator to the Legendre equation. With $u(y) = v(\sin(y/R))$,
 
-$$\frac{d}{dx}\!\Bigl[(1-x^2)\frac{dv}{dx}\Bigr] + \nu(\nu+1)\,v = 0, \qquad \lambda = \frac{\nu(\nu+1)}{R^2}, \tag{4.2}$$
+$$\frac{d}{dx}\!\Bigl[(1-x^2)\frac{dv}{dx}\Bigr] + \nu(\nu+1)\,v = 0, \qquad \lambda = \frac{\nu(\nu+1)}{R^2},$$
 
 where $\nu \ge 0$ is a continuous spectral parameter. The Legendre function of the first kind $P_\nu(x)$ is regular at $x = 1$ (the cone); the Legendre function of the second kind $Q_\nu(x)$ diverges logarithmically and supplies the log datum $u_N$. The substitution $x = \sin(y/R)$ is two-to-one ($y$ and $\pi R - y$ map to the same $x$) and produces exactly the modes symmetric about the cone.
 
 In the symmetric subsector both the Friedrichs and bridging conditions force the regular branch (the log coefficient vanishes, by §4.1), so the admissible symmetric solutions are $P_\nu(\sin(y/R))$. The Dirichlet seam condition $u(0) = 0$ is $P_\nu(0) = 0$. Since
 
-$$P_\nu(0) = \frac{\sqrt{\pi}}{\Gamma((1-\nu)/2)\,\Gamma(1+\nu/2)}, \tag{4.3}$$
+$$P_\nu(0) = \frac{\sqrt{\pi}}{\Gamma((1-\nu)/2)\,\Gamma(1+\nu/2)},$$
 
 this holds exactly when $(1-\nu)/2$ is a non-positive integer, i.e. $\nu = 1, 3, 5, \ldots$ The symmetric zonal tower is therefore
 
-$$\sigma_{\mathrm{sym}} = \Bigl\{\frac{\ell(\ell+1)}{R^2} : \ell = 1, 3, 5, \ldots\Bigr\} = \Bigl\{\frac{2}{R^2}, \frac{12}{R^2}, \frac{30}{R^2}, \ldots\Bigr\}, \tag{4.4}$$
+$$\sigma_{\mathrm{sym}} = \Bigl\{\frac{\ell(\ell+1)}{R^2} : \ell = 1, 3, 5, \ldots\Bigr\} = \Bigl\{\frac{2}{R^2}, \frac{12}{R^2}, \frac{30}{R^2}, \ldots\Bigr\},$$
 
 the same for the Friedrichs and bridging extensions. The lowest member is $\ell = 1$, with eigenfunction $P_1(\sin(y/R)) = \sin(y/R)$, the restriction of the zonal harmonic $Y_1^0 \propto \sin(y/R)$. It is strictly positive on $(0, \pi R)$, lies in the regular Frobenius branch at the cone, and gives
 
-$$\frac{\ell(\ell+1)}{R^2}\Big|_{\ell=1} = \frac{2}{R^2} = R_{\mathrm{sm}}, \tag{4.5}$$
+$$\frac{\ell(\ell+1)}{R^2}\Big|_{\ell=1} = \frac{2}{R^2} = R_{\mathrm{sm}},$$
 
 independent of the half-width $W$.
 
@@ -262,11 +262,11 @@ On the flat strip (Euclidean metric, anti-periodic condition, same period $\pi R
 
 Under the Friedrichs extension, the antisymmetric subsector (Neumann seam, regular cone) admits $\mathrm{sgn}(\delta)\,P_\nu(\sin(y/R))$ with the regular branch at the cone, and the Neumann seam condition is $P_\nu'(0) = 0$, i.e. $\nu = 0, 2, 4, \ldots$ The Friedrichs antisymmetric tower is
 
-$$\sigma_{\mathrm{anti}}^{\mathrm{Fr}} = \Bigl\{\frac{\ell(\ell+1)}{R^2} : \ell = 0, 2, 4, \ldots\Bigr\} = \Bigl\{0, \frac{6}{R^2}, \frac{20}{R^2}, \ldots\Bigr\}. \tag{4.6}$$
+$$\sigma_{\mathrm{anti}}^{\mathrm{Fr}} = \Bigl\{\frac{\ell(\ell+1)}{R^2} : \ell = 0, 2, 4, \ldots\Bigr\} = \Bigl\{0, \frac{6}{R^2}, \frac{20}{R^2}, \ldots\Bigr\}.$$
 
-The $\ell = 0$ member is the zero mode $\phi_0$ of (3.14).
+The $\ell = 0$ member is the zero mode $\phi_0$.
 
-> **Lemma 4.1** (Friedrichs kernel in the constant sector)**.** In the constant transverse sector, the Friedrichs form decomposes as the direct sum of the two half-band forms on $M^+$ and $M^-$. Consequently $\phi_0$ of (3.14) belongs to $\mathcal{D}(\Delta_F)$ and satisfies $\Delta_F\phi_0 = 0$, and the zero eigenspace in the constant sector is one-dimensional, spanned by $\phi_0$.
+> **Lemma 4.1** (Friedrichs kernel in the constant sector)**.** In the constant transverse sector, the Friedrichs form decomposes as the direct sum of the two half-band forms on $M^+$ and $M^-$. Consequently $\phi_0$ belongs to $\mathcal{D}(\Delta_F)$ and satisfies $\Delta_F\phi_0 = 0$, and the zero eigenspace in the constant sector is one-dimensional, spanned by $\phi_0$.
 
 *Proof.* Let $\chi_\varepsilon(\delta)$ be smooth, equal to $0$ for $\lvert\delta\rvert \le \varepsilon$, equal to $1$ for $\lvert\delta\rvert \ge \sqrt{\varepsilon}$, and satisfying $\lvert\chi_\varepsilon'(\delta)\rvert \le C/(\lvert\delta\rvert\,\lvert\log\varepsilon\rvert)$ for $\varepsilon < \lvert\delta\rvert < \sqrt{\varepsilon}$. Since $\lvert f(y)\rvert \sim \lvert\delta\rvert/R$ at the cone, the cutoff energy (the transverse integration contributing only the constant factor $2W$) obeys
 
@@ -274,25 +274,25 @@ $$\int_{\varepsilon < \lvert\delta\rvert < \sqrt{\varepsilon}} \lvert\chi_\varep
 
 Thus the jump of $\phi_0$ across the collapsed point is invisible to the Friedrichs form closure: $\chi_\varepsilon\phi_0 \to \phi_0$ in the form norm, so $\phi_0 \in \mathcal{D}(q_F)$ and $q_F(\phi_0, \eta) = 0$ for every form-domain test section $\eta$, whence $\phi_0 \in \mathcal{D}(\Delta_F)$ and $\Delta_F\phi_0 = 0$. By contrast the logarithmic branch has $u'(\delta) \sim 1/\delta$, hence $\int \lvert u'\rvert^2\lvert f\rvert\,d\delta \sim \int d\delta/\lvert\delta\rvert = \infty$, and is excluded from the Friedrichs domain. Conversely, if $q_F[\psi] = 0$ in the constant sector then $\nabla\psi = 0$ a.e. on each connected half, so $\psi$ is constant on each of $M^\pm$; the anti-periodic seam condition forces the two constants to be opposite, giving a scalar multiple of $\phi_0$. $\square$
 
-> **Remark 4.2** (Lune equivalence)**.** The Friedrichs extension renders the topological twist spectrally invisible. Over the smooth locus $M^\circ$ the bundle $\mathcal{L}$ is trivial, and multiplication by $\phi_0$ (with $c = 1$) provides the trivializing section. Concretely, set $\tilde\psi = \psi$ on $\{y < \pi R/2\}$ and $\tilde\psi = -\psi$ on $\{y > \pi R/2\}$; in coordinates $t = y$ on the first half and $t = y - \pi R$ on the second (with $w' = w$ and $w' = -w$ respectively), the anti-equivariance (3.1) becomes plain continuity and $C^1$ matching of $\tilde\psi$ across $t = 0$, and the metric becomes $dt^2 + \cos^2(t/R)\,dw'^2$ on $t \in (-\pi R/2, \pi R/2)$, $w' \in [-W, W]$. Pointwise $\lvert\tilde\psi\rvert = \lvert\psi\rvert$ and $\lvert\nabla\tilde\psi\rvert = \lvert\nabla\psi\rvert$, so the $L^2$ norm and the energy form are preserved. The image is a spherical lune of opening angle $2W/R$ with the two pole corners corresponding to $p_c$; since a single point has zero capacity, the Friedrichs twisted Laplacian is unitarily equivalent to the Neumann Laplacian on the lune, and $\phi_0$ maps to the constant function. The trivialization and the zero-capacity estimate are sector-independent, so the equivalence is for the full Friedrichs operator, with the sector towers organized by longitude order. The Friedrichs spectrum is the lune Neumann spectrum, obtained by separation of variables: longitude Neumann modes of order $m_n = n\pi R/(2W)$ combined with colatitude Legendre functions regular at both poles give eigenvalues $(m_n + q)(m_n + q + 1)/R^2$ for $n, q \ge 0$. In particular, for the Friedrichs realization the first positive eigenvalue of Theorem 1.2 is the first nonzero Neumann eigenvalue of this lune: the $(n,q) = (0,1)$ and $(1,0)$ modes give $2/R^2$ and $\alpha_0(\alpha_0+1)/R^2$, crossing doubly at $W = \pi R/2$. The width transition is thus the crossing of the two lowest lune branches.
+> **Remark 4.2** (Lune equivalence)**.** The Friedrichs extension renders the topological twist spectrally invisible. Over the smooth locus $M^\circ$ the bundle $\mathcal{L}$ is trivial, and multiplication by $\phi_0$ (with $c = 1$) provides the trivializing section. Concretely, set $\tilde\psi = \psi$ on $\{y < \pi R/2\}$ and $\tilde\psi = -\psi$ on $\{y > \pi R/2\}$; in coordinates $t = y$ on the first half and $t = y - \pi R$ on the second (with $w' = w$ and $w' = -w$ respectively), the anti-equivariance condition becomes plain continuity and $C^1$ matching of $\tilde\psi$ across $t = 0$, and the metric becomes $dt^2 + \cos^2(t/R)\,dw'^2$ on $t \in (-\pi R/2, \pi R/2)$, $w' \in [-W, W]$. Pointwise $\lvert\tilde\psi\rvert = \lvert\psi\rvert$ and $\lvert\nabla\tilde\psi\rvert = \lvert\nabla\psi\rvert$, so the $L^2$ norm and the energy form are preserved. The image is a spherical lune of opening angle $2W/R$ with the two pole corners corresponding to $p_c$; since a single point has zero capacity, the Friedrichs twisted Laplacian is unitarily equivalent to the Neumann Laplacian on the lune, and $\phi_0$ maps to the constant function. The trivialization and the zero-capacity estimate are sector-independent, so the equivalence is for the full Friedrichs operator, with the sector towers organized by longitude order. The Friedrichs spectrum is the lune Neumann spectrum, obtained by separation of variables: longitude Neumann modes of order $m_n = n\pi R/(2W)$ combined with colatitude Legendre functions regular at both poles give eigenvalues $(m_n + q)(m_n + q + 1)/R^2$ for $n, q \ge 0$. In particular, for the Friedrichs realization the first positive eigenvalue of Theorem 1.2 is the first nonzero Neumann eigenvalue of this lune: the $(n,q) = (0,1)$ and $(1,0)$ modes give $2/R^2$ and $\alpha_0(\alpha_0+1)/R^2$, crossing doubly at $W = \pi R/2$. The width transition is thus the crossing of the two lowest lune branches.
 
 ### 4.4 The deformed antisymmetric branch
 
-The bridging extension deforms the tower (4.6). By §4.1, the antisymmetric subsector under bridging is the half-interval problem on $(0, \pi R/2)$ with Neumann at the seam and the regularized condition $\tilde u_D = 0$ at the cone. Let $u_\lambda$ denote the solution of (4.1) on $(0,\pi R/2)$ normalized by $u_\lambda'(0) = 0$, $u_\lambda(0) = 1$. Near the cone it has the expansion
+The bridging extension deforms the Friedrichs antisymmetric tower. By §4.1, the antisymmetric subsector under bridging is the half-interval problem on $(0, \pi R/2)$ with Neumann at the seam and the regularized condition $\tilde u_D = 0$ at the cone. Let $u_\lambda$ denote the solution of the zonal equation on $(0,\pi R/2)$ normalized by $u_\lambda'(0) = 0$, $u_\lambda(0) = 1$. Near the cone it has the expansion
 
-$$u_\lambda(\delta) = \mathcal{N}(\lambda)\,\ln\frac{\lvert\delta\rvert}{2R} + \mathcal{D}(\lambda) + o(1), \tag{4.7}$$
+$$u_\lambda(\delta) = \mathcal{N}(\lambda)\,\ln\frac{\lvert\delta\rvert}{2R} + \mathcal{D}(\lambda) + o(1),$$
 
 with $\mathcal{N}(\lambda)$ the log coefficient and $\mathcal{D}(\lambda)$ the regularized value, both real-analytic. Define the secular function
 
-$$G(\lambda) = -\frac{\mathcal{D}(\lambda)}{\mathcal{N}(\lambda)}. \tag{4.8}$$
+$$G(\lambda) = -\frac{\mathcal{D}(\lambda)}{\mathcal{N}(\lambda)}.$$
 
-Since the data referenced to $\delta_0$ satisfy $\tilde u_D = \mathcal{D}(\lambda) + \mathcal{N}(\lambda)\ln(\delta_0/2R)$ by (3.11), the bridging eigenvalue condition $\tilde u_D = 0$ is
+Since the data referenced to $\delta_0$ satisfy $\tilde u_D = \mathcal{D}(\lambda) + \mathcal{N}(\lambda)\ln(\delta_0/2R)$ (the $\delta_0$-rescaling above), the bridging eigenvalue condition $\tilde u_D = 0$ is
 
-$$G(\lambda) = \ln\frac{\delta_0}{2R}. \tag{4.9}$$
+$$G(\lambda) = \ln\frac{\delta_0}{2R}.$$
 
 For $\nu > -1/2$ (equivalently $\lambda > -1/(4R^2)$), the substitution $x = \sin(y/R)$ and the Legendre closed forms give
 
-$$G\bigl(\nu(\nu+1)/R^2\bigr) = -\gamma - \psi(\nu+1) - \frac{Q_\nu'(0)}{P_\nu'(0)}, \tag{4.10}$$
+$$G\bigl(\nu(\nu+1)/R^2\bigr) = -\gamma - \psi(\nu+1) - \frac{Q_\nu'(0)}{P_\nu'(0)},$$
 
 where $\gamma$ is the Euler-Mascheroni constant and $\psi = \Gamma'/\Gamma$ the digamma function (distinct from the section $\psi$). The derivative values at the origin,
 
@@ -300,13 +300,13 @@ $$P_\nu'(0) = \frac{2\pi^{-1/2}\sin(\pi\nu/2)\,\Gamma(\tfrac{\nu}{2}+1)}{\Gamma(
 
 [DLMF, Eqs. 14.5.2 and 14.5.4], share the same Gamma quotient, which cancels in the ratio, leaving
 
-$$G\bigl(\nu(\nu+1)/R^2\bigr) = -\gamma - \psi(\nu+1) - \frac{\pi}{2}\cot\frac{\pi\nu}{2}. \tag{4.11}$$
+$$G\bigl(\nu(\nu+1)/R^2\bigr) = -\gamma - \psi(\nu+1) - \frac{\pi}{2}\cot\frac{\pi\nu}{2}.$$
 
-The cotangent has poles at the even integers $\nu = 0, 2, 4, \ldots$, which are exactly the Friedrichs antisymmetric tower (4.6); there $G$ has simple poles.
+The cotangent has poles at the even integers $\nu = 0, 2, 4, \ldots$, which are exactly the Friedrichs antisymmetric tower; there $G$ has simple poles.
 
-For $\lambda < -1/(4R^2)$, write $\nu = -\tfrac{1}{2} + i\kappa$ with $\kappa = (-\lambda R^2 - \tfrac{1}{4})^{1/2}$. The closed form continues real-analytically: $\cot(-\tfrac{\pi}{4} + \tfrac{i\pi\kappa}{2}) = -\mathrm{sech}(\pi\kappa) - i\tanh(\pi\kappa)$ and $\mathrm{Im}\psi(\tfrac{1}{2} + i\kappa) = \tfrac{\pi}{2}\tanh(\pi\kappa)$, and the imaginary parts cancel, giving
+For $\lambda < -1/(4R^2)$, write $\nu = -\tfrac{1}{2} + i\kappa$ with $\kappa = (-\lambda R^2 - \tfrac{1}{4})^{1/2}$. The closed form continues real-analytically: $\cot(-\tfrac{\pi}{4} + \tfrac{i\pi\kappa}{2}) = -\mathrm{sech}(\pi\kappa) - i\tanh(\pi\kappa)$ and $\mathrm{Im}\,\psi(\tfrac{1}{2} + i\kappa) = \tfrac{\pi}{2}\tanh(\pi\kappa)$, and the imaginary parts cancel, giving
 
-$$G(\lambda) = -\gamma - \mathrm{Re}\psi\bigl(\tfrac{1}{2} + i\kappa\bigr) + \frac{\pi}{2}\,\mathrm{sech}(\pi\kappa), \qquad \lambda \le -\frac{1}{4R^2}. \tag{4.12}$$
+$$G(\lambda) = -\gamma - \mathrm{Re}\,\psi\bigl(\tfrac{1}{2} + i\kappa\bigr) + \frac{\pi}{2}\,\mathrm{sech}(\pi\kappa), \qquad \lambda \le -\frac{1}{4R^2}.$$
 
 > **Lemma 4.3** (Monotonicity)**.** $G$ is strictly increasing between consecutive poles; on each interval between consecutive poles it is a bijection onto $\mathbb{R}$, and on $(-\infty, 0)$ it has no poles and increases from $-\infty$ to $+\infty$.
 
@@ -318,21 +318,21 @@ whence $G'(\lambda) = R\,\lVert u_\lambda\rVert^2_{\lvert f\rvert}/\mathcal{N}(\
 
 > **Proposition 4.4** (Bridging constant-sector spectrum)**.** For every $\delta_0 > 0$, the bridging extension in the constant sector has exactly one negative eigenvalue
 >
-> $$\lambda_b(\delta_0) = -\frac{4e^{-2\gamma}}{\delta_0^2}\bigl(1 + O(\delta_0^2/R^2)\bigr) \qquad (\delta_0 \to 0^+), \tag{4.13}$$
+> $$\lambda_b(\delta_0) = -\frac{4e^{-2\gamma}}{\delta_0^2}\bigl(1 + O(\delta_0^2/R^2)\bigr) \qquad (\delta_0 \to 0^+),$$
 >
-> a cone-localized bound state independent of the half-width $W$ and strictly increasing in $\delta_0$ with $\lambda_b \to 0^-$ as $\delta_0 \to \infty$. Zero is not an eigenvalue: it lies in the resolvent set. The symmetric tower (4.4) is unchanged, and the deformed antisymmetric eigenvalues interlace the Friedrichs tower (4.6), one in each gap. Moreover, for
+> a cone-localized bound state independent of the half-width $W$ and strictly increasing in $\delta_0$ with $\lambda_b \to 0^-$ as $\delta_0 \to \infty$. Zero is not an eigenvalue: it lies in the resolvent set. The symmetric tower is unchanged, and the deformed antisymmetric eigenvalues interlace the Friedrichs tower, one in each gap. Moreover, for
 >
-> $$\delta_0 > \frac{2R}{e} \tag{4.14}$$
+> $$\delta_0 > \frac{2R}{e}$$
 >
 > the lowest positive eigenvalue of the constant sector is $2/R^2$ and simple; at $\delta_0 = 2R/e$ it is still $2/R^2$ but doubly degenerate, the deformed antisymmetric root coinciding with the symmetric $\ell = 1$ value, and for $\delta_0 < 2R/e$ it lies strictly below $2/R^2$.
 
-*Proof.* By Lemma 4.3, $G$ is a bijection of $(-\infty, 0)$ onto $\mathbb{R}$, so (4.9) has exactly one negative root for every $\delta_0$; solving the deep asymptotic against $\ln(\delta_0/2R)$ gives (4.13), and $G' > 0$ gives monotonicity in $\delta_0$ with $\lambda_b \to 0^-$ as $\delta_0 \to \infty$. At $\lambda = 0$ the Neumann-seam solution is $u_0 \equiv 1$, with $\mathcal{N}(0) = 0$ and $\mathcal{D}(0) = 1 \ne 0$, so $\tilde u_D = 1 \ne 0$ and the bridging condition excludes $\lambda = 0$. On each interval between consecutive poles (the Friedrichs tower) $G$ is a bijection onto $\mathbb{R}$, giving one deformed root per gap. Finally, at $\nu = 1$ ($\lambda = 2/R^2$), $\cot(\pi/2) = 0$, so $G(2/R^2) = -\gamma - \psi(2) = -\gamma - (1 - \gamma) = -1$; since $G$ is increasing on $(0, 6/R^2)$, the lowest positive deformed root exceeds $2/R^2$ for $\ln(\delta_0/2R) > -1$ and equals $2/R^2$ at $\ln(\delta_0/2R) = -1$, so for $\delta_0 > 2R/e$ the lowest positive eigenvalue of the sector is $2/R^2$ and simple, while at $\delta_0 = 2R/e$ it remains $2/R^2$ with the deformed root coincident. $\square$
+*Proof.* By Lemma 4.3, $G$ is a bijection of $(-\infty, 0)$ onto $\mathbb{R}$, so the secular condition has exactly one negative root for every $\delta_0$; solving the deep asymptotic against $\ln(\delta_0/2R)$ gives the bound state $\lambda_b(\delta_0)$, and $G' > 0$ gives monotonicity in $\delta_0$ with $\lambda_b \to 0^-$ as $\delta_0 \to \infty$. At $\lambda = 0$ the Neumann-seam solution is $u_0 \equiv 1$, with $\mathcal{N}(0) = 0$ and $\mathcal{D}(0) = 1 \ne 0$, so $\tilde u_D = 1 \ne 0$ and the bridging condition excludes $\lambda = 0$. On each interval between consecutive poles (the Friedrichs tower) $G$ is a bijection onto $\mathbb{R}$, giving one deformed root per gap. Finally, at $\nu = 1$ ($\lambda = 2/R^2$), $\cot(\pi/2) = 0$, so $G(2/R^2) = -\gamma - \psi(2) = -\gamma - (1 - \gamma) = -1$; since $G$ is increasing on $(0, 6/R^2)$, the lowest positive deformed root exceeds $2/R^2$ for $\ln(\delta_0/2R) > -1$ and equals $2/R^2$ at $\ln(\delta_0/2R) = -1$, so for $\delta_0 > 2R/e$ the lowest positive eigenvalue of the sector is $2/R^2$ and simple, while at $\delta_0 = 2R/e$ it remains $2/R^2$ with the deformed root coincident. $\square$
 
-Every deformed antisymmetric eigenfunction has $\mathcal{N} \ne 0$, hence diverges like $\mathcal{N}\ln(\lvert\delta\rvert/\delta_0)$ at the cone; in particular the bound state at $\lambda_b$ is nodeless on each open half (it is the lowest eigenfunction of the half-interval problem, hence positive there by oscillation theory [Weidmann]), with opposite signs on the two halves and a logarithmic divergence at $p_c$. It vanishes nowhere on the smooth locus. The constant $-4e^{-2\gamma}$ in (4.13) is the standard two-dimensional one-center point-interaction binding energy [AGHH], with $\delta_0$ in the role of the point-interaction renormalization length; the bridging family realizes this point interaction inside the Boscain-Prandi conic framework.
+Every deformed antisymmetric eigenfunction has $\mathcal{N} \ne 0$, hence diverges like $\mathcal{N}\ln(\lvert\delta\rvert/\delta_0)$ at the cone; in particular the bound state at $\lambda_b$ is nodeless on each open half (it is the lowest eigenfunction of the half-interval problem, hence positive there by oscillation theory [Weidmann]), with opposite signs on the two halves and a logarithmic divergence at $p_c$. It vanishes nowhere on the smooth locus. The constant $-4e^{-2\gamma}$ in $\lambda_b$ is the standard two-dimensional one-center point-interaction binding energy [AGHH], with $\delta_0$ in the role of the point-interaction renormalization length; the bridging family realizes this point interaction inside the Boscain-Prandi conic framework.
 
 ---
 
-## 5. Classification of the bottom of the spectrum
+## 5. Classification of the Bottom of the Spectrum
 
 > **Theorem 5.1** (Bottom of the spectrum across realizations)**.** Let $A$ be any self-adjoint extension of the minimal twisted Laplacian on $M(W)$, $0 < W < \pi R$. Then:
 >
@@ -340,25 +340,25 @@ Every deformed antisymmetric eigenfunction has $\mathcal{N} \ne 0$, hence diverg
 >
 > **(ii)** $\inf\sigma(A) = 0$ if and only if $A$ is nonnegative; the Friedrichs extension is the maximal such realization, with $\inf\sigma(\Delta_F) = 0$ attained by the discontinuous zero mode $\phi_0$.
 >
-> **(iii)** For the bridging extension at renormalization length $\delta_0$, $\inf\sigma = \lambda_b(\delta_0) < 0$ of (4.13), a single cone-localized bound state; zero lies in the resolvent set.
+> **(iii)** For the bridging extension at renormalization length $\delta_0$, $\inf\sigma = \lambda_b(\delta_0) < 0$, a single cone-localized bound state; zero lies in the resolvent set.
 >
-> For the Friedrichs and bridging extensions the symmetric zonal tower (4.4) is unchanged, and the difference between these natural realizations lives entirely in the antisymmetric subsector; a general parity-mixing (Robin-type) cone condition can instead deform the symmetric subsector, but part (i) is unaffected, as it follows from maximality independently of the parity decomposition. Parts (ii)–(iii) give the explicit bottom for the nonnegative and bridging realizations; part (i) holds for every self-adjoint extension, including the additional non-finite-energy realizations that the wide-band odd sector admits.
+> For the Friedrichs and bridging extensions the symmetric zonal tower is unchanged, and the difference between these natural realizations lives entirely in the antisymmetric subsector; a general parity-mixing (Robin-type) cone condition can instead deform the symmetric subsector, but part (i) is unaffected, as it follows from maximality independently of the parity decomposition. Parts (ii)–(iii) give the explicit bottom for the nonnegative and bridging realizations; part (i) holds for every self-adjoint extension, including the additional non-finite-energy realizations that the wide-band odd sector admits.
 
-*Proof.* Part (i) is Lemma 3.3(iii), which bounds $\inf\sigma(A) \le \inf\sigma(\Delta_F) = 0$ for nonnegative $A$ and is immediate for non-nonnegative $A$; the argument is independent of the parity decomposition and so applies to parity-mixing extensions as well. Part (ii): if $A$ is nonnegative then $\inf\sigma(A) \ge 0$; combined with (i) this forces $\inf\sigma(A) = 0$, and Lemma 3.3(i) identifies Friedrichs as the maximal nonnegative realization, with the bottom attained by $\phi_0$ (Lemma 4.1). Part (iii) is Proposition 4.4. The robustness of (4.4) for the Friedrichs and bridging extensions is §4.2; a general cone condition is not claimed robust. $\square$
+*Proof.* Part (i) is Lemma 3.3(iii), which bounds $\inf\sigma(A) \le \inf\sigma(\Delta_F) = 0$ for nonnegative $A$ and is immediate for non-nonnegative $A$; the argument is independent of the parity decomposition and so applies to parity-mixing extensions as well. Part (ii): if $A$ is nonnegative then $\inf\sigma(A) \ge 0$; combined with (i) this forces $\inf\sigma(A) = 0$, and Lemma 3.3(i) identifies Friedrichs as the maximal nonnegative realization, with the bottom attained by $\phi_0$ (Lemma 4.1). Part (iii) is Proposition 4.4. The robustness of the symmetric tower for the Friedrichs and bridging extensions is §4.2; a general cone condition is not claimed robust. $\square$
 
 So the cone lets the bottom escape the positivity the twist would otherwise force, and the form of the escape is set by the extension: the Friedrichs ground state $\phi_0$ is bounded but discontinuous at $p_c$, while the bridging ground state at $\lambda_b$ is continuous in regularized value but logarithmically divergent there. Each evades the obstruction only through its singular behavior at the cone, where elliptic regularity fails. No realization raises the bottom above zero.
 
 ---
 
-## 6. Nonconstant sectors and the first positive eigenvalue
+## 6. Nonconstant Sectors and the First Positive Eigenvalue
 
 The first positive eigenvalue is governed by the competition between the symmetric zonal mode at $2/R^2$ and the nonconstant sectors, where all extensions agree. We record the nonconstant sector spectra and then prove Theorem 1.2.
 
 ### 6.1 The odd (periodic) sectors
 
-The odd transverse modes ($\Phi_j^{\mathrm{o}}$, $j = 0, 1, 2, \ldots$) produce periodic longitudinal functions. The reduced eigenequation (3.6) with $\mu_j = \bigl((2j+1)\pi/(2W)\bigr)^2$ has, in Schrödinger form, an effective potential proportional to $\sec^2(y/R)$, a symmetric Pöschl-Teller potential.
+The odd transverse modes ($\Phi_j^{\mathrm{o}}$, $j = 0, 1, 2, \ldots$) produce periodic longitudinal functions. The reduced Sturm-Liouville equation with $\mu_j = \bigl((2j+1)\pi/(2W)\bigr)^2$ has, in Schrödinger form, an effective potential proportional to $\sec^2(y/R)$, a symmetric Pöschl-Teller potential.
 
-> **Claim 6.1.** The function $u = \lvert\cos(y/R)\rvert^{\alpha}$ with $\alpha = (2j+1)\pi R/(2W)$ satisfies (3.6) with eigenvalue $\lambda = \alpha(\alpha+1)/R^2$.
+> **Claim 6.1.** The function $u = \lvert\cos(y/R)\rvert^{\alpha}$ with $\alpha = (2j+1)\pi R/(2W)$ satisfies the reduced Sturm-Liouville equation with eigenvalue $\lambda = \alpha(\alpha+1)/R^2$.
 
 *Proof.* Set $r = \lvert\cos(y/R)\rvert$, so $\lvert f\rvert = r$ and $u = r^\alpha$. On the smooth locus, $R^2(r')^2 = 1 - r^2$ and $r'' = -r/R^2$. Then $\lvert f\rvert\,u' = \alpha\,r^\alpha r'$ and
 
@@ -368,7 +368,7 @@ so $-(\lvert f\rvert\,u')' + (\mu_j/\lvert f\rvert)\,u = r^{\alpha-1}[\alpha(\al
 
 Under the substitution $x = \sin(y/R)$, $\lvert\cos(y/R)\rvert^\alpha = (1-x^2)^{\alpha/2}$ is the branch regular at $x = 1$ of the associated Legendre equation of degree and order $\alpha$; for integer $\alpha$ it is proportional to the sectoral harmonic $P_\alpha^\alpha$, and at $\alpha = 1$ it reduces to $Y_1^1$ on the covering $S^2$. At both seams $\lvert\cos\rvert^\alpha = 1$ with vanishing derivative, so periodicity holds for all $\alpha$, and the spectral parameter runs continuously with $W$. Near the cone $\lvert\cos(y/R)\rvert^\alpha \sim \lvert\delta/R\rvert^\alpha \to 0$; this is the regular Frobenius branch, with finite Dirichlet energy for all $\alpha > 0$, so the Friedrichs and every finite-energy extension agree. A standard ground-state transform ($u = hv$ with $h = \lvert\cos(y/R)\rvert^\alpha$) shows $\lambda = \alpha(\alpha+1)/R^2$ is the sector ground eigenvalue, unique up to scaling. Since $\alpha_j = (2j+1)\pi R/(2W)$ is increasing in $j$, the odd-sector minimum is at $j = 0$:
 
-$$\lambda_0^{\mathrm{odd}}(W) = \frac{\alpha_0(\alpha_0+1)}{R^2}, \qquad \alpha_0 = \frac{\pi R}{2W}, \qquad \psi_0^{\mathrm{odd}} = \lvert\cos(y/R)\rvert^{\alpha_0}\sin(\pi w/2W). \tag{6.1}$$
+$$\lambda_0^{\mathrm{odd}}(W) = \frac{\alpha_0(\alpha_0+1)}{R^2}, \qquad \alpha_0 = \frac{\pi R}{2W}, \qquad \psi_0^{\mathrm{odd}} = \lvert\cos(y/R)\rvert^{\alpha_0}\sin(\pi w/2W).$$
 
 This is decreasing in $W$: above $2/R^2$ for $W < \pi R/2$, equal at $W = \pi R/2$, and below for $W > \pi R/2$.
 
@@ -376,13 +376,13 @@ This is decreasing in $W$: above $2/R^2$ for $W < \pi R/2$, equal at $W = \pi R/
 
 The even nonconstant modes ($\Phi_k^{\mathrm{e}}$, $k \ge 1$) produce anti-periodic longitudinal functions. The sector ground state is obtained by a sign flip across the cone,
 
-$$u_k(y) = \mathrm{sgn}(\delta)\,\lvert\cos(y/R)\rvert^{\alpha_k}, \qquad \alpha_k = \frac{k\pi R}{W}, \tag{6.2}$$
+$$u_k(y) = \mathrm{sgn}(\delta)\,\lvert\cos(y/R)\rvert^{\alpha_k}, \qquad \alpha_k = \frac{k\pi R}{W},$$
 
 which is anti-periodic at the seams and continuous at the cone (the sign flip multiplies a vanishing factor), with vanishing weighted flux and no distributional contribution; it lies in every finite-energy extension's domain. On each half, $\lvert\cos(y/R)\rvert^{\alpha_k}$ is positive and nodeless, so by the Sturm oscillation theorem for the separated half-interval problem (Neumann at the seam, regular Frobenius at the cone) it is the half-interval ground state, with eigenvalue $\alpha_k(\alpha_k+1)/R^2$. Since $\alpha_k = k\pi R/W \ge \pi R/W > 1$ for all $k \ge 1$ and $W < \pi R$, every even nonconstant sector lies strictly above $2/R^2$. The sharp $+1$ in $\alpha_k(\alpha_k+1)$ matters: a potential-only bound gives $\alpha_k^2/R^2$, which fails to clear $2/R^2$ for $\alpha_k \in (1, \sqrt{2})$, whereas $\alpha_k(\alpha_k+1)/R^2 > 2/R^2$ for all $\alpha_k > 1$.
 
 ### 6.3 The transition
 
-*Proof of Theorem 1.2.* Because $\cos^2(y/R)$ multiplies $\psi_{ww}$ and depends on $y$ alone, the twisted Laplacian commutes with the transverse Neumann Laplacian, and $L^2(M, dA)$ decomposes as a Hilbert-space direct sum over transverse sectors; the cone conditions are imposed on the longitudinal factor in each sector, so every finite-energy extension respects the decomposition. Each reduced one-dimensional operator has compact resolvent (a finite interval, integrable weight, and a limit-circle or limit-point endpoint), and the transverse sector bottoms diverge, so the direct sum has compact resolvent and the spectrum is discrete. The first positive eigenvalue is the minimum of the first positive sector entries. By §4.2 the constant sector contributes $2/R^2$ as its first positive value, shared by the Friedrichs extension and, by Proposition 4.4, by every bridging extension with $\delta_0 > 2R/e$. By (6.1) the odd sectors contribute $\alpha_0(\alpha_0+1)/R^2$ with $\alpha_0 = \pi R/(2W)$, and by §6.2 the even nonconstant sectors lie strictly above $2/R^2$. The function $\alpha \mapsto \alpha(\alpha+1)$ is increasing, and $\alpha_0$ is decreasing in $W$, so the first positive eigenvalue is $\min(2/R^2,\,\alpha_0(\alpha_0+1)/R^2)$: it equals $2/R^2$ when $\alpha_0 \ge 1$, i.e. $W \le \pi R/2$, and $\alpha_0(\alpha_0+1)/R^2$ when $W > \pi R/2$. At $W = \pi R/2$ both branches give $2/R^2$. $\square$
+*Proof of Theorem 1.2.* Because $\cos^2(y/R)$ multiplies $\psi_{ww}$ and depends on $y$ alone, the twisted Laplacian commutes with the transverse Neumann Laplacian, and $L^2(M, dA)$ decomposes as a Hilbert-space direct sum over transverse sectors; the cone conditions are imposed on the longitudinal factor in each sector, so every finite-energy extension respects the decomposition. Each reduced one-dimensional operator has compact resolvent (a finite interval, integrable weight, and a limit-circle or limit-point endpoint), and the transverse sector bottoms diverge, so the direct sum has compact resolvent and the spectrum is discrete. The first positive eigenvalue is the minimum of the first positive sector entries. By §4.2 the constant sector contributes $2/R^2$ as its first positive value, shared by the Friedrichs extension and, by Proposition 4.4, by every bridging extension with $\delta_0 > 2R/e$. The odd sectors contribute $\alpha_0(\alpha_0+1)/R^2$ with $\alpha_0 = \pi R/(2W)$ (§6.1), and by §6.2 the even nonconstant sectors lie strictly above $2/R^2$. The function $\alpha \mapsto \alpha(\alpha+1)$ is increasing, and $\alpha_0$ is decreasing in $W$, so the first positive eigenvalue is $\min(2/R^2,\,\alpha_0(\alpha_0+1)/R^2)$: it equals $2/R^2$ when $\alpha_0 \ge 1$, i.e. $W \le \pi R/2$, and $\alpha_0(\alpha_0+1)/R^2$ when $W > \pi R/2$. At $W = \pi R/2$ both branches give $2/R^2$. $\square$
 
 > **Corollary 6.2** (Degeneracy at the transition)**.** For the Friedrichs extension and for bridging with $\delta_0 > 2R/e$, at $W = \pi R/2$ the first-positive eigenspace is two-dimensional, spanned by $\psi_1 = \sin(y/R)$ and $\psi_2 = \lvert\cos(y/R)\rvert\,\sin(w/R)$; the next contributions ($\ell = 3$ zonal, $j = 1$ odd, $k = 1$ even) are $12/R^2$, $12/R^2$, $6/R^2$, all above. On the covering $S^2$, $\psi_1$ restricts from $Y_1^0$ while $\psi_2$ does not lift to a smooth function (the absolute value is required by equivariance, not a coordinate artifact). Away from the critical width the first positive eigenvalue is simple.
 
@@ -396,7 +396,7 @@ This model separates two spectral effects. The first positive eigenvalue is the 
 
 The nodal pattern also changes at the transition. For $W > \pi R/2$ the first positive eigenfunction changes sign across the core loop; for $W < \pi R/2$ it is positive in the interior and vanishes at the seam, where the twist imposes the sign reversal. On an orientable surface Perron-Frobenius and Courant's nodal domain theorem [CourantHilbert] would give a positive ground eigenfunction, but on $M(W)$ a nowhere-vanishing section would trivialize $\mathcal{L}$. This is the line-bundle analogue of Shigekawa's magnetic spectral-positivity criterion [Shigekawa]; the cone goes further, letting the bottom itself fall to zero or below.
 
-The renormalization length $\delta_0$ is the one quantity in the model that the intrinsic geometry leaves free. The Friedrichs extension needs no such scale and is the standard conic choice [Cheeger1979, Cheeger1983]; under it the topology is spectrally invisible (Remark 4.2) and the bottom is the zero mode. At $\alpha_{\mathrm{BP}} = -1$ it is moreover the unique Markovian realization (Theorem 1.13(ii) of [BP]), the bridging extensions being non-Markovian, and together with the generic decoupling of two-dimensional point interactions this makes Friedrichs the default; a transmitting limit would survive only if a smoothing of the cone were tuned to a zero-energy resonance. Whether a geometric regularization selects a canonical $\delta_0$, for instance as a norm-resolvent limit of smoothed-cone Laplacians [AGHH], remains open. Until then $\lambda_b$ is an extension artifact rather than an intrinsic invariant, and its leading form (4.13) carries $O(\delta_0^2/R^2)$ corrections that are not small at moderate $\delta_0$.
+The renormalization length $\delta_0$ is the one quantity in the model that the intrinsic geometry leaves free. The Friedrichs extension needs no such scale and is the standard conic choice [Cheeger1979, Cheeger1983]; under it the topology is spectrally invisible (Remark 4.2) and the bottom is the zero mode. At $\alpha_{\mathrm{BP}} = -1$ it is moreover the unique Markovian realization (Theorem 1.13(ii) of [BP]), the bridging extensions being non-Markovian, and together with the generic decoupling of two-dimensional point interactions this makes Friedrichs the default; a transmitting limit would survive only if a smoothing of the cone were tuned to a zero-energy resonance. Whether a geometric regularization selects a canonical $\delta_0$, for instance as a norm-resolvent limit of smoothed-cone Laplacians [AGHH], remains open. Until then $\lambda_b$ is an extension artifact rather than an intrinsic invariant, and its leading form carries $O(\delta_0^2/R^2)$ corrections that are not small at moderate $\delta_0$.
 
 Two directions seem immediate. A Lichnerowicz-type lower bound [Lichnerowicz, Obata] adapted to $M(W)$ would give a geometric reading of the narrow-regime value $2/R^2 = R_{\mathrm{sm}}$; and the higher sector spectra, the thin-strip limit ($W \to 0$), and the flat limit ($R \to \infty$) should connect the closed forms here with the asymptotic formulas of [KKZ].
 
