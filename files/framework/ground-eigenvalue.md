@@ -46,7 +46,7 @@ $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2. \tag{2.1}$$
 
 The Gauss curvature is $K = 1/R^2$ on the smooth locus and the scalar curvature is $R_{\mathrm{sm}} = 2/R^2$.
 
-The map $\tau(y, w) = (\pi R - y, -w)$ is an orientation-preserving isometric involution ($D\tau = \operatorname{diag}(-1, -1)$, $\det D\tau = +1$) with a single fixed point at $(\pi R/2, 0)$. Identifying $(0, w) \sim (\pi R, -w)$ via $\tau$ produces the non-orientable surface
+The map $\tau(y, w) = (\pi R - y, -w)$ is an orientation-preserving isometric involution ($D\tau = \mathrm{diag}(-1, -1)$, $\det D\tau = +1$) with a single fixed point at $(\pi R/2, 0)$. Identifying $(0, w) \sim (\pi R, -w)$ via $\tau$ produces the non-orientable surface
 
 $$M(W) = [0, \pi R] \times [-W, W] \;/\; (0, w) \sim (\pi R, -w) \tag{2.2}$$
 
@@ -162,7 +162,7 @@ with a log coefficient $u_N$ (the flux datum) and a regularized value $u_D$ (ref
 
 $$[u, v]_{p_c} = \frac{1}{R}\sum_{\pm}\bigl(u_D^\pm\,v_N^\pm - u_N^\pm\,v_D^\pm\bigr), \tag{3.9}$$
 
-where the logarithmic divergences cancel pairwise: a direct computation from (3.7) gives $\lvert f\rvert(u v' - u' v) \to (\operatorname{sgn}\delta/R)(u_D v_N - u_N v_D)$ as $\delta \to 0$, and the two-sided Green identity sums these limits with the outward-normal orientation, yielding (3.9). A self-adjoint extension corresponds to a two-dimensional Lagrangian plane (a subspace on which (3.9) vanishes identically) in the four-dimensional boundary space $(u_D^+, u_N^+, u_D^-, u_N^-)$.
+where the logarithmic divergences cancel pairwise: a direct computation from (3.7) gives $\lvert f\rvert(u v' - u' v) \to (\mathrm{sgn}\delta/R)(u_D v_N - u_N v_D)$ as $\delta \to 0$, and the two-sided Green identity sums these limits with the outward-normal orientation, yielding (3.9). A self-adjoint extension corresponds to a two-dimensional Lagrangian plane (a subspace on which (3.9) vanishes identically) in the four-dimensional boundary space $(u_D^+, u_N^+, u_D^-, u_N^-)$.
 
 *The Friedrichs (disjoint) extension.* The Friedrichs extension [Friedrichs] is characterized by Theorem 1.8 of [BP] (applied at $\alpha_{\mathrm{BP}} = -1$): its domain requires
 
@@ -260,7 +260,7 @@ On the flat strip (Euclidean metric, anti-periodic condition, same period $\pi R
 
 ### 4.3 The Friedrichs antisymmetric tower and the kernel
 
-Under the Friedrichs extension, the antisymmetric subsector (Neumann seam, regular cone) admits $\operatorname{sgn}(\delta)\,P_\nu(\sin(y/R))$ with the regular branch at the cone, and the Neumann seam condition is $P_\nu'(0) = 0$, i.e. $\nu = 0, 2, 4, \ldots$ The Friedrichs antisymmetric tower is
+Under the Friedrichs extension, the antisymmetric subsector (Neumann seam, regular cone) admits $\mathrm{sgn}(\delta)\,P_\nu(\sin(y/R))$ with the regular branch at the cone, and the Neumann seam condition is $P_\nu'(0) = 0$, i.e. $\nu = 0, 2, 4, \ldots$ The Friedrichs antisymmetric tower is
 
 $$\sigma_{\mathrm{anti}}^{\mathrm{Fr}} = \Bigl\{\frac{\ell(\ell+1)}{R^2} : \ell = 0, 2, 4, \ldots\Bigr\} = \Bigl\{0, \frac{6}{R^2}, \frac{20}{R^2}, \ldots\Bigr\}. \tag{4.6}$$
 
@@ -304,9 +304,9 @@ $$G\bigl(\nu(\nu+1)/R^2\bigr) = -\gamma - \psi(\nu+1) - \frac{\pi}{2}\cot\frac{\
 
 The cotangent has poles at the even integers $\nu = 0, 2, 4, \ldots$, which are exactly the Friedrichs antisymmetric tower (4.6); there $G$ has simple poles.
 
-For $\lambda < -1/(4R^2)$, write $\nu = -\tfrac{1}{2} + i\kappa$ with $\kappa = (-\lambda R^2 - \tfrac{1}{4})^{1/2}$. The closed form continues real-analytically: $\cot(-\tfrac{\pi}{4} + \tfrac{i\pi\kappa}{2}) = -\operatorname{sech}(\pi\kappa) - i\tanh(\pi\kappa)$ and $\operatorname{Im}\psi(\tfrac{1}{2} + i\kappa) = \tfrac{\pi}{2}\tanh(\pi\kappa)$, and the imaginary parts cancel, giving
+For $\lambda < -1/(4R^2)$, write $\nu = -\tfrac{1}{2} + i\kappa$ with $\kappa = (-\lambda R^2 - \tfrac{1}{4})^{1/2}$. The closed form continues real-analytically: $\cot(-\tfrac{\pi}{4} + \tfrac{i\pi\kappa}{2}) = -\mathrm{sech}(\pi\kappa) - i\tanh(\pi\kappa)$ and $\mathrm{Im}\psi(\tfrac{1}{2} + i\kappa) = \tfrac{\pi}{2}\tanh(\pi\kappa)$, and the imaginary parts cancel, giving
 
-$$G(\lambda) = -\gamma - \operatorname{Re}\psi\bigl(\tfrac{1}{2} + i\kappa\bigr) + \frac{\pi}{2}\,\operatorname{sech}(\pi\kappa), \qquad \lambda \le -\frac{1}{4R^2}. \tag{4.12}$$
+$$G(\lambda) = -\gamma - \mathrm{Re}\psi\bigl(\tfrac{1}{2} + i\kappa\bigr) + \frac{\pi}{2}\,\mathrm{sech}(\pi\kappa), \qquad \lambda \le -\frac{1}{4R^2}. \tag{4.12}$$
 
 > **Lemma 4.3** (Monotonicity)**.** $G$ is strictly increasing between consecutive poles; on each interval between consecutive poles it is a bijection onto $\mathbb{R}$, and on $(-\infty, 0)$ it has no poles and increases from $-\infty$ to $+\infty$.
 
@@ -376,7 +376,7 @@ This is decreasing in $W$: above $2/R^2$ for $W < \pi R/2$, equal at $W = \pi R/
 
 The even nonconstant modes ($\Phi_k^{\mathrm{e}}$, $k \ge 1$) produce anti-periodic longitudinal functions. The sector ground state is obtained by a sign flip across the cone,
 
-$$u_k(y) = \operatorname{sgn}(\delta)\,\lvert\cos(y/R)\rvert^{\alpha_k}, \qquad \alpha_k = \frac{k\pi R}{W}, \tag{6.2}$$
+$$u_k(y) = \mathrm{sgn}(\delta)\,\lvert\cos(y/R)\rvert^{\alpha_k}, \qquad \alpha_k = \frac{k\pi R}{W}, \tag{6.2}$$
 
 which is anti-periodic at the seams and continuous at the cone (the sign flip multiplies a vanishing factor), with vanishing weighted flux and no distributional contribution; it lies in every finite-energy extension's domain. On each half, $\lvert\cos(y/R)\rvert^{\alpha_k}$ is positive and nodeless, so by the Sturm oscillation theorem for the separated half-interval problem (Neumann at the seam, regular Frobenius at the cone) it is the half-interval ground state, with eigenvalue $\alpha_k(\alpha_k+1)/R^2$. Since $\alpha_k = k\pi R/W \ge \pi R/W > 1$ for all $k \ge 1$ and $W < \pi R$, every even nonconstant sector lies strictly above $2/R^2$. The sharp $+1$ in $\alpha_k(\alpha_k+1)$ matters: a potential-only bound gives $\alpha_k^2/R^2$, which fails to clear $2/R^2$ for $\alpha_k \in (1, \sqrt{2})$, whereas $\alpha_k(\alpha_k+1)/R^2 > 2/R^2$ for all $\alpha_k > 1$.
 
