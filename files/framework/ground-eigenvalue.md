@@ -238,21 +238,37 @@ On the bridging side, a symmetric mode has equal log coefficients on the two sid
 
 The substitution $x = \sin(y/R)$ maps $(0, \pi R/2)$ bijectively to $(0, 1)$ and converts the zonal operator to the Legendre equation. With $u(y) = v(\sin(y/R))$,
 
-$$\frac{d}{dx}\Bigl[(1-x^2)\frac{dv}{dx}\Bigr] + \nu(\nu+1)v = 0, \qquad \lambda = \frac{\nu(\nu+1)}{R^2}, \tag{4.2}$$
+<div align="center">
+
+$\displaystyle \frac{d}{dx}\Bigl[(1-x^2)\frac{dv}{dx}\Bigr] + \nu(\nu+1)v = 0, \qquad \lambda = \frac{\nu(\nu+1)}{R^2}$
+
+</div>
 
 where $\nu \ge 0$ is a continuous spectral parameter. The Legendre function of the first kind $P_\nu(x)$ is regular at $x = 1$ (the cone); the Legendre function of the second kind $Q_\nu(x)$ diverges logarithmically and supplies the log datum $u_N$. The substitution $x = \sin(y/R)$ is two-to-one ($y$ and $\pi R - y$ map to the same $x$) and produces exactly the modes symmetric about the cone.
 
 In the symmetric subsector both the Friedrichs and bridging conditions force the regular branch (the log coefficient vanishes, by §4.1), so the admissible symmetric solutions are $P_\nu(\sin(y/R))$. The Dirichlet seam condition $u(0) = 0$ is $P_\nu(0) = 0$. Since
 
-$$P_\nu(0) = \frac{\sqrt{\pi}}{\Gamma((1-\nu)/2)\Gamma(1+\nu/2)}, \tag{4.3}$$
+<div align="center">
+
+$\displaystyle P_\nu(0) = \frac{\sqrt{\pi}}{\Gamma((1-\nu)/2)\Gamma(1+\nu/2)}$
+
+</div>
 
 this holds exactly when $(1-\nu)/2$ is a non-positive integer, i.e. $\nu = 1, 3, 5, \ldots$ The symmetric zonal tower is therefore
 
-$$\sigma_{\mathrm{sym}} = \Bigl\lbrace\frac{\ell(\ell+1)}{R^2} : \ell = 1, 3, 5, \ldots\Bigr\rbrace = \Bigl\lbrace\frac{2}{R^2}, \frac{12}{R^2}, \frac{30}{R^2}, \ldots\Bigr\rbrace, \tag{4.4}$$
+<div align="center">
+
+$\displaystyle \sigma_{\mathrm{sym}} = \Bigl\lbrace\frac{\ell(\ell+1)}{R^2} : \ell = 1, 3, 5, \ldots\Bigr\rbrace = \Bigl\lbrace\frac{2}{R^2}, \frac{12}{R^2}, \frac{30}{R^2}, \ldots\Bigr\rbrace$
+
+</div>
 
 the same for the Friedrichs and bridging extensions. The lowest member is $\ell = 1$, with eigenfunction $P_1(\sin(y/R)) = \sin(y/R)$, the restriction of the zonal harmonic $Y_1^0 \propto \sin(y/R)$. It is strictly positive on $(0, \pi R)$, lies in the regular Frobenius branch at the cone, and gives
 
-$$\frac{\ell(\ell+1)}{R^2}\Big|_{\ell=1} = \frac{2}{R^2} = R_{\mathrm{sm}}, \tag{4.5}$$
+<div align="center">
+
+$\displaystyle \frac{\ell(\ell+1)}{R^2}\Big\rvert_{\ell=1} = \frac{2}{R^2} = R_{\mathrm{sm}}$
+
+</div>
 
 independent of the half-width $W$.
 
@@ -262,19 +278,27 @@ On the flat strip (Euclidean metric, anti-periodic condition, same period $\pi R
 
 Under the Friedrichs extension, the antisymmetric subsector (Neumann seam, regular cone) admits $\mathrm{sgn}(\delta)P_\nu(\sin(y/R))$ with the regular branch at the cone, and the Neumann seam condition is $P_\nu'(0) = 0$, i.e. $\nu = 0, 2, 4, \ldots$ The Friedrichs antisymmetric tower is
 
-$$\sigma_{\mathrm{anti}}^{\mathrm{Fr}} = \Bigl\lbrace\frac{\ell(\ell+1)}{R^2} : \ell = 0, 2, 4, \ldots\Bigr\rbrace = \Bigl\lbrace0, \frac{6}{R^2}, \frac{20}{R^2}, \ldots\Bigr\rbrace. \tag{4.6}$$
+<div align="center">
 
-The $\ell = 0$ member is the zero mode $\phi_0$ of (3.14).
+$\displaystyle \sigma_{\mathrm{anti}}^{\mathrm{Fr}} = \Bigl\lbrace\frac{\ell(\ell+1)}{R^2} : \ell = 0, 2, 4, \ldots\Bigr\rbrace = \Bigl\lbrace0, \frac{6}{R^2}, \frac{20}{R^2}, \ldots\Bigr\rbrace$
 
-> **Lemma 4.1** (Friedrichs kernel in the constant sector)**.** In the constant transverse sector, the Friedrichs form decomposes as the direct sum of the two half-band forms on $M^+$ and $M^-$. Consequently $\phi_0$ of (3.14) belongs to $\mathcal{D}(\Delta_F)$ and satisfies $\Delta_F\phi_0 = 0$, and the zero eigenspace in the constant sector is one-dimensional, spanned by $\phi_0$.
+</div>
+
+The $\ell = 0$ member is the zero mode $\phi_0$.
+
+> **Lemma 4.1** (Friedrichs kernel in the constant sector)**.** In the constant transverse sector, the Friedrichs form decomposes as the direct sum of the two half-band forms on $M^+$ and $M^-$. Consequently $\phi_0$ belongs to $\mathcal{D}(\Delta_F)$ and satisfies $\Delta_F\phi_0 = 0$, and the zero eigenspace in the constant sector is one-dimensional, spanned by $\phi_0$.
 
 *Proof.* Let $\chi_\varepsilon(\delta)$ be smooth, equal to $0$ for $\lvert\delta\rvert \le \varepsilon$, equal to $1$ for $\lvert\delta\rvert \ge \sqrt{\varepsilon}$, and satisfying $\lvert\chi_\varepsilon'(\delta)\rvert \le C/(\lvert\delta\rvert\lvert\log\varepsilon\rvert)$ for $\varepsilon < \lvert\delta\rvert < \sqrt{\varepsilon}$. Since $\lvert f(y)\rvert \sim \lvert\delta\rvert/R$ at the cone, the cutoff energy (the transverse integration contributing only the constant factor $2W$) obeys
 
-$$\int_{\varepsilon < \lvert\delta\rvert < \sqrt{\varepsilon}} \lvert\chi_\varepsilon'(\delta)\rvert^2 \lvert f(y)\rvert d\delta \le \frac{C}{\lvert\log\varepsilon\rvert^2}\int_\varepsilon^{\sqrt\varepsilon}\frac{d\delta}{\delta} = O(\lvert\log\varepsilon\rvert^{-1}) \to 0.$$
+<div align="center">
+
+$\displaystyle \int_{\varepsilon < \lvert\delta\rvert < \sqrt{\varepsilon}} \lvert\chi_\varepsilon'(\delta)\rvert^2 \lvert f(y)\rvert d\delta \le \frac{C}{\lvert\log\varepsilon\rvert^2}\int_\varepsilon^{\sqrt\varepsilon}\frac{d\delta}{\delta} = O(\lvert\log\varepsilon\rvert^{-1}) \to 0.$
+
+</div>
 
 Thus the jump of $\phi_0$ across the collapsed point is invisible to the Friedrichs form closure: $\chi_\varepsilon\phi_0 \to \phi_0$ in the form norm, so $\phi_0 \in \mathcal{D}(q_F)$ and $q_F(\phi_0, \eta) = 0$ for every form-domain test section $\eta$, whence $\phi_0 \in \mathcal{D}(\Delta_F)$ and $\Delta_F\phi_0 = 0$. By contrast the logarithmic branch has $u'(\delta) \sim 1/\delta$, hence $\int \lvert u'\rvert^2\lvert f\rvert d\delta \sim \int d\delta/\lvert\delta\rvert = \infty$, and is excluded from the Friedrichs domain. Conversely, if $q_F[\psi] = 0$ in the constant sector then $\nabla\psi = 0$ a.e. on each connected half, so $\psi$ is constant on each of $M^\pm$; the anti-periodic seam condition forces the two constants to be opposite, giving a scalar multiple of $\phi_0$. $\square$
 
-> **Remark 4.2** (Lune equivalence)**.** The Friedrichs extension renders the topological twist spectrally invisible. Over the smooth locus $M^\circ$ the bundle $\mathcal{L}$ is trivial, and multiplication by $\phi_0$ (with $c = 1$) provides the trivializing section. Concretely, set $\tilde\psi = \psi$ on $\lbrace y < \pi R/2\rbrace$ and $\tilde\psi = -\psi$ on $\lbrace y > \pi R/2\rbrace$; in coordinates $t = y$ on the first half and $t = y - \pi R$ on the second (with $w' = w$ and $w' = -w$ respectively), the anti-equivariance (3.1) becomes plain continuity and $C^1$ matching of $\tilde\psi$ across $t = 0$, and the metric becomes $dt^2 + \cos^2(t/R)dw'^2$ on $t \in (-\pi R/2, \pi R/2)$, $w' \in [-W, W]$. Pointwise $\lvert\tilde\psi\rvert = \lvert\psi\rvert$ and $\lvert\nabla\tilde\psi\rvert = \lvert\nabla\psi\rvert$, so the $L^2$ norm and the energy form are preserved. The image is a spherical lune of opening angle $2W/R$ with the two pole corners corresponding to $p_c$; since a single point has zero capacity, the Friedrichs twisted Laplacian is unitarily equivalent to the Neumann Laplacian on the lune, and $\phi_0$ maps to the constant function. The trivialization and the zero-capacity estimate are sector-independent, so the equivalence is for the full Friedrichs operator, with the sector towers organized by longitude order. The Friedrichs spectrum is the lune Neumann spectrum, obtained by separation of variables: longitude Neumann modes of order $m_n = n\pi R/(2W)$ combined with colatitude Legendre functions regular at both poles give eigenvalues $(m_n + q)(m_n + q + 1)/R^2$ for $n, q \ge 0$. In particular, for the Friedrichs realization the first positive eigenvalue of Theorem 1.2 is the first nonzero Neumann eigenvalue of this lune: the $(n,q) = (0,1)$ and $(1,0)$ modes give $2/R^2$ and $\alpha_0(\alpha_0+1)/R^2$, crossing doubly at $W = \pi R/2$. The width transition is thus the crossing of the two lowest lune branches.
+> **Remark 4.2** (Lune equivalence)**.** The Friedrichs extension renders the topological twist spectrally invisible. Over the smooth locus $M^\circ$ the bundle $\mathcal{L}$ is trivial, and multiplication by $\phi_0$ (with $c = 1$) provides the trivializing section. Concretely, set $\tilde\psi = \psi$ on $\lbrace y < \pi R/2\rbrace$ and $\tilde\psi = -\psi$ on $\lbrace y > \pi R/2\rbrace$; in coordinates $t = y$ on the first half and $t = y - \pi R$ on the second (with $w' = w$ and $w' = -w$ respectively), the anti-equivariance condition becomes plain continuity and $C^1$ matching of $\tilde\psi$ across $t = 0$, and the metric becomes $dt^2 + \cos^2(t/R)dw'^2$ on $t \in (-\pi R/2, \pi R/2)$, $w' \in [-W, W]$. Pointwise $\lvert\tilde\psi\rvert = \lvert\psi\rvert$ and $\lvert\nabla\tilde\psi\rvert = \lvert\nabla\psi\rvert$, so the $L^2$ norm and the energy form are preserved. The image is a spherical lune of opening angle $2W/R$ with the two pole corners corresponding to $p_c$; since a single point has zero capacity, the Friedrichs twisted Laplacian is unitarily equivalent to the Neumann Laplacian on the lune, and $\phi_0$ maps to the constant function. The trivialization and the zero-capacity estimate are sector-independent, so the equivalence is for the full Friedrichs operator, with the sector towers organized by longitude order. The Friedrichs spectrum is the lune Neumann spectrum, obtained by separation of variables: longitude Neumann modes of order $m_n = n\pi R/(2W)$ combined with colatitude Legendre functions regular at both poles give eigenvalues $(m_n + q)(m_n + q + 1)/R^2$ for $n, q \ge 0$. In particular, for the Friedrichs realization the first positive eigenvalue of Theorem 1.2 is the first nonzero Neumann eigenvalue of this lune: the $(n,q) = (0,1)$ and $(1,0)$ modes give $2/R^2$ and $\alpha_0(\alpha_0+1)/R^2$, crossing doubly at $W = \pi R/2$. The width transition is thus the crossing of the two lowest lune branches.
 
 ### 4.4 The deformed antisymmetric branch
 
