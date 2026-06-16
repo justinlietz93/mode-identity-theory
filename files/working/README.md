@@ -22,6 +22,22 @@ Publishable results that strengthen the framework's position before October 2026
 
 ---
 
+### [The R Problem](./files/r-problem.md)
+
+**Tracker:** Maps every route to an independent spatial curvature radius $R$ and where each stands. $\Lambda = 3/R^2$ becomes a forward prediction only with an $R$ not read off $\Lambda$: de Sitter is circular, the Molien gap is not independent, the CMB L-ratio factor of 8 is dead (no topological derivation), and the particle mass spectrum is the one live route (executed, order of magnitude). Includes the shared E₈ / $h = 30$ engine tying the L ratio to the mass formula, and flags the Molien sparse-zone CMB result as the independent survivor of the L work.
+
+**Dependencies:** [R from the mass spectrum](./files/r-from-mass-spectrum.md), fermion mass formula, $\Lambda = 3/R^2$ eigenvalue relation.
+
+---
+
+### [R from the Particle Mass Spectrum](./files/r-from-mass-spectrum.md)
+
+**Result (2026-06-15):** Determines the spatial curvature radius $R$ from the fermion mass formula's dependence on the hierarchy factor $\Omega_\Lambda$, independently of $\Lambda$, the CMB, and the de Sitter relation, breaking the R-problem circularity. Electron + muon give $R \sim 20$ Gpc and $\Lambda \sim 8 \times 10^{-54}\,\text{m}^{-2}$, about 14× (one order of magnitude) below the observed value. Precision is capped at order of magnitude by the McKay-lever amplification (60× for $\delta d = 1$) acting on the mass formula's irreducible few-percent residual scatter; a pair scan shows no fermion pair beats electron-muon. The third and only non-excluded route to $R$.
+
+**Dependencies:** Fermion mass formula and torsion table, McKay residual scatter (sets the precision floor), $\Omega_\Lambda$ hierarchy, $\Lambda = 3/R^2$ eigenvalue relation.
+
+---
+
 ### [Temporal Budget Identity](./files/temporal-budget.md)
 
 **Problem:** The phase-clock derivation rests on $\Psi^2 + S^2 = 1$ and the Waltz clock $d\tau/dt = S^{1/2}$, which recovers $\Omega_m = 0.315$ at $\Delta\chi^2 = +0.11$ vs flat ΛCDM. The clock exponent $n = -1/2$ is empirically validated (integer alternatives ruled out at $\Delta\chi^2 > 60$) but not derived from the embedding. The two phase parameterizations ($\varphi$ engine phase and $t$ budget phase) are not yet reconciled.
