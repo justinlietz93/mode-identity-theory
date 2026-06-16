@@ -4,21 +4,13 @@
 
 # :memo: Working Files
 
-Research-in-progress across the framework. Ordered by value: items that strengthen position before the Euclid DR1 falsification window first, foundational upgrades second, technical resolution third, data-gated items last.
+Research-in-progress across the framework. Organized by status: an orienting map first, then open problems (foundational upgrades, then technical gaps), then closed results and the data tests run against public datasets, then items gated on external data.
 
 ---
 
-## :telescope: Pre-Euclid
+## :world_map: Maps
 
-Publishable results that strengthen the framework's position before October 2026.
-
----
-
-### [McKay Propagator Correction](./files/mckay-propagator-correction.md)
-
-**Problem:** Two of twelve SM fermions overshoot at high McKay distance (down ×3.2, top ×3.9). The misses are vacuum-dependent: at dist 5, gal misses while triv and std hit within 6%; at dist 7, triv misses while gal hits within 28%. The reversal at the R8 branch point rules out distance-only corrections. Separately, the Coxeter-Galois gate locks all $R_4$ entries to $T_3 = -1/2$, displacing charm. The branch-point correction and charm displacement may be the same problem.
-
-**Dependencies:** McKay graph for $2I$, $C_\text{geom}$ values for all irreps, torsion table $T^2(\rho \otimes \sigma)$ across vacua, Coxeter-Galois gate.
+Orienting notes that index other work.
 
 ---
 
@@ -27,22 +19,6 @@ Publishable results that strengthen the framework's position before October 2026
 **Tracker:** Maps every route to an independent spatial curvature radius $R$ and where each stands. $\Lambda = 3/R^2$ becomes a forward prediction only with an $R$ not read off $\Lambda$: de Sitter is circular, the Molien gap is not independent, the CMB L-ratio factor of 8 is dead (no topological derivation), and the particle mass spectrum is the one live route (executed, order of magnitude). Includes the shared E₈ / $h = 30$ engine tying the L ratio to the mass formula, and flags the Molien sparse-zone CMB result as the independent survivor of the L work.
 
 **Dependencies:** [R from the mass spectrum](./files/r-from-mass-spectrum.md), fermion mass formula, $\Lambda = 3/R^2$ eigenvalue relation.
-
----
-
-### [R from the Particle Mass Spectrum](./files/r-from-mass-spectrum.md)
-
-**Result (2026-06-15):** Determines the spatial curvature radius $R$ from the fermion mass formula's dependence on the hierarchy factor $\Omega_\Lambda$, independently of $\Lambda$, the CMB, and the de Sitter relation, breaking the R-problem circularity. Electron + muon give $R \sim 20$ Gpc and $\Lambda \sim 8 \times 10^{-54}\,\text{m}^{-2}$, about 14× (one order of magnitude) below the observed value. Precision is capped at order of magnitude by the McKay-lever amplification (60× for $\delta d = 1$) acting on the mass formula's irreducible few-percent residual scatter; a pair scan shows no fermion pair beats electron-muon. The third and only non-excluded route to $R$.
-
-**Dependencies:** Fermion mass formula and torsion table, McKay residual scatter (sets the precision floor), $\Omega_\Lambda$ hierarchy, $\Lambda = 3/R^2$ eigenvalue relation.
-
----
-
-### [Temporal Budget Identity](./files/temporal-budget.md)
-
-**Problem:** The phase-clock derivation rests on $\Psi^2 + S^2 = 1$ and the Waltz clock $d\tau/dt = S^{1/2}$, which recovers $\Omega_m = 0.315$ at $\Delta\chi^2 = +0.11$ vs flat ΛCDM. The clock exponent $n = -1/2$ is empirically validated (integer alternatives ruled out at $\Delta\chi^2 > 60$) but not derived from the embedding. The two phase parameterizations ($\varphi$ engine phase and $t$ budget phase) are not yet reconciled.
-
-**Dependencies:** Möbius spatial budget $u_0^2 + J^2 = 1$, Sector $\mathcal{A}$ eigenvalue.
 
 ---
 
@@ -92,7 +68,15 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-## :mag_right: Resolution
+### [Temporal Budget Identity](./files/temporal-budget.md)
+
+**Problem:** The phase-clock derivation rests on $\Psi^2 + S^2 = 1$ and the Waltz clock $d\tau/dt = S^{1/2}$, which recovers $\Omega_m = 0.315$ at $\Delta\chi^2 = +0.11$ vs flat ΛCDM. The clock exponent $n = -1/2$ is empirically validated (integer alternatives ruled out at $\Delta\chi^2 > 60$) but not derived from the embedding. The two phase parameterizations ($\varphi$ engine phase and $t$ budget phase) are not yet reconciled.
+
+**Dependencies:** Möbius spatial budget $u_0^2 + J^2 = 1$, Sector $\mathcal{A}$ eigenvalue.
+
+---
+
+## :mag_right: Open Gaps
 
 Technical gaps with specific paths forward.
 
@@ -148,9 +132,7 @@ Technical gaps with specific paths forward.
 
 ### $L_\text{strip}/L_\text{fund}$ Ratio
 
-**Problem:** Spectral: $8.17 \pm 0.1$. Observational: 7.93. A 3% gap that has persisted through every revision. Unresolved.
-
-**Dependencies:** Length scale hierarchy (engine §3).
+**Status:** The factor of 8 has no topological derivation, so this is a dead route to R, superseded by the mass spectrum. See [The R Problem](./files/r-problem.md). The only open remnant is the residual ~3% spectral-vs-observational gap (8.17 ± 0.1 vs 7.93).
 
 ---
 
@@ -186,9 +168,31 @@ Technical gaps with specific paths forward.
 
 ---
 
-## :file_cabinet: Internal Data
+## :white_check_mark: Results
 
-Registered and exploratory tests run against existing public datasets. Completed analyses with verdicts, not open problems.
+Closed: executed computations and derivations with verdicts in hand.
+
+---
+
+### [R from the Particle Mass Spectrum](./files/r-from-mass-spectrum.md)
+
+**Result (2026-06-15):** Determines the spatial curvature radius $R$ from the fermion mass formula's dependence on the hierarchy factor $\Omega_\Lambda$, independently of $\Lambda$, the CMB, and the de Sitter relation, breaking the R-problem circularity. Electron + muon give $R \sim 20$ Gpc and $\Lambda \sim 8 \times 10^{-54}\,\text{m}^{-2}$, about 14× (one order of magnitude) below the observed value. Precision is capped at order of magnitude by the McKay-lever amplification (60× for $\delta d = 1$) acting on the mass formula's irreducible few-percent residual scatter; a pair scan shows no fermion pair beats electron-muon. The third and only non-excluded route to $R$.
+
+**Dependencies:** Fermion mass formula and torsion table, McKay residual scatter (sets the precision floor), $\Omega_\Lambda$ hierarchy, $\Lambda = 3/R^2$ eigenvalue relation.
+
+---
+
+### [McKay Propagator Correction](./files/mckay-propagator-correction.md)
+
+**Resolved, negative (2026-06-06):** No parameter-free propagator or branch-point correction tracks the high-distance mass residuals; the route is closed and the residuals are irreducible scatter at the ~×1.8 level. The standing anomaly: two of twelve SM fermions overshoot at high McKay distance (down ×3.2, top ×3.9), vacuum-dependent (at dist 5, gal misses while triv and std hit within 6%; at dist 7, triv misses while gal hits within 28%), and separately the Coxeter-Galois gate locks all $R_4$ entries to $T_3 = -1/2$, displacing charm.
+
+**Dependencies:** McKay graph for $2I$, $C_\text{geom}$ values for all irreps, torsion table $T^2(\rho \otimes \sigma)$ across vacua, Coxeter-Galois gate.
+
+---
+
+## :file_cabinet: Data Tests
+
+Registered and exploratory tests run against public datasets, with verdicts.
 
 ---
 
