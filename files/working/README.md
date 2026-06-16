@@ -4,7 +4,7 @@
 
 # :memo: Working Files
 
-Research-in-progress across the framework. Organized by status: an orienting map first, then open problems (foundational upgrades, then technical gaps), then closed results and the data tests run against public datasets, then items gated on external data.
+Research-in-progress across the framework. Organized by status: an orienting map first, then open problems (foundational upgrades, then technical gaps), then closed results and the data tests run against public datasets, then items gated on external data. Within each section, most important first.
 
 ---
 
@@ -28,27 +28,11 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Cone Point Coherence](./files/cone-point-coherence.md)
-
-**Problem:** Galactic coherence (all observers measuring the same $\mathbb{R}^4$) may be the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at the topology-gravity interface.
-
-**Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$, 120-grid scale-free projection.
-
----
-
 ### [Scaling Law Uniqueness](./files/scaling-law-uniqueness.md)
 
 **Problem:** $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ is currently a declared measurement postulate; every downstream result inherits that status. Anti-periodic BC forces $C(\Theta)$, dimensionless output forces factorization (steps 1-4 walked). The open link is step 5: proving $(\sqrt{\Omega})^{-n}$ is the only hierarchy function on a bounded domain with observer at $\sqrt{\Omega}$. A Gleason-type result would promote the scaling law from declared to forced.
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, Lemma 8 (spectral inaccessibility), Möbius topology axioms.
-
----
-
-### [Calibration Structure](./files/calibration-structure.md)
-
-**Summary:** Reframes the engine as a calibration scheme: one measured anchor per sector ($H_0$ edge, $\Lambda$ surface, $m_e$ mass-sector normalization), with the topology supplying the exponents, well assignments, and ratios. Localizes the R problem to a single demotion: $\Lambda$ moves from absolute prediction to measured calibration input, and nothing downstream collapses. Draft for a new engine section.
-
-**Dependencies:** a0 paper Appendix A.2, Λ eigenvalue, scaling law.
 
 ---
 
@@ -60,11 +44,11 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Energy as Resolution Amplitude](./files/energy-as-resolution-amplitude.md)
+### [Calibration Structure](./files/calibration-structure.md)
 
-**Problem:** $E^2 = (mc^2)^2 + (pc)^2$ may be the Pythagorean theorem on the mode decomposition of the sampling operation: temporal-mode amplitude (rest mass) orthogonal to spatial-mode amplitude (momentum). Five promotion steps unwalked: spatial-mode coupling, orthogonality proof, $c^2$ factor from $S^1$ structure, Lorentz recovery as sampling symmetry, connection to mass formula.
+**Summary:** Reframes the engine as a calibration scheme: one measured anchor per sector ($H_0$ edge, $\Lambda$ surface, $m_e$ mass-sector normalization), with the topology supplying the exponents, well assignments, and ratios. Localizes the R problem to a single demotion: $\Lambda$ moves from absolute prediction to measured calibration input, and nothing downstream collapses. Draft for a new engine section.
 
-**Dependencies:** Standing wave $\Psi = \cos(t/2)$, scaling law, mass formula.
+**Dependencies:** a0 paper Appendix A.2, Λ eigenvalue, scaling law.
 
 ---
 
@@ -76,9 +60,81 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
+### [Cone Point Coherence](./files/cone-point-coherence.md)
+
+**Problem:** Galactic coherence (all observers measuring the same $\mathbb{R}^4$) may be the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at the topology-gravity interface.
+
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$, 120-grid scale-free projection.
+
+---
+
+### [Energy as Resolution Amplitude](./files/energy-as-resolution-amplitude.md)
+
+**Problem:** $E^2 = (mc^2)^2 + (pc)^2$ may be the Pythagorean theorem on the mode decomposition of the sampling operation: temporal-mode amplitude (rest mass) orthogonal to spatial-mode amplitude (momentum). Five promotion steps unwalked: spatial-mode coupling, orthogonality proof, $c^2$ factor from $S^1$ structure, Lorentz recovery as sampling symmetry, connection to mass formula.
+
+**Dependencies:** Standing wave $\Psi = \cos(t/2)$, scaling law, mass formula.
+
+---
+
 ## :mag_right: Open Gaps
 
 Technical gaps with specific paths forward.
+
+---
+
+### dist/30 Hierarchy Exponent
+
+**Problem:** Three convergent paths connect McKay graph distance to the Coxeter number of $E_8$ as the scaling exponent. Single-principle derivation open.
+
+**Dependencies:** McKay correspondence, $E_8$ Coxeter number.
+
+---
+
+### Anti-periodic BC Selection
+
+**Problem:** 9/10 assigned fermion masses within ×3. First-principles derivation of why anti-periodic boundary conditions are selected over periodic remains open.
+
+**Dependencies:** Möbius non-orientability, mass formula.
+
+---
+
+### Scale Consistency
+
+**Problem:** Three gauge couplings evaluated at different energy scales. $\alpha$ hits 0.5% at low energy but 6.2% at $M_Z$. The framework must commit to one evaluation scale or derive running from MIT structure.
+
+**Dependencies:** Gauge coupling derivation (engine §15), scaling law.
+
+---
+
+### Grid Ladder Selection Rule
+
+**Problem:** Three convergent paths connect interaction character to grid resolution ($D = 60$ vs $D = 120$). Formal derivation open.
+
+**Dependencies:** Stabilizer decomposition, boson/fermion domain split.
+
+---
+
+### $\alpha$ Exponent
+
+**Problem:** The $\alpha$ exponent equals the minimum grid step. Two convergent paths remain. Uniqueness scan confirms. Single-principle derivation open.
+
+**Dependencies:** Grid structure, scaling law.
+
+---
+
+### Plato Twist Derivation
+
+**Problem:** $\cos(\pi/10)$ is motivated by the dodecahedral half-defect and parity violation. The operator-level mechanism connecting $\mathbb{Z}_2$ holonomy to the multiplicative cosine projection on weak coupling is the open link.
+
+**Dependencies:** Möbius non-orientability, stabilizer decomposition.
+
+---
+
+### Neutrino Mass Ratios
+
+**Problem:** $\mu_\Lambda$ as the neutrino floor is motivated. The octave selection and multipliers (4, 22) are identified but not derived from the group theory.
+
+**Dependencies:** Mass formula, $\Lambda$ eigenvalue.
 
 ---
 
@@ -98,22 +154,6 @@ Technical gaps with specific paths forward.
 
 ---
 
-### Scale Consistency
-
-**Problem:** Three gauge couplings evaluated at different energy scales. $\alpha$ hits 0.5% at low energy but 6.2% at $M_Z$. The framework must commit to one evaluation scale or derive running from MIT structure.
-
-**Dependencies:** Gauge coupling derivation (engine §15), scaling law.
-
----
-
-### Plato Twist Derivation
-
-**Problem:** $\cos(\pi/10)$ is motivated by the dodecahedral half-defect and parity violation. The operator-level mechanism connecting $\mathbb{Z}_2$ holonomy to the multiplicative cosine projection on weak coupling is the open link.
-
-**Dependencies:** Möbius non-orientability, stabilizer decomposition.
-
----
-
 ### 240 Alternative for $\alpha_s$
 
 **Problem:** $C(17/120) \times \Omega^{-1/240}$ sits 1% behind the primary formula. $240 = 2 \times 120$. Requires independent justification or exclusion.
@@ -122,49 +162,9 @@ Technical gaps with specific paths forward.
 
 ---
 
-### Neutrino Mass Ratios
-
-**Problem:** $\mu_\Lambda$ as the neutrino floor is motivated. The octave selection and multipliers (4, 22) are identified but not derived from the group theory.
-
-**Dependencies:** Mass formula, $\Lambda$ eigenvalue.
-
----
-
 ### $L_\text{strip}/L_\text{fund}$ Ratio
 
 **Status:** The factor of 8 has no topological derivation, so this is a dead route to R, superseded by the mass spectrum. See [The R Problem](./files/r-problem.md). The only open remnant is the residual ~3% spectral-vs-observational gap (8.17 ± 0.1 vs 7.93).
-
----
-
-### $\alpha$ Exponent
-
-**Problem:** The $\alpha$ exponent equals the minimum grid step. Two convergent paths remain. Uniqueness scan confirms. Single-principle derivation open.
-
-**Dependencies:** Grid structure, scaling law.
-
----
-
-### Anti-periodic BC Selection
-
-**Problem:** 9/10 assigned fermion masses within ×3. First-principles derivation of why anti-periodic boundary conditions are selected over periodic remains open.
-
-**Dependencies:** Möbius non-orientability, mass formula.
-
----
-
-### dist/30 Hierarchy Exponent
-
-**Problem:** Three convergent paths connect McKay graph distance to the Coxeter number of $E_8$ as the scaling exponent. Single-principle derivation open.
-
-**Dependencies:** McKay correspondence, $E_8$ Coxeter number.
-
----
-
-### Grid Ladder Selection Rule
-
-**Problem:** Three convergent paths connect interaction character to grid resolution ($D = 60$ vs $D = 120$). Formal derivation open.
-
-**Dependencies:** Stabilizer decomposition, boson/fermion domain split.
 
 ---
 
@@ -224,6 +224,14 @@ Registered and exploratory tests run against public datasets, with verdicts.
 
 ---
 
+### Black Hole Node Distribution on Static $S^3$
+
+**Problem:** If $S^3$ is static and black holes are topological nodes (double zeros where $\Theta \to 0$ and $\Omega_H \to 0$), their spatial distribution should reflect the symmetry of the 120-cell rather than FLRW comoving evolution. Quasar catalogs (Milliquas, SDSS) provide ~900,000 angular positions and redshifts. The missing piece is the $z$-to-<i>S<sup>3</sup></i>-position map: converting redshift to location on the static 3-sphere without assuming spatial expansion. Once available, test whether supermassive black hole positions correlate with 120-cell structure.
+
+**Dependencies:** Friedmann as Output (provides the static $S^3$ coordinate system), $z$-to-phase map from temporal budget.
+
+---
+
 ### Dead Zone
 
 **Problem:** 8 of 24 mass formula entries are unassigned: 6 in the dead zone ($10^{-9}$ to $10^{-6}$ GeV), 1 target (rank 16, ~349 MeV), 1 excluded (rank 3, ~0.4 eV). The dead zone is probed by sterile neutrino and warm dark matter searches.
@@ -237,14 +245,6 @@ Registered and exploratory tests run against public datasets, with verdicts.
 **Problem:** $\sqrt{\ell_P \cdot R_\Lambda} \sim 50\,\mu\text{m}$ places the observer at the cellular scale. The geometric midpoint is derived; the dimensionless derivation connecting this to biological observation is pending.
 
 **Dependencies:** Observer position at $\sqrt{\Omega}$, scale hierarchy.
-
----
-
-### Black Hole Node Distribution on Static $S^3$
-
-**Problem:** If $S^3$ is static and black holes are topological nodes (double zeros where $\Theta \to 0$ and $\Omega_H \to 0$), their spatial distribution should reflect the symmetry of the 120-cell rather than FLRW comoving evolution. Quasar catalogs (Milliquas, SDSS) provide ~900,000 angular positions and redshifts. The missing piece is the $z$-to-<i>S<sup>3</sup></i>-position map: converting redshift to location on the static 3-sphere without assuming spatial expansion. Once available, test whether supermassive black hole positions correlate with 120-cell structure.
-
-**Dependencies:** Friedmann as Output (provides the static $S^3$ coordinate system), $z$-to-phase map from temporal budget.
 
 ---
 
