@@ -18,7 +18,7 @@ The Möbius band selects half-integer modes; the lowest positive eigenvalue is t
 | Observed | $1.11 \times 10^{-52}\;\text{m}^{-2}$ |
 | de Sitter value | $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc reproduces $\Lambda$ by construction (circular) |
 
-Standard cosmology does not constrain $\Lambda \cdot R^2$. This framework derives the coefficient from topology.
+Standard cosmology already uses the de Sitter relation $\Lambda R^2 = 3$ when $R$ is the de Sitter curvature radius. What this framework adds is a spectral origin for the coefficient: the surface seed $R_\Sigma = 2/R^2$ is the first positive curvature mode of the Möbius boundary, with the Gauss/de Sitter factor $3/2$ supplying the rest.
 
 ## I. The Constant
 
@@ -285,7 +285,7 @@ $$\Lambda R^2 = \underbrace{(R_\Sigma R^2)}_{2}\cdot\underbrace{\tfrac{3}{2}}_{\
 |---|---|
 | $R_\Sigma = 2/R^2$ (two routes, §III) | Derived |
 | Gauss factor 3 ($A_{ij} = 0$ + isotropy) | Derived |
-| de Sitter normalization (the 2 in $\Lambda = R_\text{spatial}/2$) | Imported / definitional |
+| de Sitter normalization (the 2 in $\Lambda = R_\text{spatial}/2$) | Imported |
 
 The framework supplies a geometric and spectral origin for the curvature seed $R_\Sigma$, then runs the standard de Sitter conversion. The new content is the seed; the conversion is GR.
 
@@ -360,7 +360,7 @@ Turning the relation into a number requires an independent $R$. The one live rou
 | $\lambda_1 = 2/R^2$ | Derived | Twisted Laplacian on curved surface (two routes, §III) |
 | $\lambda_1 \geq R_\Sigma$ (regular sector) | Derived | Bochner bound (§III.E) |
 | Gauss factor 3 | Derived | Totally geodesic embedding in isotropic $S^3$ |
-| de Sitter normalization ($R_\text{spatial} = 2\Lambda$) | Imported | GR definition of $\Lambda$ for a de Sitter vacuum |
+| de Sitter normalization ($R_\text{spatial} = 2\Lambda$) | Imported | GR/de Sitter normalization |
 | Coefficient 3 ($=2\times\tfrac{3}{2}$) | Derived $\times$ imported | Seed $\times$ Gauss/de Sitter |
 | Scale $R$ | Open | The Molien gap does not fix $R$; the only live independent route is the particle mass spectrum (§V), currently order-of-magnitude only |
 
@@ -386,7 +386,7 @@ The 122-order discrepancy arises from equating two objects that were never the s
 
 ## VIII. Falsification
 
-Eigenvalues of the Laplacian on fixed topology are constants. If the topology is fixed, Λ is fixed.
+Eigenvalues of the Laplacian on a fixed geometric domain are constants. In this framework, topology and curvature fix the coefficient in $\Lambda(R) = 3/R^2$. Once $R$ is fixed independently, $\Lambda$ is fixed; redshift evolution of the dark-energy density would therefore put the framework under direct pressure.
 
 ### Falsification Criteria
 
