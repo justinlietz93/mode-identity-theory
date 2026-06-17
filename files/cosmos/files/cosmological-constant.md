@@ -2,15 +2,15 @@
 
 ---
 
-# Λ Ground Mode of the Cosmic Boundary
+# Λ from the Curvature of the Cosmic Boundary
 
 [![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
 
-> **Status update (June 2026).** The coefficient derivation on this page stands: the ground eigenvalue $\lambda_0 = 2/R^2$ on the curved Möbius surface is proven, and the Gauss-equation conversion gives $\Lambda = 3/R^2$. What was withdrawn is the claim that this is an independent percent-level prediction. $\Lambda R^2 = 3$ is the de Sitter relation renarrated through boundary topology, not a blind hit; and the scale $R$ cannot be fixed from the CMB Molien gap as Section V claims, because that projection is excluded (see the CMB anomalies page). With $R$ unspecified, the 2% agreement is the de Sitter identity, not a test. The eigenvalue and the geometric renarration survive; the headline prediction and the Section V determination of $R$ are in limbo. Setting $R$ is now the framework's central open problem.
+> **Status update (June 2026).** The coefficient derivation on this page stands: the first positive eigenvalue $\lambda_1 = 2/R^2$ on the curved Möbius surface is proven, and the Gauss-equation conversion gives $\Lambda = 3/R^2$. What was withdrawn is the claim that this is an independent percent-level prediction. $\Lambda R^2 = 3$ is the de Sitter relation renarrated through boundary topology, not a blind hit; and the scale $R$ cannot be fixed from the CMB Molien gap as Section V claims, because that projection is excluded (see the CMB anomalies page). With $R$ unspecified, the 2% agreement is the de Sitter identity, not a test. The eigenvalue and the geometric renarration survive; the headline prediction and the Section V determination of $R$ are in limbo. Setting $R$ is now the framework's central open problem.
 
-Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: Λ is set by the ground-mode eigenvalue of the cosmic boundary, a static universe where redshift is phase evolution on the boundary. Einstein was right the first time, for reasons then unknown.
+Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: Λ is set by the first positive eigenvalue of the cosmic boundary, a static universe where redshift is phase evolution on the boundary. Einstein was right the first time, for reasons then unknown.
 
-The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss equation under totally geodesic embedding and isotropy converts this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
+The Möbius band selects half-integer modes; the lowest positive eigenvalue is the surface scalar curvature $R_\Sigma = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss equation, under totally geodesic embedding and isotropy, converts this surface seed to the observed $\Lambda_\text{obs} = 3/R^2$, larger by a factor of 3/2.
 
 | Quantity | Value |
 |---|---|
@@ -46,7 +46,7 @@ $$\Lambda \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$$
 
 No mechanism assuming simply connected flat topology explains this value. The standard approach begins with a 4D spacetime, writes down field equations, and asks what value of Λ those equations permit. On a simply connected, non-compact spatial background, the answer is: any value, or a divergent one. The problem is upstream. General relativity is local: it describes dynamics on a domain but does not specify the domain itself. 
 
-The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the ground eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are how observers inside the geometry register that eigenvalue as a curvature scale.
+The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the first positive eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are how observers inside the geometry register that eigenvalue as a curvature scale.
 
 ## II. The Topology
 
@@ -62,7 +62,7 @@ $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \empty
 
 This is the minimal topology: $S^3$ is the unique simply connected closed 3-manifold (Poincaré); Möbius is the unique minimal non-orientable surface with $S^1$ boundary. Here "boundary" refers to the one-dimensional boundary of the Möbius carrier, $S^1 = \partial(\text{Möbius})$, not to a boundary of the ambient spatial manifold. The ambient space remains closed: $\partial S^3 = \emptyset$.
 
-The anti-periodic boundary condition, the half-integer spectrum, and the $\mathbb{Z}_2$ holonomy all require a surface whose normal direction cannot be globally defined. An orientable annulus with $S^1$ boundary would admit the ordinary periodic sector as the natural untwisted ground sector, with no forced $\mathbb{Z}_2$ reversal. The Möbius band is the minimal surface for which the twist is geometric rather than imposed externally.
+The anti-periodic boundary condition, the half-integer spectrum, and the $\mathbb{Z}_2$ holonomy all require a surface whose normal direction cannot be globally defined. An orientable annulus with $S^1$ boundary would admit the ordinary periodic sector as the natural untwisted lowest sector, with no forced $\mathbb{Z}_2$ reversal. The Möbius band is the minimal surface for which the twist is geometric rather than imposed externally.
 
 ### A. The Eigenproblem
 
@@ -105,7 +105,7 @@ with free transverse boundary condition (Neumann): $\partial_w\psi\big|_{w = \pm
 
 ### B. The Spectrum
 
-With boundary conditions set, the eigenvalues follow. For the transverse ground mode, $\psi$ is constant in $w$, so the coordinate reflection drops out and the condition reduces to the longitudinal anti-periodic condition:
+With boundary conditions set, the eigenvalues follow. For the constant transverse mode, $\psi$ is constant in $w$, so the coordinate reflection drops out and the condition reduces to the longitudinal anti-periodic condition:
 
 $$\psi(y + L) = -\psi(y)$$
 
@@ -115,189 +115,181 @@ $$e^{ikL} = -1$$
 
 Satisfied when $kL = (2m + 1)\pi$ for integer $m$. The constant mode ($k = 0$) is forbidden; anti-periodicity requires at least one sign flip. The solutions give a half-integer spectrum.
 
-## III. The Ground Mode
+## III. The First Positive Mode
 
-The cosmological background selects the ground mode:
+The cosmological coefficient rests on one curvature value: $2/R^2$, where $R$ is the curvature radius of $S^3$. The value is geometric and primary. It is twice the sectional curvature $K = 1/R^2$; equivalently the surface scalar curvature $R_\Sigma = 2K_G$; equivalently the Ricci eigenvalue on $1$-forms of $S^3$. Two independent spectral problems return it.
 
-| Argument | Mechanism |
+The Möbius surface fixes the boundary condition and selects which eigenvalue is physical. It does not supply the magnitude. The magnitude is the curvature of $S^3$.
+
+| Möbius role | Consequence |
 |---|---|
-| Isotropy | Higher modes ($m > 0$) have internal nodes, creating $O(1)$ anisotropy. CMB is isotropic to $10^{-5}$. |
-| Orthogonality | Cosmological measurements integrate over Gpc volumes. Oscillating cross-terms cancel. |
+| Anti-periodic BC + $\mathbb{Z}_2$ holonomy | Half-integer longitudinal spectrum; the constant mode is forbidden. |
+| Orientation twist (nontrivial line bundle) | No strictly positive ground state exists; the relevant datum is the first positive eigenvalue. |
+| Isotropy (CMB to $10^{-5}$) + narrow band $W \leq \pi R/2$ | Selects the zonal $\ell = 1$ mode $\sin(y/R)$ at $2/R^2$ over the wide-band undercut. |
 
 ### A. The Flat Strip Baseline
 
-On the flat strip with Euclidean metric $ds^2 = dy^2 + dw^2$, the $w$-constant transverse ground sector reduces the Laplace-Beltrami operator to $\Delta = \partial_y^2$. The real representative $u_0 = \sin(y/R)$ is understood as the restriction to one Möbius traversal of the anti-periodic extension $u_0(y + \pi R) = -u_0(y)$. It gives $\lambda_0^\text{flat} = \pi^2/L^2 = 1/R^2$.
+On the flat strip with Euclidean metric $ds^2 = dy^2 + dw^2$, the constant transverse sector reduces the Laplace-Beltrami operator to $\Delta = \partial_y^2$. The real representative $u_0 = \sin(y/R)$ is the restriction to one Möbius traversal of the anti-periodic extension $u_0(y + \pi R) = -u_0(y)$, giving $\lambda_0^\text{flat} = \pi^2/L^2 = 1/R^2$.
 
-The scalar curvature of a constant-curvature surface with $K = 1/R^2$ is $R_\Sigma = 2K = 2/R^2$. Thus:
+For a constant-curvature surface with $K = 1/R^2$, the scalar curvature is $R_\Sigma = 2K = 2/R^2$, so
 
-$$\lambda_0^\text{flat} = \frac{R_\Sigma}{2}$$
+$$\lambda_0^\text{flat} = \frac{R_\Sigma}{2}.$$
 
-The flat strip recovers half the scalar curvature. The full curved surface will recover the other half.
+The flat strip records the anti-periodic wavelength scale $1/R^2$. The curved surface changes the operator and raises the selected positive mode to the scalar-curvature value $2/R^2$.
+
+This $\lambda_0^\text{flat}$ is a genuine ground state: the trivial flat anti-periodic sector has no twist, and $\sin(y/R)$ is its true bottom. The curved twisted operator below has no strictly positive ground state; its relevant datum is the first positive eigenvalue.
 
 ### B. The Totally Geodesic Condition
 
-The ground mode has no internal nodes. The embedding that matches this is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition, the unique embedding carrying no bending information, selected by the ground mode's simplicity.
+The embedding that matches the first positive mode is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition. It carries no bending information, and the totally geodesic metric is the one whose curved Laplacian has the zonal first-positive mode $\sin(y/R)$ as its eigenfunction. The selection is geometric, not nodal.
 
 $K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. The covering $S^2 \subset S^3$ is totally geodesic ($K_{ij} = 0$ everywhere). The Möbius band is constructed from a spherical band on this $S^2$ by the boundary-edge identification $(0, w) \sim (\pi R, -w)$ and inherits the constant-curvature metric through this construction.
 
-A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature metric:
+A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature metric
 
-$$ds^2 = dy^2 + \cos^2(y/R)\,dw^2$$
+$$ds^2 = dy^2 + \cos^2(y/R)\,dw^2,$$
 
-Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: the pole of the covering $S^2$, which becomes a cone point on the Möbius quotient.
+with Gaussian curvature $K_G = 1/R^2$ and scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: the pole of the covering $S^2$, which becomes a cone point on the Möbius quotient.
 
 ### C. The Cone Point
 
 At $y = \pi R/2$ the metric coefficient $\cos(y/R)$ vanishes. On the covering $S^2$ this is a smooth pole. On the edge-identified Möbius band, the same coordinate collapse produces a conical singularity with cone angle $2W/R$, equivalently angular deficit $2\pi - 2W/R$. The surface is smooth away from this single point; the Bochner identity and Gauss equation are applied on the smooth locus, with the cone point controlled by excision (§III.E).
 
-Setting $\delta = y - \pi R/2$, the weight function satisfies $|\cos(y/R)| \sim |\delta|/R$ near $\delta = 0$. The reduced eigenequation in Sturm-Liouville form,
+Setting $\delta = y - \pi R/2$, the weight satisfies $|\cos(y/R)| \sim |\delta|/R$ near $\delta = 0$. The reduced eigenequation in Sturm-Liouville form,
 
-$$(|\delta|/R \cdot u')' + \lambda\,|\delta|/R \cdot u = 0$$
+$$(|\delta|/R \cdot u')' + \lambda\,|\delta|/R \cdot u = 0,$$
 
-admits a Frobenius analysis. Substituting $u = \delta^s$ gives $s^2 = 0$ (double root). The two independent local solutions are $u_1 = a_0 + a_2\delta^2 + O(\delta^4)$ and $u_2 = \log|\delta| + b_2\delta^2 + O(\delta^4)$. Both are square-integrable (limit-circle endpoint). The Friedrichs extension selects the regular branch by requiring finite Dirichlet integral; the logarithmic branch fails this condition since $\int (u')^2|\cos|\,d\delta \sim \int \delta^{-1}\,d\delta = \infty$.
+has indicial equation $s^2 = 0$ (double root); the two local solutions are $u_1 = a_0 + a_2\delta^2 + O(\delta^4)$ and $u_2 = \log|\delta| + b_2\delta^2 + O(\delta^4)$. Both are square-integrable: the cone is a limit-circle endpoint in the constant sector. The Friedrichs extension selects the regular branch by finite Dirichlet integral; the logarithmic branch fails it, $\int (u')^2|\cos|\,d\delta \sim \int \delta^{-1}\,d\delta = \infty$.
 
-### D. Direct Computation and Upper Bound
+Because the endpoint is limit-circle, the bottom of the spectrum is extension-dependent: zero for Friedrichs through the discontinuous zero mode, negative for bridging extensions. No self-adjoint extension has a strictly positive ground state. The quantity carried forward is therefore the first positive eigenvalue, extension-stable for $\delta_0 > 2R/e$. The Friedrichs regular branch fixes the constant sector; it does not supply a positive-bottom ground state.
 
-For the metric $ds^2 = dy^2 + f(y)^2\,dw^2$ with $f = \cos(y/R)$, the Laplace-Beltrami operator on $y$-dependent functions is:
+### D. Direct Computation and the Two Routes
 
-$$\Delta u = u'' - \frac{1}{R}\tan(y/R)\cdot u'$$
+For the metric $ds^2 = dy^2 + f(y)^2\,dw^2$ with $f = \cos(y/R)$, the Laplace-Beltrami operator on $y$-dependent functions is
 
-Ground eigenfunction $u_0 = \sin(y/R)$:
+$$\Delta u = u'' - \frac{1}{R}\tan(y/R)\cdot u'.$$
 
-$$u_0' = \frac{1}{R}\cos(y/R), \qquad u_0'' = -\frac{1}{R^2}\sin(y/R)$$
+For $u_0 = \sin(y/R)$, with $u_0' = \tfrac{1}{R}\cos(y/R)$ and $u_0'' = -\tfrac{1}{R^2}\sin(y/R)$,
 
-$$-\Delta u_0 = \frac{1}{R^2}\sin(y/R) + \frac{1}{R}\cdot\frac{\sin(y/R)}{\cos(y/R)}\cdot\frac{\cos(y/R)}{R} = \frac{2}{R^2}\sin(y/R)$$
+$$-\Delta u_0 = \frac{1}{R^2}\sin(y/R) + \frac{1}{R}\tan(y/R)\cdot\frac{1}{R}\cos(y/R) = \frac{2}{R^2}\sin(y/R),$$
 
-The eigenvalue for this eigenfunction is $2/R^2$.
+eigenvalue $2/R^2$; and $\sin((y+\pi R)/R) = -\sin(y/R)$ satisfies the anti-periodic condition.
 
-**Anti-periodic boundary condition:**
+**Why $2/R^2$ is the value.** Two independent routes return it, one extension-free and one extension-robust.
 
-$$\sin\!\left(\frac{y + \pi R}{R}\right) = \sin\!\left(\frac{y}{R} + \pi\right) = -\sin\!\left(\frac{y}{R}\right)$$
+*Route 1 (extension-free).* At a flat connection on $S^3$, or on any quotient $S^3/\Gamma$, the gauge-covariant Hodge Laplacian on coexact $1$-forms obeys the Weitzenböck identity $\Delta_\text{Hodge} = \nabla_A^\ast\nabla_A + \mathrm{Ric}$. Since $\nabla_A^\ast\nabla_A \geq 0$ and $\mathrm{Ric} = (2/R^2)g$ acts on $1$-forms by multiplication by $2/R^2 > 0$, every coexact fluctuation satisfies $\lambda \geq 2/R^2$. The bound is a two-line consequence of $\mathrm{Ric} > 0$ (companion Yang-Mills paper). No cone, no Möbius, no extension choice enters.
 
-**Ground state:** $\sin(y/R) > 0$ on $(0,\,\pi R)$. No interior zeros. By Sturm-Liouville theory, an eigenfunction with no interior zeros in the anti-periodic sector is the ground state.
+*Route 2 (extension-robust).* The twisted anti-periodic scalar Laplacian on the curved Möbius band has first positive eigenvalue $2/R^2$, eigenfunction $\sin(y/R)$ (the $\ell = 1$ zonal tower), identical for the Friedrichs extension and for every bridging extension with $\delta_0 > 2R/e$, in the narrow band $0 < W \leq \pi R/2$ (companion spectral paper).
 
-**Rayleigh quotient upper bound.** The Rayleigh quotient confirms:
+Both return $2/R^2 = R_\Sigma = 2K_G$.
 
-$$\frac{\displaystyle\int_M |\nabla u_0|^2\,dA}{\displaystyle\int_M u_0^2\,dA} = \frac{8W/3R}{4WR/3} = \frac{2}{R^2}$$
+Route 1 is a Ricci eigenvalue on $1$-forms; Route 2 is a scalar surface eigenvalue. They coincide as numbers, not as operators, because both equal twice the sectional curvature. The $1$-form floor is not the scalar eigenvalue; only the value is shared. Route 1 is unconditional; Route 2 holds under $W \leq \pi R/2$ and $\delta_0 > 2R/e$.
 
-Therefore $\lambda_0 \leq 2/R^2$. The transverse half-width $W$ sets the width of the carrier surface but not the cosmological scale: it cancels from the Rayleigh quotient, so the ground eigenvalue depends only on the curvature radius $R$.
+**Narrow-band condition.** For $W > \pi R/2$ a wide mode with longitudinal envelope $|\cos(y/R)|^{\alpha_0}$, $\alpha_0 = \pi R/(2W)$, and eigenvalue $\alpha_0(\alpha_0 + 1)/R^2$, drops below $2/R^2$; the envelope is cone-singular for $\alpha_0 < 1$. At $W = \pi R/2$, $\alpha_0 = 1$ and $\alpha_0(\alpha_0 + 1) = 2$ exactly, so the narrow band is tight. The framework takes $W \leq \pi R/2$ as a physical input on the cosmic boundary; the selection is an input, not a derived fact.
 
-*Flat-strip limit.* Near the equator ($y \approx 0$), $\tan(y/R) \to 0$ and the curvature term vanishes. The operator reduces to $-d^2/dy^2$; the eigenvalue drops to $1/R^2$; and the factor of 2 must be supplied externally. On the full curved surface, the geometry carries it automatically.
+**Rayleigh upper bound.**
+
+$$\frac{\int_M |\nabla u_0|^2\,dA}{\int_M u_0^2\,dA} = \frac{8W/3R}{4WR/3} = \frac{2}{R^2},$$
+
+so $\lambda_1 \leq 2/R^2$. The half-width $W$ cancels: the first positive eigenvalue depends only on $R$.
 
 ### E. The Lower Bound
 
-The Bochner identity gives $\lambda_0 \geq R_\Sigma$ from below, independently of the direct computation.
+For the regular zonal mode, a Bochner estimate on the smooth excised surface returns the matching lower bound. On an eigenfunction $-\Delta u = \lambda u$, the Bochner formula in dimension 2 gives
 
-On an eigenfunction $-\Delta u = \lambda u$, the Bochner formula in dimension 2 gives:
+$$\tfrac{1}{2}\Delta|\nabla u|^2 = |\nabla^2 u|^2 + K_G|\nabla u|^2 - \lambda|\nabla u|^2.$$
 
-$$\frac{1}{2}\Delta|\nabla u|^2 = |\nabla^2 u|^2 + K_G|\nabla u|^2 - \lambda|\nabla u|^2$$
+Apply it on the excised surface $M_\epsilon = M \setminus \{|y - \pi R/2| < \epsilon\}$. The zonal mode $\sin(y/R)$ is regular at the cone, so on the excision curve $\partial_\nu|\nabla u|^2 = O(\epsilon)$ over arclength $O(\epsilon)$, contributing $O(\epsilon^2) \to 0$. The boundary curves $w = \pm W$ are geodesics with $\partial_\nu u = 0$, killing that term. The bulk identity becomes $\int|\nabla^2 u|^2 = (\lambda - K_G)\int|\nabla u|^2$, and Cauchy-Schwarz $|\nabla^2 u|^2 \geq (\Delta u)^2/2 = \lambda^2 u^2/2$ with $\int|\nabla u|^2 = \lambda\int u^2$ gives $\lambda - K_G \geq \lambda/2$, hence $\lambda \geq 2K_G = R_\Sigma$.
 
-The identity is applied on the excised manifold $M_\epsilon = M \setminus \{|y - \pi R/2| < \epsilon\}$. On the excision curves: $\partial_\nu|\nabla u|^2 = O(\epsilon)$, arclength $= O(\epsilon)$, so the contribution is $O(\epsilon^2) \to 0$. This regularization is standard for Lichnerowicz-type estimates on manifolds with isolated conical singularities.
-
-The boundary curves $w = \pm W$ are geodesics of the surface ($\kappa_g = 0$), and Neumann conditions hold ($\partial_\nu u = 0$); together these kill the boundary term identically. The bulk identity becomes:
-
-$$\int|\nabla^2 u|^2 = (\lambda - K_G)\int|\nabla u|^2$$
-
-Cauchy-Schwarz on the $2\times 2$ Hessian gives $|\nabla^2 u|^2 \geq (\Delta u)^2/2 = \lambda^2 u^2/2$. Integrating and using $\int|\nabla u|^2 = \lambda\int u^2$:
-
-$$(\lambda - K_G)\lambda\int u^2 \geq \frac{\lambda^2}{2}\int u^2$$
-
-Dividing by $\lambda\int u^2 > 0$: $\lambda - K_G \geq \lambda/2$, hence $\lambda \geq 2K_G = R_\Sigma$.
+This corroborates the value for the regular narrow-band sector: with the Rayleigh upper bound it pins $\lambda_1 = R_\Sigma$ on the smooth excised surface. It is not a universal bound. The wide-band modes $|\cos(y/R)|^{\alpha_0}$ ($\alpha_0 < 1$, §III.D) are singular at the cone, their excision contribution does not vanish, and they are correctly not excluded, consistent with their eigenvalues lying below $R_\Sigma$ for $W > \pi R/2$. The extension-free floor belongs to Route 1, not to this scalar-sector inequality.
 
 ### F. The Identity
 
-Two independent bounds establish equality:
+The Rayleigh upper bound (§III.D), the Bochner lower bound for the regular sector (§III.E), and the two routes pin the value:
 
-$$\lambda_0 \leq R_\Sigma \quad \text{(direct)} \qquad \lambda_0 \geq R_\Sigma \quad \text{(Bochner)} \qquad \Rightarrow \qquad \lambda_0 = R_\Sigma \text{ uniquely}$$
+$$\boxed{\lambda_1 = \frac{2}{R^2} = R_\Sigma = 2K_G}$$
 
-$$\boxed{\Lambda_\text{top} = \lambda_0 = \frac{2}{R^2} = R_\Sigma}$$
-
-### G. Topological Protection
-
-$\Lambda_\text{top}$ sits at the antinode of the mode spectrum. The phase coordinate $\Theta = y/L \in [0,1]$ parameterizes position on the standing wave. The intensity profile:
-
-$$C(\Theta) = 2\sin^2(\pi\Theta)$$
-
-At the antinode ($\Theta = 60/120$, the midpoint of the 120-domain native to $S^3$): $C(60/120) = 2$, the same factor carried by $\lambda_0 = 2/R^2$. The logarithmic slope:
-
-$$\frac{d \ln C}{d\Theta}\bigg\rvert_{60/120} = 2\pi \cot(\pi/2) = 0$$
-
-The slope is exactly zero. Any position with finite slope can be shifted by environmental perturbations. The antinode cannot. $\Lambda$ is constant because it occupies the unique position on the mode spectrum where the intensity profile has vanishing derivative.
+This is the surface scalar curvature, carried into the Gauss-Codazzi conversion of §IV. The same number is the Ricci eigenvalue on $1$-forms of $S^3$ (Route 1) and the first positive eigenvalue of the curved twisted operator (Route 2); the Weitzenböck $1$-form bound $\lambda \geq 2/R^2$ is the extension-free confirmation. The word "floor" is reserved for Route 1, the $1$-form bound; the shared seat of all three is the curvature value $R_\Sigma = 2/R^2$. This surface value carries no $\Lambda$: the cosmological constant $\Lambda = 3/R^2$ is produced from it only by the Gauss-Codazzi conversion of §IV.
 
 ## IV. The Conversion
 
-The topological eigenvalue $\Lambda_\text{top}$ is defined on a 2D surface. The observed $\Lambda_\text{obs}$ is inferred from 3D spatial dynamics. The Gauss equation relates them.
+Section III delivers a single curvature value: the surface scalar curvature $R_\Sigma = 2/R^2$, established by two independent spectral routes. This value carries no $\Lambda$. The Gauss equation converts it into the cosmological constant through the standard general-relativistic chain. Under the totally geodesic embedding the Codazzi equation is trivially satisfied, so only the Gauss equation contributes; this is the Gauss-Codazzi conversion announced at the close of Section III. All of the new content is upstream, in the spectral identification of $R_\Sigma$; this section is the conventional conversion.
 
-### A. Gauss Equation
+### A. What Is Imported
 
-The Gauss equation relates intrinsic curvature of an embedded surface to ambient curvature:
+One ingredient in this section is imported. For a maximally symmetric de Sitter vacuum with spatial sections $S^3(R)$, the standard GR normalization gives
 
-$$R_\Sigma = R_\text{space} - 2\,\text{Ric}(\mathbf{n},\mathbf{n}) + H^2 - A_{ij}A^{ij}$$
+$$\Lambda = \frac{R_\text{spatial}}{2} \quad\Longleftrightarrow\quad R_\text{spatial} = 2\Lambda.$$
+
+This is the de Sitter normalization imported from general relativity, not a second independently derived input; the factor of 2 is imported. The end relation $\Lambda R^2 = 3$ is then the de Sitter identity for $S^3(R)$, carrying the spectral origin of the seed $R_\Sigma$. The genuinely new content is the spectral identification of $R_\Sigma = 2/R^2$ (Section III, two routes); the present section applies the Gauss equation and the de Sitter normalization to convert that surface seed into the spacetime cosmological constant.
+
+### B. Gauss Equation
+
+The Gauss equation relates the intrinsic curvature of an embedded surface to the ambient curvature:
+
+$$R_\Sigma = R_\text{spatial} - 2\,\text{Ric}(\mathbf{n},\mathbf{n}) + H^2 - A_{ij}A^{ij}$$
 
 | Symbol | Meaning |
 |---|---|
-| $R_\Sigma$ | Intrinsic scalar curvature of surface |
-| $R_\text{space}$ | Scalar curvature of ambient space |
+| $R_\Sigma$ | Intrinsic scalar curvature of the surface (the seed from §III) |
+| $R_\text{spatial}$ | Scalar curvature of the ambient three-space |
 | $A_{ij}$ | Second fundamental form |
-| $H$ | Trace of second fundamental form ($g^{ij}A_{ij}$) |
-| $\mathbf{n}$ | Unit normal to surface |
+| $H$ | Trace of the second fundamental form ($g^{ij}A_{ij}$) |
+| $\mathbf{n}$ | Unit normal to the surface |
 
-### B. Totally Geodesic Embedding
+### C. Totally Geodesic Embedding
 
 For a totally geodesic embedding ($A_{ij} = 0$, $H = 0$), the equation simplifies:
 
-$$R_\Sigma = R_\text{space} - 2\,\text{Ric}(\mathbf{n},\mathbf{n})$$
+$$R_\Sigma = R_\text{spatial} - 2\,\text{Ric}(\mathbf{n},\mathbf{n})$$
 
-### C. Isotropic Space
+### D. Isotropic Space
 
-On an isotropic constant-curvature three-space, $R_\text{space} = R_\text{spatial}$ and the spatial Ricci tensor is:
+On an isotropic constant-curvature three-space, the spatial Ricci tensor is
 
-$$R_{ij} = \frac{R_\text{spatial}}{3}\,g_{ij}$$
+$$R_{ij} = \frac{R_\text{spatial}}{3}\,g_{ij},$$
 
-Therefore:
+so $\text{Ric}(\mathbf{n},\mathbf{n}) = R_\text{spatial}/3$. Substituting into the totally geodesic Gauss equation:
 
-$$\text{Ric}(\mathbf{n},\mathbf{n}) = R_\text{spatial}/3$$
+$$R_\Sigma = R_\text{spatial} - \frac{2\,R_\text{spatial}}{3} = \frac{R_\text{spatial}}{3}.$$
 
-### D. The Gravity of the 3/2 Interface
+Inverting,
 
-Substituting into the Gauss equation:
+$$R_\text{spatial} = 3\,R_\Sigma = \frac{6}{R^2}.$$
 
-$$R_\Sigma = R_\text{spatial} - \frac{2\,R_\text{spatial}}{3} = \frac{R_\text{spatial}}{3}$$
-
-Inverting:
-
-$$R_\text{spatial} = 3 \cdot R_\Sigma$$
+This step is geometry: the factor 3 is the isotropic spatial Ricci trace under the totally geodesic condition ($A_{ij} = 0$).
 
 ### E. Connection to Λ
 
-In vacuum, $G_{\mu\nu} + \Lambda g_{\mu\nu} = 0$, the maximally symmetric solution with spatial sections $S^3(R)$ gives $\Lambda_\text{obs} = 3/R^2$. Thus the ambient radius $R$ is the de Sitter curvature radius in the GR normalization. The spatial $S^3(R)$ has:
+Applying the imported de Sitter normalization $\Lambda = R_\text{spatial}/2$ of §A to the derived $R_\text{spatial} = 6/R^2$:
 
-$$R_\text{spatial} = \frac{6}{R^2} = 2\Lambda_\text{obs}$$
-
-The direction of logic is: the topology determines $R_\text{spatial} = 6/R^2$ through the Gauss equation; the Einstein equation then defines Λ as the name general relativity gives to the quantity $R_\text{spatial}/2$. The de Sitter relation is not imported as an assumption; it is how GR translates spatial curvature into the parameter Λ.
+$$\Lambda = \frac{R_\text{spatial}}{2} = \frac{3}{2}\,R_\Sigma = \frac{3}{2}\cdot\frac{2}{R^2} = \frac{3}{R^2}.$$
 
 The chain closes:
 
-$$R_\text{spatial} = 3\,R_\Sigma = 3\,\Lambda_\text{top} = 2\Lambda_\text{obs}$$
+$$R_\text{spatial} = 3\,R_\Sigma = 2\Lambda \qquad\Longrightarrow\qquad \Lambda = \tfrac{3}{2}\,R_\Sigma.$$
 
-$$\Lambda_\text{obs} = \tfrac{3}{2}\,\Lambda_\text{top}$$
-
-The 3 comes from isotropic space ($S^3$). The 2 is how General Relativity defines Λ. The 3/2 is their ratio: the Gauss equation interface between 2D surface geometry and 3D spatial curvature.
+The 3 comes from the isotropic spatial Ricci trace. The 2 comes from the de Sitter normalization relating $R_\text{spatial}$ to $\Lambda$. The 3/2 is their ratio: the Gauss-equation interface between 2D surface geometry and 3D spatial curvature.
 
 ### F. Summary
 
-| Factor | Source |
-|---|---|
-| 3 | Spatial Ricci trace (isotropic space) |
-| 2 | de Sitter relation ($R_\text{spatial} = 2\Lambda_\text{obs}$) |
-| 3/2 | Net conversion |
+The numeral in $\Lambda R^2 = 3$ factors as the surface seed times the Gauss conversion:
 
-| Condition | Justification |
+$$\Lambda R^2 = \underbrace{(R_\Sigma R^2)}_{2}\cdot\underbrace{\tfrac{3}{2}}_{\text{Gauss}} = 3, \qquad \tfrac{3}{2} = \frac{3\ (\text{isotropic Ricci trace})}{2\ (\text{de Sitter normalization})}.$$
+
+| Factor | Source | Status |
+|---|---|---|
+| 3 | Spatial Ricci trace (isotropic space) | Derived (geometry) |
+| 2 | de Sitter relation ($R_\text{spatial} = 2\Lambda$) | Imported (GR normalization) |
+| 3/2 | Net conversion | Derived $\times$ imported |
+
+| Element | Status |
 |---|---|
-| Totally geodesic embedding | Ground mode correspondence ($m = 0$) |
-| Isotropic space | CMB verified to $10^{-5}$ |
-| de Sitter vacuum | Late-time ΛCDM limit |
-| $R_\Sigma = \Lambda_\text{top}$ | Ground eigenvalue equals surface scalar curvature |
+| $R_\Sigma = 2/R^2$ (two routes, §III) | Derived |
+| Gauss factor 3 ($A_{ij} = 0$ + isotropy) | Derived |
+| de Sitter normalization (the 2 in $\Lambda = R_\text{spatial}/2$) | Imported / definitional |
+
+The framework supplies a geometric and spectral origin for the curvature seed $R_\Sigma$, then runs the standard de Sitter conversion. The new content is the seed; the conversion is GR.
 
 ## V. The Scale
 
@@ -337,7 +329,7 @@ The derivation yields:
 
 $${\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
-The coefficient 3 decomposes as two factors. The curved eigenvalue $\lambda_0 = 2/R^2$: the ground mode on the curved Möbius surface carries this geometric factor directly. The Gauss equation conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: $2 \times 3/2 = 3$.
+The coefficient 3 decomposes as two factors: the surface curvature seed $R_\Sigma = 2/R^2$ (the first positive mode on the curved Möbius surface, §III), and the Gauss/de Sitter conversion 3/2 (§IV). Their product: $2 \times 3/2 = 3$.
 
 With $R = 5.3$ Gpc $= 1.64 \times 10^{26}$ m (§V):
 
@@ -353,12 +345,12 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | 2 | $R$ from Molien gap (§V) | $R \approx 5.3$ Gpc |
 | 3 | Even transverse mode | 1D reduction |
 | 4 | Anti-periodic BC | Half-integer spectrum |
-| 5 | Isotropy + orthogonality | Ground mode ($m = 0$) |
-| 6 | Ground mode ($m=0$) → totally geodesic → curved metric | $\lambda_0 = 2/R^2 = R_\Sigma$ |
-| 7 | Bochner identity | $\lambda_0 \geq R_\Sigma$; equality unique |
-| 8 | $\lambda_0 = R_\Sigma = \Lambda_\text{top}$ | $\Lambda_\text{top} = 2/R^2$ |
+| 5 | Isotropy (CMB) | Constant transverse mode ($m = 0$) |
+| 6 | Constant transverse mode ($m=0$) → totally geodesic → curved metric | $\lambda_1 = 2/R^2 = R_\Sigma$ |
+| 7 | Bochner (regular sector) | $\lambda_1 \geq R_\Sigma$; pins $\lambda_1 = R_\Sigma$ |
+| 8 | $\lambda_1 = R_\Sigma = 2/R^2$ | surface curvature seed (no $\Lambda$) |
 | 9 | Gauss equation + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
-| 10 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | $\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}$ |
+| 10 | de Sitter (GR normalization, imported): $R_\text{spatial} = 2\Lambda_\text{obs}$ | $\Lambda_\text{obs} = \frac{3}{2}\,R_\Sigma$ |
 | 11 | Result | $\Lambda_\text{obs} = 3/R^2$ |
 
 ### Derived vs. Imported
@@ -366,13 +358,14 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | Element | Status | Source |
 |---|---|---|
 | Anti-periodic BC | Derived | Möbius topology |
-| $\lambda_0 = 2/R^2$ | Derived | Twisted Laplacian on curved surface |
-| $\lambda_0 \geq R_\Sigma$ | Derived | Bochner bound (§III.E) |
-| Gauss equation factor 3/2 | Derived | Totally geodesic embedding in isotropic $S^3$ |
-| Coefficient 3 | Derived | Product: $2 \times 3/2$ |
-| Scale $R$ | Imported | Molien gap + CMB multipole structure (§V) |
+| $\lambda_1 = 2/R^2$ | Derived | Twisted Laplacian on curved surface (two routes, §III) |
+| $\lambda_1 \geq R_\Sigma$ (regular sector) | Derived | Bochner bound (§III.E) |
+| Gauss factor 3 | Derived | Totally geodesic embedding in isotropic $S^3$ |
+| de Sitter normalization ($R_\text{spatial} = 2\Lambda$) | Imported | GR definition of $\Lambda$ for a de Sitter vacuum |
+| Coefficient 3 ($=2\times\tfrac{3}{2}$) | Derived $\times$ imported | Seed $\times$ Gauss/de Sitter |
+| Scale $R$ | Open | Central open problem; the §V Molien determination is excluded (see Status update) |
 
-The coefficient 3 is the content of the derivation. Standard cosmology treats $\Lambda \cdot R^2$ as a free parameter. This framework fixes it from topology. The scale $R$ comes from the CMB independently of $\Lambda$; the prediction $\Lambda = 3/R^2$ is then a genuine output, testable against the observed value.
+The content of the derivation is the surface seed $R_\Sigma = 2/R^2$ and its spectral origin; the conversion to $\Lambda = 3/R^2$ is standard GR (Gauss plus the de Sitter normalization). Standard cosmology treats $\Lambda R^2$ as a free parameter; here $\Lambda R^2 = 3$ is the de Sitter identity for $S^3(R)$, carrying the spectral origin of the seed. The scale $R$ is not fixed by this framework (see the Status update); with $R$ open, $\Lambda = 3/R^2$ is the de Sitter relation, not an independent test.
 
 ## VII. Compatibility with General Relativity
 
@@ -409,7 +402,7 @@ These predictions are stated in advance of the European Space Agency's Euclid Da
 
 Einstein put geometry into his equations and then took it out. A century of physics put it back in and called it energy when it was geometry all along. The blunder was not adding Λ, it was removing it.
 
-The cosmological constant is neither a fitted parameter nor 'dark energy.' It is the ground mode of the cosmic boundary, the ground tone of a resonant universe.
+The cosmological constant is neither a fitted parameter nor 'dark energy.' It is the first positive mode of the cosmic boundary, the fundamental tone of a resonant universe.
 
 *Einstein's constant, resolved.*
 
