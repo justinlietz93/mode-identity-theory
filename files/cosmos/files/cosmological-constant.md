@@ -6,7 +6,7 @@
 
 [![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
 
-> **Status update (June 2026).** The coefficient derivation on this page stands: the first positive eigenvalue $\lambda_1 = 2/R^2$ on the curved Möbius surface is proven, and the Gauss-equation conversion gives $\Lambda = 3/R^2$. What was withdrawn is the claim that this is an independent percent-level prediction. $\Lambda R^2 = 3$ is the de Sitter relation renarrated through boundary topology, not a blind hit; and the scale $R$ cannot be fixed from the CMB Molien gap as Section V claims, because that projection is excluded (see the CMB anomalies page). With $R$ unspecified, the 2% agreement is the de Sitter identity, not a test. The eigenvalue and the geometric renarration survive; the headline prediction and the Section V determination of $R$ are in limbo. Setting $R$ is now the framework's central open problem.
+> **Status update (June 2026).** The coefficient derivation on this page stands: the first positive eigenvalue $\lambda_1 = 2/R^2$ on the curved Möbius surface is proven, and the Gauss-equation conversion gives $\Lambda = 3/R^2$. What was withdrawn is the claim that this is an independent percent-level prediction. $\Lambda R^2 = 3$ is the de Sitter relation renarrated through boundary topology, not a blind hit. The scale $R$ is not fixed by the CMB Molien gap (it is not an independent route); the one live independent route is the particle mass spectrum, which lands $R$ of order Gpc to order-of-magnitude precision (§V). At that precision $\Lambda = 3/R^2$ is an order-of-magnitude forward prediction, not the percent-level number originally claimed; the old $R \approx 5.3$ Gpc is only the circular de Sitter value $\sqrt{3/\Lambda_\text{obs}}$. The eigenvalue and the geometric renarration survive; setting $R$ precisely is the framework's central open problem.
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: Λ is set by the first positive eigenvalue of the cosmic boundary, a static universe where redshift is phase evolution on the boundary. Einstein was right the first time, for reasons then unknown.
 
@@ -14,11 +14,11 @@ The Möbius band selects half-integer modes; the lowest positive eigenvalue is t
 
 | Quantity | Value |
 |---|---|
-| Derived | $\Lambda \cdot R^2 = 3$, where 3 = eigenvalue (2) $\times$ Gauss equation (3/2) |
-| Measured | $R \approx 5.3$ Gpc from the Molien gap on $S^3/2I$ (independent of $\Lambda$) |
-| Result | $\Lambda_\text{obs} = 3/R^2 = 1.12 \times 10^{-52}\;\text{m}^{-2}$ |
+| Derived | $\Lambda R^2 = 3$, where 3 = eigenvalue (2) $\times$ Gauss/de Sitter (3/2) |
+| Scale $R$ | Open; the one independent route (particle mass spectrum) gives $R \approx 20$ Gpc, order of magnitude |
+| Forward prediction | $\Lambda \approx 8 \times 10^{-54}\;\text{m}^{-2}$ (mass-spectrum $R$), about $14\times$ below observed |
 | Observed | $1.11 \times 10^{-52}\;\text{m}^{-2}$ |
-| Cross-check | Standard relation $R = c/(H_0\sqrt{\Omega_\Lambda})$ returns the same $R$ |
+| de Sitter value | $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc reproduces $\Lambda$ by construction (circular) |
 
 Standard cosmology does not constrain $\Lambda \cdot R^2$. This framework derives the coefficient from topology.
 
@@ -293,7 +293,7 @@ The framework supplies a geometric and spectral origin for the curvature seed $R
 
 ## V. The Scale
 
-Sections III–IV derived $\Lambda_\text{obs} = 3/R^2$. The coefficient is fixed; $R$ remains. This section sets $R$ from the harmonic spectrum of $S^3$, without using the Friedmann Λ-radius relation.
+Sections III and IV fixed the coefficient: $\Lambda = 3/R^2$. The radius $R$ remains, and $\Lambda = 3/R^2$ yields a number only with an *independent* $R$. Reading $R$ off $\Lambda$ through the de Sitter relation $R = \sqrt{3/\Lambda}$ is circular. An independent $R$ is the framework's central open problem.
 
 ### A. The Quotient Domain
 
@@ -309,19 +309,22 @@ Scalar harmonics on $S^3$ have eigenvalue $N(N+2)/R^2$ and degeneracy $(N+1)^2$.
 
 $$P(t) = \frac{1 - t^{60}}{(1 - t^{12})(1 - t^{20})(1 - t^{30})}$$
 
-shows the first nontrivial invariant at $N = 12$. Shells $N = 2, 4, 6, 8, 10$ are absent. This is the Molien gap.
+shows the first nontrivial invariant at $N = 12$. Shells $N = 2, 4, 6, 8, 10$ are absent. This is the Molien gap, a spectral fact about the $S^3/2I$ harmonic structure.
 
-### C. Mapping to the CMB Sky
+### C. The CMB Low-ℓ Deficit
 
-Each shell maps to $\ell_\text{char}(N) = \sqrt{N(N+2)}\,\chi_{*}/R$, where $\chi_{*} \approx 14.0$ Gpc is the comoving distance to last scattering (fixed by the acoustic peaks independently of $\Lambda$). The last empty shell ($N = 10$) maps to $\ell \approx 29$; the first surviving shell ($N = 12$) to $\ell \approx 34$. The transition matches the observed low-<i>ℓ</i> CMB power deficit documented across COBE, WMAP, and Planck.
+Each invariant shell maps to a characteristic multipole $\ell_\text{char}(N) = \sqrt{N(N+2)}\,\chi_{*}/R$, where $\chi_{*} \approx 14.0$ Gpc is the comoving distance to last scattering. The Molien gap removes the low shells ($N = 2$ through $10$), thinning the mode density below $\ell \approx 30$ and producing a gradual low-ℓ power deficit in the range documented across COBE, WMAP, and Planck. This is a spectral consequence of the $S^3/2I$ harmonic structure and stands as a CMB result. It is not an independent handle on $R$: the shell-to-multipole map carries $R$ rather than fixing it, so the Molien gap does not by itself determine the scale.
 
-### D. Determining R
+### D. The Scale R: One Live Route
 
-Identifying the deficit boundary near $\ell \simeq 29$ with $N = 10$:
+With the de Sitter relation circular and the Molien gap not independent, the one live route to an independent $R$ is the particle mass spectrum. The fermion mass formula depends on the hierarchy factor $\Omega_\Lambda = (R/\ell_P)^2$ through the McKay-distance dilution $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$. Inverting the electron-muon mass ratio for that dependence fixes $R$ with no input from $\Lambda$, the CMB, or the de Sitter relation:
 
-$$R = \frac{\sqrt{120} \times 14.0}{29} \approx 5.3 \text{ Gpc} = 1.64 \times 10^{26} \text{ m}$$
+$$m_e,\ m_\mu \ \xrightarrow{\ \text{mass formula}\ }\ R \approx 20\ \text{Gpc} \ \xrightarrow{\ \Lambda = 3/R^2\ }\ \Lambda \approx 8 \times 10^{-54}\ \text{m}^{-2},$$
 
-This sets $R$ from the CMB harmonic transition rather than from the algebraic de Sitter-radius relation $R = c/(H_0\sqrt{\Omega_\Lambda})$. As a consistency check, that standard relation with $H_0 = 67.4$ km/s/Mpc, $\Omega_\Lambda = 0.685$ gives the same scale.
+about $14\times$ below the observed $1.11 \times 10^{-52}\ \text{m}^{-2}$: agreement to order of magnitude, not percent. The precision floor is structural, set by the McKay lever ($60\times$ for adjacent McKay distance) amplifying the mass formula's few-percent residual scatter; no assigned fermion pair beats electron-muon. This is a genuine, independent leg under $\Lambda \sim 3/R^2$ at $R$ of order Gpc, not a percent-level prediction. Details in the working notes: [R from the mass spectrum](../../working/files/r-from-mass-spectrum.md) and [The R Problem](../../working/files/r-problem.md).
+
+For reference, the de Sitter value $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc is the consistency radius read back from the observed $\Lambda$ (equivalently the standard $R = c/(H_0\sqrt{\Omega_\Lambda})$); it is circular and not an independent determination.
+
 
 ## VI. The Result
 
@@ -331,18 +334,18 @@ $${\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
 The coefficient 3 decomposes as two factors: the surface curvature seed $R_\Sigma = 2/R^2$ (the first positive mode on the curved Möbius surface, §III), and the Gauss/de Sitter conversion 3/2 (§IV). Their product: $2 \times 3/2 = 3$.
 
-With $R = 5.3$ Gpc $= 1.64 \times 10^{26}$ m (§V):
+With the independent mass-spectrum scale $R \approx 20$ Gpc (§V):
 
-$$\frac{3}{R^2} = \frac{3}{(1.64 \times 10^{26})^2} = 1.12 \times 10^{-52}\;\text{m}^{-2}$$
+$$\Lambda = \frac{3}{R^2} \approx 8 \times 10^{-54}\;\text{m}^{-2},$$
 
-Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement ~2%.
+about $14\times$ below the observed $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$: agreement to order of magnitude. The de Sitter value $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc reproduces the observed $\Lambda$ exactly but reads $R$ off $\Lambda$, so it is circular, not a test.
 
 ### The Derivation Chain
 
 | Step | Input | Output |
 |---|---|---|
 | 1 | Möbius topology | Anti-periodic BC; $L = \pi R$ |
-| 2 | $R$ from Molien gap (§V) | $R \approx 5.3$ Gpc |
+| 2 | $R$ from the mass spectrum (§V) | $R \approx 20$ Gpc (order of magnitude) |
 | 3 | Even transverse mode | 1D reduction |
 | 4 | Anti-periodic BC | Half-integer spectrum |
 | 5 | Isotropy (CMB) | Constant transverse mode ($m = 0$) |
