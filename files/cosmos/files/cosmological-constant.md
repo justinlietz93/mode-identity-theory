@@ -10,7 +10,7 @@
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: Λ is set by the first positive eigenvalue of the cosmic boundary, a static universe where redshift is phase evolution on the boundary. Einstein was right the first time, for reasons then unknown.
 
-The Möbius band selects half-integer modes; the lowest positive eigenvalue is the surface scalar curvature $R_\Sigma = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss equation, under totally geodesic embedding and isotropy, converts this surface seed to the observed $\Lambda_\text{obs} = 3/R^2$, larger by a factor of 3/2.
+The Möbius band selects half-integer modes; the lowest positive eigenvalue is the surface scalar curvature $R_\Sigma = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss equation, under totally geodesic embedding and isotropy, converts this surface seed to the model relation $\Lambda(R) = 3/R^2$, larger by a factor of 3/2.
 
 | Quantity | Value |
 |---|---|
@@ -46,7 +46,7 @@ $$\Lambda \cdot \ell_P^2 \approx 2.84 \times 10^{-122}$$
 
 No mechanism assuming simply connected flat topology explains this value. The standard approach begins with a 4D spacetime, writes down field equations, and asks what value of Λ those equations permit. On a simply connected, non-compact spatial background, the answer is: any value, or a divergent one. The problem is upstream. General relativity is local: it describes dynamics on a domain but does not specify the domain itself. 
 
-The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the first positive eigenvalue of the boundary, and reads Λ from it. The 4D dynamics, including the Friedmann equation, are how observers inside the geometry register that eigenvalue as a curvature scale.
+The 4D field equations describe dynamics on a geometry; the admissible geometry is constrained by the topology. Reversing this hierarchy, the present framework starts from the spatial topology, derives the first positive eigenvalue of the boundary, and reads the $\Lambda = 3/R^2$ relation from it. The 4D dynamics, including the Friedmann equation, are how observers inside the geometry register that eigenvalue as a curvature scale.
 
 ## II. The Topology
 
@@ -328,9 +328,11 @@ For reference, the de Sitter value $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$
 
 ## VI. The Result
 
-The derivation yields:
+The derivation yields the model relation:
 
-$${\Lambda_\text{obs} = \frac{3}{R^2}}$$
+$$\Lambda(R) = \frac{3}{R^2}$$
+
+If $R$ is read from $\Lambda_\text{obs}$ through the de Sitter relation, this is circular; if $R$ is supplied independently (§V), it becomes a test.
 
 The coefficient 3 decomposes as two factors: the surface curvature seed $R_\Sigma = 2/R^2$ (the first positive mode on the curved Möbius surface, §III), and the Gauss/de Sitter conversion 3/2 (§IV). Their product: $2 \times 3/2 = 3$.
 
@@ -353,8 +355,8 @@ about $14\times$ below the observed $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;
 | 7 | Bochner (regular sector) | $\lambda_1 \geq R_\Sigma$; pins $\lambda_1 = R_\Sigma$ |
 | 8 | $\lambda_1 = R_\Sigma = 2/R^2$ | surface curvature seed (no $\Lambda$) |
 | 9 | Gauss equation + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
-| 10 | de Sitter (GR normalization, imported): $R_\text{spatial} = 2\Lambda_\text{obs}$ | $\Lambda_\text{obs} = \frac{3}{2}\,R_\Sigma$ |
-| 11 | Result | $\Lambda_\text{obs} = 3/R^2$ |
+| 10 | de Sitter (GR normalization, imported): $R_\text{spatial} = 2\Lambda$ | $\Lambda(R) = \frac{3}{2}\,R_\Sigma$ |
+| 11 | Model relation | $\Lambda(R) = 3/R^2$ |
 
 ### Derived vs. Imported
 
@@ -366,7 +368,7 @@ about $14\times$ below the observed $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;
 | Gauss factor 3 | Derived | Totally geodesic embedding in isotropic $S^3$ |
 | de Sitter normalization ($R_\text{spatial} = 2\Lambda$) | Imported | GR definition of $\Lambda$ for a de Sitter vacuum |
 | Coefficient 3 ($=2\times\tfrac{3}{2}$) | Derived $\times$ imported | Seed $\times$ Gauss/de Sitter |
-| Scale $R$ | Open | Central open problem; the §V Molien determination is excluded (see Status update) |
+| Scale $R$ | Open | The Molien gap does not fix $R$; the only live independent route is the particle mass spectrum (§V), currently order-of-magnitude only |
 
 The content of the derivation is the surface seed $R_\Sigma = 2/R^2$ and its spectral origin; the conversion to $\Lambda = 3/R^2$ is standard GR (Gauss plus the de Sitter normalization). Standard cosmology treats $\Lambda R^2$ as a free parameter; here $\Lambda R^2 = 3$ is the de Sitter identity for $S^3(R)$, carrying the spectral origin of the seed. The scale $R$ is not fixed by this framework (see the Status update); with $R$ open, $\Lambda = 3/R^2$ is the de Sitter relation, not an independent test.
 
@@ -376,11 +378,11 @@ Einstein's field equations are unchanged:
 
 $$G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G \, T_{\mu\nu}$$
 
-This framework provides what the equation leaves undefined: the value of Λ and the reason it takes that value. The Friedmann equation:
+This framework provides a geometric origin for the coefficient in $\Lambda = 3/R^2$; the numerical value still requires an independent determination of $R$. In the de Sitter limit, the Friedmann equation:
 
 $$H^2 = \Lambda / 3$$
 
-is how observers inside the geometry register that eigenvalue as a curvature scale. General relativity describes dynamics in space; topology specifies the boundary condition. The topology constrains the metric the way a cavity constrains its resonant frequencies: the boundary is logically prior to the vibration. Independent evidence for this priority comes from four CMB observables that follow from the same topology at a single observer position.
+is how observers register the curvature scale. General relativity describes dynamics in space; topology specifies the boundary condition. The topology constrains the metric the way a cavity constrains its resonant frequencies: the boundary is logically prior to the vibration. Independent evidence for this priority comes from four CMB observables that follow from the same topology at a single observer position.
 
 The standard cosmological constant problem moves Λ to the right-hand side and identifies it with zero-point vacuum energy density. That step is a reinterpretation, not a derivation. Λ appears on the left-hand side multiplying the metric, a geometric property of the domain, not a matter source. 
 
@@ -405,9 +407,9 @@ These predictions are stated in advance of the European Space Agency's Euclid Da
 
 Einstein put geometry into his equations and then took it out. A century of physics put it back in and called it energy when it was geometry all along. The blunder was not adding Λ, it was removing it.
 
-The cosmological constant is neither a fitted parameter nor 'dark energy.' It is the first positive mode of the cosmic boundary, the fundamental tone of a resonant universe.
+The cosmological constant enters geometrically, not as a local vacuum-energy sum. Its coefficient is the first positive curvature mode of the cosmic boundary; the remaining problem is the independent determination of $R$.
 
-*Einstein's constant, resolved.*
+*Einstein's constant, geometrized.*
 
 ---
 
