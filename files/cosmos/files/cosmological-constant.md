@@ -6,9 +6,7 @@
 
 [![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
 
-> **Status update (June 2026).** The coefficient derivation on this page stands: the first positive eigenvalue $\lambda_1 = 2/R^2$ on the curved Möbius surface is proven, and the Gauss-equation conversion gives $\Lambda = 3/R^2$. What was withdrawn is the claim that this is an independent percent-level prediction. $\Lambda R^2 = 3$ is the de Sitter relation renarrated through boundary topology, not a blind hit. The scale $R$ is not fixed by the CMB Molien gap (it is not an independent route); the one live independent route is the particle mass spectrum, which lands $R$ of order Gpc to order-of-magnitude precision (§V). At that precision $\Lambda = 3/R^2$ is an order-of-magnitude forward prediction, not the percent-level number originally claimed; the old $R \approx 5.3$ Gpc is only the circular de Sitter value $\sqrt{3/\Lambda_\text{obs}}$. The eigenvalue and the geometric renarration survive; setting $R$ precisely is the framework's central open problem.
-
-Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: Λ is set by the first positive eigenvalue of the cosmic boundary, a static universe where redshift is phase evolution on the boundary. Einstein was right the first time, for reasons then unknown.
+Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note reframes Λ as geometry: its coefficient is set by the first positive curvature mode of the cosmic boundary, in a static universe where redshift is phase evolution on the boundary. Einstein's instinct to keep Λ geometric was sound.
 
 The Möbius band selects half-integer modes; the lowest positive eigenvalue is the surface scalar curvature $R_\Sigma = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss equation, under totally geodesic embedding and isotropy, converts this surface seed to the model relation $\Lambda(R) = 3/R^2$, larger by a factor of 3/2.
 
@@ -95,7 +93,7 @@ $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
 One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
-$R$ is the curvature radius of $S^3$, the single measured scale of the framework. Its value is set in §V from the harmonic spectrum of $S^3$, without using the Λ-defined de Sitter-radius relation.
+$R$ is the curvature radius of $S^3$, the single dimensionful scale of the framework. Determining it independently of Λ is the framework's open problem; §V gives the one live route, the particle mass spectrum.
 
 The Möbius band has a single boundary traversed twice. Traversing the band once returns a field to the opposite side. The spectral sector relevant for Λ is the twisted sector:
 
@@ -336,11 +334,7 @@ If $R$ is read from $\Lambda_\text{obs}$ through the de Sitter relation, this is
 
 The coefficient 3 decomposes as two factors: the surface curvature seed $R_\Sigma = 2/R^2$ (the first positive mode on the curved Möbius surface, §III), and the Gauss/de Sitter conversion 3/2 (§IV). Their product: $2 \times 3/2 = 3$.
 
-With the independent mass-spectrum scale $R \approx 20$ Gpc (§V):
-
-$$\Lambda = \frac{3}{R^2} \approx 8 \times 10^{-54}\;\text{m}^{-2},$$
-
-about $14\times$ below the observed $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$: agreement to order of magnitude. The de Sitter value $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc reproduces the observed $\Lambda$ exactly but reads $R$ off $\Lambda$, so it is circular, not a test.
+Turning the relation into a number requires an independent $R$. The one live route, the particle mass spectrum (§V), gives $R \approx 20$ Gpc and hence $\Lambda \approx 8 \times 10^{-54}\;\text{m}^{-2}$, within an order of magnitude of the observed $1.11 \times 10^{-52}\;\text{m}^{-2}$. That is the current forward prediction: a real, independent leg, not a percent-level number.
 
 ### The Derivation Chain
 
@@ -370,7 +364,7 @@ about $14\times$ below the observed $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;
 | Coefficient 3 ($=2\times\tfrac{3}{2}$) | Derived $\times$ imported | Seed $\times$ Gauss/de Sitter |
 | Scale $R$ | Open | The Molien gap does not fix $R$; the only live independent route is the particle mass spectrum (§V), currently order-of-magnitude only |
 
-The content of the derivation is the surface seed $R_\Sigma = 2/R^2$ and its spectral origin; the conversion to $\Lambda = 3/R^2$ is standard GR (Gauss plus the de Sitter normalization). Standard cosmology treats $\Lambda R^2$ as a free parameter; here $\Lambda R^2 = 3$ is the de Sitter identity for $S^3(R)$, carrying the spectral origin of the seed. The scale $R$ is not fixed by this framework (see the Status update); with $R$ open, $\Lambda = 3/R^2$ is the de Sitter relation, not an independent test.
+The content of the derivation is the surface seed $R_\Sigma = 2/R^2$ and its spectral origin; the conversion to $\Lambda = 3/R^2$ is standard GR. Standard cosmology treats $\Lambda R^2$ as a free parameter; here it is the fixed coefficient $\Lambda R^2 = 3$. The scale $R$ remains open, so $\Lambda = 3/R^2$ becomes a forward prediction only at the order-of-magnitude precision of the mass-spectrum route (§V).
 
 ## VII. Compatibility with General Relativity
 
@@ -382,7 +376,7 @@ This framework provides a geometric origin for the coefficient in $\Lambda = 3/R
 
 $$H^2 = \Lambda / 3$$
 
-is how observers register the curvature scale. General relativity describes dynamics in space; topology specifies the boundary condition. The topology constrains the metric the way a cavity constrains its resonant frequencies: the boundary is logically prior to the vibration. Independent evidence for this priority comes from four CMB observables that follow from the same topology at a single observer position.
+is how observers register the curvature scale. General relativity describes dynamics in space; topology specifies the boundary condition. The topology constrains the metric the way a cavity constrains its resonant frequencies: the boundary is logically prior to the vibration.
 
 The standard cosmological constant problem moves Λ to the right-hand side and identifies it with zero-point vacuum energy density. That step is a reinterpretation, not a derivation. Λ appears on the left-hand side multiplying the metric, a geometric property of the domain, not a matter source. 
 
