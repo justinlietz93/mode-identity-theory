@@ -178,7 +178,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 |---|---|---|---|---|
 | 0 | Planck floor | 1 | 1 | $G$ |
 | 1 | Temporal edge $S^1$ | $\Omega_H$ | $10^{-61}$ | $H_0$, $a_0$ |
-| 3/2 | Gauss equation | — | — | $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ (geometric conversion) |
+| 3/2 | Gauss equation | — | — | $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ (geometric conversion; the vacuum seam, see below) |
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
@@ -266,6 +266,21 @@ The couplings then follow one assignment rule: the phase slot inherits the grid 
 The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). 
 
 The fourth rung (spinorial carrier, bosonic target) is structurally closed: the bosonic projection $\psi \to |\psi|^2$ is non-invertible (both $\psi$ and $-\psi$ map to the same image), and the same non-invertibility grounds the spin-statistics theorem. A coupling running from spinorial carrier to bosonic target would reverse this projection.
+
+### The smooth substrate and its seams
+
+Underneath everything is $S^3$: smooth, continuous, every point equivalent, uniform Ricci curvature. $S^3$ knows nothing about 120. That structure is built on top, and it is built in two distinct ways.
+
+| Seam | Operation | Produces | Carries |
+|---|---|---|---|
+| Möbius $\hookrightarrow S^3$ | totally geodesic embedding | the vacuum, $\Lambda$ | the 3/2 Gauss factor |
+| $S^3 \to S^3/2I$ | quotient (point identification) | the 120-domain: wells, gauge ladder, mass gap | the grid |
+
+These are different operations doing different jobs. Embedding a 2-surface in the 3-space converts surface curvature into spatial curvature and fixes the vacuum; the quotient identifies points and produces the discrete grid. The [Waltz](../spectrum/files/the-waltz.md) reading draws the same line: the Möbius surface sets $\Lambda$, the binary icosahedral group sets matter. The wells and the three gauge forces come from the quotient, not the embedding.
+
+**The 3/2 belongs to the vacuum seam.** It is the cost of converting the Möbius surface's curvature into the spatial curvature of $S^3$: the numerator 3 is the Gauss factor, derived geometry from the totally geodesic embedding in an isotropic $S^3$; the denominator 2 is the de Sitter normalization, imported from general relativity (the [cosmological constant](../cosmos/files/cosmological-constant.md) page keeps that derived-vs-imported split explicit). The grid carries no such factor; it is the separate $2I$ structure.
+
+**Gravity is what crosses.** The gauge ladder just closed by ruling out a position *inside* the grid; gravity is different in kind, not a grid position at all, vacant or filled. It couples to stress-energy on either layer, so it is the one interaction that translates between the smooth substrate and every discrete structuring of it, the Möbius vacuum and the $2I$ grid alike. In MIT's reading, that translation is what gravity is: not a fourth gauge force and not a graviton on the grid, but the conversion across the interface, with the Gauss factor as the cost it pays on the vacuum seam. On the grid seam it pays nothing special, only the ordinary stress-energy coupling at $8\pi G$; Einstein's field equations are unchanged. What the framework adds is why gravity sits outside the gauge ladder, and why its signature is a geometric conversion rather than a coupling on the grid.
 
 ## :atom_symbol: [One Formula](../spectrum/files/mass-spectrum.md)
 

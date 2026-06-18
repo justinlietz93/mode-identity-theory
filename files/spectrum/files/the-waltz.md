@@ -96,11 +96,11 @@ The dictionary entry has a closed form. Within this calibration, $G$ is not meas
 
 ## III. Why Gravity Resists Quantization
 
-Gravity is an interface connecting two sectors of differing character: continuous geometry ($S^3$) and discrete sampling (the 120 domain). The 3/2 conversion bridges their difference in kind. A quantum theory of gravity in the standard sense would require either discretizing the geometry or making the mode spectrum continuous. The topology forbids both.
+Gravity is an interface connecting two sectors of differing character: continuous geometry ($S^3$) and discrete sampling (the 120 domain). Gravity bridges that difference in kind. A quantum theory of gravity in the standard sense would require either discretizing the geometry or making the mode spectrum continuous. The topology forbids both.
 
 Discretizing $S^3$ would remove the structure that sources $\Lambda$ through the Gauss equation. Continualizing the 120 domain would dissolve the particle spectrum, the mass gap, and three generations. The 120 is forced by $|2I|$ being the largest exceptional discrete subgroup of $\text{SU}(2) \cong S^3$.
 
-Standard quantization programs assume objects of the same type on both sides of the interface. Gravity is the one interface where this fails structurally. The resistance is not a technical obstacle awaiting a better method; it is the signature of an interface doing work no single-type quantization can do. The 3/2 factor is the cost of carrying information across that interface, measured in every gravitational observation.
+Standard quantization programs assume objects of the same type on both sides of the interface. Gravity is the one interface where this fails structurally. The resistance is not a technical obstacle awaiting a better method; it is the signature of an interface doing work no single-type quantization can do. The 3/2 factor is the cost of that crossing in the vacuum sector specifically: it carries the Möbius surface's curvature into the spatial geometry of $S^3$ in the $\Lambda$ derivation. It is not a charge on every gravitational observation. Two masses bind through the ordinary stress-energy coupling at $8\pi G$, where no 3/2 appears.
 
 ## IV. Dark Matter and Dark Energy as Geometry
 
