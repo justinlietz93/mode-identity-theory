@@ -172,13 +172,13 @@ The domain runs from the Planck floor ($\Omega = 1$) up to the cosmic ceiling ($
 
 $$\Large x = \sqrt{\Omega} \approx 10^{61}$$
 
-That is us, the exact geometric center of the hierarchy: about 61 orders of magnitude above the Planck scale and 61 below the cosmic scale. This is where observation resolves.
+That is us, the self-dual center: in $\Omega$ the observer sits at $\sqrt{\Omega} = 10^{61}$, 61 orders from the floor and 61 from the ceiling. This is where observation resolves.
 
-In physical units the same midpoint is a length, the geometric mean of the Planck length and the curvature radius:
+In physical units the same center is a length, the geometric mean of the Planck length and the curvature radius:
 
 $$\sqrt{\ell_P \, R_\Lambda} \approx 50\ \mu\text{m}.$$
 
-That is the scale of a living cell. The number is just the geometric mean; why observers should sit at the center rather than anywhere else on the hierarchy is an open question, not something the framework derives. But the midpoint is the midpoint, and the cell is where it lands.
+Because $\Omega = (R/\ell_P)^2$, distances in length are half those in $\Omega$: 50 μm sits about 30 orders of magnitude above the Planck length and 30 below the curvature radius. The geometric mean of any theory's smallest and largest length is bound to land somewhere macroscopic; the content here is the specific value, the scale of a living cell. Why observers should sit at the center rather than anywhere else is an open question, not something the framework derives. But the midpoint is the midpoint, and the cell is where it lands.
 
 ### Manifold Index
 
