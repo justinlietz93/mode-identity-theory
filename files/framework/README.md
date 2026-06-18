@@ -345,7 +345,7 @@ The icosahedron carries three stabilizer subgroups. Restricting each irrep to th
 | Face/Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue to space observable |
 | Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by Möbius $\mathbb{Z}_2$ |
 
-The three stabilizer orders are the primes dividing $|2I| = 120$. Each physical role is forced by group action on irreps: $Z_3$ uniquely produces the singlet/triplet decomposition (color); $Z_4$ contains the central element $-I$ acting as $\pm 1$ on integer vs half-integer spin irreps (spin-statistics); $Z_5$ uniquely distinguishes the Galois pair $R_1$, $R_2$ (electroweak). The mass formula computes how heavy. The stabilizer structure says what.
+The three stabilizer orders are the primes dividing $|2I| = 120$. Each physical role is forced by group action on irreps: $Z_3$ uniquely produces the singlet/triplet decomposition (color); $Z_4$ contains the central element $-I$ acting as $\pm 1$ on integer vs half-integer spin irreps (spin-statistics); $Z_5$ uniquely distinguishes the Galois pair $R_1$, $R_2$ (electroweak). The stabilizer structure says what each entry is. The formula says where each entry sits, both from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
 
 ---
 
