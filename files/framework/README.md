@@ -122,13 +122,23 @@ Two phase parameterizations exist for the current epoch. The engine phase $\varp
 
 $$\Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-$C(\Theta)$ reads the position axis: where the observable sits on the mode spectrum. 
+Every constant in the universe is one quantity, asked at one place. The equation reads: **how big is this thing compared to the natural Planck unit for its kind** ($A/A_P$) equals **where it sits on the wave** ($C(\Theta)$) times **how far the geometry has diluted it from the Planck scale** ($(\sqrt{\Omega})^{-n}$).
 
-$(\sqrt{\Omega})^{-n}$ reads the time axis through $\Omega_H$ for edge modes, or the boundary condition through $\Omega_\Lambda$ for surface modes. The observer at $\sqrt{\Omega}$ is the structural midpoint where both axes resolve to finite values. 
+### What the ratio means
 
-Their product yields $A/A_P$: the modal realization; the ratio of the observable amplitude over its Planck scale reference.
+$A_P$ is the Planck reference: the natural scale for that *kind* of quantity, built from nothing but $G$, $\hbar$, and $c$.
 
-**The sample occurs at** $(t, \Theta)$.
+| Planck unit | Value | What it sets |
+|---|---|---|
+| $\ell_P \approx 1.6 \times 10^{-35}$ m | length | smallest meaningful distance |
+| $t_P \approx 5.4 \times 10^{-44}$ s | time | smallest meaningful duration |
+| $m_P \approx 2.2 \times 10^{-8}$ kg | mass | where gravity and quantum mechanics meet |
+
+So $A/A_P$ just asks how big the measured thing is in those units. For the Hubble rate the reference is $t_P^{-1}$, and $H_0 / t_P^{-1} \approx 10^{-61}$: the Hubble rate is about $10^{61}$ times slower than the Planck rate. For the cosmological constant the reference is $\ell_P^{-2}$ (a curvature), and $\Lambda / \ell_P^{-2} \approx 10^{-122}$: the vacuum curves space, and stores energy, about $10^{122}$ times more weakly than the Planck scale would suggest.
+
+**The classical mystery is why these ratios are so absurdly small.** MIT answers it structurally: the smallness is the dilution factor $(\sqrt{\Omega})^{-n}$, the price of living on the edge ($n = 1$) or the surface ($n = 2$) of the geometry instead of at the Planck floor. That factor sets the orders of magnitude; the position factor $C(\Theta)$ sets the leading digits. The rest of this section is just those two questions: where on the wave, and how deep in the geometry.
+
+**The sample occurs at** $(t, \Theta)$: a moment in the wave's phase, at a position on the grid.
 
 ### The Phase Operator
 
@@ -228,7 +238,24 @@ $a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not 
 
 ### [The Gauge Ladder](../spectrum/files/fine-structure.md)
 
-Dimensionless couplings resolve within the hierarchy at the grid level rather than the manifold level. A single principle assigns each gauge force: the phase slot inherits the grid of the carrier, the exponent slot inherits the grid of the confinement target.
+Everything in this sector lives at two Fibonacci-adjacent wells, and the two are conjugate. The Coxeter pair $(13, 17)$ sums to the Coxeter number of $E_8$: $13 + 17 = 30 = h(E_8)$. That is not a coincidence. The McKay correspondence ties $2I$ directly to $E_8$, so the domain's natural arithmetic runs modulo 30, and 13 and 17 are the conjugate exponents that pair across it.
+
+**What lives at each well:**
+
+| Well | Grid | Observable | What it represents |
+|---|---|---|---|
+| 13/60 | 60R | $\alpha$ | electromagnetic coupling; photon-mediated, bosonic |
+| 13/120 | 120 | $a_0$ | matter acceleration scale; dynamical, full domain |
+| 17/60 | 60R | strong coupling | bosonic carrier, confined fermions |
+| 17/120 | 120 | weak coupling | spinorial carrier, fermion transitions |
+
+**13 is where matter and electromagnetism anchor.** The fine-structure constant and the MOND acceleration scale both sit at index 13, on different grids: the 60-grid version is what the photon sees, the 120-grid version is what matter dynamics sees.
+
+**17 is where the short-range forces anchor.** Strong and weak both take 17 as their phase slot; the grid difference between them, bosonic vs spinorial carrier, is what separates confinement from flavor-changing transitions.
+
+**Why the split is real.** The 60-grid is what survives the bosonic projection $2I \to I$, so it is what freely-propagating, photon-mediated quantities see. Fermions need the full 120-grid because they couple to the orientation structure of the Möbius strip directly. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
+
+The couplings then follow one assignment rule: the phase slot inherits the grid of the carrier, the exponent slot the grid of the confinement target.
 
 | Force | Phase grid | Exponent grid | Formula | Predicted | Observed | Agreement |
 |---|---|---|---|---|---|---|
