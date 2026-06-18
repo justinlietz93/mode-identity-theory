@@ -57,7 +57,7 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 
 ### Surface
 
-The Möbius strip is the minimal non-orientable surface with $S^1$ boundary. By the classification of compact surfaces, a connected non-orientable manifold with a single boundary component is formed by removing a disk from the connected sum of $k$ crosscaps. The Möbius strip is the minimal case ($k = 1$), unique by surface classification. Non-orientability produces three consequences:
+A Möbius strip has one side and one edge. Carry the normal once around it and it returns reversed, and that single sign flip is the whole reason matter on this domain is fermionic. It is also the simplest surface that does this: by the classification of compact surfaces, a connected non-orientable surface with one boundary component is a disk removed from a connected sum of $k$ crosscaps, and the Möbius strip is the minimal case ($k = 1$), the surface minimality selects. Non-orientability produces three consequences:
 
 | Consequence | Mechanism |
 |---|---|
