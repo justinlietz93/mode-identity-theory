@@ -168,11 +168,17 @@ $$\Omega_H(z) \equiv \left(\frac{\ell_\text{phase}(z)}{\ell_P}\right)^2, \quad \
 
 At the present epoch $\Omega_H$ and $\Omega_\Lambda$ are numerically close, both of order $10^{122}$. In the current calibration structure this coincidence is observed, not derived: $\Omega_H$ is anchored by the measured Hubble rate, $\Omega_\Lambda$ by measured $\Lambda$.
 
-The bounded domain runs from that ceiling down to the Planck floor at $\Omega = 1$. The IR $\leftrightarrow$ UV fixed point $x = \Omega/x$ places the observer at the geometric midpoint:
+The domain runs from the Planck floor ($\Omega = 1$) up to the cosmic ceiling ($\Omega \approx 10^{122}$). Ask where the observer sits, and the geometry answers with its own midpoint: the self-dual point $x = \Omega/x$, where the climb to the ceiling equals the drop to the floor.
 
 $$\Large x = \sqrt{\Omega} \approx 10^{61}$$
 
-This is where observation resolves.
+That is us, the exact geometric center of the hierarchy: about 61 orders of magnitude above the Planck scale and 61 below the cosmic scale. This is where observation resolves.
+
+In physical units the same midpoint is a length, the geometric mean of the Planck length and the curvature radius:
+
+$$\sqrt{\ell_P \, R_\Lambda} \approx 50\ \mu\text{m}.$$
+
+That is the scale of a living cell. The number is just the geometric mean; why observers should sit at the center rather than anywhere else on the hierarchy is an open question, not something the framework derives. But the midpoint is the midpoint, and the cell is where it lands.
 
 ### Manifold Index
 
