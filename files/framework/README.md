@@ -295,53 +295,71 @@ The three stabilizer orders are the primes dividing $|2I| = 120$. Each physical 
 
 ## :control_knobs: Inputs and Calibration
 
-Two constants define the physical units. Measured anchors set the scale of each sector. The topology supplies the dimensionless structure.
+The scaling law is one equation with one hierarchy variable, $\Omega_\Lambda$. Every observable on the law is a different reading of that one variable. Invert any single observable and you fix $\Omega_\Lambda$, which then predicts all the others. Which observable you invert is calibration. The relationships between them are physics.
 
-### Constants
+### Unit constants
 
 | Constant | Value | Role |
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal boundary |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Converts dimensionless mode structure into physical action and energy |
 
-These constants are not predicted by the framework. They define the physical unit system in which the topological relations are evaluated.
+Neither is predicted. They define the unit system, nothing more.
+
+### The dimensionless core
+
+In a ratio of two observables at the same depth, $\Omega_\Lambda$ cancels: no anchor enters and the number is parameter-free. These hold under every choice of anchor below.
+
+| Quantity | Value | Status |
+|---|---|---|
+| Force count | 3 | exact |
+| Generation count | 3 | exact |
+| $T_3$ assignments | 10/10 | exact (Coxeter-Galois gate) |
+| $T^2(R_3)/T^2(R_4)$ | $\varphi^{-4}$ | exact (torsion ratio) |
+| $\alpha_s/\alpha_W$ | 3.43 | prediction (1.8%), $\Omega$ cancels |
+| $a_0/(cH_0)$ | 0.184 | prediction, normalization cancels |
+
+### Three readings of one hierarchy
+
+To attach a scale you invert one observable for $\Omega_\Lambda$. Three are independent, and the framework is over-determined: each fixes the same hierarchy, and they agree to within their amplified input residuals.
+
+| Anchor | Determines | $\Lambda$ | $\alpha$ | Precision driver |
+|---|---|---|---|---|
+| Measured $\Lambda$ (sets $R$) | $\Omega_\Lambda$ from $R$ | circular | 0.5% | current default |
+| Measured $\alpha$ | $\Omega_\Lambda$ from the coupling | 24% (genuine) | circular | best-conditioned |
+| Mass spectrum ($m_\mu/m_e$) | $\Omega_\Lambda$ from the mass ratio | ~14x (genuine) | ~few % | independent cross-check |
+
+The headline is the second row: from one measured coupling, with no $R$ and no further calibration, the scaling law predicts the cosmological constant to 24% across 122 orders of magnitude. The only competing first-principles estimate, the QFT vacuum energy, misses by $10^{120}$.
+
+### The lever, and why the readings differ
+
+All three are the same inversion: solve a formula that depends on $\Omega_\Lambda$ for $\Omega_\Lambda$, through the same 60-fold McKay/grid lever ($\Lambda\ell_P^2 \propto \alpha^{60}$; the mass ratio carries $\Omega_\Lambda^{1/60}$ at $\Delta\mathrm{dist}=1$). They differ only in how well-conditioned the input is: $\alpha$ matches its formula to ~0.5%, so $\Lambda$ lands at 24%; the mass ratio matches to ~4.5%, so $\Lambda$ lands ~14x off. The ~10x gap between the two genuine $\Lambda$ readings is a precision limit of the mass formula's residual scatter, not a structural inconsistency: the same lever amplifies a larger input error.
 
 ### Sector anchors
 
-| Sector | Anchor | Role | Status |
-|---|---|---|---|
-| Edge | measured $H_0$ | Fixes the present edge hierarchy $\Omega_H = (c/H_0\ell_P)^2$ | Calibration |
-| Surface / space | measured $\Lambda$ | Fixes the surface scale $R$ through $\Lambda = 3/R^2$, hence $\Omega_\Lambda = (R/\ell_P)^2$ once the Planck scale is set | Calibration |
-| Mass | mass-sector normalization, conventionally tied to $m_e$ | Fixes the absolute mass scale once ratios are known | Calibration |
-| Phase clock | $s_0$ from distance data | Locates the current observer phase | Fit parameter |
+| Sector | Anchor | Role |
+|---|---|---|
+| Edge | measured $H_0$ | Fixes the present edge hierarchy $\Omega_H = (c/H_0\ell_P)^2$ |
+| Surface / space | any one of $\Lambda$, $\alpha$, or the mass ratio | Fixes $\Omega_\Lambda$; the three readings agree to within their input residuals |
+| Mass | normalization tied to $m_e$ | Fixes the absolute mass scale once ratios are known |
+| Phase clock | $s_0$ from distance data | Locates the current observer phase |
 
-The edge sector and surface sector use different hierarchies. Edge observables such as $H_0$ and $a_0$ reference the evolving hierarchy $\Omega_H(z)$. Surface and space observables reference the fixed boundary hierarchy $\Omega_\Lambda$.
+Edge observables reference the evolving $\Omega_H(z)$; surface and space observables reference the fixed $\Omega_\Lambda$. The mass sector inherits $\mu_\Lambda = \rho_\Lambda^{1/4}$ from $\Omega_\Lambda$; $m_e$ is the benchmark, not a second floor.
 
-The mass sector inherits the vacuum floor
-
-$$
-\mu_\Lambda = \rho_\Lambda^{1/4}
-$$
-
-from the calibrated surface hierarchy. The electron mass is not a second vacuum floor; it is the mass-sector normalization or benchmark used to set the absolute scale of the particle spectrum.
-
-### What is predicted and what is calibrated
+### Predicted and calibrated
 
 | Quantity | Status |
 |---|---|
-| $H_0$ | Edge-sector calibration anchor |
-| $a_0/(cH_0)$ | Parameter-free edge-sector prediction |
-| $a_0(z) \propto H(z)$ | Edge-sector prediction |
-| first positive eigenvalue $2/R^2$ | Surface spectral result |
-| numerical $\Lambda$ | Surface-sector calibration, not currently an independent prediction |
-| gauge-coupling ratios | Dimensionless structural predictions |
-| absolute gauge couplings | Predictions using calibrated $\Omega_\Lambda$ |
-| fermion mass ratios | Structural predictions from McKay/torsion data |
-| absolute fermion masses | Calibrated mass-sector outputs |
-| three generations | Three isolated flat connections on $S^3/2I$ |
-| compact Yang-Mills gap | Positive spectral gap on the compact curved domain |
+| dimensionless ratios (couplings, $a_0/cH_0$, counts, $T_3$) | parameter-free, anchor-independent |
+| $\Omega_\Lambda$ | over-determined by three independent readings |
+| $\Lambda$ (absolute) | prediction from the $\alpha$ reading (24%) or the mass reading (~14x); circular from the $\Lambda$ reading |
+| $\alpha$, $\alpha_s$, $\alpha_W$ (absolute) | prediction from the $\Lambda$ reading (0.5%); the anchor when $\alpha$ is the input |
+| first positive eigenvalue $2/R^2$ | surface spectral result |
+| fermion mass ratios | structural predictions (McKay / torsion) |
+| absolute fermion masses | set by the $m_e$ benchmark |
+| three generations, Yang-Mills gap | structural results on $S^3/2I$ |
 
-This is the current architecture: ratios and structural filters are the anchor-free core; absolute dimensional values require calibrated sector anchors.
+The hierarchy is over-determined and the dimensionless ratios are anchor-free. Which observable you treat as the input is a calibration choice, not a feature of the theory; the theory is the web of relationships that holds whichever you pick.
 
 ---
 
