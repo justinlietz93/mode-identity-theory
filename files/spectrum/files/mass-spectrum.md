@@ -8,14 +8,15 @@
 
 The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This page constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
-The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 ranked mass entries. After the structural identity filters are applied, 10 of the 12 Standard Model fermions receive preferred assignments: 9 within a factor of 3, and all 10 within a factor of 4. Two SM fermions have no assignment: $\nu_2$ falls between adjacent entries, and the charm quark is displaced by the $T_3$ resolution at rank 17. Eight entries have no SM assignments.
+The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 ranked entries, all from the topology with no data in them. Lined up against the measured fermions, 7 of the 9 charged fermions land within a factor of 3 of an entry (the down quark outside, charm unassigned, the muon and strange sharing one entry at rank 15); the three neutrinos rest on absolute masses nobody has measured. This is a comparison, not a prediction: the entries and their quantum numbers are fixed a priori, but which entry lands on which measured fermion is read against the data, and at this entry density a measured mass sits near some entry largely by counting. Two SM fermions go unassigned: $\nu_2$ in a gap between entries, and charm displaced from rank 17 with its assignment open. Eight entries have no SM match.
 
 | Result | Count |
 |---|---|
-| Assigned | 10 of 12 Standard Model fermions |
-| Within ×3 | 9 of 10 |
-| Within 6% | 3 ($e$ electron, $u$ up quark, $\mu$ muon) |
-| Unassigned | $\nu_2$ (8.6 meV falls between rank 1 and rank 2), $c$ (displaced by $\tau$ resolution at rank 17) |
+| Charged fermions within ×3 | 7 of 9 (d outside, c unassigned, μ/s share rank 15) |
+| Within 6% | $e$, $u$, $\mu$ (the scale is fixed by Λ, not by these masses) |
+| Neutrinos | 3 rows; absolute masses unmeasured |
+| Unassigned | $\nu_2$ (gap between rank 1 and rank 2), $c$ (displaced from rank 17, assignment open) |
+| Nature | comparison, not prediction |
 
 ## I. The Formula
 
@@ -138,9 +139,9 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 | $R_7$ | 2.250 | 1.114 | 1.114 |
 | $R_8$ | 0.257 | 13.090 | 1.910 |
 
-## III. The 24 Predictions
+## III. The 24 Entries
 
-24 predictions from the mass formula. The table below shows assignments to Standard Model (SM) fermions and unassigned predictions. Bold rows are the preferred SM assignments counted in the headline scorecard. Unbolded repeated labels show nearby candidate entries or mass-shell clusters; they are not counted as separate assignments.
+24 entries from the formula. The table below shows the comparison to Standard Model (SM) fermions and the entries with no SM match. Bold rows are the preferred SM assignments counted in the headline scorecard. Unbolded repeated labels show nearby candidate entries or mass-shell clusters; they are not counted as separate assignments.
 
 The assignment is constrained, not free. The formula produces 24 ranked entries; four structural filters narrow which entries can correspond to which fermions. The Coxeter-Galois gate (§IV.4) assigns weak isospin $T_3 = \pm 1/2$ to each entry. The $Z_3$ face decomposition (§IV.1) restricts color-charged assignments to irreps carrying colored pairs. The $Z_4$ edge decomposition (§IV.2) fixes the domain for each spin parity. The eta sign gate (§IV.3) restricts positive electric charge to negative-eta entries. Together these filters determine the quantum numbers $(T_3, Y, Q)$ at each $(\rho, \sigma)$ pair before any mass comparison is made.
 
@@ -270,7 +271,7 @@ Ten entries, ten correct assignments. Rank 17 is resolved as $\tau$ ($T_3 = -1/2
 | Triplet (quark) | +1/2 | +2/3 (up-type) | +1/3 |
 | Triplet (quark) | -1/2 | -1/3 (down-type) | +1/3 |
 
-All ingredients are representation-theoretic: $j_\text{first}$ from SU(2) $\to$ 2I branching rules, Kostant exponents from the McKay correspondence, tensor product decompositions from the character table, and Galois-fixed/nonfixed status from Gal($\mathbb{Q}(\sqrt{5})/\mathbb{Q}$). Identity is determined before mass is computed.
+All ingredients are representation-theoretic: $j_\text{first}$ from SU(2) $\to$ 2I branching rules, Kostant exponents from the McKay correspondence, tensor product decompositions from the character table, and Galois-fixed/nonfixed status from Gal($\mathbb{Q}(\sqrt{5})/\mathbb{Q}$). The quantum numbers $(T_3, Y, Q)$ are determined before mass. Particle identity is not: fermions in one family share every quantum number the gates can see (the three charged leptons are all $Q = -1$, $T_3 = -1/2$, color singlet), so which entry is the electron, muon, or tau is settled by the measured mass, not by the gates. The gates fix the kind; the mass fixes the generation.
 
 ### 5. The Vertex and the Twist
 
@@ -303,7 +304,7 @@ $R_7$ occupies a special position in this structure. $R_7 \otimes R_1 = R_7 \oti
 | Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi | Motivated |
 | Vertex through twist | $\cos(\pi/10)$ | Weak coupling correction | Motivated |
 
-The three stabilizer orders 2, 3, 5 are the primes dividing $|2I| = 120$ and the conductors of the four surviving Dirichlet characters in the torsion L-basis. They generate color, domain, and (through their interfaces) gravity and the weak force. The mass formula computes how heavy. The stabilizer structure says what.
+The three stabilizer orders 2, 3, 5 are the primes dividing $|2I| = 120$ and the conductors of the four surviving Dirichlet characters in the torsion L-basis. They generate color, domain, and (through their interfaces) gravity and the weak force. The stabilizer structure says what each entry is; the formula says where it sits, both from the topology. Which entry lands on which measured fermion is the comparison, read against the data.
 
 ---
 
@@ -313,7 +314,7 @@ Eight entries have no Standard Model assignments. Six fall in the "dead zone" (r
 
 The dead zone is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings. The framework is agnostic about whether these entries correspond to propagating particles or are structural residuals of the spectrum with no physical realization. If physical, they are candidates for sterile neutrino or warm dark matter searches in the eV-keV window.
 
-Rank 16 ($R_5$, std) at 349 MeV sits in a normal mass range between the strange quark and charm quark. No SM fermion occupies this mass. If the entry is physical, it predicts an undiscovered state; if not, it joins the dead zone as a structural residual. Either outcome is informative.
+Rank 16 ($R_5$, std) at 349 MeV sits in a normal mass range between the strange quark and charm quark. No measured fermion occupies this mass. If it is physical rather than a residual of the dense entry structure, it would be an undiscovered state; if not, it joins the dead zone as a structural residual. Either outcome is informative.
 
 | Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range | Status |
 |---|---|---|---|---|---|---|
@@ -346,11 +347,11 @@ $\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio 
 | Down quark tension | Rank 14 ratio 3.22; see Section III notes. Systematic residual at high McKay distance or $R_8$ Galois correction needed. |
 | Fermion mass residual | Systematic overshoot growing with McKay distance. One-parameter correction pattern identified, not derived. |
 | Dead zone physical status | 6 entries in eV-keV range. Propagating states or structural residuals: experimentally distinguishable. |
-| Rank 16 target | 349 MeV prediction with no SM assignment. Standing prediction. |
+| Rank 16 target | 349 MeV entry with no measured match. Real state or residual, open. |
 
 ---
 
-*The topology permits and Ψ settles. The formula composes and the masses land.*
+*The topology permits and Ψ settles. The formula composes and the entries line up.*
 
 ---
 
