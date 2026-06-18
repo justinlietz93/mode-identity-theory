@@ -78,7 +78,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| [↗](files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ⚠ in limbo |
+| [↗](files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.90 \times 10^{-122}$ | ⚠ in limbo |
 | [↗](../spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
 | [↗](files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_Λ²$) constant | topological protection holds | ✓ |
 | [↗](files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |

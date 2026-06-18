@@ -329,7 +329,7 @@ To attach a scale you invert one observable for $\Omega_\Lambda$. Three are inde
 | Measured $\alpha$ | $\Omega_\Lambda$ from the coupling | 24% (genuine) | circular | best-conditioned |
 | Mass spectrum ($m_\mu/m_e$) | $\Omega_\Lambda$ from the mass ratio | ~14x (genuine) | ~few % | independent cross-check |
 
-The headline is the second row: from one measured coupling, with no $R$ and no further calibration, the scaling law predicts the cosmological constant to 24% across 122 orders of magnitude. The only competing first-principles estimate, the QFT vacuum energy, misses by $10^{120}$.
+The headline is the second row: from one measured coupling, with no $R$ and no further calibration, the scaling law fixes the cosmological constant to 24%. The 122 orders of magnitude are not predicted here; they enter through $\Omega_\Lambda$, read from $\alpha$. What this route adds is the residual coefficient, to 24%. QFT, which does try to predict the magnitude from first principles, overshoots by $10^{120}$.
 
 ### The lever, and why the readings differ
 

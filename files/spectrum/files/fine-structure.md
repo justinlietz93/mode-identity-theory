@@ -192,11 +192,11 @@ The observed values of $\alpha_s$ and $\alpha_W$ are conventionally measured at 
 
 Both the cosmological constant and the fine structure constant reference the same hierarchy $\Omega_\Lambda$. The difference is how much of it they use.
 
-$$\Lambda \cdot \ell_P^2 = \Omega_\Lambda^{-1} \cdot C(60/120) = 2\,\Omega_\Lambda^{-1}$$
+$$\Lambda_\text{top} \cdot \ell_P^2 = \Omega_\Lambda^{-1} \cdot C(60/120) = 2\,\Omega_\Lambda^{-1}$$
 
 $$\alpha = \Omega_\Lambda^{-1/60} \cdot C(13/60)$$
 
-Λ sits at the antinode: $C(60/120) = C(30/60) = 2$. Grid choice is invisible there. $\alpha$ sits away from the antinode, where the grid matters: $C(13/60) = 0.79$ on the bosonic grid vs $C(13/120) = 0.22$ on the spinor grid.
+Λ sits at the antinode: $C(60/120) = C(30/60) = 2$. This is the bare surface eigenvalue $\Lambda_\text{top}$; the observed cosmological value adds the Gauss/de Sitter conversion $3/2$, giving $\Lambda_\text{obs} \cdot \ell_P^2 = 3\,\Omega_\Lambda^{-1}$ (see the [cosmological constant](../../cosmos/files/cosmological-constant.md)). Grid choice is invisible at the antinode. $\alpha$ sits away from the antinode, where the grid matters: $C(13/60) = 0.79$ on the bosonic grid vs $C(13/120) = 0.22$ on the spinor grid.
 
 Λ uses the full hierarchy (exponent 1). $\alpha$ uses 1/60-th: one grid step. The ratio of log-scalings confirms the relationship:
 
