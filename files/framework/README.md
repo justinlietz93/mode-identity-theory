@@ -104,6 +104,8 @@ $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
 ## Ψ [One Wave](../cosmos/files/dark-energy.md)
 
+The universe is static, a standing wave, and what we read as cosmic time is the observer's phase along it. The wave sits on the Möbius temporal edge, so the same sign flip that makes matter fermionic acts on it: one circuit flips the wave, only a second brings it home, which is why its fundamental period is $4\pi$ rather than $2\pi$, the wave-level face of the spin-1/2 double cover. It opens at full amplitude, holds its lowest mode, and where the observer samples it, matter appears.
+
 Anti-periodicity, the initial-maximum condition ($\Psi(0) = +1$), and ground-state selection ($m_h = 0$) together fix:
 
 $$\Large {\Psi = \cos(t/2)}$$
