@@ -146,11 +146,11 @@ So $A/A_P$ just asks how big the measured thing is in those units. For the Hubbl
 
 ### The Phase Operator
 
-Different positions on the standing wave carry different observable amplitude:
+$C(\Theta)$ is forced by the topology, the only weighting it allows. The anti-periodic boundary condition (the Möbius sign flip) forces the half-wave form: a sinusoid, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../working/files/scaling-law-uniqueness.md) shows the sinusoidal intensity is the only one the boundary condition admits). Fixing the domain boundary to sit at a node then selects $\psi_0(\Theta) = \sin(\pi\Theta)$ over its cosine partner: zero at the two boundaries, peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $|\psi_0|^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
 
 $$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
-The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable intensity is $|\psi|^2$, normalized to unit mean.
+One operator, read at every position: zero at the boundaries, maximal ($C = 2$) at the antinode, the same across all sectors (cosmology reads it at a single well, the mass sector across Kostant-exponent sets). The two factors of the scaling law then carry different, honest jobs. For the dimensional constants the powers of ten are units, $R/\ell_P$ raised to the observable's dimension, and the dimensionless physics is the value of $C(\Theta)$. For the dimensionless couplings the same hierarchy enters as a fractional power that is itself the content: $\alpha$ is one grid step of it.
 
 | Position | $C(\Theta)$ | Slope $d\ln C/d\Theta$ | Significance |
 |---|---|---|---|
@@ -196,7 +196,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 
 ### Fibonacci Wells
 
-Fibonacci positions minimize destructive interference on the 120 domain (Hurwitz: $\varphi$ is hardest to approximate rationally). Below $F_7$, amplitude is indistinguishable from noise. $F_7 = 13$ is the unique well satisfying Fibonacci stability, amplitude above the noise floor, and $\gcd(13, 120) = 1$.
+The wave's shape is forced, but not every position on it is a stable place to sample. That is the next question, and the golden ratio answers it. By Hurwitz's theorem $\varphi$ is the hardest number to approximate by any fraction, so a phase that steps by $\varphi$ stays away from every simple rational and reinforces its own cancellation the least: the least destructive interference on the domain, hence the most stable position. That same worst-approximability makes Fibonacci numerators the natural candidates for the stable wells, which is why the wells land at Fibonacci positions, though the step from the worst-approximability of $\varphi$ to a Fibonacci numerator on the fixed 120-grid (rather than the convergents $F_n/F_{n+1}$) stays an open postulate. Below $F_7$ the amplitude is lost in the noise floor; $F_7 = 13$ is the first that clears it, and $\gcd(13, 120) = 1$, a genuine grid position rather than a coarser one in disguise.
 
 Three constraints force the observable assignments. First, the manifold index separates edge modes ($n = 1$, epoch-dependent: $H_0$, $a_0$) from surface modes ($n = 2$, epoch-independent: $\Lambda$). Second, the bosonic projection: photon-mediated observables access only the 60-grid (even numerators survive $2I \to I$); dynamical observables access the full 120. Third, $\Lambda$ sits at the antinode (60/120) by eigenvalue identity. 
 
