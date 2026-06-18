@@ -12,6 +12,10 @@ S^1 = \partial(\mathrm{Möbius}) \hookrightarrow S^3,
 \partial S^3 = \emptyset .
 $$
 
+In plain terms, before the formal names arrive: twist a strip into a Möbius band, scale its single edge up to the size of the universe, and set the whole thing inside $S^3$, the one closed three-dimensional space with no boundary and no holes. That shape is the entire theory. The particles, the forces, and the constants arise from the shape itself, read off as values at positions.
+
+That shape has two layers: the smooth space $S^3$ underneath, and the structure built on it where the physics is read off. The topology the body works with belongs to that structure; $S^3$ itself is smooth and hole-free.
+
 The postulate says that time is the boundary of a non-orientable surface embedded in a closed three-space. The observable domain is the Poincaré homology sphere,
 
 $$
