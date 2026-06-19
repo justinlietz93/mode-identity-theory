@@ -7,7 +7,7 @@
 Mode Identity Theory is a boundary-condition framework. It keeps Einstein's field equations and the Standard Model particle content unchanged, but supplies a global topological domain:
 
 $$
-S^1 = \partial(\mathrm{Möbius}) \hookrightarrow S^3,
+S^1 = \partial(\text{Möbius}) \hookrightarrow S^3,
 \qquad
 \partial S^3 = \emptyset .
 $$
@@ -49,7 +49,7 @@ A temporal edge bounds a non-orientable surface embedded in a closed space. The 
 
 ### Space
 
-$S^3$ is the only simply connected closed 3-manifold (Poincaré). It is diffeomorphic to SU(2) and admits a spin structure. The space has no boundary:
+$S^3$ is the only simply connected closed 3-manifold (Poincaré). It is diffeomorphic to SU(2) and admits a spin structure. Its curvature radius is $R_\Lambda$. The space has no boundary:
 
 $$\Large {\partial S^3 = \emptyset}$$
 
@@ -63,7 +63,7 @@ A Möbius strip has one side and one edge. Carry the normal once around it and i
 |---|---|
 | Anti-periodic BC | Sections of the orientation bundle acquire a sign flip: $\psi(y + \pi R_\Lambda) = -\psi(y)$ |
 | Half-integer spectrum | Mode numbers $\nu = 1/2, 3/2, 5/2, \ldots$; the constant mode is forbidden |
-| $\mathbb{Z}_2$ holonomy | The normal direction reverses under one traversal |
+| $Z_2$ holonomy | The normal direction reverses under one traversal |
 
 Orientable surfaces produce none of these.
 
@@ -113,16 +113,16 @@ $$\Large {\Psi = \cos(t/2)}$$
 | Condition | Selects | Why |
 |---|---|---|
 | Anti-periodic BC | Period $4\pi$ | Two traverses to restore sign |
-| $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\|_{t=0} = 0$ |
+| $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\big|_{t=0} = 0$ |
 | Ground state $m_h = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
-The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by distance data. The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to proper time; the relationship is nonlinear, with early proper time compressed in phase. The derived proper-time age is consistent with the observed ~13.8 Gyr.
+The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by distance data. The Waltz clock $dt/d\tau = \mathcal{S}^{-1/2}$ converts budget phase to proper time; the relationship is nonlinear, with early proper time compressed in phase. The derived proper-time age is consistent with the observed ~13.8 Gyr.
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
 ### The Present Epoch
 
-Two phase parameterizations exist for the current epoch. The engine phase $\varphi = 4\pi\, T/T_\text{cycle}$ (linear in proper time) gives $\varphi_\text{now} \approx 5.22$ rad. The budget phase $t$ (argument of $\Psi = \cos(t/2)$, nonlinear in proper time through the Waltz clock) is constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\varphi)$ is OPEN; both parameterizations reproduce the same distance-redshift relation. The full $4\pi$ period and the 120-step chronon structure are topology-native and independent of which parameterization is used.
+Two phase parameterizations exist for the current epoch. The engine phase $\Phi = 4\pi\, T/T_\text{cycle}$ (linear in proper time) gives $\Phi_\text{now} \approx 5.22$ rad. The budget phase $t$ (argument of $\Psi = \cos(t/2)$, nonlinear in proper time through the Waltz clock) is constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\Phi)$ is OPEN; both parameterizations reproduce the same distance-redshift relation. The full $4\pi$ period and the 120-step chronon structure are topology-native and independent of which parameterization is used.
 
 ## :balance_scale: [One Equation](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
@@ -152,7 +152,7 @@ $C(\Theta)$ is forced by the topology, the only weighting it allows. The anti-pe
 
 $$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
-One operator, read at every position: zero at the boundaries, maximal ($C = 2$) at the antinode, the same across all sectors (cosmology reads it at a single well, the mass sector across Kostant-exponent sets). The two factors of the scaling law then carry different, honest jobs. For the dimensional constants the powers of ten are units, $R/\ell_P$ raised to the observable's dimension, and the dimensionless physics is the value of $C(\Theta)$. For the dimensionless couplings the same hierarchy enters as a fractional power that is itself the content: $\alpha$ is one grid step of it.
+One operator, read at every position: zero at the boundaries, maximal ($C = 2$) at the antinode, the same across all sectors (cosmology reads it at a single well, the mass sector across Kostant-exponent sets). The two factors of the scaling law then carry different, honest jobs. For the dimensional constants the powers of ten are units, $R_\Lambda/\ell_P$ raised to the observable's dimension, and the dimensionless physics is the value of $C(\Theta)$. For the dimensionless couplings the same hierarchy enters as a fractional power that is itself the content: $\alpha$ is one grid step of it.
 
 | Position | $C(\Theta)$ | Slope $d\ln C/d\Theta$ | Significance |
 |---|---|---|---|
@@ -180,7 +180,7 @@ In physical units the same center is a length, the geometric mean of the Planck 
 
 $$\sqrt{\ell_P \, R_\Lambda} \approx 50\ \mu\text{m}.$$
 
-Because $\Omega = (R/\ell_P)^2$, distances in length are half those in $\Omega$: 50 μm sits about 30 orders of magnitude above the Planck length and 30 below the curvature radius. The geometric mean of any theory's smallest and largest length is bound to land somewhere macroscopic; the content here is the specific value, the scale of a living cell. Why observers should sit at the center rather than anywhere else is an open question, not something the framework derives. But the midpoint is the midpoint, and the cell is where it lands.
+Because $\Omega = (R_\Lambda/\ell_P)^2$, distances in length are half those in $\Omega$: 50 μm sits about 30 orders of magnitude above the Planck length and 30 below the curvature radius. The geometric mean of any theory's smallest and largest length is bound to land somewhere macroscopic; the content here is the specific value, the scale of a living cell. Why observers should sit at the center rather than anywhere else is an open question, not something the framework derives. But the midpoint is the midpoint, and the cell is where it lands.
 
 ### Manifold Index
 
@@ -224,7 +224,7 @@ The assignments are forced given the Fibonacci-well restriction, which the Hurwi
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 >
-> **Status:** numerical $\Lambda$ is a surface-sector calibration, not an independent prediction; the first positive eigenvalue $2/R^2$ is the geometric result (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
+> **Status:** numerical $\Lambda$ is a surface-sector calibration, not an independent prediction; the first positive eigenvalue $2/R_\Lambda^2$ is the geometric result (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
 
 **Calibration structure.** $H_0$ fixes the edge normalization $N = H_0 t_P / C(34/120)$; the other edge observables follow from $N$ as predictions, and the $\approx$ in the scaling law marks this single calibration. Any ratio of two edge-mode $C$ factors cancels $N$, so it is a zero-parameter prediction.
 
@@ -327,7 +327,7 @@ $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{
 
 Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. Lined up against the measured fermions, 7 of the 9 charged fermions land within a factor of 3 of an entry, with the down quark outside and charm having no entry at all, and the muon and strange sharing a single entry at rank 15. That is a comparison, not a prediction, and it is softer than the old "9 of 10" headline, which added the three unmeasured neutrinos and reused entries more freely. It is also helped by density: wherever the charged entries cluster, the factor-of-3 window is wider than the gaps between them, so a measured mass sits near some entry largely by counting. Whether the specific torsion values add fit beyond that quantum-number-constrained density is the open question: a random reassignment of the torsions, holding the quantum-number structure fixed, should reproduce most of the hit rate, and the pending null test will measure how much. The entry-to-fermion assignment is read against the measured masses, not fixed before them. What the topology fixes without the data is the count and the quantum-number content of each entry; the masses are presented as the comparison they are.
 
-The Yang-Mills gap above (geometry, $\sim 1/R^2$ by Weitzenböck) and this mass ladder ($(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$) share the McKay structure but are different objects: the gap is proved, the ladder is the comparison, and the one does not lend its standing to the other.
+The Yang-Mills gap above (geometry, $\sim 1/R_\Lambda^2$ by Weitzenböck) and this mass ladder ($(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$) share the McKay structure but are different objects: the gap is proved, the ladder is the comparison, and the one does not lend its standing to the other.
 
 ## :small_red_triangle: [One Identity](../spectrum/files/mass-spectrum.md)
 
@@ -343,7 +343,7 @@ The icosahedron carries three stabilizer subgroups. Restricting each irrep to th
 | Edge ($Z_4$) | 4 | Spin-statistics: $D = 120$ (half-int) vs $D = 60$ (int) | Complex vs real $Z_4$ content |
 | Vertex ($Z_5$) | 5 | Electroweak interface | Galois conjugate vacua $R_1$, $R_2$ differ in $Z_5$ content |
 | Face/Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue to space observable |
-| Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by Möbius $\mathbb{Z}_2$ |
+| Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by Möbius $Z_2$ |
 
 The three stabilizer orders are the primes dividing $|2I| = 120$. Each physical role is forced by group action on irreps: $Z_3$ uniquely produces the singlet/triplet decomposition (color); $Z_4$ contains the central element $-I$ acting as $\pm 1$ on integer vs half-integer spin irreps (spin-statistics); $Z_5$ uniquely distinguishes the Galois pair $R_1$, $R_2$ (electroweak). The stabilizer structure says what each entry is. The formula says where each entry sits, both from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
 
@@ -381,15 +381,15 @@ To attach a scale you invert one observable for $\Omega_\Lambda$. Three are inde
 
 | Anchor | Determines | $\Lambda$ | $\alpha$ | Precision driver |
 |---|---|---|---|---|
-| Measured $\Lambda$ (sets $R$) | $\Omega_\Lambda$ from $R$ | circular | 0.5% | current default |
+| Measured $\Lambda$ (sets $R_\Lambda$) | $\Omega_\Lambda$ from $R_\Lambda$ | circular | 0.5% | current default |
 | Measured $\alpha$ | $\Omega_\Lambda$ from the coupling | 24% (genuine) | circular | best-conditioned |
 | Mass spectrum ($m_\mu/m_e$) | $\Omega_\Lambda$ from the mass ratio | ~14x (genuine) | ~few % | independent cross-check |
 
-The headline is the second row: from one measured coupling, with no $R$ and no further calibration, the scaling law fixes the cosmological constant to 24%. The 122 orders of magnitude are not predicted here; they enter through $\Omega_\Lambda$, read from $\alpha$. What this route adds is the residual coefficient, to 24%. QFT, which does try to predict the magnitude from first principles, overshoots by $10^{120}$.
+The headline is the second row: from one measured coupling, with no $R_\Lambda$ and no further calibration, the scaling law fixes the cosmological constant to 24%. The 122 orders of magnitude are not predicted here; they enter through $\Omega_\Lambda$, read from $\alpha$. What this route adds is the residual coefficient, to 24%. QFT, which does try to predict the magnitude from first principles, overshoots by $10^{120}$.
 
 ### The lever, and why the readings differ
 
-All three are the same inversion: solve a formula that depends on $\Omega_\Lambda$ for $\Omega_\Lambda$, through the same 60-fold McKay/grid lever ($\Lambda\ell_P^2 \propto \alpha^{60}$; the mass ratio carries $\Omega_\Lambda^{1/60}$ at $\Delta\mathrm{dist}=1$). They differ only in how well-conditioned the input is: $\alpha$ matches its formula to ~0.5%, so $\Lambda$ lands at 24%; the mass ratio matches to ~4.5%, so $\Lambda$ lands ~14x off. The ~10x gap between the two genuine $\Lambda$ readings is a precision limit of the mass formula's residual scatter, not a structural inconsistency: the same lever amplifies a larger input error.
+All three are the same inversion: solve a formula that depends on $\Omega_\Lambda$ for $\Omega_\Lambda$, through the same 60-fold McKay/grid lever ($\Lambda\ell_P^2 \propto \alpha^{60}$; the mass ratio carries $\Omega_\Lambda^{1/60}$ at $\Delta\text{dist}=1$). They differ only in how well-conditioned the input is: $\alpha$ matches its formula to ~0.5%, so $\Lambda$ lands at 24%; the mass ratio matches to ~4.5%, so $\Lambda$ lands ~14x off. The ~10x gap between the two genuine $\Lambda$ readings is a precision limit of the mass formula's residual scatter, not a structural inconsistency: the same lever amplifies a larger input error.
 
 ### Sector anchors
 
@@ -410,7 +410,7 @@ Edge observables reference the evolving $\Omega_H(z)$; surface and space observa
 | $\Omega_\Lambda$ | over-determined by three independent readings |
 | $\Lambda$ (absolute) | prediction from the $\alpha$ reading (24%) or the mass reading (~14x); circular from the $\Lambda$ reading |
 | $\alpha$, $\alpha_s$, $\alpha_W$ (absolute) | prediction from the $\Lambda$ reading (0.5%); the anchor when $\alpha$ is the input |
-| first positive eigenvalue $2/R^2$ | surface spectral result |
+| first positive eigenvalue $2/R_\Lambda^2$ | surface spectral result |
 | fermion mass ratios | structural predictions (McKay / torsion) |
 | absolute fermion masses | set by the $m_e$ benchmark |
 | three generations, Yang-Mills gap | structural results on $S^3/2I$ |
