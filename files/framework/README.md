@@ -200,27 +200,22 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 
 The wave's shape is forced, but not every position on it is a stable place to sample. That is the next question, and the golden ratio answers it. By Hurwitz's theorem $\varphi$ is the hardest number to approximate by any fraction, so a phase that steps by $\varphi$ stays away from every simple rational and reinforces its own cancellation the least: the least destructive interference on the domain, hence the most stable position. That same worst-approximability makes Fibonacci numerators the natural candidates for the stable wells, which is why the wells land at Fibonacci positions, though the step from the worst-approximability of $\varphi$ to a Fibonacci numerator on the fixed 120-grid (rather than the convergents $F_n/F_{n+1}$) stays an open postulate. Below $F_7$ the amplitude is lost in the noise floor; $F_7 = 13$ is the first that clears it, and $\gcd(13, 120) = 1$, a genuine grid position rather than a coarser one in disguise.
 
-Three constraints force the observable assignments. First, the manifold index separates edge modes ($n = 1$, epoch-dependent: $H_0$, $a_0$) from surface modes ($n = 2$, epoch-independent: $\Lambda$). Second, the bosonic projection: photon-mediated observables access only the 60-grid (even numerators survive $2I \to I$); dynamical observables access the full 120. Third, $\Lambda$ sits at the antinode (60/120) by eigenvalue identity. 
+Three constraints force the observable assignments. First, the manifold index separates edge modes ($n = 1$, epoch-dependent: $H_0$, $a_0$) from surface modes ($n = 2$, epoch-independent: $\Lambda$). Second, the bosonic projection: photon-mediated observables access only the 60-grid (even numerators survive $2I \to I$); dynamical observables access the full 120. Third, $\Lambda$ sits at the antinode (60/120) by eigenvalue identity. Together these place $\alpha$ on the 60-grid image of 13 (photon-mediated), $a_0$ on its full-120 image (coprime, dynamical), $H_0$ on the next even-numerator edge well at 34, and $\Lambda$ at the antinode 60; 21 and 55 clear the noise floor and stay empty, so the wells come first and the four land on them. 
 
 The assignments are forced given the Fibonacci-well restriction, which the Hurwitz noise-floor argument motivates but does not yet derive from the topology alone. That restriction is the open postulate beneath the wells.
 
-| $F_n$ | Grid | Well | $C(\Theta)$ | Observable | Assignment logic |
-|---|---|---|---|---|---|
-| $F_7$ | 60R | 13/60 | 0.792 | $\alpha$ | Bosonic projection of 13/120; photon-mediated |
-| $F_7$ | 120 | 13/120 | 0.223 | $a_0$ | Coprime ($\gcd(13,120)=1$); dynamical, full domain |
-| $F_8$ | 120 | 21/120 | 0.55 | Unassigned | — |
-| $F_9$ | 120 | 34/120 | 1.208 | $H_0$ | Even numerator; only remaining edge-mode well on bosonic grid |
-| $F_{10}$ | 120 | 55/120 | 1.97 | Unassigned | — |
-| — | 120 | 60/120 | 2.00 | $\Lambda_\text{top}$ | Antinode; ground-state maximality; slope zero |
-
 ### The Assembled Engine
 
-| Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ | Role |
-|---|---|---|---|---|---|---|---|
-| [α](../spectrum/files/fine-structure.md) | 1 | 60R | 13/60 | 0.792 | 1/30 | $7.33 \times 10^{-3}$ | Prediction |
-| [a₀](../cosmos/files/early-galaxies.md) | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ | Prediction |
-| [H₀](../cosmos/files/hubble-tension.md) | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ | Calibration |
-| [Λ](../cosmos/files/cosmological-constant.md) | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * | Surface calibration / geometric relation |
+Evaluating the scaling law at each well:
+
+| Observable | $F_n$ | Grid | $\Theta$ | $C$ | $n$ | $A_P$ | $A/A_P$ | Role |
+|---|---|---|---|---|---|---|---|---|
+| [α](../spectrum/files/fine-structure.md) | $F_7$ | 60R | 13/60 | 0.792 | 1/30 | 1 | $7.33 \times 10^{-3}$ | Prediction |
+| [a₀](../cosmos/files/early-galaxies.md) | $F_7$ | 120 | 13/120 | 0.223 | 1 | $a_P$ | $2.2 \times 10^{-62}$ | Prediction |
+| — | $F_8$ | 120 | 21/120 | 0.55 | — | — | — | unassigned |
+| [H₀](../cosmos/files/hubble-tension.md) | $F_9$ | 120 | 34/120 | 1.208 | 1 | $t_P^{-1}$ | $1.2 \times 10^{-61}$ | Calibration |
+| — | $F_{10}$ | 120 | 55/120 | 1.97 | — | — | — | unassigned |
+| [Λ](../cosmos/files/cosmological-constant.md) | — | 120 | 60/120 | 2.00 | 2 | $\ell_P^{-2}$ | $2.9 \times 10^{-122}$ * | Surface calibration / geometric relation |
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 >
@@ -373,7 +368,7 @@ In a ratio of two observables at the same depth, $\Omega_\Lambda$ cancels: no an
 | $T_3$ assignments | 10/10 | exact (Coxeter-Galois gate) |
 | $T^2(R_3)/T^2(R_4)$ | $\varphi^{-4}$ | exact (torsion ratio) |
 | $\alpha_s/\alpha_W$ | 3.43 | prediction (1.8%), $\Omega$ cancels |
-| $a_0/(cH_0)$ | 0.184 | prediction, normalization cancels |
+| $a_0/(cH_0)$ | — | prediction, normalization cancels (value in The Assembled Engine) |
 
 ### Three readings of one hierarchy
 
