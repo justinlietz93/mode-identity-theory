@@ -116,7 +116,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 | $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\big|_{t=0} = 0$ |
 | Ground state $m = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
-The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by distance data. The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to proper time; the relationship is nonlinear, with early proper time compressed in phase. The derived proper-time age is consistent with the observed ~13.8 Gyr.
+The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by distance data. The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to conformal time $\tau$ (the [budget note](../working/files/temporal-budget.md) convention); proper time is a further step, $dT = a\,d\tau$ with $a \propto S$. Composing the two gives $dT/dt = S^{3/2}$, so when $S$ is small the proper-time age accrues slowly per unit budget phase: the early universe spans a large stretch of phase for little proper time. The proper-time age is taken as the observed ~13.8 Gyr.
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 

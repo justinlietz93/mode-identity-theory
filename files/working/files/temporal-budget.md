@@ -208,10 +208,14 @@ Two parameterizations of the same phase on $S^1$ are in use:
 
 | Parameter | Definition | Value today |
 |---|---|---|
-| $\Phi$ (engine phase) | $\Phi = 4\pi T/T_\text{cycle}$, linear in proper time | $\Phi_\text{now} = 5.22$ rad (Friedmann integral) |
-| $t$ (budget phase) | Nonlinear in proper time; argument of $\cos(t/2)$ | $t_\text{now} = 0.80$ rad (from $s_0$) |
+| $\Phi$ (engine phase) | $\Phi = 4\pi T/T_\text{cycle}$, linear in proper time | $\Phi_\text{now} = 5.22$ rad ($4\pi\,(13.8/33) = 5.26$, from the observed age; under re-derivation) |
+| $t$ (budget phase) | Nonlinear in proper time; argument of $\cos(t/2)$ | $t_\text{now} < 0.38$ rad (joint; 0.80 SN-only) |
 
-They refer to the same underlying phase advance. The relation $t(\Phi)$ needs to be worked out and documented; whether either is more fundamental than the other is open.
+They refer to the same underlying phase advance, but the two values as stated remain an open discrepancy, and it traces to one substituted number: the proper-time age fed into $\Phi_\text{now}$. The engine phase is linear in that age, $\Phi_\text{now} = 4\pi\,(T_\text{now}/33\,\text{Gyr})$. Inverting the clock from the measured $t_\text{now} < 0.38$ rad gives $T_\text{now} \lesssim 0.79$ Gyr (the $\Phi \lesssim 0.3$ rad below, in age units). But $\Phi_\text{now} = 5.22$ used the observed ~13.8 Gyr instead: $4\pi\,(13.8/33) = 5.26$, ~0.7% above the stated 5.22, so it drifts even from its own origin. The fold is the same and correctly linear both times; only the age moved, $\lesssim 0.79$ against 13.8 Gyr, a factor of ~17. That single borrow has two bad faces: 13.8 Gyr is a ΛCDM number, and ΛCDM has neither a turnaround nor a $4\pi$ period, so it imports an age from a model lacking the cyclic structure the engine phase assumes; and it skips inverting the clock from $t_\text{now}$. One substitution, two faces, not two errors.
+
+Run through the clock, the two values cannot share one trajectory. Forward, $t_\text{now} < 0.38$ rad maps to $\Phi \lesssim 0.3$ rad; inverse, $\Phi = 5.22$ rad requires $t \approx 2.8$ rad, i.e. $s_0 = \sin(t/2) \approx 0.98$, far above even the loosest Pantheon+-only $s_0 = 0.389$. The direction is forced: $\Phi$ is linear in proper time while $t$ advances through a clock that accrues proper time slowly when $S$ is small, so the engine fraction stays below the budget fraction, and the clock holds $\Phi$ below the 41.5% that 5.22 represents.
+
+This carries a specific quantified discrepancy, and $\Phi_\text{now} = 5.22$ is the value to re-derive: the proper-time age it folds in has to come from inside the cyclic model, the age obtained by inverting the clock from the measured $t_\text{now}$, rather than the observed ΛCDM 13.8 Gyr. The linear fold was always correct; the substituted age is the error. Until then $t(\Phi)$ stays open and the two "now" values remain an open discrepancy.
 
 ---
 
