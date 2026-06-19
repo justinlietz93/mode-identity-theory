@@ -100,7 +100,7 @@ Four auxiliary paths converge on this number (three independent):
 
 $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
-**The minimum action** $\Delta S_{\min} = \hbar\pi/30$: frame-independent by construction ($\hbar$ is invariant; $\pi/30$ is a pure number set by the topology, not by a coordinate choice).
+**The minimum action** $\Delta\mathcal{S}_{\min} = \hbar\pi/30$: frame-independent by construction ($\hbar$ is invariant; $\pi/30$ is a pure number set by the topology, not by a coordinate choice).
 
 ## Ψ [One Wave](../cosmos/files/dark-energy.md)
 
@@ -116,7 +116,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 | $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\big|_{t=0} = 0$ |
 | Ground state $m_h = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
-The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by distance data. The Waltz clock $dt/d\tau = \mathcal{S}^{-1/2}$ converts budget phase to proper time; the relationship is nonlinear, with early proper time compressed in phase. The derived proper-time age is consistent with the observed ~13.8 Gyr.
+The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by distance data. The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to proper time; the relationship is nonlinear, with early proper time compressed in phase. The derived proper-time age is consistent with the observed ~13.8 Gyr.
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 

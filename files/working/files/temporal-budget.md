@@ -208,10 +208,10 @@ Two parameterizations of the same phase on $S^1$ are in use:
 
 | Parameter | Definition | Value today |
 |---|---|---|
-| $\varphi$ (engine phase) | $\varphi = 4\pi T/T_\text{cycle}$, linear in proper time | $\varphi_\text{now} = 5.22$ rad (Friedmann integral) |
+| $\Phi$ (engine phase) | $\Phi = 4\pi T/T_\text{cycle}$, linear in proper time | $\Phi_\text{now} = 5.22$ rad (Friedmann integral) |
 | $t$ (budget phase) | Nonlinear in proper time; argument of $\cos(t/2)$ | $t_\text{now} = 0.80$ rad (from $s_0$) |
 
-They refer to the same underlying phase advance. The relation $t(\varphi)$ needs to be worked out and documented; whether either is more fundamental than the other is open.
+They refer to the same underlying phase advance. The relation $t(\Phi)$ needs to be worked out and documented; whether either is more fundamental than the other is open.
 
 ---
 
@@ -233,7 +233,7 @@ They refer to the same underlying phase advance. The relation $t(\varphi)$ needs
 |---|---|---|
 | Clock from postulate | High | The exponent -1/2 is forced by consistency with budget + GR + $S^3$ dimensionality. Integer alternatives empirically ruled out at $\Delta\chi^2 > 60$ (Λcos paper). A derivation from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ that does not invoke GR would promote this from ESTABLISHED to DERIVED. |
 | $t_\text{now}$ from topology | High | The Pantheon+-only fit gives $t_\text{now} = 0.80$ rad; the joint SN+BAO constraint gives $t_\text{now} < 0.38$ rad (95% CL). The BAO data pull the clock toward zero (the ΛCDM limit). Deriving $t_\text{now}$ from topology alone, rather than from data, closes the program, but the empirical value is now uncertain by a factor of $\sim 2$ depending on dataset combination. |
-| $\varphi \leftrightarrow t$ relation | High | The two phase parameters must be reconciled. |
+| $\Phi \leftrightarrow t$ relation | High | The two phase parameters must be reconciled. |
 | Vertex-<i>Z<sub>5</sub></i> role in bounded-budget correction | Medium | If the $(1+z)^1$ term derives from $Z_5$ in the temporal budget, the face/edge/vertex completion of the 3/2 accounting becomes explicit. |
 | Redshift mechanism (fully derived) | Medium | Model D+Λ gives the right distances. The phase-ratio picture on $S^1$ is understood in outline; the full derivation chain from postulate to observed $H(z)$ is partially walked. |
 | $(1+z)^1$ detection threshold | Medium (promoted) | At $s_0 < 0.19$, the signature is $< 0.8\%$ of $H^2$ at $z = 1$. Below DESI DR2 per-bin precision ($\sim 2-3\%$). Discriminating regime requires sub-percent per-bin precision: Euclid DR2, DESI full-survey, MegaMapper-class. Signature approaches per-bin detectability for $s_0$ in the upper portion of the data-allowed range; correlated bins improve aggregate sensitivity. |
