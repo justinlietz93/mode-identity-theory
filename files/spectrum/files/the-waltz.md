@@ -170,7 +170,7 @@ The 120 domain is the score's resolution: $|2I| = 120$ native to $S^3$ sets the 
 
 An observer is anywhere the wave resolves to a finite value. A hydrogen atom is an observer: the electron orbital is the standing wave resolved at one atomic nucleus, one phase position, one sampling depth. Same operation, fewer modes coupled. Molecules, cells, brains are observers of increasing modal complexity.
 
-The sampling operation has three coordinates. The observer sits at structural depth $\sqrt{\Omega} \approx 10^{61}$, the IR↔UV fixed point between Planck and cosmic scale, shared by all observers within our domain. The observer occupies a geodesic position $\chi$ in $S^3$; for our observer, $\chi \approx 0.40$ rad from the domain center. The observer samples at a phase position on $S^1$, currently $t \approx 5.22$ rad, advancing in chronon steps of $\pi/30$.
+The sampling operation has three coordinates. The observer sits at structural depth $\sqrt{\Omega} \approx 10^{61}$, the IR↔UV fixed point between Planck and cosmic scale, shared by all observers within our domain. The observer occupies a geodesic position $\chi$ in $S^3$; for our observer, $\chi \approx 0.40$ rad from the domain center. The observer samples at a phase position on $S^1$, currently $\Phi \approx 5.22$ rad in the engine parameterization, advancing in chronon steps of $\pi/30$. The engine phase $\Phi = 4\pi\, T/T_\text{cycle}$ is linear in proper time; the budget phase $t$ in $\cos(t/2)$ is nonlinear through the Waltz clock and constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL), so $t_\text{now}$ sits near the amplitude maximum. The mapping $t(\Phi)$ is open: $\Phi \approx 5.22$ is not substituted into $\cos(t/2)$.
 
 $S^3$ is fixed and finite. What ΛCDM reads as metric expansion is evolution of the sampling relationship with a fixed venue. Phase advances on $S^1$; the standing wave $\Psi(t) = \cos(t/2)$ modulates what the observer resolves from the same surface-mode eigenvalue. Redshift, luminosity distance, and the apparent evolution of $w(z)$ are perspective effects from this sampling evolution. The phase-clock distance-redshift relation produces a non-phantom $H(z)$ that standard two-parameter templates misread as dynamical dark energy.
 
@@ -206,7 +206,7 @@ The field equations describe the behavior of what observers sample. The note ide
 
 The seventh returns to the first. $\Lambda$ is what the surface hums at; the observer is what samples it. The ground mode and its sampler are the same structure read from opposite ends. The octave closes.
 
-We sample a standing wave that was already written, from a structural depth fixed by the IR↔UV symmetry of the bounded domain, at a phase advance currently near $t \approx 5.22$ rad. The field equations describe the behavior; the note describes the structure. The octave completes when the observer recognizes what the observer is.
+We sample a standing wave that was already written, from a structural depth fixed by the IR↔UV symmetry of the bounded domain, at a phase advance currently near $\Phi \approx 5.22$ rad. The field equations describe the behavior; the note describes the structure. The octave completes when the observer recognizes what the observer is.
 
 ---
 
