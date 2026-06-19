@@ -42,7 +42,7 @@ Section 2 sets up the geometric model and Section 3 the operator domain, the sel
 
 ## 2. The Geometric Model $M(W)$
 
-Consider the round 2-sphere $S^2(R)$ of radius $R$. Let $C$ be a great circle, and let $y$ denote arclength along a meridian measured from $C$, so that $y = 0$ and $y = \pi R$ correspond to antipodal arcs of $C$ reached on opposite sides of the pole at $y = \pi R/2$. Let $w$ denote arclength along $C$, with $w \in [-W, W]$ for a half-width parameter $0 < W < \pi R$. The induced metric on the band $\{(y, w) : 0 \le y \le \pi R,\; \lvert w\rvert \le W\}$ is
+Consider the round 2-sphere $S^2(R)$ of radius $R$. Throughout, $R$ is the curvature radius of this constant-curvature model, the same radius written $R_\Lambda$ on the [framework](README.md) page: this $S^2(R)$ is a great 2-sphere of that page's $S^3$, with $\Lambda = 3/R_\Lambda^2$. Let $C$ be a great circle, and let $y$ denote arclength along a meridian measured from $C$, so that $y = 0$ and $y = \pi R$ correspond to antipodal arcs of $C$ reached on opposite sides of the pole at $y = \pi R/2$. Let $w$ denote arclength along $C$, with $w \in [-W, W]$ for a half-width parameter $0 < W < \pi R$. The induced metric on the band $\{(y, w) : 0 \le y \le \pi R,\; \lvert w\rvert \le W\}$ is
 
 $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2.$$
 
