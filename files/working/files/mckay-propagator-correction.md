@@ -6,13 +6,15 @@
 
 **Status:** RESOLVED, negative result (2026-06-06). The propagator/branch-point correction is eliminated by the signed-residual test (Result section below). The high-distance residual is not a correctable distance trend; down and tau remain as two separate standing anomalies.
 
+**Update (2026-06-19).** The honesty pass reframed the mass spectrum from prediction to comparison, and this negative result is its empirical backbone: the high-distance residual is irreducible symmetric scatter (~×1.8), not a recoverable distance or branch trend, so the ladder is read as a comparison against the measured fermions, not a fully-determined prediction. The propagator/branch route explored in §1–§11 was the attempt to make the masses fully determined; eliminating it is what the comparison framing now states plainly. Three reconciling facts for the counts below: $m_e$ is the benchmark that sets the absolute scale (its 1.02 is the $m_e \leftrightarrow \Lambda$ loop closing, not a hit), so the charged within-×3 count is 6 of 8 (down outside, charm unassigned), and the within-6% comparisons are the up and muon. The §1–§11 body is kept as the 2026-06-06 record.
+
 **Dependencies:** Fermion mass formula (engine file), C_geom and torsion tables, Coxeter-Galois gate, McKay graph for binary icosahedral group.
 
 ---
 
 ## Result: hypothesis eliminated (negative)
 
-The protocol (§6, §11) was run against the full §II data. The formula reproduces all 10 SM-assigned masses to better than 2%, then the signed residual $r = \log_{10}(m_\text{pred}/m_\text{obs})$ was computed and correlated against every parameter-free candidate. Reproducible script: [`mckay-propagator-correction.test.py`](mckay-propagator-correction.test.py).
+The protocol (§6, §11) was run against the full §II data. The formula places the 10 SM-assigned masses within ×3.3 (most within ×1.5; the down quark, the worst, at ×3.2), then the signed residual $r = \log_{10}(m_\text{pred}/m_\text{obs})$ was computed and correlated against every parameter-free candidate. Reproducible script: [`mckay-propagator-correction.test.py`](mckay-propagator-correction.test.py).
 
 **1. The residual is not a systematic overshoot.** The two worst assigned fermions miss in opposite directions, so no single multiplicative factor can fix both.
 
@@ -46,7 +48,7 @@ The fermion mass formula systematically overshoots at high McKay distance.
 
 $$m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)$$
 
-Current scorecard: 10/12 SM fermions within ×3. The two misses both sit at high McKay distance:
+Scorecard at the outset of this investigation: 10/12 SM fermions within ×3 (superseded; see the Update and Result sections, and today's 6-of-8 charged count with $m_e$ as the benchmark). The two misses examined here both sit at high McKay distance:
 
 | Fermion | Irrep | Vacuum | dist | Predicted (GeV) | Observed (GeV) | Ratio |
 |---|---|---|---|---|---|---|
@@ -59,7 +61,7 @@ Initial assessment: overshoot grows with McKay distance. But detailed examinatio
 
 | Fermion | Irrep | Vacuum | dist | Predicted/Observed | Notes |
 |---|---|---|---|---|---|
-| electron | R7 | triv | 4 | 1.02 | hit |
+| electron | R7 | triv | 4 | 1.02 | benchmark (loop closure, not a hit) |
 | up | R8 | triv | 5 | 1.06 | hit |
 | muon | R8 | std | 5 | 1.02 | hit |
 | **down** | **R8** | **gal** | **5** | **3.22** | **miss: same irrep, same dist as up and muon** |
@@ -305,8 +307,8 @@ Plot r against (in priority order):
 
 If a single multiplicative correction computable from the McKay graph structure closes the systematic overshoot at high distance:
 
-- 10/12 within ×3 could become 12/12.
-- The three best hits (electron 2%, up quark 6%, muon 3%) should remain unchanged (low dist, correction ≈ 1).
+- The two high-distance misses (down, tau) would close (the eliminated goal: turn the standing anomalies into hits).
+- The low-distance comparisons (up quark 6%, muon 3%, with $m_e$ the benchmark) should remain unchanged (low dist, correction ≈ 1).
 - The correction is parameter-free (computed from known C_geom and torsion values).
 - The mass formula becomes fully determined by topology with no residual trend.
 
@@ -346,13 +348,13 @@ The correction must satisfy:
 
 1. Computed from graph structure and torsion alone (no fitted parameters).
 2. Vacuum-dependent (matching the observed pattern: different vacua miss at different distances).
-3. Negligible at low distance (preserving electron 2%, up quark 6%, muon 3%).
+3. Negligible at low distance (preserving up quark 6%, muon 3%; $m_e$ is the benchmark).
 4. Significant at dist = 5 gal and dist = 7 triv (fixing down quark and top quark).
 5. Consistent with the reversal (gal misses at dist 5 but hits at dist 7; triv hits at dist 5 but misses at dist 7).
 6. Sensitive to the branch point at R8 (R4 and R5 are reached through a fork).
 7. Compatible with (or resolves) the charm displacement at R4.
 
-If constraints 1-6 are satisfied, the correction is structural. If constraint 7 is also satisfied, the charm assignment opens and 10/12 could become 11/12 or 12/12. If any of 1-6 require tuning, it's a fit.
+If constraints 1-6 are satisfied, the correction is structural. If constraint 7 is also satisfied, the charm assignment opens (charm gains a slot it currently lacks). If any of 1-6 require tuning, it's a fit.
 
 ---
 
