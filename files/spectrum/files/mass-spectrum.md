@@ -8,12 +8,12 @@
 
 The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This page constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
-The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 ranked entries, all from the topology with no data in them. Lined up against the measured fermions, 7 of the 9 charged fermions land within a factor of 3 of an entry (the down quark outside, charm unassigned, the muon and strange sharing one entry at rank 15); the three neutrinos rest on absolute masses nobody has measured. This is a comparison, not a prediction: the entries and their quantum numbers are fixed a priori, but which entry lands on which measured fermion is read against the data, and at this entry density a measured mass sits near some entry largely by counting. Two SM fermions go unassigned: $\nu_2$ in a gap between entries, and charm displaced from rank 17 with its assignment open. Eight entries have no SM match.
+The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 ranked entries, all from the topology with no data in them. Lined up against the measured fermions, with the electron taken as the benchmark that sets the absolute scale, 6 of the remaining 8 charged fermions land within a factor of 3 of an entry (the down quark outside, charm unassigned, the muon and strange sharing one entry at rank 15); the three neutrinos rest on absolute masses nobody has measured. This is a comparison, not a prediction: the entries and their quantum numbers are fixed a priori, but which entry lands on which measured fermion is read against the data, and at this entry density a measured mass sits near some entry largely by counting. Two SM fermions go unassigned: $\nu_2$ in a gap between entries, and charm displaced from rank 17 with its assignment open. Eight entries have no SM match.
 
 | Result | Count |
 |---|---|
-| Charged fermions within ×3 | 7 of 9 (d outside, c unassigned, μ/s share rank 15) |
-| Within 6% | $e$, $u$, $\mu$ (the scale is fixed by Λ, not by these masses) |
+| Charged fermions within ×3 | 6 of 8 ($m_e$ is the benchmark; d outside, c unassigned, μ/s share rank 15) |
+| Within 6% | $u$, $\mu$ ($m_e$ is the scale benchmark) |
 | Neutrinos | 3 rows; absolute masses unmeasured |
 | Unassigned | $\nu_2$ (gap between rank 1 and rank 2), $c$ (displaced from rank 17, assignment open) |
 | Nature | comparison, not prediction |
@@ -159,7 +159,7 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 | 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | | dead zone | |
 | 10 | $R_7$ | 4 | std | $2.58 \times 10^{-4}$ | $e$ candidate | $5.11 \times 10^{-4}$ | 1.98 |
 | 11 | $R_7$ | 4 | gal | $2.58 \times 10^{-4}$ | $e$ candidate | $5.11 \times 10^{-4}$ | 1.98 |
-| **12** | **$R_7$** | **4** | **triv** | $\mathbf{5.21 \times 10^{-4}}$ | **$e$** | $\mathbf{5.11 \times 10^{-4}}$ | **1.02** |
+| **12** | **$R_7$** | **4** | **triv** | $\mathbf{5.21 \times 10^{-4}}$ | **$e$** | $\mathbf{5.11 \times 10^{-4}}$ | **1.02** (benchmark) |
 | **13** | **$R_8$** | **5** | **triv** | $\mathbf{2.03 \times 10^{-3}}$ | **$u$** | $\mathbf{2.16 \times 10^{-3}}$ | **1.06** |
 | 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | $d$ | $4.67 \times 10^{-3}$ | 3.22 |
 | **15** | **$R_8$** | **5** | **std** | $\mathbf{1.03 \times 10^{-1}}$ | **$\mu$ / $s$** | $\mathbf{1.057 \times 10^{-1}}$ / $\mathbf{9.34 \times 10^{-2}}$ | **1.02** / **1.10** |
@@ -174,6 +174,8 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 | **24** | **$R_2$** | **7** | **std** | **261.46** | **$t$** | **172.7** | **1.51** |
 
 **Notes on the table:**
+
+*The electron (rank 12).* $m_e$ is the benchmark that sets the absolute mass scale, so its 1.02 is not a forward comparison but the $m_e \leftrightarrow \Lambda$ loop closing: entering instead from $\Lambda$ through $\mu_\Lambda = \rho_\Lambda^{1/4}$ reproduces $m_e$ to 2%, which inverts to ~11% in $\Lambda$. The forward comparisons are the other charged fermions; neither end of the loop is privileged. See the calibration web on the [framework](../../framework/) page.
 
 *Neutrino masses.* The $\nu_1$ observed value is inferred from $\Delta m^2_{21}$ assuming normal hierarchy with a near-zero lightest mass; the absolute mass scale is experimentally unknown. KATRIN, JUNO, and Project 8 will constrain this. The $\nu_3$ value uses $\sqrt{\Delta m^2_{31}}$ as a proxy. The ratio 1.98 for $\nu_1$ depends on this assumption.
 

@@ -90,7 +90,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 ## :control_knobs: Inputs
 
-Two constants fix the physics. Two measurements anchor the scale. One phase parameter locates the observer.
+Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $\Omega_\Lambda$ is over-determined, fixed to within residuals by Λ (through $R$), by $\alpha$, or by the mass ratio (a ratio carries no absolute scale but still encodes $\Omega_\Lambda$ through the McKay distance difference), and every dimensionless result holds under each choice. The default entry below is $R$ for the cosmological scale and $m_e$ as the mass benchmark, with $s_0$ for the phase. Full accounting: the [calibration web](/files/framework/) on the framework page.
 
 **Primitives**
 
@@ -104,7 +104,7 @@ Two constants fix the physics. Two measurements anchor the scale. One phase para
 | Scale | Value | Origin |
 |---|---|---|
 | $R$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$; sets the size of the domain |
-| $m_e$ | $0.511$ MeV | Electron mass; anchors the spectrum |
+| $m_e$ | $0.511$ MeV | Mass benchmark; the fermion ratios are structural, so this fixes only the normalization |
 
 **Phase parameter**
 
@@ -118,7 +118,7 @@ Two constants fix the physics. Two measurements anchor the scale. One phase para
 
 Outputs of a fixed structure, checked against observation:
 
-| Observable | Predicted | Observed | Agreement |
+| Observable | Output | Observed | Agreement |
 |---|---|---|---|
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.90 \times 10^{-122}$ | ⚠ in limbo |
 | [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
@@ -147,10 +147,10 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
 | [↗](/files/spectrum/files/mass-spectrum.md) Weak isospin $T_3$ | $j_\text{first}$ parity + Coxeter-Galois gate | 10/10 SM-assigned entries | exact |
 | [↗](/files/spectrum/files/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| [↗](/files/spectrum/files/mass-spectrum.md) Fermion masses | 24 entries | 7/9 charged within ×3 (d outside, c unassigned, μ/s share rank 15) | comparison |
+| [↗](/files/spectrum/files/mass-spectrum.md) Fermion masses | 24 entries | 6/8 charged within ×3 ($m_e$ benchmark; d outside, c unassigned, μ/s share rank 15) | comparison |
 | [↗](/files/spectrum/files/mass-spectrum.md) $m_\mu$ (muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | [↗](/files/spectrum/files/mass-spectrum.md) $m_u$ (up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| [↗](/files/spectrum/files/mass-spectrum.md) $m_e$ (electron) | scale anchor | 0.511 MeV | measured |
+| [↗](/files/spectrum/files/mass-spectrum.md) $m_e$ (electron) | mass benchmark | 0.511 MeV | normalization |
 | [↗](/files/spectrum/files/mass-spectrum.md) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
 | [↗](/files/spectrum/files/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
 | [↗](/files/spectrum/files/mass-spectrum.md) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
@@ -158,6 +158,8 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
+
+The absolute mass scale and Λ are two ends of one loop: fix $m_e$ and the topology gives Λ; fix Λ and it gives $m_e$ to ~2%. Inverting the closure, a 2% shift in $m_e$ moves Λ by ~11% under the default calibration, where $R$ (hence $\Omega_\Lambda$) is set by Λ, so $m_e \propto \Lambda^{11/60}$ once the $\mu_\Lambda$ scale and the $\Omega_\Lambda$ feedback are collected; it would be ~8% only if $\Omega_\Lambda$ were pinned independently by $\alpha$. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the absolute scale.
 
 > ⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.
 
