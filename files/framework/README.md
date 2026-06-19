@@ -400,7 +400,7 @@ All three are the same inversion: solve a formula that depends on $\Omega_\Lambd
 | Mass | normalization tied to $m_e$ | Fixes the absolute mass scale once ratios are known |
 | Phase clock | $s_0$ from distance data | Locates the current observer phase |
 
-Edge observables reference the evolving $\Omega_H(z)$; surface and space observables reference the fixed $\Omega_\Lambda$. The mass sector inherits $\mu_\Lambda = \rho_\Lambda^{1/4}$ from $\Omega_\Lambda$; $m_e$ is the benchmark, not a second floor.
+Edge observables reference the evolving $\Omega_H(z)$; surface and space observables reference the fixed $\Omega_\Lambda$. The mass sector inherits $\mu_\Lambda = \rho_\Lambda^{1/4}$ from $\Omega_\Lambda$; $m_e$ is the benchmark, not a second floor. Compute $m_e$ from $\Lambda$ instead, carrying both the $\mu_\Lambda$ scale and the hierarchy feedback ($m_e \propto \Lambda^{11/60}$), and it lands within 2%; inverting, that 2% is ~11% in $\Lambda$. The closure is the loop, run from either end, the web holding whichever you pick.
 
 ### Predicted and calibrated
 
