@@ -6,41 +6,47 @@
 
 [![Yang-Mills](https://img.youtube.com/vi/85xFu2kK6aE/mqdefault.jpg)](https://www.youtube.com/watch?v=85xFu2kK6aE)
 
-The Millennium Prize asks whether pure Yang-Mills theory on $\mathbb{R}^4$ has a positive mass gap. On flat space, confinement must emerge dynamically. On the Poincaré Homology Sphere $M = S^3/2I$, the answer is forced by geometry. 
+The Millennium Prize asks whether pure Yang-Mills on flat $\mathbb{R}^4$ has a positive mass gap in the full quantum theory. That is open and hard. This page takes its easier cousin: the same gap question on the compact, curved Poincaré Homology Sphere $M = S^3/2I$, at the linearized level, where the answer falls out of the shape.
 
-Positive Ricci curvature provides a universal floor. The finite fundamental group yields exactly three isolated vacua: trivial, standard, and Galois conjugate. The McKay correspondence for the extended $E_8$ diagram filters the spectrum at each vacuum, producing a ninefold enhancement at the Galois sector. 
+| | The Prize asks for | This page delivers |
+|---|---|---|
+| Space | flat $\mathbb{R}^4$ | compact $S^3/2I$ |
+| Object | nonperturbative quantum mass gap | linearized coexact gap |
+| Status | open and hard | classical, forced by the geometry |
 
-The same curvature that enters the Λ conversion guarantees confinement.
+The surprise is the bottom-right cell: a mass gap appears for free from a shape, and its exact value is read off the McKay structure. Positive Ricci curvature forces a gap to exist; the finite group $2I$ gives exactly three isolated vacua (trivial, standard, Galois conjugate); and the McKay graph, the affine $E_8$ diagram, fixes the value at each, $4/R^2$ at two and $36/R^2$ at the third, a ninefold enhancement at the Galois sector. The same curvature that forces this gap also enters the Gauss conversion that sets $\Lambda$: one geometry, two consequences.
+
+(Throughout, $R$ is the curvature radius of the round metric, the framework's $R_\Lambda$; for $S^3/2I$, $\Lambda = 3/R_\Lambda^2$.)
 
 | Property | Value |
 |---|---|
-| Curvature floor | $\lambda \geq 2/R^2$ (universal, Weitzenböck) |
+| Gap exists | positive Ricci, and $H^1 = 0$ |
 | Vacua | 3 isolated (trivial, standard, Galois) |
-| Gap (trivial, standard) | $\Delta^2 = 4/R^2$ |
-| Gap (Galois) | $\Delta^2 = 36/R^2$ (9x enhancement) |
-| Three vacua | Three particle generations |
+| Gap (trivial, standard) | $\Delta^2 = 4/R^2$ (adjoint enters at level 2) |
+| Gap (Galois) | $\Delta^2 = 36/R^2$ (adjoint at level 6; 9×) |
+| Three vacua → three generations | MIT reading, an interpretation layered on the three vacua |
 
 ## I. The Geometry
 
-The Weitzenböck identity on $S^3$ decomposes the gauge-covariant Hodge Laplacian on bundle-valued 1-forms. In the Hamiltonian formulation of Yang-Mills on $M \times \mathbb{R}$, temporal gauge ($A_0 = 0$) with the Coulomb condition ($d_A^\ast a = 0$) reduces the linearized equation around a flat connection to $\partial_t^2 a + \Delta_{\mathrm{Hodge}} a = 0$. Solutions oscillate as $e^{i\omega t}$ with $\omega^2 = \lambda$, so the spectral gap is the lowest eigenvalue of $\Delta_{\mathrm{Hodge}}$ on the coexact subspace. For a flat connection ($F_A = 0$), the identity reduces to:
+In the Hamiltonian formulation of Yang-Mills on $M \times \mathbb{R}$, temporal gauge ($A_0 = 0$) with the Coulomb condition ($d_A^\ast a = 0$) reduces the linearized equation around a flat connection to $\partial_t^2 a + \Delta_{\mathrm{Hodge}} a = 0$. Modes oscillate as $e^{i\omega t}$ with $\omega^2 = \lambda$, so the gap is the lowest eigenvalue of the Hodge Laplacian on the coexact 1-forms, the physical fluctuations after gauge-fixing.
 
-$$\Delta_{\mathrm{Hodge}} = \nabla_A^\ast \nabla_A + \mathrm{Ric}$$
+That this lowest eigenvalue is strictly positive is forced two ways before any dynamics, by curvature and by topology. Geometrically, for a flat connection ($F_A = 0$) the Weitzenböck identity reads
 
-On the round $S^3$ of radius $R$, the Ricci tensor is $R_{ij} = (2/R^2)g_{ij}$. Since $\nabla_A^\ast \nabla_A \geq 0$ and $\mathrm{Ric} = 2/R^2 > 0$, every coexact (divergence-free) gauge fluctuation around any flat connection satisfies:
+$$\Delta_{\mathrm{Hodge}} = \nabla_A^\ast \nabla_A + \mathrm{Ric},$$
 
-$$\lambda_{\min} \geq \frac{2}{R^2}$$
+and on the round $S^3$ of radius $R$ the curvature $\mathrm{Ric} = 2/R^2 > 0$ bounds every coexact (divergence-free) fluctuation away from zero. Topologically, the twisted harmonic 1-forms vanish, $H^1(M; \mathrm{ad}\,\rho) = 0$ (§II), so $\Delta_{\mathrm{Hodge}}$ is strictly positive on the coexact summand at every vacuum. The gap exists.
 
-This bound is universal: it holds for any quotient $S^3/\Gamma$ inheriting the round metric, independent of $\Gamma$ and the choice of flat connection. The existence of a positive spectral floor is topological: $S^3/2I$ has finite fundamental group and universal cover $S^3$, so it is a spherical space form and admits the round metric with $\mathrm{Ric} > 0$. On any metric with $\mathrm{Ric} \geq \kappa > 0$, the Weitzenböck bound gives $\lambda_{\min} \geq \kappa$; the existence of a gap is guaranteed by the topology, its numerical value by the metric. The specific value $2/R^2$ uses the round metric. The actual lowest eigenvalue exceeds this floor. The following sections compute it exactly.
+Its value is sharper than the curvature bound: it comes from the coexact form spectrum of $S^3$ read through the McKay structure (§III), giving $4/R^2$ and $36/R^2$. The Bochner floor $\lambda \geq 2/R^2$ sits below the actual gap. (That floor $2/R^2$ is numerically the surface eigenvalue $\Lambda_\text{top}$ of the $\Lambda$ sector, but it is a different operator; here it is only a loose lower bound on the gauge gap.)
 
 ## II. Three Vacua
 
-Flat $\mathrm{SU}(2)$ connections on $M$ are classified by $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$. A homomorphism $\rho: 2I \to \mathrm{SU}(2)$ is equivalently a 2-dimensional unitary representation with determinant 1. The character table of $2I$ has exactly nine irreducible representations, of which exactly two have dimension 2: $R_1$ and $R_2$. Both are faithful. The only remaining possibility is the trivial map ($\rho(g) = I$). This gives three conjugacy classes total.
+Flat $\mathrm{SU}(2)$ connections on $M$ are classified by $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$. A homomorphism $\rho: 2I \to \mathrm{SU}(2)$ is equivalently a 2-dimensional unitary representation with determinant 1. The character table of $2I$ has exactly nine irreducible representations, of which exactly two have dimension 2: $R_1$ and $R_2$, the standard connection $Q = R_1$ and its Galois conjugate $Q' = R_2$. Both are faithful. The only remaining possibility is the trivial map ($\rho(g) = I$). This gives three conjugacy classes total.
 
-| Generation | Vacuum | Adjoint rep | 2I irrep | $E_8$ position |
+| Generation | Connection | Adjoint | $2I$ irrep | adjoint distance |
 |---|---|---|---|---|
-| 1st | $\rho_{\mathrm{triv}}$ | trivial | $R_0^{\oplus 3}$ | origin |
-| 2nd | $\rho_{\mathrm{std}}$ | 3a | $R_3$ | near origin |
-| 3rd | $\rho_{\mathrm{gal}}$ | 3b | $R_4$ | branch node |
+| 1st | trivial | trivial | $R_0^{\oplus 3}$ | 0 |
+| 2nd | $\rho_{\mathrm{std}} = Q$ ($R_1$) | $\mathrm{Sym}^2 Q$ | $R_3$ | 2 |
+| 3rd | $\rho_{\mathrm{gal}} = Q'$ ($R_2$) | $\mathrm{Sym}^2 Q'$ | $R_4$ | 6 |
 
 The standard and Galois embeddings are distinguished by the golden ratio: $\rho_{\mathrm{std}}$ has trace $\varphi = (1+\sqrt{5})/2$ on order-10 elements, while $\rho_{\mathrm{gal}}$ has trace $\bar\varphi = (1-\sqrt{5})/2$. Since $\mathrm{SU}(2)$ conjugation preserves traces and $\varphi \neq \bar\varphi$, the two define distinct conjugacy classes. The kernel $\{\pm 1\}$ case (factoring through $A_5$) produces no additional class because $A_5$ has no faithful 2-dimensional representation.
 
@@ -56,51 +62,47 @@ The McKay graph of $2I$ is the extended (affine) $E_8$ Dynkin diagram. Each node
 
 ### Coexact spectrum on $S^3$
 
-On the round $S^3$ of radius $R$, coexact (divergence-free) 1-forms organize into levels $k = 1, 2, 3, \ldots$ with eigenvalue:
+On the round $S^3$ of radius $R$, coexact (divergence-free) 1-forms organize into levels $m = 2, 3, 4, \ldots$ with eigenvalue:
 
-$$\lambda_k = \frac{(k+1)^2}{R^2}$$
+$$\lambda_m = \frac{m^2}{R^2}$$
 
-On $S^3 = \mathrm{SU}(2)$, the Hodge Laplacian commutes with the isometry group $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$, so its eigenvalue on an irreducible component $(j_L, j_R)$ takes the form $\lambda = a \cdot j_L(j_L+1) + b \cdot j_R(j_R+1) + c$. Hodge star symmetry ($*$ swaps $j_L \leftrightarrow j_R$) forces $a = b$. Agreement with the scalar Laplacian on exact 1-forms at $(j, j)$ fixes $a = 2/R^2$, $c = 0$. Coexact 1-forms appear at $(j_R \pm 1, j_R)$; both series yield eigenvalue $(k+1)^2/R^2$ with $k = 1, 2, 3, \ldots$
+This is the coexact form spectrum of Ikeda–Taniguchi, descended to the quotient by the equivariant method of Lauret–Miatello–Rossetti.
 
-On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted equivariance condition: the adjoint representation $\mathrm{ad}(\sigma)$ of the vacuum must appear in the $2I$-decomposition of the 1-form representation at that level. By Frobenius reciprocity, the dimension of the $\mathrm{ad}(\sigma)$-isotypic equivariant subspace at level $k$ is $\langle \mathrm{ad}(\sigma), (V_{k-1} \oplus V_{k+1})\vert_{2I} \rangle_{2I}$. When this inner product vanishes, no equivariant section exists and the level is filtered out entirely.
+On $S^3 = \mathrm{SU}(2)$, the Hodge Laplacian commutes with the isometry group $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$, so its eigenvalue on an irreducible component $(j_L, j_R)$ takes the form $\lambda = a \cdot j_L(j_L+1) + b \cdot j_R(j_R+1) + c$. Hodge star symmetry ($*$ swaps $j_L \leftrightarrow j_R$) forces $a = b$. Agreement with the scalar Laplacian on exact 1-forms at $(j, j)$ fixes $a = 2/R^2$, $c = 0$. Coexact 1-forms appear at $(j_R \pm 1, j_R)$; both series yield eigenvalue $m^2/R^2$ with $m = 2, 3, 4, \ldots$
+
+On the quotient $M = S^3/2I$, physical modes at level $m$ must satisfy a twisted equivariance condition: the adjoint representation $\mathrm{ad}(\sigma) = \mathrm{Sym}^2\rho$ of the vacuum must appear in the $2I$-decomposition of the 1-form representation at that level. By Frobenius reciprocity, the dimension of the $\mathrm{ad}(\sigma)$-isotypic equivariant subspace at level $m$ is $\langle \mathrm{ad}(\sigma), (V_{m-2} \oplus V_m)\vert_{2I} \rangle_{2I}$. When this inner product vanishes, no equivariant section exists and the level is filtered out entirely.
 
 ### Representation content at each level
 
-The left-<i>SU(2)</i> content of coexact 1-forms at eigenvalue $(k+1)^2/R^2$ is $V_{k-1} \oplus V_{k+1}$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}\vert_{2I} = R_1 \otimes V_l\vert_{2I} - V_{l-1}\vert_{2I}$ gives:
+The left-<i>SU(2)</i> content of coexact 1-forms at eigenvalue $m^2/R^2$ is $V_{m-2} \oplus V_m$, combining the two coexact series identified above. Restricting to $2I$ via the McKay recursion $V_{l+1}\vert_{2I} = R_1 \otimes V_l\vert_{2I} - V_{l-1}\vert_{2I}$ gives:
 
 $$V_0 = R_0, \quad V_1 = R_1, \quad V_2 = R_3, \quad V_3 = R_6, \quad V_4 = R_7, \quad V_5 = R_8, \quad V_6 = R_5 \oplus R_4$$
 
-The $2I$ content of gauge-valued 1-forms at each coexact level is therefore $(V_{k-1} \oplus V_{k+1})\vert_{2I}$:
+Here $R_3 = \mathrm{Sym}^2 Q$ is the standard adjoint (first appearing at $V_2$, McKay distance 2) and $R_4 = \mathrm{Sym}^2 Q'$ is the Galois adjoint (first appearing at $V_6$, distance 6).
 
-| $k$ | $\lambda_k$ | $V_{k-1}\vert_{2I}$ | $V_{k+1}\vert_{2I}$ | Combined $2I$ content | $R_0$? | $R_3$? | $R_4$? |
+The $2I$ content of gauge-valued 1-forms at each coexact level is therefore $(V_{m-2} \oplus V_m)\vert_{2I}$:
+
+| $m$ | $\lambda_m$ | $V_{m-2}\vert_{2I}$ | $V_m\vert_{2I}$ | Combined $2I$ content | $R_0$? | $R_3 = \mathrm{Sym}^2 Q$? | $R_4 = \mathrm{Sym}^2 Q'$? |
 |---|---|---|---|---|---|---|---|
-| 1 | $4/R^2$ | $R_0$ | $R_3$ | $R_0,\; R_3$ | ✓ | ✓ | — |
-| 2 | $9/R^2$ | $R_1$ | $R_6$ | $R_1,\; R_6$ | — | — | — |
-| 3 | $16/R^2$ | $R_3$ | $R_7$ | $R_3,\; R_7$ | — | ✓ | — |
-| 4 | $25/R^2$ | $R_6$ | $R_8$ | $R_6,\; R_8$ | — | — | — |
-| 5 | $36/R^2$ | $R_7$ | $R_5 \oplus R_4$ | $R_7,\; R_5,\; R_4$ | — | — | ✓ |
+| 2 | $4/R^2$ | $R_0$ | $R_3$ | $R_0,\; R_3$ | ✓ | ✓ | — |
+| 3 | $9/R^2$ | $R_1$ | $R_6$ | $R_1,\; R_6$ | — | — | — |
+| 4 | $16/R^2$ | $R_3$ | $R_7$ | $R_3,\; R_7$ | — | ✓ | — |
+| 5 | $25/R^2$ | $R_6$ | $R_8$ | $R_6,\; R_8$ | — | — | — |
+| 6 | $36/R^2$ | $R_7$ | $R_5 \oplus R_4$ | $R_7,\; R_5,\; R_4$ | — | — | ✓ |
 
-Each vacuum requires its adjoint representation to appear in the combined column. The trivial vacuum ($\mathrm{ad} = 3 \times R_0$: trivial $2I$-action on $\mathfrak{su}(2)$) requires $R_0$; the standard vacuum ($\mathrm{ad} = R_3$) requires $R_3$. Both pass at $k = 1$. The Galois vacuum ($\mathrm{ad} = R_4$) requires $R_4$, which is absent at $k = 1$ through $k = 4$ and first appears at $k = 5$. Four levels are filtered. The computation is finite and verifiable from the character table of $2I$.
+Each vacuum requires its adjoint representation to appear in the combined column. The trivial vacuum ($\mathrm{ad} = 3 \times R_0$: trivial $2I$-action on $\mathfrak{su}(2)$) requires $R_0$; the standard vacuum ($\mathrm{ad} = \mathrm{Sym}^2 Q = R_3$) requires $R_3$. Both pass at $m = 2$. The Galois vacuum ($\mathrm{ad} = \mathrm{Sym}^2 Q' = R_4$) requires $R_4$, which is absent at $m = 2$ through $m = 5$ and first appears at $m = 6$. Four levels are filtered. The computation is finite and verifiable from the character table of $2I$.
 
 ### Gap values
 
-Trivial and standard vacua: first allowed mode at $k = 1$:
+The lowest coexact level on $S^3$ is $m = 2$, so every vacuum's gap is at least $4/R^2$: that floor is the baseline. Above it, an adjoint at McKay distance $d$ first appears at level $m = \max(2, d)$, and the gap is $m^2/R^2$:
 
-$$\Delta^2 = \frac{(1+1)^2}{R^2} = \frac{4}{R^2}$$
-
-Galois vacuum: first allowed mode at $k = 5$:
-
-$$\Delta^2 = \frac{(5+1)^2}{R^2} = \frac{36}{R^2}$$
-
-The $k = 5$ entry is read directly from the table above: $R_4$ is absent from the combined $2I$ content at every level below $k = 5$.
-
-| Vacuum | Adjoint | First allowed k | Gap | Enhancement |
+| Vacuum | Adjoint | distance $d$ | first level $m$ | gap |
 |---|---|---|---|---|
-| $\rho_{\mathrm{triv}}$ | trivial ($R_0^{\oplus 3}$) | 1 | $4/R^2$ | 1x |
-| $\rho_{\mathrm{std}}$ | 3a ($R_3$) | 1 | $4/R^2$ | 1x |
-| $\rho_{\mathrm{gal}}$ | 3b ($R_4$) | 5 | $36/R^2$ | 9x |
+| $\rho_{\mathrm{triv}}$ | $R_0$ | 0 | 2 (floor) | $4/R^2$ |
+| $\rho_{\mathrm{std}}$ | $\mathrm{Sym}^2 Q = R_3$ | 2 | 2 | $4/R^2$ |
+| $\rho_{\mathrm{gal}}$ | $\mathrm{Sym}^2 Q' = R_4$ | 6 | 6 | $36/R^2$ |
 
-The level index gap is topological: the Galois vacuum is filtered through four empty levels because $R_4$ sits at graph distance 6 from the trivial node. The ratio $9 = (5+1)^2/(1+1)^2$ uses the round-metric eigenvalue formula and is metric-dependent. The mass hierarchy between generations follows from this filter. Each vacuum accesses different levels of the McKay decomposition. The Galois vacuum sees the largest gap. Vacuum-to-generation assignment is open; no universal mass hierarchy holds across irreps.
+Trivial and standard sit at the floor; the Galois adjoint clears it and is pushed to $6^2 = 36$. The ninefold enhancement is the Galois-over-floor ratio, $(6/2)^2 = 9$, and $R_4$ is absent from the combined content at every level below $m = 6$. These gaps are eigenvalues ($\omega^2 = \lambda$, §I), so the physical mode masses are $\sqrt{\lambda} = 2/R$ and $6/R$: the 9× in eigenvalue is 3× in mass. The level index is topological (the Galois adjoint sits at graph distance 6); the eigenvalue scale is metric-dependent (the round-metric formula $\lambda_m = m^2/R^2$). Vacuum-to-generation assignment is open; no universal mass hierarchy holds across irreps.
 
 ## IV. Three Pillars
 
