@@ -112,23 +112,25 @@ The spectral gap result rests on three independent arguments, each verifiable wi
 |---|---|---|
 | Curvature floor | Riemannian geometry (Weitzenböck) | $\lambda \geq 2/R^2$ for all coexact gauge fluctuations around any flat connection on any $S^3$ quotient. The gap exists. |
 | Vacuum isolation | Algebraic topology | Finiteness of $\pi_1 = 2I$ gives a finite moduli space. $H^1 = 0$ at each flat connection: no moduli, no massless modes. |
-| Spectral computation | Finite group theory (McKay) | Explicit gap values at each vacuum. Icosahedral filtering at the Galois sector produces the 9x enhancement. |
+| Spectral computation | Finite group theory (McKay) | Explicit gap values at each vacuum. Icosahedral filtering at the Galois sector produces the 9× enhancement. |
 
 ### What is topological vs metric-dependent
 
-The existence of the gap, the discreteness of vacua, the vanishing $H^1$, and the number of filtered levels are all topological. The 9x enhancement ratio and the numerical value of $\lambda_{\min}$ are metric-dependent, following from the round-metric eigenvalue formula $\lambda_m = m^2/R^2$.
+The existence of the gap, the discreteness of vacua, the vanishing $H^1$, and the number of filtered levels are all topological. The 9× enhancement ratio and the numerical value of $\lambda_{\min}$ are metric-dependent, following from the round-metric eigenvalue formula $\lambda_m = m^2/R^2$.
 
 ### Connection to MIT
 
-Within Mode Identity Theory, $R$ is fixed by cosmological parameters, making $\Delta^2 = 4/R^2$ a determinate physical constant. The same positive curvature $\mathrm{Ric}(S^3) = 2/R^2$ that guarantees confinement here enters the Gauss-Codazzi conversion that produces Λ. One geometry, two consequences: the cosmological constant and the spectral gap share a common origin in the curvature of $S^3$.
+Within Mode Identity Theory, $R$ is fixed by cosmological parameters, making $\Delta^2 = 4/R^2$ a determinate physical constant. The same positive curvature $\mathrm{Ric}(S^3) = 2/R^2$ that guarantees confinement here enters the Gauss conversion that produces Λ. One geometry, two consequences: the cosmological constant and the spectral gap share a common origin in the curvature of $S^3$.
 
 The $2I$ structure performs three roles: it partitions phase space into the 120-domain (the scaling law), it filters gauge fluctuations into three isolated vacua with computed spectral gaps (this result), and it provides the spectral geometry whose McKay multiplicities are the $E_8$ root system.
 
-The same McKay filtering, applied to the trivial representation $R_0$ rather than the adjoint, determines the scalar harmonic spectrum on $S^3/2I$. Scalar harmonics on $S^3$ are graded by polynomial degree $N = 0, 1, 2, \ldots$ with eigenvalue $N(N+2)/R^2$. The center $\{-1\} \in 2I$ acts on degree $N$ by $(-1)^N$, restricting $R_0$-invariants to even $N$. Among these, the Molien series
+### A parallel gap in the scalar sector
+
+The same McKay filtering, applied to the trivial representation $R_0$ rather than the adjoint, governs a separate operator: the scalar harmonics on $S^3/2I$, graded by polynomial degree $N$, a separate index from the gauge level $m$. This is a distinct computation from the gauge gap above, sharing only the mechanism. Scalar harmonics on $S^3$ have eigenvalue $N(N+2)/R^2$ for $N = 0, 1, 2, \ldots$. The center $\{-1\} \in 2I$ acts on degree $N$ by $(-1)^N$, restricting $R_0$-invariants to even $N$. Among these, the Molien series
 
 $$P(t) = \frac{1 - t^{60}}{(1 - t^{12})(1 - t^{20})(1 - t^{30})}$$
 
-shows the first nontrivial invariant at $N = 12$. Five even-degree shells ($N = 2, 4, 6, 8, 10$) are empty. The mechanism parallels the gauge sector: the McKay recursion walks along the $E_8$ graph, and the trivial representation does not reappear until the walk returns after twelve steps. The last empty shell ($N = 10$) has characteristic multipole $\ell_{\mathrm{char}} = \sqrt{N(N+2)}\,\chi_{*}/R \approx 29$; the first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. The Molien gap produces a mode density deficit below $\ell \lesssim 30$, matching the observed CMB low-ℓ power suppression.
+shows the first nontrivial invariant at $N = 12$. Five even-degree shells ($N = 2, 4, 6, 8, 10$) are empty. The mechanism parallels the gauge sector: the McKay recursion walks along the $E_8$ graph, and the trivial representation does not reappear until the walk returns after twelve steps. The last empty shell ($N = 10$) has characteristic multipole $\ell_{\mathrm{char}} = \sqrt{N(N+2)}\,\chi_{*}/R \approx 29$; the first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. The Molien gap produces a mode-density deficit for $\ell \lesssim 30$, a candidate geometric source for the observed CMB low-ℓ suppression.
 
 ## V. Falsification
 
@@ -138,19 +140,19 @@ Every prediction is checkable by finite computation.
 |---|---|
 | 3 conjugacy classes in $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$ | Additional class constructed, or standard and Galois proved conjugate |
 | $H^1(M; \mathrm{ad}\ \rho) = 0$ at irreducible flats | Nonzero cohomology demonstrated |
-| First 3b appearance at $k = 5$ ($R_4$ first in $V_6\vert_{2I}$) | Character sum yields $R_4$ at lower $k$ |
-| Galois gap at $k = 5$ | Coexact 1-form of 3b type found at lower $k$ |
+| First $\mathrm{Sym}^2 Q'$ appearance at $m = 6$ ($R_4$ first in $V_6\vert_{2I}$) | Character sum yields $R_4$ at lower $m$ |
+| Galois gap at $m = 6$ | Coexact 1-form of $\mathrm{Sym}^2 Q'$ type found at lower $m$ |
 
 ### Physical predictions (conditional on compact topology)
 
 | Prediction | Test |
 |---|---|
 | Spectral gap scales as $1/R^2$ | Lattice Yang-Mills on $S^3/2I$ geometry |
-| 9x enhancement at Galois vacuum | Lattice measurement of sector-resolved spectrum |
+| 9× enhancement at Galois vacuum | Lattice measurement of sector-resolved spectrum |
 
 ---
 
-SU(2) Yang-Mills on the Poincaré Homology Sphere has a positive spectral gap. Positive curvature forces it. Three isolated vacua produce three families. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch node of the $E_8$ graph. The level gap is topological; the eigenvalues are geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
+SU(2) Yang-Mills on the Poincaré Homology Sphere has a positive spectral gap. Positive curvature forces it. Three isolated vacua emerge, which MIT reads as three generations. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the distance-6 node of the $E_8$ graph. The level gap is topological; the eigenvalues are geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
 
 *On curved ground, confinement is easy money.*
 
