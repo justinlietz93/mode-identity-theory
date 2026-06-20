@@ -1,4 +1,4 @@
-/ **[`main`](../../README.md)** / **[`working`](../working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** / **[`working`](../working/)** /
 
 ---
 
@@ -420,4 +420,4 @@ The hierarchy is over-determined and the dimensionless ratios are anchor-free. W
 
 ---
 
-/ **[`main`](../../README.md)** / **[`working`](../working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** / **[`working`](../working/)** /
