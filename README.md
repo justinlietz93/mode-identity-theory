@@ -1,4 +1,4 @@
-/ **[`framework`](/files/framework/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`working`](/files/working/)** /
+/ **[`framework`](/files/framework/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** /
 
 ---
 
@@ -205,4 +205,4 @@ Every link between topology and observable is live. The code is the math. There 
 
 ---
 
-/ **[`framework`](/files/framework/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`working`](/files/working/)** /
+/ **[`framework`](/files/framework/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** /
