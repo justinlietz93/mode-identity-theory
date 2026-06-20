@@ -4,7 +4,7 @@
 
 # Easy Money: Yang-Mills on the Poincaré Homology Sphere
 
-[![Yang-Mills](https://img.youtube.com/vi/85xFu2kK6aE/mqdefault.jpg)](https://www.youtube.com/watch?v=85xFu2kK6aE)
+[![Yang-Mills](https://img.youtube.com/vi/dWKXrTIquT8/mqdefault.jpg)](https://www.youtube.com/watch?v=dWKXrTIquT8)
 
 The Millennium Prize asks whether pure Yang-Mills on flat $\mathbb{R}^4$ has a positive mass gap in the full quantum theory. That is open and hard. This page takes its easier cousin: the same gap question on the compact, curved Poincaré Homology Sphere $M = S^3/2I$, at the linearized level, where the answer falls out of the shape.
 
