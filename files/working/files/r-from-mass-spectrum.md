@@ -8,7 +8,7 @@ Working notes on determining the curvature radius R independently of Λ, the CMB
 
 **Status:** EXECUTED (2026-06-15). Order-of-magnitude result. The route runs and genuinely breaks the circularity, but the precision ceiling is about 1 order of magnitude, not the few percent originally targeted. Electron and muon give R ≈ 20 Gpc, Λ ≈ 8 × 10⁻⁵⁴ m⁻², about 14× below the observed 1.11 × 10⁻⁵². No pair of assigned fermions beats this; the floor is structural. See the Result section.
 
-**Why this matters:** ΛR² = 3 is derived from the postulate (eigenvalue + Gauss equation). The coefficient 3 is the content. But Λ = 3/R² produces a number only with an independent R. Every previous route to R is either circular (de Sitter: R = √(3/Λ), feeds Λ back) or excluded (Molien gap: R = 5.3 Gpc, killed by the curved projection). The mass spectrum does determine R independently of Λ, the CMB, and the de Sitter relation, so the circularity is genuinely broken: Λ = 3/R² becomes a forward prediction from particle physics. The prediction lands within about 1 order of magnitude of observed, a real result at that bar but not the percent-level number Sections VI and VIII originally claimed.
+**Why this matters:** ΛR² = 3 is derived from the postulate (eigenvalue + Gauss equation). The coefficient 3 is the content. But Λ = 3/R² produces a number only with an independent R. Every previous route to R is either circular (de Sitter: R = √(3/Λ), feeds Λ back) or not an independent route to R (the Molien gap fixes the low-ℓ deficit boundary, a surviving spectral fact, but does not by itself pin R). The mass spectrum does determine R independently of Λ, the CMB, and the de Sitter relation, so the circularity is genuinely broken: Λ = 3/R² becomes a forward prediction from particle physics. The prediction lands within about 1 order of magnitude of observed, a real result at that bar but not the percent-level number Sections VI and VIII originally claimed.
 
 ---
 
@@ -133,7 +133,7 @@ The forward chain runs:
 
 $$m_e, m_\mu \text{ (measured)} \xrightarrow{\text{mass formula}} R \xrightarrow{\Lambda R^2 = 3} \Lambda$$
 
-Λ is a prediction from particle physics: no CMB input, no de Sitter circularity, no curved projection. The coefficient 3 is derived from the postulate (eigenvalue + Gauss); the scale R is derived from the mass spectrum. This is a genuine, independent prediction of Λ from topology plus two measured masses.
+Λ is a prediction from particle physics: no CMB input, no de Sitter circularity. The coefficient 3 is derived from the postulate (eigenvalue + Gauss); the scale R is derived from the mass spectrum. This is a genuine, independent prediction of Λ from topology plus two measured masses.
 
 The realized precision is order of magnitude, not percent. The few-percent target stated in the original draft was wrong. The McKay lever for the electron-muon pair is weak (Δd = 1), so the formula's few-percent ratio accuracy amplifies by 60× into a roughly 1-order-of-magnitude uncertainty on Λ (executed value Λ ≈ 8 × 10⁻⁵⁴, about 14× below observed; Result section). The honest claim is "Λ within about 1 order of magnitude of observed, from particle physics alone," which is the success at the bar the structure supports.
 

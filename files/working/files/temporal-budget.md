@@ -331,8 +331,8 @@ The apparent phantom crossing is a structural artifact of projecting a non-phant
 |---|---|---|
 | CMB $\ell_\text{cut}$ | ~32 (Molien gap) | no cutoff |
 | $C_2/C_3$ | 0.13 | ~0.3 |
-| Parity $R_{TT}$ | 0.81 | ~1 |
-| $\Delta\theta_{23}$ ($\ell=2$, $\ell=3$ alignment) | ~8.6° | random |
+
+*Parity ($R_{TT}$) and the $\ell = 2/3$ alignment are dropped here: chirality severs them from this topology (see [CMB Anomalies](../../cosmos/files/cmb-anomalies.md)).*
 
 ### H. Clock-setting logic
 
