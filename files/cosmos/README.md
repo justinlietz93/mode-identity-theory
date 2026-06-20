@@ -4,7 +4,7 @@
 
 # :ringed_planet: Κόσμος
 
-The cosmos is a finite, static three-sphere of radius $R \approx 5.3\ \text{Gpc}$. Space does not expand. What we read as cosmic evolution is the observer's phase advancing on a standing wave that lives on the temporal edge of a Möbius surface embedded in $S^3$. The cosmological constant $\Lambda$ is the ground eigenvalue of that surface: fixed, epoch-independent. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both measured from the same standing wave.
+The cosmos is a static three-sphere; the redshift is the observer's phase advancing along a standing wave on the temporal edge of a Möbius surface embedded in $S^3$. What the data sees is therefore a flat-FLRW cosmology: the spatial curvature acts as a static boundary condition rather than a Friedmann term, so observable distances follow flat FLRW, the apparent $\Omega_K$ driven to zero, and stay CMB-consistent. The cosmological constant sets a formal de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc; reading the radius off $\Lambda$ that way is circular, so the scale is fixed independently by the coupling and mass-spectrum routes (the open [R problem](../working/files/r-problem.md)). The cosmological constant $\Lambda$ is the ground eigenvalue of that surface: fixed, epoch-independent. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both measured from the same standing wave.
 
 ---
 
@@ -18,9 +18,7 @@ Einstein introduced $\Lambda$ in 1917, together with the equations capable of su
 
 ---
 
-**Non-orientable topology.** The CMB is not an image viewed through topology; it is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $\ell$, odd-over-even parity, and an aligned quadrupole and octupole. For two decades, each has been called a fluke. They are three projections of one structure. Suppression is global: the cavity's eigenvalues. Parity and alignment are local: the cost of observing from somewhere.
-
-What we called the axis of evil may be the universe revealing the geometry of its first light.
+**Non-orientable topology.** The CMB is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $\ell$, odd-over-even parity, and an aligned quadrupole and octupole. The low-$\ell$ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment come from elsewhere: grading even and odd $\ell$ would take an orientation-reversing identification, which a chiral space like $S^3/2I$ does not carry, so they call for a non-orientable manifold or parity-violating microphysics.
 
 ***[CMB Anomalies](files/cmb-anomalies.md)***
 
@@ -84,7 +82,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | +0.11 (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
-| [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ⚠ in limbo |
+| [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 28$ | deficit below $\ell \lesssim 30$ | ✓ |
 | [↗](files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | ⚠ in limbo |
 | [↗](files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
 | [↗](files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} \approx 0.81$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
