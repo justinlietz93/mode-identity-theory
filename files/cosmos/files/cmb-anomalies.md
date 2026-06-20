@@ -6,7 +6,7 @@
 
 [![CMB Anomalies](https://img.youtube.com/vi/B-cQsP-ul_E/mqdefault.jpg)](https://www.youtube.com/watch?v=B-cQsP-ul_E)
 
-> **Status update (June 2026).** An internal review withdrew the four-anomaly claim on this page, pending rebuild. The shell-to-multipole projection fails at the radius this page requires: with $R \approx 5.3$ Gpc taken as physical spatial curvature, the radial map $D_M = R\sin(\chi/R)$ pushes the acoustic-peak structure to the wrong scale (first peak near ℓ ≈ 42), so the low-ℓ deficit and the quadrupole-suppression mapping do not survive. Separately, $S^3/2I$ is chiral (it admits no orientation-reversing self-isometry), so the Möbius identification cannot grade the invariant mode spectrum into even and odd ℓ; this removes the parity sign, the parity magnitude, and the quadrupole-octupole alignment mechanisms. What survives is narrower: the Molien shell structure as a spectral fact (prior work), and chirality itself as a clean no-go. Treat the predictions below as in limbo while the framework is rebuilt from the eigenvalue outward.
+> **Status update (June 2026).** This page is being rebuilt to the current line (see [the R problem](../../working/files/r-problem.md)). The operative cosmology is flat FLRW and CMB-consistent: spatial curvature acts as a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero, and the earlier exclusion ("$R \approx 5.3$ Gpc as physical curvature moves the first acoustic peak to ℓ ≈ 42") was a coordinate error. On that footing the **low-ℓ Molien deficit survives** as a prediction (boundary near ℓ ≈ 28), and the Molien shell structure stands as a spectral fact. The parity sign, parity magnitude, and quadrupole-octupole alignment belong elsewhere: grading even and odd ℓ would take an orientation-reversing identification, which a chiral space like $S^3/2I$ does not carry. And $R$ is fixed by the coupling and mass-spectrum routes, the de Sitter relation $R = \sqrt{3/\Lambda}$ being circular. The detailed predictions below predate this correction and are being rebuilt accordingly.
 
 Four large-angle CMB features have persisted across COBE, WMAP, and Planck with no explanation within ΛCDM. The Möbius embedding in S³ restricts the mode spectrum at large scales through the Molien gap of the binary icosahedral group, breaks even-odd symmetry through the non-orientable identification, suppresses the quadrupole through radial projection, and defines a preferred axis as the twist normal. What has been called the "axis of evil" may be the universe revealing the geometry of its beginning.
 
@@ -150,7 +150,7 @@ Observed: R<sub>TT</sub> ≈ 0.81.
 
 | Feature | Topology predicts | CMB measures | Agreement | Status |
 |---|---|---|---|---|
-| Mode density transition | Molien gap ends at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ~1 multipole | prediction |
+| Mode density transition | Molien gap ends at $\ell \approx 28$ | deficit below $\ell \lesssim 30$ | ~1 multipole | prediction |
 | Quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% | prediction |
 | Parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ | prediction |
 | Alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | 14% | prediction |
