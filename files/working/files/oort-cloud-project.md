@@ -213,7 +213,7 @@ MIT reading: if the observer's coherence domain is anchored to the ecliptic (Pie
 
 Prediction (if the chain holds): an observer in another stellar system would resolve CMB features through THEIR local symmetry plane. Not a different CMB. The same wave, witnessed from a different stand. (See Section III: coherence domains vary the lens, not the light.)
 
-Status: DOWNSTREAM. Requires Pieces A, B, and C. If they lock, this follows. If any fail, no foundation.
+Status: DOWNSTREAM, with one route now closed. The topological avenue for this alignment, even/odd-ℓ grading on $S^3/2I$, is dead: the quotient is chiral, carrying no orientation-reversing identification (see [CMB Anomalies](../../cosmos/files/cmb-anomalies.md), [R problem](r-problem.md)). The locality reading above is what remains, it competes with the mundane ecliptic-systematics explanation, and it still requires Pieces A, B, and C. If they lock, this follows; if any fail, no foundation.
 
 ### Piece F: Galactic Year $\approx$ cosmic chronon
 
