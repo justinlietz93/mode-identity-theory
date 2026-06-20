@@ -293,7 +293,7 @@ These are different operations doing different jobs. Embedding a 2-surface in th
 
 ### [Confinement](../spectrum/files/yang-mills.md)
 
-Positive Ricci curvature on $S^3$ means every coexact gauge fluctuation around a flat connection has a minimum eigenvalue. The Weitzenböck identity on the Hodge Laplacian gives $\lambda \geq 2/R_\Lambda^2 > 0$. The mass gap exists and is at least $2/R_\Lambda^2$; the actual gap at the trivial and standard vacua is $4/R_\Lambda^2$. The gap exists geometrically, at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale.
+Positive Ricci curvature on $S^3$ forces a positive gap on the coexact gauge fluctuations around a flat connection (the twisted harmonic 1-forms vanish, $H^1 = 0$). The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $4/R_\Lambda^2$ at the trivial and standard vacua, and the Galois vacuum is the one exception (below). The gap is geometric, at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale.
 
 ### Three Generations
 
@@ -305,7 +305,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 | Standard | $4/R_\Lambda^2$ | Irreducible connection |
 | Galois | $36/R_\Lambda^2$ ($9\times$) | Galois conjugate connection |
 
-Three topological vacua give three particle generations; the count is forced. Trivial and Standard are degenerate in gap, while Galois is distinguished by the 9× enhancement. The specific generation-to-vacuum mapping is open.
+Three topological vacua give three particle generations; the count is forced. Trivial and Standard are degenerate in gap, while Galois is distinguished by the 9× enhancement: the gap is the square of the adjoint's McKay distance, and the Galois adjoint sits at distance 6 against the standard adjoint's 2, so $36/4 = (6/2)^2 = 9$. The Galois vacuum is a genuine third connection, not a twist of the standard one, because $2I$ is perfect (equal to its own commutator subgroup): its only one-dimensional character is trivial, so the standard connection $Q$ and its Galois conjugate $Q'$ stay distinct under every twist. The specific generation-to-vacuum mapping is open.
 
 ### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
@@ -322,7 +322,7 @@ $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{
 
 Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. Lined up against the measured fermions, 7 of the 9 charged fermions land within a factor of 3 of an entry, with the down quark outside and charm having no entry at all, and the muon and strange sharing a single entry at rank 15. That is a comparison, not a prediction, and it is softer than the old "9 of 10" headline, which added the three unmeasured neutrinos and reused entries more freely. It is also helped by density: wherever the charged entries cluster, the factor-of-3 window is wider than the gaps between them, so a measured mass sits near some entry largely by counting. Whether the specific torsion values add fit beyond that quantum-number-constrained density is the open question: a random reassignment of the torsions, holding the quantum-number structure fixed, should reproduce most of the hit rate, and the pending null test will measure how much. The entry-to-fermion assignment is read against the measured masses, not fixed before them. What the topology fixes without the data is the count and the quantum-number content of each entry; the masses are presented as the comparison they are.
 
-The Yang-Mills gap above (geometry, $\sim 1/R_\Lambda^2$ by Weitzenböck) and this mass ladder ($(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$) share the McKay structure but are different objects: the gap is proved, the ladder is the comparison, and the one does not lend its standing to the other.
+The Yang-Mills gap above (geometry, $\sim 1/R_\Lambda^2$ from the form spectrum) and this mass ladder ($(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$) share the McKay structure but are different objects: the gap is proved, the ladder is the comparison, and the one does not lend its standing to the other.
 
 ## :small_red_triangle: [One Identity](../spectrum/files/mass-spectrum.md)
 
