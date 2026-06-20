@@ -116,7 +116,7 @@ The spectral gap result rests on three independent arguments, each verifiable wi
 
 ### What is topological vs metric-dependent
 
-The existence of the gap, the discreteness of vacua, the vanishing $H^1$, and the number of filtered levels are all topological. The 9x enhancement ratio and the numerical value of $\lambda_{\min}$ are metric-dependent, following from the round-metric eigenvalue formula $\lambda_k = (k+1)^2/R^2$.
+The existence of the gap, the discreteness of vacua, the vanishing $H^1$, and the number of filtered levels are all topological. The 9x enhancement ratio and the numerical value of $\lambda_{\min}$ are metric-dependent, following from the round-metric eigenvalue formula $\lambda_m = m^2/R^2$.
 
 ### Connection to MIT
 
