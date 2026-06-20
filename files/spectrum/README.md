@@ -12,7 +12,7 @@ The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises
 
 ***[Yang-Mills](files/yang-mills.md)***
 
-[![Yang-Mills](https://img.youtube.com/vi/85xFu2kK6aE/mqdefault.jpg)](https://www.youtube.com/watch?v=85xFu2kK6aE)
+[![Yang-Mills](https://img.youtube.com/vi/dWKXrTIquT8/mqdefault.jpg)](https://www.youtube.com/watch?v=dWKXrTIquT8)
 
 ---
 
