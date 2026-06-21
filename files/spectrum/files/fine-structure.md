@@ -46,7 +46,7 @@ The well label (13) stays the same. The grid denominator changes: $120 \to 60$. 
 
 For dimensional observables, $n = 1, 2, 3$ counts whole manifold embeddings. Each floor suppresses by $\sqrt{\Omega_\Lambda}$. Dimensional observables count whole floors because they carry Planck dimensions (powers of $\ell_P$, $t_P$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. 
 
-The bosonic grid has 60 positions, so the minimum resolved step is $1/60 = 1/\lvert I \rvert$, and one grid step of the hierarchy gives $\Omega_\Lambda^{-1/60}$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, producing 9/12 SM fermion masses within a factor of 3.
+The bosonic grid has 60 positions, so the minimum resolved step is $1/60 = 1/\lvert I \rvert$, and one grid step of the hierarchy gives $\Omega_\Lambda^{-1/60}$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, producing 9 of 10 SM-assigned fermion masses within a factor of 3.
 
 ## III. The formula
 
@@ -74,7 +74,7 @@ At the Planck floor ($\Omega_\Lambda \to 1$), the suppression vanishes and $\alp
 
 ### The derivation chain
 
-These three ingredients — matter well, bosonic grid, fractional exponent — map onto the following chain from topology to output:
+These three ingredients (matter well, bosonic grid, fractional exponent) map onto the following chain from topology to output:
 
 | # | Input | Output | Status |
 |---|---|---|---|
@@ -163,7 +163,7 @@ $$\alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.03
 
 Observed: 0.0338. Agreement: 0.4%.
 
-**The Plato twist.** The correction $\cos(\pi/10) \approx 0.951$ arises from the dodecahedral geometry of $S^3/2I$. The dodecahedron (dual to the icosahedron) has angular defect $\pi/5$ at each vertex. The Möbius $\mathbb{Z}_2$ holonomy halves the defect to $\pi/10$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
+**The Plato twist.** The correction $\cos(\pi/10) \approx 0.951$ arises from the dodecahedral geometry of $S^3/2I$. The dodecahedron (dual to the icosahedron) has angular defect $\pi/5$ at each vertex. The Möbius $Z_2$ holonomy halves the defect to $\pi/10$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
 
 In the stabilizer framework, the Plato twist encodes how vertex geometry ($Z_5$) reaches the observer through the Möbius twist ($Z_2$). Color ($Z_3$) transmits cleanly through the surface, which is why the strong and electromagnetic forces carry no twist correction. The vertex information passes through the non-orientable identification, picking up $\cos(\pi/10) = \sqrt{(2+\varphi)}/2$ as the projection factor. The golden ratio $\varphi$ enters from $Z_5$ (icosahedral vertex symmetry) and the factor 2 from $Z_2$ (edge/Möbius holonomy). The twist correction is the vertex-edge stabilizer interface.
 
@@ -249,7 +249,7 @@ Spinorial content increases. The reverse move (from 2 spinorial slots to 1 boson
 
 In the language of particle physics, the 120/60 entry requires:
 
-1. A **fermionic force carrier** (spinorial phase grid). All known mediators — photon, gluons, W, Z — are spin-1 bosons.
+1. A **fermionic force carrier** (spinorial phase grid). All known mediators (photon, gluons, W, Z) are spin-1 bosons.
 2. A **bosonic confinement target** (bosonic exponent grid). The force would bind or confine integer-spin matter.
 
 This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 superpartners of gauge bosons) mediate forces between scalar partners of fermions (squarks, sleptons). The SUSY force sector maps exactly onto the 120/60 rung: spinorial carriers acting on bosonic matter.

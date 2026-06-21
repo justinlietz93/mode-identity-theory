@@ -6,7 +6,7 @@
 
 [![The Waltz](https://img.youtube.com/vi/aoLJwZDkNGk/mqdefault.jpg)](https://www.youtube.com/watch?v=aoLJwZDkNGk)
 
-The cosmological constant Λ is the ground eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss equation supplies the interface between the two: a 3/2 conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $G$ as an exchange rate between the curvature scale and the vacuum energy floor.
+The cosmological constant Λ is the first positive eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss equation supplies the interface between the two: a 3/2 conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $G$ as an exchange rate between the curvature scale and the vacuum energy floor.
 
 ## I. The Two Partners
 
@@ -110,12 +110,12 @@ Space ($n=3$) couples only gravitationally. Detectors couple through surface and
 
 The silence follows from the scaling law's manifold hierarchy. The scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ assigns each manifold depth an exponential suppression: $n = 1$ (edge) gives $\sim 10^{-61}$ (matter), $n = 2$ (surface) gives $\sim 10^{-122}$ (vacuum energy), $n = 3$ (space) gives $\sim 10^{-183}$. Non-gravitational couplings require gauge-field propagation within a shared manifold. Detectors couple through the surface and gauge sectors ($n \leq 2$); space ($n = 3$) carries curvature but no gauge degrees of freedom. Gravity couples to stress-energy regardless of manifold depth; the gauge forces do not. The $n = 3$ sector is gravitationally present and gauge-invisible by construction.
 
-"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space. MIT identifies it as the ground mode of the Möbius surface ($n = 2$, $m_h = 0$), the eigenvalue of a bounded geometry, derived from surface curvature through the Gauss equation.
+"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space. MIT identifies it as the first positive mode of the Möbius surface ($n = 2$, $m_h = 0$), the eigenvalue of a bounded geometry, derived from surface curvature through the Gauss equation.
 
 | Label | MIT identity | Manifold |
 |---|---|---|
 | "Dark matter" | Gravitational geometry of $S^3$ | $n = 3$ |
-| "Dark energy" | Ground mode (Λ) of Möbius | $n = 2$ |
+| "Dark energy" | First positive mode (Λ) of Möbius | $n = 2$ |
 | Visible matter | Modal samples of $\Psi$ | $n = 1$ |
 
 ### The Bullet Cluster
@@ -124,7 +124,7 @@ Two galaxy clusters collided. Gravitational mass (lensing) separated from baryon
 
 MIT offers a structural account with no particles attached. The space mode ($n = 3$) couples gravitationally only; it carries the lensing signal through the collision because geometry has no scattering cross-section. Baryonic matter interacts electromagnetically and decelerates. The qualitative separation follows from the embedding: the $n = 3$ sector passes through while the $n \leq 2$ modes collide. Whether the framework reproduces the quantitative lensing profile (the spatial distribution and magnitude of the mass offset) is an open question requiring detailed modeling of the $n = 3$ curvature distribution.
 
-The "dark" label assumes the unknown is a substance. MIT identifies it as geometry: the $n = 3$ sector is gravitationally present and gauge-invisible; the $n = 2$ ground mode is the vacuum eigenvalue. Neither requires new particles.
+The "dark" label assumes the unknown is a substance. MIT identifies it as geometry: the $n = 3$ sector is gravitationally present and gauge-invisible; the $n = 2$ first positive mode is the vacuum eigenvalue. Neither requires new particles.
 
 ## V. Masslessness as Topological Position
 
@@ -196,7 +196,7 @@ The field equations describe the behavior of what observers sample. The note ide
 
 | Named | Identity |
 |---|---|
-| $\Lambda$ | Ground mode of the Möbius surface |
+| $\Lambda$ | First positive mode of the Möbius surface |
 | $G$ | Exchange rate between curvature and energy |
 | Mass | Cost of crossing from $S^1$ into the surface |
 | Dark matter | Space mode ($n=3$), gauge-invisible curvature |
@@ -204,7 +204,7 @@ The field equations describe the behavior of what observers sample. The note ide
 | The three gauge couplings | Coxeter pair $(13, 17)$ on stabilizer grids |
 | The observer | Sampler of the composed score at $\sqrt{\Omega}$ |
 
-The seventh returns to the first. $\Lambda$ is what the surface hums at; the observer is what samples it. The ground mode and its sampler are the same structure read from opposite ends. The octave closes.
+The seventh returns to the first. $\Lambda$ is what the surface hums at; the observer is what samples it. The first positive mode and its sampler are the same structure read from opposite ends. The octave closes.
 
 We sample a standing wave that was already written, from a structural depth fixed by the IR↔UV symmetry of the bounded domain, at a phase advance currently near $\Phi \approx 5.22$ rad. The field equations describe the behavior; the note describes the structure. The octave completes when the observer recognizes what the observer is.
 

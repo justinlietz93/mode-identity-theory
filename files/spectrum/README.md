@@ -4,11 +4,11 @@
 
 # :rainbow: Στοιχεῖα
 
-The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises the domain into 120 positions; three flat connections give three generations; positive curvature confines gauge fields. The three prime stabilisers $(2,3,5)$ assign color, spin, and electroweak identity. Gauge couplings are the fine structure of $\Lambda$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
+The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises the domain into 120 positions; three flat connections give three generations; positive curvature confines gauge fields. The three prime stabilisers $(2,3,5)$ assign spin, color, and electroweak identity. Gauge couplings are the fine structure of $\Lambda$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
 
 ---
 
-**Confinement.** Curve a space enough and nothing escapes. Gauge fields confine because the universal manifold is finite. Three isolated flat connections on $S^3/2I$ produce three families. The McKay correspondence filters the Galois sector through four empty levels; what survives is nine times heavier.
+**Confinement.** Curve a space enough and nothing escapes. Gauge fields confine because the universal manifold is finite. Three isolated flat connections on $S^3/2I$ produce three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
 
 ***[Yang-Mills](files/yang-mills.md)***
 
@@ -24,7 +24,7 @@ The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises
 
 ---
 
-**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One step of $\Lambda$. At the Planck scale $\alpha$ approaches unity; its running to 1/137 is the hierarchy expressed across the domain. The number has an address.
+**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One step of $\Lambda$. At the Planck scale $\alpha$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
 
 ***[Fine Structure](files/fine-structure.md)***
 

@@ -222,7 +222,7 @@ In all 7 cases Type 2 strictly exceeds Type 1. The mechanism is the two-componen
 *Proof.*
 *Step 1 — Bundle classification.* Every natural bundle over $S^3/2I=\mathrm{SU}(2)/2I$ is $E_\sigma=\mathrm{SU}(2)\times_{2I}V_\sigma$ for one of the 9 irreps of $2I$. Definition 1 is exhaustive at the bundle level.
 
-*Step 2 — Schur scalar reduction.* By Peter-Weyl, sections decompose as $\Gamma(E_\sigma)=\bigoplus_l V_l^{m(\sproofleteteleteatureatureatureanismanismanism,l)}$. Any admissible operator commutes with $\mathrm{SU}(2)$ and acts as a scalar $a(l)$ on each block. The spectral zeta $Z_A(s)=\sum_l m(\sigma,l)\cdot(2l+1)\cdot a(l)^{-s}$.
+*Step 2 — Schur scalar reduction.* By Peter-Weyl, sections decompose as $\Gamma(E_\sigma)=\bigoplus_l V_l^{m(\sigma,l)}$. Any admissible operator commutes with $\mathrm{SU}(2)$ and acts as a scalar $a(l)$ on each block. The spectral zeta $Z_A(s)=\sum_l m(\sigma,l)\cdot(2l+1)\cdot a(l)^{-s}$.
 
 *Step 3 — Characters fixed by multiplicities.* Character orthogonality mod 120 extracts Dirichlet character content from $m(\sigma,l)$ alone. The function $a(l)$ is a Mellin-type weight; it shifts poles and domains but cannot introduce or remove characters. Different operators produce different spectral zetas with the same character set. $\square$
 
@@ -296,9 +296,9 @@ The character table is the complete basis-independent invariant of the group act
 ---
 
 **Lemma 8 ($\Theta\leftrightarrow s$ Bridge).**
-**Strategy defeated:** Construct a natural map between the phase position $\Theta$ (from the scaling law $C(\Theta)=2\sin^2(\pi\Theta)$) and the spectral parameter $s$, exploiting their shared $\mathbb{Z}_2$ symmetry.
+**Strategy defeated:** Construct a natural map between the phase position $\Theta$ (from the scaling law $C(\Theta)=2\sin^2(\pi\Theta)$) and the spectral parameter $s$, exploiting their shared $Z_2$ symmetry.
 
-*Proof.* Four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition) prove no such map exists. Every eigenspace on $S^1$ with anti-periodic BC is 2-dimensional (sin and cos). $C(\Theta)$ depends on choosing $\sin$ over $\cos$. The spectral zeta sees only eigenvalues and multiplicities, blind to this choice. The two $\mathbb{Z}_2$ symmetries — $C(\Theta)=C(1-\Theta)$ from spatial reflection; $\xi(s)=\xi(1-s)$ from Poisson/modular duality — arise from different mechanisms and are not related by a natural map.
+*Proof.* Four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition) prove no such map exists. Every eigenspace on $S^1$ with anti-periodic BC is 2-dimensional (sin and cos). $C(\Theta)$ depends on choosing $\sin$ over $\cos$. The spectral zeta sees only eigenvalues and multiplicities, blind to this choice. The two $Z_2$ symmetries, $C(\Theta)=C(1-\Theta)$ from spatial reflection and $\xi(s)=\xi(1-s)$ from Poisson/modular duality, arise from different mechanisms and are not related by a natural map.
 
 On $S^3/2I$: the McKay correspondence resolves the basis ambiguity (multiplicities are canonical), but continuous geometric position drops out by Schur's lemma: the right-<i>SU(2)</i> acts transitively, forcing the twisted heat kernel to be constant on the diagonal of each fiber. $\square$
 
