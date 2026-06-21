@@ -269,10 +269,11 @@ The couplings then follow one assignment rule: the phase slot inherits the grid 
 | EM ($\alpha$) | 60R (bosonic carrier) | 60R (bosonic charge) | $C(13/60) \cdot \Omega_\Lambda^{-1/60}$ | 0.00733 | 0.00730 | 0.5% |
 | Strong ($\alpha_s$) | 60R (bosonic carrier) | 120 (confined fermions) | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | 0.1162 | 0.1179 | 1.4% |
 | Weak ($\alpha_W$) | 120 (spinorial carrier) | 120 (fermion transitions) | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% |
+| SUSY rung (vacant) | 120 (spinorial carrier) | 60R (bosonic target) | none: would reverse $\psi \to \lvert\psi\rvert^2$ | — | no superpartners | structurally closed |
 
-The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). 
+The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder, monotone in spinorial content. There are only four ways to pair a carrier grid with a target grid, and the table shows three of them filled.
 
-The fourth rung (spinorial carrier, bosonic target) is structurally closed: the bosonic projection $\psi \to |\psi|^2$ is non-invertible (both $\psi$ and $-\psi$ map to the same image), and the same non-invertibility grounds the spin-statistics theorem. A coupling running from spinorial carrier to bosonic target would reverse this projection.
+**The fourth rung is supersymmetry's, and it is empty.** The one missing pairing runs a spinorial carrier into a bosonic target: a coupling that turns a fermion into a boson, which is exactly the move a superpartner symmetry asks for. That rung is structurally closed. The bosonic projection $\psi \to |\psi|^2$ is non-invertible, since both $\psi$ and $-\psi$ map to the same image, so nothing runs backward from a bosonic target to a spinorial carrier, and the same non-invertibility is what grounds the spin-statistics theorem. A superpartner coupling needs exactly the pairing the topology forbids, so the gauge ladder has no seat for it: in this reading the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
 
 ### The smooth substrate and its seams
 
@@ -293,11 +294,11 @@ These are different operations doing different jobs. Embedding a 2-surface in th
 
 ### [Confinement](../spectrum/files/yang-mills.md)
 
-Positive Ricci curvature on $S^3$ forces a positive gap on the coexact gauge fluctuations around a flat connection (the twisted harmonic 1-forms vanish, $H^1 = 0$). The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $4/R_\Lambda^2$ at the trivial and standard vacua, and the Galois vacuum is the one exception (below). The gap is geometric, at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale.
+Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps rising until the field snaps. On $S^3$ it is a story about curvature instead. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection: the twisted harmonic 1-forms vanish ($H^1 = 0$), so there is no zero mode for a massless excitation to sit in. The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $4/R_\Lambda^2$ at the trivial and standard vacua, with the Galois vacuum the one exception (below). The gap is geometric, set at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale: the mass gap is built into the shape of the space, not tuned into the dynamics.
 
 ### Three Generations
 
-Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomorphisms from $2I$ into SU(2). Exactly three exist. Each is isolated ($H^1 = 0$): no continuous moduli, no Goldstone bridges between families.
+Why three generations, and not two or seven? Because the space has exactly three ways to hold a flat field still, with no path leading from one to another. Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomorphisms from $2I$ into SU(2), and exactly three exist. Each is isolated ($H^1 = 0$): no continuous moduli, no Goldstone bridges between families.
 
 | Vacuum | Mass gap | Source |
 |---|---|---|
@@ -309,18 +310,19 @@ Three topological vacua give three particle generations; the count is forced. Tr
 
 ### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
-Four factors, each traced independently to the postulate:
+The formula reads left to right as one motion: start at the floor, choose a seat, ride the elevator, then turn the dial. Four factors, each traced independently to the postulate, each doing exactly one thing:
 
 $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)$$
 
-| Factor | Role | Source |
-|---|---|---|
-| $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV | Vacuum energy floor; overall mass scale | Fourth root of $\Lambda$; ground mode of Möbius surface |
-| $C_\text{geom}(\rho)$ | Phase position on the domain | Geometric mean of $C(e/D)$ over Kostant exponents |
-| $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
-| $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; the factor that varies across the three vacua | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
+**The Neutrino Floor.** $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV sets the overall scale. It is not the smallest fermion mass but the floor beneath all of them: the lowest energy the geometry can resolve, the fourth root of $\Lambda$, the ground mode of the Möbius surface. Every mass in the spectrum is built up from this one hum.
 
-Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. Lined up against the measured fermions, 7 of the 9 charged fermions land within a factor of 3 of an entry, with the down quark outside and charm having no entry at all, and the muon and strange sharing a single entry at rank 15. That is a comparison, not a prediction, and it is softer than the old "9 of 10" headline, which added the three unmeasured neutrinos and reused entries more freely. It is also helped by density: wherever the charged entries cluster, the factor-of-3 window is wider than the gaps between them, so a measured mass sits near some entry largely by counting. 
+**The Kostant Sunflower.** $C_\text{geom}(\rho)$ chooses the seat. It is the same phase weight $C(\Theta)$ from the One Equation, read now as the geometric mean of $C(e/D)$ over the Kostant exponents of the irrep $\rho$: which well on the domain the particle occupies.
+
+**The McKay Elevator.** $(\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30}$ raises the seat through orders of magnitude. Each step out along the McKay graph multiplies the mass by a fixed factor, and the denominator is the Coxeter number $h(E_8) = 30$: the same exceptional geometry that selected $2I$ sets the height of one floor.
+
+**The Reidemeister Torsion.** $T^2(\rho \otimes \sigma)$ is the fine dial within a shell, the one factor that changes across the three vacua. It is the torsion of the flat connection, and its single exact ratio, $T^2(R_3)/T^2(R_4) = \varphi^{-4}$, is fixed by the geometry alone.
+
+**What the formula delivers, and what it does not.** Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. Lined up against the measured fermions, 7 of the 9 charged fermions land within a factor of 3 of an entry, with the down quark outside and charm having no entry at all, and the muon and strange sharing a single entry at rank 15. That is a comparison, not a prediction, and it is softer than the old "9 of 10" headline, which added the three unmeasured neutrinos and reused entries more freely. It is also helped by density: wherever the charged entries cluster, the factor-of-3 window is wider than the gaps between them, so a measured mass sits near some entry largely by counting.
 
 Whether the specific torsion values add fit beyond that quantum-number-constrained density is the open question: a random reassignment of the torsions, holding the quantum-number structure fixed, should reproduce most of the hit rate, and the pending null test will measure how much. The entry-to-fermion assignment is read against the measured masses, not fixed before them. What the topology fixes without the data is the count and the quantum-number content of each entry; the masses are presented as the comparison they are.
 
@@ -330,19 +332,22 @@ The Yang-Mills gap above (geometry, $\sim 1/R_\Lambda^2$ from the form spectrum)
 
 $$\Large {|2I| = 120 = 2^3 \cdot 3 \cdot 5}$$
 
-The binary icosahedral group is the largest exceptional discrete subgroup of SU(2). Its order factors into exactly three primes.
+The binary icosahedral group is the largest exceptional discrete subgroup of SU(2), and its order factors into exactly three primes: $120 = 2^3 \cdot 3 \cdot 5$. The factorization is not bookkeeping. Each prime is the order of a stabilizer subgroup of the icosahedron, and each stabilizer sorts one piece of physical identity. Restrict an irrep to a stabilizer and the topology says what the particle is.
 
-The icosahedron carries three stabilizer subgroups. Restricting each irrep to these subgroups assigns physical identity.
+**Faces sort color.** The three-fold face stabilizer $Z_3$ splits every irrep into a singlet or a triplet: leptons and quarks, the three color charges of QCD. It is the decomposition $Z_3$ uniquely produces, and the face geometry is identical from all three vacua, so color is generation-independent.
 
-| Stabilizer | Order | Physical content | Mechanism |
+**Edges sort spin.** The four-fold edge stabilizer $Z_4$ contains the central element $-I$, which acts as $+1$ on integer-spin irreps and $-1$ on half-integer ones, cleanly separating the $D = 60$ bosons from the $D = 120$ fermions. Spin-statistics is the edge doing its one job.
+
+**Vertices set the electroweak address.** The five-fold vertex stabilizer $Z_5$ is the only stabilizer that tells the Galois-conjugate pair $R_1$, $R_2$ apart, so it is what carries weak isospin across the electroweak interface.
+
+Two further entries are not primes but corrections derived from the same stabilizers, each tying back to an earlier section:
+
+| Combination | Value | Role | Mechanism |
 |---|---|---|---|
-| Face ($Z_3$) | 3 | Color: singlet (lepton) vs triplet (quark) | Generation-independent; face geometry identical from all three vacua |
-| Edge ($Z_4$) | 4 | Spin-statistics: $D = 120$ (half-int) vs $D = 60$ (int) | Complex vs real $Z_4$ content |
-| Vertex ($Z_5$) | 5 | Electroweak interface | Galois conjugate vacua $R_1$, $R_2$ differ in $Z_5$ content |
-| Face/Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue to space observable |
-| Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by Möbius $Z_2$ |
+| Face / Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue carried to a space observable |
+| Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by the Möbius $Z_2$ |
 
-The three stabilizer orders are the primes dividing $|2I| = 120$. Each physical role is forced by group action on irreps: $Z_3$ uniquely produces the singlet/triplet decomposition (color); $Z_4$ contains the central element $-I$ acting as $\pm 1$ on integer vs half-integer spin irreps (spin-statistics); $Z_5$ uniquely distinguishes the Galois pair $R_1$, $R_2$ (electroweak). The stabilizer structure says what each entry is. The formula says where each entry sits, both from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
+The stabilizer structure says what each entry is; the formula says where each entry sits; both come from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
 
 ---
 
