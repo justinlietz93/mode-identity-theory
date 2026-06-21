@@ -78,7 +78,7 @@ Closing any one of these upgrades everything downstream.
 
 ### [Entropy as Realization Budget](./files/entropy-as-realization-budget.md)
 
-**Problem:** A static universe cools by budget transfer $\Psi^2 \to S^2$ (temporal budget §I.A), but the thermodynamic entropy is unsettled. Candidate: entropy is the spread of the resolution-amplitude budget over realized modes, so the second law is the transfer direction and the low past is forced by $\Psi(0) = +1$. The load-bearing open step is the mode-count map $S \mapsto W(S)$ drawn from the $2I$ Molien shells; without it the rising entropy is circular. Scoped to the realization sector, with the gravitational ledger (Penrose) left open.
+**Problem:** A static universe cools by budget transfer $\Psi^2 \to S^2$ (temporal budget §I.A), but the thermodynamic entropy is unsettled. Candidate: entropy is the spread of the resolution-amplitude budget over realized modes, so the second law is the transfer direction and the low past is forced by $\Psi(0) = +1$. The load-bearing open step is the mode-count map $S \mapsto W_\text{modes}(S)$ from the $2I$ Molien shells, with entropy the microstate count over it; without the map the rising entropy is circular. Scoped to the realization sector, with the gravitational ledger (Penrose) left open.
 
 **Dependencies:** Temporal budget §I.A, energy as resolution amplitude, $S^3/2I$ Molien shell spectrum.
 

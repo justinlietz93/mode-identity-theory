@@ -12,7 +12,7 @@ A candidate MIT account of the thermodynamic arrow in a static universe, scoped 
 
 **Related:** [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [CMB Anomalies](../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../spectrum/files/the-waltz.md).
 
-**Notation.** $S = \sin(t/2)$ is the realization amplitude, kept from the temporal budget. Entropy is written $\Sigma$ to avoid collision with it; the accessible-mode count is $W$, with $\Sigma = k_B \ln W$. The action $\mathcal{S}$ is unaffected.
+**Notation.** $S = \sin(t/2)$ is the realization amplitude, kept from the temporal budget. Entropy is written $\Sigma$ to avoid collision with it; the accessible-mode count is $W_\text{modes}$, the microstate count over it $W_\text{micro}$, with $\Sigma = k_B \ln W_\text{micro}$. The action $\mathcal{S}$ is unaffected.
 
 ---
 
@@ -44,37 +44,42 @@ At early phase ($t \to 0$): $\Psi^2 \approx 1$, $S^2 \approx 0$. The budget sits
 
 As the phase advances the budget flows $\Psi^2 \to S^2$, out of the concentrated reservoir and into distributed realized modes. Per-mode amplitude falls (this is $T \propto 1/S$, the cooling), while the budget spreads over more modes. **The realization entropy climbs, and its increase is the same transfer that does the cooling.** The arrow of time is the direction of that flow; the low past is not tuned, it is where the wave starts.
 
-**The crux, stated honestly.** A naive photon gas in a fixed volume with $T \propto 1/S$ has entropy $\propto V T^3 \propto 1/S^3$, which falls as $S$ grows: the wrong direction. In the FLRW picture the growing volume rescues it; a static domain has no such term. So this account cannot rest on $T^3$ box entropy. The entropy that rises counts realized modes, not $T^3$: per-mode energy falls while the number of accessible modes grows, and the product climbs. This is ordinary thermalization, a few hot modes giving way to many cool ones at fixed total budget. Stating it any other way puts the second law backward.
+**The crux, stated honestly.** A naive photon gas in a fixed volume with $T \propto 1/S$ has entropy $\propto V T^3 \propto 1/S^3$, which falls as $S$ grows: the wrong direction. In the FLRW picture the growing volume rescues it; a static domain has no such term. So this account cannot rest on $T^3$ box entropy. What rises is the count of configurations the budget can take over the realized modes (§IV), not $T^3$: per-mode energy falls while the accessible modes multiply, so the configurations multiply with them and the entropy climbs. This is ordinary thermalization, a few hot modes giving way to many cool ones at fixed total budget. Stating it any other way puts the second law backward.
 
 ---
 
-## IV. The mode-count map (the whole physics)
+## IV. The mode-count map and the microstate count
 
-Everything above is qualitative until one function is fixed: $W(S)$, the count of accessible modes at realization $S$. **This map is not one open item among several; it is the physics of the page, and it is also its only guard against circularity.** Write $\Sigma = S$ by hand, or $W = e^{S}$, and the rising entropy is the definition read back, a second law assumed rather than derived. Draw $W$ from the structure instead, and "$\Sigma$ rises" becomes a statement about microstates.
+The entropy needs a count, and two counts enter. Keeping them distinct is what makes the page both right in scale and safe from circularity: the structure must fix the count, not a relabeling of $S$. Write $\Sigma = S$ by hand and the second law is the definition read back, assumed rather than derived.
 
-The structure offers a concrete candidate. The accessible modes are the $2I$-invariant harmonics on $S^3/2I$, graded by degree into the Molien shells $N = 0, 12, 20, 24, 30, \ldots$ (the same shells that set the low-ℓ CMB gap; see [CMB Anomalies](../../cosmos/files/cmb-anomalies.md)). Each realized shell contributes its invariant degeneracy. The count up to the highest shell realized at $S$ is
+**The accessible modes set the phase space.** The realization $S$ governs how many modes the budget can occupy. The structure offers a concrete candidate: the accessible modes are the $2I$-invariant harmonics on $S^3/2I$, graded by degree into the Molien shells $N = 0, 12, 20, 24, 30, \ldots$ (the same shells that set the low-ℓ CMB gap; see [CMB Anomalies](../../cosmos/files/cmb-anomalies.md)). The accessible-mode count up to the highest shell realized at $S$ is
 
-$$W(S) = \sum_{N \le N_\text{max}(S)} d_N, \qquad \Sigma(S) = k_B \ln W(S),$$
+$$W_\text{modes}(S) = \sum_{N \le N_\text{max}(S)} d_N,$$
 
-with $d_N$ the $2I$-invariant degeneracy of shell $N$. At $S \to 0$ only $N = 0$ is realized, $W = 1$, $\Sigma = 0$: a Boltzmann ground state forced by the boundary condition. As $S$ grows, $N_\text{max}$ climbs and $W$ with it. A second candidate ties $N_\text{max}$ to phase resolution through the chronon $\pi/30$: finer phase structure becomes resolvable as the budget realizes, unlocking higher shells.
+with $d_N$ the $2I$-invariant degeneracy of shell $N$. **The load-bearing, unwalked step is the link $S \mapsto N_\text{max}(S)$:** how much realization unlocks which shell. Until it is derived from the 120-domain or the McKay grading (a second candidate ties $N_\text{max}$ to phase resolution through the chronon $\pi/30$), the growth of the phase space is a candidate, not a theorem. This map is the physics of the page: the structure sets the phase space, which is what keeps the entropy from being a relabeling of $S$.
 
-**The load-bearing, unwalked step is the link $S \mapsto N_\text{max}(S)$:** how much realization unlocks which shell. Until it is derived from the 120-domain or the McKay grading, the monotonicity of $\Sigma$ is a candidate, not a theorem.
+**The entropy counts microstates over that phase space.** Thermodynamic entropy is not the log of the mode count; it is the log of the number of ways the budget's quanta occupy the accessible modes:
+
+$$\Sigma(S) = k_B \ln W_\text{micro},$$
+
+where $W_\text{micro}$ is the number of microstates, the configurations of the budget's quanta across the $W_\text{modes}(S)$ accessible modes. The distinction is a scale test the page must pass. A CMB-scale photon gas occupies of order $10^{89}$ modes, so $k_B \ln W_\text{modes} \approx k_B \ln(10^{89})$ is only a few hundred $k_B$, short of the observed $\sim 10^{89}\,k_B$ (§VII) by some eighty orders of magnitude. The microstate count carries the scale: $\ln W_\text{micro}$ grows with the number of quanta, which is what reaches $10^{89}$. Counting modes misses §VII by itself; counting configurations meets it.
+
+The entropy still rises for the reason in §III, more accessible modes meaning more configurations, and the low end is unchanged: at $S \to 0$ a single mode is realized, one configuration exists, $W_\text{micro} = 1$, and $\Sigma = 0$, a Boltzmann ground state forced by the boundary condition. The wave starts ordered because it starts as one mode.
 
 $$\begin{aligned}
 \text{energy} = \text{resolution amplitude} & \quad \text{[IMPORTED, MOTIVATED]} \\
 \Psi^2 + S^2 = 1,\; S = \sin(t/2) & \quad \text{[temporal budget]} \\
-\text{realized-mode content grows with } S & \quad \text{[FOLLOWS]} \\
 S \mapsto N_\text{max}(S) \text{ from } S^3/2I & \quad \text{[OPEN; load-bearing; anti-circularity]} \\
-W(S) = \textstyle\sum_{N \le N_\text{max}} d_N & \quad \text{[FOLLOWS once the map is fixed]} \\
-\Sigma = k_B \ln W(S) & \quad \text{[Boltzmann]} \\
-d\Sigma/dt > 0 \text{ on } 0 < t < \pi & \quad \text{[THEOREM if } W \text{ monotone; OPEN until the map is fixed]}
+W_\text{modes}(S) = \textstyle\sum_{N \le N_\text{max}} d_N & \quad \text{[phase space; FOLLOWS once the map is fixed]} \\
+\Sigma = k_B \ln W_\text{micro} \text{ over } W_\text{modes} & \quad \text{[Gibbs / microcanonical; scales with the quanta]} \\
+d\Sigma/dt > 0 \text{ on } 0 < t < \pi & \quad \text{[THEOREM if } W_\text{modes} \text{ monotone; OPEN until the map is fixed]}
 \end{aligned}$$
 
 ---
 
 ## V. Scope: two entropy ledgers
 
-The reframe accounts for the arrow in one sector. It does not touch Penrose's puzzle, because Penrose's puzzle is the other ledger.
+The reframe accounts for the arrow in one sector and leaves Penrose's puzzle to the gravitational ledger, where that puzzle lives.
 
 | | Realization entropy (this note) | Gravitational entropy (Penrose's subject) |
 |---|---|---|
@@ -98,14 +103,14 @@ $S = \sin(t/2)$ peaks at $t = \pi$ and returns to $0$ at the $t = 2\pi$ turnarou
 
 The thermal history is a phase ladder, every epoch a value of $S = S_\text{now}/(1+z)$: recombination at $S \approx 1.7 \times 10^{-4}$, BBN near $S \sim 10^{-10}$, the pure-wave limit at $S \to 0$. The temperature law $T \propto 1/S$ reproduces these as the FLRW history does, kinematically (temporal budget §I.A).
 
-For the entropy the bar should sit where it can be cleared. **The honest target is that the realized-mode count must not contradict the observed entropy:** the photon-to-baryon ratio $\eta \approx 6 \times 10^{-10}$ and the absolute CMB entropy ($\sim 10^{88}\,k_B$). Reproducing $\eta$ from harmonic counting would be a baryogenesis number falling out of group theory, which is upside, not the pass condition; it is unlikely to come out cleanly and the page should not stake itself on it. Consistency is the pass; prediction is the bonus.
+For the entropy the bar should sit where it can be cleared. **The honest target is that the entropy must stay consistent with the observed values:** the photon-to-baryon ratio $\eta \approx 6 \times 10^{-10}$ and the absolute CMB entropy ($\sim 10^{89}\,k_B$). Reproducing $\eta$ from harmonic counting would be a baryogenesis number falling out of group theory, which is upside, not the pass condition; it is unlikely to come out cleanly and the page should not stake itself on it. Consistency is the pass; prediction is the bonus.
 
 ---
 
 ## VIII. What needs to be derived
 
 1. **The map $S \mapsto N_\text{max}(S)$.** Load-bearing and anti-circularity, per §IV. Without it the second law here is assumed, not derived.
-2. **A statistical-mechanical definition of $\Sigma$.** A Gibbs or microcanonical measure over the realized modes, not a relabeling of $S$, with $\Sigma = k_B \ln W$ following from the count.
+2. **The microstate count $W_\text{micro}$.** Carry out the Gibbs or microcanonical count of the budget's configurations over the accessible phase space $W_\text{modes}(S)$, and confirm $\ln W_\text{micro}$ scales with the quanta as §IV requires, not as a relabeling of $S$.
 3. **Consistency with $\eta$ and the CMB entropy** (§VII), as a floor; clean reproduction as upside.
 4. **Reconciliation with §I.A.** The entropy account must agree with the established kinematic $T \propto 1/S$ wherever the FLRW thermal history agrees.
 5. **The boundary of scope held explicitly:** realization sector in, gravitational ledger out (§V).
