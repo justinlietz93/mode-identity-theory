@@ -6,223 +6,69 @@
 
 [![CMB Anomalies](https://img.youtube.com/vi/B-cQsP-ul_E/mqdefault.jpg)](https://www.youtube.com/watch?v=B-cQsP-ul_E)
 
-> **Status update (June 2026).** This page is being rebuilt to the current line (see [the R problem](../../working/files/r-problem.md)). The operative cosmology is flat FLRW and CMB-consistent: spatial curvature acts as a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero, and the earlier exclusion ("$R \approx 5.3$ Gpc as physical curvature moves the first acoustic peak to ℓ ≈ 42") was a coordinate error. On that footing the **low-ℓ Molien deficit survives** as a prediction (boundary near ℓ ≈ 28), and the Molien shell structure stands as a spectral fact. The parity sign, parity magnitude, and quadrupole-octupole alignment belong elsewhere: grading even and odd ℓ would take an orientation-reversing identification, which a chiral space like $S^3/2I$ does not carry. And $R$ is fixed by the coupling and mass-spectrum routes, the de Sitter relation $R = \sqrt{3/\Lambda}$ being circular. The detailed predictions below predate this correction and are being rebuilt accordingly.
+Four large-angle features in the CMB have persisted across COBE, WMAP, and Planck: a low-ℓ power deficit, an anomalously low quadrupole, an odd-over-even parity preference ($R_{TT} \approx 0.81$), and a quadrupole-octupole alignment (the "axis of evil"). Each is modest (2-3σ), sensitive to the estimator and the mask, broadly consistent with ΛCDM, and so far without a clean polarization counterpart; the interest is less any single feature than the sector that carries the tension. Cosmic topology has long been proposed as a common origin.
 
-Four large-angle CMB features have persisted across COBE, WMAP, and Planck with no explanation within ΛCDM. The Möbius embedding in S³ restricts the mode spectrum at large scales through the Molien gap of the binary icosahedral group, breaks even-odd symmetry through the non-orientable identification, suppresses the quadrupole through radial projection, and defines a preferred axis as the twist normal. What has been called the "axis of evil" may be the universe revealing the geometry of its beginning.
+This page fixes what the Poincaré homology sphere $S^3/2I$ contributes. Two facts about the manifold hold regardless of cosmology: it is chiral (§III), carrying no orientation-reversing self-isometry, and its $2I$-invariant scalar spectrum has the Molien shell gap (§IV), empty across $N = 2$ to $10$ with its first invariant at $N = 12$. The line the page draws is this: **the topology gives the shell gap, and the open problem is whether the independently fixed curvature radius $R$ puts that gap at the observed multipoles.** Chirality shuts one route to parity and leaves parity and alignment open to the eigenmode covariance; $R$ is fixed by the coupling and mass-spectrum routes rather than the CMB (§V).
 
-**Four predictions, one consistency check, one locality cost**
+## I. The four anomalies
 
-| Feature | Predicted | Observed |
-|---|---|---|
-| Mode density transition | Molien gap ends at ℓ ≈ 29 | deficit below ℓ ≲ 30 |
-| Quadrupole suppression | ℓ = 2 suppressed by Molien gap + radial projection | anomalously low C₂ |
-| Parity sign | R<sub>TT</sub> < 1 | R<sub>TT</sub> ≈ 0.81 |
-| Parity magnitude | R<sub>TT</sub> ≈ 0.81 | R<sub>TT</sub> ≈ 0.81 |
-| Preferred axis | exists | Δθ₂₃ ≈ 10° |
-| $\Lambda$ from CMB-constrained $R$ | $1.12 \times 10^{-52}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² |
+At the largest angles ($\ell < 30$), Planck reports four features first seen by COBE and WMAP:
 
-One position in S³, five observables.
+- **Low-ℓ deficit.** Less large-angle power than best-fit ΛCDM.
+- **Low quadrupole.** $C_2$ low relative to $C_3$ and the higher multipoles.
+- **Parity asymmetry.** Odd-ℓ power exceeds even-ℓ at large scales; the Planck TT ratio is $R_{TT} \approx 0.81$ (unity is no preference).
+- **Quadrupole-octupole alignment.** The $\ell = 2$ and $\ell = 3$ preferred axes align to within ${\sim}10°$.
 
----
+Each is 2-3σ on its own, moves with the choice of estimator and mask, sits inside the spread ΛCDM realizations produce, and awaits a confirming signal in polarization. The case rests on their persistence across missions and their shared home at the largest scales, not on any one being decisive.
 
-## I. The Anomalies
+## II. The manifold
 
-The cosmic microwave background provides a remarkably clean window into the early universe. Precision measurements from COBE, WMAP, and Planck have confirmed the standard cosmological model across a wide range of angular scales. Yet at the largest angles, multipoles ℓ < 30, several unexpected features have persisted across all three missions.
+The spatial manifold is $M = S^3/2I$, where $2I$ is the binary icosahedral group of order 120, the largest exceptional finite subgroup of $\mathrm{SU}(2) \cong S^3$. It inherits the round metric of constant positive curvature, has $\pi_1(M) = 2I$ and $b_1 = 0$, and is orientable as a three-manifold. As the Poincaré homology sphere $\Sigma(2,3,5)$ it is chiral (§III). The Möbius surface of the broader framework lives inside this geometry as the source of the cosmological-constant eigenvalue, separate from the CMB spectrum. The curvature radius $R$ enters the harmonic spectrum (§IV); its value is the open problem of §V.
 
-**Low-ℓ boundary.** The angular power spectrum shows less power at low ℓ than the best-fit ΛCDM model predicts. The deficit below ℓ ≲ 30 has been documented since COBE and confirmed with increasing precision by each successor.
+## III. Chirality theorem
 
-**Anomalous quadrupole.** The quadrupole (ℓ = 2) is anomalously low relative to the octupole (ℓ = 3) and higher multipoles, a feature distinct from the broad low-ℓ deficit.
+The structural result is that $S^3/2I$ is chiral.
 
-**Parity asymmetry.** Odd-ℓ multipoles contain more power than even-ℓ multipoles at large scales. The Planck TT parity ratio R<sub>TT</sub>(ℓ_max = 30) ≈ 0.81 (the ratio of even-ℓ to odd-ℓ power), where unity indicates no preference.
+Every orientation-reversing isometry of $S^3$ has the form $q \mapsto u\,\bar{q}\,v$ in quaternion coordinates (conjugation reverses order). Since $2I$ acts by left multiplication, any such map carries that left action to a right action, which a non-central left translation can never equal. So $S^3/2I$ admits no orientation-reversing self-isometry: it is chiral. This matches the known property of $\Sigma(2,3,5)$ and the general fact that every closed three-dimensional spherical space form is orientable.
 
-**Quadrupole-octupole alignment.** The preferred axes of the quadrupole (ℓ = 2) and octupole (ℓ = 3) align to within approximately 10°, an arrangement expected in only 1 to 3% of statistically isotropic realizations. This feature is sometimes called the "axis of evil," as though the cosmos owed us uniformity.
+What this closes is one route to parity. An even/odd-ℓ grading driven by an orientation-reversing identification, a Möbius boundary condition of the kind earlier versions of this page invoked, would need exactly the self-isometry the theorem rules out; that grading route is shut, and the $2I$-invariant spectrum inherits no intrinsic parity selector from it. Parity itself stays open: a compact quotient can still carry parity-odd and aligned structure through the anisotropic covariance of its eigenmodes, the mechanism the COMPACT collaboration established, the covariance doing the work independent of any orientation-reversing grading or parity-violating microphysics. So the parity asymmetry and the quadrupole-octupole alignment remain open to this topology, pending a covariance calculation, rather than being assigned to it or removed from it.
 
-Each anomaly is modest in isolation, typically 2 to 3σ. Together, they suggest correlated large-angle structure that statistical isotropy does not anticipate. For two decades, each has been documented with increasing precision and labeled a fluke.
+## IV. The Molien shell gap
 
----
+Scalar harmonics on $S^3$ are graded by polynomial degree $N = 0, 1, 2, \ldots$ with eigenvalue $N(N+2)/R^2$ and degeneracy $(N+1)^2$. On $S^3/2I$ only $2I$-invariant harmonics survive; the centre $\{-1\}$ acts on degree $N$ by $(-1)^N$, restricting invariants to even $N$. Among these the Molien series of the invariant ring is
 
-## II. The Geometry
+$$P(t) = \frac{1 - t^{60}}{(1 - t^{12})(1 - t^{20})(1 - t^{30})},$$
 
-Mode Identity Theory proposes a nested topology: S¹ is the edge of the Möbius surface, which is embedded in the hypersphere S³.
+with generators at degrees 12, 20, and 30 (the three Klein icosahedral invariants). The first nontrivial invariant is at $N = 12$; the shells $N = 2, 4, 6, 8, 10$ are empty, and the surviving shells run $N = 0, 12, 20, 24, 30, \ldots$. This shell structure is topological and fixed, a spectral fact about $S^3/2I$ that holds independent of cosmology.
 
-$$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
+Where the gap lands on the sky depends on $R$. Each shell maps to a characteristic multipole $\ell_\mathrm{char}(N) = \sqrt{N(N+2)}\,\chi_*/R$, with $\chi_*$ the comoving distance to last scattering, so the boundary set by the last empty shell ($N = 10$) scales as $1/R$: it falls near $\ell \approx 28$ at the de Sitter scale $R \approx 5.3$ Gpc and near $\ell \approx 8$ at the mass-spectrum scale $R \approx 20$ Gpc. The reach of the deficit into the observed range ($\ell \lesssim 30$) therefore rides on $R$, and the two independent routes pull opposite ways: the observed suppression prefers the smaller radius, the mass spectrum points higher. The low quadrupole sits inside this same thinning; its $C_2/C_3$ value waits on the full projection (transfer functions, primordial weighting, observer position), held apart from the shell-gap result.
 
-The hierarchy terminates at S³ because ∂S³ = ∅. S³ is the unique simply-connected closed 3-manifold. The observable domain is the quotient $S^3/2I$, where $2I$ is the binary icosahedral group ($|2I| = 120$), the largest exceptional discrete subgroup of SU(2) $\cong$ S³.
+## V. The curvature scale
 
-### A. Scale
+The shell structure of §IV is fixed; what $R$ sets is where it lands, and $R$ is the framework's open problem rather than something the CMB supplies.
 
-The topology is a shape, not a size. The postulate fixes the nested structure ($S^1$, Möbius, $S^3/2I$) but leaves the curvature radius $R$ of $S^3$ as a free geometric parameter. $R$ is a fixed property of the manifold, not a time-dependent scale. Space does not expand; the observed redshift arises from the phase evolution of the cosmic standing wave on $S^1 = \partial(\text{Möbius})$.
+The operative cosmology is flat FLRW and CMB-consistent: spatial curvature enters as a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero and light propagates on flat-equivalent distances $D_M = \chi_*$. An earlier version of this analysis read $R$ off the deficit boundary, took it as a physical spatial-curvature radius, and applied the curved projection $D_M = R\sin(\chi/R)$, which moved the first acoustic peak to $\ell \approx 42$ and implied $\Omega_\mathrm{tot} \approx 1.70$; that step was a coordinate error, since the flat-FLRW distance relation leaves the acoustic scale and $\Omega_\mathrm{tot}$ at their measured values.
 
-The Molien gap (§II.C) constrains which harmonic modes exist on the spatial domain. Each surviving shell maps to a characteristic multipole on the CMB sky through $\ell_{\mathrm{char}}(N) = \sqrt{N(N+2)}\,\chi_{*}/R$, where $\chi_{*} \approx 14.0$ Gpc is the comoving distance to last scattering. The observed deficit boundary near $\ell \sim 30$ requires $R$ in a specific range. The parity magnitude and quadrupole ratio then fix the observer distance $d$ at that $R$. Section III derives these constraints; the resulting value is $R \approx 5.2\text{--}5.4$ Gpc. Section V shows that this CMB-constrained $R$ independently recovers the observed cosmological constant through $\Lambda = 3/R^2$ to within 2%.
+So the Molien gap fixes the shell structure, and $R$ fixes where that structure lands. The de Sitter relation $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc reads $R$ off the measured $\Lambda$ and is therefore circular; an independent value comes from the coupling ($\alpha$) route and the particle mass spectrum (order of magnitude, $R \sim 20$ Gpc), tracked in [the R problem](../../working/files/r-problem.md). The hinge is falsifiable: the deficit must appear where the independently fixed $R$ puts it. At $R \approx 5.3$ Gpc the gap reaches the observed $\ell \lesssim 30$; at $R \approx 20$ Gpc it falls near $\ell \approx 8$, below the observed band.
 
-The phase-clock distance-redshift relation contains no $(1+z)^2$ curvature term: $H^2/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$, where $\alpha$ and $\beta$ are controlled by a single parameter $s_0$ constrained to $s_0 < 0.19$ by Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ relative to flat ΛCDM. The absence of $(1+z)^2$ is not an inconsistency; the spatial curvature is a static boundary condition producing the mode spectrum, not a dynamical term competing with $\Lambda$. The apparent spatial curvature $\Omega_K$ inferred from standard FLRW fits is forced to zero because the true distance-redshift relation contains no $(1+z)^2$ term. The comoving distance to last scattering is $\chi_{*} \approx 14.0$ Gpc (dominated by the matter era, where the phase-clock and ΛCDM integrands differ by less than 0.3%; the $(1+z)^1$ correction contributes ~0.02 out of ~400 at recombination).
+## VI. Matched circles
 
-### B. The Möbius Surface
+A compact quotient repeats correlations on matched circles, and Planck's search reported a null down to ${\sim}10°$. That null is a real constraint on small or intersecting fundamental domains, where matched circles would be prominent. At the radii the independent routes allow (large, near the de Sitter scale or above), the fundamental domain is comparable to or larger than the last-scattering sphere, so any matched circles are large, weak, or absent, and the null is satisfied. The result is compatibility rather than support: the construction clears the constraint, and the circle search stays neutral toward the topology.
 
-The covering $S^2 \subset S^3$ is totally geodesic ($K_{ij} = 0$). The quotient $S^3/2I$ is an orientable 3-manifold; the binary icosahedral group preserves orientation under left multiplication. The non-orientable structure resides on the embedded 2-dimensional surface, not on the spatial manifold itself. The Möbius band is constructed from a spherical band on this $S^2$ by the boundary-edge identification $(0, w) \sim (\pi R, -w)$. The band is a surface within $S^3/2I$; the construction does not re-quotient the spatial domain. The induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, carrying constant Gaussian curvature $K = 1/R^2$. Fields coupled to the surface's orientation structure (sections of the orientation line bundle) satisfy anti-periodic boundary conditions: traversing the strip once flips the sign; two traversals return to the start.
+## VII. Falsification
 
-The surface is not incidental to the 3D spectrum. The ground eigenfunction on the Möbius band (eigenvalue $\lambda_0 = 2/R^2$) sets the spectral floor for the entire domain: it is the lowest nontrivial mode of the twisted Laplacian, and its eigenvalue determines $\Lambda$. Fields on $S^3/2I$ decompose into representations of $2I$; representations whose restriction to the normal bundle of the totally geodesic surface is nontrivial inherit the anti-periodic boundary conditions. The even-<i>ℓ</i> suppression ($R_{TT} < 1$) follows because anti-periodic modes have a higher eigenvalue floor than periodic modes, systematically reducing even-<i>ℓ</i> power in the Gegenbauer projection onto the observer's sky.
-
-### C. The Molien Spectrum
-
-Scalar harmonics on $S^3$ are graded by polynomial degree $N = 0, 1, 2, \ldots$ with eigenvalue $N(N+2)/R^2$ and degeneracy $(N+1)^2$. On the quotient $S^3/2I$, only $2I$-invariant harmonics survive. The center $\{-1\} \in 2I$ acts on degree $N$ by $(-1)^N$, restricting invariants to even $N$. Among these, the Molien series for the invariant ring of $2I$:
-
-$$P(t) = \frac{1 - t^{60}}{(1 - t^{12})(1 - t^{20})(1 - t^{30})}$$
-
-shows the first nontrivial invariant at $N = 12$. Five even-degree shells ($N = 2, 4, 6, 8, 10$) are empty. The surviving shells are $N = 0, 12, 20, 24, 30, 32, 36, 40, \ldots$, with the generators at degrees 12, 20, and 30 corresponding to the three Klein icosahedral invariants.
-
-The same McKay filtering that produces the Yang-Mills spectral gap on $S^3/2I$ (applied to the adjoint representation) produces the CMB mode deficit here (applied to the trivial representation). One group, one graph, two applications.
-
-### D. Observer Position
-
-The observer sits at geodesic distance $d$ from the center of the fundamental domain in $S^3/2I$. This is the single locality parameter. At the observer's position, each surviving shell $N$ projects onto the sky sphere as a superposition of angular multipoles $\ell = 0, 1, \ldots, N$, with the radial profile:
-
-$$\Pi_{N\ell}(\chi) \propto (\sin\chi)^\ell \, C^{(\ell+1)}_{N-\ell}(\cos\chi)$$
-
-where $\chi = d/R$ is the observer's angular position in $S^3$.
-
-| Parameter | Value | Source |
-|---|---|---|
-| $R$ | 5.2--5.4 Gpc | Constrained by CMB observables (§III); recovers $\Lambda$ via $3/R^2$ (§V) |
-| $d$ | 2.1 Gpc | Determined by four CMB observables |
-| $\chi$ | 0.40 rad | $d/R$; about 25% from pole to equator of $S^3$ |
-| $\chi_{*}$ | 14.0 Gpc | Comoving distance to last scattering |
+| Claim | Falsified if |
+|---|---|
+| $S^3/2I$ is chiral | An orientation-reversing self-isometry of $S^3/2I$ is exhibited |
+| The orientation-reversing grading route to parity is shut | A parity grading is derived from that route on the orientable quotient |
+| Molien shell gap: first invariant at $N = 12$, shells 2-10 empty | A $2I$-invariant harmonic appears at $N = 2, 4, 6, 8$, or $10$ |
+| The deficit lands at the observed multipoles | The independently fixed $R$ places the cutoff outside the observed $\ell \lesssim 30$ band |
 
 ---
 
-## III. Predictions
+The accounting is the result. Two facts about $S^3/2I$ hold independent of cosmology: it is chiral, and its $2I$-invariant scalar spectrum carries the Molien gap across $N = 2$ to $10$. From there the four anomalies sort. The low-ℓ deficit, with the low quadrupole inside it, is the shell gap, and whether it reaches the observed multipoles rides on the independently fixed $R$: the coupling route lands it in range, the mass-spectrum route below. The parity asymmetry and the quadrupole-octupole alignment stay open to this topology through the eigenmode covariance, a calculation still to run. The matched-circle null is satisfied at the allowed radii, compatibility rather than support. And the curvature radius is the open problem, fixed by the coupling and mass-spectrum routes rather than the CMB.
 
-### A. Low-ℓ Deficit
-
-The Molien gap produces a mode density deficit at large angular scales. Each shell $N$ on $S^3$ maps to a characteristic multipole on the CMB sky:
-
-$$\ell_{\mathrm{char}}(N) = \frac{\sqrt{N(N+2)}}{R}\,\chi_{*}$$
-
-The last empty shell ($N = 10$) has $\ell_{\mathrm{char}} \approx 29$. The first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. These values follow from $R \approx 5.3$ Gpc, which is itself constrained by the observed deficit: inverting the formula, the deficit boundary at $\ell \sim 30$ requires $R = \sqrt{N(N+2)}\,\chi_{*}/\ell_{\mathrm{char}} \approx 5.1\text{--}5.5$ Gpc. Below $\ell \sim 30$, the scalar mode spectrum is sparse: only the constant mode ($N = 0$) exists. Above $\ell \sim 34$, modes begin to populate. This is a transition, not a wall, consistent with the observed gradual deficit.
-
-Observed: power deficit below $\ell \lesssim 30$.
-
-### B. Quadrupole Suppression
-
-The quadrupole ($\ell = 2$) is suppressed by two mechanisms acting together.
-
-The Molien gap removes shells $N = 2$ through 10 that would primarily feed power into $\ell = 2$. The first surviving shell ($N = 12$) contributes to $\ell = 2$ only through the tail of its radial profile.
-
-The observer position amplifies the suppression. At $\chi = 0.40$ rad, the radial profile $\Pi_{12,\ell}(\chi) \propto \sin^\ell(\chi)$ peaks at $\ell = 3$ to 4, further suppressing the $\ell = 2$ component relative to $\ell = 3$.
-
-At $d = 2.1$ Gpc, the mode sum gives $C_2/C_3 \approx 0.13$ in $\ell(\ell+1)$ normalization.
-
-Observed: anomalously low quadrupole, $C_2/C_3 \approx 0.15$.
-
-### C. Parity Sign
-
-The non-orientable Möbius identification breaks even-odd symmetry. Modes symmetric under the identification (one $\ell$-parity) satisfy periodic boundary conditions; modes antisymmetric under it (the other parity) satisfy anti-periodic conditions with a higher eigenvalue floor. The net effect: R<sub>TT</sub> < 1.
-
-This result is robust in the 3D picture. Each Molien-surviving shell projects onto both even and odd $\ell$ at generic observer positions. The Möbius boundary condition systematically suppresses one parity, while the shell-by-shell projection effects oscillate and wash out in the mode sum.
-
-The COMPACT collaboration independently confirmed that non-orientable manifolds generically produce parity asymmetry of this sign.
-
-### D. Alignment
-
-The Möbius twist axis defines a preferred direction in $S^3$. The embedding of $2I$ in SU(2) $\cong S^3$ is chosen so that the twist axis (the normal to the covering $S^2$) coincides with an icosahedral symmetry axis. The $2I$-invariant modes at each surviving shell inherit axial symmetry about this direction: their $\ell = 2$ and $\ell = 3$ components point the same way. The quadrupole and octupole are aligned by construction.
-
-The observed 10° misalignment is parallax. The observer's displacement $d$ from the domain center shifts the apparent axis on the last-scattering sphere:
-
-$$\Delta\theta_{23} \approx \frac{d}{\chi_{*}} = \frac{2.1}{14.0} = 0.150 \;\text{rad} = 8.6°$$
-
-Observed: $\Delta\theta_{23} \approx 10°$. Agreement: 14%.
-
-### E. Parity Magnitude
-
-The interference formula follows from the method of images on any compact manifold with a non-orientable identification, to leading order in the image amplitude:
-
-$$R_{TT} \approx \frac{1 + 2A_{\mathrm{eff}}}{1 - 2A_{\mathrm{eff}}}, \qquad A_{\mathrm{eff}} \simeq \eta_{\mathrm{eff}} \cos(2\pi f_\parallel)$$
-
-where $\eta_{\mathrm{eff}}$ is the effective image-sum amplitude and $f_\parallel$ encodes the observer's position along the identification direction. The formula requires three conditions: an orientation-reversing deck transformation exists, its image contribution is small ($\eta \ll 1$), and higher-order images are further suppressed.
-
-A mode sum over the first four Molien-surviving shells ($N = 12, 20, 24, 30$), weighted by a scale-invariant primordial spectrum, gives $R_{TT} = 0.81$ at observer distance $d = 2.1$ Gpc, with extracted $\eta_{\mathrm{eff}} \approx 0.150$.
-
-The alignment angle ($\Delta\theta_{23} \approx 8.6°$) and the parity ratio ($R_{TT} \approx 0.81$) are controlled by the same parameter: the observer's geodesic distance from the domain center. One position, two observables.
-
-Observed: R<sub>TT</sub> ≈ 0.81.
-
-### F. Summary
-
-| Feature | Topology predicts | CMB measures | Agreement | Status |
-|---|---|---|---|---|
-| Mode density transition | Molien gap ends at $\ell \approx 28$ | deficit below $\ell \lesssim 30$ | ~1 multipole | prediction |
-| Quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | 13% | prediction |
-| Parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ | prediction |
-| Alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | 14% | prediction |
-| Parity magnitude | $R_{TT} \approx 0.81$ at $d = 2.1$ Gpc | $R_{TT} \approx 0.81$ | < 1% | fit (fixes $d$) |
-| $\Lambda$ from $R$ | $\Lambda = 3/R^2 = 1.12 \times 10^{-52}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² | 2% | consistency (§V) |
-
----
-
-## IV. On Matched Circles
-
-Standard searches for cosmic topology look for matched circles in the CMB sky. Planck found none above the noise threshold. The null result is consistent: standard matched-circle algorithms are designed for orientable gluings, where identified circles carry the same temperature pattern. Under a non-orientable identification, the relevant "matching" involves a sign flip that conventional searches would not detect.
-
-More fundamentally, the Möbius identification constrains the eigenmode spectrum of the bounded domain rather than repeating sky patches at identified points. The CMB is not an image viewed through topology; it is the resonant pattern of the cavity.
-
----
-
-## V. Discussion
-
-A single geometric structure accounts for four persistent CMB features. The topology determines which modes exist. The observer's position determines how those modes project onto the sky.
-
-**Mode density deficit.** The Molien series for the binary icosahedral group empties five even-degree shells ($N = 2$ through 10) after the constant mode. The gap boundary at $N = 10$ maps to $\ell \approx 29$ on the CMB sky. One group, one graph, two applications: the same McKay filtering that produces the Yang-Mills spectral gap (adjoint representation) produces the CMB mode deficit here (trivial representation).
-
-**Quadrupole suppression.** The Molien gap removes the shells that feed the quadrupole. The observer's radial position further suppresses $\ell = 2$ relative to $\ell = 3$ through the Gegenbauer profile. The two mechanisms are independent and additive.
-
-**Parity.** The non-orientable identification drives $R_{TT} < 1$ systematically. The method of images gives the leading-order formula; the effective attenuation $\eta_{\mathrm{eff}} \approx 0.150$ emerges from the mode sum at $d = 2.1$ Gpc.
-
-**Alignment.** The Möbius twist axis defines the preferred direction. The embedding of $2I$ in SU(2) aligns this axis with an icosahedral symmetry axis, so the $2I$-invariant modes inherit axial symmetry about it. The observed misalignment is parallax: $d/\chi_{*} = 8.6°$.
-
-**One position, five observables.** The observer sits at geodesic distance $d = 2.1$ Gpc from the domain center, corresponding to $\chi = 0.40$ rad in $S^3$. This single parameter controls the parity magnitude, the alignment angle, the quadrupole suppression, and (through the Molien gap) the low-ℓ transition scale. The CMB-constrained $R$ then recovers $\Lambda$ through the eigenvalue chain (below). Five independent measurements constrain one geometry. The over-determination is the test.
-
-Luminet et al. proposed the Poincaré dodecahedral space to explain low-ℓ suppression, adopting $\Omega_\mathrm{tot} = 1.018$ and $R \approx 33$ Gpc. The two scales make different quantitative predictions: the Molien gap boundary falls at $\ell \approx 29$ for $R = 5.3$ Gpc and at $\ell \approx 5$ for $R = 33$ Gpc. The observed deficit boundary near $\ell \sim 30$ favors the present scale. The COMPACT collaboration systematically studied non-orientable manifolds and confirmed that they generically produce parity asymmetry of the observed sign. 
-
-The present work differs in two ways: the Möbius surface is embedded in S³ rather than being a quotient of it, and the predictions rest on the Molien-filtered scalar spectrum of $S^3/2I$ rather than on a flat-strip eigenspectrum. The present model also differs from Luminet et al. in its treatment of spatial curvature: the curvature of $S^3$ is absorbed into $\Lambda$ through the eigenvalue identification rather than appearing as a separate Friedmann parameter $\Omega_K$, eliminating the tension that constrains near-flat dodecahedral models to $\Omega_\mathrm{tot} \approx 1.018$.
-
-### Consistency check: the cosmological constant
-
-The curvature radius $R$ was constrained above by CMB observables alone: the Molien gap boundary, the parity ratio, the quadrupole suppression, and the alignment angle all require $R \approx 5.2\text{--}5.4$ Gpc at observer distance $d = 2.1$ Gpc. This value was not derived from $\Lambda$.
-
-Independently, the ground eigenvalue of the Laplace-Beltrami operator on the totally geodesic Möbius surface gives $\lambda_0 = 2/R^2$. The Gauss equation under isotropy converts to $R_{3\mathrm{D}} = 3\lambda_0 = 6/R^2$, and the de Sitter relation gives $\Lambda = R_{3\mathrm{D}}/2 = 3/R^2$. The 3/2 ratio ($\Lambda/\lambda_0$) reflects the dimensional conversion between surface and space curvature on a totally geodesic embedding.
-
-At $R = 5.3$ Gpc: $\Lambda = 3/R^2 = 1.12 \times 10^{-52}$ m⁻², matching the Planck 2018 value $\Lambda_\mathrm{obs} = 1.11 \times 10^{-52}$ m⁻² to 2%.
-
-The CMB anomalies constrain $R$. The eigenvalue chain converts $R$ to $\Lambda$. The agreement is a fifth observable falling out of the same geometry for free.
-
-### What the observer contributes
-
-The topology does not predict the observer's position. The value $d = 2.1$ Gpc is where we happen to stand. A different observer elsewhere in $S^3/2I$ would measure a different alignment angle, a different parity ratio, and a different quadrupole amplitude. The relationships between them would hold. The structure is derived. The position is measured.
-
----
-
-## VI. Falsification
-
-| Prediction | Falsified if | Threshold |
-|---|---|---|
-| Mode density transition at $\ell \sim 29$ | Low-ℓ power consistent with ΛCDM (no deficit) | No suppression at $\geq 2\sigma$ |
-| Quadrupole suppression | $C_2/C_3$ consistent with ΛCDM | $C_2/C_3 > 0.5$ |
-| $R_{TT} < 1$ | Even-ℓ excess at large angles | $R_{TT} > 1$ at $\geq 2\sigma$ |
-| Preferred axis | No alignment in independent data | Quadrupole-octupole angle consistent with isotropy |
-| Over-determination of $d$ | Observables require different $d$ values | Parity, alignment, quadrupole inconsistent at one $\chi$ |
-| $\Lambda$ consistency | CMB-constrained $R$ fails $\Lambda = 3/R^2$ | $\Lambda(R_\mathrm{CMB})$ deviates from observed $\Lambda$ by $> 10\%$ |
-
-The strongest test is over-determination. If the parity ratio, alignment angle, and quadrupole suppression cannot be reproduced at a single observer position in $S^3/2I$, the geometric picture fails.
-
-A forward prediction independent of current anomaly fits: the non-orientable identification should produce correlated parity asymmetry ($R < 1$) in $TE$ and $EE$ spectra with the same sign as $TT$, and the preferred axis should be consistent across all three, testable with LiteBIRD and CMB-S4.
-
-The primary external test is Euclid DR1 (October 2026), which probes the companion predictions: $\Lambda$ constant and $a_0(z) \propto H(z)$. The same static $S^3$, the same observer position, the same phase clock. If the broader framework falls, this paper falls with it.
-
----
-
-Four anomalies. One constant. One geometry. One address. These are not noise.
-
-*What we called the axis of evil may be the axis of light.*
+*The shell gap is the topology's to give; whether it lands where the data sees it is for $R$ to settle.*
 
 ---
 
