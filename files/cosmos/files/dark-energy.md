@@ -47,7 +47,7 @@ Redshift is a ratio of phase positions:
 
 $$1 + z = \frac{s_0}{S}, \qquad s_0 = \sin(t_\text{now}/2)$$
 
-This introduces exactly one new degree of freedom: the observer's current phase $s_0 \in (0, 1)$. The fiducial flat ΛCDM limit is recovered as $s_0 \to 0$, where $S/s_0$ reduces to a conventional scale factor.
+This introduces exactly one new degree of freedom: the observer's current phase $s_0 \in (0, 1)$. The fiducial flat ΛCDM limit is recovered as $s_0 \to 0$, where $S/s_0$ reduces to a conventional scale factor. The mechanism behind the ratio, the phase sampling and its thermal corollary cooling, is laid out in [Redshift and Cooling](../../working/files/redshift-and-cooling.md); this section is the distance relation it feeds.
 
 ### The Waltz Clock
 
