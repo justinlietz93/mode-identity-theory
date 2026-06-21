@@ -22,6 +22,14 @@ Orienting notes that index other work.
 
 ---
 
+### [The Budget Map](./files/budget-map.md)
+
+**Tracker:** The inventory of what is a budget and what is read off one. There is a single conserved budget in this sector, the temporal $\Psi^2 + S^2 = 1$ (with the spatial $u_0^2 + J^2 = 1$ as its twin); temperature ($T \propto 1/S$) and entropy ($\Sigma = k_B \ln W_\text{micro}$) are two readings of its state $S$, not budgets, and the Waltz clock is a map from phase to time. Pins the distinction so the readings are not miscounted as parallel ledgers, the error the entropy note had to fix.
+
+**Dependencies:** [Temporal Budget](./files/temporal-budget.md), [Energy as Resolution Amplitude](./files/energy-as-resolution-amplitude.md), [Entropy as Realization Budget](./files/entropy-as-realization-budget.md).
+
+---
+
 ## :house: Foundation
 
 Closing any one of these upgrades everything downstream.

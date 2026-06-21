@@ -10,7 +10,7 @@ A candidate MIT account of the thermodynamic arrow in a static universe, scoped 
 
 **Dependencies:** Temporal budget identity $\Psi^2 + S^2 = 1$ and §I.A (Cooling Without an Outside); energy as resolution amplitude; the $2I$-invariant (Molien) shell spectrum of $S^3/2I$; the chronon and the 120-domain.
 
-**Related:** [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [CMB Anomalies](../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../spectrum/files/the-waltz.md).
+**Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [CMB Anomalies](../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../spectrum/files/the-waltz.md).
 
 **Notation.** $S = \sin(t/2)$ is the realization amplitude, kept from the temporal budget. Entropy is written $\Sigma$ to avoid collision with it; the accessible-mode count is $W_\text{modes}$, the microstate count over it $W_\text{micro}$, with $\Sigma = k_B \ln W_\text{micro}$. The action $\mathcal{S}$ is unaffected.
 
