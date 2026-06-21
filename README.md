@@ -155,7 +155,8 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
 
-The absolute mass scale and Λ are two ends of one loop: fix $m_e$ and the topology gives Λ; fix Λ and it gives $m_e$ to ~2%. Inverting the closure, a 2% shift in $m_e$ moves Λ by ~11% under the default calibration, where $R$ (hence $\Omega_\Lambda$) is set by Λ, so $m_e \propto \Lambda^{11/60}$ once the $\mu_\Lambda$ scale and the $\Omega_\Lambda$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the absolute scale.
+>The absolute mass scale and Λ are two ends of one loop: fix $m_e$ and the topology gives Λ; fix Λ and it gives $m_e$ to ~2%. Inverting the closure, a 2% shift in $m_e$ moves Λ by ~11% under the default calibration, where $R$ (hence $\Omega_\Lambda$) is set by Λ, so $m_e \propto \Lambda^{11/60}$ once the $\mu_\Lambda$ scale and the $\Omega_\Lambda$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the absolute scale.
+
 ---
 
 ## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
