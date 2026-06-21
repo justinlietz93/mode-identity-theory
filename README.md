@@ -90,7 +90,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 ## :control_knobs: Inputs
 
-Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $\Omega_\Lambda$ is over-determined, fixed to within residuals by Λ (through $R$), by $\alpha$, or by the mass ratio (a ratio carries no absolute scale but still encodes $\Omega_\Lambda$ through the McKay distance difference), and every dimensionless result holds under each choice. The default entry below is $R$ for the cosmological scale and $m_e$ as the mass benchmark, with $s_0$ for the phase. Full accounting: the [calibration web](/files/framework/) on the framework page.
+Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $\Omega_\Lambda$ is over-determined, fixed to within residuals by Λ (through $R_\Lambda$), by $\alpha$, or by the mass ratio (a ratio carries no absolute scale but still encodes $\Omega_\Lambda$ through the McKay distance difference), and every dimensionless result holds under each choice. The $\alpha$ reading is the best-conditioned, fixing $\Lambda$ to ~24% with no $R_\Lambda$; reading $R_\Lambda$ off $\Lambda$ is circular, so $R_\Lambda$ is the open problem. The default entry below is $R_\Lambda$ for the cosmological scale and $m_e$ as the mass benchmark, with $s_0$ for the phase. Full accounting: the [calibration web](/files/framework/) on the framework page.
 
 **Primitives**
 
@@ -103,7 +103,7 @@ Two constants fix the units. The absolute scale is a calibration choice, not a p
 
 | Scale | Value | Origin |
 |---|---|---|
-| $R$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$; sets the size of the domain |
+| $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter scale $\sqrt{3/\Lambda}$; the circular default. $\Omega_\Lambda$ reads independently from $\alpha$ (best) and the mass spectrum — the open R problem |
 | $m_e$ | $0.511$ MeV | Mass benchmark; the fermion ratios are structural, so this fixes only the normalization |
 
 **Phase parameter**
