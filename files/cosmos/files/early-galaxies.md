@@ -51,7 +51,7 @@ The MIT scaling law relates any observable $A$ to the Planck reference $A_P$ thr
 
 $$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-where $C(\Theta) = 2\sin^2(\pi\Theta)$ is the phase operator (derived from the anti-periodic ground mode on the Möbius surface, normalised to unit mean) and $n$ is the manifold depth: $n = 1$ for edge modes, $n = 2$ for surface modes.
+where $C(\Theta) = 2\sin^2(\pi\Theta)$ is the phase operator (derived from the anti-periodic first positive mode on the Möbius surface, normalised to unit mean) and $n$ is the manifold depth: $n = 1$ for edge modes, $n = 2$ for surface modes.
 
 Both $a_0$ and $H$ sit on the temporal edge ($n = 1$), referencing the same hierarchy number $\Omega_H$. In the ratio, the Planck scales and the $\sqrt{\Omega_H}$ factors cancel, leaving only the phase coefficients:
 
@@ -75,7 +75,7 @@ Using the phase-clock $H(z)$ from the static baseline, with $\Omega_\Lambda = 0.
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
-At $z = 10$, $(1+z)^3 = 1331$. The matter term dominates: $(1+z)^3$ contributes ~421 while the $(1+z)^1$ correction subtracts less than 0.1. The result is effectively independent of $s_0$:
+At $z = 10$, $(1+z)^3 = 1331$. The matter term dominates: $\frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3$ contributes ~421 while the $(1+z)^1$ correction subtracts less than 0.1. The result is effectively independent of $s_0$:
 
 $$\frac{H(z{=}10)}{H_0} \approx \sqrt{422} \approx 20.5$$
 

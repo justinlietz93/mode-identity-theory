@@ -13,8 +13,8 @@ The Möbius band selects half-integer modes; the lowest positive eigenvalue is t
 | Quantity | Value |
 |---|---|
 | Derived | $\Lambda R^2 = 3$, where 3 = eigenvalue (2) $\times$ Gauss/de Sitter (3/2) |
-| Scale $R$ | Open; the one independent route (particle mass spectrum) gives $R \approx 20$ Gpc, order of magnitude |
-| Forward prediction | $\Lambda \approx 8 \times 10^{-54}\;\text{m}^{-2}$ (mass-spectrum $R$), about $14\times$ below observed |
+| Scale $R$ | Open; fixed independently by two routes: the coupling ($\alpha$) returns $\Lambda$ to ~24%, the mass spectrum gives $R \approx 20$ Gpc (order of magnitude) |
+| Forward prediction | $\Lambda$ to ~24% (coupling route); $\Lambda \approx 8 \times 10^{-54}\;\text{m}^{-2}$ from the mass-spectrum $R$ (order of magnitude, ~$14\times$ below) as cross-check |
 | Observed | $1.11 \times 10^{-52}\;\text{m}^{-2}$ |
 | de Sitter value | $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc reproduces $\Lambda$ by construction (circular) |
 
@@ -93,7 +93,7 @@ $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
 One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
-$R$ is the curvature radius of $S^3$, the single dimensionful scale of the framework. Determining it independently of Λ is the framework's open problem; §V gives the one live route, the particle mass spectrum.
+$R$ is the curvature radius of $S^3$, the single dimensionful scale of the framework. Determining it independently of Λ is the framework's open problem; §V gives two live routes, the coupling ($\alpha$) route (better-conditioned, returning Λ to ~24%) and the particle mass spectrum (an order-of-magnitude cross-check).
 
 The Möbius band has a single boundary traversed twice. Traversing the band once returns a field to the opposite side. The spectral sector relevant for Λ is the twisted sector:
 
@@ -313,9 +313,9 @@ shows the first nontrivial invariant at $N = 12$. Shells $N = 2, 4, 6, 8, 10$ ar
 
 Each invariant shell maps to a characteristic multipole $\ell_\text{char}(N) = \sqrt{N(N+2)}\,\chi_{*}/R$, where $\chi_{*} \approx 14.0$ Gpc is the comoving distance to last scattering. The Molien gap removes the low shells ($N = 2$ through $10$), thinning the mode density below $\ell \approx 30$ and producing a gradual low-ℓ power deficit in the range documented across COBE, WMAP, and Planck. This is a spectral consequence of the $S^3/2I$ harmonic structure and stands as a CMB result. It is not an independent handle on $R$: the shell-to-multipole map carries $R$ rather than fixing it, so the Molien gap does not by itself determine the scale.
 
-### D. The Scale R: One Live Route
+### D. The Scale R: Two Live Routes
 
-With the de Sitter relation circular and the Molien gap not independent, the one live route to an independent $R$ is the particle mass spectrum. The fermion mass formula depends on the hierarchy factor $\Omega_\Lambda = (R/\ell_P)^2$ through the McKay-distance dilution $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$. Inverting the electron-muon mass ratio for that dependence fixes $R$ with no input from $\Lambda$, the CMB, or the de Sitter relation:
+With the de Sitter relation circular and the Molien gap not independent, two routes fix $R$ independently. The better-conditioned one is the coupling ($\alpha$): the measured fine-structure constant fixes the hierarchy $\Omega_\Lambda$, hence $R$, with no input from $\Lambda$, the CMB, or the de Sitter relation, and returns $\Lambda = 3/R^2$ to within ~24%. The second is the particle mass spectrum, an independent order-of-magnitude cross-check: the fermion mass formula depends on the hierarchy factor $\Omega_\Lambda = (R/\ell_P)^2$ through the McKay-distance dilution $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$, and inverting the electron-muon mass ratio for that dependence fixes $R$ with no input from $\Lambda$, the CMB, or the de Sitter relation:
 
 $$m_e,\ m_\mu \ \xrightarrow{\ \text{mass formula}\ }\ R \approx 20\ \text{Gpc} \ \xrightarrow{\ \Lambda = 3/R^2\ }\ \Lambda \approx 8 \times 10^{-54}\ \text{m}^{-2},$$
 
@@ -334,14 +334,14 @@ If $R$ is read from $\Lambda_\text{obs}$ through the de Sitter relation, this is
 
 The coefficient 3 decomposes as two factors: the surface curvature seed $R_\Sigma = 2/R^2$ (the first positive mode on the curved Möbius surface, §III), and the Gauss/de Sitter conversion 3/2 (§IV). Their product: $2 \times 3/2 = 3$.
 
-Turning the relation into a number requires an independent $R$. The one live route, the particle mass spectrum (§V), gives $R \approx 20$ Gpc and hence $\Lambda \approx 8 \times 10^{-54}\;\text{m}^{-2}$, within an order of magnitude of the observed $1.11 \times 10^{-52}\;\text{m}^{-2}$. That is the current forward prediction: a real, independent leg, not a percent-level number.
+Turning the relation into a number requires an independent $R$. The coupling ($\alpha$) route (§V) is the better-conditioned one, returning $\Lambda = 3/R^2$ to within ~24%; the particle mass spectrum gives $R \approx 20$ Gpc and hence $\Lambda \approx 8 \times 10^{-54}\;\text{m}^{-2}$, an independent order-of-magnitude cross-check against the observed $1.11 \times 10^{-52}\;\text{m}^{-2}$. Together they are the forward prediction: real, independent legs, not a percent-level number.
 
 ### The Derivation Chain
 
 | Step | Input | Output |
 |---|---|---|
 | 1 | Möbius topology | Anti-periodic BC; $L = \pi R$ |
-| 2 | $R$ from the mass spectrum (§V) | $R \approx 20$ Gpc (order of magnitude) |
+| 2 | $R$ from the independent routes (§V) | $R$ of order Gpc (α: Λ to ~24%; mass: ~20 Gpc) |
 | 3 | Even transverse mode | 1D reduction |
 | 4 | Anti-periodic BC | Half-integer spectrum |
 | 5 | Isotropy (CMB) | Constant transverse mode ($m = 0$) |
@@ -362,9 +362,9 @@ Turning the relation into a number requires an independent $R$. The one live rou
 | Gauss factor 3 | Derived | Totally geodesic embedding in isotropic $S^3$ |
 | de Sitter normalization ($R_\text{spatial} = 2\Lambda$) | Imported | GR/de Sitter normalization |
 | Coefficient 3 ($=2\times\tfrac{3}{2}$) | Derived $\times$ imported | Seed $\times$ Gauss/de Sitter |
-| Scale $R$ | Open | The Molien gap does not fix $R$; the only live independent route is the particle mass spectrum (§V), currently order-of-magnitude only |
+| Scale $R$ | Open | The Molien gap does not fix $R$; two independent routes do: the coupling ($\alpha$) route (returns Λ to ~24%) and the particle mass spectrum (§V, order of magnitude) |
 
-The content of the derivation is the surface seed $R_\Sigma = 2/R^2$ and its spectral origin; the conversion to $\Lambda = 3/R^2$ is standard GR. Standard cosmology treats $\Lambda R^2$ as a free parameter; here it is the fixed coefficient $\Lambda R^2 = 3$. The scale $R$ remains open, so $\Lambda = 3/R^2$ becomes a forward prediction only at the order-of-magnitude precision of the mass-spectrum route (§V).
+The content of the derivation is the surface seed $R_\Sigma = 2/R^2$ and its spectral origin; the conversion to $\Lambda = 3/R^2$ is standard GR. Standard cosmology treats $\Lambda R^2$ as a free parameter; here it is the fixed coefficient $\Lambda R^2 = 3$. The scale $R$ remains open, so $\Lambda = 3/R^2$ becomes a forward prediction to ~24% through the coupling route, with the mass spectrum as an order-of-magnitude cross-check (§V).
 
 ## VII. Compatibility with General Relativity
 

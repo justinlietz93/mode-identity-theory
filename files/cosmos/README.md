@@ -4,13 +4,13 @@
 
 # :ringed_planet: Κόσμος
 
-The cosmos is a static three-sphere; the redshift is the observer's phase advancing along a standing wave on the temporal edge of a Möbius surface embedded in $S^3$. What the data sees is therefore a flat-FLRW cosmology: the spatial curvature acts as a static boundary condition rather than a Friedmann term, so observable distances follow flat FLRW, the apparent $\Omega_K$ driven to zero, and stay CMB-consistent. The cosmological constant sets a formal de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc; reading the radius off $\Lambda$ that way is circular, so the scale is fixed independently by the coupling and mass-spectrum routes (the open [R problem](../working/files/r-problem.md)). The cosmological constant $\Lambda$ is the ground eigenvalue of that surface: fixed, epoch-independent. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both measured from the same standing wave.
+The cosmos is a static three-sphere; the redshift is the observer's phase advancing along a standing wave on the temporal edge of a Möbius surface embedded in $S^3$. What the data sees is therefore a flat-FLRW cosmology: the spatial curvature acts as a static boundary condition rather than a Friedmann term, so observable distances follow flat FLRW, the apparent $\Omega_K$ is driven to zero, and the cosmology stays CMB-consistent. The cosmological constant sets a formal de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc; reading the radius off $\Lambda$ that way is circular, so the scale is fixed independently by the coupling and mass-spectrum routes (the open [R problem](../working/files/r-problem.md)). The cosmological constant $\Lambda$ is the first positive eigenvalue of that surface: fixed, epoch-independent. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both measured from the same standing wave.
 
 ---
 
 **Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge.
 
-Einstein introduced $\Lambda$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none. $\Lambda$ is the ground mode of the cosmic boundary, felt through the Gauss equation embedding of geometry.
+Einstein introduced $\Lambda$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none. $\Lambda$ is the first positive mode of the cosmic boundary, felt through the Gauss equation embedding of geometry.
 
 ***[Cosmological Constant](files/cosmological-constant.md)***
 
@@ -18,7 +18,7 @@ Einstein introduced $\Lambda$ in 1917, together with the equations capable of su
 
 ---
 
-**Topology and the CMB.** The CMB is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $\ell$, odd-over-even parity, and an aligned quadrupole and octupole. The low-$\ell$ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment come from elsewhere: grading even and odd $\ell$ would take an orientation-reversing identification, which a chiral space like $S^3/2I$ does not carry, so they call for a non-orientable manifold or parity-violating microphysics.
+**Topology and the CMB.** The CMB is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $\ell$, odd-over-even parity, and an aligned quadrupole and octupole. The low-ℓ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment stay open to this topology: grading even and odd $\ell$ would take an orientation-reversing identification, which a chiral space like $S^3/2I$ does not carry, but the anisotropic covariance of its eigenmodes can still carry parity-odd and aligned structure, an open calculation, neither predicted nor ruled out.
 
 ***[CMB Anomalies](files/cmb-anomalies.md)***
 
@@ -78,16 +78,16 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 |---|---|---|---|
 | [↗](files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.90 \times 10^{-122}$ | ⚠ in limbo |
 | [↗](../spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
-| [↗](files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_Λ²$) constant | topological protection holds | ✓ |
+| [↗](files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_\Lambda^2$) constant | topological protection holds | ✓ |
 | [↗](files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | +0.11 (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
-| [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 28$ | deficit below $\ell \lesssim 30$ | ✓ |
+| [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open (rides on R) |
 | [↗](files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | ⚠ in limbo |
 | [↗](files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
 | [↗](files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} \approx 0.81$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
 | [↗](files/cmb-anomalies.md) CMB alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | ⚠ in limbo |
-| [↗](files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ⚠ in limbo |
+| [↗](files/cmb-anomalies.md) CMB matched circles | own circle prediction owed | null observed | ⚠ in limbo |
 | [↗](files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](files/hubble-tension.md) $H_0$ local shift | 8.4% lattice prediction | ~8.7% | mechanism open |
 | [↗](files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |

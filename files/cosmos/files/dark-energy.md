@@ -35,13 +35,13 @@ The emerging picture: present value $w_0 \approx -0.85$ to -0.70 (less negative 
 
 The possibility that apparent phantom crossings can arise from parameterization choice has been recognized. Linder and Huterer demonstrated that the CPL form introduces systematic bias when the true $w(z)$ lies outside its functional family. Shafieloo, Sahni, and Starobinsky showed that model-dependent reconstruction can produce spurious features, including phantom crossings, when applied to models outside the fitting basis.
 
-MIT sharpens this question. $\Lambda$ is the ground eigenvalue of the Möbius surface embedded in $S^3$: $\lambda_0 = 2/R^2$ (giving the observed $\Lambda_\text{obs} = 3/R^2$ after the Gauss equation conversion). The logarithmic slope $d\ln C/d\Theta$ vanishes exactly at the antinode; no environmental perturbation shifts it to a different well. $\Lambda$ is topologically protected. What can vary is the observer's phase position on the standing wave. The question this paper answers: does a static $\Lambda$ viewed from a moving phase produce distances that standard templates misread as dynamical dark energy?
+MIT sharpens this question. $\Lambda$ is the first positive eigenvalue of the Möbius surface embedded in $S^3$: $\lambda_1 = 2/R^2$ (giving the observed $\Lambda_\text{obs} = 3/R^2$ after the Gauss equation conversion). The logarithmic slope $d\ln C/d\Theta$ vanishes exactly at the antinode; no environmental perturbation shifts it to a different well. $\Lambda$ is topologically protected. What can vary is the observer's phase position on the standing wave. The question this paper answers: does a static $\Lambda$ viewed from a moving phase produce distances that standard templates misread as dynamical dark energy?
 
 ## II. The Phase-Clock Distance-Redshift Relation
 
 ### The Static Baseline
 
-The cosmos is a finite, static three-sphere of radius $R \approx 5.3\ \text{Gpc}$. Space does not expand. The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
+The cosmos is a finite, static three-sphere; its curvature radius $R$ is the de Sitter scale $\sqrt{3/\Lambda} \approx 5.3$ Gpc, circular as a derivation and fixed independently (see the status note above). Space is static. The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
 
 Redshift is a ratio of phase positions:
 
@@ -71,7 +71,7 @@ normalized so $K(0;\, s_0) = 1$. The cosmological constant, a vacuum energy dens
 
 $$\frac{H^2(z)}{H_0^2} = (1 - \Omega_\Lambda)\,K(z;\, s_0) + \Omega_\Lambda$$
 
-with $\Omega_\Lambda = 0.685$ fixed by topology (ground eigenvalue $\lambda_0 = 2/R^2$, Gauss equation conversion $\times 3/2$). Expanding:
+with $\Omega_\Lambda = 0.685$ fixed by topology (first positive eigenvalue $\lambda_1 = 2/R^2$, Gauss equation conversion $\times 3/2$). Expanding:
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
