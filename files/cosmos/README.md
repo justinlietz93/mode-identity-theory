@@ -87,7 +87,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](files/hubble-tension.md) $H_0$ local shift | 8.4% lattice prediction | ~8.7% | mechanism open |
 | [↗](files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
-| [↗](files/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| [↗](../framework/README.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | [↗](files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
 
 ---
