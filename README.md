@@ -103,7 +103,7 @@ Two constants fix the units. The absolute scale is a calibration choice, not a p
 
 | Scale | Value | Origin |
 |---|---|---|
-| $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter scale $\sqrt{3/\Lambda}$; the circular default. $\Omega_\Lambda$ reads independently from $\alpha$ (best) and the mass spectrum — the open R problem |
+| $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter scale $\sqrt{3/\Lambda}$; the circular default. $\Omega_\Lambda$ reads independently from $\alpha$ (best) and the mass spectrum — [the open R problem](/files/working/files/r-problem.md) |
 | $m_e$ | $0.511$ MeV | Mass benchmark; the fermion ratios are structural, so this fixes only the normalization |
 
 **Phase parameter**
