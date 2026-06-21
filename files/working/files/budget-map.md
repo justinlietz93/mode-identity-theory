@@ -49,7 +49,7 @@ One entropy ledger sits outside the budget: the gravitational one (Weyl curvatur
 | Temporal budget identity $\Psi^2 + S^2 = 1$ | PROPOSED; consistent with data |
 | Cooling, $T \propto 1/S$ | ESTABLISHED as kinematic equivalence (redshift and cooling) |
 | Waltz clock and the $H(z)$ fit | ESTABLISHED at model level ($\Delta\chi^2 = +0.11$ vs ΛCDM, SN+BAO) |
-| Entropy reading | MOTIVATED; rests on the mode-count map $S \mapsto W_\text{modes}(S)$ |
+| Entropy reading | MOTIVATED; rests on the unwalked shell-unlock map $S \mapsto N_\text{max}(S)$ that sets $W_\text{modes}$ |
 | Spatial budget and $\Lambda$ | from the surface eigenvalue (cosmological constant) |
 | Clock from the postulate, $t_\text{now}$ from topology, Friedmann as output | OPEN |
 
