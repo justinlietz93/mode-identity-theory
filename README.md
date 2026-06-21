@@ -120,22 +120,18 @@ Outputs of a fixed structure, checked against observation:
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.90 \times 10^{-122}$ | ⚠ in limbo |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ (coupling $\alpha$ route) | $\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}$ (to ~24%) | $2.90 \times 10^{-122}$ | ~24% |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ (mass-spectrum cross-check) | $\Lambda \approx 8 \times 10^{-54}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² | order of magnitude |
 | [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_Λ²$) constant | topological protection holds | ✓ |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_\Lambda^2$) constant | topological protection holds | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](/files/cosmos/files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap at $\ell \approx 29$ | deficit below $\ell \lesssim 30$ | ⚠ in limbo |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | ⚠ in limbo |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} \approx 0.81$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | ⚠ in limbo |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB matched circles | null expected | null observed | ⚠ in limbo |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open (rides on R) |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0$ local shift | 8.4% lattice prediction | ~8.7% | mechanism open |
 | [↗](/files/cosmos/files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
-| [↗](/files/cosmos/files/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| [↗](/files/framework/README.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | [↗](/files/cosmos/files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
 | [↗](/files/spectrum/files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](/files/spectrum/files/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
@@ -160,9 +156,6 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
 
 The absolute mass scale and Λ are two ends of one loop: fix $m_e$ and the topology gives Λ; fix Λ and it gives $m_e$ to ~2%. Inverting the closure, a 2% shift in $m_e$ moves Λ by ~11% under the default calibration, where $R$ (hence $\Omega_\Lambda$) is set by Λ, so $m_e \propto \Lambda^{11/60}$ once the $\mu_\Lambda$ scale and the $\Omega_\Lambda$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the absolute scale.
-
-> ⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.
-
 ---
 
 ## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
@@ -177,7 +170,7 @@ All predictions locked before October 2026 and deposited on Zenodo. Each row bel
 
 | Prediction | Value | Euclid DR1 channel | Falsified if |
 |---|---|---|---|
-| $\Lambda$ epoch-independence | $\Lambda_\text{obs} = 3/R^2$ is the topological ground eigenvalue; $\Omega_\text{DE}(z)$ flat across all DR1 redshift bins | Spectroscopic BAO across four $z$ bins + photometric weak lensing (3×2pt); $\Omega_\text{DE}(z)$ reconstruction and CPL fit | Reconstructed $\Omega_\text{DE}(z)$ varies at $\geq 2\sigma$ across DR1 bins in a model-independent (binned or non-parametric) reconstruction |
+| $\Lambda$ epoch-independence | $\Lambda_\text{obs} = 3/R^2$ is the topological eigenvalue; $\Omega_\text{DE}(z)$ flat across all DR1 redshift bins | Spectroscopic BAO across four $z$ bins + photometric weak lensing (3×2pt); $\Omega_\text{DE}(z)$ reconstruction and CPL fit | Reconstructed $\Omega_\text{DE}(z)$ varies at $\geq 2\sigma$ across DR1 bins in a model-independent (binned or non-parametric) reconstruction |
 | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up finds $a_0$ consistent with $a_0(0)$ at $\geq 2\sigma$ |
 | $w_\text{eff}(z)$ trajectory | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split, proven) | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ |
 | Stellar mass function at $z \gtrsim 10$ | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Wide-area photometric source catalog with high-<i>z</i> selection; NISP/ancillary spectroscopic confirmation where available | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
