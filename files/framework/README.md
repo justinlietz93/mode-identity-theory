@@ -294,7 +294,7 @@ These are different operations doing different jobs. Embedding a 2-surface in th
 
 ### [Confinement](../spectrum/files/yang-mills.md)
 
-Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps rising until the field snaps. On $S^3$ it is a story about curvature instead. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection: the twisted harmonic 1-forms vanish ($H^1 = 0$), so there is no zero mode for a massless excitation to sit in. The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $4/R_\Lambda^2$ at the trivial and standard vacua, with the Galois vacuum the one exception (below). The gap is geometric, set at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale: the mass gap is built into the shape of the space, not tuned into the dynamics.
+Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps rising until the field snaps. On $S^3$ it is a story about curvature instead. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection: the twisted harmonic 1-forms vanish ($H^1 = 0$), so every mode is lifted off zero. The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $4/R_\Lambda^2$ at the trivial and standard vacua, with the Galois vacuum the one exception (below). The gap is geometric, set at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale: the mass gap is built into the shape of the space, not tuned into the dynamics.
 
 ### Three Generations
 
@@ -314,7 +314,7 @@ The formula reads left to right as one motion: start at the floor, choose a seat
 
 $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)$$
 
-**The Neutrino Floor.** $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV sets the overall scale. It is not the smallest fermion mass but the floor beneath all of them: the lowest energy the geometry can resolve, the fourth root of $\Lambda$, the ground mode of the Möbius surface. Every mass in the spectrum is built up from this one hum.
+**The Neutrino Floor.** $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV sets the overall scale. It is not the smallest fermion mass but the floor beneath all of them: the lowest energy the geometry can resolve, the fourth root of $\Lambda$, the first positive mode of the Möbius surface. Every mass in the spectrum is built up from this one hum.
 
 **The Kostant Sunflower.** $C_\text{geom}(\rho)$ chooses the seat. It is the same phase weight $C(\Theta)$ from the One Equation, read now as the geometric mean of $C(e/D)$ over the Kostant exponents of the irrep $\rho$: which well on the domain the particle occupies.
 
@@ -332,7 +332,7 @@ The Yang-Mills gap above (geometry, $\sim 1/R_\Lambda^2$ from the form spectrum)
 
 $$\Large {|2I| = 120 = 2^3 \cdot 3 \cdot 5}$$
 
-The binary icosahedral group is the largest exceptional discrete subgroup of SU(2), and its order factors into exactly three primes: $120 = 2^3 \cdot 3 \cdot 5$. The factorization is not bookkeeping. Each prime is the order of a stabilizer subgroup of the icosahedron, and each stabilizer sorts one piece of physical identity. Restrict an irrep to a stabilizer and the topology says what the particle is.
+The binary icosahedral group is the largest exceptional discrete subgroup of SU(2), and its order factors into exactly three primes: $120 = 2^3 \cdot 3 \cdot 5$. The factorization is not bookkeeping. The primes 3 and 5 are the orders of the face and vertex stabilizers of the icosahedron, and the factor of 2 is carried by the central element $-I$ of order 2 that the edge stabilizer contains. Each sorts one piece of physical identity: restrict an irrep to it and the topology says what the particle is.
 
 **Faces sort color.** The three-fold face stabilizer $Z_3$ splits every irrep into a singlet or a triplet: leptons and quarks, the three color charges of QCD. It is the decomposition $Z_3$ uniquely produces, and the face geometry is identical from all three vacua, so color is generation-independent.
 
