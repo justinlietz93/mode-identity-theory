@@ -84,9 +84,9 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
 | [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open (rides on R) |
 | [↗](files/cmb-anomalies.md) CMB quadrupole | $C_2/C_3 \approx 0.13$ | $C_2/C_3 \approx 0.15$ | ⚠ in limbo |
-| [↗](files/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
-| [↗](files/cmb-anomalies.md) CMB parity magnitude | $R_{TT} \approx 0.81$ | $R_{TT} \approx 0.81$ | ⚠ in limbo |
-| [↗](files/cmb-anomalies.md) CMB alignment | $\Delta\theta_{23} \approx 8.6°$ | $\Delta\theta_{23} \approx 10°$ | ⚠ in limbo |
+| [↗](files/cmb-anomalies.md) CMB parity sign | open (eigenmode covariance) | $R_{TT} \approx 0.81$ | open |
+| [↗](files/cmb-anomalies.md) CMB parity magnitude | open (eigenmode covariance) | $R_{TT} \approx 0.81$ | open |
+| [↗](files/cmb-anomalies.md) CMB alignment | open (eigenmode covariance) | $\Delta\theta_{23} \approx 10°$ | open |
 | [↗](files/cmb-anomalies.md) CMB matched circles | own circle prediction owed | null observed | ⚠ in limbo |
 | [↗](files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](files/hubble-tension.md) $H_0$ local shift | 8.4% lattice prediction | ~8.7% | mechanism open |
@@ -94,7 +94,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | [↗](files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
 
-> ⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction. See the linked page for details.
+> ⚠ in limbo: prediction withdrawn or reclassified in the June 2026 course correction (see the linked page). The parity and alignment rows are now open to the eigenmode covariance; their withdrawn forecasts were $R_{TT} < 1$, $R_{TT} \approx 0.81$, and $\Delta\theta_{23} \approx 8.6°$.
 
 ---
 
