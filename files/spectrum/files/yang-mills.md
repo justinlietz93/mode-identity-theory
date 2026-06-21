@@ -42,7 +42,7 @@ Its value is sharper than the curvature bound: it comes from the coexact form sp
 
 Flat $\mathrm{SU}(2)$ connections on $M$ are classified by $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$. A homomorphism $\rho: 2I \to \mathrm{SU}(2)$ is equivalently a 2-dimensional unitary representation with determinant 1. The character table of $2I$ has exactly nine irreducible representations, of which exactly two have dimension 2: $R_1$ and $R_2$, the standard connection $Q = R_1$ and its Galois conjugate $Q' = R_2$. Both are faithful. The only remaining possibility is the trivial map ($\rho(g) = I$). This gives three conjugacy classes total.
 
-| Generation | Connection | Adjoint | $2I$ irrep | adjoint distance |
+| Vacuum | Connection | Adjoint | $2I$ irrep | adjoint distance |
 |---|---|---|---|---|
 | 1st | trivial | trivial | $R_0^{\oplus 3}$ | 0 |
 | 2nd | $\rho_{\mathrm{std}} = Q$ ($R_1$) | $\mathrm{Sym}^2 Q$ | $R_3$ | 2 |

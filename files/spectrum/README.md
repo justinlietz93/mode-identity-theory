@@ -64,7 +64,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 | [↗](files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs 120 (half-int) | integer/half-integer split | exact |
 | [↗](files/mass-spectrum.md) Weak isospin $T_3$ | $j_\text{first}$ parity + Coxeter-Galois gate | 10/10 SM-assigned entries | exact |
 | [↗](files/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 10/12 SM assigned: 9/10 within ×3 | systematic |
+| [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 6 of 8 charged within ×3 ($m_e$ benchmark) | comparison |
 | [↗](files/mass-spectrum.md) $m_\mu$ (muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | [↗](files/mass-spectrum.md) $m_u$ (up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | [↗](files/mass-spectrum.md) $m_e$ (electron) | scale anchor | 0.511 MeV | measured |
