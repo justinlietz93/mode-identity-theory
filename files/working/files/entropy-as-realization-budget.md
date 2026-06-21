@@ -6,9 +6,9 @@
 
 A candidate MIT account of the thermodynamic arrow in a static universe, scoped to the realization sector. The temporal budget already cools the universe without an exterior; this note asks where the entropy increase comes from, and answers it only where it can.
 
-**Status:** MOTIVATED. Not derived. Research note for a future paper. The cooling half is ESTABLISHED (temporal budget §I.A); the entropy half rests on one unwalked map.
+**Status:** MOTIVATED. Not derived. Research note for a future paper. The cooling half is ESTABLISHED (see [Redshift and Cooling](redshift-and-cooling.md)); the entropy half rests on one unwalked map.
 
-**Dependencies:** Temporal budget identity $\Psi^2 + S^2 = 1$ and §I.A (Cooling Without an Outside); energy as resolution amplitude; the $2I$-invariant (Molien) shell spectrum of $S^3/2I$; the chronon and the 120-domain.
+**Dependencies:** Temporal budget identity $\Psi^2 + S^2 = 1$; [Redshift and Cooling](redshift-and-cooling.md) (the temperature reading); energy as resolution amplitude; the $2I$-invariant (Molien) shell spectrum of $S^3/2I$; the chronon and the 120-domain.
 
 **Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [CMB Anomalies](../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../spectrum/files/the-waltz.md).
 
@@ -18,9 +18,9 @@ A candidate MIT account of the thermodynamic arrow in a static universe, scoped 
 
 ## I. The question
 
-A static space at fixed volume has no exterior to radiate into and no growing volume to dilute into. Cooling is already answered: budget weight transfers $\Psi^2 \to S^2$ as the phase advances, photon energies scale by $S(\text{emit})/S(\text{obs}) = 1/(1+z)$, every wavelength by the same factor, so a blackbody stays a blackbody at $T \propto 1/S$ (temporal budget §I.A). That is the temperature half, and it is settled.
+A static space at fixed volume has no exterior to radiate into and no growing volume to dilute into. Cooling is already answered: budget weight transfers $\Psi^2 \to S^2$ as the phase advances, photon energies scale by $S(\text{emit})/S(\text{obs}) = 1/(1+z)$, every wavelength by the same factor, so a blackbody stays a blackbody at $T \propto 1/S$ ([Redshift and Cooling](redshift-and-cooling.md)). That is the temperature half, and it is settled.
 
-The status line of §I.A names what it does not settle: the thermodynamic entropy. A temperature law is not an entropy law. This note is the gameplan for the entropy, and it claims only the realization sector: the arrow of time as the budget resolves, not the gravitational arrow that Penrose's puzzle is about (§V).
+A temperature law is not an entropy law: cooling fixes $T \propto 1/S$ but says nothing about the configuration count. This note is the gameplan for the entropy, and it claims only the realization sector: the arrow of time as the budget resolves, not the gravitational arrow that Penrose's puzzle is about (§V).
 
 ---
 
@@ -101,7 +101,7 @@ $S = \sin(t/2)$ peaks at $t = \pi$ and returns to $0$ at the $t = 2\pi$ turnarou
 
 ## VII. Observational anchors
 
-The thermal history is a phase ladder, every epoch a value of $S = S_\text{now}/(1+z)$: recombination at $S \approx 1.7 \times 10^{-4}$, BBN near $S \sim 10^{-10}$, the pure-wave limit at $S \to 0$. The temperature law $T \propto 1/S$ reproduces these as the FLRW history does, kinematically (temporal budget §I.A).
+The thermal history is a phase ladder, every epoch a value of $S = S_\text{now}/(1+z)$: recombination at $S \approx 1.7 \times 10^{-4}$, BBN near $S \sim 10^{-10}$, the pure-wave limit at $S \to 0$. The temperature law $T \propto 1/S$ reproduces these as the FLRW history does, kinematically ([Redshift and Cooling](redshift-and-cooling.md)).
 
 For the entropy the bar should sit where it can be cleared. **The honest target is that the entropy must stay consistent with the observed values:** the photon-to-baryon ratio $\eta \approx 6 \times 10^{-10}$ and the absolute CMB entropy ($\sim 10^{89}\,k_B$). Reproducing $\eta$ from harmonic counting would be a baryogenesis number falling out of group theory, which is upside, not the pass condition; it is unlikely to come out cleanly and the page should not stake itself on it. Consistency is the pass; prediction is the bonus.
 
@@ -112,7 +112,7 @@ For the entropy the bar should sit where it can be cleared. **The honest target 
 1. **The map $S \mapsto N_\text{max}(S)$.** Load-bearing and anti-circularity, per §IV. Without it the second law here is assumed, not derived.
 2. **The microstate count $W_\text{micro}$.** Carry out the Gibbs or microcanonical count of the budget's configurations over the accessible phase space $W_\text{modes}(S)$, and confirm $\ln W_\text{micro}$ scales with the quanta as §IV requires, not as a relabeling of $S$.
 3. **Consistency with $\eta$ and the CMB entropy** (§VII), as a floor; clean reproduction as upside.
-4. **Reconciliation with §I.A.** The entropy account must agree with the established kinematic $T \propto 1/S$ wherever the FLRW thermal history agrees.
+4. **Reconciliation with the cooling reading.** The entropy account must agree with the established kinematic $T \propto 1/S$ ([Redshift and Cooling](redshift-and-cooling.md)) wherever the FLRW thermal history agrees.
 5. **The boundary of scope held explicitly:** realization sector in, gravitational ledger out (§V).
 
 ---
@@ -123,7 +123,7 @@ A solution to Penrose's low-entropy past. That is the gravitational ledger, and 
 
 A claim that total entropy reverses at turnaround. Only the realization sub-budget peaks and falls; gravitational entropy carries the total monotonically through (§VI).
 
-Tired light. The redshift here is a uniform phase-ratio rescaling that preserves the Planck spectrum, not a scattering loss that would smear it (temporal budget §I.A).
+Tired light. The redshift here is a uniform phase-ratio rescaling that preserves the Planck spectrum, not a scattering loss that would smear it ([Redshift and Cooling](redshift-and-cooling.md)).
 
 A derived result. The reframe is consistent and framework-native, and it rests on one unwalked map. Until that map is drawn from the structure, this is MOTIVATED.
 

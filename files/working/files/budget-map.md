@@ -6,7 +6,7 @@
 
 **Status (2026-06-21):** One conserved budget in this sector, the temporal $\Psi^2 + S^2 = 1$, with the spatial $u_0^2 + J^2 = 1$ as its twin. Temperature and entropy are two readings of the budget's single state variable $S$, not budgets of their own; the Waltz clock is a map from phase to time, not a budget. This note is the inventory the detail pages point back to.
 
-**Related:** [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [Entropy as Realization Budget](entropy-as-realization-budget.md), [The Waltz](../../spectrum/files/the-waltz.md), [Cosmological Constant](../../cosmos/files/cosmological-constant.md) (spatial budget).
+**Related:** [The Temporal Budget Identity](temporal-budget.md), [Redshift and Cooling](redshift-and-cooling.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [Entropy as Realization Budget](entropy-as-realization-budget.md), [The Waltz](../../spectrum/files/the-waltz.md), [Cosmological Constant](../../cosmos/files/cosmological-constant.md) (spatial budget).
 
 ---
 
@@ -47,7 +47,7 @@ One entropy ledger sits outside the budget: the gravitational one (Weyl curvatur
 | Piece | Status |
 |---|---|
 | Temporal budget identity $\Psi^2 + S^2 = 1$ | PROPOSED; consistent with data |
-| Cooling, $T \propto 1/S$ | ESTABLISHED as kinematic equivalence (temporal budget §I.A) |
+| Cooling, $T \propto 1/S$ | ESTABLISHED as kinematic equivalence (redshift and cooling) |
 | Waltz clock and the $H(z)$ fit | ESTABLISHED at model level ($\Delta\chi^2 = +0.11$ vs ΛCDM, SN+BAO) |
 | Entropy reading | MOTIVATED; rests on the mode-count map $S \mapsto W_\text{modes}(S)$ |
 | Spatial budget and $\Lambda$ | from the surface eigenvalue (cosmological constant) |

@@ -50,17 +50,9 @@ Bounded realization ($S \leq 1$) is the key feature. Nothing in a standard FLRW 
 
 **What the budget produces alone.** With $H$ defined as $(1/S)(dS/dt)$ (phase-time derivative), the budget gives $H^2 = (1-S^2)/(4S^2)$, which scales as $(1+z)^2 - \text{const}$. This is curvature-like, not matter-like. The $(1+z)^3$ matter scaling requires the Waltz clock (§II), which converts phase time to proper time and contributes the additional $S^{-1}$ factor that turns $S^{-2}$ into $S^{-3}$. The budget identity sets the bounded structure; the clock sets the dimensional content.
 
-### I.A Cooling Without an Outside
+### I.A Cooling, in budget terms
 
-A space-filling radiation bath in thermal equilibrium has no exterior to radiate into. In a genuinely static space at fixed volume, such a bath holds its temperature indefinitely. Cooling must be earned, not assumed.
-
-The budget identity provides the mechanism. At early phase ($t \to 0$), $\Psi^2 \approx 1$ and $S^2 \approx 0$: nearly all budget weight resides in the standing wave (unresolved background). As the phase advances, $S$ grows and $\Psi$ shrinks. Budget weight transfers from $\Psi^2$ into $S^2$ — from unresolved wave into realized modes. The total is conserved ($\Psi^2 + S^2 = 1$), but the partition shifts.
-
-Photon energies at observation scale as $S(t_\text{emit})/S(t_\text{obs}) = 1/(1+z)$. All wavelengths scale by the same factor, so a blackbody at emission remains a blackbody at observation — just cooler. Temperature tracks $T \propto 1/S \propto (1+z)$. The cooling is internal redistribution within a closed budget, not leakage into an exterior.
-
-This is functionally equivalent to FLRW redshift cooling, where $T \propto 1/a$ and the scale factor $a$ plays the role of $S$. At the kinematic level the equivalence is exact: if the same variable governs photon redshift and temperature evolution, a blackbody remains a blackbody with $T \propto 1/S$. Distance observables additionally require a clock choice ($dt/d\tau$), handled separately by the budget-clock construction (§II).
-
-**Status:** ESTABLISHED as a kinematic equivalence with the FLRW thermal redshift law. First-principles derivation of the cooling from the postulate, including photon phase-space density and thermodynamic entropy, remains OPEN.
+Cooling and the redshift it follows from have their own note now: [Redshift and Cooling](redshift-and-cooling.md). In budget terms the content is that the transfer $\Psi^2 \to S^2$ earns the cooling without an exterior: at early phase the weight sits in the standing wave ($\Psi^2 \approx 1$), and as the phase advances it moves into the realized modes, photon energies scaling by $S(t_\text{emit})/S(t_\text{obs}) = 1/(1+z)$, so a blackbody stays a blackbody at $T \propto 1/S$. This is ESTABLISHED as a kinematic equivalence with the FLRW thermal law. The distance side is the clock (§II), and the entropy that rides along is a separate reading ([Entropy as Realization Budget](entropy-as-realization-budget.md)).
 
 ---
 
