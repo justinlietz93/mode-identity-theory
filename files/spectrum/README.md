@@ -20,7 +20,7 @@ The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises
 
 ***[Mass Spectrum](files/mass-spectrum.md)***
 
-[![Mass Spectrum](https://img.youtube.com/vi/9rm-X0DlFeI/mqdefault.jpg)](https://www.youtube.com/watch?v=9rm-X0DlFeI)
+[![Mass Spectrum](https://img.youtube.com/vi/HuqGPCuM-qc/mqdefault.jpg)](https://www.youtube.com/watch?v=HuqGPCuM-qc)
 
 ---
 
