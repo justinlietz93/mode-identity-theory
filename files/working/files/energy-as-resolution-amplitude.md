@@ -116,6 +116,7 @@ Categorization: MOTIVATED with specific promotion paths. Not yet DERIVED. Not sp
 - Where does the $c^2$ factor come from structurally? Is it the same $c$ on both terms, or two different $c$'s that happen to coincide?
 - How does this connect to the equivalence principle derivation? If inertia is a wave property, gravity coupling should fall out the same way.
 - What about quantum mechanics? The wave in MIT is classical in the sense of being a specific topological object, but the sampling operation should connect to measurement in QM. The resolution amplitude at a sampling point is suggestive of wavefunction collapse.
+- Does the arrow of time live in the sampling? The standing wave is reversible and periodic, but the sampling history is not: you cannot un-sample. If irreversibility enters through the sampling rather than the wave, the arrow of time and the irreversibility of measurement are the same fact (see [Entropy as Realization Budget](entropy-as-realization-budget.md)).
 
 ## IX. What This Is Not
 

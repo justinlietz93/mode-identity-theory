@@ -57,6 +57,12 @@ The phase ratio gives $1 + z$; turning it into observed distances and $H(z)$ nee
 | Distance-redshift and $H(z)$ | ESTABLISHED at model level via the clock ($\Delta\chi^2 = +0.11$ vs ΛCDM, SN+BAO) |
 | Cooling from the postulate (photon phase-space density) | OPEN |
 
+## VI. Open questions
+
+**Where the redshifted energy goes.** On static $S^3$ the time-translation Killing vector makes energy conservation structural, unlike FLRW, which has no global time symmetry; so every redshifted photon is an accounting entry that needs a counterparty. The budget answer is that the energy moves with the transfer $\Psi^2 \to S^2$, from the photon sector into the realized modes, which makes redshift a real energy transfer and not only a coordinate effect. Writing the realized-sector energy $E(S)$ closes this, and the same $E(S)$ feeds the entropy reading ([Entropy as Realization Budget](entropy-as-realization-budget.md) §VIII). Highest-leverage open question for the budget.
+
+**A thermal observable: distortion or $T(z)$ deviation.** Cooling as an exactly uniform rescaling predicts no spectral distortion, a clean FIRAS-consistent claim worth stating outright. If $E(S)$ instead demands a non-adiabatic $\Psi^2 \to S^2$ energy exchange, it would leave a $\mu$ or $y$ distortion within reach of PIXIE-class experiments, or bend the temperature law to $T(z) = T_0 (1+z)^{1-\beta}$ (tested by SZ clusters and quasar absorption lines). Either way the thermal sector gains a falsifiable handle. Downstream of $E(S)$.
+
 ---
 
 *The universe does not stretch the light. The observer reads it from farther along the wave.*

@@ -34,7 +34,7 @@ $S = \sin(t/2)$ is the realized-mode content of the wave, the fraction expressed
 |---|---|---|
 | What cools the bath | growing volume; comoving photon entropy conserved | budget spreads $\Psi^2 \to S^2$; per-mode amplitude falls |
 | Why the low-entropy past | unexplained boundary condition (Penrose) | realization sector: forced by $\Psi(0) = +1$, $S(0) = 0$ |
-| Where the arrow comes from | initial conditions, external | the direction of budget transfer |
+| Where the arrow comes from | initial conditions, external | the sampling (irreversible), not the reversible wave |
 
 ---
 
@@ -42,7 +42,7 @@ $S = \sin(t/2)$ is the realized-mode content of the wave, the fraction expressed
 
 At early phase ($t \to 0$): $\Psi^2 \approx 1$, $S^2 \approx 0$. The budget sits concentrated in the unresolved standing wave, the formal hot dense limit of the unit-circle table. Few realized modes, the amplitude piled into them: low realization-entropy, high $T$.
 
-As the phase advances the budget flows $\Psi^2 \to S^2$, out of the concentrated reservoir and into distributed realized modes. Per-mode amplitude falls (this is $T \propto 1/S$, the cooling), while the budget spreads over more modes. **The realization entropy climbs, and its increase is the same transfer that does the cooling.** The arrow of time is the direction of that flow; the low past is not tuned, it is where the wave starts.
+As the phase advances the budget flows $\Psi^2 \to S^2$, out of the concentrated reservoir and into distributed realized modes. Per-mode amplitude falls (this is $T \propto 1/S$, the cooling), while the budget spreads over more modes. **The realization entropy climbs, and its increase is the same transfer that does the cooling.** This gives a monotone entropy trend through the observable quarter, anchored to the low-entropy start at $S(0) = 0$ where the wave begins. The flow is not itself the arrow: the budget transfer is reversible and unwinds past $t = \pi$ (§VI). The irreversibility proper belongs to the sampling, the observer reads the wave at $\sqrt{\Omega}$ and cannot un-sample, and that accumulated sampling history is what carries the arrow ([Energy as Resolution Amplitude](energy-as-resolution-amplitude.md)).
 
 **The crux, stated honestly.** A naive photon gas in a fixed volume with $T \propto 1/S$ has entropy $\propto V T^3 \propto 1/S^3$, which falls as $S$ grows: the wrong direction. In the FLRW picture the growing volume rescues it; a static domain has no such term. So this account cannot rest on $T^3$ box entropy. What rises is the count of configurations the budget can take over the realized modes (§IV), not $T^3$: per-mode energy falls while the accessible modes multiply, so the configurations multiply with them and the entropy climbs. This is ordinary thermalization, a few hot modes giving way to many cool ones at fixed total budget. Stating it any other way puts the second law backward.
 
@@ -110,10 +110,11 @@ For the entropy the bar should sit where it can be cleared. **The honest target 
 ## VIII. What needs to be derived
 
 1. **The map $S \mapsto N_\text{max}(S)$.** Load-bearing and anti-circularity, per §IV. Without it the second law here is assumed, not derived.
-2. **The microstate count $W_\text{micro}$.** Carry out the Gibbs or microcanonical count of the budget's configurations over the accessible phase space $W_\text{modes}(S)$, and confirm $\ln W_\text{micro}$ scales with the quanta as §IV requires, not as a relabeling of $S$.
-3. **Consistency with $\eta$ and the CMB entropy** (§VII), as a floor; clean reproduction as upside.
-4. **Reconciliation with the cooling reading.** The entropy account must agree with the established kinematic $T \propto 1/S$ ([Redshift and Cooling](redshift-and-cooling.md)) wherever the FLRW thermal history agrees.
-5. **The boundary of scope held explicitly:** realization sector in, gravitational ledger out (§V).
+2. **The realized-sector energy $E(S)$, and the thermodynamic route to $\Sigma$.** On static $S^3$ the time-translation Killing vector makes energy conservation structural, so every redshifted photon needs a counterparty: write $E(S)$ from the budget decomposition. With $E(S)$ and the established $T \propto 1/S$, the first law $d\Sigma = dE/T$ fixes $\Sigma(S)$ independently of the mode count (if $E \propto S^2$, then $\Sigma \propto S^3$, a 3D mode-volume scaling). This cross-checks the microstate count and may pin the map of item 1, turning the load-bearing step from a group-theory derivation into a thermodynamic constraint. Highest-leverage; the energy-counterparty side is in [Redshift and Cooling](redshift-and-cooling.md).
+3. **The microstate count $W_\text{micro}$.** Carry out the Gibbs or microcanonical count of the budget's configurations over the accessible phase space $W_\text{modes}(S)$, and confirm $\ln W_\text{micro}$ scales with the quanta as §IV requires, not as a relabeling of $S$.
+4. **Consistency with $\eta$ and the CMB entropy** (§VII), as a floor; clean reproduction as upside.
+5. **Reconciliation with the cooling reading.** The entropy account must agree with the established kinematic $T \propto 1/S$ ([Redshift and Cooling](redshift-and-cooling.md)) wherever the FLRW thermal history agrees.
+6. **The boundary of scope held explicitly:** realization sector in, gravitational ledger out (§V).
 
 ---
 
@@ -122,6 +123,8 @@ For the entropy the bar should sit where it can be cleared. **The honest target 
 A solution to Penrose's low-entropy past. That is the gravitational ledger, and it stays open (§V).
 
 A claim that total entropy reverses at turnaround. Only the realization sub-budget peaks and falls; gravitational entropy carries the total monotonically through (§VI).
+
+A second law read off the wave. The standing wave is reversible and periodic, so the realization entropy is a monotone trend over the observable quarter, not an arrow derived from the wave evolution. Irreversibility enters through the sampling: the observer cannot un-sample ([Energy as Resolution Amplitude](energy-as-resolution-amplitude.md)).
 
 Tired light. The redshift here is a uniform phase-ratio rescaling that preserves the Planck spectrum, not a scattering loss that would smear it ([Redshift and Cooling](redshift-and-cooling.md)).
 

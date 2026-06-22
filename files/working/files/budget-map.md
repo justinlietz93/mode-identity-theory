@@ -21,7 +21,7 @@ The budget, the things read off it, and the clock that times it are spread acros
 | Temporal budget | $\Psi^2 + S^2 = 1$ | budget | yes | the state $S$; the realization partition |
 | Spatial budget | $u_0^2 + J^2 = 1$ | budget (twin) | yes | $\Lambda$, through the 3/2 Gauss factor |
 | Temperature | $T \propto 1/S$ | reading of $S$ | no | per-mode energy; cooling and the thermal redshift law |
-| Entropy | $\Sigma = k_B \ln W_\text{micro}(S)$ | reading of $S$ | no, grows | configurations over realized modes; the arrow |
+| Entropy | $\Sigma = k_B \ln W_\text{micro}(S)$ | reading of $S$ | no, grows | configurations over realized modes; the rising trend |
 | Waltz clock | $dt/d\tau = S^{-1/2}$ | map | not applicable | $H(z)$, distances, redshift kinematics |
 
 ## The one budget, and its twin
@@ -30,7 +30,7 @@ $\Psi^2 + S^2 = 1$, with $\Psi = \cos(t/2)$ the unresolved standing wave and $S 
 
 ## The two readings
 
-Temperature and entropy are the intensity and the spread of the same budget state. As the budget transfers $\Psi^2 \to S^2$, the energy moves from few realized modes into many: per-mode intensity falls ($T \propto 1/S$, the cooling) while the configuration count climbs ($\Sigma = k_B \ln W_\text{micro}$, the arrow). They move in opposite directions because they are conjugate faces of one transfer, the first law showing through, not two ledgers disagreeing.
+Temperature and entropy are the intensity and the spread of the same budget state. As the budget transfers $\Psi^2 \to S^2$, the energy moves from few realized modes into many: per-mode intensity falls ($T \propto 1/S$, the cooling) while the configuration count climbs ($\Sigma = k_B \ln W_\text{micro}$, the rising trend; the arrow proper is the sampling, see the [entropy note](entropy-as-realization-budget.md) §III). They move in opposite directions because they are conjugate faces of one transfer, the first law showing through, not two ledgers disagreeing.
 
 The anti-circularity lesson lives here. Entropy is a reading of $S$, computed as the microstate count over the phase space $S$ sets, not a relabeling of $S$ itself. Read it the second way and the entropy collapses to the definition, and to the wrong scale (the [entropy note](entropy-as-realization-budget.md) walks the failure). The budget supplies the state; the readings are computed over it.
 
@@ -50,6 +50,7 @@ One entropy ledger sits outside the budget: the gravitational one (Weyl curvatur
 | Cooling, $T \propto 1/S$ | ESTABLISHED as kinematic equivalence (redshift and cooling) |
 | Waltz clock and the $H(z)$ fit | ESTABLISHED at model level ($\Delta\chi^2 = +0.11$ vs ΛCDM, SN+BAO) |
 | Entropy reading | MOTIVATED; rests on the unwalked shell-unlock map $S \mapsto N_\text{max}(S)$ that sets $W_\text{modes}$ |
+| Realized-sector energy $E(S)$ | OPEN, highest-leverage: pins the entropy map and is the redshift energy counterparty (entropy note §VIII) |
 | Spatial budget and $\Lambda$ | from the surface eigenvalue (cosmological constant) |
 | Clock from the postulate, $t_\text{now}$ from topology, Friedmann as output | OPEN |
 
