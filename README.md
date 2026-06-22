@@ -90,7 +90,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 ## :control_knobs: Inputs
 
-Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $\Omega_\Lambda$ is over-determined, fixed to within residuals by Λ (through $R_\Lambda$), by $\alpha$, or by the mass ratio (a ratio carries no absolute scale but still encodes $\Omega_\Lambda$ through the McKay distance difference), and every dimensionless result holds under each choice. The $\alpha$ reading is the best-conditioned, fixing $\Lambda$ to ~24% with no $R_\Lambda$; reading $R_\Lambda$ off $\Lambda$ is circular, so $R_\Lambda$ is the open problem. The default entry below is $R_\Lambda$ for the cosmological scale and $m_e$ as the mass benchmark, with $s_0$ for the phase. Full accounting: the [calibration web](/files/framework/) on the framework page.
+Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $\Omega_\Lambda$ is over-determined, fixed to within residuals by Λ (through $R_\Lambda$), by $\alpha$, or by the mass ratio, and every dimensionless result holds under each choice. The $\alpha$ reading is the best-conditioned, fixing $\Lambda$ to ~24% with no $R_\Lambda$. The default entry below is $R_\Lambda$ for the cosmological scale and $m_e$ as the mass benchmark, with $s_0$ for the phase. Full accounting is in the [calibration web](/files/framework/) on the framework page.
 
 **Primitives**
 
@@ -103,7 +103,7 @@ Two constants fix the units. The absolute scale is a calibration choice, not a p
 
 | Scale | Value | Origin |
 |---|---|---|
-| $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter scale $\sqrt{3/\Lambda}$; the circular default. $\Omega_\Lambda$ reads independently from $\alpha$ (best) and the mass spectrum — [the open R problem](/files/working/files/r-problem.md) |
+| $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter scale $\sqrt{3/\Lambda}$; the circular default. $\Omega_\Lambda$ reads independently from $\alpha$ (best-conditioned) and the mass spectrum. |
 | $m_e$ | $0.511$ MeV | Mass benchmark; the fermion ratios are structural, so this fixes only the normalization |
 
 **Phase parameter**
@@ -127,7 +127,7 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](/files/cosmos/files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open (rides on R) |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open ([Rides on R](/files/working/files/r-problem.md)) |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](/files/cosmos/files/hubble-tension.md) $H_0$ local shift | 8.4% lattice prediction | ~8.7% | mechanism open |
 | [↗](/files/cosmos/files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
