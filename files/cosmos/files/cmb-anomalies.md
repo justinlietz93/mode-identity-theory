@@ -4,7 +4,7 @@
 
 # CMB Anomalies from Topology
 
-[![CMB Anomalies](https://img.youtube.com/vi/B-cQsP-ul_E/mqdefault.jpg)](https://www.youtube.com/watch?v=B-cQsP-ul_E)
+[![CMB Anomalies](https://img.youtube.com/vi/2CCODLAmshw/mqdefault.jpg)](https://www.youtube.com/watch?v=2CCODLAmshw)
 
 Four large-angle features in the CMB have persisted across COBE, WMAP, and Planck: a low-ℓ power deficit, an anomalously low quadrupole, an odd-over-even parity preference ($R_{TT} \approx 0.81$), and a quadrupole-octupole alignment (the "axis of evil"). Each is modest (2-3σ), sensitive to the estimator and the mask, broadly consistent with ΛCDM, and still awaiting a polarization counterpart; the interest is less any single feature than the sector that carries the tension. Cosmic topology has long been proposed as a common origin.
 
