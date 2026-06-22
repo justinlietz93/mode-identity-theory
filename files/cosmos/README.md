@@ -22,7 +22,7 @@ Einstein introduced $\Lambda$ in 1917, together with the equations capable of su
 
 ***[CMB Anomalies](files/cmb-anomalies.md)***
 
-[![CMB Anomalies](https://img.youtube.com/vi/B-cQsP-ul_E/mqdefault.jpg)](https://www.youtube.com/watch?v=B-cQsP-ul_E)
+[![CMB Anomalies](https://img.youtube.com/vi/2CCODLAmshw/mqdefault.jpg)](https://www.youtube.com/watch?v=2CCODLAmshw)
 
 ---
 
