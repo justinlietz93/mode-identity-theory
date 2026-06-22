@@ -6,8 +6,6 @@
 
 [![Early Galaxies](https://img.youtube.com/vi/BuxnEmMGMFE/mqdefault.jpg)](https://www.youtube.com/watch?v=BuxnEmMGMFE)
 
-> **Status update (June 2026).** The headline prediction here, $a_0(z) \propto H(z)$ with $\Lambda$ constant, remains the live Euclid DR1 test and is not withdrawn. Two of its supports are now flagged. The locked ratio $a_0/cH = 0.184$ rests on the scaling law $A/A_P = C(\Theta)(\sqrt{\Omega})^{-n}$, a foundational relation now under review and not yet derived from the postulate. The absolute scale does not need $R$: $a_0$ and $H_0$ are calibrated through the kinematic hierarchy $\Omega_H = (c/(H\ell_P))^2$ from the measured Hubble rate, so only the companion claim that $\Lambda$ is constant (and the static three-sphere narration) touches the open $R$ (see the cosmological-constant page). Separately, the galactic-scale coherence mechanism $L_f = v_c^2/a_0$ explored for the Hubble tension was falsified by the SPARC test and is not assumed here. The cosmic-scale prediction stands; its foundations are being rebuilt.
-
 JWST has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ at $z \approx 10$ require star formation efficiencies exceeding unity under ΛCDM with a constant MOND acceleration scale, a physical impossibility.
 
 Mode Identity Theory resolves this. The MOND acceleration scale $a_0$ and the Hubble rate $H$ are both edge modes ($n = 1$) on the 120-domain (the 120-cell discretisation of $S^3$ from the binary icosahedral group). Their ratio is fixed by the Fibonacci wells:
@@ -58,6 +56,8 @@ Both $a_0$ and $H$ sit on the temporal edge ($n = 1$), referencing the same hier
 $$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = \frac{2\sin^2(13\pi/120)}{2\sin^2(34\pi/120)} = \frac{0.223}{1.208} = 0.184$$
 
 With $H_0 = 67.4$ km/s/Mpc (consistent with the MIT phase-clock best-fit), $cH_0 = 6.55 \times 10^{-10}$ m/s², giving observed $a_0/(cH_0) = 1.2/6.55 = 0.183$. The positions 13/120 and 34/120 are Fibonacci numbers on the 120-grid, occupying stability wells where destructive interference is minimised.
+
+Two scope notes follow from this. The absolute scale is calibrated off the measured $H_0$ through the kinematic hierarchy $\Omega_H = (c/(H\ell_P))^2$, so the prediction does not depend on the open curvature radius $R$; only the companion claim that $\Lambda$ is constant touches it (the open [R problem](../../working/files/r-problem.md)). And the ratio rests on the edge-mode positions alone, not on the galactic coherence mechanism $L_f = v_c^2/a_0$ that the SPARC test falsified.
 
 ### The Evolutionary Law
 
