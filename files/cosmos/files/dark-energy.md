@@ -6,8 +6,6 @@
 
 [![Dark Energy](https://img.youtube.com/vi/7l8AbmXyz-0/mqdefault.jpg)](https://www.youtube.com/watch?v=7l8AbmXyz-0)
 
-> **Status update (June 2026).** The phenomenology in this paper is unaffected and stands on its own: the phase-clock distance-redshift relation is flat, and the template-bias result ($w_\text{eff}(z) > -1$ misread as a phantom crossing, $\Delta\chi^2 = +0.11$ versus flat ΛCDM, the negative $(1+z)^1$ signature) requires no spatial curvature. What is in limbo is the geometric framing around it: the value $R \approx 5.3$ Gpc and the static three-sphere interpretation inherit the open $R$ problem flagged on the cosmological-constant page. Read the distance fit as standalone; treat the static three-sphere framing as provisional while the framework is rebuilt.
-
 DESI DR2 reports a 2.8–4.2σ preference for dynamical dark energy, with CPL fits favoring an apparent crossing of $w = -1$. We show that a non-phantom distance-redshift relation can produce such crossings when analyzed with two-parameter templates (CPL, BA, JBP), and that Mode Identity Theory provides that relation from a static geometric foundation.
 
 The cosmos is a finite, static three-sphere $S^3$. The standing wave $\Psi = \cos(t/2)$ on the temporal edge, with the Waltz clock $dt/d\tau = S^{-1/2}$, gives the effective distance-redshift relation
@@ -41,7 +39,7 @@ MIT sharpens this question. $\Lambda$ is the first positive eigenvalue of the M�
 
 ### The Static Baseline
 
-The cosmos is a finite, static three-sphere; what the data sees is a flat-FLRW cosmology, the spatial curvature a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero. Its curvature radius enters as the de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc, circular as a derivation and fixed independently (see the status note above). The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
+The cosmos is a finite, static three-sphere; what the data sees is a flat-FLRW cosmology, the spatial curvature a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero. Its curvature radius enters as the de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc, circular as a derivation but fixed independently of $\Lambda$ via the coupling and mass-spectrum routes (the open [R problem](../../working/files/r-problem.md)). The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
 
 Redshift is a ratio of phase positions:
 
