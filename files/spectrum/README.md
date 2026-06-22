@@ -28,7 +28,7 @@ The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises
 
 ***[Fine Structure](files/fine-structure.md)***
 
-[![Fine Structure](https://img.youtube.com/vi/Z_NBRuKNFDI/mqdefault.jpg)](https://www.youtube.com/watch?v=Z_NBRuKNFDI)
+[![Fine Structure](https://img.youtube.com/vi/vTbUXsrQKi8/mqdefault.jpg)](https://www.youtube.com/watch?v=vTbUXsrQKi8)
 
 ---
 
