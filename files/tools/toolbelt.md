@@ -10,6 +10,8 @@ Work left to right. No backflow. If something fails at Tool 3, you do not "fix" 
  constrains     populates        identifies          selects       produces
 ```
 
+This is the machinery, not the results. For the scored predictions it produces, see the Score sections of the [framework](../framework/README.md), [cosmos](../cosmos/), and [spectrum](../spectrum/) pages and the [mass spectrum](../spectrum/files/mass-spectrum.md).
+
 ---
 
 ## Tool 1: Geometry / Topology (The Frame)
@@ -25,13 +27,13 @@ Work left to right. No backflow. If something fails at Tool 3, you do not "fix" 
 | Hierarchy | S³ (venue, n=3) contains Möbius (surface, n=2) whose boundary is S¹ (edge, n=1) | DERIVED |
 | Uniqueness | Poincaré conjecture + classification theorems fix all three manifolds | DERIVED |
 | 120 structure | 2I (binary icosahedral, largest exceptional discrete subgroup of SU(2) ≅ S³) acts freely; \|2I\| = 120 | DERIVED |
-| Gauss-Codazzi | 3/2 curvature interface: R_spatial = 3R_Σ = 2Λ → Λ_obs = (3/2)Λ_top. First positive eigenvalue λ₁ = 2/R² = R_Σ derived directly; Bochner bound confirms λ₁ ≥ R_Σ with equality unique. | DERIVED |
-| Topological protection of Λ | Λ_top sits at the antinode (Θ = 60/120) where d ln C/dΘ = 0. Zero slope means no perturbation can shift it. Λ is constant because the mode cannot be displaced. | DERIVED |
-| G as exchange rate | The topology independently sources both the curvature (Λ_obs = 3/R² from the Möbius eigenvalue through Gauss-Codazzi) and the energy floor (μ_Λ from the mass spectrum). G is the exchange rate between them: G = 3c⁴/(8πR²μ_Λ⁴). All G-dependence collects into a single power law: m ∝ G^{-(15+d)/60}. The solution is closed-form, not transcendental. One equation, one unknown, given c, ℏ, R, and one measured particle mass. Electron anchor: +7%, muon: -7%, geometric mean: <1%. | ESTABLISHED |
+| Gauss-Codazzi | 3/2 curvature interface: R_spatial = 3R_Σ = 2Λ → Λ_obs = (3/2)Λ_top. First positive eigenvalue λ₁ = 2/R² = R_Σ. | DERIVED |
+| Topological protection of Λ | Λ_top sits at the antinode (Θ = 60/120) where d ln C/dΘ = 0; no perturbation can shift it. | DERIVED |
+| G as exchange rate | Topology sources both the curvature (Λ_obs = 3/R²) and the energy floor (μ_Λ). G is the exchange rate: G = 3c⁴/(8πR²μ_Λ⁴), with all G-dependence collecting into m ∝ G^{-(15+d)/60}: closed-form given c, ℏ, R, and one measured mass. | ESTABLISHED |
 
 **What this tool settles:**
 
-The 120-grid IS S³ structure, not a filter applied to it. S¹ is partitioned into 120 arcs of π/60 each. The chronon is π/30 = 4π/120; the minimum action ΔS_min = ℏπ/30 is absolute (Lorentz scalar, holds in every frame). The anti-periodic BC on S¹ = boundary(Möbius) produces the odd-integer Dirichlet series (1 - 2⁻ˢ)ζ(s) and forces the functional equation ξ(s) = ξ(1-s). This is identity, not analogy.
+The 120-grid IS S³ structure, not a filter applied to it. S¹ is partitioned into 120 arcs of π/60 each. The chronon is π/30 = 4π/120; the minimum action ΔS_min = ℏπ/30 is absolute (a Lorentz scalar, holds in every frame).
 
 ### Division of Labor
 
@@ -44,7 +46,7 @@ The 120-grid IS S³ structure, not a filter applied to it. S¹ is partitioned in
 | S³ space | Spatial curvature | Responds to all of the above |
 | G | Curvature-energy exchange rate | 3c⁴/(8πR²μ_Λ⁴); closed-form from topology + one mass anchor |
 
-**Why gravity resists quantization:** Space (S³) curves continuously. The Möbius surface samples discretely via the 120 domain. The 3/2 conversion carries one into the other, bridging their difference in kind. Quantizing that bridge would require both partners to be the same type. The topology permits neither discretizing S³ geometry nor making the mode spectrum continuous. The resistance is structural.
+Gravity sits outside the gauge ladder as the interface between continuous S³ geometry and the discrete 120 domain; why it resists quantization is worked in [The Waltz](../spectrum/files/the-waltz.md) §III.
 
 **If something violates Tool 1, it is not part of MIT. Full stop.**
 
@@ -78,28 +80,22 @@ R0(1) --- R1(2) --- R3(3) --- R6(4) --- R7(5) --- R8(6) --- R5(4) --- R2(2)
 | R7 | 5 | Int | 4 | 2 | {4, 8, 10, 12, 14, 16, 18, 20, 22, 26} | No |
 | R8 | 6 | Half | 5 | 5/2 | {5, 7, 9, 11, 13, 15x2, 17, 19, 21, 23, 25} | 6 of 12 |
 
-### Structural Results (all exact, all verified, all LOCKED)
+### Structural Rules
 
-| Result | Statement |
+| Rule | Statement |
 |--------|-----------|
-| j_first rule | j_first = (graph distance from R0) / 2; holds for both spin parities; consequence of McKay multiplicity structure |
-| Shell closure | Cumulative dimension reaches 30 = h(E₈) at the shell |
+| j_first rule | j_first = (graph distance from R0) / 2; holds for both spin parities |
 | E₈ exponents | {1, 7, 11, 13, 17, 19, 23, 29} live ONLY on half-integer irreps |
 | Kostant polynomial | 2 × dim terms per irrep; mean exponent = 15 = h/2 |
-| Kostant sum rule | Sum of C(e/60) over Kostant exponents = 2 × dim (exact, every irrep) |
-| Galois conjugation | Swaps R1 <-> R2, R3 <-> R4; fixes R5, R7 |
-| Tensor products | 729 entries verified |
-| Fibonacci bridge | (2,3,5) branch orders seed the recurrence 2,3,5,8,13; the a₀ well F₇ = 13 is three steps from the icosahedral seed. E₈ exponents {1,7,11,13,17,19,23,29} live exclusively on half-integer irreps. |
+| Kostant sum rule | Sum of C(e/60) over Kostant exponents = 2 × dim (every irrep) |
+| Galois conjugation | Swaps R1 ↔ R2, R3 ↔ R4; fixes R5, R7 |
+| Shell closure | Cumulative dimension reaches 30 = h(E₈) at the shell |
 
-### Derived Structural Insight (DERIVED)
+Masslessness as a topological address (edge-only propagation costs no mass; photons and gluons stay on S¹, W/Z/fermions cross to the surface) is in [The Waltz](../spectrum/files/the-waltz.md) §V.
 
-| Result | Statement |
-|--------|-----------|
-| Masslessness | Edge-only propagation = massless. Mass is the cost of crossing from S¹ into the Möbius surface. A boson whose topological address keeps it on S¹ propagates without paying that cost. Photons and gluons stay on the edge; W, Z, and all fermions cross to the surface. Masslessness is a topological address, not a tuned parameter. |
+### C_geom Values
 
-### C_geom Values (DERIVED)
-
-Geometric mean of C(e/D) = 2sin²(πe/D) over Kostant exponents. Domain D = 60 for integer-spin, D = 120 for half-integer. Domain traces to the edge stabilizer Z₄ ⊂ 2I: integer-spin irreps carry only real Z₄ content (D = 60 = |I|), half-integer carry only complex pairs (D = 120 = |2I|). This is the spin-statistics connection built into the group.
+Geometric mean of C(e/D) = 2sin²(πe/D) over Kostant exponents. Domain D = 60 for integer-spin, D = 120 for half-integer (the edge stabilizer Z₄ ⊂ 2I: integer-spin carries real Z₄ content, half-integer carries complex pairs, the spin-statistics connection built into the group).
 
 | Irrep | Spin | D | C_geom |
 |-------|------|---|--------|
@@ -112,7 +108,7 @@ Geometric mean of C(e/D) = 2sin²(πe/D) over Kostant exponents. Domain D = 60 f
 | R7 | Int | 60 | 0.7564 |
 | R8 | Half | 120 | 0.2382 |
 
-### Icosahedral Stabilizer Structure (DERIVED)
+### Icosahedral Stabilizer Structure
 
 The binary icosahedral group 2I inherits three stabilizer subgroups from the icosahedron. Each encodes a layer of physical structure.
 
@@ -124,25 +120,21 @@ The binary icosahedral group 2I inherits three stabilizer subgroups from the ico
 | Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi conversion (derived); the Face/Edge identification is conjectural | MOTIVATED |
 | Vertex through twist | cos(π/10) | Weak coupling correction; parity violation | MOTIVATED |
 
-The three stabilizer orders 2, 3, 5 are the primes dividing |2I| = 120 and the conductors of the four surviving Dirichlet characters in the torsion L-basis.
+- **Color (faces, Z₃):** restricting an irrep to Z₃ splits it into color singlets (leptons) and triplets (quarks); generation-independent (the face geometry is vacuum-invariant).
+- **Domain (edges, Z₄):** the D = 60 / 120 split is forced by Z₄ ⊂ 2I and encodes spin-statistics; C_geom evaluates Kostant exponents on the correct grid per irrep.
+- **Electroweak (vertex, Z₅):** R1 and R2 are Galois conjugates differing in Z₅ content. The T₃ assignment is the two-stage Coxeter-Galois gate (j_first parity + (13,17) stripping + Galois content), verified at 10/10 SM entries; hypercharge Y follows via Gell-Mann-Nishijima.
 
-**Color from faces (Z₃):** Restricting each irrep to Z₃ decomposes it into color singlets (lepton-type) and color triplet pairs (quark-type). Color is generation-independent: the equivariant eta at the order-6 face class is vacuum-invariant (η = 2 in all three vacua). The face geometry looks the same from every vacuum, matching the SM.
-
-**Domain from edges (Z₄):** The binary split D = 60 / 120 is forced by Z₄ ⊂ 2I. It encodes spin-statistics. The mass formula C_geom evaluates Kostant exponents on the correct grid for each irrep.
-
-**Vertex and electroweak (Z₅):** R1 and R2 are Galois conjugates that differ precisely in their Z₅ content. R1 carries only n₁ (ζ, ζ⁴ pairs), R2 carries only n₂ (ζ², ζ³ pairs). The electroweak distinction between vacua IS the vertex decomposition. R7 (electron) is maximally democratic and sees both vacua identically: the Galois distinction vanishes at R7. The T₃ assignment rule is ESTABLISHED: a two-stage Coxeter-Galois gate (j_first parity + (13,17) stripping + Galois content) assigns T₃ at each (ρ,σ), verified at 10/10 SM entries. Hypercharge Y follows from Z₃ color sector via Gell-Mann-Nishijima.
-
-**What this tool tells you:** Which sectors exist, how they connect, where they first appear, and what physical charge structure they carry. The mass ladder is the McKay graph.
+The three stabilizer orders 2, 3, 5 are the primes dividing |2I| = 120.
 
 ---
 
 ## Tool 3: Spectral Arithmetic (The Fingerprint)
 
-**Role:** Assigns identity (a number) to each irrep. The heaviest tool on the belt.
+**Role:** Assigns a number to each irrep. You read torsion values out of this tool; you do not re-derive them.
 
 ### Convention Note
 
-The RH program (Common_Threads) labels only the 5 integer-spin irreps as R0, R2, R4, R6, R8. This toolbelt uses SPECTRUM convention throughout (R0-R8 for all 9 irreps). Translation:
+The RH program (Common_Threads) labels only the 5 integer-spin irreps R0, R2, R4, R6, R8. This toolbelt uses SPECTRUM convention (R0-R8 for all 9). Translation:
 
 | Common_Threads | SPECTRUM | dim | Spin |
 |----------------|----------|-----|------|
@@ -152,7 +144,7 @@ The RH program (Common_Threads) labels only the 5 integer-spin irreps as R0, R2,
 | R6 | R5 | 4 | Int |
 | R8 (3b) | R4 | 3 | Int |
 
-### Torsion Values (Integer-Spin Irreps, Exact Closed Form, Trivial Vacuum)
+### Torsion Values (Integer-Spin, Trivial Vacuum, Closed Form)
 
 | Irrep | dim | T² | log T² |
 |-------|-----|-----|---------|
@@ -162,56 +154,9 @@ The RH program (Common_Threads) labels only the 5 integer-spin irreps as R0, R2,
 | R5 | 4 | 25/9 | +1.02165 |
 | R4 | 3 | (4/5) φ² | +0.73928 |
 
-### The Galois Pair (the single most nontrivial arithmetic result)
+The Galois pair is the key relation: **T²(R3) / T²(R4) = φ⁻⁴** (exact), i.e. log T²(R3) − log T²(R4) = −4 log φ. The golden ratio enters through the scalar sector and the Legendre symbol mod 5, the character field Q(√5) of 2I.
 
-```
-T²(R3) / T²(R4) = φ⁻⁴     [EXACT, verified to 70+ digits]
-
-log T²(R3) - log T²(R4) = -4 log(φ) = -2√5 · L(1, χ₂)
-```
-
-The golden ratio enters through the scalar sector and the Legendre symbol mod 5. This is the Legendre character of Q(√5), the character field of 2I.
-
-### Telescoping Product
-
-```
-T²(R3) × T²(R7) × T²(R5) × T²(R4) = 4
-```
-
-### McKay Selection: 4 Characters from 32
-
-The spectral structure of S³/2I introduces 32 Dirichlet characters on the unit residue classes mod 120. Only 4 survive:
-
-| Character | Conductor | Selection mechanism |
-|-----------|-----------|---------------------|
-| χ₀⁽²⁾ (principal mod 2) | 2 | Defines odd spectrum |
-| χ₀⁽³⁾ (principal mod 3) | 3 | Z₆ = Z₃ × Z₂ induction |
-| χ₀⁽⁵⁾ (principal mod 5) | 5 | Z₁₀ = Z₅ × Z₂ induction |
-| χ₅ (Legendre mod 5) | 5 | Unique real quadratic from Q(√5) |
-
-Primes appearing: 2, 3, 5. Exactly the primes dividing |2I| = 120 = 2³ × 3 × 5.
-
-### Torsion in the L-Basis (verified to 70+ digits)
-
-| Irrep | log T² |
-|-------|---------|
-| R3 | -4 L'(0,χ₀⁽²⁾) + 2 L'(0,χ₀⁽⁵⁾) - √5 · L(1,χ₂) |
-| R7 | 4 L'(0,χ₀⁽²⁾) - 4 L'(0,χ₀⁽³⁾) |
-| R5 | 4 L'(0,χ₀⁽³⁾) - 4 L'(0,χ₀⁽⁵⁾) |
-| R4 | -4 L'(0,χ₀⁽²⁾) + 2 L'(0,χ₀⁽⁵⁾) + √5 · L(1,χ₂) |
-
-### The Spin-Parity Split
-
-| Feature | Integer-spin | Half-integer-spin |
-|---------|-------------|-------------------|
-| Scalar sector | Present; carries χ₂ (Legendre) | Absent (m_j = 0 at integer j) |
-| φ mechanism | Enters through scalar via L(1, χ₂) | Not available |
-| Torsion character | Clean golden ratio relationships | Finite sums of L'(0,χ) values |
-| R1/R2 difference | n/a | log T²(R1) - log T²(R2) = +3.5137... (not a simple φ multiple) |
-
-Half-integer torsion values are equally exact: the Laplacian eigenvalues and multiplicities are exact (from SU(2) representation theory and the 2I character table), and the spectral zeta function has a unique meromorphic continuation. The Hurwitz decomposition expresses each value as a finite sum of L-function derivatives at s = 0. The difference from integer-spin is selectivity: integer-spin retains 4 of 16 Dirichlet characters, producing algebraic closed forms. Half-integer retains 28 to 32 characters, leaving finite combinations of L'(0,χ) values. Exact, not algebraically simplified.
-
-### 24 Vacuum Torsion Values (DERIVED)
+### 24 Vacuum Torsion Values
 
 From log T²(ρ⊗σ) = Σ_τ N_ρστ log T²(τ):
 
@@ -226,24 +171,9 @@ From log T²(ρ⊗σ) = Σ_τ N_ρστ log T²(τ):
 | R7 | 2.250 | 1.114 | 1.114 |
 | R8 | 0.257 | 13.090 | 1.910 |
 
-Note: R7 is the only irrep where T²(std) = T²(gal). The electron sits at the point where the Galois distinction vanishes.
+R7 is the only irrep where T²(std) = T²(gal): the electron sits where the Galois distinction vanishes. These 24 values are the torsion factor T²(ρ⊗σ) you feed into the mass formula.
 
-**What this tool answers:** "What number does this representation carry?" This is the spectral DNA of MIT.
-
-**What it does NOT do:** Provide a uniform algebraic closed form across both spin parities. Both are exact; integer-spin is also algebraic. By Lemma 8, no natural map exists between the phase position Θ and the spectral parameter s. The fine structure of the mass formula cannot be completed by extending spectral arithmetic. This is proved, not open. The mass formula (C_geom × McKay elevator × torsion) is not just what was found; it is the only structure the geometry permits.
-
-Lemma 8 explains why this boundary is structurally necessary rather than a limitation of technique.
-
-### Curvature Duality (DERIVED)
-
-The positive Ricci curvature Ric = 2/R² does two things simultaneously from the same equation:
-
-| Face | Mechanism | Result |
-|------|-----------|--------|
-| Physics (Weitzenböck) | All gauge fluctuations satisfy λ ≥ 2/R² > 0 | Mass gap exists; all modes massive; matter realized |
-| Arithmetic (Pochhammer) | Eigenvalue shift l(l+2) = (l+1)² - 1; the "-1" activates infinite tower at s ≠ 0 | Torsion selectivity locked to s = 0; L-function zeros inaccessible |
-
-Mass and spectral access to zeros are in structural opposition. The curvature that realizes one forbids the other. Setting Ric = 0 would remove both simultaneously: flat space, no mass gap, no particles, nothing to observe.
+**Dead-end gate (Lemma 8):** no natural map exists between the phase position Θ and the spectral parameter s on S³/2I, so the mass formula's fine structure cannot be completed by extending spectral arithmetic. This is proved, not open: do not pursue that route. The L-basis decomposition, the spin-parity split, and the curvature duality behind these values are in [The Mirror](../spectrum/files/the-mirror.md).
 
 ---
 
@@ -268,7 +198,7 @@ Mass and spectral access to zeros are in structural opposition. The curvature th
 | Galois | k = 5 | 36/R² (9× enhancement) |
 | Overall | | 4/R² |
 
-The 9× enhancement at the Galois vacuum traces to R4's position at the extremal branch endpoint of the E₈ McKay graph (dist = 6, the farthest from R0 along the side branch).
+The 9× enhancement at the Galois vacuum traces to R4's position at the extremal branch endpoint of the E₈ McKay graph (dist = 6, farthest from R0 along the side branch).
 
 ### Vacuum Spectra (j_first per irrep per vacuum)
 
@@ -284,31 +214,19 @@ The 9× enhancement at the Galois vacuum traces to R4's position at the extremal
 | R7 | 2 | 1 | 1 |
 | R8 | 5/2 | 3/2 | 1/2 |
 
-**Critical finding:** Generation ordering is NOT uniform across vacua. The Galois vacuum mirrors pairs; it is not a uniform hierarchy (trivial = lightest, Galois = heaviest was overturned).
+Caveat: the j_first ordering is not uniform across vacua, and the specific generation-to-vacuum mapping is open ([framework](../framework/README.md), Three Generations). The T₃ quantum-number rule below is separate and is established.
 
-### Eta Sign Gate (DERIVED)
+### The Assignment Rules
 
-The Dirac eta invariant η(ρ,σ) varies with the vacuum. Across all SM-assigned entries in the mass formula, a strict constraint holds:
-
-η(ρ,σ) > 0 ⟹ Q ≤ 0
-
-Equivalently: positive electric charge requires negative eta. All entries with Q = +2/3 (u, c, t) have η < 0. All entries with η > 0 carry fermions with Q = 0 or Q = -1/3. The eta invariant measures spectral asymmetry (parity content of the mode). This gate connects parity to electric charge through the spectral geometry.
-
-### Vacuum as Electroweak Selector (DERIVED)
-
-The same irrep carries different fermions in different vacua. R8 produces the up quark (trivial vacuum), down quark (Galois), and muon/strange (standard). The vacuum σ selects the electroweak identity.
-
-Mechanism: the two nontrivial vacua (R1 and R2) are half-integer irreps. Tensoring a half-integer ρ with a half-integer σ produces integer-spin components, which carry none of the eight E₈ exponents. The Coxeter conjugate pair (13, 17) under h(E₈) = 30 is preserved by the trivial vacuum and completely stripped by the nontrivial vacua. For R8: trivial vacuum preserves (13,17) pair → up quark (Q = +2/3). Nontrivial vacua erase it → down quark or lepton (Q ≤ -1/3).
-
-The T₃ assignment rule is ESTABLISHED: a two-stage Coxeter-Galois gate assigns weak isospin at each (ρ,σ) before mass is computed. Verified at 10/10 SM-assigned entries.
-
-**What this tool decides:** Same spectrum, different realizations. Three generations of matter from three isolated vacua. The vacuum is the electroweak switch.
+- **Eta sign gate:** η(ρ,σ) > 0 ⟹ Q ≤ 0. All entries with Q = +2/3 (u, c, t) have η < 0; all η > 0 entries carry Q = 0 or −1/3. The eta invariant (spectral asymmetry) ties parity to electric charge.
+- **Vacuum as electroweak selector:** the same irrep carries different fermions in different vacua (R8 → up in trivial, down in Galois, μ/s in standard). Mechanism: the trivial vacuum preserves the Coxeter pair (13, 17) under h(E₈) = 30 (→ Q = +2/3); the nontrivial vacua strip it (→ Q ≤ −1/3).
+- **T₃ gate:** the two-stage Coxeter-Galois gate assigns weak isospin at each (ρ,σ) before mass is computed. Verified at 10/10 SM-assigned entries.
 
 ---
 
 ## Tool 5: Scaling Law / Mass Generator (The Output)
 
-**Role:** Turns structure into numbers. The scaling law is locked. The mass formula is a comparison: the topology fixes the count and the quantum-number content of each entry; the mass match is softer, pending the null test.
+**Role:** Turns structure into numbers.
 
 ### The Scaling Law
 
@@ -316,69 +234,33 @@ The T₃ assignment rule is ESTABLISHED: a two-stage Coxeter-Galois gate assigns
 A / A_P ≈ C(Θ) · (√Ω)⁻ⁿ
 ```
 
-where C(Θ) = 2 sin²(πΘ).
+where C(Θ) = 2 sin²(πΘ). Worked example, one well: α sits at Θ = 13/60 on the bosonic grid, C(13/60) = 0.79, n = 1/30 on √Ω_Λ, giving A/A_P = 7.33 × 10⁻³. The other cosmological evaluations (a₀, H₀, Λ) are tabulated in the [framework engine](../framework/README.md) and scored in the [cosmos pages](../cosmos/).
 
-### The Mass Formula (COMPARISON)
+### The Mass Formula
 
 $$m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)$$
 
-Four factors. Four sources. Each traces independently to the topological postulate.
+Four factors, four sources:
 
 | Factor | Role | Value/Source |
 |--------|------|-------------|
-| μ_Λ | Vacuum energy floor; fourth root of cosmological constant energy density. Traces to Tool 1: first positive eigenvalue λ₁ = 2/R² → Gauss-Codazzi → Λ_obs → ρ_Λ^(1/4) | ρ_Λ^(1/4) ≈ 2.25 meV |
-| C_geom(ρ) | Phase factor; geometric mean of C(e/D) over Kostant exponents | D = 60 (int spin), 120 (half-int) |
-| (√Ω_Λ)^(dist/30) | Hierarchy exponent; McKay graph distance sets orders of magnitude from vacuum floor | denominator is h(E₈) = 30 |
-| T²(ρ⊗σ) | Reidemeister torsion, vacuum-twisted; fine structure within each mass shell; the generation mechanism | 24 values from 8 irreps × 3 vacua |
+| μ_Λ | Vacuum energy floor; fourth root of the cosmological-constant energy density (Tool 1: first positive eigenvalue → Gauss-Codazzi → Λ_obs → ρ_Λ^(1/4)) | ρ_Λ^(1/4) ≈ 2.25 meV |
+| C_geom(ρ) | Phase factor; geometric mean of C(e/D) over Kostant exponents (Tool 2) | D = 60 / 120 |
+| (√Ω_Λ)^(dist/30) | Hierarchy; McKay graph distance sets orders of magnitude (Tool 2) | denominator h(E₈) = 30 |
+| T²(ρ⊗σ) | Reidemeister torsion, vacuum-twisted; fine structure / generation mechanism (Tools 3-4) | 24 values, 8 irreps × 3 vacua |
 
-The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is the mass formula. C_geom carries the Kostant fingerprint. The McKay elevator carries the distance dilution. Torsion carries the vacuum selection.
+**Checksums** (the formula's computed output across the McKay distances; verify an independent implementation against these, then read the scored comparison off mass-spectrum.md):
 
-### Scaling Law Predictions (Cosmological)
+| ρ | dist | σ | m (GeV) | SM |
+|---|------|----|---------|-----|
+| R1 | 1 | std | 1.98 × 10⁻¹³ | ν₁ |
+| R7 | 4 | triv | 5.21 × 10⁻⁴ | e |
+| R8 | 5 | triv | 2.03 × 10⁻³ | u |
+| R8 | 5 | std | 1.03 × 10⁻¹ | μ / s |
+| R4 | 6 | std | 7.34 × 10⁻¹ | τ |
+| R2 | 7 | std | 261.46 | t |
 
-| Observable | Θ | C(Θ) | n | Ω | A/A_P | Status |
-|------------|-------|----------|---|-------|-------|--------|
-| α | 13/60 | 0.79 | 1/30 | Ω_Λ | 7.33 × 10⁻³ | n ESTABLISHED |
-| a₀/a_P | 13/120 | 0.22 | 1 | Ω_H | 2.2 × 10⁻⁶² | prediction |
-| H₀ · t_P | 34/120 | 1.21 | 1 | Ω_H | 1.2 × 10⁻⁶¹ | calibration anchor |
-| Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² | surface calibration |
-
-Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (professional certainty; two convergent paths: McKay packetization, dimensionless dilution rule). The Phase-logΩ route is proved not to exist (Lemma 8: no natural map between Θ and s on S³/2I). Λ_obs = (3/2) × Λ_top by Gauss-Codazzi embedding.
-
-### The 24 Predictions (Mass Formula Output)
-
-| Rank | ρ | dist | σ | Mass (GeV) | SM | Observed (GeV) | Ratio |
-|------|---|------|----|-----------|-----|----------------|-------|
-| 1 | R1 | 1 | std | 1.98 × 10⁻¹³ | ν₁ | ~10⁻¹³ | 1.98 |
-| 2 | R1 | 1 | gal | 6.67 × 10⁻¹¹ | ν₃ | 5.06 × 10⁻¹¹ | 1.32 |
-| gap | | | | — | ν₂ | 8.6 × 10⁻¹² | — |
-| 3 | R1 | 1 | triv | 3.81 × 10⁻¹⁰ | — | excluded | |
-| 4 | R3 | 2 | gal | 3.75 × 10⁻⁹ | — | dead zone | |
-| 5 | R3 | 2 | triv | 4.45 × 10⁻⁹ | — | dead zone | |
-| 6 | R6 | 3 | std | 4.09 × 10⁻⁷ | — | dead zone | |
-| 7 | R3 | 2 | std | 1.00 × 10⁻⁶ | — | dead zone | |
-| 8 | R6 | 3 | triv | 2.57 × 10⁻⁶ | — | dead zone | |
-| 9 | R6 | 3 | gal | 2.80 × 10⁻⁶ | — | dead zone | |
-| 10 | R7 | 4 | std | 2.58 × 10⁻⁴ | e | 5.11 × 10⁻⁴ | 1.98 |
-| 11 | R7 | 4 | gal | 2.58 × 10⁻⁴ | e | 5.11 × 10⁻⁴ | 1.98 |
-| **12** | **R7** | **4** | **triv** | **5.21 × 10⁻⁴** | **e** | **5.11 × 10⁻⁴** | **1.02** |
-| **13** | **R8** | **5** | **triv** | **2.03 × 10⁻³** | **u** | **2.16 × 10⁻³** | **1.06** |
-| 14 | R8 | 5 | gal | 1.51 × 10⁻² | d | 4.67 × 10⁻³ | 3.22 |
-| **15** | **R8** | **5** | **std** | **1.03 × 10⁻¹** | **μ / s** | **1.057 × 10⁻¹ / 9.34 × 10⁻²** | **1.02 / 1.10** |
-| 16 | R5 | 6 | std | 3.49 × 10⁻¹ | — | target | |
-| 17 | R4 | 6 | std | 7.34 × 10⁻¹ | τ | 1.777 | 2.42 |
-| 18 | R2 | 7 | gal | 5.33 | b | 4.18 | 1.28 |
-| 19 | R4 | 6 | gal | 5.84 | b | 4.18 | 1.40 |
-| 20 | R4 | 6 | triv | 5.97 | b | 4.18 | 1.43 |
-| 21 | R5 | 6 | triv | 7.96 | b | 4.18 | 1.91 |
-| 22 | R5 | 6 | gal | 11.72 | b | 4.18 | 2.80 |
-| 23 | R2 | 7 | triv | 44.54 | t | 172.7 | 3.88 |
-| 24 | R2 | 7 | std | 261.46 | t | 172.7 | 1.51 |
-
-**Scorecard:** A comparison, not a prediction. Of the charged fermions, 7 of 9 land within ×3 (α-anchored), or 6 of 8 with m_e as the scale benchmark; 2 within 6% (u and μ; e is the scale benchmark, not a forward comparison). The one genuine miss among assigned is d at 3.22×. Charm is unassigned, displaced from rank 17 by the Coxeter-Galois gate resolving it as τ; ν₂ is unassigned, its 8.6 meV falling between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ~7.75× gap from rank 2.
-
-**Dead zone (ranks 4-9):** eV to keV range. No SM fermions expected. Actively probed by sterile neutrino and warm dark matter searches. Physical states here require extremely suppressed non-gravitational couplings.
-
-**Rank 3 exclusion:** R1 triv predicts ~0.4 eV. Cosmological bounds constrain Σm_ν ≲ 0.1 eV. Excluded as SM neutrino. Status as non-SM state with suppressed couplings: OPEN.
+Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. The match against the measured fermions is a comparison, not a prediction: the topology fixes the count and the quantum-number content of each entry, while the mass match is softer (pending a null test). The full 24-entry comparison (ranks, ratios, the 7-of-9 / 6-of-8 charged-fermion tally, the dead zone, the ν₂ and charm gaps) lives in [the mass spectrum](../spectrum/files/mass-spectrum.md) §III.
 
 ### Key Numbers
 
@@ -390,34 +272,10 @@ Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (
 | Chronon | π/30 | 4π/120 |
 | Bosonic step | 2/120 | Spinor to scalar projection |
 | Active wells | {13, 21, 34, 55, 60}/120 | Hurwitz stability + threshold |
-| Closure identity | 𝒯/𝒯_c = 1/ξ ≈ 2.2 | SPARC-falsified galactic trigger; withdrawn |
-| Coherence scale | L_f = v_c²/a₀ | SPARC-falsified galactic trigger; withdrawn |
-| Phase field response | Θ_f = 2/120 · 1(𝒯 ≥ 𝒯_c) | SPARC-falsified galactic trigger; withdrawn |
-| H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.084 |
-| Inputs | c, ℏ, R, m_e | R open (α / mass-spectrum routes; de Sitter circular); Ω_m = 1 - Ω_Λ ≈ 0.315 is a temporal-budget output |
+| H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.084 (lattice arithmetic; the galactic trigger is withdrawn, SPARC) |
+| Inputs | c, ℏ, R, m_e | R open (α / mass-spectrum routes; de Sitter circular); Ω_m = 1 − Ω_Λ ≈ 0.315 is a temporal-budget output |
 
-### The Sunflower
-
-The matter well 13/60 in the scaling law IS the golden angle on the 120 domain:
-```
-13/34 ≈ 1/φ²     (error: 4 × 10⁻⁴)
-```
-Position 13 appears in Kostant polynomials of fermionic irreps R2, R6, R8.
-
-### Open Questions in Tool 5
-
-The scaling law and mass formula are established. Remaining open work:
-
-| Item | Status |
-|------|--------|
-| α exponent n = 1/30 | ESTABLISHED; two convergent paths (McKay packetization, dimensionless dilution rule). Direct Phase-logΩ route proved not to exist (Lemma 8). Single-principle formal derivation open. |
-| Assignment problem | T₃ rule ESTABLISHED (Coxeter-Galois gate, 10/10 verified). Charm assignment OPEN (displaced from rank 17 by τ). Full (ρ,σ) → (T₃,Y,Q) mapping complete for 10 assigned fermions. |
-| ν₂ gap | 8.6 meV falls between rank 1 and rank 2; vacuum mixing or additional neutrino-scale structure could close it |
-| Fermion mass residual | Systematic overshoot growing with McKay dist; one-parameter correction at high dist needed |
-| Rank 3 exclusion | R1 triv at ~0.4 eV; non-SM state or structural correction: OPEN |
-| Rank 16 target | R5 std at ~349 MeV; no SM assignment; target, real state vs structural residual open |
-| Black ∅ mechanism | ESTABLISHED. Horizon = double zero: Θ → 0 drives C(Θ) → 0 (sampling ceases); Ω_H → 0 independently collapses local hierarchy. Information preserved: wave persists through node, unsampled not destroyed. Area scaling falls out of surface primacy (n=2 fundamental). The Φ → Θ mapping is DERIVED at leading order (C/C₀ = 1 - r_s/r, β = 1 forced, Θ → 0 at the Schwarzschild horizon where Φ/c² = -1/2). Open: the dynamical re-description (moving and merging horizons in the sampling variables) and the Kerr generalization. Priority 1. |
-| Spectral-physical bridge | OPEN (narrowed). The spectral double zero (Tool 3: torsion survivor log T²) and the physical double zero (Tool 5: Hawking radiation at C gradient) are structurally parallel. The direct route (a continuous map s ↔ Θ) is proved not to exist (Lemma 8: continuous position drops out of spectral data on S³/2I by right-SU(2) homogeneity; four independent proofs). One route remains: through the physical Φ → Θ mapping. If gravitational potential provides the discrete localization that spectral geometry lacks, the torsion survivors {log 2, log 3, log 5, log φ} could constrain horizon structure through the same arithmetic that constrains the fermion mass spectrum, unifying Tools 3 and 5 at the domain boundary. With the leading-order Φ → Θ mapping now in hand, the open work is whether those torsion survivors can be carried through it to the horizon. |
+Open derivations (the α exponent's single-principle form, the charm/assignment problem, the black-hole Φ → Θ dynamical mapping, the spectral-physical bridge) are tracked in the [working notes](../working/).
 
 ---
 
