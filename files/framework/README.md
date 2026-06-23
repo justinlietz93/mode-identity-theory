@@ -351,6 +351,8 @@ Two further entries are not primes but corrections derived from the same stabili
 | Face / Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue carried to a space observable |
 | Vertex $\times$ twist | $\cos(\pi/10)$ | Weak coupling correction | Dodecahedral defect $\pi/5$, halved by the Möbius $Z_2$ |
 
+The 3/2 gravity entry is the conjectural one: its derived content is the Gauss conversion (3 = isotropic Ricci trace, 2 = de Sitter normalization; see [cosmological constant](../cosmos/files/cosmological-constant.md)), and reading the same 3/2 as a face-to-edge stabilizer ratio is a suggested correspondence, not a derived identity.
+
 The stabilizer structure says what each entry is; the formula says where each entry sits; both come from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
 
 ---

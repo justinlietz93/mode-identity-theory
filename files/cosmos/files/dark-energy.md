@@ -57,7 +57,7 @@ For a power-law clock $dt/d\tau = S^n$, the requirement that the non-vacuum sect
 
 $$\frac{dt}{d\tau} = S^{-1/2}$$
 
-This is the Waltz clock. At early times $S \ll 1$, the clock $dt/d\tau \propto S^{-1/2}$ makes $H \propto S^{-3/2} \propto (1+z)^{3/2}$, which squares to the familiar matter-density scaling. The exponent traces to the face/edge stabilizer ratio (3/2) of the icosahedral group native to $S^3$ ($|2I| = 120$). Integer alternatives ($n = 0, -1, +1$) produce $(1+z)^1$, $(1+z)^2$, and $(1+z)^0$ scalings respectively; all three are ruled out at $\Delta\chi^2 > 60$ against Pantheon+ (Appendix A of the companion analysis).
+This is the Waltz clock. At early times $S \ll 1$, the clock $dt/d\tau \propto S^{-1/2}$ makes $H \propto S^{-3/2} \propto (1+z)^{3/2}$, which squares to the familiar matter-density scaling. The exponent is a 3/2, the ratio of matter dilution to the Friedmann square root; identifying that with the face/edge stabilizer ratio of the icosahedral group native to $S^3$ ($|2I| = 120$) is a conjectured correspondence, not derived. Integer alternatives ($n = 0, -1, +1$) produce $(1+z)^1$, $(1+z)^2$, and $(1+z)^0$ scalings respectively; all three are ruled out at $\Delta\chi^2 > 60$ against Pantheon+ (Appendix A of the companion analysis).
 
 ### The Hubble Rate
 

@@ -121,7 +121,7 @@ The binary icosahedral group 2I inherits three stabilizer subgroups from the ico
 | Face (Z₃) | Order 3 | Color: singlet vs triplet | LOCKED |
 | Edge (Z₄) | Order 4 | Domain: D = 60 vs 120; spin-statistics | LOCKED |
 | Vertex (Z₅) | Order 5 | Electroweak interface; T₃ via Coxeter-Galois gate | ESTABLISHED |
-| Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi curvature conversion | DERIVED |
+| Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi conversion (derived); the Face/Edge identification is conjectural | MOTIVATED |
 | Vertex through twist | cos(π/10) | Weak coupling correction; parity violation | MOTIVATED |
 
 The three stabilizer orders 2, 3, 5 are the primes dividing |2I| = 120 and the conductors of the four surviving Dirichlet characters in the torsion L-basis.

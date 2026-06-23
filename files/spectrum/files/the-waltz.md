@@ -53,11 +53,11 @@ The ratio of mode amplitude to energy density ($f^2/\rho$) grows with $R$, so an
 
 | Coefficient | Source |
 |---|---|
-| 3 | Spatial Ricci trace (isotropic space); icosahedral face stabilizer order |
-| 2 | Antinode intensity + de Sitter relation; icosahedral edge stabilizer order |
-| 3/2 | Gauss equation interface = face order / edge order |
+| 3 | Spatial Ricci trace, isotropic space (derived); conjecturally also the icosahedral face stabilizer order |
+| 2 | Antinode intensity + de Sitter relation (derived/imported); conjecturally also the icosahedral edge stabilizer order |
+| 3/2 | the Gauss-equation conversion; equating it with face order / edge order is a conjectured correspondence |
 
-The 3 reflects $S^3$'s three-dimensionality. The 2 is the GR definition of Λ. The 3/2 is their ratio: the Gauss equation interface between 3D curvature and 2D geometry. In icosahedral geometry, this is face stabilizer order 3 to edge stabilizer order 2, intrinsic to the polyhedral group.
+The 3 reflects $S^3$'s three-dimensionality. The 2 is the GR definition of Λ. The 3/2 is their ratio: the Gauss equation interface between 3D curvature and 2D geometry. The same numbers appear in icosahedral geometry as face stabilizer order 3 and edge stabilizer order 2; whether that polyhedral reading is the same 3/2 or a numerical coincidence is the open question.
 
 ### The dictionary has a definition
 

@@ -26,7 +26,7 @@ The budget, the things read off it, and the clock that times it are spread acros
 
 ## The one budget, and its twin
 
-$\Psi^2 + S^2 = 1$, with $\Psi = \cos(t/2)$ the unresolved standing wave and $S = \sin(t/2)$ the realized-mode content. It is conserved by construction and has one state variable, $S$. Everything thermodynamic on this page is a function of that one number. The spatial budget $u_0^2 + J^2 = 1$ is its structural twin on the Möbius wavefunction, carrying the same 3/2 Gauss factor; it fixes $\Lambda$ rather than the thermal history, and it is the only other genuine budget in the framework.
+$\Psi^2 + S^2 = 1$, with $\Psi = \cos(t/2)$ the unresolved standing wave and $S = \sin(t/2)$ the realized-mode content. It is conserved by construction and has one state variable, $S$. Everything thermodynamic on this page is a function of that one number. The spatial budget $u_0^2 + J^2 = 1$ is its structural twin on the Möbius wavefunction, fixing $\Lambda$ through the Gauss 3/2 that the clock's exponent numerically matches (a correspondence still open); it is the only other genuine budget in the framework.
 
 ## The two readings
 
