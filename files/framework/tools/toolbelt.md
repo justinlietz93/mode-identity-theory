@@ -10,7 +10,7 @@ Work left to right. No backflow. If something fails at Tool 3, you do not "fix" 
  constrains     populates        identifies          selects       produces
 ```
 
-This is the machinery, not the results. For the scored predictions it produces, see the Score sections of the [framework](../framework/README.md), [cosmos](../cosmos/), and [spectrum](../spectrum/) pages and the [mass spectrum](../spectrum/files/mass-spectrum.md).
+This is the machinery, not the results. For the scored predictions it produces, see the Score sections of the [framework](../README.md), [cosmos](../../cosmos/), and [spectrum](../../spectrum/) pages and the [mass spectrum](../../spectrum/files/mass-spectrum.md).
 
 ---
 
@@ -46,7 +46,7 @@ The 120-grid IS S³ structure, not a filter applied to it. S¹ is partitioned in
 | S³ space | Spatial curvature | Responds to all of the above |
 | G | Curvature-energy exchange rate | 3c⁴/(8πR²μ_Λ⁴); closed-form from topology + one mass anchor |
 
-Gravity sits outside the gauge ladder as the interface between continuous S³ geometry and the discrete 120 domain; why it resists quantization is worked in [The Waltz](../spectrum/files/the-waltz.md) §III.
+Gravity sits outside the gauge ladder as the interface between continuous S³ geometry and the discrete 120 domain; why it resists quantization is worked in [The Waltz](../../spectrum/files/the-waltz.md) §III.
 
 **If something violates Tool 1, it is not part of MIT. Full stop.**
 
@@ -91,7 +91,7 @@ R0(1) --- R1(2) --- R3(3) --- R6(4) --- R7(5) --- R8(6) --- R5(4) --- R2(2)
 | Galois conjugation | Swaps R1 ↔ R2, R3 ↔ R4; fixes R5, R7 |
 | Shell closure | Cumulative dimension reaches 30 = h(E₈) at the shell |
 
-Masslessness as a topological address (edge-only propagation costs no mass; photons and gluons stay on S¹, W/Z/fermions cross to the surface) is in [The Waltz](../spectrum/files/the-waltz.md) §V.
+Masslessness as a topological address (edge-only propagation costs no mass; photons and gluons stay on S¹, W/Z/fermions cross to the surface) is in [The Waltz](../../spectrum/files/the-waltz.md) §V.
 
 ### C_geom Values
 
@@ -173,7 +173,7 @@ From log T²(ρ⊗σ) = Σ_τ N_ρστ log T²(τ):
 
 R7 is the only irrep where T²(std) = T²(gal): the electron sits where the Galois distinction vanishes. These 24 values are the torsion factor T²(ρ⊗σ) you feed into the mass formula.
 
-**Dead-end gate (Lemma 8):** no natural map exists between the phase position Θ and the spectral parameter s on S³/2I, so the mass formula's fine structure cannot be completed by extending spectral arithmetic. This is proved, not open: do not pursue that route. The L-basis decomposition, the spin-parity split, and the curvature duality behind these values are in [The Mirror](../spectrum/files/the-mirror.md).
+**Dead-end gate (Lemma 8):** no natural map exists between the phase position Θ and the spectral parameter s on S³/2I, so the mass formula's fine structure cannot be completed by extending spectral arithmetic. This is proved, not open: do not pursue that route. The L-basis decomposition, the spin-parity split, and the curvature duality behind these values are in [The Mirror](../../spectrum/files/the-mirror.md).
 
 ---
 
@@ -214,7 +214,7 @@ The 9× enhancement at the Galois vacuum traces to R4's position at the extremal
 | R7 | 2 | 1 | 1 |
 | R8 | 5/2 | 3/2 | 1/2 |
 
-Caveat: the j_first ordering is not uniform across vacua, and the specific generation-to-vacuum mapping is open ([framework](../framework/README.md), Three Generations). The T₃ quantum-number rule below is separate and is established.
+Caveat: the j_first ordering is not uniform across vacua, and the specific generation-to-vacuum mapping is open ([framework](../README.md), Three Generations). The T₃ quantum-number rule below is separate and is established.
 
 ### The Assignment Rules
 
@@ -234,7 +234,7 @@ Caveat: the j_first ordering is not uniform across vacua, and the specific gener
 A / A_P ≈ C(Θ) · (√Ω)⁻ⁿ
 ```
 
-where C(Θ) = 2 sin²(πΘ). Worked example, one well: α sits at Θ = 13/60 on the bosonic grid, C(13/60) = 0.79, n = 1/30 on √Ω_Λ, giving A/A_P = 7.33 × 10⁻³. The other cosmological evaluations (a₀, H₀, Λ) are tabulated in the [framework engine](../framework/README.md) and scored in the [cosmos pages](../cosmos/).
+where C(Θ) = 2 sin²(πΘ). Worked example, one well: α sits at Θ = 13/60 on the bosonic grid, C(13/60) = 0.79, n = 1/30 on √Ω_Λ, giving A/A_P = 7.33 × 10⁻³. The other cosmological evaluations (a₀, H₀, Λ) are tabulated in the [framework engine](../README.md) and scored in the [cosmos pages](../../cosmos/).
 
 ### The Mass Formula
 
@@ -260,7 +260,7 @@ Four factors, four sources:
 | R4 | 6 | std | 7.34 × 10⁻¹ | τ |
 | R2 | 7 | std | 261.46 | t |
 
-Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. The match against the measured fermions is a comparison, not a prediction: the topology fixes the count and the quantum-number content of each entry, while the mass match is softer (pending a null test). The full 24-entry comparison (ranks, ratios, the 7-of-9 / 6-of-8 charged-fermion tally, the dead zone, the ν₂ and charm gaps) lives in [the mass spectrum](../spectrum/files/mass-spectrum.md) §III.
+Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. The match against the measured fermions is a comparison, not a prediction: the topology fixes the count and the quantum-number content of each entry, while the mass match is softer (pending a null test). The full 24-entry comparison (ranks, ratios, the 7-of-9 / 6-of-8 charged-fermion tally, the dead zone, the ν₂ and charm gaps) lives in [the mass spectrum](../../spectrum/files/mass-spectrum.md) §III.
 
 ### Key Numbers
 
@@ -275,7 +275,7 @@ Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entri
 | H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.084 (lattice arithmetic; the galactic trigger is withdrawn, SPARC) |
 | Inputs | c, ℏ, R, m_e | R open (α / mass-spectrum routes; de Sitter circular); Ω_m = 1 − Ω_Λ ≈ 0.315 is a temporal-budget output |
 
-Open derivations (the α exponent's single-principle form, the charm/assignment problem, the black-hole Φ → Θ dynamical mapping, the spectral-physical bridge) are tracked in the [working notes](../working/).
+Open derivations (the α exponent's single-principle form, the charm/assignment problem, the black-hole Φ → Θ dynamical mapping, the spectral-physical bridge) are tracked in the [working notes](../../working/).
 
 ---
 

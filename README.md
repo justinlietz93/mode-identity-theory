@@ -185,11 +185,11 @@ All predictions locked before October 2026 and deposited on Zenodo. Each row bel
 
 Every link between topology and observable is live. The code is the math. There are no hidden knobs.
 
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/topology.html)**
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/files/framework/tools/topology.html)**
 
-**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)**
+**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/files/framework/tools/calculator.html)**
 
-**[Trace the Machinery](/files/tools/toolbelt.md)**
+**[Trace the Machinery](/files/framework/tools/toolbelt.md)**
 
 ---
 

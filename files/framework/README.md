@@ -41,7 +41,7 @@ Each layer follows from the one before.
 
 ---
 
-## :stadium: [One Shape](https://dmobius3.github.io/mode-identity-theory/files/tools/topology.html)
+## :stadium: [One Shape](https://dmobius3.github.io/mode-identity-theory/files/framework/tools/topology.html)
 
 $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
@@ -128,7 +128,7 @@ The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to conformal time $\
 
 Two phase parameterizations exist for the current epoch. The engine phase $\Phi = 4\pi\, T/T_\text{cycle}$ (linear in proper time) gives $\Phi_\text{now} \approx 5.22$ rad. The budget phase $t$ (argument of $\Psi = \cos(t/2)$, nonlinear in proper time through the Waltz clock) is constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\Phi)$ between them remains open; both parameterizations reproduce the same distance-redshift relation. The full $4\pi$ period and the 120-step chronon structure are topology-native and independent of which parameterization is used.
 
-## :balance_scale: [One Equation](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
+## :balance_scale: [One Equation](https://dmobius3.github.io/mode-identity-theory/files/framework/tools/calculator.html)
 
 $$\Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
@@ -314,7 +314,7 @@ Why three generations, and not two or seven? Because the space has exactly three
 
 Three topological vacua give three particle generations; the count is forced. Trivial and Standard are degenerate in gap, while Galois is distinguished by the 9× enhancement: the gap is the square of the adjoint's McKay distance, and the Galois adjoint sits at distance 6 against the standard adjoint's 2, so $36/4 = (6/2)^2 = 9$. The Galois vacuum is a genuine third connection, not a twist of the standard one, because $2I$ is perfect (equal to its own commutator subgroup): its only one-dimensional character is trivial, so the standard connection $Q$ and its Galois conjugate $Q'$ stay distinct under every twist. The specific generation-to-vacuum mapping is open.
 
-### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
+### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/framework/tools/calculator.html)
 
 The formula reads left to right as one motion: start at the floor, choose a seat, ride the elevator, then turn the dial. Four factors, each traced independently to the postulate, each doing exactly one thing:
 
