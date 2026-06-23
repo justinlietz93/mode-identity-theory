@@ -216,7 +216,7 @@ This carries a specific quantified discrepancy, and $\Phi_\text{now} = 5.22$ is 
 | Connection | Content |
 |---|---|
 | [Spatial budget $u_0^2 + J^2 = 1$](../../cosmos/files/cosmological-constant.md) | The temporal budget is its twin. Spatial budget sets $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$; temporal budget sets the Waltz clock. The same numerical 3/2 sits in both; whether it is the same geometric ratio is open. |
-| [Sector $\mathcal{A}$ eigenvalue](../../framework/ground-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
+| [Sector $\mathcal{A}$ eigenvalue](../../framework/pillars/first-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
 | [Hubble tension](../../cosmos/files/hubble-tension.md) | The Waltz clock $H \propto S^{-3/2}$ is the mechanism underlying the early/late discrete snap. |
 | [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md) | Same sampling-operation picture. Redshift as phase ratio + energy as resolution amplitude should unify into a single account. Open. |
 | [Λcos paper](https://github.com/dmobius3/lambda-cos) | Presents Model D+Λ as a standalone phenomenological model ("Λcos") without framework language. Joint SN+BAO constraint: $s_0 < 0.19$ (95% CL). Template bias demonstrated: CPL/BA/JBP produce phantom crossings from non-phantom input. Clock exponent empirically validated. Linear-growth consistency check against DESI DR1 ShapeFit+BAO at six tracer effective redshifts gives $\Delta\chi^2_\text{RSD} < 0.3$ relative to flat ΛCDM. First quantitative constraint on the budget phase parameter from joint background and growth data. |
