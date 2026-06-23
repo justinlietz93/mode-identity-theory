@@ -90,7 +90,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 ## :control_knobs: Inputs
 
-Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $\Omega_\Lambda$ is over-determined, fixed to within residuals by Λ (through $R_\Lambda$), by $\alpha$, or by the mass ratio, and every dimensionless result holds under each choice. The $\alpha$ reading is the best-conditioned, fixing $\Lambda$ to ~24% with no $R_\Lambda$. The default entry below is $R_\Lambda$ for the cosmological scale and $m_e$ as the mass benchmark, with $s_0$ for the phase. Full accounting is in the [calibration web](/files/framework/) on the framework page.
+Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $\Omega_\Lambda$ is over-determined, fixed to within residuals by Λ (through $R_\Lambda$), by $\alpha$, or by the mass ratio, and every dimensionless result holds under each choice. The $\alpha$ reading is the best-conditioned, fixing $\Lambda$ to ~24% with no $R_\Lambda$. The default entry below is $R_\Lambda$ for the cosmological scale and $m_e$ as the mass benchmark, with $s_0$ for the phase.
 
 **Primitives**
 
