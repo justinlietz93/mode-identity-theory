@@ -188,6 +188,8 @@ $\mathbb{R}^4$ is emergent from sampling, not prior to it. The manifold descript
 | Spacetime is the venue | Spacetime is emergent from sampling |
 | Physics is dynamics in a manifold | Physics is what the wave yields at the observer's position |
 
+Relocating the venue does not still the dance. The field equations remain dynamical within the chart (§VII); the composed score holds the full history the way relativity's block spacetime holds every worldline.
+
 ## VII. The Completed Octave
 
 The paper opened by naming $\Lambda$ as a note to Einstein's field equations. The note, followed through, has identified every term in the vacuum equation and the sampler that reports them. The scale completes.
