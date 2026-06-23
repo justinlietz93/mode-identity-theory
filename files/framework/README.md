@@ -14,7 +14,7 @@ $$
 
 In plain terms, before the formal names arrive: twist a strip into a Möbius band, scale its single edge up to the size of the universe, and set the whole thing inside $S^3$, the one closed three-dimensional space with no boundary and no holes. That shape is the entire theory. The particles, the forces, and the constants arise from the shape itself, read off as values at positions.
 
-That shape has two layers: the smooth space $S^3$ underneath, and the structure built on it where the physics is read off. The topology the body works with belongs to that structure; $S^3$ itself is smooth and hole-free.
+That shape has two layers: the smooth space $S^3$ underneath, and the structure built on it where the physics is read off. The topology lives in that built structure; $S^3$ itself is smooth and hole-free.
 
 The postulate says that time is the boundary of a non-orientable surface embedded in a closed three-space. The observable domain is the Poincaré homology sphere,
 
@@ -126,7 +126,7 @@ The phase parameter $s_0 = \sin(t_\text{now}/2)$ is directly constrained by dist
 
 ### The Present Epoch
 
-Two phase parameterizations exist for the current epoch. The engine phase $\Phi = 4\pi\, T/T_\text{cycle}$ (linear in proper time) gives $\Phi_\text{now} \approx 5.22$ rad. The budget phase $t$ (argument of $\Psi = \cos(t/2)$, nonlinear in proper time through the Waltz clock) is constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\Phi)$ is OPEN; both parameterizations reproduce the same distance-redshift relation. The full $4\pi$ period and the 120-step chronon structure are topology-native and independent of which parameterization is used.
+Two phase parameterizations exist for the current epoch. The engine phase $\Phi = 4\pi\, T/T_\text{cycle}$ (linear in proper time) gives $\Phi_\text{now} \approx 5.22$ rad. The budget phase $t$ (argument of $\Psi = \cos(t/2)$, nonlinear in proper time through the Waltz clock) is constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\Phi)$ between them remains open; both parameterizations reproduce the same distance-redshift relation. The full $4\pi$ period and the 120-step chronon structure are topology-native and independent of which parameterization is used.
 
 ## :balance_scale: [One Equation](https://dmobius3.github.io/mode-identity-theory/files/tools/calculator.html)
 
@@ -223,7 +223,7 @@ Evaluating the scaling law at each well:
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 >
-> **Status:** numerical $\Lambda$ is a surface-sector calibration, not an independent prediction; the first positive eigenvalue $2/R_\Lambda^2$ is the geometric result (see the [cosmological constant](../cosmos/files/cosmological-constant.md) page).
+> The numerical $\Lambda$ is therefore a surface-sector calibration rather than an independent prediction; the geometric result is the first positive eigenvalue $2/R_\Lambda^2$, derived on the [cosmological constant](../cosmos/files/cosmological-constant.md) page.
 
 **Calibration structure.** $H_0$ fixes the edge normalization $N = H_0 t_P / C(34/120)$; the other edge observables follow from $N$ as predictions, and the $\approx$ in the scaling law marks this single calibration. Any ratio of two edge-mode $C$ factors cancels $N$, so it is a zero-parameter prediction.
 
@@ -233,8 +233,6 @@ The $a_0/(cH_0)$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184
 
 ### [The Phase Field](../cosmos/files/hubble-tension.md)
 
-**Status:** The lattice arithmetic (the well-slope step) stands; the galactic trigger that would realize the $H_0$ shift is withdrawn (SPARC), so the 8.4% step is a topological number without an active mechanism (see the [Hubble tension](../cosmos/files/hubble-tension.md) page).
-
 The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0$ is the Fibonacci well (fixed) and $\Theta_f$ is the local environmental shift.
 
 | Well | Θ | Slope sensitivity | Physical shift | Reason |
@@ -243,7 +241,7 @@ The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0
 | $H_0$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
 | $\Lambda_\text{top}$ | 60/120 | 0 per step | 0% | Topologically protected |
 
-The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step (2/120) as an 8.4% shift: $C(36/120)/C(34/120) = 1.084$, giving $67.4 \times 1.084 \approx 73$ km/s/Mpc. This arithmetic is fixed by well positions and independent of any galactic mechanism.
+The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step (2/120) as an 8.4% shift: $C(36/120)/C(34/120) = 1.084$, giving $67.4 \times 1.084 \approx 73$ km/s/Mpc. This arithmetic is fixed by well positions and independent of any galactic mechanism: the lattice step stands on its own, while the galactic trigger that would realize the shift is withdrawn (the SPARC test, detailed on the [Hubble tension](../cosmos/files/hubble-tension.md) page), so the 8.4% is a topological number without an active mechanism.
 
 $a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
@@ -295,6 +293,8 @@ These are different operations doing different jobs. Embedding a 2-surface in th
 **Gravity is what crosses.** The gauge ladder just closed by ruling out a position *inside* the grid; gravity is different in kind, not a grid position at all, vacant or filled. It couples to stress-energy on either layer, so it is the one interaction that translates between the smooth substrate and every discrete structuring of it, the Möbius vacuum and the $2I$ grid alike. In MIT's reading, that translation is what gravity is: not a fourth gauge force and not a graviton on the grid, but the conversion across the interface, with the Gauss factor as the cost it pays on the vacuum seam. On the grid seam it pays nothing special, only the ordinary stress-energy coupling at $8\pi G$; Einstein's field equations are unchanged. What the framework adds is why gravity sits outside the gauge ladder, and why its signature is a geometric conversion rather than a coupling on the grid.
 
 ## :atom_symbol: [One Formula](../spectrum/files/mass-spectrum.md)
+
+The mass spectrum assembles in three moves, each set by the same topology: the curvature gap that confines, the three flat vacua that become the generations, and the four-factor formula that ranks the fermion masses.
 
 ### [Confinement](../spectrum/files/yang-mills.md)
 
