@@ -209,6 +209,12 @@ If Hawking radiation carries energy away, enclosed content decreases, the $\Thet
 
 **Minimum mass.** The 120-grid resolves the horizon into 34 discrete shells (§VIII.2). Setting the proper distance to the innermost shell equal to the Planck length gives $M_\min \approx 7.4\,m_P$ (full grid) or $\approx 3.7\,m_P$ (bosonic grid). The framework's own action bound ($\Delta S_\min = \hbar\pi/30$) produces no mass threshold: the action per grid step at the horizon is mass-independent ($\Delta S_\text{phase}/\Delta S_\min = 1/4$, a structural ratio). The minimum mass is a property of the interface ($G$, which produces $\ell_P$), while the topology treats every horizon with equal fidelity.
 
+### Local dynamics and the merger problem
+
+MIT leaves Einstein's field equations unchanged, and a merger is local dynamics: the inspiral, the waveform, and the ringdown are inherited from general relativity, which already matches LIGO. That inheritance is by design, not an omission. Static here is a cosmological claim: it fixes the topology and the global scale of $S^3$, not the local metric. The $C \to 0$ boundary is not a defect pinned to a coordinate on $S^3$; it is the local field configuration the mass sources, the same object as the Schwarzschild redshift factor through the forced pairing $C/C_0 = g_{tt}$ (§VIII.1), localized because the mass breaks the homogeneity of the right SU(2) action. It travels with its mass: two orbiting black holes are two $C \to 0$ regions carried under their mutual gravity, exactly as two Schwarzschild horizons move through the fixed coordinate background of a numerical-relativity simulation.
+
+What the framework has not yet done is restate that motion in its own language. The $\Phi \to \Theta$ mapping of §VIII.1 is derived only at leading order and only for a horizon at rest, pairing $C/C_0$ with $g_{tt}$ for a single static black hole. The dynamical version, two $C \to 0$ regions moving, radiating, and combining, written in the sampling variables rather than inherited from the metric, is open: §VIII.1 already flags the global corrections and the Kerr generalization as untested. This is an incomplete re-description, not a missing mechanism. General relativity supplies the physics of the merger and the framework keeps it in full; what is outstanding is the translation of that physics into the $C(\Theta)$ picture, the next order of the same mapping that is leading-order everywhere gravity meets the grid.
+
 ---
 
 ## VI. The Phase Walk and the Closed Domain
