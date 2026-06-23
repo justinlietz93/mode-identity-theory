@@ -166,6 +166,8 @@ One operator, read at every position: zero at the boundaries, maximal ($C = 2$) 
 
 $\Lambda_\text{top}$ sits at the antinode: slope exactly zero.
 
+The boundary zeros are physical: the framework reads a black-hole horizon as this $C \to 0$ wall, where sampling fails entirely (the [black-hole supplement](../cosmos/files/black-hole.md)).
+
 ### The Hierarchy and the Observer
 
 $\Omega_\Lambda$ is fixed by $\Lambda$ and epoch-independent. The phase-gradient scale changes with epoch:
