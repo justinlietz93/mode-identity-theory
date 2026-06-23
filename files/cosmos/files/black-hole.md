@@ -139,7 +139,7 @@ The spectral mirror (§II.A) reinforces this: at $s = 0$, the spectral determina
 
 ### IV.A The Geometric Complement
 
-The [Sector A eigenvalue problem](../../framework/pillars/first-eigenvalue.md) gives the first positive eigenfunction and the metric coefficient on the totally geodesic Möbius band in $S^3$:
+The [Sector A eigenvalue problem](../../framework/bedrock/first-eigenvalue.md) gives the first positive eigenfunction and the metric coefficient on the totally geodesic Möbius band in $S^3$:
 
 $$u_0(y) = \sin(y/R), \qquad J(y) = \cos(y/R)$$
 

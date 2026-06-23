@@ -48,7 +48,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | $\Lambda_\text{obs}$ is a topological eigenvalue; $\Omega_\text{DE}(z)$ is flat at every DR1 redshift bin | [cosmological-constant](cosmological-constant.md), [first-eigenvalue](../../framework/pillars/first-eigenvalue.md) |
+| **MIT** | $\Lambda_\text{obs}$ is a topological eigenvalue; $\Omega_\text{DE}(z)$ is flat at every DR1 redshift bin | [cosmological-constant](cosmological-constant.md), [first-eigenvalue](../../framework/bedrock/first-eigenvalue.md) |
 | **ΛCDM** | $\Lambda$ constant by construction | Standard Friedmann cosmology |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | DESI DR2 best fit: $(w_0, w_a) = (-0.42 \pm 0.21,\; -1.75 \pm 0.58)$ (BAO+CMB), implying time-varying dark energy density; $\Omega_\text{DE}(z)$ not flat | DESI DR2 BAO+CMB combined fit |
 | **EDE** | Early dark energy component active near $z \sim 3000$; at low $z$, $\Omega_\text{DE}(z)$ approximately flat | Poulin, Smith, Karwal class |
