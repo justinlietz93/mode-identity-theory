@@ -25,7 +25,7 @@ Work left to right. No backflow. If something fails at Tool 3, you do not "fix" 
 | Hierarchy | S³ (venue, n=3) contains Möbius (surface, n=2) whose boundary is S¹ (edge, n=1) | DERIVED |
 | Uniqueness | Poincaré conjecture + classification theorems fix all three manifolds | DERIVED |
 | 120 structure | 2I (binary icosahedral, largest exceptional discrete subgroup of SU(2) ≅ S³) acts freely; \|2I\| = 120 | DERIVED |
-| Gauss-Codazzi | 3/2 curvature interface: R_spatial = 3R_Σ = 2Λ → Λ_obs = (3/2)Λ_top. Ground eigenvalue λ₀ = 2/R² = R_Σ derived directly; Bochner bound confirms λ₀ ≥ R_Σ with equality unique. | DERIVED |
+| Gauss-Codazzi | 3/2 curvature interface: R_spatial = 3R_Σ = 2Λ → Λ_obs = (3/2)Λ_top. First positive eigenvalue λ₁ = 2/R² = R_Σ derived directly; Bochner bound confirms λ₁ ≥ R_Σ with equality unique. | DERIVED |
 | Topological protection of Λ | Λ_top sits at the antinode (Θ = 60/120) where d ln C/dΘ = 0. Zero slope means no perturbation can shift it. Λ is constant because the mode cannot be displaced. | DERIVED |
 | G as exchange rate | The topology independently sources both the curvature (Λ_obs = 3/R² from the Möbius eigenvalue through Gauss-Codazzi) and the energy floor (μ_Λ from the mass spectrum). G is the exchange rate between them: G = 3c⁴/(8πR²μ_Λ⁴). All G-dependence collects into a single power law: m ∝ G^{-(15+d)/60}. The solution is closed-form, not transcendental. One equation, one unknown, given c, ℏ, R, and one measured particle mass. Electron anchor: +7%, muon: -7%, geometric mean: <1%. | ESTABLISHED |
 
@@ -37,7 +37,7 @@ The 120-grid IS S³ structure, not a filter applied to it. S¹ is partitioned in
 
 | Structure | What it determines | Mechanism |
 |-----------|-------------------|-----------|
-| Möbius surface (2D) | Vacuum energy Λ | Ground eigenvalue, Gauss-Codazzi |
+| Möbius surface (2D) | Vacuum energy Λ | First positive eigenvalue, Gauss-Codazzi |
 | Binary icosahedral group 2I | Particle spectrum, mass gap, generations | McKay decomposition, Reidemeister torsion |
 | Stabilizer triple (2, 3, 5) | Color, domain, forces, gravity ratio | Face/edge/vertex decompositions and interfaces |
 | Observer at √Ω | Coupling constants, hierarchy | Scaling law at Fibonacci wells |
@@ -308,7 +308,7 @@ The T₃ assignment rule is ESTABLISHED: a two-stage Coxeter-Galois gate assigns
 
 ## Tool 5: Scaling Law / Mass Generator (The Output)
 
-**Role:** Turns structure into numbers. The scaling law is locked. The mass formula is established.
+**Role:** Turns structure into numbers. The scaling law is locked. The mass formula is a comparison: the topology fixes the count and the quantum-number content of each entry; the mass match is softer, pending the null test.
 
 ### The Scaling Law
 
@@ -318,7 +318,7 @@ A / A_P ≈ C(Θ) · (√Ω)⁻ⁿ
 
 where C(Θ) = 2 sin²(πΘ).
 
-### The Mass Formula (ESTABLISHED)
+### The Mass Formula (COMPARISON)
 
 $$m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)$$
 
@@ -326,7 +326,7 @@ Four factors. Four sources. Each traces independently to the topological postula
 
 | Factor | Role | Value/Source |
 |--------|------|-------------|
-| μ_Λ | Vacuum energy floor; fourth root of cosmological constant energy density. Traces to Tool 1: ground mode eigenvalue λ₀ = 2/R² → Gauss-Codazzi → Λ_obs → ρ_Λ^(1/4) | ρ_Λ^(1/4) ≈ 2.25 meV |
+| μ_Λ | Vacuum energy floor; fourth root of cosmological constant energy density. Traces to Tool 1: first positive eigenvalue λ₁ = 2/R² → Gauss-Codazzi → Λ_obs → ρ_Λ^(1/4) | ρ_Λ^(1/4) ≈ 2.25 meV |
 | C_geom(ρ) | Phase factor; geometric mean of C(e/D) over Kostant exponents | D = 60 (int spin), 120 (half-int) |
 | (√Ω_Λ)^(dist/30) | Hierarchy exponent; McKay graph distance sets orders of magnitude from vacuum floor | denominator is h(E₈) = 30 |
 | T²(ρ⊗σ) | Reidemeister torsion, vacuum-twisted; fine structure within each mass shell; the generation mechanism | 24 values from 8 irreps × 3 vacua |
@@ -338,9 +338,9 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 | Observable | Θ | C(Θ) | n | Ω | A/A_P | Status |
 |------------|-------|----------|---|-------|-------|--------|
 | α | 13/60 | 0.79 | 1/30 | Ω_Λ | 7.33 × 10⁻³ | n ESTABLISHED |
-| a₀/a_P | 13/120 | 0.22 | 1 | Ω_H | 2.2 × 10⁻⁶² | DERIVED |
-| H₀ · t_P | 34/120 | 1.21 | 1 | Ω_H | 1.2 × 10⁻⁶¹ | DERIVED |
-| Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² | DERIVED |
+| a₀/a_P | 13/120 | 0.22 | 1 | Ω_H | 2.2 × 10⁻⁶² | prediction |
+| H₀ · t_P | 34/120 | 1.21 | 1 | Ω_H | 1.2 × 10⁻⁶¹ | calibration anchor |
+| Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² | surface calibration |
 
 Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (professional certainty; two convergent paths: McKay packetization, dimensionless dilution rule). The Phase-logΩ route is proved not to exist (Lemma 8: no natural map between Θ and s on S³/2I). Λ_obs = (3/2) × Λ_top by Gauss-Codazzi embedding.
 
@@ -374,7 +374,7 @@ Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (
 | 23 | R2 | 7 | triv | 44.54 | t | 172.7 | 3.88 |
 | 24 | R2 | 7 | std | 261.46 | t | 172.7 | 1.51 |
 
-**Scorecard:** 10 SM fermions assigned (ν₂ and charm unassigned). 9/10 within ×3. 3 within 6% (e, u, μ). One genuine miss among assigned: d at 3.22×. The ν₂ gap at 8.6 meV falls between rank 1 (0.2 meV) and rank 2 (66.7 meV), ratio gap ~7.75× from rank 2. Charm displaced by Coxeter-Galois gate resolving rank 17 as τ.
+**Scorecard:** A comparison, not a prediction. Of the charged fermions, 7 of 9 land within ×3 (α-anchored), or 6 of 8 with m_e as the scale benchmark; 2 within 6% (u and μ; e is the scale benchmark, not a forward comparison). The one genuine miss among assigned is d at 3.22×. Charm is unassigned, displaced from rank 17 by the Coxeter-Galois gate resolving it as τ; ν₂ is unassigned, its 8.6 meV falling between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ~7.75× gap from rank 2.
 
 **Dead zone (ranks 4-9):** eV to keV range. No SM fermions expected. Actively probed by sterile neutrino and warm dark matter searches. Physical states here require extremely suppressed non-gravitational couplings.
 
@@ -390,11 +390,11 @@ Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (
 | Chronon | π/30 | 4π/120 |
 | Bosonic step | 2/120 | Spinor to scalar projection |
 | Active wells | {13, 21, 34, 55, 60}/120 | Hurwitz stability + threshold |
-| Closure identity | 𝒯/𝒯_c = 1/ξ ≈ 2.2 | Any flat-curve disk galaxy |
-| Coherence scale | L_f = v_c²/a₀ | Dimensional analysis; ~13 kpc for Milky Way |
-| Phase field response | Θ_f = 2/120 · 1(𝒯 ≥ 𝒯_c) | Binary; minimum bosonic step or nothing |
+| Closure identity | 𝒯/𝒯_c = 1/ξ ≈ 2.2 | SPARC-falsified galactic trigger; withdrawn |
+| Coherence scale | L_f = v_c²/a₀ | SPARC-falsified galactic trigger; withdrawn |
+| Phase field response | Θ_f = 2/120 · 1(𝒯 ≥ 𝒯_c) | SPARC-falsified galactic trigger; withdrawn |
 | H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.084 |
-| Inputs | c, ℏ, R (from H_∞), m_e | + Ωm (concordance) |
+| Inputs | c, ℏ, R, m_e | R open (α / mass-spectrum routes; de Sitter circular); Ω_m = 1 - Ω_Λ ≈ 0.315 is a temporal-budget output |
 
 ### The Sunflower
 
@@ -415,9 +415,9 @@ The scaling law and mass formula are established. Remaining open work:
 | ν₂ gap | 8.6 meV falls between rank 1 and rank 2; vacuum mixing or additional neutrino-scale structure could close it |
 | Fermion mass residual | Systematic overshoot growing with McKay dist; one-parameter correction at high dist needed |
 | Rank 3 exclusion | R1 triv at ~0.4 eV; non-SM state or structural correction: OPEN |
-| Rank 16 target | R5 std at ~349 MeV; no SM assignment; prediction standing |
-| Black ∅ mechanism | ESTABLISHED. Horizon = double zero: Θ → 0 drives C(Θ) → 0 (sampling ceases); Ω_H → 0 independently collapses local hierarchy. Information preserved: wave persists through node, unsampled not destroyed. Area scaling falls out of surface primacy (n=2 fundamental). Open: Φ → Θ mapping (the function f(Φ/c²) that connects gravitational potential to phase position, reproducing the galactic binary trigger in weak field and reaching Θ = 0 at the Schwarzschild horizon where Φ/c² = -1/2). Priority 1. |
-| Spectral-physical bridge | OPEN (narrowed). The spectral double zero (Tool 3: torsion survivor log T²) and the physical double zero (Tool 5: Hawking radiation at C gradient) are structurally parallel. The direct route (a continuous map s ↔ Θ) is proved not to exist (Lemma 8: continuous position drops out of spectral data on S³/2I by right-SU(2) homogeneity; four independent proofs). One route remains: through the physical Φ → Θ mapping. If gravitational potential provides the discrete localization that spectral geometry lacks, the torsion survivors {log 2, log 3, log 5, log φ} could constrain horizon structure through the same arithmetic that constrains the fermion mass spectrum, unifying Tools 3 and 5 at the domain boundary. But the Φ → Θ mapping must be built first. |
+| Rank 16 target | R5 std at ~349 MeV; no SM assignment; target, real state vs structural residual open |
+| Black ∅ mechanism | ESTABLISHED. Horizon = double zero: Θ → 0 drives C(Θ) → 0 (sampling ceases); Ω_H → 0 independently collapses local hierarchy. Information preserved: wave persists through node, unsampled not destroyed. Area scaling falls out of surface primacy (n=2 fundamental). The Φ → Θ mapping is DERIVED at leading order (C/C₀ = 1 - r_s/r, β = 1 forced, Θ → 0 at the Schwarzschild horizon where Φ/c² = -1/2). Open: the dynamical re-description (moving and merging horizons in the sampling variables) and the Kerr generalization. Priority 1. |
+| Spectral-physical bridge | OPEN (narrowed). The spectral double zero (Tool 3: torsion survivor log T²) and the physical double zero (Tool 5: Hawking radiation at C gradient) are structurally parallel. The direct route (a continuous map s ↔ Θ) is proved not to exist (Lemma 8: continuous position drops out of spectral data on S³/2I by right-SU(2) homogeneity; four independent proofs). One route remains: through the physical Φ → Θ mapping. If gravitational potential provides the discrete localization that spectral geometry lacks, the torsion survivors {log 2, log 3, log 5, log φ} could constrain horizon structure through the same arithmetic that constrains the fermion mass spectrum, unifying Tools 3 and 5 at the domain boundary. With the leading-order Φ → Θ mapping now in hand, the open work is whether those torsion survivors can be carried through it to the horizon. |
 
 ---
 
