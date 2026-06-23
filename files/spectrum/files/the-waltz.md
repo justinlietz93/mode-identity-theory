@@ -134,7 +134,7 @@ The topological postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \
 
 | Structure | What it determines | Mechanism |
 |---|---|---|
-| Möbius surface (2D) | Vacuum energy Λ | Ground eigenvalue, Gauss equation |
+| Möbius surface (2D) | Vacuum energy Λ | First positive eigenvalue, Gauss equation |
 | Binary icosahedral group 2I | Particle spectrum, mass gap, generations | McKay decomposition, Reidemeister torsion |
 | Stabilizer triple (2, 3, 5) | Color, domain, forces, gravity ratio | Face/edge/vertex decompositions and interfaces |
 | Observer at $\sqrt{\Omega_\Lambda}$ | Coupling constants, hierarchy | Scaling law at Fibonacci wells |
