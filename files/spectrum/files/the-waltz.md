@@ -2,9 +2,7 @@
 
 ---
 
-# The Waltz: Λ *Note* to Einstein's Field Equations
-
-[![The Waltz](https://img.youtube.com/vi/aoLJwZDkNGk/mqdefault.jpg)](https://www.youtube.com/watch?v=aoLJwZDkNGk)
+<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/The%20Waltz.png" width="100%" alt="The Waltz">
 
 The cosmological constant Λ is the first positive eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss equation supplies the interface between the two: a 3/2 conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $G$ as an exchange rate between the curvature scale and the vacuum energy floor.
 
