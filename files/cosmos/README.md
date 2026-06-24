@@ -4,7 +4,7 @@
 
 # :ringed_planet: Κόσμος
 
-The cosmos is a static three-sphere; the redshift is the observer's phase advancing along a standing wave on the temporal edge of a Möbius surface embedded in $S^3$. What the data sees is therefore a flat-FLRW cosmology: the spatial curvature acts as a static boundary condition rather than a Friedmann term, so observable distances follow flat FLRW, the apparent $\Omega_K$ is driven to zero, and the cosmology stays CMB-consistent. The cosmological constant sets a formal de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc; reading the radius off $\Lambda$ that way is circular, so the scale is fixed independently by the coupling and mass-spectrum routes (the open [R problem](../framework/working/files/r-problem.md)). The cosmological constant $\Lambda$ is the first positive eigenvalue of that surface: fixed, epoch-independent. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both measured from the same standing wave.
+The cosmos is the same finite space seen whole: a static three-sphere. Redshift is the observer's phase advancing along a standing wave on the temporal edge of the Möbius surface embedded in it, so the curvature enters as a fixed boundary condition and the sky an observer measures is flat-FLRW. The cosmological constant is the first positive eigenvalue of that surface, fixed and epoch-independent. The acceleration scale $a_0$ is an edge mode riding the same phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both read from the same standing wave.
 
 ---
 
@@ -56,11 +56,11 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 ---
 
-**Black Double Zero's.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak. A working document.
+**Black Double Zeros.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
 ***[Black Hole](files/black-hole.md)***
 
-[![Black Double Zero's](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
+[![Black Double Zeros](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
 
 ---
 
