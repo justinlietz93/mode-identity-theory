@@ -2,9 +2,7 @@
 
 ---
 
-# Coexact spectral gaps of flat bundles on spherical space forms and the McKay distance
-
-[![The Mass Gap](https://img.youtube.com/vi/dWKXrTIquT8/mqdefault.jpg)](https://www.youtube.com/watch?v=dWKXrTIquT8)
+<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Coeaxact%20Gap.png" width="100%" alt="Coexact Gap">
 
 On a spherical space form $`S^3/\Gamma`$ with the round metric of radius $`R`$, let $`E_\tau`$ be the flat bundle with holonomy a finite-dimensional representation $`\tau`$ of $`\Gamma`$, and consider the Hodge Laplacian on coexact $`1`$-forms valued in $`E_\tau`$. Its spectral gap is $`q_\tau^2/R^2`$, where $`q_\tau \ge 2`$ is the lowest coexact level carrying a constituent of $`\tau`$. When $`-I \in \Gamma`$, equivalently when the McKay graph is bipartite, the entry level is determined constituentwise by McKay distance: an irreducible constituent at distance $`d`$ enters at level $`d`$ for $`d \ge 2`$, at level $`3`$ for $`d = 1`$, and at level $`2`$ for $`d = 0`$; $`q_\tau`$ is the minimum of these entry levels over the constituents of $`\tau`$. In particular, if $`d_\tau \ge 2`$ then the gap is $`d_\tau^2/R^2`$.
 
