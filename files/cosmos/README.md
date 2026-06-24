@@ -4,7 +4,7 @@
 
 # :ringed_planet: Κόσμος
 
-The cosmos is a static three-sphere; the redshift is the observer's phase advancing along a standing wave on the temporal edge of a Möbius surface embedded in $S^3$. What the data sees is therefore a flat-FLRW cosmology: the spatial curvature acts as a static boundary condition rather than a Friedmann term, so observable distances follow flat FLRW, the apparent $\Omega_K$ is driven to zero, and the cosmology stays CMB-consistent. The cosmological constant sets a formal de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc; reading the radius off $\Lambda$ that way is circular, so the scale is fixed independently by the coupling and mass-spectrum routes (the open [R problem](../working/files/r-problem.md)). The cosmological constant $\Lambda$ is the first positive eigenvalue of that surface: fixed, epoch-independent. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both measured from the same standing wave.
+The cosmos is a static three-sphere; the redshift is the observer's phase advancing along a standing wave on the temporal edge of a Möbius surface embedded in $S^3$. What the data sees is therefore a flat-FLRW cosmology: the spatial curvature acts as a static boundary condition rather than a Friedmann term, so observable distances follow flat FLRW, the apparent $\Omega_K$ is driven to zero, and the cosmology stays CMB-consistent. The cosmological constant sets a formal de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc; reading the radius off $\Lambda$ that way is circular, so the scale is fixed independently by the coupling and mass-spectrum routes (the open [R problem](../framework/working/files/r-problem.md)). The cosmological constant $\Lambda$ is the first positive eigenvalue of that surface: fixed, epoch-independent. The acceleration scale $a_0$ is an edge mode that tracks the phase clock, so $a_0(z) \propto H(z)$. One constant, one evolving, both measured from the same standing wave.
 
 ---
 
@@ -83,7 +83,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | +0.11 (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
-| [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open ([Rides on R](/files/working/files/r-problem.md)) |
+| [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open ([Rides on R](/files/framework/working/files/r-problem.md)) |
 | [↗](files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | [↗](files/hubble-tension.md) $H_0$ local shift | 8.4% lattice prediction | ~8.7% | mechanism open |
 | [↗](files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |

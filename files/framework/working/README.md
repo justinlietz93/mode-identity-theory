@@ -1,4 +1,4 @@
-/ **[`main`](../../README.md)** / **[`framework`](../framework/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
 
 ---
 
@@ -166,7 +166,7 @@ Technical gaps with specific paths forward.
 
 **Problem:** $\Phi \to \Theta$ mapping derived at leading order ($C/C_0 = 1 - r_s/r$, $\beta = 1$ forced). Hawking temperature $1/M$ and coefficient derived; thermal character inherited. Area entropy motivated by surface primacy; 1/4 factor not derived. Two-attractor landscape established. Global corrections and quantitative evaporation rate remain open.
 
-**Dependencies:** Sector $\mathcal{A}$ eigenvalue, [Black Double Zero's](../cosmos/files/black-hole.md).
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue, [Black Double Zero's](../../cosmos/files/black-hole.md).
 
 ---
 
@@ -280,4 +280,4 @@ Registered and exploratory tests run against public datasets, with verdicts.
 
 ---
 
-/ **[`main`](../../README.md)** / **[`framework`](../framework/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /

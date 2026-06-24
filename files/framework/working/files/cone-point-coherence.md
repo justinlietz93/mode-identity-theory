@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -10,7 +10,7 @@ Working notes on the cone point as the mechanism of galactic coherence.
 
 **Dependencies:** Sector $\mathcal{A}$ cone point analysis (Frobenius/continuous transmission extension/excision; V3 shows Friedrichs carries a zero mode at $n=0$), 120-grid scale-free projection, phase field coherence scale ($L_f$ SPARC-falsified; $L_g$ open).
 
-**Related:** [First Eigenvalue](../../framework/bedrock/first-eigenvalue.md), [Black Double Zero's](../../cosmos/files/black-hole.md), [Oort Cloud project](oort-cloud-project.md), [SPARC phase field notes](sparc-phase-field.md).
+**Related:** [First Eigenvalue](../../../framework/bedrock/first-eigenvalue.md), [Black Double Zero's](../../../cosmos/files/black-hole.md), [Oort Cloud project](oort-cloud-project.md), [SPARC phase field notes](sparc-phase-field.md).
 
 ---
 
@@ -314,4 +314,4 @@ The fork question is coupled to Gap 1 of the Oort Cloud project (nested $L_g$ de
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /

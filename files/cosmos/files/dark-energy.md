@@ -39,13 +39,13 @@ MIT sharpens this question. $\Lambda$ is the first positive eigenvalue of the M�
 
 ### The Static Baseline
 
-The cosmos is a finite, static three-sphere; what the data sees is a flat-FLRW cosmology, the spatial curvature a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero. Its curvature radius enters as the de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc, circular as a derivation but fixed independently of $\Lambda$ via the coupling and mass-spectrum routes (the open [R problem](../../working/files/r-problem.md)). The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
+The cosmos is a finite, static three-sphere; what the data sees is a flat-FLRW cosmology, the spatial curvature a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero. Its curvature radius enters as the de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc, circular as a derivation but fixed independently of $\Lambda$ via the coupling and mass-spectrum routes (the open [R problem](../../framework/working/files/r-problem.md)). The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
 
 Redshift is a ratio of phase positions:
 
 $$1 + z = \frac{s_0}{S}, \qquad s_0 = \sin(t_\text{now}/2)$$
 
-This introduces exactly one new degree of freedom: the observer's current phase $s_0 \in (0, 1)$. The fiducial flat ΛCDM limit is recovered as $s_0 \to 0$, where $S/s_0$ reduces to a conventional scale factor. The mechanism behind the ratio, the phase sampling and its thermal corollary cooling, is laid out in [Redshift and Cooling](../../working/files/redshift-and-cooling.md); this section is the distance relation it feeds.
+This introduces exactly one new degree of freedom: the observer's current phase $s_0 \in (0, 1)$. The fiducial flat ΛCDM limit is recovered as $s_0 \to 0$, where $S/s_0$ reduces to a conventional scale factor. The mechanism behind the ratio, the phase sampling and its thermal corollary cooling, is laid out in [Redshift and Cooling](../../framework/working/files/redshift-and-cooling.md); this section is the distance relation it feeds.
 
 ### The Waltz Clock
 

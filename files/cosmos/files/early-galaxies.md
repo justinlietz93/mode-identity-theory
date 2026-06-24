@@ -57,7 +57,7 @@ $$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = \frac{2\sin^2(13\pi/120)}{2\sin
 
 With $H_0 = 67.4$ km/s/Mpc (consistent with the MIT phase-clock best-fit), $cH_0 = 6.55 \times 10^{-10}$ m/s², giving observed $a_0/(cH_0) = 1.2/6.55 = 0.183$. The positions 13/120 and 34/120 are Fibonacci numbers on the 120-grid, occupying stability wells where destructive interference is minimised.
 
-Two scope notes follow from this. The absolute scale is calibrated off the measured $H_0$ through the kinematic hierarchy $\Omega_H = (c/(H\ell_P))^2$, so the prediction does not depend on the open curvature radius $R$; only the companion claim that $\Lambda$ is constant touches it (the open [R problem](../../working/files/r-problem.md)). And the ratio rests on the edge-mode positions alone, not on the galactic coherence mechanism $L_f = v_c^2/a_0$ that the SPARC test falsified.
+Two scope notes follow from this. The absolute scale is calibrated off the measured $H_0$ through the kinematic hierarchy $\Omega_H = (c/(H\ell_P))^2$, so the prediction does not depend on the open curvature radius $R$; only the companion claim that $\Lambda$ is constant touches it (the open [R problem](../../framework/working/files/r-problem.md)). And the ratio rests on the edge-mode positions alone, not on the galactic coherence mechanism $L_f = v_c^2/a_0$ that the SPARC test falsified.
 
 ### The Evolutionary Law
 

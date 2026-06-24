@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -12,7 +12,7 @@ Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau/
 
 **Dependencies:** Sector $\mathcal{A}$ spatial budget $u_0^2 + J^2 = 1$; $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$; Pantheon+ and DESI DR2 BAO (Λcos paper).
 
-**Related:** [The Budget Map](budget-map.md), [Phantom Crossing as Template Bias](phantom-crossing-template-artifact.md), [The Waltz](../../spectrum/files/the-waltz.md).
+**Related:** [The Budget Map](budget-map.md), [Phantom Crossing as Template Bias](phantom-crossing-template-artifact.md), [The Waltz](../../../spectrum/files/the-waltz.md).
 
 **Update (May 2026, Λcos paper).** Joint fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) tightens the constraint to $\Delta\chi^2 = +0.11$ at equal parameter count, with $s_0 < 0.19$ (95% CL, flat prior). The best-fit sits at the ΛCDM boundary ($s_0 = 0.001$); the posterior median is 0.076. The Pantheon+-only value $s_0 = 0.389$ remains within the Pantheon+ posterior but is disfavored by the BAO data. The prediction ledger (§XI) now carries both values. 
 
@@ -69,7 +69,7 @@ The exponent is not fitted. It is forced by two structural facts.
 | Matter dilution in 3 spatial dimensions | $S^{-3}$ on energy density | three spatial dimensions |
 | Friedmann $H^2 \to H$ | square root on the rate | the Friedmann square root |
 
-Their ratio is 3/2, appearing as the exponent on $H$ and as -1/2 on the clock ($1 - 3/2 = -1/2$). It is numerically the same 3/2 that relates $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$, but not yet shown to be the same object: that conversion's 3/2 is (isotropic Ricci trace)/(de Sitter normalization), derived-times-imported ([cosmological constant](../../cosmos/files/cosmological-constant.md) §IV), while this one is (matter dilution)/(Friedmann square root). Tying both 3's to the $Z_3$ face stabilizer and both 2's to the edge stabilizer is a MOTIVATED correspondence, not a derived identity.
+Their ratio is 3/2, appearing as the exponent on $H$ and as -1/2 on the clock ($1 - 3/2 = -1/2$). It is numerically the same 3/2 that relates $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$, but not yet shown to be the same object: that conversion's 3/2 is (isotropic Ricci trace)/(de Sitter normalization), derived-times-imported ([cosmological constant](../../../cosmos/files/cosmological-constant.md) §IV), while this one is (matter dilution)/(Friedmann square root). Tying both 3's to the $Z_3$ face stabilizer and both 2's to the edge stabilizer is a MOTIVATED correspondence, not a derived identity.
 
 Alternative integer-power clocks ($S^0$, $S^{-1}$, $S^{+1}$ — Models A, B, C) produce $(1+z)^0$, $(1+z)^2$, $(1+z)^1$ in $H^2$. Only the 3/2 clock gives $(1+z)^3$, which is what matter-era Friedmann scaling requires. Data closes the selection; structure forces it.
 
@@ -215,9 +215,9 @@ This carries a specific quantified discrepancy, and $\Phi_\text{now} = 5.22$ is 
 
 | Connection | Content |
 |---|---|
-| [Spatial budget $u_0^2 + J^2 = 1$](../../cosmos/files/cosmological-constant.md) | The temporal budget is its twin. Spatial budget sets $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$; temporal budget sets the Waltz clock. The same numerical 3/2 sits in both; whether it is the same geometric ratio is open. |
-| [Sector $\mathcal{A}$ eigenvalue](../../framework/bedrock/first-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
-| [Hubble tension](../../cosmos/files/hubble-tension.md) | The Waltz clock $H \propto S^{-3/2}$ is the mechanism underlying the early/late discrete snap. |
+| [Spatial budget $u_0^2 + J^2 = 1$](../../../cosmos/files/cosmological-constant.md) | The temporal budget is its twin. Spatial budget sets $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$; temporal budget sets the Waltz clock. The same numerical 3/2 sits in both; whether it is the same geometric ratio is open. |
+| [Sector $\mathcal{A}$ eigenvalue](../../../framework/bedrock/first-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
+| [Hubble tension](../../../cosmos/files/hubble-tension.md) | The Waltz clock $H \propto S^{-3/2}$ is the mechanism underlying the early/late discrete snap. |
 | [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md) | Same sampling-operation picture. Redshift as phase ratio + energy as resolution amplitude should unify into a single account. Open. |
 | [Λcos paper](https://github.com/dmobius3/lambda-cos) | Presents Model D+Λ as a standalone phenomenological model ("Λcos") without framework language. Joint SN+BAO constraint: $s_0 < 0.19$ (95% CL). Template bias demonstrated: CPL/BA/JBP produce phantom crossings from non-phantom input. Clock exponent empirically validated. Linear-growth consistency check against DESI DR1 ShapeFit+BAO at six tracer effective redshifts gives $\Delta\chi^2_\text{RSD} < 0.3$ relative to flat ΛCDM. First quantitative constraint on the budget phase parameter from joint background and growth data. |
 
@@ -325,7 +325,7 @@ The apparent phantom crossing is a structural artifact of projecting a non-phant
 | CMB $\ell_\text{cut}$ | ~32 (Molien gap) | no cutoff |
 | $C_2/C_3$ | 0.13 | ~0.3 |
 
-*Parity ($R_{TT}$) and the $\ell = 2/3$ alignment are dropped here: chirality severs them from this topology (see [CMB Anomalies](../../cosmos/files/cmb-anomalies.md)).*
+*Parity ($R_{TT}$) and the $\ell = 2/3$ alignment are dropped here: chirality severs them from this topology (see [CMB Anomalies](../../../cosmos/files/cmb-anomalies.md)).*
 
 ### H. Clock-setting logic
 
@@ -346,4 +346,4 @@ This remains pre-registration at the deepest level: **predict the time, then loo
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /

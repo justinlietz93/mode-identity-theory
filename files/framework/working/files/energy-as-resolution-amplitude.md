@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -10,7 +10,7 @@ A candidate MIT reading of $E^2 = (mc^2)^2 + (pc)^2$. The framework appears to p
 
 **Dependencies:** Standing wave $\Psi(t) = \cos(t/2)$; fermion mass formula (engine §5); The Waltz §§V-VI (masslessness, emergent $\mathbb{R}^4$, observer coordinates).
 
-**Related:** [The Budget Map](budget-map.md), [The Waltz](../../spectrum/files/the-waltz.md).
+**Related:** [The Budget Map](budget-map.md), [The Waltz](../../../spectrum/files/the-waltz.md).
 
 ---
 
@@ -134,4 +134,4 @@ A finished result. This is a research note pointing at where the framework appea
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /

@@ -167,11 +167,11 @@ The key distinction is where the absolute calibration is set. The CMB records a 
 
 Two tests have been run against the phase-field predictions. The SPARC test (§III) addressed the trigger mechanism. The bimodality test addressed the downstream observable: whether $H_0$ measurements cluster into two discrete populations.
 
-### [Trigger: falsified](https://github.com/dmobius3/mode-identity-theory/blob/main/files/working/files/sparc-phase-field.md)
+### [Trigger: falsified](https://github.com/dmobius3/mode-identity-theory/blob/main/files/framework/working/files/sparc-phase-field.md)
 
 The coherence-scale trigger $L_f = v_c^2/a_0$ does not produce the predicted coherence radius in observed galaxies. The transition radius tracks $L_f$ at slope 0.23, not the registered 0.7 to 1.3. The closure identity fails for 53.7% of flat-curve galaxies. The failure is diagnosed by the general identity: real rotation curves are not flat over $[0, L_f]$, so the mean-square velocity falls below the trigger threshold.
 
-### [Discrete H₀ structure: not supported](https://github.com/dmobius3/mode-identity-theory/blob/main/files/working/files/h0-bimodality-test.md)
+### [Discrete H₀ structure: not supported](https://github.com/dmobius3/mode-identity-theory/blob/main/files/framework/working/files/h0-bimodality-test.md)
 
 The original discrete-vs-continuous prediction was that $H_0$ should cluster at two quantized values (67 and 73) with a clean gap in between. An exploratory compilation of 18 published $H_0$ measurements (13 independent) was tested against this prediction.
 

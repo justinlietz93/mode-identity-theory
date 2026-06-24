@@ -319,7 +319,7 @@ With the de Sitter relation circular and the Molien gap not independent, two rou
 
 $$m_e,\ m_\mu \ \xrightarrow{\ \text{mass formula}\ }\ R \approx 20\ \text{Gpc} \ \xrightarrow{\ \Lambda = 3/R^2\ }\ \Lambda \approx 8 \times 10^{-54}\ \text{m}^{-2},$$
 
-about $14\times$ below the observed $1.11 \times 10^{-52}\ \text{m}^{-2}$: agreement to order of magnitude, not percent. The precision floor is structural, set by the McKay lever ($60\times$ for adjacent McKay distance) amplifying the mass formula's few-percent residual scatter; no assigned fermion pair beats electron-muon. This is a genuine, independent leg under $\Lambda \sim 3/R^2$ at $R$ of order Gpc, not a percent-level prediction. Details in the working notes: [R from the mass spectrum](../../working/files/r-from-mass-spectrum.md) and [The R Problem](../../working/files/r-problem.md).
+about $14\times$ below the observed $1.11 \times 10^{-52}\ \text{m}^{-2}$: agreement to order of magnitude, not percent. The precision floor is structural, set by the McKay lever ($60\times$ for adjacent McKay distance) amplifying the mass formula's few-percent residual scatter; no assigned fermion pair beats electron-muon. This is a genuine, independent leg under $\Lambda \sim 3/R^2$ at $R$ of order Gpc, not a percent-level prediction. Details in the working notes: [R from the mass spectrum](../../framework/working/files/r-from-mass-spectrum.md) and [The R Problem](../../framework/working/files/r-problem.md).
 
 For reference, the de Sitter value $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc is the consistency radius read back from the observed $\Lambda$ (equivalently the standard $R = c/(H_0\sqrt{\Omega_\Lambda})$); it is circular and not an independent determination.
 

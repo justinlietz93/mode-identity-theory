@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -10,7 +10,7 @@ Working notes on time, sampling, and the directional problem.
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue paper; Black Double Zero's §§II, IV.A, VI.
 
-**Related:** [Black Double Zero's](../../cosmos/files/black-hole.md).
+**Related:** [Black Double Zero's](../../../cosmos/files/black-hole.md).
 
 ---
 
@@ -180,4 +180,4 @@ The budget $u_0^2 + J^2 = 1$ holds everywhere. Nothing is created or destroyed o
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /

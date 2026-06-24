@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -10,7 +10,7 @@ How a static universe reddens light and cools a thermal bath, both read off the 
 
 **Dependencies:** Temporal budget identity $\Psi^2 + S^2 = 1$; the standing wave $\Psi = \cos(t/2)$ on the temporal edge; the Waltz clock (distances).
 
-**Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Entropy as Realization Budget](entropy-as-realization-budget.md), [Dark Energy](../../cosmos/files/dark-energy.md) (the distance-redshift relation), [The Waltz](../../spectrum/files/the-waltz.md).
+**Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Entropy as Realization Budget](entropy-as-realization-budget.md), [Dark Energy](../../../cosmos/files/dark-energy.md) (the distance-redshift relation), [The Waltz](../../../spectrum/files/the-waltz.md).
 
 ---
 
@@ -40,7 +40,7 @@ The cooling is internal redistribution within a closed budget, not leakage into 
 
 ## III. The observable side: distances
 
-The phase ratio gives $1 + z$; turning it into observed distances and $H(z)$ needs the clock. The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to conformal time, the distance-redshift relation is worked out in [dark-energy §II](../../cosmos/files/dark-energy.md), and the joint fit to Pantheon+ and DESI DR2 BAO sits in [temporal budget §II-III](temporal-budget.md). The mechanism here supplies $1 + z$; the clock supplies the map from $1 + z$ to distance.
+The phase ratio gives $1 + z$; turning it into observed distances and $H(z)$ needs the clock. The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to conformal time, the distance-redshift relation is worked out in [dark-energy §II](../../../cosmos/files/dark-energy.md), and the joint fit to Pantheon+ and DESI DR2 BAO sits in [temporal budget §II-III](temporal-budget.md). The mechanism here supplies $1 + z$; the clock supplies the map from $1 + z$ to distance.
 
 ## IV. What this is not
 
@@ -69,4 +69,4 @@ The phase ratio gives $1 + z$; turning it into observed distances and $H(z)$ nee
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /

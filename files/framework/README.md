@@ -1,4 +1,4 @@
-/ **[`main`](../../README.md)** / **[`working`](../working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`working`](../framework/working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
 
 ---
 
@@ -118,9 +118,9 @@ $$\Large {\Psi = \cos(t/2)}$$
 
 The cosine has a complement. Write $S = \sin(t/2)$; then $\Psi^2 + S^2 = 1$ partitions the total amplitude into two shares at every phase. The budget reading: $\Psi^2$ is standing-wave content, $S^2$ is realized-mode content, and cosmic evolution is this partition rotating, weight transferring $\Psi^2 \to S^2$ as the phase advances while the space stays static and the resolved fraction grows. That single state variable $S$ is what the cosmological observables read.
 
-**One state, several readings.** The clock below turns $S$ into the Hubble rate $H(z)$, which fits Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ versus flat ΛCDM at the same parameter count: a static universe recovering the distance ladder. The same $S$ answers the two questions a static cosmos invites. Redshift is a phase ratio, $1 + z = S(t_\text{obs})/S(t_\text{emit})$, the observer reading the wave from farther along it rather than space carrying source and observer apart. Cooling is that ratio applied to the bath: one factor rescales every wavelength alike, so the blackbody survives at $T \propto 1/S$. The [budget map](../working/files/budget-map.md) keeps the full accounting.
+**One state, several readings.** The clock below turns $S$ into the Hubble rate $H(z)$, which fits Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ versus flat ΛCDM at the same parameter count: a static universe recovering the distance ladder. The same $S$ answers the two questions a static cosmos invites. Redshift is a phase ratio, $1 + z = S(t_\text{obs})/S(t_\text{emit})$, the observer reading the wave from farther along it rather than space carrying source and observer apart. Cooling is that ratio applied to the bath: one factor rescales every wavelength alike, so the blackbody survives at $T \propto 1/S$. The [budget map](../framework/working/files/budget-map.md) keeps the full accounting.
 
-The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to conformal time $\tau$ (the [budget note](../working/files/temporal-budget.md) convention); proper time is a further step, $dT = a\,d\tau$ with $a \propto S$, so composing the two gives $dT/dt = S^{3/2}$. When $S$ is small the proper-time age accrues slowly per unit budget phase: the early universe spans a large stretch of phase for little proper time, and the present proper-time age is the observed ~13.8 Gyr.
+The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to conformal time $\tau$ (the [budget note](../framework/working/files/temporal-budget.md) convention); proper time is a further step, $dT = a\,d\tau$ with $a \propto S$, so composing the two gives $dT/dt = S^{3/2}$. When $S$ is small the proper-time age accrues slowly per unit budget phase: the early universe spans a large stretch of phase for little proper time, and the present proper-time age is the observed ~13.8 Gyr.
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
@@ -152,7 +152,7 @@ So $A/A_P$ just asks how big the measured thing is in those units. For the Hubbl
 
 ### The Phase Operator
 
-$C(\Theta)$ is forced by the topology, the only weighting it allows. The anti-periodic boundary condition (the Möbius sign flip) forces the half-wave form: a sinusoid, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../working/files/scaling-law-uniqueness.md) shows the sinusoidal intensity is the only one the boundary condition admits). Fixing the domain boundary to sit at a node then selects $\psi_0(\Theta) = \sin(\pi\Theta)$ over its cosine partner: zero at the two boundaries, peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $|\psi_0|^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
+$C(\Theta)$ is forced by the topology, the only weighting it allows. The anti-periodic boundary condition (the Möbius sign flip) forces the half-wave form: a sinusoid, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../framework/working/files/scaling-law-uniqueness.md) shows the sinusoidal intensity is the only one the boundary condition admits). Fixing the domain boundary to sit at a node then selects $\psi_0(\Theta) = \sin(\pi\Theta)$ over its cosine partner: zero at the two boundaries, peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $|\psi_0|^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
 
 $$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
@@ -435,4 +435,4 @@ The hierarchy is over-determined and the dimensionless ratios are anchor-free. W
 
 ---
 
-/ **[`main`](../../README.md)** / **[`working`](../working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`working`](../framework/working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /

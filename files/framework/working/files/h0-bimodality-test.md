@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -8,13 +8,13 @@
 
 **Dependencies:** Hubble-tension mechanism (Θ = 34/120 → 36/120 bosonic shift), the Section V discrete-vs-continuous prediction, the bosonic step 2/120.
 
-**Related:** [hubble-tension.md](../../cosmos/files/hubble-tension.md), [sparc-phase-field.md](sparc-phase-field.md).
+**Related:** [hubble-tension.md](../../../cosmos/files/hubble-tension.md), [sparc-phase-field.md](sparc-phase-field.md).
 
 ---
 
 ## The Question
 
-The Hubble-tension note ([hubble-tension.md](../../cosmos/files/hubble-tension.md)) Section V states a discrete prediction: local H₀ should cluster at quantized values set by the lattice, not vary continuously between 67 and 73. The phase operator admits only the bare well ($\Theta_0 = 34/120$, H₀ ≈ 67) and the one-step shift ($\Theta = 36/120$, H₀ ≈ 73). Nothing in between.
+The Hubble-tension note ([hubble-tension.md](../../../cosmos/files/hubble-tension.md)) Section V states a discrete prediction: local H₀ should cluster at quantized values set by the lattice, not vary continuously between 67 and 73. The phase operator admits only the bare well ($\Theta_0 = 34/120$, H₀ ≈ 67) and the one-step shift ($\Theta = 36/120$, H₀ ≈ 73). Nothing in between.
 
 This test asks one question: **do published H₀ measurements cluster into two discrete populations, or do they form a continuous spread?**
 
@@ -186,4 +186,4 @@ Both outcomes are negative for the testable phase-field predictions, and both le
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`working`](../)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
