@@ -123,7 +123,21 @@ Observations of both quantities at high redshift provide independent, complement
 
 At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is within reach of resolved rotation curves from Euclid, JWST/NIRSpec, and the ELT. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
 
-**Update 1 (2026): MUSE-DARK III.** The first intermediate-redshift measurement of $a_0$ (Ciocan et al., *A&A* 709) finds it rising at ~30σ over 0.33 < z < 1.44, corroborating the predicted direction; the rate is consistent with $a_0 \propto H(z)$ and the normalization is open. The formal $z > 2$ test still belongs to Euclid DR1. Full comparison, with the standing intermediate-redshift tension and caveats: [Early Galaxies, Update 1](early-galaxies-update1.md).
+**Update 1 (2026): MUSE-DARK III.** The first intermediate-redshift measurement of the acceleration scale arrived after this prediction was deposited. MUSE-DARK III (Ciocan et al., *A&A* 709) fits $a_0$ in four redshift bins from 79 galaxies in the MUSE Hubble Ultra Deep Field and finds it rising with redshift at ~30σ over 0.33 < z < 1.44, the predicted direction, against the standard-MOND constant.
+
+<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/muse_dark_iii_a0z_overlay.png/:/rs=w:1280,h:807" width="100%" alt="MUSE-DARK III binned a0(z) against framework a0(0)E(z): the predicted curve at a0(0)=1.2 runs below all four points, the free-fit at about 1.4 threads them, and the points lie in the upper half of the SPARC normalization band.">
+
+*The four MUSE-DARK III binned $a_0$ against the framework $a_0(0)\,E(z)$: the predicted normalization ($a_0(0)=1.2$, solid) runs below the points; the free fit ($\approx 1.4$, dashed) threads them, within the upper half of the SPARC band.*
+
+**Direction: corroborated.** The prediction that $a_0$ evolves was logged before the measurement and came in on the right side of a ~30σ result.
+
+**Shape: consistent.** Freeing the normalization, $a_0(0)\,E(z)$ threads all four bins; the convex $E(z)$ form fits the data.
+
+**Normalization: open.** At the predicted $a_0(0) = 1.2$ the curve sits below the bins, but that anchor is clamped by SPARC and the locked ratio, and the comparison is limited by the ~20% absolute-scale calibration between MUSE and SPARC, not by the per-bin error. Whether the offset is real or a cross-instrument artifact cannot be settled at this precision.
+
+**Not a discriminator yet.** A rising $a_0$ is also produced by other evolving-acceleration models and by ΛCDM simulations, so the climb alone does not single out the framework. The discriminating test is the locked exponent structure at the formal $z > 2$ gate, Euclid DR1.
+
+This sits alongside the companion paper's standing 2.9σ trend-shape tension with the Übler KMOS3D Tully–Fisher data: the honest intermediate-redshift record is direction confirmed, details contested, clean test pending. Full comparison and caveats: [Early Galaxies, Update 1](early-galaxies-update1.md).
 
 ---
 
