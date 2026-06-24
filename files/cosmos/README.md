@@ -10,7 +10,7 @@ The cosmos is the same finite space seen whole: a static three-sphere. Redshift 
 
 **Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge.
 
-Einstein introduced $\Lambda$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none. $\Lambda$ is the first positive mode of the cosmic boundary, felt through the Gauss equation embedding of geometry.
+Einstein introduced $\Lambda$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none; the Gauss-equation embedding carries it from the surface into the curvature of space.
 
 ***[Cosmological Constant](files/cosmological-constant.md)***
 
