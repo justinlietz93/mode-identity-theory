@@ -18,6 +18,8 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
+https://pbs.twimg.com/media/HLgVUY_WoAASP_U?format=jpg&name=4096x4096
+
 :stadium: **One Shape:**
 
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
