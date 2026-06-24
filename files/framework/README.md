@@ -314,6 +314,8 @@ Why three generations, and not two or seven? Because the space has exactly three
 
 Three topological vacua give three particle generations; the count is forced. Trivial and Standard are degenerate in gap, while Galois is distinguished by the 9× enhancement: the gap is the square of the adjoint's McKay distance, and the Galois adjoint sits at distance 6 against the standard adjoint's 2, so $36/4 = (6/2)^2 = 9$. The Galois vacuum is a genuine third connection, not a twist of the standard one, because $2I$ is perfect (equal to its own commutator subgroup): its only one-dimensional character is trivial, so the standard connection $Q$ and its Galois conjugate $Q'$ stay distinct under every twist. The specific generation-to-vacuum mapping is open.
 
+The [coexact gap paper](bedrock/coexact-gap.md) establishes the spectral side: across the entire ADE classification of finite subgroups of SU(2) the adjoint coexact gap is uniformly $4/R_\Lambda^2$, with a single break, the Galois connection on $S^3/2I$ at $36/R_\Lambda^2$, and that break is forced by perfectness, the property that distinguishes $2I$ alone among the finite subgroups of SU(2). The framework reads this exception as selection evidence, converging with the input-minimization argument that independently terminates on $2I$, so $S^3/2I$ is taken as the physical quotient on two grounds rather than one.
+
 ### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)
 
 The formula reads left to right as one motion: start at the floor, choose a seat, ride the elevator, then turn the dial. Four factors, each traced independently to the postulate, each doing exactly one thing:
