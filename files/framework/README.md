@@ -225,7 +225,7 @@ Evaluating the scaling law at each well:
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 >
-> The numerical $\Lambda$ is therefore a surface-sector calibration rather than an independent prediction; the geometric result is the first positive eigenvalue $2/R_\Lambda^2$, derived on the [cosmological constant](../cosmos/files/cosmological-constant.md) page.
+> The numerical $\Lambda$ is therefore a surface-sector calibration rather than an independent prediction. The [first-eigenvalue paper](bedrock/first-eigenvalue.md) establishes the geometric side: the twisted Laplacian on the constant-curvature Möbius band has first positive eigenvalue $2/R_\Lambda^2$, stable across the cone's self-adjoint extensions even though none has a positive ground state. The framework reads that eigenvalue as $\Lambda_\text{top}$, the physics worked through on the [cosmological constant](../cosmos/files/cosmological-constant.md) page.
 
 **Calibration structure.** $H_0$ fixes the edge normalization $N = H_0 t_P / C(34/120)$; the other edge observables follow from $N$ as predictions, and the $\approx$ in the scaling law marks this single calibration. Any ratio of two edge-mode $C$ factors cancels $N$, so it is a zero-parameter prediction.
 
