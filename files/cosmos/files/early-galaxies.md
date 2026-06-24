@@ -123,6 +123,8 @@ Observations of both quantities at high redshift provide independent, complement
 
 At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is within reach of resolved rotation curves from Euclid, JWST/NIRSpec, and the ELT. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
 
+---
+
 **Update 1 (2026): MUSE-DARK III.** The first intermediate-redshift measurement of the acceleration scale arrived after this prediction was deposited. MUSE-DARK III (Ciocan et al., *A&A* 709) fits $a_0$ in four redshift bins from 79 galaxies in the MUSE Hubble Ultra Deep Field and finds it rising with redshift at ~30σ over 0.33 < z < 1.44, the predicted direction, against the standard-MOND constant.
 
 <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/muse_dark_iii_a0z_overlay.png/:/rs=w:1280,h:807" width="100%" alt="MUSE-DARK III binned a0(z) against framework a0(0)E(z): the predicted curve at a0(0)=1.2 runs below all four points, the free-fit at about 1.4 threads them, and the points lie in the upper half of the SPARC normalization band.">
