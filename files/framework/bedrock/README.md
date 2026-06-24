@@ -4,7 +4,7 @@
 
 # :mountain: Bedrock
 
-The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ with $\partial S^3 = \emptyset$, and it nests three manifolds: the temporal edge $S^1$, the Möbius surface it bounds, and the space $S^3$ that surface sits in. These are the standalone mathematics papers underneath it, each a result in spectral geometry with no physics assumed. The two pillars are the spectra of the two manifolds you can put an operator on, the surface and the space; $S^1$ is the boundary the embedding produces, not a spectrum of its own.
+The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ with $\partial S^3 = \emptyset$, and it nests three manifolds: the temporal edge $S^1$, the Möbius surface it bounds, and the space $S^3$ that surface sits in. These are the standalone mathematics papers underneath it, each a result in spectral geometry with no physics assumed. The two pillars are the spectra of the two manifolds the papers put an operator on, the surface and the space; $S^1$ is the boundary the embedding produces, not a spectrum of its own.
 
 ## Pillars
 
@@ -14,7 +14,7 @@ The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ 
 
 ## Bridge
 
-*Forthcoming.* The embedding $\partial(\text{Möbius}) \hookrightarrow S^3$: the template that seats the first pillar's Möbius band as a totally geodesic surface inside the second pillar's $S^3/2I$. That act is what realizes $S^1 = \partial(\text{Möbius})$ as the embedded boundary, the seam where time lives, and ties the two spectra to one postulate.
+*Forthcoming.* The embedding $\partial(\text{Möbius}) \hookrightarrow S^3$: the act that seats a Möbius band as a totally geodesic surface inside $S^3/2I$, connecting the surface spectrum to the space spectrum. That act realizes $S^1 = \partial(\text{Möbius})$ as the embedded boundary, the seam where time lives.
 
 ---
 
