@@ -79,17 +79,17 @@ The chronon and standing wave period operate in the phase parameter $t \in [0, 4
 
 ### The Observable Domain
 
-The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral group $2I$, with $|2I| = 120$. The discrete subgroups of SU(2) $\cong S^3$ are classified: open families (cyclic $Z_n$ and binary dihedral $2D_n$, parameterized by $n$) and three closed exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). 
+The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral group $2I$, with $\lvert 2I\rvert = 120$. The discrete subgroups of SU(2) $\cong S^3$ are classified: open families (cyclic $Z_n$ and binary dihedral $2D_n$, parameterized by $n$) and three closed exceptional groups (binary tetrahedral $\lvert 2T\rvert = 24$, binary octahedral $\lvert 2O\rvert = 48$, binary icosahedral $\lvert 2I\rvert = 120$). 
 
 Open families require external choice of $n$ and are excluded by the framework's input-minimization: every free parameter is a violation of the foundation. Among the closed exceptional cases, $2I$ is terminal; largest in order and maximal under the McKay correspondence ($2I \leftrightarrow E_8$, the largest exceptional Lie algebra). The selection is forced by the framework's own principle.
 
 Four auxiliary paths converge on this number (three independent):
-1. Group theory of $S^3$ gives $|2I| = 120$ directly
+1. Group theory of $S^3$ gives $\lvert 2I\rvert = 120$ directly
 2. The least common multiple of the first five Fibonacci numbers: $\text{lcm}(1,2,3,5,8) = 120$
 3. The consonance ratios of musical harmony independently yield $\text{lcm} = 120$
 4. The $(2,3,5)$ branch orders of the icosahedron are consecutive Fibonacci numbers satisfying $2+3=5$: the unique Platonic solid whose symmetry orders obey the Fibonacci recurrence
 
-**The 120 domain** is the mode spectrum's resolution. Fermions see all 120 positions but observation squares the wavefunction: $|\psi(\Theta+1)|^2 = |\psi(\Theta)|^2$ erases the anti-periodic sign. The squaring projects $2I \to I$ ($|I| = 60$), halving the resolution.
+**The 120 domain** is the mode spectrum's resolution. Fermions see all 120 positions but observation squares the wavefunction: $\lvert\psi(\Theta+1)\rvert^2 = \lvert\psi(\Theta)\rvert^2$ erases the anti-periodic sign. The squaring projects $2I \to I$ ($\lvert I\rvert = 60$), halving the resolution.
 
 | Grid | Positions | Minimum step | Observables |
 |---|---|---|---|
@@ -100,7 +100,7 @@ Four auxiliary paths converge on this number (three independent):
 
 $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
-**The minimum action** $\Delta\mathcal{S}_{\min} = \hbar\pi/30$: frame-independent by construction ($\hbar$ is invariant; $\pi/30$ is a pure number set by the topology, not by a coordinate choice).
+**The minimum action** $`\Delta\mathcal{S}_{\min} = \hbar\pi/30`$: frame-independent by construction ($\hbar$ is invariant; $\pi/30$ is a pure number set by the topology, not by a coordinate choice).
 
 ## Ψ [One Wave](../cosmos/files/dark-energy.md)
 
@@ -152,7 +152,7 @@ So $A/A_P$ just asks how big the measured thing is in those units. For the Hubbl
 
 ### The Phase Operator
 
-$C(\Theta)$ is forced by the topology, the only weighting it allows. The anti-periodic boundary condition (the Möbius sign flip) forces the half-wave form: a sinusoid, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../framework/working/files/scaling-law-uniqueness.md) shows the sinusoidal intensity is the only one the boundary condition admits). Fixing the domain boundary to sit at a node then selects $\psi_0(\Theta) = \sin(\pi\Theta)$ over its cosine partner: zero at the two boundaries, peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $|\psi_0|^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
+$C(\Theta)$ is forced by the topology, the only weighting it allows. The anti-periodic boundary condition (the Möbius sign flip) forces the half-wave form: a sinusoid, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../framework/working/files/scaling-law-uniqueness.md) shows the sinusoidal intensity is the only one the boundary condition admits). Fixing the domain boundary to sit at a node then selects $\psi_0(\Theta) = \sin(\pi\Theta)$ over its cosine partner: zero at the two boundaries, peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $\lvert\psi_0\rvert^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
 
 $$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
@@ -172,7 +172,7 @@ The boundary zeros are physical: the framework reads a black-hole horizon as thi
 
 $\Omega_\Lambda$ is fixed by $\Lambda$ and epoch-independent. The phase-gradient scale changes with epoch:
 
-$$\Omega_H(z) \equiv \left(\frac{\ell_\text{phase}(z)}{\ell_P}\right)^2, \quad \ell_\text{phase} = c/|d\ln\Psi/d\tau|$$
+$$\Omega_H(z) \equiv \left(\frac{\ell_\text{phase}(z)}{\ell_P}\right)^2, \quad \ell_\text{phase} = c/\lvert d\ln\Psi/d\tau\rvert$$
 
 At the present epoch $\Omega_H$ and $\Omega_\Lambda$ are numerically close, both of order $10^{122}$. In the current calibration structure this coincidence is observed, not derived: $\Omega_H$ is anchored by the measured Hubble rate, $\Omega_\Lambda$ by measured $\Lambda$.
 
@@ -277,7 +277,7 @@ The couplings then follow one assignment rule: the phase slot inherits the grid 
 
 The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder, monotone in spinorial content. There are only four ways to pair a carrier grid with a target grid, and the table shows three of them filled.
 
-**The fourth rung is supersymmetry's, and it is empty.** The one missing pairing runs a spinorial carrier into a bosonic target: a coupling that turns a fermion into a boson, which is exactly the move a superpartner symmetry asks for. That rung is structurally closed. The bosonic projection $\psi \to |\psi|^2$ is non-invertible, since both $\psi$ and $-\psi$ map to the same image, so nothing runs backward from a bosonic target to a spinorial carrier, and the same non-invertibility is what grounds the spin-statistics theorem. A superpartner coupling needs exactly the pairing the topology forbids, so the gauge ladder has no seat for it: in this reading the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
+**The fourth rung is supersymmetry's, and it is empty.** The one missing pairing runs a spinorial carrier into a bosonic target: a coupling that turns a fermion into a boson, which is exactly the move a superpartner symmetry asks for. That rung is structurally closed. The bosonic projection $\psi \to \lvert\psi\rvert^2$ is non-invertible, since both $\psi$ and $-\psi$ map to the same image, so nothing runs backward from a bosonic target to a spinorial carrier, and the same non-invertibility is what grounds the spin-statistics theorem. A superpartner coupling needs exactly the pairing the topology forbids, so the gauge ladder has no seat for it: in this reading the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
 
 ### The smooth substrate and its seams
 
@@ -312,7 +312,7 @@ Why three generations, and not two or seven? Because the space has exactly three
 | Standard | $4/R_\Lambda^2$ | Irreducible connection |
 | Galois | $36/R_\Lambda^2$ ($9\times$) | Galois conjugate connection |
 
-Three topological vacua give three particle generations; the count is forced. Trivial and Standard are degenerate in gap, while Galois is distinguished by the 9× enhancement: the gap is the square of the adjoint's McKay distance, and the Galois adjoint sits at distance 6 against the standard adjoint's 2, so $36/4 = (6/2)^2 = 9$. The Galois vacuum is a genuine third connection, not a twist of the standard one, because $2I$ is perfect (equal to its own commutator subgroup): its only one-dimensional character is trivial, so the standard connection $Q$ and its Galois conjugate $Q'$ stay distinct under every twist. The specific generation-to-vacuum mapping is open.
+Three topological vacua give three particle generations; the count is forced. Trivial and Standard are degenerate in gap, while Galois is distinguished by the 9× enhancement: the gap is the square of the adjoint's McKay distance, and the Galois adjoint sits at distance 6 against the standard adjoint's 2, so $36/4 = (6/2)^2 = 9$. The Galois vacuum is a genuine third connection, not a twist of the standard one, because $2I$ is perfect (equal to its own commutator subgroup): its only one-dimensional character is trivial, so the standard connection $Q$ and its Galois conjugate $Q^\prime$ stay distinct under every twist. The specific generation-to-vacuum mapping is open.
 
 The [coexact gap paper](bedrock/coexact-gap.md) establishes the spectral side: across the entire ADE classification of finite subgroups of SU(2) the adjoint coexact gap is uniformly $4/R_\Lambda^2$, with a single break, the Galois connection on $S^3/2I$ at $36/R_\Lambda^2$, and that break is forced by perfectness, the property that distinguishes $2I$ alone among the finite subgroups of SU(2). The framework reads this exception as selection evidence, converging with the input-minimization argument that independently terminates on $2I$, so $S^3/2I$ is taken as the physical quotient on two grounds rather than one.
 
@@ -338,7 +338,7 @@ The Yang-Mills gap above (geometry, $\sim 1/R_\Lambda^2$ from the form spectrum)
 
 ## :small_red_triangle: [One Identity](../spectrum/files/mass-spectrum.md)
 
-$$\Large {|2I| = 120 = 2^3 \cdot 3 \cdot 5}$$
+$$\Large {\lvert 2I\rvert = 120 = 2^3 \cdot 3 \cdot 5}$$
 
 The binary icosahedral group is the largest exceptional discrete subgroup of SU(2), and its order factors into exactly three primes: $120 = 2^3 \cdot 3 \cdot 5$. The factorization is not bookkeeping. The primes 3 and 5 are the orders of the face and vertex stabilizers of the icosahedron, and the factor of 2 is carried by the central element $-I$ of order 2 that the edge stabilizer contains. Each sorts one piece of physical identity: restrict an irrep to it and the topology says what the particle is.
 
