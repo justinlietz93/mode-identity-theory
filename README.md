@@ -2,9 +2,7 @@
 
 ---
 
-# :ocean: Mode Identity Theory 
-
-<img src="https://pbs.twimg.com/media/HLgVUY_WoAASP_U?format=jpg&name=4096x4096" width="90%" alt="Mode Identity Theory">
+<img src="https://pbs.twimg.com/media/HLgVUY_WoAASP_U?format=jpg&name=4096x4096" width="100%" alt="Mode Identity Theory">
 
 ---
 
