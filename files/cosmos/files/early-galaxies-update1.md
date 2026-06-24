@@ -38,6 +38,10 @@ Scope: the formal falsification test names $z > 2$ (Euclid DR1). MUSE-DARK III r
 
 ## 4. Rate and normalization: OPEN (shape consistent, normalization-limited)
 
+<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/muse_dark_iii_a0z_overlay.png/:/rs=w:1280,h:807" width="100%" alt="MUSE-DARK III binned a0(z) against framework a0(0)E(z): the predicted curve at a0(0)=1.2 runs below all four points, the free-fit at about 1.4 threads them, and the points lie in the upper half of the SPARC normalization band.">
+
+*The four MUSE-DARK III binned $a_0$ (read from the paper's Fig. 3) against the framework $a_0(0)\,E(z)$. The predicted normalization ($a_0(0)=1.2$, solid) undershoots; the free fit ($\approx 1.4$, dashed) threads the points, which sit in the upper half of the SPARC band. Eyeball/pixel reads, pending WebPlotDigitizer.*
+
 The SPARC-anchored prediction $a_0(0)\,E(z)$ with $a_0(0) = 1.2$ sits below all four bins. Values read from Figure 3 (eyeball + pixel measurement; pending formal WebPlotDigitizer extraction):
 
 | Bin | z (approx) | a₀ measured | σ (measured) | a₀ predicted (1.2·E(z)) | residual | residual / σ (stat only) |
