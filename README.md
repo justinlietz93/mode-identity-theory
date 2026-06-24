@@ -18,7 +18,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
-https://pbs.twimg.com/media/HLgVUY_WoAASP_U?format=jpg&name=4096x4096
+<img src="https://pbs.twimg.com/media/HLgVUY_WoAASP_U?format=jpg&name=4096x4096" width="100%" alt="Mode Identity Theory">
 
 :stadium: **One Shape:**
 
