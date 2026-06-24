@@ -4,7 +4,7 @@
 
 # :ocean: Mode Identity Theory 
 
-[![Topology before Matter](https://img.youtube.com/vi/ANzQhGGzoAk/mqdefault.jpg)](https://www.youtube.com/watch?v=ANzQhGGzoAk)
+<img src="https://pbs.twimg.com/media/HLgVUY_WoAASP_U?format=jpg&name=4096x4096" width="90%" alt="Mode Identity Theory">
 
 ---
 
@@ -17,8 +17,6 @@ Topology is structure, and de Broglie’s wave becomes fundamental; matter appea
 In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest; is accounting.
 
 ---
-
-<img src="https://pbs.twimg.com/media/HLgVUY_WoAASP_U?format=jpg&name=4096x4096" width="100%" alt="Mode Identity Theory">
 
 :stadium: **One Shape:**
 
