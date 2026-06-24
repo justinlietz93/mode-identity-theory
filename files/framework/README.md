@@ -113,7 +113,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 | Condition | Selects | Why |
 |---|---|---|
 | Anti-periodic BC | Period $4\pi$ | Two traverses to restore sign |
-| $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\big|_{t=0} = 0$ |
+| $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\big\vert_{t=0} = 0$ |
 | Ground state $m = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
 The cosine has a complement. Write $S = \sin(t/2)$; then $\Psi^2 + S^2 = 1$ partitions the total amplitude into two shares at every phase. The budget reading: $\Psi^2$ is standing-wave content, $S^2$ is realized-mode content, and cosmic evolution is this partition rotating, weight transferring $\Psi^2 \to S^2$ as the phase advances while the space stays static and the resolved fraction grows. That single state variable $S$ is what the cosmological observables read.

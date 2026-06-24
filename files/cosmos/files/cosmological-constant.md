@@ -99,7 +99,7 @@ The Möbius band has a single boundary traversed twice. Traversing the band once
 
 $$\psi(L, w) = -\psi(0, {-w})$$
 
-with free transverse boundary condition (Neumann): $\partial_w\psi\big|_{w = \pm W} = 0$.
+with free transverse boundary condition (Neumann): $\partial_w\psi\big\vert_{w = \pm W} = 0$.
 
 ### B. The Spectrum
 

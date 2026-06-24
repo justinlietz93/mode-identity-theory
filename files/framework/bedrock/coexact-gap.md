@@ -16,11 +16,11 @@ The adjoint bundle of an irreducible flat $\mathrm{SU}(2)$ connection always has
 
 Let $\Gamma \subset \mathrm{SU}(2)$ be finite and let $S^3/\Gamma$ carry the round metric of constant curvature $1/R^2$, with $\Gamma$ acting by left multiplication through the fixed inclusion, so the McKay graph is that of the inclusion. A finite-dimensional unitary representation $\tau$ of $\Gamma$ determines a flat bundle $E_\tau$ on $S^3/\Gamma$; the flat adjoint bundle of a flat $\mathrm{SU}(2)$ connection $\rho$ is the case $\tau = \mathrm{Ad} \circ \rho$. Because $S^3$ is $2$-connected, $H^1(S^3/\Gamma; E_\tau) \cong H^1(\Gamma; \tau)$, and since $\Gamma$ is finite and the coefficients have characteristic zero, $H^1(\Gamma; V) = 0$ for every finite-dimensional $\Gamma$-module $V$. The twisted harmonic $1$-forms therefore vanish for every $\tau$, so the Hodge Laplacian $\Delta_\tau$ on coexact $E_\tau$-valued $1$-forms is positive, and we study the bottom of its spectrum.
 
-On round $S^3$ of radius $R$ the coexact $1$-forms have eigenvalues $m^2/R^2$ for integers $m \ge 2$, and the level-$m$ space has left content $V_m|_\Gamma$ and $V_{m-2}|_\Gamma$, up to the right-factor multiplicities, with $V_j = \mathrm{Sym}^j \mathbb{C}^2$ [IkedaTaniguchi]. The modes on $S^3/\Gamma$ are the $\Gamma$-invariants $(E_m \otimes \tau)^\Gamma$, and by Peter-Weyl, Frobenius reciprocity, and the self-duality of the $V_j$ these are nonzero exactly when a constituent of $\tau$ occurs in $V_m|_\Gamma$ or $V_{m-2}|_\Gamma$. Section 3 gives this descent, already present for form spectra in Ikeda's work on $p$-spectra [Ikeda1989], with the Dirac analogue due to Bär [Bar1996] and the representation-equivalence form due to Lauret, Miatello and Rossetti [LauretMiatelloRossetti]; the present use inserts an arbitrary finite-dimensional twist by the diagonal action.
+On round $S^3$ of radius $R$ the coexact $1$-forms have eigenvalues $m^2/R^2$ for integers $m \ge 2$, and the level-$m$ space has left content $V_m\vert_\Gamma$ and $V_{m-2}\vert_\Gamma$, up to the right-factor multiplicities, with $V_j = \mathrm{Sym}^j \mathbb{C}^2$ [IkedaTaniguchi]. The modes on $S^3/\Gamma$ are the $\Gamma$-invariants $(E_m \otimes \tau)^\Gamma$, and by Peter-Weyl, Frobenius reciprocity, and the self-duality of the $V_j$ these are nonzero exactly when a constituent of $\tau$ occurs in $V_m\vert_\Gamma$ or $V_{m-2}\vert_\Gamma$. Section 3 gives this descent, already present for form spectra in Ikeda's work on $p$-spectra [Ikeda1989], with the Dirac analogue due to Bär [Bar1996] and the representation-equivalence form due to Lauret, Miatello and Rossetti [LauretMiatelloRossetti]; the present use inserts an arbitrary finite-dimensional twist by the diagonal action.
 
 For a flat bundle $E_\tau$, set
 
-$$q_\tau = \min\{\, m \ge 2 :\ \mathrm{Hom}_\Gamma(\tau^*,\, V_m|_\Gamma \oplus V_{m-2}|_\Gamma) \ne 0 \,\},$$
+$$q_\tau = \min\lbrace\, m \ge 2 :\ \mathrm{Hom}_\Gamma(\tau^*,\, V_m\vert_\Gamma \oplus V_{m-2}\vert_\Gamma) \ne 0 \,\rbrace,$$
 
 equivalently, since the $V_j$ are self-dual, the least coexact level at which a constituent of $\tau$ meets the left content. The spectral gap of $\Delta_\tau$ on coexact $1$-forms is $q_\tau^2/R^2$.
 
@@ -44,9 +44,9 @@ The objects throughout are flat bundles on spherical space forms carrying their 
 
 Identify $S^3$ with $\mathrm{SU}(2)$ carrying the bi-invariant metric of constant sectional curvature $1/R^2$. Let $\Gamma \subset \mathrm{SU}(2)$ be a finite subgroup acting on $S^3$ by left translation, and write $X = S^3/\Gamma$ for the resulting spherical space form, a closed oriented $3$-manifold of constant curvature $1/R^2$ with $\pi_1(X) = \Gamma$. The finite subgroups are the cyclic groups $\mathbb{Z}_n$, the binary dihedral groups $D_n^*$ of order $4n$, and the binary tetrahedral, octahedral, and icosahedral groups $2T, 2O, 2I$ of orders $24, 48, 120$.
 
-Let $V_j = \mathrm{Sym}^j \mathbb{C}^2$ be the irreducible $\mathrm{SU}(2)$ representation of dimension $j+1$, so $V_1$ is the defining representation. The *McKay graph* of $\Gamma$ has the irreducible representations of $\Gamma$ as vertices, the trivial representation as distinguished vertex, and $m_{\sigma\sigma'} = \dim \mathrm{Hom}_\Gamma\bigl(\sigma',\, V_1|_\Gamma \otimes \sigma\bigr)$ edges between $\sigma$ and $\sigma'$. By the McKay correspondence [McKay] it is the affine Dynkin diagram attached to $\Gamma$. The graph is bipartite exactly when $-I \in \Gamma$. If $-I \in \Gamma$, then $-I$ acts by a scalar on each irreducible $\Gamma$-representation, and tensoring with $V_1$ changes this scalar; the two central characters give the bipartition, so the scalar on a vertex at distance $d$ from the trivial vertex is $(-1)^d$. The subgroups omitting $-I$ are exactly the odd cyclic groups $\mathbb{Z}_n$, since every binary family contains $-I$ and $\mathbb{Z}_n$ contains $-I$ if and only if $n$ is even; for these groups the McKay graph is the odd cycle $\widetilde{A}_{n-1}$. Graph distances $d(\sigma)$ from the trivial vertex are taken on the underlying unweighted graph, and for a representation $\tau$ we set
+Let $V_j = \mathrm{Sym}^j \mathbb{C}^2$ be the irreducible $\mathrm{SU}(2)$ representation of dimension $j+1$, so $V_1$ is the defining representation. The *McKay graph* of $\Gamma$ has the irreducible representations of $\Gamma$ as vertices, the trivial representation as distinguished vertex, and $m_{\sigma\sigma'} = \dim \mathrm{Hom}_\Gamma\bigl(\sigma',\, V_1\vert_\Gamma \otimes \sigma\bigr)$ edges between $\sigma$ and $\sigma'$. By the McKay correspondence [McKay] it is the affine Dynkin diagram attached to $\Gamma$. The graph is bipartite exactly when $-I \in \Gamma$. If $-I \in \Gamma$, then $-I$ acts by a scalar on each irreducible $\Gamma$-representation, and tensoring with $V_1$ changes this scalar; the two central characters give the bipartition, so the scalar on a vertex at distance $d$ from the trivial vertex is $(-1)^d$. The subgroups omitting $-I$ are exactly the odd cyclic groups $\mathbb{Z}_n$, since every binary family contains $-I$ and $\mathbb{Z}_n$ contains $-I$ if and only if $n$ is even; for these groups the McKay graph is the odd cycle $\widetilde{A}_{n-1}$. Graph distances $d(\sigma)$ from the trivial vertex are taken on the underlying unweighted graph, and for a representation $\tau$ we set
 
-$$d_\tau = \min\{\, d(\sigma) : \sigma \text{ a constituent of } \tau \,\}.$$
+$$d_\tau = \min\lbrace\, d(\sigma) : \sigma \text{ a constituent of } \tau \,\rbrace.$$
 
 ### 2.2 Flat bundles and the adjoint
 
@@ -66,7 +66,8 @@ with $\Delta_\tau$ preserving each summand; the coexact $1$-forms are $\operator
 
 $$(\ast d_\nabla)^2 = d_\nabla^* d_\nabla = \Delta_\tau,$$
 
-so the coexact spectrum of $\Delta_\tau$ is the set of squares of the $\ast d_\nabla$ spectrum, and the bottom coexact eigenvalue is the square of the smallest $|\ast d_\nabla|$.
+so the coexact spectrum of $\Delta_\tau$ is the set of squares of the $\ast d_\nabla$ spectrum, and the bottom coexact eigenvalue is the square of the smallest $\lvert\ast d_
+abla\rvert$.
 
 > **Lemma 2.1** (Vanishing of harmonic $1$-forms)**.** For every finite-dimensional $\tau$, $H^1(X; E_\tau) = 0$. Consequently the coexact $1$-forms coincide with the coclosed $1$-forms, and $\Delta_\tau$ is strictly positive on them.
 
@@ -98,13 +99,13 @@ This is the descent of the $p$-spectrum of a constant-curvature space form, due 
 
 Under left translation only the first factor of each piece of $E_m$ is acted on, so the right factors are flat multiplicity spaces:
 
-$$E_m\big|_\Gamma = \bigl(V_m\big|_\Gamma\bigr)^{\oplus(m-1)}\ \oplus\ \bigl(V_{m-2}\big|_\Gamma\bigr)^{\oplus(m+1)},$$
+$$E_m\big\vert_\Gamma = \bigl(V_m\big\vert_\Gamma\bigr)^{\oplus(m-1)}\ \oplus\ \bigl(V_{m-2}\big\vert_\Gamma\bigr)^{\oplus(m+1)},$$
 
-the *left types* $V_m|_\Gamma$ and $V_{m-2}|_\Gamma$ carrying the right-factor multiplicities $\dim V_{m-2} = m-1$ and $\dim V_m = m+1$. The dimensions close, $(m-1)(m+1) + (m+1)(m-1) = 2(m^2-1)$, the Ikeda-Taniguchi multiplicity of the level-$m$ coexact eigenvalue. Computing the invariants by restriction and the tensor-hom adjunction,
+the *left types* $V_m\vert_\Gamma$ and $V_{m-2}\vert_\Gamma$ carrying the right-factor multiplicities $\dim V_{m-2} = m-1$ and $\dim V_m = m+1$. The dimensions close, $(m-1)(m+1) + (m+1)(m-1) = 2(m^2-1)$, the Ikeda-Taniguchi multiplicity of the level-$m$ coexact eigenvalue. Computing the invariants by restriction and the tensor-hom adjunction,
 
-$$\bigl(E_m \otimes V_\tau\bigr)^\Gamma \cong \mathrm{Hom}_\Gamma\!\bigl(\tau^*,\, E_m|_\Gamma\bigr),$$
+$$\bigl(E_m \otimes V_\tau\bigr)^\Gamma \cong \mathrm{Hom}_\Gamma\!\bigl(\tau^*,\, E_m\vert_\Gamma\bigr),$$
 
-nonzero exactly when $\tau^*$ shares a constituent with the left content $W_m := V_m|_\Gamma \oplus V_{m-2}|_\Gamma$. Each $V_j$ is self-dual, so $W_m$ is self-dual as a $\Gamma$-module; hence $\tau^*$ meets $W_m$ iff $\tau$ meets $W_m^* = W_m$, and the criterion reads
+nonzero exactly when $\tau^*$ shares a constituent with the left content $W_m := V_m\vert_\Gamma \oplus V_{m-2}\vert_\Gamma$. Each $V_j$ is self-dual, so $W_m$ is self-dual as a $\Gamma$-module; hence $\tau^*$ meets $W_m$ iff $\tau$ meets $W_m^* = W_m$, and the criterion reads
 
 $$\bigl(E_m \otimes V_\tau\bigr)^\Gamma \ne 0 \iff \text{a constituent of } \tau \text{ occurs in } W_m.$$
 
@@ -112,17 +113,17 @@ The reduction uses the self-duality of the left content, not of $\tau$, so it ho
 
 > **Proposition 3.1** (Twisted coexact spectrum)**.** For $m \ge 2$, the multiplicity of the eigenvalue $m^2/R^2$ in the $E_\tau$-valued coexact $1$-form spectrum on $X$ is
 >
-> $$\mu_\tau(m) = (m-1)\dim \mathrm{Hom}_\Gamma\!\bigl(\tau^*, V_m|_\Gamma\bigr) + (m+1)\dim \mathrm{Hom}_\Gamma\!\bigl(\tau^*, V_{m-2}|_\Gamma\bigr).$$
+> $$\mu_\tau(m) = (m-1)\dim \mathrm{Hom}_\Gamma\!\bigl(\tau^*, V_m\vert_\Gamma\bigr) + (m+1)\dim \mathrm{Hom}_\Gamma\!\bigl(\tau^*, V_{m-2}\vert_\Gamma\bigr).$$
 >
 > As a set of eigenvalues the twisted coexact spectrum is
 >
-> $$\bigl\{\, m^2/R^2 :\ m \ge 2,\ \mathrm{Hom}_\Gamma\!\bigl(\tau^*, W_m\bigr) \ne 0 \,\bigr\},$$
+> $$\bigl\lbrace\, m^2/R^2 :\ m \ge 2,\ \mathrm{Hom}_\Gamma\!\bigl(\tau^*, W_m\bigr) \ne 0 \,\bigr\rbrace,$$
 >
-> equivalently those $m$ at which a constituent of $\tau$ occurs in $W_m = V_m|_\Gamma \oplus V_{m-2}|_\Gamma$. Its bottom is $q_\tau^2/R^2$, where
+> equivalently those $m$ at which a constituent of $\tau$ occurs in $W_m = V_m\vert_\Gamma \oplus V_{m-2}\vert_\Gamma$. Its bottom is $q_\tau^2/R^2$, where
 >
-> $$q_\tau = \min\bigl\{\, m \ge 2 :\ \text{a constituent of } \tau \text{ occurs in } W_m \,\bigr\}.$$
+> $$q_\tau = \min\bigl\lbrace\, m \ge 2 :\ \text{a constituent of } \tau \text{ occurs in } W_m \,\bigr\rbrace.$$
 >
-> The defining set is nonempty: $V_1|_\Gamma$ is faithful, so by Burnside-Brauer every irreducible representation of $\Gamma$ occurs in some tensor power $V_1^{\otimes k}|_\Gamma$, and Clebsch-Gordan decomposes these tensor powers into symmetric powers $V_j|_\Gamma$. Hence every irreducible occurs in some $V_m|_\Gamma$; the sharp first occurrence, at $m = d(\sigma)$, is proved in Lemma 4.1 below. Thus $q_\tau$ is finite.
+> The defining set is nonempty: $V_1\vert_\Gamma$ is faithful, so by Burnside-Brauer every irreducible representation of $\Gamma$ occurs in some tensor power $V_1^{\otimes k}\vert_\Gamma$, and Clebsch-Gordan decomposes these tensor powers into symmetric powers $V_j\vert_\Gamma$. Hence every irreducible occurs in some $V_m\vert_\Gamma$; the sharp first occurrence, at $m = d(\sigma)$, is proved in Lemma 4.1 below. Thus $q_\tau$ is finite.
 
 ---
 
@@ -130,15 +131,15 @@ The reduction uses the self-duality of the left content, not of $\tau$, so it ho
 
 ### 4.1 First occurrence
 
-Let $A$ be the McKay adjacency matrix, with entries $A_{\sigma\sigma'} = \dim \mathrm{Hom}_\Gamma(\sigma', V_1|_\Gamma \otimes \sigma)$, so that multiplication by $V_1$ in the representation ring acts as $A$. The symmetric powers satisfy $V_{a+1} = V_1 V_a - V_{a-1}$, hence $V_a = U_a(A)$ applied to the trivial node, where $U_a$ is the degree-$a$ polynomial of leading coefficient one with $U_a(2\cos\theta) = \sin((a+1)\theta)/\sin\theta$.
+Let $A$ be the McKay adjacency matrix, with entries $A_{\sigma\sigma'} = \dim \mathrm{Hom}_\Gamma(\sigma', V_1\vert_\Gamma \otimes \sigma)$, so that multiplication by $V_1$ in the representation ring acts as $A$. The symmetric powers satisfy $V_{a+1} = V_1 V_a - V_{a-1}$, hence $V_a = U_a(A)$ applied to the trivial node, where $U_a$ is the degree-$a$ polynomial of leading coefficient one with $U_a(2\cos\theta) = \sin((a+1)\theta)/\sin\theta$.
 
-> **Lemma 4.1** (First occurrence)**.** For an irreducible $\Gamma$-representation $\sigma$ at McKay distance $d(\sigma)$, the least $a$ with $\sigma \subset V_a|_\Gamma$ is $a = d(\sigma)$. If moreover $-I \in \Gamma$, equivalently the McKay graph is bipartite, then $\sigma \subset V_a|_\Gamma$ forces $a \equiv d(\sigma) \pmod 2$.
+> **Lemma 4.1** (First occurrence)**.** For an irreducible $\Gamma$-representation $\sigma$ at McKay distance $d(\sigma)$, the least $a$ with $\sigma \subset V_a\vert_\Gamma$ is $a = d(\sigma)$. If moreover $-I \in \Gamma$, equivalently the McKay graph is bipartite, then $\sigma \subset V_a\vert_\Gamma$ forces $a \equiv d(\sigma) \pmod 2$.
 
-*Proof.* The multiplicity of $\sigma$ in $V_a|_\Gamma$ is the matrix element $\bigl(U_a(A)\bigr)_{0\sigma}$. Since $U_a$ has degree and parity $a$ and leading coefficient one, this is a combination of $(A^a)_{0\sigma}, (A^{a-2})_{0\sigma}, \dots$, and $(A^k)_{0\sigma}$ counts length-$k$ walks from $0$ to $\sigma$, which vanishes for $k < d(\sigma)$. Hence the multiplicity vanishes for $a < d(\sigma)$. At $a = d(\sigma)$ the lower terms $(A^{d(\sigma)-2})_{0\sigma}, (A^{d(\sigma)-4})_{0\sigma}, \ldots$ vanish, since their exponents are below $d(\sigma)$. The unit-coefficient leading term remains, so the multiplicity is $(A^{d(\sigma)})_{0\sigma}$, the positive count of length-$d(\sigma)$ walks from $0$ to $\sigma$. When $-I \in \Gamma$, the preceding bipartition gives that $-I$ acts on $\sigma$ by $(-1)^{d(\sigma)}$, while it acts on $V_a|_\Gamma$ by $(-1)^a$. Hence occurrence of $\sigma$ in $V_a|_\Gamma$ forces $a \equiv d(\sigma) \pmod 2$. $\square$
+*Proof.* The multiplicity of $\sigma$ in $V_a\vert_\Gamma$ is the matrix element $\bigl(U_a(A)\bigr)_{0\sigma}$. Since $U_a$ has degree and parity $a$ and leading coefficient one, this is a combination of $(A^a)_{0\sigma}, (A^{a-2})_{0\sigma}, \dots$, and $(A^k)_{0\sigma}$ counts length-$k$ walks from $0$ to $\sigma$, which vanishes for $k < d(\sigma)$. Hence the multiplicity vanishes for $a < d(\sigma)$. At $a = d(\sigma)$ the lower terms $(A^{d(\sigma)-2})_{0\sigma}, (A^{d(\sigma)-4})_{0\sigma}, \ldots$ vanish, since their exponents are below $d(\sigma)$. The unit-coefficient leading term remains, so the multiplicity is $(A^{d(\sigma)})_{0\sigma}$, the positive count of length-$d(\sigma)$ walks from $0$ to $\sigma$. When $-I \in \Gamma$, the preceding bipartition gives that $-I$ acts on $\sigma$ by $(-1)^{d(\sigma)}$, while it acts on $V_a\vert_\Gamma$ by $(-1)^a$. Hence occurrence of $\sigma$ in $V_a\vert_\Gamma$ forces $a \equiv d(\sigma) \pmod 2$. $\square$
 
 ### 4.2 The gap
 
-> **Proposition 4.2** (Gap from first occurrence)**.** Let $\tau$ be a finite-dimensional $\Gamma$-representation and $d_\tau = \min\{ d(\sigma) : \sigma \text{ an irreducible constituent of } \tau \}$. For an irreducible constituent $\sigma$, let $e(\sigma)$ be the least $m \ge 2$ for which $\sigma$ occurs in $W_m = V_m|_\Gamma \oplus V_{m-2}|_\Gamma$. Then
+> **Proposition 4.2** (Gap from first occurrence)**.** Let $\tau$ be a finite-dimensional $\Gamma$-representation and $d_\tau = \min\lbrace d(\sigma) : \sigma \text{ an irreducible constituent of } \tau \rbrace$. For an irreducible constituent $\sigma$, let $e(\sigma)$ be the least $m \ge 2$ for which $\sigma$ occurs in $W_m = V_m\vert_\Gamma \oplus V_{m-2}\vert_\Gamma$. Then
 >
 > $$e(\sigma) = 2 \quad \text{if } d(\sigma) = 0, \qquad e(\sigma) = d(\sigma) \quad \text{if } d(\sigma) \ge 2,$$
 >
@@ -148,9 +149,9 @@ Let $A$ be the McKay adjacency matrix, with entries $A_{\sigma\sigma'} = \dim \m
 >
 > where the minimum runs over irreducible constituents. In particular, if $d_\tau \ge 2$, then $q_\tau = d_\tau$ and the bottom of the twisted coexact spectrum is $d_\tau^2/R^2$.
 
-*Proof.* The equality $q_\tau = \min_{\sigma \subset \tau} e(\sigma)$ is just the definition of $q_\tau$. If $d(\sigma) = 0$, then $\sigma$ is the trivial representation and occurs in $V_0$, hence in $W_2$, and no level below $2$ is allowed. If $d(\sigma) \ge 2$, Lemma 4.1 places $\sigma$ first in $V_{d(\sigma)}|_\Gamma$, so $W_{d(\sigma)}$ contains $\sigma$ through its $V_{d(\sigma)}$ summand. For $m < d(\sigma)$, both $m$ and $m-2$ are below the first occurrence, so $W_m$ contains no copy of $\sigma$. Thus $e(\sigma) = d(\sigma)$. Finally assume $-I \in \Gamma$ and $d(\sigma) = 1$. The first occurrence is in $V_1|_\Gamma$, while the parity restriction excludes $\sigma$ from the even levels $V_0|_\Gamma$ and $V_2|_\Gamma$ appearing in $W_2$. Hence the first coexact level is $m = 3$, through the $V_{m-2} = V_1$ summand. $\square$
+*Proof.* The equality $q_\tau = \min_{\sigma \subset \tau} e(\sigma)$ is just the definition of $q_\tau$. If $d(\sigma) = 0$, then $\sigma$ is the trivial representation and occurs in $V_0$, hence in $W_2$, and no level below $2$ is allowed. If $d(\sigma) \ge 2$, Lemma 4.1 places $\sigma$ first in $V_{d(\sigma)}\vert_\Gamma$, so $W_{d(\sigma)}$ contains $\sigma$ through its $V_{d(\sigma)}$ summand. For $m < d(\sigma)$, both $m$ and $m-2$ are below the first occurrence, so $W_m$ contains no copy of $\sigma$. Thus $e(\sigma) = d(\sigma)$. Finally assume $-I \in \Gamma$ and $d(\sigma) = 1$. The first occurrence is in $V_1\vert_\Gamma$, while the parity restriction excludes $\sigma$ from the even levels $V_0\vert_\Gamma$ and $V_2\vert_\Gamma$ appearing in $W_2$. Hence the first coexact level is $m = 3$, through the $V_{m-2} = V_1$ summand. $\square$
 
-The bipartite hypothesis enters only for $d_\tau \le 1$. On $\mathbb{Z}_3$, where $-I \notin \Gamma$ and $\widetilde{A}_2$ is not bipartite, a nontrivial character has $d = 1$ but already occurs in $V_2|_{\mathbb{Z}_3}$, so $q = 2$ rather than $3$. The adjoint uses only the $d_\tau \ge 2$ case.
+The bipartite hypothesis enters only for $d_\tau \le 1$. On $\mathbb{Z}_3$, where $-I \notin \Gamma$ and $\widetilde{A}_2$ is not bipartite, a nontrivial character has $d = 1$ but already occurs in $V_2\vert_{\mathbb{Z}_3}$, so $q = 2$ rather than $3$. The adjoint uses only the $d_\tau \ge 2$ case.
 
 ### 4.3 The adjoint
 
@@ -162,7 +163,7 @@ a $3$-dimensional representation of $\Gamma$, irreducible for the polyhedral gro
 
 > **Proposition 4.3** (Adjoint gap)**.** For an irreducible flat $\mathrm{SU}(2)$ connection $\rho$ on $X = S^3/\Gamma$, the bottom of the adjoint coexact spectrum is $d_{\mathrm{Sym}^2 \rho}^2/R^2$, and $d_{\mathrm{Sym}^2 \rho} \ge 2$.
 
-*Proof.* An irreducible $2$-dimensional $\rho$ forces $\Gamma$ nonabelian, hence binary dihedral or polyhedral, so $-I \in \Gamma$. Being central, $-I$ acts on the irreducible $\rho$ by a scalar, necessarily $\pm I$ since $\det \rho = 1$, so $\mathrm{Sym}^2 \rho(-I) = I$: the adjoint factors through $\Gamma/\{\pm I\}$, and as $-I$ acts on a distance-$d$ node by $(-1)^d$, every constituent lies at even distance. The trivial is not among them: since $\det \rho = 1$ the representation $\rho$ is self-dual, so $\mathrm{Hom}_\Gamma(\mathbf{1}, \rho \otimes \rho) \cong \mathrm{Hom}_\Gamma(\rho^*, \rho)$ is one-dimensional by Schur, and as $\rho \otimes \rho = \mathrm{Sym}^2 \rho \oplus \Lambda^2 \rho$ with $\Lambda^2 \rho = \det \rho = \mathbf{1}$, that unique trivial summand is the determinant, lying in $\Lambda^2$. Even distance and no trivial constituent give $d_{\mathrm{Sym}^2 \rho} \ge 2$, and Proposition 4.2 returns the bottom $d_{\mathrm{Sym}^2 \rho}^2/R^2$. $\square$
+*Proof.* An irreducible $2$-dimensional $\rho$ forces $\Gamma$ nonabelian, hence binary dihedral or polyhedral, so $-I \in \Gamma$. Being central, $-I$ acts on the irreducible $\rho$ by a scalar, necessarily $\pm I$ since $\det \rho = 1$, so $\mathrm{Sym}^2 \rho(-I) = I$: the adjoint factors through $\Gamma/\lbrace\pm I\rbrace$, and as $-I$ acts on a distance-$d$ node by $(-1)^d$, every constituent lies at even distance. The trivial is not among them: since $\det \rho = 1$ the representation $\rho$ is self-dual, so $\mathrm{Hom}_\Gamma(\mathbf{1}, \rho \otimes \rho) \cong \mathrm{Hom}_\Gamma(\rho^*, \rho)$ is one-dimensional by Schur, and as $\rho \otimes \rho = \mathrm{Sym}^2 \rho \oplus \Lambda^2 \rho$ with $\Lambda^2 \rho = \det \rho = \mathbf{1}$, that unique trivial summand is the determinant, lying in $\Lambda^2$. Even distance and no trivial constituent give $d_{\mathrm{Sym}^2 \rho} \ge 2$, and Proposition 4.2 returns the bottom $d_{\mathrm{Sym}^2 \rho}^2/R^2$. $\square$
 
 ### 4.4 The ADE table
 
@@ -190,7 +191,7 @@ $$\chi_a(\theta) = \frac{\sin((a+1)\theta)}{\sin\theta},$$
 with the limiting values at $\theta = 0, \pi$. Evaluating it on the nine conjugacy classes of $2I$ and decomposing against the $2I$ character table (the nine classes have half-angles $0, \pi/5, 2\pi/5, \pi/3, \pi/2, 2\pi/3, 3\pi/5, 4\pi/5, \pi$, and the entries are the inner products of $\chi_a$ with the irreducible characters of $2I$ [Helle]) gives
 
 $$\begin{array}{c|c|c|c}
-a & \dim V_a & V_a|_{2I} & \text{McKay distance(s)} \\
+a & \dim V_a & V_a\vert_{2I} & \text{McKay distance(s)} \\
 \hline
 0 & 1 & \mathbf{1} & 0 \\
 1 & 2 & Q & 1 \\
@@ -201,7 +202,7 @@ a & \dim V_a & V_a|_{2I} & \text{McKay distance(s)} \\
 6 & 7 & \mathbf{4}' \oplus \mathrm{Sym}^2 Q' & 6, 6
 \end{array}$$
 
-where $\mathbf{4}'$ denotes the second $4$-dimensional irreducible. Thus $\mathrm{Sym}^2 Q$ first occurs at level two, and $\mathrm{Sym}^2 Q'$, the Galois conjugate of $\mathrm{Sym}^2 Q$, is absent from $V_a|_{2I}$ for $a < 6$ and first occurs in $V_6|_{2I}$.
+where $\mathbf{4}'$ denotes the second $4$-dimensional irreducible. Thus $\mathrm{Sym}^2 Q$ first occurs at level two, and $\mathrm{Sym}^2 Q'$, the Galois conjugate of $\mathrm{Sym}^2 Q$, is absent from $V_a\vert_{2I}$ for $a < 6$ and first occurs in $V_6\vert_{2I}$.
 
 Every irreducible flat $\mathrm{SU}(2)$ connection on a spherical space form thus has adjoint coexact gap $4/R^2$, with the single exception of the Galois connection on $S^3/2I$, whose gap is $36/R^2 = 6^2/R^2$. The factor $9$ between them is the square of the distance ratio $6/2$ on the affine $E_8$ graph.
 

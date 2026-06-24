@@ -195,7 +195,7 @@ The wave is still there at the boundary. The surface is still real. The gradient
 
 **Recovery of $T_H$.** The $\Phi \to \Theta$ mapping (§VIII.1) establishes $C/C_0 = 1 - r_s/r$ with the power $\beta = 1$ uniquely forced by the requirement that the eigenfunction slope $u_0'(0) = 1/R$ remain finite and nonzero in proper distance coordinates at the horizon. The resulting chain:
 
-$$u_0'(0) = \frac{1}{R} \;\longrightarrow\; \frac{du_0}{d\Theta}\bigg|_0 = \pi \;\longrightarrow\; \frac{du_0}{d\ell}\bigg|_H = \kappa\sin(\pi\Theta_0)$$
+$$u_0'(0) = \frac{1}{R} \;\longrightarrow\; \frac{du_0}{d\Theta}\bigg\vert_0 = \pi \;\longrightarrow\; \frac{du_0}{d\ell}\bigg\vert_H = \kappa\sin(\pi\Theta_0)$$
 
 where $\kappa = c^4/(4GM) = 1/(2r_s)$ is the Schwarzschild surface gravity. The $1/M$ dependence is carried entirely by $\kappa$; the coefficient $\sin(\pi\Theta_0) \approx 0.777$ depends only on the well position. The thermal spectrum ($T_H = \kappa/(2\pi)$, Planck distribution) is inherited: the mapping pairs $C/C_0$ with $g_{tt}$, and GR's Euclidean periodicity carries through the forced pairing. Status: $1/M$ dependence and coefficient DERIVED; thermal character INHERITED through forced $g_{tt}$ pairing.
 
@@ -268,7 +268,7 @@ The power $\beta = 1$ is uniquely forced by the requirement that the eigenfuncti
 | Property | Result |
 |----------|--------|
 | Galactic consistency | Smooth shift at $r/r_s = 10^6$ is $2 \times 10^{-7}$, far below one bosonic step (2/120) |
-| Near-horizon slope | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$, finite and nonzero, proportional to surface gravity |
+| Near-horizon slope | $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa$, finite and nonzero, proportional to surface gravity |
 | Uniqueness of $\beta = 1$ | Only value giving finite nonzero slope; all other $\beta$ fail |
 | Self-consistency | $C(\Theta)/C(\Theta_0) \div (1 - r_s/r) = 1$ exactly at all radii |
 
@@ -317,7 +317,7 @@ Testable against LIGO/LISA ringdown data in principle.
 | First | $dM = (\kappa/8\pi)dA + \Omega\,dJ + \Phi\,dQ$ | Energy balance from mode accounting | OPEN |
 | Second | $dA \geq 0$ | Wave content behind $\Theta = 0$ boundary cannot decrease | MOTIVATED |
 | Third | Cannot reach $\kappa = 0$ in finite steps | Cannot reach $\Theta = 0$ in finite discrete steps (lattice property) | MOTIVATED |
-| Temperature | $T_H = \hbar c^3/(8\pi G M k_B)$ | Eigenfunction slope: $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa \propto 1/M$. Thermal spectrum inherited through forced mapping $C/C_0 = g_{tt}$. | $1/M$ and coefficient DERIVED; thermal character INHERITED |
+| Temperature | $T_H = \hbar c^3/(8\pi G M k_B)$ | Eigenfunction slope: $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa \propto 1/M$. Thermal spectrum inherited through forced mapping $C/C_0 = g_{tt}$. | $1/M$ and coefficient DERIVED; thermal character INHERITED |
 
 ### VIII.5 Spectral-Physical Bridge (Priority 5)
 
@@ -341,7 +341,7 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 | Full domain | $[0, 120/120]$ | $\lvert 2I \rvert = 120$ |
 | Fermionic step | 1/120 | Full lattice resolution |
 | Bekenstein-Hawking entropy | $S = A/(4\ell_P^2)$ | Observed; MIT: motivated by surface primacy ($n = 2$); 1/4 factor OPEN |
-| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\|_H = \sin(\pi\Theta_0) \cdot \kappa$; $1/M$ and coefficient DERIVED; thermal character INHERITED |
+| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa$; $1/M$ and coefficient DERIVED; thermal character INHERITED |
 | Minimum mass | $\approx 7.4\,m_P$ (full grid) | Interface-level ($\ell_P$); topology gives no threshold ($\Delta S_\text{phase}/\Delta S_\min = 1/4$) |
 | $Z_\sigma(0)$ | 0 | Spectral determinant at boundary (nontrivial $\sigma$) |
 | $Z'_\sigma(0)$ | $\log T^2(\sigma)$ | Torsion: L-function special values |

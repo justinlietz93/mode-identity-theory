@@ -84,7 +84,7 @@ $$\Delta\psi = \psi_{yy} + \frac{f'}{f}\psi_y + \frac{1}{f^2}\psi_{ww} = \psi_{y
 
 The area element is $dA = \lvert f(y)\rvert\,dy\,dw$, and $L^2(M, dA)$ denotes the Hilbert space of square-integrable sections of $\mathcal{L}$ with respect to this measure. Although the formal operator is written using $f$ on each smooth coordinate patch, the global measure and the reduced Sturm-Liouville forms use $\lvert f\rvert$, which is nonnegative across the two sides of the collapsed fiber.
 
-The boundary $\partial M$ consists of two geodesic arcs at $w = \pm W$. We impose Neumann boundary conditions: $\partial_w\psi\big|_{w = \pm W} = 0$.
+The boundary $\partial M$ consists of two geodesic arcs at $w = \pm W$. We impose Neumann boundary conditions: $\partial_w\psi\big\vert_{w = \pm W} = 0$.
 
 ### 3.3 The involution and the cone point
 
