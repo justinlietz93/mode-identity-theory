@@ -2,9 +2,7 @@
 
 ---
 
-# Early Galaxy Masses: Epoch-Dependent Acceleration in Static Space
-
-[![Early Galaxies](https://img.youtube.com/vi/BuxnEmMGMFE/mqdefault.jpg)](https://www.youtube.com/watch?v=BuxnEmMGMFE)
+<img src="https://pbs.twimg.com/media/HLmYdKfWYAANW13?format=jpg&name=4096x4096" width="100%" alt="Early Galaxies">
 
 JWST has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ at $z \approx 10$ require star formation efficiencies exceeding unity under ΛCDM with a constant MOND acceleration scale, a physical impossibility.
 
