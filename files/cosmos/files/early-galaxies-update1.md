@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`cosmos`](../../cosmos/)** / **[`early galaxies`](early-galaxies.md)** /
 
 ---
 
@@ -89,4 +89,4 @@ The discriminating test remains Euclid DR1 stacked galaxy–galaxy lensing at $z
 
 *Update 1, drafted 2026-06-24. Pending: formal WebPlotDigitizer extraction of the four Figure 3 points and error bars for a quantitative model comparison ($E(z)$ free-norm vs linear, AIC).*
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../README.md)** / **[`cosmos`](../../cosmos/)** / **[`early galaxies`](early-galaxies.md)** /
