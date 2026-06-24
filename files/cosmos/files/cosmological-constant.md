@@ -2,9 +2,7 @@
 
 ---
 
-# Λ from the Curvature of the Cosmic Boundary
-
-[![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
+<img src="https://pbs.twimg.com/media/HLlsyI3W8AAYqUP?format=jpg&name=4096x4096" width="100%" alt="Cosmological Constant">
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note reframes Λ as geometry: its coefficient is set by the first positive curvature mode of the cosmic boundary, in a static universe where redshift is phase evolution on the boundary. Einstein's instinct to keep Λ geometric was sound.
 
