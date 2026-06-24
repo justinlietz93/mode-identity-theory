@@ -123,6 +123,8 @@ Observations of both quantities at high redshift provide independent, complement
 
 At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is within reach of resolved rotation curves from Euclid, JWST/NIRSpec, and the ELT. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
 
+**Update 1 (2026): MUSE-DARK III.** The first intermediate-redshift measurement of $a_0$ (Ciocan et al., *A&A* 709) finds it rising at ~30σ over 0.33 < z < 1.44, corroborating the predicted direction; the rate is consistent with $a_0 \propto H(z)$ and the normalization is open. The formal $z > 2$ test still belongs to Euclid DR1. Full comparison, with the standing intermediate-redshift tension and caveats: [Early Galaxies, Update 1](early-galaxies-update1.md).
+
 ---
 
 In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. For four decades the coincidence $a_0 \approx cH_0$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $a_0$ evolves with $H(z)$.
