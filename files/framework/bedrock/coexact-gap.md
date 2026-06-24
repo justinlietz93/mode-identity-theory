@@ -16,7 +16,7 @@ The adjoint bundle of an irreducible flat $\mathrm{SU}(2)$ connection always has
 
 Let $\Gamma \subset \mathrm{SU}(2)$ be finite and let $S^3/\Gamma$ carry the round metric of constant curvature $1/R^2$, with $\Gamma$ acting by left multiplication through the fixed inclusion, so the McKay graph is that of the inclusion. A finite-dimensional unitary representation $\tau$ of $\Gamma$ determines a flat bundle $E_\tau$ on $S^3/\Gamma$; the flat adjoint bundle of a flat $\mathrm{SU}(2)$ connection $\rho$ is the case $\tau = \mathrm{Ad} \circ \rho$. Because $S^3$ is $2$-connected, $H^1(S^3/\Gamma; E_\tau) \cong H^1(\Gamma; \tau)$, and since $\Gamma$ is finite and the coefficients have characteristic zero, $H^1(\Gamma; V) = 0$ for every finite-dimensional $\Gamma$-module $V$. The twisted harmonic $1$-forms therefore vanish for every $\tau$, so the Hodge Laplacian $\Delta_\tau$ on coexact $E_\tau$-valued $1$-forms is positive, and we study the bottom of its spectrum.
 
-On round $S^3$ of radius $R$ the coexact $1$-forms have eigenvalues $m^2/R^2$ for integers $m \ge 2$, and the level-$m$ space has left content $V_m\vert_\Gamma$ and $V_{m-2}\vert_\Gamma$, up to the right-factor multiplicities, with $V_j = \mathrm{Sym}^j \mathbb{C}^2$ [IkedaTaniguchi]. The modes on $S^3/\Gamma$ are the $\Gamma$-invariants $(E_m \otimes \tau)^\Gamma$, and by Peter-Weyl, Frobenius reciprocity, and the self-duality of the $V_j$ these are nonzero exactly when a constituent of $\tau$ occurs in $V_m\vert_\Gamma$ or $V_{m-2}\vert_\Gamma$. Section 3 gives this descent, already present for form spectra in Ikeda's work on $p$-spectra [Ikeda1989], with the Dirac analogue due to Bär [Bar1996] and the representation-equivalence form due to Lauret, Miatello and Rossetti [LauretMiatelloRossetti]; the present use inserts an arbitrary finite-dimensional twist by the diagonal action.
+On round $S^3$ of radius $R$ the coexact $1$-forms have eigenvalues $m^2/R^2$ for integers $m \ge 2$, and the level-<i>m</i> space has left content $V_m\vert_\Gamma$ and $V_{m-2}\vert_\Gamma$, up to the right-factor multiplicities, with $V_j = \mathrm{Sym}^j \mathbb{C}^2$ [IkedaTaniguchi]. The modes on $S^3/\Gamma$ are the $\Gamma$-invariants $(E_m \otimes \tau)^\Gamma$, and by Peter-Weyl, Frobenius reciprocity, and the self-duality of the $V_j$ these are nonzero exactly when a constituent of $\tau$ occurs in $V_m\vert_\Gamma$ or $V_{m-2}\vert_\Gamma$. Section 3 gives this descent, already present for form spectra in Ikeda's work on $p$-spectra [Ikeda1989], with the Dirac analogue due to Bär [Bar1996] and the representation-equivalence form due to Lauret, Miatello and Rossetti [LauretMiatelloRossetti]; the present use inserts an arbitrary finite-dimensional twist by the diagonal action.
 
 For a flat bundle $E_\tau$, set
 
@@ -54,15 +54,15 @@ A finite-dimensional unitary representation $\tau \colon \Gamma \to \mathrm{U}(V
 
 $$\tau = (\mathrm{ad}_\rho)_{\mathbb{C}} \cong \mathrm{Sym}^2 \rho \quad \text{as a complex } \Gamma\text{-representation,}$$
 
-the isomorphism being the identification of $\mathfrak{su}(2)_{\mathbb{C}} = \mathfrak{sl}(2, \mathbb{C})$ with the spin-$1$ representation $V_2$ of the $\mathrm{SU}(2)$ acting through $\rho$.
+the isomorphism being the identification of $\mathfrak{su}(2)_{\mathbb{C}} = \mathfrak{sl}(2, \mathbb{C})$ with the spin-1 representation $V_2$ of the $\mathrm{SU}(2)$ acting through $\rho$.
 
 ### 2.3 The operator and positivity
 
 Let $d_\nabla$ be the flat exterior derivative of $E_\tau$ and $\Delta_\tau = d_\nabla^* d_\nabla + d_\nabla d_\nabla^*$ the twisted Hodge Laplacian. For the flat unitary connection the Hodge decomposition reads
 
-$$\Omega^1(X; E_\tau) = \operatorname{im} d_\nabla\ \oplus\ \operatorname{im} d_\nabla^*\ \oplus\ \mathcal{H}^1(X; E_\tau),$$
+$$\Omega^1(X; E_\tau) = \mathrm{im} d_\nabla\ \oplus\ \mathrm{im} d_\nabla^*\ \oplus\ \mathcal{H}^1(X; E_\tau),$$
 
-with $\Delta_\tau$ preserving each summand; the coexact $1$-forms are $\operatorname{im} d_\nabla^*$. On that summand the curl operator $\ast d_\nabla$ is formally self-adjoint and
+with $\Delta_\tau$ preserving each summand; the coexact $1$-forms are $\mathrm{im} d_\nabla^*$. On that summand the curl operator $\ast d_\nabla$ is formally self-adjoint and
 
 $$(\ast d_\nabla)^2 = d_\nabla^* d_\nabla = \Delta_\tau,$$
 
@@ -71,7 +71,7 @@ abla\rvert$.
 
 > **Lemma 2.1** (Vanishing of harmonic $1$-forms)**.** For every finite-dimensional $\tau$, $H^1(X; E_\tau) = 0$. Consequently the coexact $1$-forms coincide with the coclosed $1$-forms, and $\Delta_\tau$ is strictly positive on them.
 
-*Proof.* By de Rham with local coefficients $\mathcal{H}^1(X; E_\tau) \cong H^1(X; E_\tau)$, and degree-one cohomology with local coefficients is computed by crossed homomorphisms, hence depends only on $\pi_1 X = \Gamma$; so $H^1(X; E_\tau) \cong H^1(\Gamma; \tau)$. Since $\Gamma$ is finite and the coefficients have characteristic zero, averaging over $\Gamma$ gives $H^1(\Gamma; V) = 0$ for every finite-dimensional $\Gamma$-module $V$; hence $H^1(X; E_\tau) = \mathcal{H}^1(X; E_\tau) = 0$. The kernel of $\Delta_\tau$ on $1$-forms is exactly $\mathcal{H}^1$, so $\Delta_\tau$ is strictly positive on $\Omega^1(X; E_\tau)$, and in particular on the coexact summand; and with $\mathcal{H}^1 = 0$ that summand $\operatorname{im} d_\nabla^*$ is the full space $\ker d_\nabla^*$ of coclosed $1$-forms. $\square$
+*Proof.* By de Rham with local coefficients $\mathcal{H}^1(X; E_\tau) \cong H^1(X; E_\tau)$, and degree-one cohomology with local coefficients is computed by crossed homomorphisms, hence depends only on $\pi_1 X = \Gamma$; so $H^1(X; E_\tau) \cong H^1(\Gamma; \tau)$. Since $\Gamma$ is finite and the coefficients have characteristic zero, averaging over $\Gamma$ gives $H^1(\Gamma; V) = 0$ for every finite-dimensional $\Gamma$-module $V$; hence $H^1(X; E_\tau) = \mathcal{H}^1(X; E_\tau) = 0$. The kernel of $\Delta_\tau$ on $1$-forms is exactly $\mathcal{H}^1$, so $\Delta_\tau$ is strictly positive on $\Omega^1(X; E_\tau)$, and in particular on the coexact summand; and with $\mathcal{H}^1 = 0$ that summand $\mathrm{im} d_\nabla^*$ is the full space $\ker d_\nabla^*$ of coclosed $1$-forms. $\square$
 
 ---
 
@@ -83,7 +83,7 @@ Write $L^2(S^3) = \bigoplus_{k \ge 0} V_k \boxtimes V_k^*$ for the Peter-Weyl de
 
 $$\Omega^1(S^3; \mathbb{C}) \cong \bigoplus_{k \ge 0} V_k \boxtimes (V_k \otimes V_2),$$
 
-and Clebsch-Gordan splits $V_k \otimes V_2 \cong V_{k+2} \oplus V_k \oplus V_{k-2}$, the last term omitted for $k < 2$. The exterior derivative $d \colon C^\infty(S^3) \to \Omega^1(S^3)$ is $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$-equivariant and injective on nonconstants, and $V_k \boxtimes V_k$ occurs once in $\Omega^1$, so $\operatorname{im} d$ is exactly the middle summands $V_k \boxtimes V_k$. The harmonic $1$-forms vanish since $H^1(S^3) = 0$, so the coexact $1$-forms are the outer summands $V_k \boxtimes V_{k \pm 2}$. Reindexing, the coexact level $m \ge 2$ is
+and Clebsch-Gordan splits $V_k \otimes V_2 \cong V_{k+2} \oplus V_k \oplus V_{k-2}$, the last term omitted for $k < 2$. The exterior derivative $d \colon C^\infty(S^3) \to \Omega^1(S^3)$ is $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$-equivariant and injective on nonconstants, and $V_k \boxtimes V_k$ occurs once in $\Omega^1$, so $\mathrm{im} d$ is exactly the middle summands $V_k \boxtimes V_k$. The harmonic $1$-forms vanish since $H^1(S^3) = 0$, so the coexact $1$-forms are the outer summands $V_k \boxtimes V_{k \pm 2}$. Reindexing, the coexact level $m \ge 2$ is
 
 $$E_m = \bigl(V_m \boxtimes V_{m-2}\bigr)\ \oplus\ \bigl(V_{m-2} \boxtimes V_m\bigr),$$
 
@@ -91,7 +91,7 @@ the first factor carrying left translation and the second the commuting right ac
 
 ### 3.2 Descent to $X = S^3/\Gamma$
 
-Fix the associated-bundle convention $\gamma \cdot (x, v) = (\gamma x, \tau(\gamma) v)$ on $E_\tau = (S^3 \times V_\tau)/\Gamma$, so sections of $E_\tau$ identify with $\Gamma$-invariant $V_\tau$-valued forms on $S^3$ for the diagonal action, $\Gamma$ acting by left translation on the form and by $\tau$ on $V_\tau$. Left translation commutes with the curl and preserves each $E_m$. Pulling $E_\tau$ back to $S^3$ trivializes it with the product flat connection, so the lifted twisted Laplacian is $\Delta_{S^3} \otimes 1$ on $V_\tau$-valued forms. Thus the level-$m$ twisted eigenspace on $S^3/\Gamma$ is
+Fix the associated-bundle convention $\gamma \cdot (x, v) = (\gamma x, \tau(\gamma) v)$ on $E_\tau = (S^3 \times V_\tau)/\Gamma$, so sections of $E_\tau$ identify with $\Gamma$-invariant $V_\tau$-valued forms on $S^3$ for the diagonal action, $\Gamma$ acting by left translation on the form and by $\tau$ on $V_\tau$. Left translation commutes with the curl and preserves each $E_m$. Pulling $E_\tau$ back to $S^3$ trivializes it with the product flat connection, so the lifted twisted Laplacian is $\Delta_{S^3} \otimes 1$ on $V_\tau$-valued forms. Thus the level-<i>m</i> twisted eigenspace on $S^3/\Gamma$ is
 
 $$\bigl(E_m \otimes V_\tau\bigr)^\Gamma, \qquad \text{eigenvalue }\ m^2/R^2.$$
 
@@ -101,7 +101,7 @@ Under left translation only the first factor of each piece of $E_m$ is acted on,
 
 $$E_m\big\vert_\Gamma = \bigl(V_m\big\vert_\Gamma\bigr)^{\oplus(m-1)}\ \oplus\ \bigl(V_{m-2}\big\vert_\Gamma\bigr)^{\oplus(m+1)},$$
 
-the *left types* $V_m\vert_\Gamma$ and $V_{m-2}\vert_\Gamma$ carrying the right-factor multiplicities $\dim V_{m-2} = m-1$ and $\dim V_m = m+1$. The dimensions close, $(m-1)(m+1) + (m+1)(m-1) = 2(m^2-1)$, the Ikeda-Taniguchi multiplicity of the level-$m$ coexact eigenvalue. Computing the invariants by restriction and the tensor-hom adjunction,
+the *left types* $V_m\vert_\Gamma$ and $V_{m-2}\vert_\Gamma$ carrying the right-factor multiplicities $\dim V_{m-2} = m-1$ and $\dim V_m = m+1$. The dimensions close, $(m-1)(m+1) + (m+1)(m-1) = 2(m^2-1)$, the Ikeda-Taniguchi multiplicity of the level-<i>m</i> coexact eigenvalue. Computing the invariants by restriction and the tensor-hom adjunction,
 
 $$\bigl(E_m \otimes V_\tau\bigr)^\Gamma \cong \mathrm{Hom}_\Gamma\!\bigl(\tau^*,\, E_m\vert_\Gamma\bigr),$$
 
@@ -131,11 +131,11 @@ The reduction uses the self-duality of the left content, not of $\tau$, so it ho
 
 ### 4.1 First occurrence
 
-Let $A$ be the McKay adjacency matrix, with entries $A_{\sigma\sigma'} = \dim \mathrm{Hom}_\Gamma(\sigma', V_1\vert_\Gamma \otimes \sigma)$, so that multiplication by $V_1$ in the representation ring acts as $A$. The symmetric powers satisfy $V_{a+1} = V_1 V_a - V_{a-1}$, hence $V_a = U_a(A)$ applied to the trivial node, where $U_a$ is the degree-$a$ polynomial of leading coefficient one with $U_a(2\cos\theta) = \sin((a+1)\theta)/\sin\theta$.
+Let $A$ be the McKay adjacency matrix, with entries $A_{\sigma\sigma'} = \dim \mathrm{Hom}_\Gamma(\sigma', V_1\vert_\Gamma \otimes \sigma)$, so that multiplication by $V_1$ in the representation ring acts as $A$. The symmetric powers satisfy $V_{a+1} = V_1 V_a - V_{a-1}$, hence $V_a = U_a(A)$ applied to the trivial node, where $U_a$ is the degree-<i>a</i> polynomial of leading coefficient one with $U_a(2\cos\theta) = \sin((a+1)\theta)/\sin\theta$.
 
 > **Lemma 4.1** (First occurrence)**.** For an irreducible $\Gamma$-representation $\sigma$ at McKay distance $d(\sigma)$, the least $a$ with $\sigma \subset V_a\vert_\Gamma$ is $a = d(\sigma)$. If moreover $-I \in \Gamma$, equivalently the McKay graph is bipartite, then $\sigma \subset V_a\vert_\Gamma$ forces $a \equiv d(\sigma) \pmod 2$.
 
-*Proof.* The multiplicity of $\sigma$ in $V_a\vert_\Gamma$ is the matrix element $\bigl(U_a(A)\bigr)_{0\sigma}$. Since $U_a$ has degree and parity $a$ and leading coefficient one, this is a combination of $(A^a)_{0\sigma}, (A^{a-2})_{0\sigma}, \dots$, and $(A^k)_{0\sigma}$ counts length-$k$ walks from $0$ to $\sigma$, which vanishes for $k < d(\sigma)$. Hence the multiplicity vanishes for $a < d(\sigma)$. At $a = d(\sigma)$ the lower terms $(A^{d(\sigma)-2})_{0\sigma}, (A^{d(\sigma)-4})_{0\sigma}, \ldots$ vanish, since their exponents are below $d(\sigma)$. The unit-coefficient leading term remains, so the multiplicity is $(A^{d(\sigma)})_{0\sigma}$, the positive count of length-$d(\sigma)$ walks from $0$ to $\sigma$. When $-I \in \Gamma$, the preceding bipartition gives that $-I$ acts on $\sigma$ by $(-1)^{d(\sigma)}$, while it acts on $V_a\vert_\Gamma$ by $(-1)^a$. Hence occurrence of $\sigma$ in $V_a\vert_\Gamma$ forces $a \equiv d(\sigma) \pmod 2$. $\square$
+*Proof.* The multiplicity of $\sigma$ in $V_a\vert_\Gamma$ is the matrix element $\bigl(U_a(A)\bigr)_{0\sigma}$. Since $U_a$ has degree and parity $a$ and leading coefficient one, this is a combination of $(A^a)_{0\sigma}, (A^{a-2})_{0\sigma}, \dots$, and $(A^k)_{0\sigma}$ counts walks of length $k$ from $0$ to $\sigma$, which vanishes for $k < d(\sigma)$. Hence the multiplicity vanishes for $a < d(\sigma)$. At $a = d(\sigma)$ the lower terms $(A^{d(\sigma)-2})_{0\sigma}, (A^{d(\sigma)-4})_{0\sigma}, \ldots$ vanish, since their exponents are below $d(\sigma)$. The unit-coefficient leading term remains, so the multiplicity is $(A^{d(\sigma)})_{0\sigma}$, the positive count of walks of length $d(\sigma)$ from $0$ to $\sigma$. When $-I \in \Gamma$, the preceding bipartition gives that $-I$ acts on $\sigma$ by $(-1)^{d(\sigma)}$, while it acts on $V_a\vert_\Gamma$ by $(-1)^a$. Hence occurrence of $\sigma$ in $V_a\vert_\Gamma$ forces $a \equiv d(\sigma) \pmod 2$. $\square$
 
 ### 4.2 The gap
 
@@ -163,7 +163,7 @@ a $3$-dimensional representation of $\Gamma$, irreducible for the polyhedral gro
 
 > **Proposition 4.3** (Adjoint gap)**.** For an irreducible flat $\mathrm{SU}(2)$ connection $\rho$ on $X = S^3/\Gamma$, the bottom of the adjoint coexact spectrum is $d_{\mathrm{Sym}^2 \rho}^2/R^2$, and $d_{\mathrm{Sym}^2 \rho} \ge 2$.
 
-*Proof.* An irreducible $2$-dimensional $\rho$ forces $\Gamma$ nonabelian, hence binary dihedral or polyhedral, so $-I \in \Gamma$. Being central, $-I$ acts on the irreducible $\rho$ by a scalar, necessarily $\pm I$ since $\det \rho = 1$, so $\mathrm{Sym}^2 \rho(-I) = I$: the adjoint factors through $\Gamma/\lbrace\pm I\rbrace$, and as $-I$ acts on a distance-$d$ node by $(-1)^d$, every constituent lies at even distance. The trivial is not among them: since $\det \rho = 1$ the representation $\rho$ is self-dual, so $\mathrm{Hom}_\Gamma(\mathbf{1}, \rho \otimes \rho) \cong \mathrm{Hom}_\Gamma(\rho^*, \rho)$ is one-dimensional by Schur, and as $\rho \otimes \rho = \mathrm{Sym}^2 \rho \oplus \Lambda^2 \rho$ with $\Lambda^2 \rho = \det \rho = \mathbf{1}$, that unique trivial summand is the determinant, lying in $\Lambda^2$. Even distance and no trivial constituent give $d_{\mathrm{Sym}^2 \rho} \ge 2$, and Proposition 4.2 returns the bottom $d_{\mathrm{Sym}^2 \rho}^2/R^2$. $\square$
+*Proof.* An irreducible $2$-dimensional $\rho$ forces $\Gamma$ nonabelian, hence binary dihedral or polyhedral, so $-I \in \Gamma$. Being central, $-I$ acts on the irreducible $\rho$ by a scalar, necessarily $\pm I$ since $\det \rho = 1$, so $\mathrm{Sym}^2 \rho(-I) = I$: the adjoint factors through $\Gamma/\lbrace\pm I\rbrace$, and as $-I$ acts on a distance-<i>d</i> node by $(-1)^d$, every constituent lies at even distance. The trivial is not among them: since $\det \rho = 1$ the representation $\rho$ is self-dual, so $\mathrm{Hom}_\Gamma(\mathbf{1}, \rho \otimes \rho) \cong \mathrm{Hom}_\Gamma(\rho^*, \rho)$ is one-dimensional by Schur, and as $\rho \otimes \rho = \mathrm{Sym}^2 \rho \oplus \Lambda^2 \rho$ with $\Lambda^2 \rho = \det \rho = \mathbf{1}$, that unique trivial summand is the determinant, lying in $\Lambda^2$. Even distance and no trivial constituent give $d_{\mathrm{Sym}^2 \rho} \ge 2$, and Proposition 4.2 returns the bottom $d_{\mathrm{Sym}^2 \rho}^2/R^2$. $\square$
 
 ### 4.4 The ADE table
 
