@@ -132,7 +132,7 @@ Two phase parameterizations exist for the current epoch. The engine phase $\Phi 
 
 $$\Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-Every constant in the universe is one quantity, asked at one place. The equation reads: **how big is this thing compared to the natural Planck unit for its kind** ($A/A_P$) equals **where it sits on the wave** ($C(\Theta)$) times **how far the geometry has diluted it from the Planck scale** ($(\sqrt{\Omega})^{-n}$).
+Every constant in the universe is one quantity, asked at one place. The equation reads: **how big is this thing compared to the natural Planck unit for its kind;** $A/A_P$, equals **where it sits on the wave;** $C(\Theta)$, times **how far the geometry has diluted it from the Planck scale;** $(\sqrt{\Omega})^{-n}$.
 
 ### What the ratio means
 
