@@ -327,14 +327,14 @@ The wall is structural, not technical. A unifying geometric mechanism is capture
 
 The Ricci curvature of $S^3$ is $\mathrm{Ric}=2/R^2>0$. This positive number does two things simultaneously:
 
-**Physics (Weitzenböck bound):** All gauge fluctuations on $S^3/2I$ satisfy $\lambda\geq2/R^2>0$. The mass gap exists. Every mode is massive. Matter is realized.
+**Physics (the mass gap):** Positive Ricci puts a Weitzenböck floor $\lambda\geq2/R^2>0$ under every gauge fluctuation on $S^3/2I$, lifting the spectrum off zero so the mass gap exists. The exact gap is sharper than the floor: the coexact spectrum read through the McKay structure gives $4/R^2$ at the trivial and standard vacua and $36/R^2$ at the Galois vacuum, a ninefold enhancement (the [coexact gap](../../framework/bedrock/coexact-gap.md) paper). Every mode is massive. Matter is realized.
 
 **Arithmetic (Pochhammer obstruction):** The scalar Laplacian eigenvalues shift from $(l+1)^2$ to $l(l+2)=(l+1)^2-1$. The "-1" generates the infinite Pochhammer tower that blocks general-<i>s</i> factorization. The torsion's maximum selectivity is locked to $s=0$. L-function zeros are shielded.
 
 | Step | Physics | Arithmetic |
 |------|---------|-----------|
-| Positive Ricci | Weitzenböck: $\lambda\geq2/R^2$ | Eigenvalue shift: $l(l+2)\neq(l+1)^2$ |
-| Consequence | Mass gap; all modes massive | Pochhammer tower at $s\neq0$ |
+| Positive Ricci | Weitzenböck floor $\lambda\geq2/R^2$ | Eigenvalue shift: $l(l+2)\neq(l+1)^2$ |
+| Consequence | Mass gap $4/R^2$ (McKay), $36/R^2$ Galois | Pochhammer tower at $s\neq0$ |
 | Result | Matter is realized | L-function zeros inaccessible |
 
 To remove the obstruction, set $\mathrm{Ric}=0$. The eigenvalues become perfect squares. The Pochhammer tower vanishes. The spectral zeta factors at all $s$. But the mass gap also vanishes. Flat space. No particles. Nothing to observe.
@@ -394,7 +394,7 @@ The spectral inaccessibility theorem is a negative result for the RH direction. 
 | $\varphi^{-4}$ Galois pair | $-2\sqrt{5}\cdot L(1,\chi_2)$, exact to 79 digits | Mass ratio between generations |
 | $h(E_8)=30$ | McKay multiplicity period | Mass hierarchy exponent ($\mathrm{dist}/30$) |
 | Three flat connections | Three isolated vacua, $H^1=0$ | Three particle generations |
-| Curvature shift $l(l+2)$ | Pochhammer obstruction, Lemma 1 | Weitzenböck mass gap floor |
+| Curvature shift $l(l+2)$ | Pochhammer obstruction, Lemma 1 | Mass-gap floor $2/R^2$; gap $4/R^2$ (McKay) |
 | 120/60 grid | Half-integer vs. integer char. domains | Fermionic vs. bosonic phase domain |
 | Eta sign crossover | McKay graph chirality | Light/heavy fermion sector boundary |
 | Vacuum sign inversion | Galois twist structure, § III.E | Mass shell assignment mechanism |

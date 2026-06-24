@@ -300,7 +300,7 @@ The mass spectrum assembles in three moves, each set by the same topology: the c
 
 ### [Confinement](../spectrum/files/yang-mills.md)
 
-Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps rising until the field snaps. On $S^3$ it is a story about curvature instead. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection: the twisted harmonic 1-forms vanish ($H^1 = 0$), so every mode is lifted off zero. The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $4/R_\Lambda^2$ at the trivial and standard vacua, with the Galois vacuum the one exception (below). The gap is geometric, set at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale: the mass gap is built into the shape of the space, not tuned into the dynamics.
+Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps rising until the field snaps. On $S^3$ it is a story about curvature instead. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection; the twisted harmonic 1-forms vanish ($H^1 = 0$), so every mode is lifted off zero. The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $4/R_\Lambda^2$ at the trivial and standard vacua, with the Galois vacuum the one exception (below). The gap is geometric, set at the cosmological scale $4/R_\Lambda^2$ rather than a GeV confinement scale: the mass gap is built into the shape of the space, not tuned into the dynamics.
 
 ### Three Generations
 
