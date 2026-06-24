@@ -227,19 +227,15 @@ For the connections $`\tau_{2j-1}`$, subtracting the distance-two sign character
 
 with the limiting values at $`\theta = 0, \pi`$. Evaluating it on the nine conjugacy classes of $`2I`$ and decomposing against the $`2I`$ character table (the nine classes have half-angles $`0, \pi/5, 2\pi/5, \pi/3, \pi/2, 2\pi/3, 3\pi/5, 4\pi/5, \pi`$, and the entries are the inner products of $`\chi_a`$ with the irreducible characters of $`2I`$ [Helle]) gives
 
-```math
-\begin{array}{c|c|c|c}
-a & \dim V_a & V_a\vert_{2I} & \text{McKay distance(s)} \\
-\hline
-0 & 1 & \mathbf{1} & 0 \\
-1 & 2 & Q & 1 \\
-2 & 3 & \mathrm{Sym}^2 Q & 2 \\
-3 & 4 & \mathbf{4} & 3 \\
-4 & 5 & \mathbf{5} & 4 \\
-5 & 6 & \mathbf{6} & 5 \\
-6 & 7 & \mathbf{4}^\prime \oplus \mathrm{Sym}^2 Q^\prime & 6, 6
-\end{array}
-```
+| $`a`$ | $`\dim V_a`$ | $`V_a\vert_{2I}`$ | McKay distance(s) |
+|:---:|:---:|:---:|:---:|
+| 0 | 1 | $`\mathbf{1}`$ | 0 |
+| 1 | 2 | $`Q`$ | 1 |
+| 2 | 3 | $`\mathrm{Sym}^2 Q`$ | 2 |
+| 3 | 4 | $`\mathbf{4}`$ | 3 |
+| 4 | 5 | $`\mathbf{5}`$ | 4 |
+| 5 | 6 | $`\mathbf{6}`$ | 5 |
+| 6 | 7 | $`\mathbf{4}^\prime \oplus \mathrm{Sym}^2 Q^\prime`$ | 6, 6 |
 
 where $`\mathbf{4}^\prime`$ denotes the second $`4`$-dimensional irreducible. Thus $`\mathrm{Sym}^2 Q`$ first occurs at level two, and $`\mathrm{Sym}^2 Q^\prime`$, the Galois conjugate of $`\mathrm{Sym}^2 Q`$, is absent from $`V_a\vert_{2I}`$ for $`a < 6`$ and first occurs in $`V_6\vert_{2I}`$.
 
