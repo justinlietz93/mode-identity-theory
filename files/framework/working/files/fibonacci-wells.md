@@ -4,7 +4,7 @@
 
 # Fibonacci Wells: Forcing Worksheet
 
-*Working note. Tracks the well-placement problem: where it stands, what has been ruled out, and the one residual that remains. Workbench voice (status tags, raw numbers); the [framework page](../../README.md) carries the settled version in prose.*
+*Working note. Tracks the well-placement problem: where it stands, what has been ruled out, and the one residual that remains. Workbench voice (status tags, raw numbers). This note currently leads the public [framework page](../../README.md), whose Fibonacci-wells section still runs the earlier Hurwitz/noise-floor framing; the public sync is deferred until the functional below is settled.*
 
 **Current status: STRUCTURALLY REDUCED, not DERIVED.** The old claim, "φ worst-approximability gives Fibonacci numerators on the fixed 120-grid," has been abandoned. The problem has been reduced to a sharper residual:
 
@@ -94,6 +94,8 @@ The candidate well set is therefore `{13, 21, 34, 55}`. More carefully:
 
 > The candidate well set is forced to `{13, 21, 34, 55}` once the sampling rule is taken to be the post-lcm continuation of the icosahedral Fibonacci recurrence below the antinode.
 
+The self-similarity runs one level deeper: the gaps between the wells are themselves consecutive Fibonacci, `21−13 = 8`, `34−21 = 13`, `55−34 = 21` (`F₆, F₇, F₈`). Both the positions and their spacings are Fibonacci, which is why no equal-gap (uniform) set can match them.
+
 The set follows from locked structure once the sampling rule is granted. The sampling rule itself remains the live target.
 
 ---
@@ -173,7 +175,7 @@ The same Lemma 8 that locates the well functional on the boundary also bears on 
 - Totatives of 30 = `{1,7,11,13,17,19,23,29}` = E₈ exponents (verified; also in repo [r-problem.md](r-problem.md)). `30 = 2·3·5 = h(E₈)`.
 - `C(k) = 2 sin²(πk/120)`: `0.012, 0.034, 0.086, 0.223` at `k = 3,5,8,13` (smooth, no floor jump).
 - Golden rotation step 74: `gcd = 2`, orbit = 60 even residues; misses `13/21/55`, hits `34` at step 41.
-- Generic functionals over 4-subsets of `{9..59}`: gap-variance favors equal spacing; inverse-distance favors `{9,25,43,59}`; log-energy favors `{9,23,45,59}`. The wells are never the minimizer. Generic spread is ruled out.
+- Generic functionals over 4-subsets of `{9..59}` (brute force, 249,900 subsets): gap-variance min at equal-gap sets (degenerate argmin `{9,10,11,12}`); inverse-distance min at `{9,25,43,59}`; log-chord energy min at `{9,24,44,59}`. The wells `{13,21,34,55}` rank `108358 / 14868 / 18151` of `249900` respectively, nowhere near any minimizer. Generic spread is ruled out.
 
 ---
 
