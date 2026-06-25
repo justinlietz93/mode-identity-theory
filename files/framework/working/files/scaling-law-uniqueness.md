@@ -4,7 +4,7 @@
 
 # The Scaling Law as Forced Measurement Postulate on S³/2I
 
-**Status:** ACTIVE. The form is largely closed in argument. The open mechanisms are the α_W twist operator and the self-adjoint extension selection. Well assignments remain the separate next layer.
+**Status:** ACTIVE. Two of the three structural pieces are forced: the phase operator by the anti-periodic BC, the integer-depth hierarchy by units. The factored form itself is open: it rests on the Schur/Lemma 8 separation, not on dimensional analysis (dimensionlessness does not separate the variables). The open mechanisms are the α_W twist operator and the self-adjoint extension selection. Well assignments remain the separate next layer.
 
 **Dependencies:** Sector A paper (first positive eigenvalue), Lemma 8 (Θ ⊥ spectral parameter), mass-spectrum paper (R determination), gauge-ladder note (coupling exponents).
 
@@ -24,18 +24,18 @@ If not, the scaling law is forced by the topology. Not derived from it in the us
 
 ## What This Session Closed
 
-The proof splits, and the form mostly closes. The factored structure, the phase operator, and the integer-depth hierarchy reduce to three transparent results. The heavy machinery once aimed at the hierarchy addresses a target that dimensional analysis already settles.
+The proof splits into three structural pieces. Two of them close: the phase operator and the integer-depth hierarchy reduce to transparent results (anti-periodic BC; dimensional analysis). The third, the factored form itself, does not follow from dimensionlessness and remains open on the Schur separation. The heavy machinery once aimed at the hierarchy addresses a target that dimensional analysis already settles.
 
 | Piece | Status | Mechanism |
 |---|---|---|
-| Factored form C(Θ) × g(Ω, n) | Argument identified, one link pending | Schur decoupling gives Θ ⊥ spectral parameter s (Lemma 8). The factorization needs Θ ⊥ (Ω, n). Connecting the spectral parameter to the depth index is the remaining step. |
+| Factored form C(Θ) × g(Ω, n) | OPEN | Dimensionlessness does not force a product: additive and mixed dimensionless forms (C + g, or C·g + h(Θ, Ω)) survive constraint 5. The only candidate route is Schur decoupling, Θ ⊥ spectral parameter s (Lemma 8), extended to Θ ⊥ (Ω, n). Connecting the spectral parameter to the depth index is unproven. |
 | Phase operator C(Θ) = 2sin²(πΘ) | DERIVED | The anti-periodic mode intensity at any Θ. One operator across sectors: cosmology samples a single well, the mass sector samples Kostant exponent sets. |
 | Integer-depth hierarchy (√Ω)^(−n) | DERIVED (units) | Dimensional analysis. n is the length-dimension of the observable, R/ℓ_P is the only scale ratio, √Ω = R/ℓ_P. Form and base both follow from dimensions. |
 | Coupling exponents (1/60, 1/120) | ESTABLISHED | The grid ladder selection rule sets the grid per coupling, and the exponent is 1/\|grid\|. α_EM closed via convergent paths and Lemma 8; α_s established. Units stay silent here, since the couplings are dimensionless, so the ladder rule supplies the exponent that dimensions cannot. |
 | α_W twist, cos(π/10) | MOTIVATED | The one injected multiplicative factor. Dodecahedron angular defect π/5, halved by the ℤ₂ holonomy to π/10. The operator-level mechanism from holonomy to projection is the open link. |
 | Self-adjoint extension | OPEN | Friedrichs keeps the zero mode as the m_h = 0 background. The selection rule is pending, via the smoothed-cone limit in the companion eigenvalue paper. |
 
-The form is forced in the first three rows. The coupling exponents follow from the ladder rule, with units staying silent because the couplings carry no dimension. The two genuinely open mechanisms are the α_W twist and the extension selection. The "61 orders from topology" reads honestly as R/ℓ_P ≈ 10⁶¹ given a calibrated R. The powers of ten are units. The physics is the dimensionless coefficient C(Θ).
+The form is forced in two rows, the phase operator and the integer-depth hierarchy. The factored form is not forced by dimensionlessness; it stands or falls with the Schur separation, which is open. The coupling exponents follow from the ladder rule, with units staying silent because the couplings carry no dimension. The genuinely open items are the factorization (Schur), the α_W twist, and the extension selection. The "61 orders from topology" reads honestly as R/ℓ_P ≈ 10⁶¹ given a calibrated R. The powers of ten are units. The physics is the dimensionless coefficient C(Θ).
 
 ---
 
@@ -53,6 +53,8 @@ Gleason (1957) proved that on a Hilbert space of dimension ≥ 3, the only proba
 
 The MIT analog: show that C(Θ) × (√Ω)⁻ⁿ is the unique sampling rule compatible with the bounded, closed topology of S¹ = ∂M ↪ S³, ∂S³ = ∅.
 
+The precedent is exact for one piece only. C(Θ) is a normalized mode intensity (∫₀¹ C dΘ = 1), so a Gleason-type measure-uniqueness statement is the right tool there. The hierarchy (√Ω)⁻ⁿ is dimensional analysis (Buckingham π), not a measure; the factored form is a separation-of-variables question. The three rows are three different rigidity claims, and only the phase operator is Gleason-shaped. Bundling them under one banner lends the open factorization the standing of the proven intensity result; this note keeps them separate.
+
 ---
 
 ## The Constraints and What They Eliminate
@@ -63,8 +65,8 @@ The MIT analog: show that C(Θ) × (√Ω)⁻ⁿ is the unique sampling rule com
 | 2 | Bounded domain: ∂S³ = ∅ | Poincaré (THEOREM) | Any hierarchy that fails to terminate. Ω is finite. The dilution is a function of a finite ratio, not an asymptotic series. |
 | 3 | Discrete 120-domain: \|2I\| = 120 | Largest exceptional discrete subgroup of SU(2) (THEOREM) | Continuous sampling rules. Phase positions are quantized to multiples of 1/120. |
 | 4 | Observer at √Ω | IR↔UV fixed point on bounded domain (DERIVED) | Any other normalization point. The geometric midpoint is unique: x = Ω/x has one positive solution. |
-| 5 | Dimensionless output | A/Aₚ is a ratio | Additive forms like C + Ω⁻ⁿ. A dimensionless ratio requires a multiplicative decomposition of dimensionless factors. |
-| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) is the pending step | Mixed forms like C(Θ, Ω). Phase and spectral data occupy different blocks of the decomposition. Once the depth index is shown to ride the spectral block, the rule separates. |
+| 5 | Dimensionless output | A/Aₚ is a ratio | Leftover units only. A dimensionless output removes dimensionful candidates; it does NOT force a multiplicative split. Additive and mixed dimensionless forms (C + Ω⁻ⁿ, or C·Ω⁻ⁿ + h(Θ, Ω)) all survive this constraint. The factorization is not delivered here; it comes, if at all, from constraint 6. |
+| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) is OPEN | This is the *only* source of the factored form (constraint 5 does not supply it). Phase and spectral data occupy different blocks of the decomposition; once the depth index is shown to ride the spectral block, the rule separates. Until then the factorization is assumed, not forced. |
 
 ---
 
@@ -74,19 +76,39 @@ The MIT analog: show that C(Θ) × (√Ω)⁻ⁿ is the unique sampling rule com
 
 Any rule maps (phase position Θ, manifold depth n, hierarchy Ω) to a dimensionless observable ratio. The output space is ℝ⁺. The input space is {Θ ∈ k/120} × {n ∈ ℤ or ℤ/2} × {Ω ∈ ℝ⁺, finite}.
 
-**Step 2:** Apply constraint 5. A dimensionless output from dimensionless inputs requires a product of dimensionless functions:
+**Step 2:** Constraint 5 narrows the output but does not factor it. A dimensionless output from dimensionless inputs need not be a product: $f(\Theta) + g(\Omega, n)$ and $f(\Theta)g(\Omega, n) + h(\Theta, \Omega)$ are equally dimensionless. The factored form
 
 $$\frac{A}{A_P} = f(\Theta) \cdot g(\Omega, n)$$
 
-Constraint 6 (Schur decoupling) supplies the factored form, pending the link from the spectral parameter to the depth index.
+is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). That extension is unproven, so the factorization is an assumption at this step, not a result.
 
-**Step 3:** Apply constraint 1. f(Θ) satisfies the anti-periodic BC. The anti-periodic mode intensity on the Möbius strip is 2sin²(πΘ) at any Θ. This is one operator read at different positions: cosmology samples a single well, the mass sector samples Kostant exponent sets. The sinusoidal form is the only L² intensity the BC admits, so f(Θ) = C(Θ) = 2sin²(πΘ) across all sectors.
+**Step 3:** Apply constraint 1. f(Θ) satisfies the anti-periodic BC, whose eigenfunctions are trigonometric: the BC kills every polynomial, exponential, or rational candidate and admits the tower 2sin²((2m+1)πΘ). The constant zero mode is the Friedrichs background (the m_h = 0 vacuum, carrying no phase structure); a minimality selection picks the lowest nonconstant mode, the first-positive eigenmode at 2/R², whose intensity is 2sin²(πΘ). So f(Θ) = C(Θ) = 2sin²(πΘ) is the first-positive mode intensity, not the ground. This is one operator read at different positions: cosmology samples a single well, the mass sector samples Kostant exponent sets. Two inputs enter here that the BC alone does not give: the minimality selection (lowest nonconstant mode) and the normalization (∫₀¹ C dΘ = 1 fixes the leading 2). Both should be stated as selection principles, not absorbed into "the BC forces it."
 
 **Step 4:** Apply constraints 2 and 4. g(Ω, n) encodes dilution from Planck to observation on a bounded domain. Ω is the hierarchy ratio, finite by constraint 2; the observer sits at √Ω by constraint 4; n counts depth. Step 5 fixes the function.
 
-**Step 5, resolved for integer depth.** Read n as the length-dimension of the observable. Λ is 1/length² (n = 2), H₀ and a₀ are 1/length (n = 1). An observable normalized to its Planck value is the ratio of its natural scale R⁻ⁿ to its Planck scale ℓ_P⁻ⁿ, which is (ℓ_P/R)ⁿ = (R/ℓ_P)⁻ⁿ = (√Ω)⁻ⁿ. Form and base both follow from dimensions: dimensions multiply, so depth adds and the dilution is a power; R is the only scale, so the base is R/ℓ_P. Constraint 2 keeps Ω finite so the ratio is well-defined, and constraint 4 is the geometric reading of R/ℓ_P as the observer's scale, the same number the dimensions deliver. This closes the integer-depth case without the rigidity machinery below.
+**Step 5, resolved for integer depth.** Read n as the length-dimension of the observable. Λ is 1/length² (n = 2), H₀ and a₀ are 1/length (n = 1). An observable normalized to its Planck value is the ratio of its natural scale R⁻ⁿ to its Planck scale ℓ_P⁻ⁿ, which is (ℓ_P/R)ⁿ = (R/ℓ_P)⁻ⁿ = (√Ω)⁻ⁿ. Form and base both follow from dimensions: dimensions multiply, so depth adds and the dilution is a power; the geometric R is the scale, so the base is R/ℓ_P. Constraint 2 keeps Ω finite so the ratio is well-defined, and constraint 4 is the geometric reading of R/ℓ_P as the observer's scale, the same number the dimensions deliver. This closes the integer-depth case without the rigidity machinery below.
+
+**Scope: one scale or two.** The "R is the only scale" reading holds for surface and space modes, which dilute from the geometric curvature radius R via Ω_Λ = (R/ℓ_P)². Edge modes do not: they reference the kinematic horizon, Ω_H = (c/Hℓ_P)², so their base is c/H, not the geometric R. The two coincide only through Ω_H ≈ Ω_Λ at the present epoch, which the framework records as an observed coincidence, not a derived identity (see [calibration-structure.md](calibration-structure.md)). So units force the *form* (√Ω)⁻ⁿ in every sector, but the *identification* √Ω = R/ℓ_P is a surface/space statement; for edge modes √Ω = c/(Hℓ_P) is a separate anchor. Deriving Ω_H = Ω_Λ would collapse the two and turn Λ (n = 2) and H₀ (n = 1) into a second route to R, alongside the mass sector.
 
 **Step 5, the coupling exponents.** A dimensionless coupling has length-dimension 0, so dimensions fix no Ω dependence. The exponent the couplings do carry, 1/60 for EM and 1/120 for the strong and weak forces, comes from the grid ladder selection rule: the carrier character sets the phase grid, the confinement target sets the exponent grid, and the exponent is one cell of that grid, 1/\|grid\|. The ladder rule is ESTABLISHED, α_EM closed through two convergent paths and Lemma 8, α_s established. So the exponents are supplied, not open. What this paper's standard adds is lifting the ladder rule from established to forced, which is the live target for the representation-theoretic route below.
+
+---
+
+## Audit: n as length-dimension vs manifold index
+
+Step 5 reads n as the observable's length-dimension; the engine's selection rule (framework/README.md, "Manifold Index") reads n as the manifold the mode lives on (edge / surface / space). These are two different rules. They agree exactly on the dimensionful dilution sector and diverge everywhere else, so the manifold rule is not redundant with dimensional analysis: it is needed for the rows units cannot reach.
+
+| Observable | length-dimension | manifold index n | agree? | governing rule |
+|---|---|---|---|---|
+| H₀ | −1 (rate, via c) | 1 (edge) | yes | units = manifold |
+| a₀ | −1 (acceleration, via c) | 1 (edge) | yes | units = manifold |
+| Λ | −2 | 2 (surface) | yes | units = manifold |
+| null dark-matter detection | −3 (number density) | 3 (space) | yes, if the observable is a 1/length³ density | units = manifold; observable to be pinned |
+| G | nonzero (defines ℓ_P) | 0 (Planck floor) | NO | Planck anchor: A/A_P = 1 by construction, not by length-dimension |
+| Λ_obs/Λ_top = 3/2 | 0 (ratio) | 3/2 (Gauss) | NO | Gauss-Codazzi conversion, not a dilution exponent |
+| α, α_s, α_W | 0 | fractional (1/60, 1/120) | NO | grid ladder, not units |
+
+**Verdict.** n_(length-dim) = n_(manifold) on the dimensionful dilution observables (edge + surface + space), and only there. Three rows sit outside the identity: G is the Planck-defining anchor (ratio 1, n = 0 by construction, not because its length-dimension is 0); the 3/2 row is a Gauss-Codazzi conversion factor, not a dilution; the couplings carry length-dimension 0 yet pick up fractional exponents from the ladder. The units argument of Step 5 therefore legitimately closes the dilution sector and only the dilution sector; the manifold and ladder rules carry the rest. This is consistent with the note's own split between Step 5 (integer depth) and the coupling exponents; the table adds G and the 3/2 conversion as the two further exceptions.
 
 ---
 
@@ -108,9 +130,9 @@ The two open mechanisms sit outside this table. The α_W twist needs an operator
 
 ## What This Paper Would Establish
 
-The form is the unique measurement postulate compatible with S¹ = ∂M ↪ S³, ∂S³ = ∅, with anti-periodic BC and the 120-domain: the factored structure (Schur), the phase operator (anti-periodic intensity), and the integer-depth hierarchy (units). For these, the audit verdict moves from DECLARED to AXIOM (forced). Everything downstream that rides the integer hierarchy inherits that upgrade.
+The form is the unique measurement postulate compatible with S¹ = ∂M ↪ S³, ∂S³ = ∅, with anti-periodic BC and the 120-domain. Two pieces reach that bar now: the phase operator (anti-periodic intensity, with minimality and normalization named) and the integer-depth hierarchy (units, on the dilution sector). For these, the audit verdict moves from DECLARED to AXIOM (forced), and everything downstream that rides the integer hierarchy inherits that upgrade. The factored structure does not reach the bar yet: it requires the Schur separation (constraint 6), and dimensionlessness alone does not supply it.
 
-What stays as work: the α_W twist mechanism and the extension selection, both stated precisely enough to attack directly. The well assignments, manifold indices, and grid types remain the next layer, the traffic rules on the bridge, with "why 13 is the exponent floor" the load-bearing item there. Lifting the ladder rule from established to forced belongs to that layer too.
+What stays as work: the factored form (the Schur separation Θ ⊥ (Ω, n)), the α_W twist mechanism, and the extension selection, all stated precisely enough to attack directly. The well assignments, manifold indices, and grid types remain the next layer, the traffic rules on the bridge, with "why 13 is the exponent floor" the load-bearing item there. Lifting the ladder rule from established to forced belongs to that layer too.
 
 ---
 
@@ -144,13 +166,13 @@ The composition reading of depth (dilution multiplies across layers, so the dept
 
 ## Notes
 
-The strongest version of this result shows the scaling law is the ONLY measurement rule, not merely the simplest. The form reaches that bar: the factored structure, the phase operator, and the integer hierarchy are forced, by Schur, by the anti-periodic BC, and by units. Simplicity never entered.
+The strongest version of this result would show the scaling law is the ONLY measurement rule, not merely the simplest. Two of its three pieces reach that bar: the phase operator and the integer hierarchy are forced, by the anti-periodic BC and by units. The factored structure does not: it awaits the Schur separation, and dimensionlessness does not stand in for it. Simplicity never entered.
 
 The honest deflation that came with closing the integer hierarchy: the apparent miracle of "many orders of magnitude from topology" is units. R/ℓ_P is a calibrated ratio, and raising it to the observable's dimension is dimensional analysis. The genuine content sits in C(Θ), and the coupling exponents sit in the ladder rule that units do not reach. Naming this plainly is what lets the open mechanisms stand out as the real work.
 
 ---
 
-*"The topology leaves no room for anything else" is now true for the form, established for the coupling exponents, and a precise open question for the two mechanisms.*
+*"The topology leaves no room for anything else" is now true for the phase operator and the integer-depth hierarchy, open for the factorization (the Schur separation), established for the coupling exponents, and a precise open question for the α_W twist and the extension selection.*
 
 ---
 

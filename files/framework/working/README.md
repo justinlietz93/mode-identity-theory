@@ -38,7 +38,7 @@ Closing any one of these upgrades everything downstream.
 
 ### [Scaling Law Uniqueness](./files/scaling-law-uniqueness.md)
 
-**Problem:** $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ is currently a declared measurement postulate; every downstream result inherits that status. Anti-periodic BC forces $C(\Theta)$, dimensionless output forces factorization (steps 1-4 walked). The open link is step 5: proving $(\sqrt{\Omega})^{-n}$ is the only hierarchy function on a bounded domain with observer at $\sqrt{\Omega}$. A Gleason-type result would promote the scaling law from declared to forced.
+**Problem:** $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ is currently a declared measurement postulate; every downstream result inherits that status. Two pieces are now forced: the anti-periodic BC forces $C(\Theta)$ (the first-positive mode intensity, under a named minimality selection), and units force the integer-depth hierarchy $(\sqrt{\Omega})^{-n}$ on the dilution sector. Two remain open: the factored form (dimensionlessness does *not* supply it; it needs the Schur separation $\Theta \perp (\Omega, n)$), and the edge/surface scale identification $\Omega_H = \Omega_\Lambda$ (currently an observed coincidence). A Gleason-type result would close the factorization and promote the law from declared to forced.
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, Lemma 8 (spectral inaccessibility), Möbius topology axioms.
 
