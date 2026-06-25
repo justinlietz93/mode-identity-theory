@@ -302,6 +302,8 @@ Gravity couples to stress-energy on either layer, so it is the one interaction t
 
 On the grid seam it pays nothing special, only the ordinary stress-energy coupling at $8\pi G$. Einstein's field equations are unchanged. What the framework adds is why gravity sits outside the gauge ladder, and why its signature is a geometric conversion rather than a coupling on the grid.
 
+It also reframes why gravity resists quantization. In this reading, gravity is not one more object inside a single sector; it is the interface between two different kinds of structure, continuous geometry and discrete sampling. Quantizing it in the usual way would mean pushing one side into the form of the other: discretizing $S^3$, which removes the smooth source of $\Lambda$, or continualizing the 120-domain, which dissolves the spectrum, the mass gap, and the three generations. The resistance is therefore not just a missing technique; it is the signature of an interface no single-sector quantization can cross.
+
 ## :atom_symbol: [One Formula](../spectrum/files/mass-spectrum.md)
 
 The mass spectrum assembles in three moves, each set by the same topology: the curvature gap that confines, the three flat vacua that become the generations, and the four-factor formula that ranks the fermion masses.
