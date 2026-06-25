@@ -194,7 +194,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 |---|---|---|---|---|
 | 0 | Planck floor | 1 | 1 | $G$ |
 | 1 | Temporal edge $S^1$ | $\Omega_H$ | $10^{-61}$ | $H_0$, $a_0$ |
-| 3/2 | Gauss equation | — | — | $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ (geometric conversion; the vacuum seam, see below) |
+| 3/2 | Gauss equation | — | — | $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ (geometric conversion; the vacuum seam, see One Interface) |
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
@@ -331,7 +331,7 @@ The binary icosahedral group is the largest exceptional discrete subgroup of SU(
 
 **Vertices set the electroweak address.** The five-fold vertex stabilizer $Z_5$ is the only stabilizer that tells the Galois-conjugate pair $R_1$, $R_2$ apart, so it is what carries weak isospin across the electroweak interface.
 
-Two further entries are not primes but corrections derived from the same stabilizers, each tying back to an earlier section:
+Two further entries are not primes but corrections derived from the same stabilizers, each tying back to a section of its own:
 
 | Combination | Value | Role | Mechanism |
 |---|---|---|---|
