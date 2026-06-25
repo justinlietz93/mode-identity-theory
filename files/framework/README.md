@@ -24,8 +24,6 @@ $$
 
 where $2I$ is the binary icosahedral group of order 120. From that shape the topology fixes the mode domain, boundary condition, stabilizers, and McKay graph, and the relations that follow: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Measured anchors set only the absolute scales.
 
-[![The Perfect Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
-
 ## The Firing Order
 
 Each layer follows from the one before.
@@ -36,6 +34,8 @@ Each layer follows from the one before.
 4. Time is phase of the wave.
 5. Sampling resolves position in the domain.
 6. Meaning arises only after realization.
+
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/Möbius_Manifold_Topological_Universe_Blueprint.png" width="100%" alt="Mode Identity">
 
 ---
 
