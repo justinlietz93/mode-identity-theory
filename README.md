@@ -88,11 +88,11 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 $$\Large \boxed{\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}}$$
 
-Everything so far, the wells, the masses, the charges, is structure stamped onto a smooth space that knows none of it. Two seams pin it there: the Möbius surface embeds to set the vacuum $\Lambda$, and the quotient stamps the 120-grid to set matter.
+The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum $\Lambda$, and the quotient stamps the 120-grid to set matter.
 
-Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is that 3/2; everywhere else it stays Einstein's, untouched.
+Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is the factor $3/2$; everywhere else, Einstein's field equations stay unchanged.
 
-The two sides are different in kind, one smooth, one discrete, so gravity will not quantize like the rest. That was never the missing piece. It is the seam doing its job.
+The two sides differ in kind: one smooth, one discrete. So gravity should not be expected to quantize as another force inside the grid. That is not the missing piece. It is the seam doing its job.
 
 ---
 
