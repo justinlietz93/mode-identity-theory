@@ -83,18 +83,18 @@ The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral gr
 
 Open families require external choice of $n$ and are excluded by the framework's input-minimization. Among the closed exceptional cases, $2I$ is terminal: largest in order and maximal under the McKay correspondence ($2I \leftrightarrow E_8$, the largest exceptional Lie algebra). And it is the unique *perfect* subgroup, the only one carrying the 9× Galois gap the three generations require (below). So the selection rests on a framework requirement and a uniqueness theorem, not on minimization alone.
 
-Four auxiliary paths converge on this number (three independent):
-1. Group theory of $S^3$ gives $\lvert 2I\rvert = 120$ directly
-2. The least common multiple of the first five Fibonacci numbers: $\text{lcm}(1,2,3,5,8) = 120$
-3. The consonance ratios of musical harmony independently yield $\text{lcm} = 120$
-4. The $(2,3,5)$ branch orders of the icosahedron are consecutive Fibonacci numbers satisfying $2+3=5$: the unique Platonic solid whose symmetry orders obey the Fibonacci recurrence
-
 **The 120 domain** is the mode spectrum's resolution. Fermions see all 120 positions but observation squares the wavefunction: $\lvert\psi(\Theta+1)\rvert^2 = \lvert\psi(\Theta)\rvert^2$ erases the anti-periodic sign. The squaring projects $2I \to I$ ($\lvert I\rvert = 60$), halving the resolution.
 
 | Grid | Positions | Minimum step | Observables |
 |---|---|---|---|
 | Full domain | 120 | 1/120 | $a_0$ (dynamical) |
 | Bosonic projection | 60 | 2/120 | $H_0$, $\Lambda$, $\alpha$ (photon-mediated) |
+
+Four auxiliary paths converge on this number (three independent):
+1. Group theory of $S^3$ gives $\lvert 2I\rvert = 120$ directly
+2. The least common multiple of the first five Fibonacci numbers: $\text{lcm}(1,2,3,5,8) = 120$
+3. The consonance ratios of musical harmony independently yield $\text{lcm} = 120$
+4. The $(2,3,5)$ branch orders of the icosahedron are consecutive Fibonacci numbers satisfying $2+3=5$: the unique Platonic solid whose symmetry orders obey the Fibonacci recurrence
 
 **The chronon** is the smallest phase advance the domain can register:
 
