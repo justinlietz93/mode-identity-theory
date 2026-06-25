@@ -2,9 +2,9 @@
 
 ---
 
-# The Scaling Law as Forced Measurement Postulate on S³/2I
+# The Scaling Law as a Separated Measurement Form on S³/2I
 
-**Status:** ACTIVE. All three structural pieces of the form are forced: the phase operator by the anti-periodic BC, the integer-depth hierarchy by units, and the factored form by the Schur separation (Lemma 8 + homothety reduction + sector independence; [Proof](#proof-the-schur-separation)). The factored form carries two named, scale-invariant conditions, both met by the Friedrichs default: a parity-preserving cone condition and δ₀/R > 2/e. The remaining open mechanisms, the α_W twist operator and the self-adjoint extension selection, are off the form: neither alters C(Θ) or reintroduces a cross-term. Well assignments remain the separate next layer.
+**Status:** ACTIVE. Scoped to the spectral-boundary observable class native to the topology: observables that are SU(2)-equivariant functionals of the first-positive boundary mode and the Hodge-Laplace spectrum. That class is a premise, not shown to exhaust the physical observables. Within it: the phase operator's sinusoidal family is forced by the anti-periodic BC and its first-positive member selected by background symmetry; the integer-depth hierarchy is forced by units; and the factored form *separates* on a Schur + homothety + Lemma 8 argument. The separation is argued, not closed: independent coordinates do not by themselves forbid a cross-term, so the no-cross-term step needs the commutant theorem A_obs = A_Θ ⊗ A_spec (the precise open target). Eigenvalue-side conditions, both met by the Friedrichs default: a parity-preserving cone condition and δ₀/R > 2/e. Off the form: the α_W twist and the extension selection. Well assignments remain the separate next layer.
 
 **Dependencies:** Sector A paper (first positive eigenvalue), Lemma 8 (Θ ⊥ spectral parameter), mass-spectrum paper (R determination), gauge-ladder note (coupling exponents).
 
@@ -12,30 +12,30 @@
 
 ## The Question
 
-Given S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅, with anti-periodic boundary conditions and the 120-domain native to S³, is there any measurement rule other than
+Given S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅, with anti-periodic boundary conditions and the 120-domain native to S³, and given the observable class native to that topology (SU(2)-equivariant functionals of the first-positive boundary mode and the Hodge-Laplace spectrum), is there any measurement rule within that class other than
 
 $$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
 that produces finite, well-defined observables?
 
-If not, the scaling law is forced by the topology. Not derived from it in the usual sense. Forced by it, the way Born's rule is forced by Hilbert space structure (Gleason's theorem).
+If not, the separated form is forced within that class. Whether the class exhausts the physical observables is a further premise, not part of the question. The aim is a Gleason-style rigidity (Born is the unique measure on the projection lattice); here it is reached for two of the three factors and argued, not yet closed, for the third.
 
 ---
 
 ## What's Closed
 
-The proof splits into three structural pieces, and all three close. The phase operator and the integer-depth hierarchy reduce to transparent results (anti-periodic BC; dimensional analysis). The third, the factored form, follows from the Schur separation (Lemma 8 + homothety reduction; dimensionlessness does not supply it), proved below. The heavy machinery once aimed at the hierarchy addresses a target that dimensional analysis already settles.
+The proof splits into three structural pieces. Two close cleanly: the phase operator (anti-periodic BC for the family, background symmetry for the member) and the integer-depth hierarchy (dimensional analysis). The third, the factored form, *separates* on a Schur + homothety argument (dimensionlessness does not supply it), but is not yet closed: the no-cross-term step needs the commutant theorem (below). The heavy machinery once aimed at the hierarchy addresses a target that dimensional analysis already settles.
 
 | Piece | Status | Mechanism |
 |---|---|---|
-| Factored form C(Θ) × g(Ω, n) | FORCED (Schur + homothety + sector independence) | Dimensionlessness does not force a product (additive/mixed forms survive constraint 5); Lemma 8 supplies the separation once the homothety reduction makes (Ω, n) spectral-block data, and C(Θ) is the extension-independent symmetric mode, so δ₀ never reaches it. Conditions: parity-preserving cone, δ₀/R > 2/e (Friedrichs). See [Proof](#proof-the-schur-separation). |
-| Phase operator C(Θ) = 2sin²(πΘ) | DERIVED | The anti-periodic mode intensity at any Θ. One operator across sectors: cosmology samples a single well, the mass sector samples Kostant exponent sets. |
+| Factored form C(Θ) × g(Ω, n) | SEPARATES within the class; commutant theorem pending | Dimensionlessness does not force a product (additive/mixed forms survive constraint 5). Schur + homothety + Lemma 8 make Θ and the spectral data independent coordinates, and C(Θ) is the extension-independent symmetric mode, so δ₀ never reaches it. But independent coordinates do not by themselves forbid a joint cross-term h(Θ, n); that needs the commutant theorem A_obs = A_Θ ⊗ A_spec, the open target. Eigenvalue-side conditions: parity-preserving cone, δ₀/R > 2/e (Friedrichs). See [Proof](#proof-the-schur-separation). |
+| Phase operator C(Θ) = 2sin²(πΘ) | DERIVED (family) + SELECTED (member) | The anti-periodic BC forces the sinusoidal family 2sin²((2m+1)πΘ); background symmetry (isotropy + orthogonality) selects the first-positive member m = 0. One operator across sectors: cosmology samples a single well, the mass sector samples Kostant exponent sets. |
 | Integer-depth hierarchy (√Ω)^(−n) | DERIVED (units) | Dimensional analysis. n is the length-dimension of the observable, R/ℓ_P is the only scale ratio, √Ω = R/ℓ_P. Form and base both follow from dimensions. |
 | Coupling exponents (1/60, 1/120) | ESTABLISHED | The grid ladder selection rule sets the grid per coupling, and the exponent is 1/\|grid\|. α_EM closed via convergent paths and Lemma 8; α_s established. Units stay silent here, since the couplings are dimensionless, so the ladder rule supplies the exponent that dimensions cannot. |
 | α_W twist, cos(π/10) | MOTIVATED | The one injected multiplicative factor. Dodecahedron angular defect π/5, halved by the ℤ₂ holonomy to π/10. The operator-level mechanism from holonomy to projection is the open link. |
 | Self-adjoint extension | OPEN | Friedrichs keeps the zero mode as the m_h = 0 background. The selection rule is pending, via the smoothed-cone limit in the companion eigenvalue paper. |
 
-The two genuinely open mechanisms, the α_W twist and the extension selection, are off the form: neither can alter C(Θ) or reintroduce a cross-term. (The deflation that came with the integer row, "61 orders from topology" is units, is in the closing Notes.)
+The two genuinely open mechanisms, the α_W twist and the extension selection, are off the form: neither touches C(Θ) nor the separation question (which is the commutant theorem, below). (The deflation that came with the integer row, "61 orders from topology" is units, is in the closing Notes.)
 
 ---
 
@@ -53,7 +53,7 @@ Gleason (1957) proved that on a Hilbert space of dimension ≥ 3, the only proba
 
 The MIT analog: show that C(Θ) × (√Ω)⁻ⁿ is the unique sampling rule compatible with the bounded, closed topology of S¹ = ∂M ↪ S³, ∂S³ = ∅.
 
-The precedent is exact for one piece only. C(Θ) is a normalized mode intensity (∫₀¹ C dΘ = 1), so a Gleason-type measure-uniqueness statement is the right tool there. The hierarchy (√Ω)⁻ⁿ is dimensional analysis (Buckingham π), not a measure; the factored form is a separation-of-variables result (the Schur separation, proved below). The three rows are three different rigidity claims of three different types, and only the phase operator is Gleason-shaped; this note keeps them separate rather than letting one banner blur the kinds of argument. All three are now forced, each by its own mechanism.
+The precedent is exact for one piece only. C(Θ) is a normalized mode intensity (∫₀¹ C dΘ = 1), so a Gleason-type measure-uniqueness statement is the right tool there. The hierarchy (√Ω)⁻ⁿ is dimensional analysis (Buckingham π), not a measure; the factored form is a separation-of-variables result (the Schur separation, proved below). The three rows are three different rigidity claims of three different types, and only the phase operator is Gleason-shaped; the analogy is motivation for that one piece, not scaffolding for the whole. This note keeps them separate rather than letting one banner blur the kinds of argument or lend the open separation the standing of a measure theorem.
 
 ---
 
@@ -66,7 +66,7 @@ The precedent is exact for one piece only. C(Θ) is a normalized mode intensity 
 | 3 | Discrete 120-domain: \|2I\| = 120 | Largest exceptional discrete subgroup of SU(2) (THEOREM) | Continuous sampling rules. Phase positions are quantized to multiples of 1/120. |
 | 4 | Observer at √Ω | IR↔UV fixed point on bounded domain (DERIVED) | Any other normalization point. The geometric midpoint is unique: x = Ω/x has one positive solution. |
 | 5 | Dimensionless output | A/Aₚ is a ratio | Leftover units only. A dimensionless output removes dimensionful candidates; it does NOT force a multiplicative split. Additive and mixed dimensionless forms (C + Ω⁻ⁿ, or C·Ω⁻ⁿ + h(Θ, Ω)) all survive this constraint. The factorization is not delivered here; it comes, if at all, from constraint 6. |
-| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) is proved | This is the *only* source of the factored form (constraint 5 does not supply it). Phase and spectral data occupy different blocks of the decomposition; the depth index rides the spectral block via the homothety reduction ([Proof](#proof-the-schur-separation)), so the rule separates. |
+| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) is argued, commutant theorem pending | This is the *only* source of the factored form (constraint 5 does not supply it). The homothety reduction makes (Ω, n) spectral-block data and Θ the lone positional coordinate ([Proof](#proof-the-schur-separation)); separability then needs the observable algebra to factor (the commutant theorem), which Schur and Lemma 8 motivate but do not yet prove. |
 
 ---
 
@@ -80,7 +80,7 @@ Any rule maps (phase position Θ, manifold depth n, hierarchy Ω) to a dimension
 
 $$\frac{A}{A_P} = f(\Theta) \cdot g(\Omega, n)$$
 
-is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). That extension is proved below ([Proof](#proof-the-schur-separation)) via the homothety reduction, so the factorization is a result, not an assumption.
+is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). The homothety reduction (below) delivers the independence of the coordinates, but independence is not separability: the no-cross-term step needs the commutant theorem, so at this step the factorization is a well-supported target, not a closed result.
 
 **Step 3:** Apply constraint 1. f(Θ) satisfies the anti-periodic BC, whose eigenfunctions are trigonometric: the BC kills every polynomial, exponential, or rational candidate and admits the tower 2sin²((2m+1)πΘ). The constant zero mode is the extension-dependent background (the spatial-eigenvalue ground, distinct from the temporal harmonic ground of the cosmic wave) and carries no phase structure. The BC fixes the family but not the member; the member is selected physically. For background observables, isotropy and orthogonality exclude the higher harmonics, the same conditions that fix the cosmic background wave, leaving the lowest nonconstant mode, the first-positive eigenmode at 2/R², whose intensity is 2sin²(πΘ). So f(Θ) = C(Θ) = 2sin²(πΘ) is the first-positive-mode intensity, not the constant zero mode. This is one operator read at different positions: cosmology samples a single well, the mass sector samples Kostant exponent sets on the same mode. Two inputs enter here that the BC alone does not give: the harmonic selection (isotropy + orthogonality, for background observables) and the normalization (∫₀¹ C dΘ = 1 fixes the leading 2). Both are selection principles and should be named, not absorbed into "the BC forces it."
 
@@ -114,33 +114,37 @@ Step 5 reads n as the observable's length-dimension; the engine's selection rule
 
 ## Proof: the Schur Separation
 
-*Supplies constraint 6 and promotes the factored form to forced. The hypotheses are stated in the Proposition; the load-bearing one is discharged at the end.*
+*Argues constraint 6: within the observable class, the form separates. Two gaps are kept explicit. The class is a premise, not shown to exhaust the physical observables. And the no-cross-term step needs the commutant theorem, stated at Step C as the open target; what is established below is the weaker statement that Θ and the spectral data are independent coordinates.*
 
 The factored form was the one structural row left open. Dimensionlessness does not separate Θ from (Ω, n), and Lemma 8 separates Θ only from the spectral parameter s. The gap is the step from Θ ⊥ s to Θ ⊥ (Ω, n). It closes once (Ω, n) is recognized as spectral-block data: the metric scale R entering the eigenvalues, nothing more.
 
-**Proposition.** Let A be an admissible observable: a quantity built SU(2)-equivariantly from the Hodge-Laplace spectral data of S³/2I and the first-positive anti-periodic mode on the Möbius boundary S¹, under a parity-preserving self-adjoint extension with δ₀/R > 2/e (the Friedrichs default included). Then A/A_P = C(Θ) · g(Ω, n) with no cross-term, where C(Θ) = 2sin²(πΘ) is the boundary-phase factor and g(Ω, n) the scale-and-depth factor.
+**Proposition (within the observable class; conditional on the commutant theorem).** Let A be an admissible observable: a quantity built SU(2)-equivariantly from the Hodge-Laplace spectral data of S³/2I and the first-positive anti-periodic mode on the Möbius boundary S¹, under a parity-preserving self-adjoint extension with δ₀/R > 2/e (the Friedrichs default included). Then, *provided the admissible observable algebra factors as A_obs = A_Θ ⊗ A_spec* (Step C, the open commutant theorem), A/A_P = C(Θ) · g(Ω, n) with no cross-term, where C(Θ) = 2sin²(πΘ) is the boundary-phase factor and g(Ω, n) the scale-and-depth factor.
 
 **Step A, positional reduction.** By Peter-Weyl, sections of a natural bundle split into SU(2)-isotypic blocks V_l; by Schur any admissible operator is scalar a(l) on each block (the spectral-zeta reduction, the-mirror Step 2). On the bulk S³/2I the right-SU(2) action is transitive, so no continuous bulk position survives (the S³/2I half of Lemma 8: the twisted heat kernel is constant on each fiber diagonal). The only continuous positional coordinate left in A is the Möbius boundary phase Θ.
 
 **Step B, scale reduction.** The round metric of radius R is R² times the unit metric, so the Hodge Laplacian scales as R⁻² and a_R(l) = â(l)/R², with the unit-radius eigenspaces and their internal bases R-independent. The whole (Ω, n) dependence is therefore carried by the scalar weights a_R(l): Ω = (R/ℓ_P)² is their common scale, and n is the homothety weight, the power of R the observable carries (its length-dimension). On the spectral zeta this reads as Z(s) ↦ λ²ˢ Z(s) under R ↦ λR: a pure s-power, staying inside the spectral block, never touching the eigenspace basis where Θ lives. This is the precise sense in which the depth index rides the spectral block.
 
-**Step C, separation.** Extract the homothety weight: A/A_P = (√Ω)⁻ⁿ · K, where K is the R-invariant coefficient. K depends on Θ (positional) and on R-invariant spectral data (eigenvalue ratios, multiplicities, the bundle label n). Lemma 8 proves Θ ⊥ s for the zeta *parameter*; the upgrade to Θ ⊥ (all spectral-block data) is a zeta-completeness step. The spectral zeta Z(s) = Σ_l m(σ, l)(2l+1) a(l)⁻ˢ is a complete invariant of the eigenvalue-multiplicity data, so its proven Θ-independence is the Θ-independence of every a(l) and m(σ, l), hence of all eigenvalue ratios and multiplicities; the bundle label n is discrete (it names which spectral problem, not where within it), so it too is Θ-blind. There is therefore no natural map between Θ and any spectral-block datum, K carries no Θ-spectral cross-term, and it splits as C(Θ) · F(n). Hence
+**Step C, separation (the open step).** Extract the homothety weight: A/A_P = (√Ω)⁻ⁿ · K, where K depends on Θ (positional) and on R-invariant spectral data (eigenvalue ratios, multiplicities, the bundle label n). Lemma 8 gives Θ ⊥ s for the zeta parameter, and for this equivariant family the eigenvalue-multiplicity data are fixed by the 2I character table and the Peter-Weyl decomposition (no isospectral freedom is invoked, and no claim that the spectrum fixes the geometry), so they are Θ-blind. That makes Θ and the spectral data **independent coordinates**.
 
-$$\frac{A}{A_P} = C(\Theta) \cdot [F(n)(\sqrt{\Omega})^{-n}] = C(\Theta) \cdot g(\Omega, n).$$
+Independence is necessary but not sufficient. A joint function K = C(Θ)·F(n) + h(Θ, n) is consistent with independent coordinates: nothing so far excludes the cross-term h. Excluding it is an **algebra** statement, that the admissible observable algebra factors,
 
-A would-be cross-term h(Θ, Ω) is exactly a Θ-spectral coupling, which Lemma 8 forbids. ∎
+$$\mathcal{A}_\text{obs} = \mathcal{A}_\Theta \otimes \mathcal{A}_\text{spec}, \qquad \text{equivalently } \mathrm{Comm}_{SU(2)}(\mathcal{H}_\Theta \otimes \mathcal{H}_{2I}) = \mathcal{A}_\Theta \otimes \mathcal{A}_{2I},$$
 
-**What dimensionlessness could not do, Lemma 8 does.** Constraint 5 leaves h(Θ, Ω) alive because it is dimensionless; Lemma 8 kills it because it is a Θ-spectral map. The factorization rests on spectral inaccessibility, not on units, which is why the form is forced here and not at Step 2.
+with the commutant containing no operator of the form h(Θ, λ_l). Schur (scalar on each block) and Lemma 8 (no natural Θ-spectral map) motivate this factorization but do not prove it. **This commutant theorem is the open target.** Granted it, K splits as C(Θ)·F(n) and
+
+$$\frac{A}{A_P} = C(\Theta) \cdot [F(n)(\sqrt{\Omega})^{-n}] = C(\Theta) \cdot g(\Omega, n). \qquad \blacksquare \text{ (modulo the commutant theorem)}$$
+
+**What units cannot do, the algebra must.** Constraint 5 leaves h(Θ, Ω) alive because it is dimensionless; units and Lemma 8 deliver only the setup, that Θ and the spectral data are independent coordinates. Killing the cross-term is the algebra step (the commutant theorem), not a units step, which is why the separation cannot be settled at Step 2 and is not settled by independence alone.
 
 **Scope: dimensionful observables and couplings.** Steps B and C extract n as a length-dimension, the dimensionful case (H₀, a₀, Λ). Dimensionless couplings have n = 0, so the homothety weight is trivial and their Ω-dependence is not a length-dimension; it is the grid exponent 1/\|grid\| from the ladder rule. But that exponent is 2I representation data (the grid is the \|I\| = 60 or \|2I\| = 120 image), which is spectral-block data, and C(Θ) at the coupling wells is the same boundary phase operator. So the separation argument applies verbatim with the spectral block now supplying a fractional weight: K still splits as C(Θ) · F, with F carrying Ω^(−1/\|grid\|). The factored form holds in both sectors; only the source of the exponent differs (length-dimension for dimensionful observables, the grid for couplings), and both sources live in the spectral block, so both are Θ-blind by the same zeta-completeness step.
 
-**The load-bearing assumption, discharged by the eigenvalue paper.** Step B needs the boundary profile sin(πΘ) to be R-independent. [first-eigenvalue.md](../../bedrock/first-eigenvalue.md) supplies this directly, and answers the ε/R question two ways.
+**The covariance assumption, discharged by the eigenvalue paper.** (This is the *covariance* assumption, distinct from the commutant theorem of Step C, which stays open.) Step B needs the boundary profile sin(πΘ) to be R-independent. [first-eigenvalue.md](../../bedrock/first-eigenvalue.md) supplies this directly, and answers the ε/R question two ways.
 
 First, the renormalization length δ₀ (the ε of the smoothed cone) enters the spectrum only through the dimensionless ratio δ₀/R: the bridging secular condition is G(λ) = ln(δ₀/2R) with G a function of the dimensionless degree ν alone (§4.4), and the robustness threshold is δ₀ > 2R/e (Prop 4.4), both functions of δ₀/R. No absolute length enters the secular data. The one absolute-length object, the bound state λ_b ≈ −4e⁻²ᵞ/δ₀², is the antisymmetric ground state, which §7 names an extension artifact, not an intrinsic invariant.
 
 Second, and decisively, C(Θ) does not depend on δ₀ at all. It is built from the first-positive mode, which is the *symmetric* zonal mode sin(y/R) = sin(πΘ) at 2/R² (§4.2), and the symmetric tower is shared by the parity-preserving extensions (Friedrichs and the bridging family); δ₀ deforms only the *antisymmetric* sector (Prop 4.4, Thm 5.1). So for these extensions the covariance of the phase profile is a theorem, not an assumption: sin(πΘ) is the explicit Legendre mode, manifestly R-independent, with eigenvalue 2/R² scaling as 1/R². Two scale-invariant conditions bound the discharge, and both are named rather than assumed: (i) the cone condition is parity-preserving, since a parity-mixing (Robin-type) condition *can* deform the symmetric subsector (Thm 5.1 claims the symmetric tower's robustness only for Friedrichs and bridging, and its proof notes a general cone condition is not claimed robust); and (ii) δ₀/R > 2/e, below which the first-positive mode becomes the δ₀-dependent antisymmetric root and the profile would change. Friedrichs, the framework's default, is parity-preserving and sits at the δ₀ → ∞ end, so it satisfies both automatically.
 
-**This decouples the factorization from the extension selection.** The factorization does not wait on which extension is chosen: C(Θ) is the same symmetric mode across the whole admissible regime, and the extension question governs only the ground state, which the factorization never samples.
+**This decouples the factorization from the extension selection.** The factorization does not wait on which extension is chosen: C(Θ) is the same symmetric mode across the whole admissible regime, and the extension question governs only the ground state, which the factorization never samples. The separation's one open step is the commutant theorem (Step C), not the extension.
 
 ---
 
@@ -162,9 +166,9 @@ The two open mechanisms sit outside this table. The α_W twist needs an operator
 
 ## What This Paper Would Establish
 
-The form is the unique measurement postulate compatible with S¹ = ∂M ↪ S³, ∂S³ = ∅, with anti-periodic BC and the 120-domain. All three pieces reach that bar: the phase operator (anti-periodic intensity, with the harmonic selection (isotropy + orthogonality) and normalization named), the integer-depth hierarchy (units, on the dilution sector), and the factored structure (the Schur separation, constraint 6). For these the audit verdict moves from DECLARED to AXIOM (forced), and everything downstream that rides the form inherits that upgrade.
+Within the spectral-boundary observable class, the separated form is the unique measurement rule compatible with S¹ = ∂M ↪ S³, ∂S³ = ∅, with anti-periodic BC and the 120-domain. Two pieces reach that bar outright: the phase operator (anti-periodic family forced, first-positive member selected by isotropy + orthogonality, normalization named) and the integer-depth hierarchy (units, on the dilution sector); for these the audit verdict moves from DECLARED to AXIOM (forced). The factored structure reaches it within the class and *modulo the commutant theorem*: the separation is argued (Schur + homothety + Lemma 8), its no-cross-term step the open target. Downstream that rides the phase and hierarchy factors inherits the upgrade; downstream of the factorization inherits its conditional status.
 
-What stays as work: the α_W twist mechanism and the extension selection, both off the form and both stated precisely enough to attack directly. The well assignments, manifold indices, and grid types remain the next layer, the traffic rules on the bridge, with "why 13 is the exponent floor" the load-bearing item there. Lifting the ladder rule from established to forced belongs to that layer too.
+What stays as work on the form: the commutant theorem A_obs = A_Θ ⊗ A_spec (closes the separation), and whether the observable class exhausts the physical observables (the premise behind "within the class"). Off the form: the α_W twist mechanism and the extension selection, both stated precisely enough to attack directly. The well assignments, manifold indices, and grid types remain the next layer, the traffic rules on the bridge, with "why 13 is the exponent floor" the load-bearing item there. Lifting the ladder rule from established to forced belongs to that layer too.
 
 ---
 
@@ -180,7 +184,7 @@ This was flagged as the unifying rigidity for the hierarchy. With the integer hi
 
 ## A Consequence: Why the Propagator Correction Had to Fail
 
-The composition reading of depth (dilution multiplies across layers, so the depth function is a power) explains, after the fact, why the McKay propagator correction failed empirically. A path-product correction is not depth-only, so it falls outside the forced form. The data agreed: the down quark overshot and the tau undershot, in opposite directions, which is the signature of a correction pulling against a structure that was already fixed. The negative result is now expected rather than puzzling.
+The composition reading of depth (dilution multiplies across layers, so the depth function is a power) explains, after the fact, why the McKay propagator correction failed empirically. A path-product correction is not depth-only, so it falls outside the separated, depth-only form. The data agreed: the down quark overshot and the tau undershot, in opposite directions, which is the signature of a correction pulling against a structure that was already fixed. The negative result is now expected rather than puzzling.
 
 ---
 
@@ -188,23 +192,23 @@ The composition reading of depth (dilution multiplies across layers, so the dept
 
 | Paper | What it establishes | What this paper adds |
 |-------|--------------------|--------------------|
-| Sector A (eigenvalue) | First positive eigenvalue 2/R² on Möbius in S³; the ground state is the extension-dependent zero mode | That paper gives the eigenvalue. This paper shows the rule that reads it is unique. |
-| Lemma 8 | Θ decouples from the spectral parameter s | The same Schur mechanism supplies constraint 6: the depth index is connected to the spectral block by the homothety reduction (proved here), extending Θ ⊥ s to Θ ⊥ (Ω, n). |
+| Sector A (eigenvalue) | First positive eigenvalue 2/R² on Möbius in S³; the ground state is the extension-dependent zero mode | That paper gives the eigenvalue. This paper argues the rule that reads it is unique within the observable class (modulo the commutant theorem). |
+| Lemma 8 | Θ decouples from the spectral parameter s | The same Schur mechanism feeds constraint 6: the homothety reduction connects the depth index to the spectral block (argued here; the closing step is the commutant theorem), extending Θ ⊥ s toward Θ ⊥ (Ω, n). |
 | Mass spectrum | Fermion masses via torsion × C_geom × McKay elevator | Supplies the only route to an independent R (electron and muon at different McKay distances), and hosts the R-determination open item. |
 | Gauge ladder | Coupling exponents from carrier and confinement character | Supplies the 1/60 and 1/120 exponents. This paper would lift that rule from established to forced. |
-| Scaling Law (this paper) | Uniqueness of the sampling rule | Completes the triad: eigenvalue, boundary, measurement. |
+| Scaling Law (this paper) | Separated form of the sampling rule (within the class; commutant theorem pending) | Completes the triad: eigenvalue, boundary, measurement. |
 
 ---
 
 ## Notes
 
-The strongest version of this result would show the scaling law is the ONLY measurement rule, not merely the simplest. All three of its pieces reach that bar: the phase operator and the integer hierarchy by the anti-periodic BC and by units, and the factored structure by the Schur separation, with dimensionlessness explicitly not standing in for it. Simplicity never entered.
+The strongest version of this result would show the scaling law is the ONLY measurement rule within the class, not merely the simplest. Two of its pieces reach that bar outright: the phase operator and the integer hierarchy, by the anti-periodic BC (plus the member selection) and by units. The factored structure is argued there (the Schur separation), not closed: the commutant theorem is the remaining step, and dimensionlessness does not stand in for it. Simplicity never entered.
 
 The honest deflation that came with closing the integer hierarchy: the apparent miracle of "many orders of magnitude from topology" is units. R/ℓ_P is a calibrated ratio, and raising it to the observable's dimension is dimensional analysis. The genuine content sits in C(Θ), and the coupling exponents sit in the ladder rule that units do not reach. Naming this plainly is what lets the open mechanisms stand out as the real work.
 
 ---
 
-*"The topology leaves no room for anything else" is now true for the phase operator, the integer-depth hierarchy, and the factorization (the Schur separation), established for the coupling exponents, and a precise open question for the α_W twist and the extension selection.*
+*"The topology leaves no room for anything else" is true for the phase operator and the integer-depth hierarchy, argued within the observable class for the factorization (the Schur separation, with the commutant theorem the open step), established for the coupling exponents, and a precise open question for the α_W twist and the extension selection.*
 
 ---
 
