@@ -45,7 +45,7 @@ Each layer follows from the one before.
 
 $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the manifold triad: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. The postulate has one realization.
+A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. The manifold triad is pinned by a theorem and a minimality choice: surface classification plus minimality selects the Möbius strip (the minimal non-orientable surface with one boundary), and the Poincaré theorem forces $S^3$. With minimality, the postulate has one realization.
 
 ### Space
 
@@ -57,7 +57,7 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 
 ### Surface
 
-A Möbius strip has one side and one edge. Carry the normal once around it and it returns reversed, and that single sign flip is the whole reason matter on this domain is fermionic. It is also the simplest surface that does this: by the classification of compact surfaces, a connected non-orientable surface with one boundary component is a disk removed from a connected sum of $k$ crosscaps, and the Möbius strip is the minimal case ($k = 1$), the surface minimality selects. Non-orientability produces three consequences:
+A Möbius strip has one side and one edge. Carry the normal once around it and it returns reversed, and that single sign flip is the whole reason matter on this domain is fermionic. It is also the simplest surface that does this: by the classification of compact surfaces, a connected non-orientable surface with one boundary component is a disk removed from a connected sum of $k$ crosscaps, and the Möbius strip is the minimal case ($k = 1$), the one minimality selects. Non-orientability produces three consequences:
 
 | Consequence | Mechanism |
 |---|---|
@@ -81,7 +81,7 @@ The chronon and standing wave period operate in the phase parameter $t \in [0, 4
 
 The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral group $2I$, with $\lvert 2I\rvert = 120$. The discrete subgroups of SU(2) $\cong S^3$ are classified: open families (cyclic $Z_n$ and binary dihedral $2D_n$, parameterized by $n$) and three closed exceptional groups (binary tetrahedral $\lvert 2T\rvert = 24$, binary octahedral $\lvert 2O\rvert = 48$, binary icosahedral $\lvert 2I\rvert = 120$). 
 
-Open families require external choice of $n$ and are excluded by the framework's input-minimization: every free parameter is a violation of the foundation. Among the closed exceptional cases, $2I$ is terminal; largest in order and maximal under the McKay correspondence ($2I \leftrightarrow E_8$, the largest exceptional Lie algebra). The selection is forced by the framework's own principle.
+Open families require external choice of $n$ and are excluded by the framework's input-minimization. Among the closed exceptional cases, $2I$ is terminal: largest in order and maximal under the McKay correspondence ($2I \leftrightarrow E_8$, the largest exceptional Lie algebra). And it is the unique *perfect* subgroup, the only one carrying the 9× Galois gap the three generations require (below). So the selection rests on a physical necessity and a uniqueness theorem, not on minimization alone.
 
 Four auxiliary paths converge on this number (three independent):
 1. Group theory of $S^3$ gives $\lvert 2I\rvert = 120$ directly
@@ -152,7 +152,7 @@ So $A/A_P$ just asks how big the measured thing is in those units. For the Hubbl
 
 ### The Phase Operator
 
-$C(\Theta)$ is forced by the topology, the only weighting it allows. The anti-periodic boundary condition (the Möbius sign flip) forces the half-wave form: a sinusoid, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../framework/working/files/scaling-law-uniqueness.md) shows the sinusoidal intensity is the only one the boundary condition admits). Fixing the domain boundary to sit at a node then selects $\psi_0(\Theta) = \sin(\pi\Theta)$ over its cosine partner: zero at the two boundaries, peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $\lvert\psi_0\rvert^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
+$C(\Theta)$ is set by the topology in two steps. The anti-periodic boundary condition (the Möbius sign flip) forces the sinusoidal family: the eigenbasis is the half-integer tower, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../framework/working/files/scaling-law-uniqueness.md) carries the detail). Background symmetry then selects the member: isotropy and orthogonality pick the lowest harmonic, the first-positive mode, and the boundary node picks sine over cosine, giving $\psi_1(\Theta) = \sin(\pi\Theta)$, zero at the two boundaries and peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $\lvert\psi_1\rvert^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
 
 $$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
