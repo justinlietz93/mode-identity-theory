@@ -4,7 +4,7 @@
 
 # Fibonacci Wells: Forcing Worksheet
 
-*Working note. Tracks the well-placement problem: where it stands, what has been ruled out, and the one residual that remains. Workbench voice (status tags, raw numbers). This note currently leads the public [framework page](../../README.md), whose Fibonacci-wells section still runs the earlier Hurwitz/noise-floor framing; the public sync is deferred until the functional below is settled.*
+*Working note. Tracks the well-placement problem: where it stands, what has been ruled out, and the one residual that remains. Workbench voice (status tags, raw numbers); the public [framework page](../../README.md) now carries the relationship-level version of this framing (recurrence + lcm seam + the open residual), with the detailed status and the probe log kept here.*
 
 **Current status: STRUCTURALLY REDUCED, not DERIVED.** The old claim, "φ worst-approximability gives Fibonacci numerators on the fixed 120-grid," has been abandoned. The problem has been reduced to a sharper residual:
 
