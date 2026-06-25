@@ -4,7 +4,7 @@
 
 # The Scaling Law as Forced Measurement Postulate on S³/2I
 
-**Status:** ACTIVE. Two of the three structural pieces are forced: the phase operator by the anti-periodic BC, the integer-depth hierarchy by units. The factored form itself is open: it rests on the Schur/Lemma 8 separation, not on dimensional analysis (dimensionlessness does not separate the variables). The open mechanisms are the α_W twist operator and the self-adjoint extension selection. Well assignments remain the separate next layer.
+**Status:** ACTIVE. Two of the three structural pieces are forced: the phase operator by the anti-periodic BC, the integer-depth hierarchy by units. The factored form itself rests on the Schur/Lemma 8 separation, not on dimensional analysis (dimensionlessness does not separate the variables); a candidate proof of that separation is drafted below ([Candidate Proof](#candidate-proof-the-schur-separation)), conditional on a scale-covariant self-adjoint extension. The open mechanisms are the α_W twist operator and the self-adjoint extension selection. Well assignments remain the separate next layer.
 
 **Dependencies:** Sector A paper (first positive eigenvalue), Lemma 8 (Θ ⊥ spectral parameter), mass-spectrum paper (R determination), gauge-ladder note (coupling exponents).
 
@@ -28,7 +28,7 @@ The proof splits into three structural pieces. Two of them close: the phase oper
 
 | Piece | Status | Mechanism |
 |---|---|---|
-| Factored form C(Θ) × g(Ω, n) | OPEN | Dimensionlessness does not force a product: additive and mixed dimensionless forms (C + g, or C·g + h(Θ, Ω)) survive constraint 5. The only candidate route is Schur decoupling, Θ ⊥ spectral parameter s (Lemma 8), extended to Θ ⊥ (Ω, n). Connecting the spectral parameter to the depth index is unproven. |
+| Factored form C(Θ) × g(Ω, n) | CANDIDATE PROOF (this session, pending review) | Dimensionlessness does not force a product: additive and mixed dimensionless forms (C + g, or C·g + h(Θ, Ω)) survive constraint 5. The separation comes from Lemma 8 (Θ ⊥ spectral data) once (Ω, n) is shown to be spectral-block data via the homothety reduction; see [Candidate Proof](#candidate-proof-the-schur-separation). Conditional on a homothety-covariant self-adjoint extension (Friedrichs qualifies). |
 | Phase operator C(Θ) = 2sin²(πΘ) | DERIVED | The anti-periodic mode intensity at any Θ. One operator across sectors: cosmology samples a single well, the mass sector samples Kostant exponent sets. |
 | Integer-depth hierarchy (√Ω)^(−n) | DERIVED (units) | Dimensional analysis. n is the length-dimension of the observable, R/ℓ_P is the only scale ratio, √Ω = R/ℓ_P. Form and base both follow from dimensions. |
 | Coupling exponents (1/60, 1/120) | ESTABLISHED | The grid ladder selection rule sets the grid per coupling, and the exponent is 1/\|grid\|. α_EM closed via convergent paths and Lemma 8; α_s established. Units stay silent here, since the couplings are dimensionless, so the ladder rule supplies the exponent that dimensions cannot. |
@@ -66,7 +66,7 @@ The precedent is exact for one piece only. C(Θ) is a normalized mode intensity 
 | 3 | Discrete 120-domain: \|2I\| = 120 | Largest exceptional discrete subgroup of SU(2) (THEOREM) | Continuous sampling rules. Phase positions are quantized to multiples of 1/120. |
 | 4 | Observer at √Ω | IR↔UV fixed point on bounded domain (DERIVED) | Any other normalization point. The geometric midpoint is unique: x = Ω/x has one positive solution. |
 | 5 | Dimensionless output | A/Aₚ is a ratio | Leftover units only. A dimensionless output removes dimensionful candidates; it does NOT force a multiplicative split. Additive and mixed dimensionless forms (C + Ω⁻ⁿ, or C·Ω⁻ⁿ + h(Θ, Ω)) all survive this constraint. The factorization is not delivered here; it comes, if at all, from constraint 6. |
-| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) is OPEN | This is the *only* source of the factored form (constraint 5 does not supply it). Phase and spectral data occupy different blocks of the decomposition; once the depth index is shown to ride the spectral block, the rule separates. Until then the factorization is assumed, not forced. |
+| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) has a candidate proof (this session) | This is the *only* source of the factored form (constraint 5 does not supply it). Phase and spectral data occupy different blocks of the decomposition; the depth index is shown to ride the spectral block via the homothety reduction ([Candidate Proof](#candidate-proof-the-schur-separation)), so the rule separates, conditional on a scale-covariant extension. |
 
 ---
 
@@ -80,7 +80,7 @@ Any rule maps (phase position Θ, manifold depth n, hierarchy Ω) to a dimension
 
 $$\frac{A}{A_P} = f(\Theta) \cdot g(\Omega, n)$$
 
-is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). That extension is unproven, so the factorization is an assumption at this step, not a result.
+is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). A candidate proof closing this step is given below ([Candidate Proof](#candidate-proof-the-schur-separation)); pending its review, treat the factorization as an assumption at this step, not a result.
 
 **Step 3:** Apply constraint 1. f(Θ) satisfies the anti-periodic BC, whose eigenfunctions are trigonometric: the BC kills every polynomial, exponential, or rational candidate and admits the tower 2sin²((2m+1)πΘ). The constant zero mode is the extension-dependent background (the spatial-eigenvalue ground, distinct from the temporal harmonic ground of the cosmic wave) and carries no phase structure. The BC fixes the family but not the member; the member is selected physically. For background observables, isotropy and orthogonality exclude the higher harmonics, the same conditions that fix the cosmic background wave, leaving the lowest nonconstant mode, the first-positive eigenmode at 2/R², whose intensity is 2sin²(πΘ). So f(Θ) = C(Θ) = 2sin²(πΘ) is the first-positive-mode intensity, not the constant zero mode. This is one operator read at different positions: cosmology samples a single well, the mass sector samples Kostant exponent sets on the same mode. Two inputs enter here that the BC alone does not give: the harmonic selection (isotropy + orthogonality, for background observables) and the normalization (∫₀¹ C dΘ = 1 fixes the leading 2). Both are selection principles and should be named, not absorbed into "the BC forces it."
 
@@ -109,6 +109,30 @@ Step 5 reads n as the observable's length-dimension; the engine's selection rule
 | α, α_s, α_W | 0 | fractional (1/60, 1/120) | NO | grid ladder, not units |
 
 **Verdict.** n_(length-dim) = n_(manifold) on the dimensionful dilution observables (edge + surface + space), and only there. Three rows sit outside the identity: G is the Planck-defining anchor (ratio 1, n = 0 by construction, not because its length-dimension is 0); the 3/2 row is a Gauss-Codazzi conversion factor, not a dilution; the couplings carry length-dimension 0 yet pick up fractional exponents from the ladder. The units argument of Step 5 therefore legitimately closes the dilution sector and only the dilution sector; the manifold and ladder rules carry the rest. This is consistent with the note's own split between Step 5 (integer depth) and the coupling exponents; the table adds G and the 3/2 conversion as the two further exceptions.
+
+---
+
+## Candidate Proof: the Schur Separation
+
+*Drafted this session, pending review. If it holds, it supplies constraint 6 and promotes the factored form from OPEN to forced, conditional on the one assumption flagged at the end.*
+
+The factored form was the one structural row left open. Dimensionlessness does not separate Θ from (Ω, n), and Lemma 8 separates Θ only from the spectral parameter s. The gap is the step from Θ ⊥ s to Θ ⊥ (Ω, n). It closes once (Ω, n) is recognized as spectral-block data: the metric scale R entering the eigenvalues, nothing more.
+
+**Proposition.** Let A be an admissible observable: a quantity built SU(2)-equivariantly from the Hodge-Laplace spectral data of S³/2I and the first-positive anti-periodic mode on the Möbius boundary S¹, under a homothety-covariant self-adjoint extension. Then A/A_P = C(Θ) · g(Ω, n) with no cross-term, where C(Θ) = 2sin²(πΘ) is the boundary-phase factor and g(Ω, n) the scale-and-depth factor.
+
+**Step A, positional reduction.** By Peter-Weyl, sections of a natural bundle split into SU(2)-isotypic blocks V_l; by Schur any admissible operator is scalar a(l) on each block (the spectral-zeta reduction, the-mirror Step 2). On the bulk S³/2I the right-SU(2) action is transitive, so no continuous bulk position survives (the S³/2I half of Lemma 8: the twisted heat kernel is constant on each fiber diagonal). The only continuous positional coordinate left in A is the Möbius boundary phase Θ.
+
+**Step B, scale reduction.** The round metric of radius R is R² times the unit metric, so the Hodge Laplacian scales as R⁻² and a_R(l) = â(l)/R², with the unit-radius eigenspaces and their internal bases R-independent. The whole (Ω, n) dependence is therefore carried by the scalar weights a_R(l): Ω = (R/ℓ_P)² is their common scale, and n is the homothety weight, the power of R the observable carries (its length-dimension). On the spectral zeta this reads as Z(s) ↦ λ²ˢ Z(s) under R ↦ λR: a pure s-power, staying inside the spectral block, never touching the eigenspace basis where Θ lives. This is the precise sense in which the depth index rides the spectral block.
+
+**Step C, separation.** Extract the homothety weight: A/A_P = (√Ω)⁻ⁿ · K, where K is the R-invariant coefficient. K depends on Θ (positional) and on R-invariant spectral data (eigenvalue ratios, multiplicities, the bundle label n). By Lemma 8 there is no natural map between Θ and the spectral data, so K carries no Θ-spectral cross-term and splits as C(Θ) · F(n). Hence
+
+$$\frac{A}{A_P} = C(\Theta) \cdot [F(n)(\sqrt{\Omega})^{-n}] = C(\Theta) \cdot g(\Omega, n).$$
+
+A would-be cross-term h(Θ, Ω) is exactly a Θ-spectral coupling, which Lemma 8 forbids. ∎
+
+**What dimensionlessness could not do, Lemma 8 does.** Constraint 5 leaves h(Θ, Ω) alive because it is dimensionless; Lemma 8 kills it because it is a Θ-spectral map. The factorization rests on spectral inaccessibility, not on units, which is why the form is forced here and not at Step 2.
+
+**The one load-bearing assumption.** Step B uses homothety-covariance of the self-adjoint extension: it is what guarantees the boundary profile sin(πΘ) is itself R-independent. Friedrichs, the extension already in use, is natural and therefore covariant, so the separation is forced for the extension already assumed; only a scale-dependent extension could reintroduce a cross-term. This ties the factorization to the extension-selection item: the two open mechanisms are not independent. The separation is clean for any scale-covariant extension, so closing the extension item in the natural (Friedrichs / smoothed-cone) direction closes the factorization with it.
 
 ---
 
