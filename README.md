@@ -10,7 +10,7 @@ Mode Identity Theory starts with a simple bet: fundamental physics is not missin
 
 What began as an inadvertent search query turned philosophy, turned topology, turned theory. What followed were the constants of the universe popping out like a cosmic game genie. None of this was planned...
 
-Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; while time ticks in phase, not in the background.
+Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; time ticks in phase, not in the background.
 
 In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, one identity, and one interface. The rest; is accounting.
 
@@ -50,11 +50,11 @@ The universe has two boundaries: the cosmic horizon at the ceiling and the Planc
 
 Three layers host different physics:
 
-*(n = 1)* 1D Möbius edge — experienced as time when sampling $a_0$ and $H_0$.
+*(n = 1)* 1D Möbius edge: experienced as time when sampling $a_0$ and $H_0$.
 
-*(n = 2)* 2D Möbius surface — vibrating like a drum head and humming ambiently at $\Lambda$.
+*(n = 2)* 2D Möbius surface: vibrating like a drum head and humming ambiently at $\Lambda$.
 
-*(n = 3)* 3D space — No dimensional access to this volume, so we will never measure anything dark.
+*(n = 3)* 3D space: no dimensional access to this volume, so we will never measure anything dark.
 
 :atom_symbol: **One Formula:**
 
@@ -62,13 +62,13 @@ $$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (
 
 Four factors compose to rank 24 fermion masses. Each factor does exactly one thing.
 
-**The Neutrino Floor.** $\mu_\Lambda$ sets the stage — the lightest neutrino is not a small fermion mass, but the *floor* of the mass spectrum, the lowest energy the geometry can resolve at the edge. Every particle mass is built from the ambient hum of $\Lambda$.
+**The Neutrino Floor.** $\mu_\Lambda$ sets the stage: the lightest neutrino is not a small fermion mass but the *floor* of the spectrum, the hum every other mass is built on.
 
-**The Kostant Sunflower.** $C_{\text{geom}}(\rho)$ selects the position — each irreducible representation $\rho$ of the binary icosahedral group carries a specific geometric weight, nine positions on a discrete sunflower. The pattern exhausts the group; no tenth position exists.
+**The Kostant Sunflower.** $C_{\text{geom}}(\rho)$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower with no tenth.
 
-**The McKay Elevator.** $(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}$ raises the energy — each step up the McKay graph lifts the mass by a fixed factor. The denominator 30 is the Coxeter number of $E_8$, setting the height of the elevator by exceptional geometry.
+**The McKay Elevator.** $(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $E_8$.
 
-**The Reidemeister Torsion.** $T^2(\rho \otimes \sigma)$ dials in the vacuum — the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that generate three generations. Torsion is the fine dial that tunes mass by which vacuum the particle is realized.
+**The Reidemeister Torsion.** $T^2(\rho \otimes \sigma)$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that generate three generations.
 
 :small_red_triangle: **One Identity:**
 
@@ -76,11 +76,11 @@ $$\Large \boxed{|2I| = 120 = 2^3 \cdot 3 \cdot 5}$$
 
 The binary icosahedral group $2I$ is the largest exceptional discrete subgroup of $SU(2)$. Its order factors into exactly three primes.
 
-**Faces.** $Z_3$ sorts color — the three-fold rotational stabilizers become the three color charges of QCD. Singlet or triplet per irrep; six of six fermion assignments match.
+**Faces.** $Z_3$ sorts color: the three-fold rotational stabilizers become the three color charges of QCD. Singlet or triplet per irrep; six of six fermion assignments match.
 
-**Edges.** $Z_4$ sorts spin — the edge stabilizers split the spectrum into integer-spin (domain $D = 60$) and half-integer-spin (domain $D = 120$), bosons and fermions cleanly separated.
+**Edges.** $Z_4$ sorts spin: the edge stabilizers split the spectrum into integer-spin (domain $D = 60$) and half-integer-spin (domain $D = 120$), bosons and fermions cleanly separated.
 
-**Vertices.** $Z_5$ sets the electroweak address — the five-fold vertex stabilizers carry weak isospin $T_3$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum selects the generation.
+**Vertices.** $Z_5$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $T_3$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum selects the generation.
 
 Three primes. Three stabilizers. Every force, every particle, every quantum number.
 
