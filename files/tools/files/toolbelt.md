@@ -1,3 +1,7 @@
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+
+---
+
 # The MIT Toolbelt
 
 **Five Tools, One Flow: Structure to Prediction**
@@ -308,3 +312,7 @@ If something fails at step 3, you do not fix it at step 5. That is how you avoid
 ---
 
 *Topology holds. Wave is. Particle samples.*
+
+---
+
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /

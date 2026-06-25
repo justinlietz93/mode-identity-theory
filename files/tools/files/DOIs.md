@@ -1,3 +1,7 @@
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+
+---
+
 # Publication Registry
 
 ### Core Theory
@@ -37,3 +41,7 @@
 | Λ Constant, Axis Aligned: CMB Anomalies from Topology | 2025-12-30 | [10.5281/zenodo.18092169](https://doi.org/10.5281/zenodo.18092169) |
 | Λ Ground Mode of the Cosmic Boundary | 2026-01-19 | [10.5281/zenodo.18307314](https://doi.org/10.5281/zenodo.18307314) |
 | Λ Constant, H₀ Local: Hubble Tension as Phase Field | 2026-01-24 | [10.5281/zenodo.18363693](https://doi.org/10.5281/zenodo.18363693) |
+
+---
+
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /

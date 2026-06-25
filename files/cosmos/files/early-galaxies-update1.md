@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`cosmos`](../../cosmos/)** / **[`early galaxies`](early-galaxies.md)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
 
 ---
 
@@ -112,4 +112,4 @@ The disposition is unchanged in destination and sharper in reason. The direction
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`cosmos`](../../cosmos/)** / **[`early galaxies`](early-galaxies.md)** /
+/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
