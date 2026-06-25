@@ -22,9 +22,7 @@ $$
 M = S^3/2I,
 $$
 
-where $2I$ is the binary icosahedral group of order 120. The topology fixes the mode domain, the boundary condition, the stabilizer structure, and the McKay graph. Measured anchors set absolute scales.
-
-The framework predicts structural relations: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Absolute scales are calibrated by measured reference observables.
+where $2I$ is the binary icosahedral group of order 120. From that shape the topology fixes the mode domain, boundary condition, stabilizers, and McKay graph, and the relations that follow: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Measured anchors set only the absolute scales.
 
 [![The Perfect Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 
@@ -120,13 +118,13 @@ The cosine has a complement. Write $S = \sin(t/2)$; then $\Psi^2 + S^2 = 1$ part
 
 **One state, several readings.** The clock below turns $S$ into the Hubble rate $H(z)$, which fits Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ versus flat ΛCDM at the same parameter count: a static universe recovering the distance ladder. The same $S$ answers the two questions a static cosmos invites. Redshift is a phase ratio, $1 + z = S(t_\text{obs})/S(t_\text{emit})$, the observer reading the wave from farther along it rather than space carrying source and observer apart. Cooling is that ratio applied to the bath: one factor rescales every wavelength alike, so the blackbody survives at $T \propto 1/S$. The [budget map](../framework/working/files/budget-map.md) keeps the full accounting.
 
-The Waltz clock $dt/d\tau = S^{-1/2}$ converts budget phase to conformal time $\tau$ (the [budget note](../framework/working/files/temporal-budget.md) convention); proper time is a further step, $dT = a\,d\tau$ with $a \propto S$, so composing the two gives $dT/dt = S^{3/2}$. When $S$ is small the proper-time age accrues slowly per unit budget phase: the early universe spans a large stretch of phase for little proper time, and the present proper-time age is the observed ~13.8 Gyr.
+The Waltz clock $dt/d\tau = S^{-1/2}$ turns budget phase into conformal time $\tau$ (the [budget note](../framework/working/files/temporal-budget.md) convention), and proper time is one step further, $dT = a\,d\tau$ with $a \propto S$, so $dT/dt = S^{3/2}$. Because $S$ is small early, the proper-time age accrues slowly per unit phase: the early universe spans a long stretch of phase for little proper time, and the present age is read only after the clock map is calibrated.
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
 ### The Present Epoch
 
-Two phase parameterizations exist for the current epoch. The engine phase $\Phi = 4\pi\, T/T_\text{cycle}$ (linear in proper time) gives $\Phi_\text{now} \approx 5.22$ rad. The budget phase $t$ (argument of $\Psi = \cos(t/2)$, nonlinear in proper time through the Waltz clock) is constrained by distance data to $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\Phi)$ between them remains open; both parameterizations reproduce the same distance-redshift relation. The full $4\pi$ period and the 120-step chronon structure are topology-native and independent of which parameterization is used.
+Two phase parameterizations meet at the present epoch. The engine phase $\Phi = 4\pi\, T/T_\text{cycle}$ is linear in proper time, with $\Phi_\text{now} \approx 5.22$ rad; the budget phase $t$, the argument of $\Psi = \cos(t/2)$, is nonlinear in it through that same clock, and distance data pin $s_0 = \sin(t_\text{now}/2) < 0.19$ (95% CL). The mapping $t(\Phi)$ between them is still open, though both give the same distance-redshift relation, and the $4\pi$ period and 120-step chronon are topology-native, independent of the choice.
 
 ## :balance_scale: [One Equation](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)
 
@@ -399,9 +397,7 @@ To attach a scale you invert one observable for $\Omega_\Lambda$. Three are inde
 
 The headline is the second row: from one measured coupling, with no $R_\Lambda$ and no further calibration, the scaling law fixes the cosmological constant to 24%. The 122 orders of magnitude are not predicted here; they enter through $\Omega_\Lambda$, read from $\alpha$. What this route adds is the residual coefficient, to 24%. QFT, which does try to predict the magnitude from first principles, overshoots by $10^{120}$.
 
-### The lever, and why the readings differ
-
-All three are the same inversion: solve a formula that depends on $\Omega_\Lambda$ for $\Omega_\Lambda$, through the same 60-fold McKay/grid lever ($\Lambda\ell_P^2 \propto \alpha^{60}$; the mass ratio carries $\Omega_\Lambda^{1/60}$ at $\Delta\text{dist}=1$). They differ only in how well-conditioned the input is: $\alpha$ matches its formula to ~0.5%, so $\Lambda$ lands at 24%; the mass ratio matches to ~4.5%, so $\Lambda$ lands ~14x off. The ~10x gap between the two genuine $\Lambda$ readings is a precision limit of the mass formula's residual scatter, not a structural inconsistency: the same lever amplifies a larger input error.
+All three are the same inversion through the same 60-fold McKay/grid lever ($\Lambda\ell_P^2 \propto \alpha^{60}$), so they differ only in input conditioning: $\alpha$ matches its formula to ~0.5% and lands $\Lambda$ at 24%, the mass ratio matches to ~4.5% and lands ~14× off; the gap is amplified input error, not a structural inconsistency.
 
 ### Sector anchors
 
@@ -426,8 +422,6 @@ Edge observables reference the evolving $\Omega_H(z)$; surface and space observa
 | fermion mass ratios | structural predictions (McKay / torsion) |
 | absolute fermion masses | set by the $m_e$ benchmark |
 | three generations, Yang-Mills gap | structural results on $S^3/2I$ |
-
-The hierarchy is over-determined and the dimensionless ratios are anchor-free. Which observable you treat as the input is a calibration choice, not a feature of the theory; the theory is the web of relationships that holds whichever you pick.
 
 ---
 
