@@ -128,7 +128,7 @@ Outputs of a fixed structure, checked against observation:
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ (coupling $\alpha$ route) | $\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}$ (to ~24%) | $2.90 \times 10^{-122}$ | ~24% |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ (coupling $\alpha$ route) | $\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}$ | $2.90 \times 10^{-122}$ | ~24% |
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ (mass-spectrum cross-check) | $\Lambda \approx 8 \times 10^{-54}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² | order of magnitude |
 | [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_\Lambda^2$) constant | topological protection holds | ✓ |
