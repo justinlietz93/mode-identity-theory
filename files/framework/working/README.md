@@ -44,6 +44,14 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
+### [Fibonacci Wells](./files/fibonacci-wells.md)
+
+**Status (structurally reduced):** Why the stable sampling positions land at the Fibonacci wells $\{13, 21, 34, 55\}$. The external golden-ratio/Hurwitz route is abandoned (a rounded golden rotation selects a parity class, not the wells). The wells are reframed as the additive continuation of the icosahedral branch orders $(2,3,5)$ on the locked 120-grid, bounded below by the lcm seam ($13$ is the first Fibonacci not dividing $120 = \text{lcm}(1,2,3,5,8)$; divisors tile, non-divisors sample) and above by the antinode reflection $C(k)=C(120-k)$. The residual: define the boundary-native anti-periodic interference functional whose minima are the recurrence positions; the mirror's Lemma 8 rules out any bulk functional (the spectral side is $\Theta$-blind), and $\varphi$ enters internally through the $\mathbb{Q}(\sqrt5)$ character field, not Hurwitz.
+
+**Dependencies:** Scaling law uniqueness (phase operator $C(\Theta)$), the-mirror.md (Lemma 8, $\mathbb{Q}(\sqrt5)$, character ceiling), 120-domain selection.
+
+---
+
 ### Friedmann as Output
 
 **Problem:** The phase-clock $H(z)$ currently uses the Friedmann equation as input. Deriving $H^2 \propto \rho$ from the postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ would close the program: the framework would produce its own dynamics rather than borrowing GR's.
