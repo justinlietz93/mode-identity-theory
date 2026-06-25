@@ -4,7 +4,7 @@
 
 # The Scaling Law as Forced Measurement Postulate on S³/2I
 
-**Status:** ACTIVE. Two of the three structural pieces are forced: the phase operator by the anti-periodic BC, the integer-depth hierarchy by units. The factored form itself rests on the Schur/Lemma 8 separation, not on dimensional analysis (dimensionlessness does not separate the variables); a candidate proof of that separation is drafted below ([Candidate Proof](#candidate-proof-the-schur-separation)), with its one covariance assumption discharged by the eigenvalue paper (C(Θ) is the extension-independent symmetric mode), leaving Steps A and C as the items to review. The open mechanisms are the α_W twist operator and the self-adjoint extension selection. Well assignments remain the separate next layer.
+**Status:** ACTIVE. All three structural pieces of the form are forced: the phase operator by the anti-periodic BC, the integer-depth hierarchy by units, and the factored form by the Schur separation (Lemma 8 + homothety reduction + sector independence; [Proof](#proof-the-schur-separation)). The factored form carries two named, scale-invariant conditions, both met by the Friedrichs default: a parity-preserving cone condition and δ₀/R > 2/e. The remaining open mechanisms, the α_W twist operator and the self-adjoint extension selection, are off the form: neither alters C(Θ) or reintroduces a cross-term. Well assignments remain the separate next layer.
 
 **Dependencies:** Sector A paper (first positive eigenvalue), Lemma 8 (Θ ⊥ spectral parameter), mass-spectrum paper (R determination), gauge-ladder note (coupling exponents).
 
@@ -24,18 +24,18 @@ If not, the scaling law is forced by the topology. Not derived from it in the us
 
 ## What This Session Closed
 
-The proof splits into three structural pieces. Two of them close: the phase operator and the integer-depth hierarchy reduce to transparent results (anti-periodic BC; dimensional analysis). The third, the factored form itself, does not follow from dimensionlessness and remains open on the Schur separation. The heavy machinery once aimed at the hierarchy addresses a target that dimensional analysis already settles.
+The proof splits into three structural pieces, and all three close. The phase operator and the integer-depth hierarchy reduce to transparent results (anti-periodic BC; dimensional analysis). The third, the factored form, follows from the Schur separation (Lemma 8 + homothety reduction; dimensionlessness does not supply it), proved below for parity-preserving extensions with δ₀/R > 2/e. The heavy machinery once aimed at the hierarchy addresses a target that dimensional analysis already settles.
 
 | Piece | Status | Mechanism |
 |---|---|---|
-| Factored form C(Θ) × g(Ω, n) | CANDIDATE PROOF (this session, pending review) | Dimensionlessness does not force a product: additive and mixed dimensionless forms (C + g, or C·g + h(Θ, Ω)) survive constraint 5. The separation comes from Lemma 8 (Θ ⊥ spectral data) once (Ω, n) is shown to be spectral-block data via the homothety reduction; see [Candidate Proof](#candidate-proof-the-schur-separation). The covariance assumption is discharged by first-eigenvalue.md: C(Θ) is the symmetric-tower mode, robust across the parity-preserving extensions, so δ₀ never reaches it (residual: two scale-invariant conditions, parity-preserving cone + δ₀/R > 2/e, both met by Friedrichs). Pending: confirm the parity-scoped reading of Thm 5.1. |
+| Factored form C(Θ) × g(Ω, n) | FORCED (Schur + homothety + sector independence) | Two named scale-invariant conditions, both met by the Friedrichs default: (i) parity-preserving cone condition, (ii) δ₀/R > 2/e. Dimensionlessness does not force a product (additive/mixed forms survive constraint 5); the separation comes from Lemma 8 (Θ ⊥ spectral data) once (Ω, n) is shown to be spectral-block data via the homothety reduction, and C(Θ) is the extension-independent symmetric mode (first-eigenvalue.md §4.2, Prop 4.4, Thm 5.1), so δ₀ never reaches it. See [Proof](#proof-the-schur-separation). |
 | Phase operator C(Θ) = 2sin²(πΘ) | DERIVED | The anti-periodic mode intensity at any Θ. One operator across sectors: cosmology samples a single well, the mass sector samples Kostant exponent sets. |
 | Integer-depth hierarchy (√Ω)^(−n) | DERIVED (units) | Dimensional analysis. n is the length-dimension of the observable, R/ℓ_P is the only scale ratio, √Ω = R/ℓ_P. Form and base both follow from dimensions. |
 | Coupling exponents (1/60, 1/120) | ESTABLISHED | The grid ladder selection rule sets the grid per coupling, and the exponent is 1/\|grid\|. α_EM closed via convergent paths and Lemma 8; α_s established. Units stay silent here, since the couplings are dimensionless, so the ladder rule supplies the exponent that dimensions cannot. |
 | α_W twist, cos(π/10) | MOTIVATED | The one injected multiplicative factor. Dodecahedron angular defect π/5, halved by the ℤ₂ holonomy to π/10. The operator-level mechanism from holonomy to projection is the open link. |
 | Self-adjoint extension | OPEN | Friedrichs keeps the zero mode as the m_h = 0 background. The selection rule is pending, via the smoothed-cone limit in the companion eigenvalue paper. |
 
-The form is forced in two rows, the phase operator and the integer-depth hierarchy. The factored form is not forced by dimensionlessness; it stands or falls with the Schur separation, which is open. The coupling exponents follow from the ladder rule, with units staying silent because the couplings carry no dimension. The genuinely open items are the factorization (Schur), the α_W twist, and the extension selection. The "61 orders from topology" reads honestly as R/ℓ_P ≈ 10⁶¹ given a calibrated R. The powers of ten are units. The physics is the dimensionless coefficient C(Θ).
+The form is forced in all three rows: the phase operator (anti-periodic BC), the integer-depth hierarchy (units), and the factored form (the Schur separation, for parity-preserving extensions with δ₀/R > 2/e). The coupling exponents follow from the ladder rule, with units staying silent because the couplings carry no dimension. The genuinely open mechanisms, the α_W twist and the extension selection, are off the form: neither can alter C(Θ) or reintroduce a cross-term. The "61 orders from topology" reads honestly as R/ℓ_P ≈ 10⁶¹ given a calibrated R. The powers of ten are units. The physics is the dimensionless coefficient C(Θ).
 
 ---
 
@@ -53,7 +53,7 @@ Gleason (1957) proved that on a Hilbert space of dimension ≥ 3, the only proba
 
 The MIT analog: show that C(Θ) × (√Ω)⁻ⁿ is the unique sampling rule compatible with the bounded, closed topology of S¹ = ∂M ↪ S³, ∂S³ = ∅.
 
-The precedent is exact for one piece only. C(Θ) is a normalized mode intensity (∫₀¹ C dΘ = 1), so a Gleason-type measure-uniqueness statement is the right tool there. The hierarchy (√Ω)⁻ⁿ is dimensional analysis (Buckingham π), not a measure; the factored form is a separation-of-variables question. The three rows are three different rigidity claims, and only the phase operator is Gleason-shaped. Bundling them under one banner lends the open factorization the standing of the proven intensity result; this note keeps them separate.
+The precedent is exact for one piece only. C(Θ) is a normalized mode intensity (∫₀¹ C dΘ = 1), so a Gleason-type measure-uniqueness statement is the right tool there. The hierarchy (√Ω)⁻ⁿ is dimensional analysis (Buckingham π), not a measure; the factored form is a separation-of-variables result (the Schur separation, proved below). The three rows are three different rigidity claims of three different types, and only the phase operator is Gleason-shaped; this note keeps them separate rather than letting one banner blur the kinds of argument. All three are now forced, each by its own mechanism.
 
 ---
 
@@ -66,7 +66,7 @@ The precedent is exact for one piece only. C(Θ) is a normalized mode intensity 
 | 3 | Discrete 120-domain: \|2I\| = 120 | Largest exceptional discrete subgroup of SU(2) (THEOREM) | Continuous sampling rules. Phase positions are quantized to multiples of 1/120. |
 | 4 | Observer at √Ω | IR↔UV fixed point on bounded domain (DERIVED) | Any other normalization point. The geometric midpoint is unique: x = Ω/x has one positive solution. |
 | 5 | Dimensionless output | A/Aₚ is a ratio | Leftover units only. A dimensionless output removes dimensionful candidates; it does NOT force a multiplicative split. Additive and mixed dimensionless forms (C + Ω⁻ⁿ, or C·Ω⁻ⁿ + h(Θ, Ω)) all survive this constraint. The factorization is not delivered here; it comes, if at all, from constraint 6. |
-| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) has a candidate proof (this session) | This is the *only* source of the factored form (constraint 5 does not supply it). Phase and spectral data occupy different blocks of the decomposition; the depth index is shown to ride the spectral block via the homothety reduction ([Candidate Proof](#candidate-proof-the-schur-separation)), so the rule separates, conditional on a scale-covariant extension. |
+| 6 | Factorization into position and depth | Schur decoupling: Lemma 8 gives Θ ⊥ s; the link to Θ ⊥ (Ω, n) is proved (this session) | This is the *only* source of the factored form (constraint 5 does not supply it). Phase and spectral data occupy different blocks of the decomposition; the depth index rides the spectral block via the homothety reduction ([Proof](#proof-the-schur-separation)), so the rule separates, for parity-preserving extensions with δ₀/R > 2/e (Friedrichs included). |
 
 ---
 
@@ -80,7 +80,7 @@ Any rule maps (phase position Θ, manifold depth n, hierarchy Ω) to a dimension
 
 $$\frac{A}{A_P} = f(\Theta) \cdot g(\Omega, n)$$
 
-is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). A candidate proof closing this step is given below ([Candidate Proof](#candidate-proof-the-schur-separation)); pending its review, treat the factorization as an assumption at this step, not a result.
+is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). That extension is proved below ([Proof](#proof-the-schur-separation)) via the homothety reduction, so the factorization is a result, not an assumption, for parity-preserving extensions with δ₀/R > 2/e.
 
 **Step 3:** Apply constraint 1. f(Θ) satisfies the anti-periodic BC, whose eigenfunctions are trigonometric: the BC kills every polynomial, exponential, or rational candidate and admits the tower 2sin²((2m+1)πΘ). The constant zero mode is the extension-dependent background (the spatial-eigenvalue ground, distinct from the temporal harmonic ground of the cosmic wave) and carries no phase structure. The BC fixes the family but not the member; the member is selected physically. For background observables, isotropy and orthogonality exclude the higher harmonics, the same conditions that fix the cosmic background wave, leaving the lowest nonconstant mode, the first-positive eigenmode at 2/R², whose intensity is 2sin²(πΘ). So f(Θ) = C(Θ) = 2sin²(πΘ) is the first-positive-mode intensity, not the constant zero mode. This is one operator read at different positions: cosmology samples a single well, the mass sector samples Kostant exponent sets on the same mode. Two inputs enter here that the BC alone does not give: the harmonic selection (isotropy + orthogonality, for background observables) and the normalization (∫₀¹ C dΘ = 1 fixes the leading 2). Both are selection principles and should be named, not absorbed into "the BC forces it."
 
@@ -112,9 +112,9 @@ Step 5 reads n as the observable's length-dimension; the engine's selection rule
 
 ---
 
-## Candidate Proof: the Schur Separation
+## Proof: the Schur Separation
 
-*Drafted this session, pending review. If it holds, it supplies constraint 6 and promotes the factored form from OPEN to forced, conditional on the two scale-invariant conditions flagged at the end, both met by Friedrichs.*
+*Established this session and ratified on review. It supplies constraint 6 and promotes the factored form to forced, conditional on the two scale-invariant conditions flagged at the end (parity-preserving cone, δ₀/R > 2/e), both met by the Friedrichs default.*
 
 The factored form was the one structural row left open. Dimensionlessness does not separate Θ from (Ω, n), and Lemma 8 separates Θ only from the spectral parameter s. The gap is the step from Θ ⊥ s to Θ ⊥ (Ω, n). It closes once (Ω, n) is recognized as spectral-block data: the metric scale R entering the eigenvalues, nothing more.
 
@@ -140,7 +140,7 @@ First, the renormalization length δ₀ (the ε of the smoothed cone) enters the
 
 Second, and decisively, C(Θ) does not depend on δ₀ at all. It is built from the first-positive mode, which is the *symmetric* zonal mode sin(y/R) = sin(πΘ) at 2/R² (§4.2), and the symmetric tower is shared by the parity-preserving extensions (Friedrichs and the bridging family); δ₀ deforms only the *antisymmetric* sector (Prop 4.4, Thm 5.1). So for these extensions the covariance of the phase profile is a theorem, not an assumption: sin(πΘ) is the explicit Legendre mode, manifestly R-independent, with eigenvalue 2/R² scaling as 1/R². Two scale-invariant conditions bound the discharge, and both are named rather than assumed: (i) the cone condition is parity-preserving, since a parity-mixing (Robin-type) condition *can* deform the symmetric subsector (Thm 5.1 claims the symmetric tower's robustness only for Friedrichs and bridging, and its proof notes a general cone condition is not claimed robust); and (ii) δ₀/R > 2/e, below which the first-positive mode becomes the δ₀-dependent antisymmetric root and the profile would change. Friedrichs, the framework's default, is parity-preserving and sits at the δ₀ → ∞ end, so it satisfies both automatically.
 
-**This decouples the factorization from the extension selection**, reversing the tentative consolidation in an earlier draft. The factorization does not wait on which extension is chosen, because C(Θ) is the same symmetric mode across the whole parity-preserving, δ₀/R > 2/e regime. The extension question governs the ground state, which the factorization never samples. Steps A and C (the positional and zeta-completeness reductions) have been reviewed clean; what remains before the status moves from CANDIDATE PROOF to forced is confirmation that the symmetric-tower robustness is correctly scoped to the parity-preserving class (Thm 5.1), the one reading this draft tightened.
+**This decouples the factorization from the extension selection**, reversing the tentative consolidation in an earlier draft. The factorization does not wait on which extension is chosen, because C(Θ) is the same symmetric mode across the whole parity-preserving, δ₀/R > 2/e regime. The extension question governs the ground state, which the factorization never samples. Steps A and C (the positional and zeta-completeness reductions) were reviewed clean, and the parity-scoped reading of the symmetric-tower robustness (Thm 5.1) was confirmed on review; the status is forced for parity-preserving extensions with δ₀/R > 2/e, the extension-selection question, which governs only the ground state, not gating it.
 
 ---
 
@@ -162,9 +162,9 @@ The two open mechanisms sit outside this table. The α_W twist needs an operator
 
 ## What This Paper Would Establish
 
-The form is the unique measurement postulate compatible with S¹ = ∂M ↪ S³, ∂S³ = ∅, with anti-periodic BC and the 120-domain. Two pieces reach that bar now: the phase operator (anti-periodic intensity, with the harmonic selection (isotropy + orthogonality) and normalization named) and the integer-depth hierarchy (units, on the dilution sector). For these, the audit verdict moves from DECLARED to AXIOM (forced), and everything downstream that rides the integer hierarchy inherits that upgrade. The factored structure does not reach the bar yet: it requires the Schur separation (constraint 6), and dimensionlessness alone does not supply it.
+The form is the unique measurement postulate compatible with S¹ = ∂M ↪ S³, ∂S³ = ∅, with anti-periodic BC and the 120-domain. All three pieces reach that bar: the phase operator (anti-periodic intensity, with the harmonic selection (isotropy + orthogonality) and normalization named), the integer-depth hierarchy (units, on the dilution sector), and the factored structure (the Schur separation, constraint 6, for parity-preserving extensions with δ₀/R > 2/e). For these the audit verdict moves from DECLARED to AXIOM (forced), and everything downstream that rides the form inherits that upgrade.
 
-What stays as work: the factored form (the Schur separation Θ ⊥ (Ω, n)), the α_W twist mechanism, and the extension selection, all stated precisely enough to attack directly. The well assignments, manifold indices, and grid types remain the next layer, the traffic rules on the bridge, with "why 13 is the exponent floor" the load-bearing item there. Lifting the ladder rule from established to forced belongs to that layer too.
+What stays as work: the α_W twist mechanism and the extension selection, both off the form and both stated precisely enough to attack directly. The well assignments, manifold indices, and grid types remain the next layer, the traffic rules on the bridge, with "why 13 is the exponent floor" the load-bearing item there. Lifting the ladder rule from established to forced belongs to that layer too.
 
 ---
 
@@ -189,7 +189,7 @@ The composition reading of depth (dilution multiplies across layers, so the dept
 | Paper | What it establishes | What this paper adds |
 |-------|--------------------|--------------------|
 | Sector A (eigenvalue) | First positive eigenvalue 2/R² on Möbius in S³; the ground state is the extension-dependent zero mode | That paper gives the eigenvalue. This paper shows the rule that reads it is unique. |
-| Lemma 8 | Θ decouples from the spectral parameter s | The same Schur mechanism supplies constraint 6, once the depth index is connected to the spectral block. |
+| Lemma 8 | Θ decouples from the spectral parameter s | The same Schur mechanism supplies constraint 6: the depth index is connected to the spectral block by the homothety reduction (proved here), extending Θ ⊥ s to Θ ⊥ (Ω, n). |
 | Mass spectrum | Fermion masses via torsion × C_geom × McKay elevator | Supplies the only route to an independent R (electron and muon at different McKay distances), and hosts the R-determination open item. |
 | Gauge ladder | Coupling exponents from carrier and confinement character | Supplies the 1/60 and 1/120 exponents. This paper would lift that rule from established to forced. |
 | Scaling Law (this paper) | Uniqueness of the sampling rule | Completes the triad: eigenvalue, boundary, measurement. |
@@ -198,13 +198,13 @@ The composition reading of depth (dilution multiplies across layers, so the dept
 
 ## Notes
 
-The strongest version of this result would show the scaling law is the ONLY measurement rule, not merely the simplest. Two of its three pieces reach that bar: the phase operator and the integer hierarchy are forced, by the anti-periodic BC and by units. The factored structure does not: it awaits the Schur separation, and dimensionlessness does not stand in for it. Simplicity never entered.
+The strongest version of this result would show the scaling law is the ONLY measurement rule, not merely the simplest. All three of its pieces reach that bar: the phase operator and the integer hierarchy by the anti-periodic BC and by units, and the factored structure by the Schur separation (for parity-preserving extensions with δ₀/R > 2/e), with dimensionlessness explicitly not standing in for it. Simplicity never entered.
 
 The honest deflation that came with closing the integer hierarchy: the apparent miracle of "many orders of magnitude from topology" is units. R/ℓ_P is a calibrated ratio, and raising it to the observable's dimension is dimensional analysis. The genuine content sits in C(Θ), and the coupling exponents sit in the ladder rule that units do not reach. Naming this plainly is what lets the open mechanisms stand out as the real work.
 
 ---
 
-*"The topology leaves no room for anything else" is now true for the phase operator and the integer-depth hierarchy, open for the factorization (the Schur separation), established for the coupling exponents, and a precise open question for the α_W twist and the extension selection.*
+*"The topology leaves no room for anything else" is now true for the phase operator, the integer-depth hierarchy, and the factorization (the Schur separation, for parity-preserving extensions with δ₀/R > 2/e), established for the coupling exponents, and a precise open question for the α_W twist and the extension selection.*
 
 ---
 
