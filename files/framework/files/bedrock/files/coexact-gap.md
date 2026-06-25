@@ -1,4 +1,4 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`bedrock`](../../../framework/files/bedrock/)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`bedrock`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
 
 ---
 
@@ -257,4 +257,4 @@ Every irreducible flat $`\mathrm{SU}(2)`$ connection on a spherical space form t
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`bedrock`](../../../framework/files/bedrock/)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`bedrock`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
