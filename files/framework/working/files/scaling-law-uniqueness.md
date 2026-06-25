@@ -22,7 +22,7 @@ If not, the scaling law is forced by the topology. Not derived from it in the us
 
 ---
 
-## What This Session Closed
+## What's Closed
 
 The proof splits into three structural pieces, and all three close. The phase operator and the integer-depth hierarchy reduce to transparent results (anti-periodic BC; dimensional analysis). The third, the factored form, follows from the Schur separation (Lemma 8 + homothety reduction; dimensionlessness does not supply it), proved below. The heavy machinery once aimed at the hierarchy addresses a target that dimensional analysis already settles.
 
