@@ -12,7 +12,7 @@ What began as an inadvertent search query turned philosophy, turned topology, tu
 
 Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; while time ticks in phase, not in the background.
 
-In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest; is accounting.
+In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, one identity, and one interface. The rest; is accounting.
 
 ---
 
@@ -83,6 +83,16 @@ The binary icosahedral group $2I$ is the largest exceptional discrete subgroup o
 **Vertices.** $Z_5$ sets the electroweak address — the five-fold vertex stabilizers carry weak isospin $T_3$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum selects the generation.
 
 Three primes. Three stabilizers. Every force, every particle, every quantum number.
+
+🪡 **One Interface:**
+
+$$\Large \boxed{\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}}$$
+
+Everything so far, the wells, the masses, the charges, is structure stamped onto a smooth space that knows none of it. Two seams pin it there: the Möbius surface embeds to set the vacuum $\Lambda$, and the quotient stamps the 120-grid to set matter.
+
+Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is that 3/2; everywhere else it stays Einstein's, untouched.
+
+The two sides are different in kind, one smooth, one discrete, so gravity will not quantize like the rest. That was never the missing piece. It is the seam doing its job.
 
 ---
 
