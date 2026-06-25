@@ -110,4 +110,6 @@ The disposition is unchanged in destination and sharper in reason. The direction
 
 *Update 1, drafted 2026-06-24. The per-galaxy reconstruction (§§6–7) runs on the public MUSE-DARK release; the MOND free-fit $a_0$ values remain unreleased, so the clean ground-based test waits on them or on Euclid DR1.*
 
+---
+
 / **[`main`](../../../README.md)** / **[`cosmos`](../../cosmos/)** / **[`early galaxies`](early-galaxies.md)** /
