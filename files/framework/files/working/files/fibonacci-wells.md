@@ -1,10 +1,10 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
 
 ---
 
 # Fibonacci Wells: Forcing Worksheet
 
-*Working note. Tracks the well-placement problem: where it stands, what has been ruled out, and the one residual that remains. Workbench voice (status tags, raw numbers); the public [framework page](../../README.md) now carries the relationship-level version of this framing (recurrence + lcm seam + the open residual), with the detailed status and the probe log kept here.*
+*Working note. Tracks the well-placement problem: where it stands, what has been ruled out, and the one residual that remains. Workbench voice (status tags, raw numbers); the public [framework page](../../../README.md) now carries the relationship-level version of this framing (recurrence + lcm seam + the open residual), with the detailed status and the probe log kept here.*
 
 **Current status: STRUCTURALLY REDUCED, not DERIVED.** The old claim, "φ worst-approximability gives Fibonacci numerators on the fixed 120-grid," has been abandoned. The problem has been reduced to a sharper residual:
 
@@ -12,7 +12,7 @@
 
 The new frame is stronger because it keeps the wells internal to the locked structure. The 120-domain is already fixed by `S³/2I`; the branch orders `(2,3,5)` already live inside the icosahedral data; the Fibonacci continuation is therefore not imported from an external approximation argument. The same sequence first builds the domain, then samples it.
 
-The Mirror note ([the-mirror.md](../../../spectrum/files/the-mirror.md)) adds two constraints that matter here:
+The Mirror note ([the-mirror.md](../../../../spectrum/files/the-mirror.md)) adds two constraints that matter here:
 
 1. the bulk spectral/character algebra is Θ-blind, so the well-selection functional cannot be a bulk spread, discrepancy, or energy functional;
 2. φ is internal to `2I` through the character field `Q(√5)`, not an external Hurwitz postulate.
@@ -131,7 +131,7 @@ The first well is full-resolution; the later wells each combine one icosahedral 
 
 ## Mirror constraint (where the proof must live)
 
-The bulk character algebra supplies the arithmetic: `2I`, `E₈`, `Q(√5)`, the `{2,3,5}` prime base, the character ceiling. But Lemma 8 ([the-mirror.md](../../../spectrum/files/the-mirror.md)) says the bulk spectral side is Θ-blind: it cannot naturally recover the boundary phase coordinate.
+The bulk character algebra supplies the arithmetic: `2I`, `E₈`, `Q(√5)`, the `{2,3,5}` prime base, the character ceiling. But Lemma 8 ([the-mirror.md](../../../../spectrum/files/the-mirror.md)) says the bulk spectral side is Θ-blind: it cannot naturally recover the boundary phase coordinate.
 
 Therefore a bulk functional cannot select the wells. Generic spread, energy, discrepancy, and circle-packing tests are the wrong arena. They prefer uniform spacing, and in the probe they do (gap-variance favors equal spacing; inverse-distance favors `{9,25,43,59}`).
 
@@ -179,4 +179,4 @@ The same Lemma 8 that locates the well functional on the boundary also bears on 
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /

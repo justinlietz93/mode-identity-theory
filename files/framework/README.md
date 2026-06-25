@@ -1,4 +1,4 @@
-/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`bedrock`](files/bedrock/)** / **[`working`](files/working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
 
 ---
 
@@ -116,9 +116,9 @@ $$\Large {\Psi = \cos(t/2)}$$
 
 The cosine has a complement. Write $S = \sin(t/2)$; then $\Psi^2 + S^2 = 1$ partitions the total amplitude into two shares at every phase. The budget reading: $\Psi^2$ is standing-wave content, $S^2$ is realized-mode content, and cosmic evolution is this partition rotating, weight transferring $\Psi^2 \to S^2$ as the phase advances while the space stays static and the resolved fraction grows. That single state variable $S$ is what the cosmological observables read.
 
-**One state, several readings.** The clock below turns $S$ into the Hubble rate $H(z)$, which fits Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ versus flat ΛCDM at the same parameter count: a static universe recovering the distance ladder. The same $S$ answers the two questions a static cosmos invites. Redshift is a phase ratio, $1 + z = S(t_\text{obs})/S(t_\text{emit})$, the observer reading the wave from farther along it rather than space carrying source and observer apart. Cooling is that ratio applied to the bath: one factor rescales every wavelength alike, so the blackbody survives at $T \propto 1/S$. The [budget map](../framework/working/files/budget-map.md) keeps the full accounting.
+**One state, several readings.** The clock below turns $S$ into the Hubble rate $H(z)$, which fits Pantheon+ and DESI DR2 BAO at $\Delta\chi^2 = +0.11$ versus flat ΛCDM at the same parameter count: a static universe recovering the distance ladder. The same $S$ answers the two questions a static cosmos invites. Redshift is a phase ratio, $1 + z = S(t_\text{obs})/S(t_\text{emit})$, the observer reading the wave from farther along it rather than space carrying source and observer apart. Cooling is that ratio applied to the bath: one factor rescales every wavelength alike, so the blackbody survives at $T \propto 1/S$. The [budget map](files/working/files/budget-map.md) keeps the full accounting.
 
-The Waltz clock $dt/d\tau = S^{-1/2}$ turns budget phase into conformal time $\tau$ (the [budget note](../framework/working/files/temporal-budget.md) convention), and proper time is one step further, $dT = a\,d\tau$ with $a \propto S$, so $dT/dt = S^{3/2}$. Because $S$ is small early, the proper-time age accrues slowly per unit phase: the early universe spans a long stretch of phase for little proper time, and the present age is read only after the clock map is calibrated.
+The Waltz clock $dt/d\tau = S^{-1/2}$ turns budget phase into conformal time $\tau$ (the [budget note](files/working/files/temporal-budget.md) convention), and proper time is one step further, $dT = a\,d\tau$ with $a \propto S$, so $dT/dt = S^{3/2}$. Because $S$ is small early, the proper-time age accrues slowly per unit phase: the early universe spans a long stretch of phase for little proper time, and the present age is read only after the clock map is calibrated.
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
@@ -150,7 +150,7 @@ So $A/A_P$ just asks how big the measured thing is in those units. For the Hubbl
 
 ### The Phase Operator
 
-$C(\Theta)$ is set by the topology in two steps. The anti-periodic boundary condition (the Möbius sign flip) forces the sinusoidal family: the eigenbasis is the half-integer tower, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](../framework/working/files/scaling-law-uniqueness.md) carries the detail). Background symmetry then selects the member: isotropy and orthogonality pick the lowest harmonic, the first-positive mode, and the boundary node picks sine over cosine, giving $\psi_1(\Theta) = \sin(\pi\Theta)$, zero at the two boundaries and peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $\lvert\psi_1\rvert^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
+$C(\Theta)$ is set by the topology in two steps. The anti-periodic boundary condition (the Möbius sign flip) forces the sinusoidal family: the eigenbasis is the half-integer tower, with no polynomial, exponential, or rational profile surviving (the [uniqueness argument](files/working/files/scaling-law-uniqueness.md) carries the detail). Background symmetry then selects the member: isotropy and orthogonality pick the lowest harmonic, the first-positive mode, and the boundary node picks sine over cosine, giving $\psi_1(\Theta) = \sin(\pi\Theta)$, zero at the two boundaries and peaking at the antinode. An observer registers intensity, the squared amplitude, so the weight is $\lvert\psi_1\rvert^2 = \sin^2(\pi\Theta)$, normalized to unit mean over the domain:
 
 $$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
@@ -223,7 +223,7 @@ Evaluating the scaling law at each well:
 
 > * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss equation conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor).
 >
-> The numerical $\Lambda$ is therefore a surface-sector calibration rather than an independent prediction. The [first-eigenvalue paper](bedrock/first-eigenvalue.md) establishes the geometric side: the twisted Laplacian on the constant-curvature Möbius band has first positive eigenvalue $2/R_\Lambda^2$, stable across the cone's self-adjoint extensions even though none has a positive ground state. The framework reads that eigenvalue as $\Lambda_\text{top}$, the physics worked through on the [cosmological constant](../cosmos/files/cosmological-constant.md) page.
+> The numerical $\Lambda$ is therefore a surface-sector calibration rather than an independent prediction. The [first-eigenvalue paper](files/bedrock/first-eigenvalue.md) establishes the geometric side: the twisted Laplacian on the constant-curvature Möbius band has first positive eigenvalue $2/R_\Lambda^2$, stable across the cone's self-adjoint extensions even though none has a positive ground state. The framework reads that eigenvalue as $\Lambda_\text{top}$, the physics worked through on the [cosmological constant](../cosmos/files/cosmological-constant.md) page.
 
 **Calibration structure.** $H_0$ fixes the edge normalization $N = H_0 t_P / C(34/120)$; the other edge observables follow from $N$ as predictions, and the $\approx$ in the scaling law marks this single calibration. Any ratio of two edge-mode $C$ factors cancels $N$, so it is a zero-parameter prediction.
 
@@ -297,7 +297,7 @@ Why three generations, and not two or seven? Because the space has exactly three
 
 Three topological vacua give three particle generations; the count is forced. Trivial and Standard are degenerate in gap, while Galois is distinguished by the 9× enhancement: the gap is the square of the adjoint's McKay distance, and the Galois adjoint sits at distance 6 against the standard adjoint's 2, so $36/4 = (6/2)^2 = 9$. The Galois vacuum is a genuine third connection, not a twist of the standard one, because $2I$ is perfect (equal to its own commutator subgroup): its only one-dimensional character is trivial, so the standard connection $Q$ and its Galois conjugate $Q^\prime$ stay distinct under every twist. The specific generation-to-vacuum mapping is open.
 
-The [coexact gap paper](bedrock/coexact-gap.md) establishes the spectral side: across the entire ADE classification of finite subgroups of SU(2) the adjoint coexact gap is uniformly $4/R_\Lambda^2$, with a single break, the Galois connection on $S^3/2I$ at $36/R_\Lambda^2$, and that break is forced by perfectness, the property that distinguishes $2I$ alone among the finite subgroups of SU(2). The framework reads this exception as selection evidence, converging with the input-minimization argument that independently terminates on $2I$, so $S^3/2I$ is taken as the physical quotient on two grounds rather than one.
+The [coexact gap paper](files/bedrock/coexact-gap.md) establishes the spectral side: across the entire ADE classification of finite subgroups of SU(2) the adjoint coexact gap is uniformly $4/R_\Lambda^2$, with a single break, the Galois connection on $S^3/2I$ at $36/R_\Lambda^2$, and that break is forced by perfectness, the property that distinguishes $2I$ alone among the finite subgroups of SU(2). The framework reads this exception as selection evidence, converging with the input-minimization argument that independently terminates on $2I$, so $S^3/2I$ is taken as the physical quotient on two grounds rather than one.
 
 ### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)
 
@@ -443,4 +443,4 @@ Edge observables reference the evolving $\Omega_H(z)$; surface and space observa
 
 ---
 
-/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`bedrock`](files/bedrock/)** / **[`working`](files/working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /

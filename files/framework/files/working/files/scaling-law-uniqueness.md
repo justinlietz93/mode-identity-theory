@@ -1,4 +1,4 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
 
 ---
 
@@ -132,7 +132,7 @@ Independence is necessary but not sufficient. A joint function K = C(Θ)·F(n) +
 
 $$\mathcal{A}_\text{obs} = \mathcal{A}_\Theta \otimes \mathcal{A}_\text{spec}, \qquad \text{equivalently } \mathrm{Comm}_{SU(2)}(\mathcal{H}_\Theta \otimes \mathcal{H}_{2I}) = \mathcal{A}_\Theta \otimes \mathcal{A}_{2I},$$
 
-with the commutant containing no operator of the form h(Θ, λ_l). Schur (scalar on each block) and Lemma 8 (no natural Θ-spectral map) motivate this factorization but do not prove it. **This commutant theorem is the open target.** A candidate closure has since appeared from the spectral side: [the-mirror.md](../../../spectrum/files/the-mirror.md) proves the 2I character algebra is the *closed* ceiling for basis-independent bulk content (Props 1-3, Lemma 7), and Lemma 8 puts Θ outside it. That is the algebra-completeness this step lacked; Schur + homothety gave only coordinate-independence. A bridge lemma over the observable class, the first-positive boundary mode adjoined to the mirror's Definition-2 spectral constructions, would then forbid any natural h(Θ, λ) and close the separation, pending a check that the two classes compose as stated. This is a candidate, not a closure. Granted it, K splits as C(Θ)·F(n) and
+with the commutant containing no operator of the form h(Θ, λ_l). Schur (scalar on each block) and Lemma 8 (no natural Θ-spectral map) motivate this factorization but do not prove it. **This commutant theorem is the open target.** A candidate closure has since appeared from the spectral side: [the-mirror.md](../../../../spectrum/files/the-mirror.md) proves the 2I character algebra is the *closed* ceiling for basis-independent bulk content (Props 1-3, Lemma 7), and Lemma 8 puts Θ outside it. That is the algebra-completeness this step lacked; Schur + homothety gave only coordinate-independence. A bridge lemma over the observable class, the first-positive boundary mode adjoined to the mirror's Definition-2 spectral constructions, would then forbid any natural h(Θ, λ) and close the separation, pending a check that the two classes compose as stated. This is a candidate, not a closure. Granted it, K splits as C(Θ)·F(n) and
 
 $$\frac{A}{A_P} = C(\Theta) \cdot [F(n)(\sqrt{\Omega})^{-n}] = C(\Theta) \cdot g(\Omega, n). \qquad \blacksquare \text{ (modulo the commutant theorem)}$$
 
@@ -214,4 +214,4 @@ The honest deflation that came with closing the integer hierarchy: the apparent 
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /

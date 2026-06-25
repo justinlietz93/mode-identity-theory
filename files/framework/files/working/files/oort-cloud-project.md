@@ -1,4 +1,4 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
 
 ---
 
@@ -35,8 +35,8 @@ Derived, tested, load-bearing. Pick up and use.
 | 120-grid | Phase resolution native to $S^3$ | Binary icosahedral group ($\|2I\| = 120$) | MIT II.D |
 | $\sqrt{\Omega} = 10^{61}$ | Observer midpoint | UV-IR fixed point on bounded domain | MIT II.C |
 | $(\sqrt{\Omega})^{-n}$ | Hierarchy factor | Volume dilution in $n$-manifold | MIT II.C |
-| 3/2 conversion | Perception geometry: surface-to-venue | Gauss-Codazzi, minimal embedding, isotropy | [The Waltz](../../../spectrum/files/the-waltz.md) |
-| $\Lambda_{\text{obs}} \approx 2.9 \times 10^{-122}$ | Cosmological constant prediction | Scaling law + 3/2 conversion (~2% agreement) | [The Waltz](../../../spectrum/files/the-waltz.md) |
+| 3/2 conversion | Perception geometry: surface-to-venue | Gauss-Codazzi, minimal embedding, isotropy | [The Waltz](../../../../spectrum/files/the-waltz.md) |
+| $\Lambda_{\text{obs}} \approx 2.9 \times 10^{-122}$ | Cosmological constant prediction | Scaling law + 3/2 conversion (~2% agreement) | [The Waltz](../../../../spectrum/files/the-waltz.md) |
 | $\tau = T/120$ | Chronon at any scale | 120-grid applied to mode period $T$ | Chronon note |
 | $\tau_c/\tau_P = \sqrt{\Omega}$ | Chronon ratio spans $10^{61}$ | Same midpoint, temporal channel | Chronon note |
 | $L_f = v_c^2/a_0$ | Coherence scale (galactic, ~13 kpc). SPARC-falsified as single coherence radius; retained as the tested candidate | Phase field mechanics | MIT II.G |
@@ -213,7 +213,7 @@ MIT reading: if the observer's coherence domain is anchored to the ecliptic (Pie
 
 Prediction (if the chain holds): an observer in another stellar system would resolve CMB features through THEIR local symmetry plane. Not a different CMB. The same wave, witnessed from a different stand. (See Section III: coherence domains vary the lens, not the light.)
 
-Status: DOWNSTREAM, with one route now closed. The topological avenue for this alignment, even/odd-ℓ grading on $S^3/2I$, is dead: the quotient is chiral, carrying no orientation-reversing identification (see [CMB Anomalies](../../../cosmos/files/cmb-anomalies.md), [R problem](r-problem.md)). The locality reading above is what remains, it competes with the mundane ecliptic-systematics explanation, and it still requires Pieces A, B, and C. If they lock, this follows; if any fail, no foundation.
+Status: DOWNSTREAM, with one route now closed. The topological avenue for this alignment, even/odd-ℓ grading on $S^3/2I$, is dead: the quotient is chiral, carrying no orientation-reversing identification (see [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md), [R problem](r-problem.md)). The locality reading above is what remains, it competes with the mundane ecliptic-systematics explanation, and it still requires Pieces A, B, and C. If they lock, this follows; if any fail, no foundation.
 
 ### Piece F: Galactic Year $\approx$ cosmic chronon
 
@@ -314,7 +314,7 @@ The structure doesn't change. The scale does. The Love doesn't change. The witne
 
 ## X. Notes
 
-**On the 3/2 and this project.** The 3/2 conversion is already locked at cosmological scale ([The Waltz](../../../spectrum/files/the-waltz.md)). This project asks whether it also operates at local scale, with the Oort Cloud defining where "local" ends. The ratio doesn't change. The realization site does.
+**On the 3/2 and this project.** The 3/2 conversion is already locked at cosmological scale ([The Waltz](../../../../spectrum/files/the-waltz.md)). This project asks whether it also operates at local scale, with the Oort Cloud defining where "local" ends. The ratio doesn't change. The realization site does.
 
 **On what "coherence boundary" means.** Not a wall. Not a force field. The boundary where one gravitational mode's dominance gives way to the next. Inside: sampling channels are phase-locked to that mode's symmetry. Outside: they phase-lock to the next mode up. The wave is coherent everywhere. The exchange rate ($G$) is the same everywhere. The witness stand changes.
 
@@ -328,4 +328,4 @@ The structure doesn't change. The scale does. The Love doesn't change. The witne
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /

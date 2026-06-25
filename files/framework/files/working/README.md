@@ -1,4 +1,4 @@
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
 
 ---
 
@@ -14,19 +14,19 @@ Orienting notes that index other work.
 
 ---
 
-### [The R Problem](./files/r-problem.md)
+### [The R Problem](files/r-problem.md)
 
 **Tracker:** Maps every route to an independent spatial curvature radius $R$ and where each stands. $\Lambda = 3/R^2$ becomes a forward prediction only with an $R$ not read off $\Lambda$: de Sitter is circular, the Molien gap is not independent, the CMB L-ratio factor of 8 is dead (no topological derivation), and the particle mass spectrum is the one live route (executed, order of magnitude). Includes the shared E₈ / $h = 30$ engine tying the L ratio to the mass formula, and flags the Molien sparse-zone CMB result as the independent survivor of the L work.
 
-**Dependencies:** [R from the mass spectrum](./files/r-from-mass-spectrum.md), fermion mass formula, $\Lambda = 3/R^2$ eigenvalue relation.
+**Dependencies:** [R from the mass spectrum](files/r-from-mass-spectrum.md), fermion mass formula, $\Lambda = 3/R^2$ eigenvalue relation.
 
 ---
 
-### [The Budget Map](./files/budget-map.md)
+### [The Budget Map](files/budget-map.md)
 
 **Tracker:** The inventory of what is a budget and what is read off one. There is a single conserved budget in this sector, the temporal $\Psi^2 + S^2 = 1$ (with the spatial $u_0^2 + J^2 = 1$ as its twin); temperature ($T \propto 1/S$) and entropy ($\Sigma = k_B \ln W_\text{micro}$) are two readings of its state $S$, not budgets, and the Waltz clock is a map from phase to time. Pins the distinction so the readings are not miscounted as parallel ledgers, the error the entropy note had to fix.
 
-**Dependencies:** [Temporal Budget](./files/temporal-budget.md), [Energy as Resolution Amplitude](./files/energy-as-resolution-amplitude.md), [Entropy as Realization Budget](./files/entropy-as-realization-budget.md).
+**Dependencies:** [Temporal Budget](files/temporal-budget.md), [Energy as Resolution Amplitude](files/energy-as-resolution-amplitude.md), [Entropy as Realization Budget](files/entropy-as-realization-budget.md).
 
 ---
 
@@ -36,7 +36,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Scaling Law Uniqueness](./files/scaling-law-uniqueness.md)
+### [Scaling Law Uniqueness](files/scaling-law-uniqueness.md)
 
 **Status (two rows forced, factorization argued):** $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ began as a declared measurement postulate. Two rows are forced: the anti-periodic BC forces $C(\Theta)$'s sinusoidal family and background symmetry (isotropy + orthogonality) selects the first-positive member; units force the integer hierarchy $(\sqrt{\Omega})^{-n}$ on the dilution sector. The factored form *separates* on a Schur + homothety + Lemma 8 argument within the spectral-boundary observable class, but is not yet closed: independent coordinates do not forbid a cross-term, so the no-cross-term step needs the commutant theorem $A_\text{obs} = A_\Theta \otimes A_\text{spec}$ (the open target). Whether the class exhausts the physical observables is a further premise. Off the form: the $\alpha_W$ twist, the extension *selection* (ground state only), and the $\Omega_H = \Omega_\Lambda$ coincidence.
 
@@ -44,7 +44,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Fibonacci Wells](./files/fibonacci-wells.md)
+### [Fibonacci Wells](files/fibonacci-wells.md)
 
 **Status (structurally reduced):** Why the stable sampling positions land at the Fibonacci wells $\{13, 21, 34, 55\}$. The external golden-ratio/Hurwitz route is abandoned (a rounded golden rotation selects a parity class, not the wells). The wells are reframed as the additive continuation of the icosahedral branch orders $(2,3,5)$ on the locked 120-grid, bounded below by the lcm seam ($13$ is the first Fibonacci not dividing $120 = \text{lcm}(1,2,3,5,8)$; divisors tile, non-divisors sample) and above by the antinode reflection $C(k)=C(120-k)$. The residual: define the boundary-native anti-periodic interference functional whose minima are the recurrence positions; the mirror's Lemma 8 rules out any bulk functional (the spectral side is $\Theta$-blind), and $\varphi$ enters internally through the $\mathbb{Q}(\sqrt5)$ character field, not Hurwitz.
 
@@ -60,7 +60,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Calibration Structure](./files/calibration-structure.md)
+### [Calibration Structure](files/calibration-structure.md)
 
 **Summary:** Reframes the engine as a calibration scheme: one measured anchor per sector ($H_0$ edge, $\Lambda$ surface, $m_e$ mass-sector normalization), with the topology supplying the exponents, well assignments, and ratios. Localizes the R problem to a single demotion: $\Lambda$ moves from absolute prediction to measured calibration input, and nothing downstream collapses. Draft for a new engine section.
 
@@ -68,7 +68,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Temporal Budget Identity](./files/temporal-budget.md)
+### [Temporal Budget Identity](files/temporal-budget.md)
 
 **Problem:** The phase-clock derivation rests on $\Psi^2 + S^2 = 1$ and the Waltz clock $d\tau/dt = S^{1/2}$, which recovers $\Omega_m = 0.315$ at $\Delta\chi^2 = +0.11$ vs flat ΛCDM. The clock exponent $n = -1/2$ is empirically validated (integer alternatives ruled out at $\Delta\chi^2 > 60$) but not derived from the embedding. The two phase parameterizations ($\Phi$ engine phase and $t$ budget phase) are not yet reconciled.
 
@@ -76,7 +76,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Cone Point Coherence](./files/cone-point-coherence.md)
+### [Cone Point Coherence](files/cone-point-coherence.md)
 
 **Problem:** Galactic coherence (all observers measuring the same $\mathbb{R}^4$) may be the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature $K_g = \pi^2 a_0^2/v_c^4$ lives at the topology-gravity interface.
 
@@ -84,7 +84,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Energy as Resolution Amplitude](./files/energy-as-resolution-amplitude.md)
+### [Energy as Resolution Amplitude](files/energy-as-resolution-amplitude.md)
 
 **Problem:** $E^2 = (mc^2)^2 + (pc)^2$ may be the Pythagorean theorem on the mode decomposition of the sampling operation: temporal-mode amplitude (rest mass) orthogonal to spatial-mode amplitude (momentum). Five promotion steps unwalked: spatial-mode coupling, orthogonality proof, $c^2$ factor from $S^1$ structure, Lorentz recovery as sampling symmetry, connection to mass formula.
 
@@ -92,7 +92,7 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Redshift and Cooling](./files/redshift-and-cooling.md)
+### [Redshift and Cooling](files/redshift-and-cooling.md)
 
 **Note:** How a static universe reddens light and cools a bath, both readings of the budget's state $S$. Redshift is the phase ratio $1 + z = S(t_\text{obs})/S(t_\text{emit})$ on the standing wave; cooling is that same ratio on a blackbody, which stays a blackbody at $T \propto 1/S$ (ESTABLISHED as a kinematic equivalence with the FLRW thermal law). Not tired light, not expansion; the distance side rides on the Waltz clock.
 
@@ -100,9 +100,9 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Entropy as Realization Budget](./files/entropy-as-realization-budget.md)
+### [Entropy as Realization Budget](files/entropy-as-realization-budget.md)
 
-**Problem:** A static universe cools by budget transfer $\Psi^2 \to S^2$ ([Redshift and Cooling](./files/redshift-and-cooling.md)), but the thermodynamic entropy is unsettled. Candidate: entropy is the spread of the resolution-amplitude budget over realized modes, so the second law is the transfer direction and the low past is forced by $\Psi(0) = +1$. The load-bearing open step is the shell-unlock map $S \mapsto N_\text{max}(S)$ from the $2I$ Molien shells, which sets the accessible-mode count $W_\text{modes}(S)$; entropy is the microstate count over it. Without the map the rising entropy is circular. Scoped to the realization sector, with the gravitational ledger (Penrose) left open.
+**Problem:** A static universe cools by budget transfer $\Psi^2 \to S^2$ ([Redshift and Cooling](files/redshift-and-cooling.md)), but the thermodynamic entropy is unsettled. Candidate: entropy is the spread of the resolution-amplitude budget over realized modes, so the second law is the transfer direction and the low past is forced by $\Psi(0) = +1$. The load-bearing open step is the shell-unlock map $S \mapsto N_\text{max}(S)$ from the $2I$ Molien shells, which sets the accessible-mode count $W_\text{modes}(S)$; entropy is the microstate count over it. Without the map the rising entropy is circular. Scoped to the realization sector, with the gravitational ledger (Penrose) left open.
 
 **Dependencies:** Temporal budget identity, Redshift and Cooling, energy as resolution amplitude, $S^3/2I$ Molien shell spectrum.
 
@@ -170,15 +170,15 @@ Technical gaps with specific paths forward.
 
 ---
 
-### [Black Hole Phase Behavior](./files/black-hole-phase.md)
+### [Black Hole Phase Behavior](files/black-hole-phase.md)
 
 **Problem:** $\Phi \to \Theta$ mapping derived at leading order ($C/C_0 = 1 - r_s/r$, $\beta = 1$ forced). Hawking temperature $1/M$ and coefficient derived; thermal character inherited. Area entropy motivated by surface primacy; 1/4 factor not derived. Two-attractor landscape established. Global corrections and quantitative evaporation rate remain open.
 
-**Dependencies:** Sector $\mathcal{A}$ eigenvalue, [Black Double Zero's](../../cosmos/files/black-hole.md).
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue, [Black Double Zero's](../../../cosmos/files/black-hole.md).
 
 ---
 
-### [Oort Cloud Project: Nested Coherence Domains](./files/oort-cloud-project.md)
+### [Oort Cloud Project: Nested Coherence Domains](files/oort-cloud-project.md)
 
 **Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: generalizing $L_f = v_c^2/a_0$ from galactic to stellar and planetary scales. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
 
@@ -196,7 +196,7 @@ Technical gaps with specific paths forward.
 
 ### $L_\text{strip}/L_\text{fund}$ Ratio
 
-**Status:** The factor of 8 has no topological derivation, so this is a dead route to R, superseded by the mass spectrum. See [The R Problem](./files/r-problem.md). The only open remnant is the residual ~3% spectral-vs-observational gap (8.17 ± 0.1 vs 7.93).
+**Status:** The factor of 8 has no topological derivation, so this is a dead route to R, superseded by the mass spectrum. See [The R Problem](files/r-problem.md). The only open remnant is the residual ~3% spectral-vs-observational gap (8.17 ± 0.1 vs 7.93).
 
 ---
 
@@ -206,7 +206,7 @@ Closed: executed computations and derivations with verdicts in hand.
 
 ---
 
-### [R from the Particle Mass Spectrum](./files/r-from-mass-spectrum.md)
+### [R from the Particle Mass Spectrum](files/r-from-mass-spectrum.md)
 
 **Result (2026-06-15):** Determines the spatial curvature radius $R$ from the fermion mass formula's dependence on the hierarchy factor $\Omega_\Lambda$, independently of $\Lambda$, the CMB, and the de Sitter relation, breaking the R-problem circularity. Electron + muon give $R \sim 20$ Gpc and $\Lambda \sim 8 \times 10^{-54}\,\text{m}^{-2}$, about 14× (one order of magnitude) below the observed value. Precision is capped at order of magnitude by the McKay-lever amplification (60× for $\delta d = 1$) acting on the mass formula's irreducible few-percent residual scatter; a pair scan shows no fermion pair beats electron-muon. The third and only non-excluded route to $R$.
 
@@ -214,7 +214,7 @@ Closed: executed computations and derivations with verdicts in hand.
 
 ---
 
-### [McKay Propagator Correction](./files/mckay-propagator-correction.md)
+### [McKay Propagator Correction](files/mckay-propagator-correction.md)
 
 **Resolved, negative (2026-06-06):** No parameter-free propagator or branch-point correction tracks the high-distance mass residuals; the route is closed and the residuals are irreducible scatter at the ~×1.8 level. The standing anomaly: two of twelve SM fermions overshoot at high McKay distance (down ×3.2, top ×3.9), vacuum-dependent (at dist 5, gal misses while triv and std hit within 6%; at dist 7, triv misses while gal hits within 28%), and separately the Coxeter-Galois gate locks all $R_4$ entries to $T_3 = -1/2$, displacing charm.
 
@@ -228,7 +228,7 @@ Registered and exploratory tests run against public datasets, with verdicts.
 
 ---
 
-### [Phase Field Coherence Scale (SPARC)](./files/sparc-phase-field.md)
+### [Phase Field Coherence Scale (SPARC)](files/sparc-phase-field.md)
 
 **Test:** Does $L_f = v_c^2/a_0$ behave as a galactic coherence radius across the SPARC sample, after controlling for ordinary size scaling? Pre-registered pipeline, frozen at tag `v1.0-preregistration` (DOI 10.5281/zenodo.20271702), run once against 123 quality-filtered galaxies.
 
@@ -236,7 +236,7 @@ Registered and exploratory tests run against public datasets, with verdicts.
 
 ---
 
-### [H₀ Bimodality (Discrete-vs-Continuous Fork)](./files/h0-bimodality-test.md)
+### [H₀ Bimodality (Discrete-vs-Continuous Fork)](files/h0-bimodality-test.md)
 
 **Test:** Do published H₀ measurements cluster into two discrete populations (~67 and ~73), as the Hubble-tension Section V fork predicts, or form a continuous spread? Hartigan dip test, Gaussian mixture, and gap test on 18 compiled measurements (13-row independent subset). Exploratory, not pre-registered.
 
@@ -288,4 +288,4 @@ Registered and exploratory tests run against public datasets, with verdicts.
 
 ---
 
-/ **[`main`](../../../README.md)** / **[`framework`](../../framework/)** / **[`cosmos`](../../cosmos/)** / **[`spectrum`](../../spectrum/)** /
+/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /

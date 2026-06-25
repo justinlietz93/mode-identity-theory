@@ -325,7 +325,7 @@ The wall is structural, not technical. A unifying geometric mechanism is capture
 
 The Ricci curvature of $S^3$ is $\mathrm{Ric}=2/R^2>0$. This positive number does two things simultaneously:
 
-**Physics (the mass gap):** Positive Ricci puts a Weitzenböck floor $\lambda\geq2/R^2>0$ under every gauge fluctuation on $S^3/2I$, lifting the spectrum off zero so the mass gap exists. The exact gap is sharper than the floor: the coexact spectrum read through the McKay structure gives $4/R^2$ at the trivial and standard vacua and $36/R^2$ at the Galois vacuum, a ninefold enhancement (the [coexact gap](../../framework/bedrock/coexact-gap.md) paper). Every mode is massive. Matter is realized.
+**Physics (the mass gap):** Positive Ricci puts a Weitzenböck floor $\lambda\geq2/R^2>0$ under every gauge fluctuation on $S^3/2I$, lifting the spectrum off zero so the mass gap exists. The exact gap is sharper than the floor: the coexact spectrum read through the McKay structure gives $4/R^2$ at the trivial and standard vacua and $36/R^2$ at the Galois vacuum, a ninefold enhancement (the [coexact gap](../../framework/files/bedrock/coexact-gap.md) paper). Every mode is massive. Matter is realized.
 
 **Arithmetic (Pochhammer obstruction):** The scalar Laplacian eigenvalues shift from $(l+1)^2$ to $l(l+2)=(l+1)^2-1$. The "-1" generates the infinite Pochhammer tower that blocks general-<i>s</i> factorization. The torsion's maximum selectivity is locked to $s=0$. L-function zeros are shielded.
 

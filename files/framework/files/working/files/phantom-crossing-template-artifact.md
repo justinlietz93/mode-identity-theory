@@ -1,4 +1,4 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
 
 ---
 
@@ -10,7 +10,7 @@ Working-note summary of the cosmological-scale phantom-crossing analysis. The fu
 
 ## What the paper does
 
-It constructs a one-parameter bounded-clock deformation of fiducial flat ΛCDM (the cosmological-scale realization of the Waltz clock from [Temporal Budget Identity](./temporal-budget.md)), and uses it to answer a question made urgent by DESI DR2:
+It constructs a one-parameter bounded-clock deformation of fiducial flat ΛCDM (the cosmological-scale realization of the Waltz clock from [Temporal Budget Identity](temporal-budget.md)), and uses it to answer a question made urgent by DESI DR2:
 
 > If the underlying $H(z)$ form is non-phantom under the fiducial-matter diagnostic split, can standard two-parameter $w_0 w_a$ templates still produce apparent phantom crossings when fitted to its distances?
 
@@ -59,7 +59,7 @@ Clock-exponent selection is empirically validated: integer alternatives $n = 0, 
 
 | Connection | Content |
 |---|---|
-| [Temporal budget $\Psi^2 + S^2 = 1$](./temporal-budget.md) | Λcos is the cosmological-scale realization of the Waltz clock $dt/d\tau = S^{-1/2}$. The paper presents Λcos in its own terms (no MIT vocabulary); the framework-level reading is in the temporal-budget note. |
+| [Temporal budget $\Psi^2 + S^2 = 1$](temporal-budget.md) | Λcos is the cosmological-scale realization of the Waltz clock $dt/d\tau = S^{-1/2}$. The paper presents Λcos in its own terms (no MIT vocabulary); the framework-level reading is in the temporal-budget note. |
 | Bounded auxiliary variable | $S = \sin(t/2)$ on the monotonic branch $0 < t \leq \pi$. Maps to FLRW scale factor through $1+z = s_0/S$. |
 | Clock exponent -1/2 | Selected by matter-era Friedmann scaling at high $z$; empirically validated against integer alternatives. |
 | Reference value $\Omega_\Lambda = 0.685$ | Topology-fixed input from Möbius eigenvalue (sector $\mathcal{A}$); not fitted. |
@@ -85,4 +85,4 @@ Clock-exponent selection is empirically validated: integer alternatives $n = 0, 
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /

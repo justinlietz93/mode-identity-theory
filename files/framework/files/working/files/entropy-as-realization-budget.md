@@ -1,4 +1,4 @@
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
 
 ---
 
@@ -10,7 +10,7 @@ A candidate MIT account of the thermodynamic arrow in a static universe, scoped 
 
 **Dependencies:** Temporal budget identity $\Psi^2 + S^2 = 1$; [Redshift and Cooling](redshift-and-cooling.md) (the temperature reading); energy as resolution amplitude; the $2I$-invariant (Molien) shell spectrum of $S^3/2I$; the chronon and the 120-domain.
 
-**Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [CMB Anomalies](../../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../../spectrum/files/the-waltz.md).
+**Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../../../spectrum/files/the-waltz.md).
 
 **Notation.** $S = \sin(t/2)$ is the realization amplitude, kept from the temporal budget. Entropy is written $\Sigma$ to avoid collision with it; the accessible-mode count is $W_\text{modes}$, the microstate count over it $W_\text{micro}$, with $\Sigma = k_B \ln W_\text{micro}$. The action $\mathcal{S}$ is unaffected.
 
@@ -52,7 +52,7 @@ As the phase advances the budget flows $\Psi^2 \to S^2$, out of the concentrated
 
 The entropy needs a count, and two counts enter. Keeping them distinct is what makes the page both right in scale and safe from circularity: the structure must fix the count, not a relabeling of $S$. Write $\Sigma = S$ by hand and the second law is the definition read back, assumed rather than derived.
 
-**The accessible modes set the phase space.** The realization $S$ governs how many modes the budget can occupy. The structure offers a concrete candidate: the accessible modes are the $2I$-invariant harmonics on $S^3/2I$, graded by degree into the Molien shells $N = 0, 12, 20, 24, 30, \ldots$ (the same shells that set the low-ℓ CMB gap; see [CMB Anomalies](../../../cosmos/files/cmb-anomalies.md)). The accessible-mode count up to the highest shell realized at $S$ is
+**The accessible modes set the phase space.** The realization $S$ governs how many modes the budget can occupy. The structure offers a concrete candidate: the accessible modes are the $2I$-invariant harmonics on $S^3/2I$, graded by degree into the Molien shells $N = 0, 12, 20, 24, 30, \ldots$ (the same shells that set the low-ℓ CMB gap; see [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md)). The accessible-mode count up to the highest shell realized at $S$ is
 
 $$W_\text{modes}(S) = \sum_{N \le N_\text{max}(S)} d_N,$$
 
@@ -138,4 +138,4 @@ A derived result. The reframe is consistent and framework-native, and it rests o
 
 ---
 
-/ **[`main`](../../../../README.md)** / **[`framework`](../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../cosmos/)** / **[`spectrum`](../../../spectrum/)** /
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
