@@ -143,6 +143,10 @@ Three of four parameterizations produce phantom crossings from input that satisf
 | JBP: $w_0 + w_a\,a(1-a)$ | $w_0 = -1.167$, $w_a = 2.197$ | 7.21 | Yes |
 | Polynomial (3-param) | $w_0 = -0.918$, $w_1 = -0.213$, $w_2 = 1.739$ | 0.004 | No |
 
+<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Screenshot%202026-06-24%20at%208.25.31%E2%80%AFPM.png/:/rs=w:2560,h:1648" width="100%" alt="Dark-energy equation of state w(z): the framework Lambda-cos curve stays above the phantom divide w = -1 at all z, while the CPL, BA, and JBP two-parameter templates dip below -1 near z = 0 and diverge at high z, and the three-parameter polynomial tracks the framework without crossing.">
+
+*The diagnostic $w(z)$ from a non-phantom truth. The framework's exact relation (Λcos, solid) stays above the phantom divide $w = -1$ at every redshift, while the two-parameter CPL, BA, and JBP templates fit to the same distances dip below $-1$ near $z = 0$ and diverge at high $z$. Only the three-parameter polynomial tracks the truth without a spurious crossing.*
+
 The polynomial, with one additional free parameter, fits the phase-clock distances to $\chi^2 \approx 0$ and does not produce a phantom crossing. The apparent crossing in the two-parameter forms is purely a basis-restriction artifact: the effect arises from projecting the curvature of the MIT distance-redshift relation onto a restricted two-parameter basis, absorbing the residual into phantom-crossing parameter values.
 
 ### Threshold Scan
