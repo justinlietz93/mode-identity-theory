@@ -277,9 +277,13 @@ The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conju
 
 **The fourth rung is supersymmetry's, and it is empty.** The one missing pairing runs a spinorial carrier into a bosonic target: a coupling that turns a fermion into a boson, which is exactly the move a superpartner symmetry asks for. That rung is structurally closed. The bosonic projection $\psi \to \lvert\psi\rvert^2$ is non-invertible, since both $\psi$ and $-\psi$ map to the same image, so nothing runs backward from a bosonic target to a spinorial carrier, and the same non-invertibility is what grounds the spin-statistics theorem. A superpartner coupling needs exactly the pairing the topology forbids, so the gauge ladder has no seat for it: in this reading the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
 
-### The smooth substrate and its seams
+## 🧵 One Interface
 
-Underneath everything is $S^3$: smooth, continuous, every point equivalent, uniform Ricci curvature. $S^3$ knows nothing about 120. That structure is built on top, and it is built in two distinct ways.
+The scaling law tells where each observable sits. The next question is how the structure itself sits on the smooth space underneath it. The answer is not one operation but two.
+
+Underneath everything is $S^3$: smooth, continuous, every point equivalent, with uniform Ricci curvature. $S^3$ knows nothing about 120. The discrete structure is built on top of it, and it is built in two distinct ways.
+
+### The two seams
 
 | Seam | Operation | Produces | Carries |
 |---|---|---|---|
@@ -288,9 +292,15 @@ Underneath everything is $S^3$: smooth, continuous, every point equivalent, unif
 
 These are different operations doing different jobs. Embedding a 2-surface in the 3-space converts surface curvature into spatial curvature and fixes the vacuum; the quotient identifies points and produces the discrete grid. The [Waltz](../spectrum/files/the-waltz.md) reading draws the same line: the Möbius surface sets $\Lambda$, the binary icosahedral group sets matter. The wells and the three gauge forces come from the quotient, not the embedding.
 
-**The 3/2 belongs to the vacuum seam.** It is the cost of converting the Möbius surface's curvature into the spatial curvature of $S^3$: the numerator 3 is the Gauss factor, derived geometry from the totally geodesic embedding in an isotropic $S^3$; the denominator 2 is the de Sitter normalization, imported from general relativity (the [cosmological constant](../cosmos/files/cosmological-constant.md) page keeps that derived-vs-imported split explicit). The grid carries no such factor; it is the separate $2I$ structure.
+The 3/2 belongs to the vacuum seam. It is the cost of converting the Möbius surface's curvature into the spatial curvature of $S^3$: the numerator 3 is the Gauss factor, derived geometry from the totally geodesic embedding in an isotropic $S^3$; the denominator 2 is the de Sitter normalization, imported from general relativity. The [cosmological constant](../cosmos/files/cosmological-constant.md) page keeps that derived-vs-imported split explicit. The grid carries no such factor; it is the separate $2I$ structure.
 
-**Gravity is what crosses.** The gauge ladder just closed by ruling out a position *inside* the grid; gravity is different in kind, not a grid position at all, vacant or filled. It couples to stress-energy on either layer, so it is the one interaction that translates between the smooth substrate and every discrete structuring of it, the Möbius vacuum and the $2I$ grid alike. In MIT's reading, that translation is what gravity is: not a fourth gauge force and not a graviton on the grid, but the conversion across the interface, with the Gauss factor as the cost it pays on the vacuum seam. On the grid seam it pays nothing special, only the ordinary stress-energy coupling at $8\pi G$; Einstein's field equations are unchanged. What the framework adds is why gravity sits outside the gauge ladder, and why its signature is a geometric conversion rather than a coupling on the grid.
+### Gravity is what crosses
+
+The gauge ladder closes the possible couplings inside the grid. Gravity is different in kind. It is not a vacant grid position, and it is not a fourth gauge force waiting for its rung.
+
+Gravity couples to stress-energy on either layer, so it is the one interaction that translates between the smooth substrate and every discrete structuring of it, the Möbius vacuum and the $2I$ grid alike. In MIT's reading, that translation is what gravity is: not a graviton on the grid, but the conversion across the interface, with the Gauss factor as the cost it pays on the vacuum seam.
+
+On the grid seam it pays nothing special, only the ordinary stress-energy coupling at $8\pi G$. Einstein's field equations are unchanged. What the framework adds is why gravity sits outside the gauge ladder, and why its signature is a geometric conversion rather than a coupling on the grid.
 
 ## :atom_symbol: [One Formula](../spectrum/files/mass-spectrum.md)
 
