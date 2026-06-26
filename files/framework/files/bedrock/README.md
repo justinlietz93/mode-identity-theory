@@ -2,7 +2,7 @@
 
 ---
 
-# :mountain: Bedrock
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/the%20bridge%20banner.png" width="100%" alt="First Eigenvalue">
 
 The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ with $\partial S^3 = \emptyset$, and it nests three manifolds: the temporal edge $S^1$, the Möbius surface it bounds, and the space $S^3$ that surface sits in. These are the standalone mathematics papers underneath it, each a result in spectral geometry with no physics assumed. The two pillars are the spectra of the two manifolds the papers put an operator on, the surface and the space; $S^1$ is the boundary the embedding produces, not a spectrum of its own.
 
