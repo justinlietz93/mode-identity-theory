@@ -35,6 +35,8 @@ Each layer follows from the one before.
 5. Sampling resolves position in the domain.
 6. Meaning arises only after realization.
 
+[![One Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
+
 ---
 
 ## :stadium: [One Shape](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)
