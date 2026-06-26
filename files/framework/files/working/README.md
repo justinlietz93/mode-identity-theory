@@ -14,6 +14,14 @@ Orienting notes that index other work.
 
 ---
 
+### [Claim Ledger](files/claim-ledger.md)
+
+**Audit lens (2026-06-26):** A skeptical, framework-wide classification of every quantitative claim by epistemic type (forward prediction, zero-freedom structural result, internal theorem, loose comparison, calibration anchor, null result, open problem) and role. Separates the thin forward sector the framework lives or dies on (mostly Euclid DR1) from the retrodictions inside the calibration web, draws the web's eight cycles explicitly, and flags overclaims, double-counts, and the two real internal tensions: Cycle 2 ($\alpha$ is both input and output, so the 0.5% match is a consistency check) and Cycle 7 (the coupling-route and mass-route values of $R$ disagree ~4×). Built to keep the public pages honest, not as the framework's self-description; ends with a source-page triage queue.
+
+**Dependencies:** Indexes the whole framework; see especially [The R Problem](files/r-problem.md) and [Calibration Structure](files/calibration-structure.md).
+
+---
+
 ### [The R Problem](files/r-problem.md)
 
 **Tracker:** Maps every route to an independent spatial curvature radius $R$ and where each stands. $\Lambda = 3/R^2$ becomes a forward prediction only with an $R$ not read off $\Lambda$: de Sitter is circular, the Molien gap is not independent, the CMB L-ratio factor of 8 is dead (no topological derivation), and the particle mass spectrum is the one live route (executed, order of magnitude). Includes the shared E₈ / $h = 30$ engine tying the L ratio to the mass formula, and flags the Molien sparse-zone CMB result as the independent survivor of the L work.
