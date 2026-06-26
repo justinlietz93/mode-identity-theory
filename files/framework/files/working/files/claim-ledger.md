@@ -42,7 +42,7 @@ Methodological lesson: the audit judged each claim stripped of its in-page cavea
 
 1. **μ_Λ** (mass-spectrum.md §II.1): the Λ in μ_Λ = ρ_Λ^(1/4) is the measured CC taken as calibration input, so μ_Λ is the mass sector's anchor, not an output. **Done 2026-06-26.**
 2. **α** (fine-structure.md §V scorecard): when α is the Ω_Λ anchor, its 0.5% is a consistency check, not an independent prediction. **Done 2026-06-26** (framework/README.md gauge ladder and the Desktop engine §15 carry the note now too).
-3. **Phase-clock channels** (euclid-dr1.md): rows II/III/V are channels of one H²(z)/s₀ relation, correlated tests not independent predictions. **Pending sign-off** (pre-registration card; the note touches no immutable prediction/threshold cell).
+3. **Phase-clock channels** (euclid-dr1.md): rows II/III/V are channels of one H²(z;s₀) relation, correlated tests not independent predictions. **Done 2026-06-26** (clearly-dated post-freeze clarification below the Prediction Summary table; touches no immutable prediction/threshold/scoring cell).
 
 Cycle 2 (α) and Cycle 7 (R routes) named below are real tensions, but already disclosed at every live site; the α §15 "CLOSED" framing now carries a calibration note in both the repo and the Desktop engine.
 
@@ -236,7 +236,7 @@ The clear hits, each a candidate source-page fix:
 
 ## What this changes (source-page triage queue)
 
-Superseded by the [Reconciliation](#reconciliation-verified-2026-06-26) above. Verification trimmed the original six-item queue to three one-line cross-references: μ_Λ (mass-spectrum.md) and α (fine-structure.md) are done; the phase-clock correlation note on the euclid-dr1.md pre-registration card is drafted and awaiting sign-off. The other original items (age statements, the rest of the inputs-dressed-as-outputs set, mass residuals, Cycle 7) verified as already disclosed in-page and need no edit.
+Superseded by the [Reconciliation](#reconciliation-verified-2026-06-26) above. Verification trimmed the original six-item queue to three one-line cross-references, all now applied: μ_Λ (mass-spectrum.md), α (fine-structure.md), and the phase-clock correlation note on the euclid-dr1.md pre-registration card (post-freeze, no cell changed). The other original items (age statements, the rest of the inputs-dressed-as-outputs set, mass residuals, Cycle 7) verified as already disclosed in-page and need no edit. **Triage arc closed.**
 
 ---
 

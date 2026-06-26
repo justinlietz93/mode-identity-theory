@@ -38,6 +38,8 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 | IV | Stellar mass function at $z \gtrsim 10$ | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Wide-area photometric source catalog with high-<i>z</i> selection; NISP/ancillary spectroscopic confirmation where available | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
 | V | $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from the $H^2(z)$ form | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
 
+*Clarification added 2026-06-26, post-freeze; no prediction, threshold, or scoring rule is changed.* **Rows II, III, and V are correlated channels, not independent bets.** All three read the same phase-clock relation: $a_0(z)$ through $H(z)$, and $w_\text{eff}(z)$ plus the $(1+z)^1$ coefficient through the same $H^2(z; s_0)$ background form. A DR1 outcome in one row therefore informs the interpretation of the others. Passing II, III, and V together would confirm one underlying relation through three observational channels, not three independent framework successes. Ground rule #4 still holds: the rows are adjudicated separately, and their collective pattern is what carries the evidence. See [dark energy](dark-energy.md) and [early galaxies](early-galaxies.md).
+
 ---
 
 ## I. $\Lambda$ Epoch-Independence
