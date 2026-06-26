@@ -125,13 +125,13 @@ At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is with
 
 ---
 
-**Update 1 (2026): MUSE-DARK III.** The first intermediate-redshift measurement of the acceleration scale arrived after this prediction was deposited. MUSE-DARK III (Ciocan et al., *A&A* 709) fits $a_0$ in four redshift bins from 79 galaxies in the MUSE Hubble Ultra Deep Field and finds it rising with redshift at ~30σ over 0.33 < z < 1.44, the predicted direction, against the standard-MOND constant.
+**Update 1 (2026): MUSE-DARK III.** The first robust intermediate-redshift measurement of the acceleration scale arrived after this prediction was deposited. MUSE-DARK III (Ciocan et al., *A&A* 709) fits $a_0$ in four redshift bins from 79 galaxies in the MUSE Hubble Ultra Deep Field and finds it rising with redshift at ~30σ over 0.33 < z < 1.44, the predicted direction, against the standard-MOND constant.
 
 <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/muse_dark_iii_a0z_three_line.png/:/rs=w:1280,h:835" width="100%" alt="The framework curve a0(0)E(z) against the two MUSE-DARK III linear fits: the MOND-frame fit sits on the framework curve through the measured window, the dark-matter DC14 fit runs steeper, and both linear fits dip toward 1.0 at z=0 against the SPARC anchor at 1.20.">
 
 *The framework's convex $a_0(0)\,E(z)$ against the two MUSE-DARK III fits. In the MOND frame the data sit on the curve; in the better-fitting dark-matter frame they run steeper. Both linear fits dip toward 1.0 at $z = 0$ against the SPARC anchor at 1.20, the convex curve forced to a straight line. The frames disagree, so the rate is open.*
 
-**Direction: corroborated, not yet a discriminator.** The prediction that $a_0$ evolves was logged before the measurement and came in on the right side of a ~30σ result. But a rising $a_0$ is also produced by other evolving-acceleration models and by ΛCDM simulations, so the climb alone does not single out the framework.
+**Direction: corroborated, not yet a discriminator.** The framework's $a_0 \propto H(z)$ form was deposited before this robust result, and the climb came in on the right side. But the same direction was already measured weakly at low redshift before the deposit (Vărăşteanu et al. 2025), and a rising $a_0$ also follows from other evolving-acceleration models and from ΛCDM simulations, so the climb alone does not single out the framework.
 
 **Rate: decomposition-dependent.** How fast $a_0$ climbs depends on how the rotation curve is split. In the MOND frame the data sit on the framework's $a_0(0)\,E(z)$ curve; in the better-fitting dark-matter frame they run steeper than $H(z)$. Other surveys bracket the framework from both sides, so the rate is open and systematics-limited, not settled.
 
