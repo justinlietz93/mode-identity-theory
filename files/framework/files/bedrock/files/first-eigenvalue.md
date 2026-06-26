@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/First%20Eigenvalue.png" width="100%" alt="First Eigenvalue">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/cone%20point%20banner.png" width="100%" alt="First Eigenvalue">
 
 We study the twisted Laplacian, the Laplace-Beltrami operator on sections of the orientation line bundle, on a constant-curvature Möbius band $M(W)$ of half-width $W$, built from a spherical band on $S^2(R)$ with the antipodal-edge identification. Its metric collapses one transverse fiber to a cone point, where the operator is not essentially self-adjoint in the constant transverse sector, so the bottom of the spectrum depends on the self-adjoint extension. For the Friedrichs extension the bottom is $0$, attained by a discontinuous piecewise-constant zero mode $\phi_0$, and the operator is unitarily equivalent to the Neumann Laplacian on a spherical lune. Every Boscain-Prandi bridging extension excludes $\phi_0$ and instead carries a single cone-localized bound state $\lambda_b(\delta_0) = -4e^{-2\gamma}/\delta_0^2\,(1 + O(\delta_0^2/R^2))$ below zero, set by a renormalization length $\delta_0$; by Friedrichs maximality, no self-adjoint extension has a strictly positive ground state. 
 
