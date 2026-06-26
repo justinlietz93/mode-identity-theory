@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Fine%20Structure.png" width="100%" alt="Fine Structure">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/alpha%20banner.png" width="100%" alt="Fine Structure">
 
 The fine structure constant $\alpha \approx 1/137$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the topological hierarchy behind Λ, $H_0$, and $a_0$ also governs dimensionless couplings. The result is $\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733$, within 0.5% of the measured value, derived from one topological postulate. The same structure yields all three gauge couplings.
 
