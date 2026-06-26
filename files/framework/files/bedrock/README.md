@@ -24,7 +24,9 @@ The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ 
 
 ---
 
-**The Embedding:** $\partial(\text{Möbius}) \hookrightarrow S^3$. The act that seats a Möbius band as a totally geodesic surface inside $S^3/2I$, connecting the surface spectrum to the space spectrum. That act realizes $S^1 = \partial(\text{Möbius})$ as the embedded boundary, the seam where time lives. *Work in progress.*
+**The Embedding:** $\partial(\text{Möbius}) \hookrightarrow S^3$. The act that seats a Möbius band as a totally geodesic surface inside $S^3/2I$, connecting the surface spectrum to the space spectrum. That act realizes $S^1 = \partial(\text{Möbius})$ as the embedded boundary, the seam where time lives. 
+
+*Work in progress.*
 
 ---
 
