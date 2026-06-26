@@ -2,7 +2,7 @@
 
 ---
 
-# :triangular_ruler: The Universe from One Shape
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/Möbius_Manifold_Topological_Universe_Blueprint.png" width="100%" alt="Mode Identity">
 
 Mode Identity Theory is a boundary-condition framework. It keeps Einstein's field equations and the Standard Model particle content unchanged, but supplies a global topological domain:
 
@@ -34,8 +34,6 @@ Each layer follows from the one before.
 4. Time is phase of the wave.
 5. Sampling resolves position in the domain.
 6. Meaning arises only after realization.
-
-<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/Möbius_Manifold_Topological_Universe_Blueprint.png" width="100%" alt="Mode Identity">
 
 ---
 
