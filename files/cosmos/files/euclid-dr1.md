@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid%20DR1.png" width="100%" alt="Euclid DR1">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/dr1%20banner.png" width="100%" alt="Euclid DR1">
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563048.svg)](https://doi.org/10.5281/zenodo.20563048)
 
