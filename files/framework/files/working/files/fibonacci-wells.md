@@ -69,7 +69,7 @@ The Fibonacci numbers that divide 120 are exactly
 {1, 2, 3, 5, 8}.
 ```
 
-These are domain-building terms. They tile the grid rather than select positions on it. A divisor of 120 defines a sub-lattice or uniform partition of `Z/120`; it is not yet a genuine sampling site.
+These are domain-building terms: each divisor of 120 defines a sub-lattice or uniform partition of `Z/120`, tiling the grid rather than selecting a new phase position on it. The caveat is that the build/sample split carries only this arithmetic fact. For example, `8` and `21` both share a prime with 120 and both resolve only a proper sub-grid; the distinction is that `8` divides 120 and belongs to the lcm block, while `21` does not. The load-bearing statement is therefore the saturation itself: `{1,2,3,5,8}` are exactly the Fibonacci divisors of 120, and `lcm(1,2,3,5,8)=120` with nothing spare.
 
 The first Fibonacci term after that divisor block is `13`. This is the lcm seam:
 
@@ -112,9 +112,9 @@ The old "noise floor" language is dropped: the phase weight `C(k)` rises smoothl
 
 ### 2. E₈ exponent (representation-theoretic reinforcement)
 
-The E₈ exponents are `1, 7, 11, 13, 17, 19, 23, 29`. The Fibonacci intersection is `{1, 13}`. Discarding `1` as the identity/primitive slot, `13` is the first nontrivial Fibonacci value that is also E₈-native. This does not replace the lcm seam; it reinforces it. The arithmetic seam lands exactly where the representation theory is already active.
+The E₈ exponents are `1, 7, 11, 13, 17, 19, 23, 29`. The Fibonacci intersection is `{1, 13}`. Discarding `1` as the identity/primitive slot, `13` is the first nontrivial Fibonacci value that is also E₈-native. This does not replace the lcm seam; it places that seam in representation context. The arithmetic seam lands exactly where the representation theory is already active.
 
-The bridge is the modulus `30 = 2·3·5 = h(E₈)`: the same number is the reduced prime base of `120 = 2³·3·5` and the Coxeter number of E₈, and its totatives are precisely the E₈ exponents (verified). This is a structural alignment, not a logical folding: the lcm seam selects 13 arithmetically; the E₈ structure confirms the seam is representation-native.
+The bridge is the modulus `30 = 2·3·5 = h(E₈)`: the same number is the reduced prime base of `120 = 2³·3·5` and the Coxeter number of E₈, and its totatives are precisely the E₈ exponents (verified). This should not be oversold as independent evidence. Because `30` and `120` share the prime base `{2,3,5}`, the lcm seam and the E₈/coprime-to-30 test land on `13` for the same arithmetic reason: the builder terms carry primes from `{2,3,5}`, while `13` is the first Fibonacci term that clears that base. The E₈ framing adds location, not a second proof: it places the seam inside live representation theory, making it representation-native rather than a loose numerical coincidence.
 
 ### 3. Coprime / full-resolution (diagnostic)
 
@@ -146,6 +146,16 @@ weighted by the `60/120` projection, the phase weight `C(k)`, or left uniform, w
 The sweep first reproduced the unsigned controls exactly (inverse-distance argmin `{9,25,43,59}`; gap-variance puts the wells at `108358/249900`), confirming the pipeline. It then scored all `C(51,4) = 249,900` four-subsets of `{9..59}` under eight natural signed variants: low-band modes, all 60 modes, energy weight `1/(2m+1)²`, `C(k)` weight, fundamental-only, and scale-invariant cancellation ratios. The wells `{13,21,34,55}` are never extremal. Best showing rank `30420/249900` (12.2 percentile); most variants 20 to 30 percentile, one near 70. Every variant's actual minimizer is a non-Fibonacci spread or clustered set, and greedy interference-minimizing continuation from `(2,3,5)` or `(8,13)` does not reproduce the Fibonacci path. The stabilizer/branch-prime weighting was deliberately withheld: encoding the wells' own factorization and recovering them would be circular, not a derivation.
 
 A structural reason sits behind the null. The well gaps `[8,13,21]` are golden self-similar, not uniform, and any interference, energy, or cross-talk norm is minimized by uniform or maximally spread sets, where symmetry dominates. A functional preferring self-similar (φ-carrying) spacing would have to carry φ in its own structure. φ is internal to `2I` through `Q(√5)`, so such a functional could in principle be built, but building it encodes the answer. The wells may therefore be unreachable by any norm functional that does not already contain φ, which would make the labeling reading correct for a structural reason and not merely an empirical one.
+
+---
+
+## Scope of the prize
+
+Worth holding in view when weighing what a finished well derivation would buy. The four wells are `{13,21,34,55}`, but as observable seats only two are occupied: `13` carries α and a₀, and `34` carries H₀. The other two, `21` and `55`, remain empty.
+
+The cosmology sector's hardest anchor, Λ, does not sit on a Fibonacci well at all. It sits at the antinode `k = 60`, the reflection-fixed point of `C(k)=C(120-k)` and the slope-zero maximum of the phase operator. That is a different kind of protected site from a Fibonacci well.
+
+So even a finished well derivation would place α, a₀, and H₀, leave two of the four seats empty, and leave Λ outside the well set. The derivation is worth having for the three observables it places; it is not the source of Λ.
 
 ---
 
