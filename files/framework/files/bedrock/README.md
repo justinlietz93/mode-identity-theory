@@ -24,7 +24,11 @@ The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ 
 
 ---
 
-**The Embedding:** $\partial(\text{Möbius}) \hookrightarrow S^3$. The act that seats a Möbius band as a totally geodesic surface inside $S^3/2I$, connecting the surface spectrum to the space spectrum. That act realizes $S^1 = \partial(\text{Möbius})$ as the embedded boundary, the seam where time lives. 
+**The Embedding:** $\partial(\text{Möbius}) \hookrightarrow S^3$. The seam $S^1 = \partial(\text{Möbius})$ embeds in $S^3$, and the underlying spherical band it bounds lies in a great $S^2$. The cone-bearing Möbius quotient is a singular surface model, not a smooth totally geodesic submanifold of $S^3/2I$.
+
+The $2/R^2$ scale is independently supported on $S^3$ by the Weitzenböck $1$-form curvature floor, $\text{Ric} = 2/R^2$, so the value does not depend on having embedded the Möbius surface inside the quotient. The $2I$ quotient and its coexact spectrum enter separately, through the spherical space-form calculation, not by seating the Möbius band inside $S^3/2I$.
+
+Connecting the surface spectrum ($2/R^2 \to \Lambda$) to the space spectrum ($4/R^2 \to$ mass gap) remains the open problem. The embedding supplies the seam/anchor picture; it is not yet a theorem identifying the Möbius surface spectrum with the $S^3/2I$ coexact spectrum.
 
 *Work in progress.*
 
