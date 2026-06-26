@@ -116,10 +116,13 @@ Observations of both quantities at high redshift provide independent, complement
 
 ## V. Falsification
 
-| Prediction | Test | Falsified if |
+| Observable | Test | Falsified if |
 |---|---|---|
-| $a_0(z) \propto H(z)$ | Rotation curves at $z > 2$ | $a_0(z)/a_0(0) = 1$ at $\geq 2\sigma$ |
-| $\Lambda$ constant | SNe Ia / BAO at high $z$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ |
+| $a_0$ universality in lensing | Euclid DR1 stacked galaxy–galaxy lensing at $z \approx 0.5$ to $2$ | The inferred $M_\text{dyn}/M_b$ enhancement is mass- or aperture-dependent in the ΛCDM sense, rather than the framework's mass-independent $\sqrt{E(z)}$ scaling |
+| $a_0(z)$ evolution | Rotation curves / RAR / BTFR at $z > 2$ | $a_0(z)/a_0(0) = 1$, or the trend is inconsistent with $E(z)$ under matched systematics |
+| $\Lambda$ epoch-independence | SNe Ia / BAO at high $z$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ |
+
+The first row is the discriminator; the second is the necessary direction-and-rate check. A rising $a_0$ alone is now corroborated but non-discriminating.
 
 At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is within reach of resolved rotation curves from Euclid, JWST/NIRSpec, and the ELT. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
 
