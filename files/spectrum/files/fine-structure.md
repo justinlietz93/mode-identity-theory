@@ -186,6 +186,8 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 
 The observed values of $\alpha_s$ and $\alpha_W$ are conventionally measured at $M_Z$ (~91 GeV), while $\alpha$ is measured at low energy. Whether the MIT predictions apply at matching scales is open (see Section VIII).
 
+Reading the α row as a prediction carries one caveat. The 0.5% holds when $\Omega_\Lambda$ is fixed from an independent anchor (the measured Λ). When α is instead the best-conditioned anchor that fixes $\Omega_\Lambda$, its own 0.5% is a consistency check, not an independent prediction, and the genuine output of that route is $\Lambda = 3/R^2$ to 24%. The surface sector is over-determined: you anchor on one of Λ, α, or the mass ratio and the rest become predictions, never all at once (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
+
 ## VI. The α-Λ Connection
 
 Both the cosmological constant and the fine structure constant reference the same hierarchy $\Omega_\Lambda$. The difference is how much of it they use.

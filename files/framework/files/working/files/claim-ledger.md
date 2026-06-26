@@ -32,6 +32,20 @@ What the framework actually lives or dies on is a thin set of forward bets, near
 
 The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal), the McKay mass-residual correction (no parameter-free fix), and the signed well-functional sweep (wells never extremal), and it logs the down/tau/top mass misses and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
 
+## Reconciliation (verified 2026-06-26)
+
+The Flags and triage items below are the audit's prosecution case. A follow-up pass verified the 13 highest-risk flags against the live text, using the standard that a caveat counts only if it is discoverable from the claim's own context. Outcome: **9 handled** (caveat already at the point of claim), **3 partial** (a real caveat exists but in a different file, not discoverable, the only items needing an edit), **1 ledger error** (`lambda_alpha_route`: the 24% window and the circularity are stated inline at every live site), **1 working-only** (`clock_age`: the 0.79 Gyr vs 13.8 Gyr tension lives only in temporal-budget.md §VIII, which already flags it open; no public page makes an age-recovery claim). None were wholly uncaveated.
+
+Methodological lesson: the audit judged each claim stripped of its in-page caveats, which inflated the overclaim count. The live framework is markedly more honest than the Flags section below implies. Treat the flags as leads to verify, not findings to act on.
+
+**The real residual** (the only source edits the verification justified) is three one-line cross-references:
+
+1. **μ_Λ** (mass-spectrum.md §II.1): the Λ in μ_Λ = ρ_Λ^(1/4) is the measured CC taken as calibration input, so μ_Λ is the mass sector's anchor, not an output. **Done 2026-06-26.**
+2. **α** (fine-structure.md §V scorecard): when α is the Ω_Λ anchor, its 0.5% is a consistency check, not an independent prediction. **Done 2026-06-26** (framework/README.md gauge ladder and the Desktop engine §15 carry the note now too).
+3. **Phase-clock channels** (euclid-dr1.md): rows II/III/V are channels of one H²(z)/s₀ relation, correlated tests not independent predictions. **Pending sign-off** (pre-registration card; the note touches no immutable prediction/threshold cell).
+
+Cycle 2 (α) and Cycle 7 (R routes) named below are real tensions, but already disclosed at every live site; the α §15 "CLOSED" framing now carries a calibration note in both the repo and the Desktop engine.
+
 ## The two cycles that matter
 
 Most of the calibration loops below are benign (definitions, or self-flagged consistency radii). Two are the framework's real internal tensions and deserve to be stated starkly:
@@ -222,14 +236,7 @@ The clear hits, each a candidate source-page fix:
 
 ## What this changes (source-page triage queue)
 
-The ledger is the map. Fixes to the source pages come next, one at a time, each redlined like the a₀(z) and Fibonacci-wells passes:
-
-1. **α "CLOSED" → consistency-check framing** (engine §15). Highest priority: it is the sharpest circularity and the most-cited "success."
-2. **Age statements → "clock map remains open"** everywhere t(Φ) is implied solved. Public-prose safety.
-3. **Inputs-dressed-as-outputs** (Ω_m = 0.315, μ_Λ, H₀ = 67.4, Ω_Λ): relabel as calibration, not derivation.
-4. **Phase-clock "four signatures" → one prediction, four test channels** in the cosmology pages.
-5. **Mass headline**: list tau/top/down at real residuals; keep "6 of 8 within ×3" honest about the misses.
-6. **Surface Cycle 7** (the ~4× R disagreement) wherever both routes are cited as "independent confirmation."
+Superseded by the [Reconciliation](#reconciliation-verified-2026-06-26) above. Verification trimmed the original six-item queue to three one-line cross-references: μ_Λ (mass-spectrum.md) and α (fine-structure.md) are done; the phase-clock correlation note on the euclid-dr1.md pre-registration card is drafted and awaiting sign-off. The other original items (age statements, the rest of the inputs-dressed-as-outputs set, mass residuals, Cycle 7) verified as already disclosed in-page and need no edit.
 
 ---
 

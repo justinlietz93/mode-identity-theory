@@ -37,7 +37,7 @@ The vacuum energy density of the cosmological constant defines the overall mass 
 
 $$\mu_\Lambda \equiv \rho_\Lambda^{1/4} \approx 2.25 \text{ meV}$$
 
-This is the fourth root of Λ, set by the first positive mode ($m_h = 0$) of the Möbius surface. All particle masses trace back to this vacuum energy floor, scaled by the hierarchical factors that place each irrep at its position on the spectrum.
+This is the fourth root of Λ, set by the first positive mode ($m_h = 0$) of the Möbius surface. All particle masses trace back to this vacuum energy floor, scaled by the hierarchical factors that place each irrep at its position on the spectrum. The Λ entering here is the measured cosmological constant taken as the surface-sector calibration input, so $\mu_\Lambda$ is the mass sector's anchor into that calibration, the scale every ratio multiplies, rather than a quantity the framework predicts (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
 
 The neutrino mass sector provides direct access to this scale:
 
