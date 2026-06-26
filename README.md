@@ -28,7 +28,7 @@ The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equa
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-The universe samples a standing wave. The mathematics requires it. It began as cosine, at its peak. We started at full amplitude; the wave advances from there.
+The universe samples a standing wave. The mathematics requires it. It began as cosine, full amplitude, and we advanced from there.
 
 The Möbius twist forces a sign‑flip: the fundamental mode is $4\pi$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
 
