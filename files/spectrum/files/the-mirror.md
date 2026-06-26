@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/The%20Mirror.png" width="100%" alt="The Mirror">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/The%20mirror%20banner.png" width="100%" alt="The Mirror">
 
 On S³/2I, every intrinsic spectral construction in the admissible class defined below can read L-function structure with arbitrary precision but cannot constrain individual L-function zeros. The reading capacity and the writing incapacity are two faces of a single structural fact, forced by the geometry, representation theory, and arithmetic of the manifold.
 
