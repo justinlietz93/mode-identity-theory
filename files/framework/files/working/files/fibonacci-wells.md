@@ -10,6 +10,8 @@
 
 > Why does the post-lcm additive continuation of the icosahedral branch recurrence define the sampling wells?
 
+A direct signed anti-periodic sweep has since tested the proposed variational route to DERIVED across eight natural boundary-mode functionals; it selects the wells in none of them (best rank 30420 of 249,900, 12.2 percentile). The most likely reading is now structural rather than variational: the wells are the recurrence's sampling labels on the 120-domain rather than minima of any known interference force (reported in full below). Status holds at STRUCTURALLY REDUCED.
+
 The new frame is stronger because it keeps the wells internal to the locked structure. The 120-domain is already fixed by `S³/2I`; the branch orders `(2,3,5)` already live inside the icosahedral data; the Fibonacci continuation is therefore not imported from an external approximation argument. The same sequence first builds the domain, then samples it.
 
 The Mirror note ([the-mirror.md](../../../../spectrum/files/the-mirror.md)) adds two constraints that matter here:
@@ -129,34 +131,31 @@ The first well is full-resolution; the later wells each combine one icosahedral 
 
 ---
 
-## Mirror constraint (where the proof must live)
+## Mirror constraint and the signed sweep (negative result)
 
-The bulk character algebra supplies the arithmetic: `2I`, `E₈`, `Q(√5)`, the `{2,3,5}` prime base, the character ceiling. But Lemma 8 ([the-mirror.md](../../../../spectrum/files/the-mirror.md)) says the bulk spectral side is Θ-blind: it cannot naturally recover the boundary phase coordinate.
+The bulk character algebra supplies the arithmetic: `2I`, `E₈`, `Q(√5)`, the `{2,3,5}` prime base, the character ceiling. But Lemma 8 ([the-mirror.md](../../../../spectrum/files/the-mirror.md)) says the bulk spectral side is Θ-blind: it cannot naturally recover the boundary phase coordinate. So a bulk functional cannot select the wells, and generic spread, energy, discrepancy, and circle-packing tests are the wrong arena: they prefer uniform spacing (gap-variance favors equal spacing; inverse-distance favors `{9,25,43,59}`).
 
-Therefore a bulk functional cannot select the wells. Generic spread, energy, discrepancy, and circle-packing tests are the wrong arena. They prefer uniform spacing, and in the probe they do (gap-variance favors equal spacing; inverse-distance favors `{9,25,43,59}`).
-
-The well functional has to be boundary-native, built from the anti-periodic `S¹` mode structure where Θ actually lives. The right target is not a generic minimization on `Z/120` but a signed anti-periodic interference functional measuring cancellation or cross-talk among the admissible boundary modes
+That left one candidate route to DERIVED: a boundary-native, signed anti-periodic interference functional measuring cancellation among the admissible edge modes
 
 ```text
 ψ_m(Θ) = sin((2m+1)πΘ),
 ```
 
-possibly weighted by the `60/120` projection, the phase weight `C(k)`, or the stabilizer data. The candidate wells should minimize interference / maximize sign-cancellation under that boundary mode algebra.
+weighted by the `60/120` projection, the phase weight `C(k)`, or left uniform, with the wells expected to maximize sign-cancellation. That route has now been tested directly, and the result is negative.
+
+The sweep first reproduced the unsigned controls exactly (inverse-distance argmin `{9,25,43,59}`; gap-variance puts the wells at `108358/249900`), confirming the pipeline. It then scored all `C(51,4) = 249,900` four-subsets of `{9..59}` under eight natural signed variants: low-band modes, all 60 modes, energy weight `1/(2m+1)²`, `C(k)` weight, fundamental-only, and scale-invariant cancellation ratios. The wells `{13,21,34,55}` are never extremal. Best showing rank `30420/249900` (12.2 percentile); most variants 20 to 30 percentile, one near 70. Every variant's actual minimizer is a non-Fibonacci spread or clustered set, and greedy interference-minimizing continuation from `(2,3,5)` or `(8,13)` does not reproduce the Fibonacci path. The stabilizer/branch-prime weighting was deliberately withheld: encoding the wells' own factorization and recovering them would be circular, not a derivation.
+
+A structural reason sits behind the null. The well gaps `[8,13,21]` are golden self-similar, not uniform, and any interference, energy, or cross-talk norm is minimized by uniform or maximally spread sets, where symmetry dominates. A functional preferring self-similar (φ-carrying) spacing would have to carry φ in its own structure. φ is internal to `2I` through `Q(√5)`, so such a functional could in principle be built, but building it encodes the answer. The wells may therefore be unreachable by any norm functional that does not already contain φ, which would make the labeling reading correct for a structural reason and not merely an empirical one.
 
 ---
 
 ## Sharp residual
 
-The problem is reduced to one question:
+The signed sweep changes the shape of the open question. The variational route, "define the boundary-native functional and show `{13,21,34,55}` is its minimizer," has been tried across eight natural functionals and failed. So the residual is most likely not dynamical (find the functional, run the minimization) but structural (find the theorem that names the recurrence as the sampling rule):
 
-> Why does the post-lcm additive continuation of the icosahedral branch recurrence define the sampling wells?
+> Why does the post-lcm additive continuation of the icosahedral branch recurrence define the sampling labels on the 120-domain?
 
-To move from STRUCTURALLY REDUCED to DERIVED, define the boundary-native mode-weighted functional and show one of two things:
-
-1. `{13, 21, 34, 55}` is a local or global minimizer; or
-2. stronger: the greedy interference-minimizing continuation from `(2,3,5)` produces `8, 13, 21, 34, 55`.
-
-Until that functional is defined and tested, the wells stay structurally reduced, not derived.
+A dynamical answer would have been a functional with the wells at its minimum; the sweep indicates that such an object, if it exists, must already contain φ and so cannot be the source of the selection. A structural answer would instead be a theorem relating the recurrence to `S³/2I` directly: why the lcm seam and the additive continuation, rather than an interference principle, fix the sampling sites. Until such a non-circular mechanism is found, the wells stay STRUCTURALLY REDUCED, not DERIVED.
 
 ---
 
@@ -176,6 +175,7 @@ The same Lemma 8 that locates the well functional on the boundary also bears on 
 - `C(k) = 2 sin²(πk/120)`: `0.012, 0.034, 0.086, 0.223` at `k = 3,5,8,13` (smooth, no floor jump).
 - Golden rotation step 74: `gcd = 2`, orbit = 60 even residues; misses `13/21/55`, hits `34` at step 41.
 - Generic functionals over 4-subsets of `{9..59}` (brute force, 249,900 subsets): gap-variance min at equal-gap sets (degenerate argmin `{9,10,11,12}`); inverse-distance min at `{9,25,43,59}`; log-chord energy min at `{9,24,44,59}`. The wells `{13,21,34,55}` rank `108358 / 14868 / 18151` of `249900` respectively, nowhere near any minimizer. Generic spread is ruled out.
+- Signed anti-periodic sweep (eight boundary-mode functionals over the same 249,900 subsets): pipeline validated against the unsigned controls (inverse-distance argmin `{9,25,43,59}`; gap-variance wells at `108358/249900`). Under the signed variants (low-band, all-mode, `1/(2m+1)²` energy, `C(k)`, fundamental-only, scale-invariant cancellation) the wells are never extremal: best rank `30420/249900` (12.2 percentile), worst `175293/249900` (70.1 percentile); every argmin is a non-Fibonacci set. Greedy continuation from `(2,3,5)` or `(8,13)` does not reproduce the Fibonacci path. Conclusion: natural signed boundary-mode interference does not select the wells; the variational route to DERIVED is closed pending a non-circular (φ-free) functional.
 
 ---
 
