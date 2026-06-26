@@ -160,7 +160,7 @@ Neither finite Dirichlet energy nor semiboundedness alone singles out a realizat
 
 ### 3.5 The cone boundary form and the self-adjoint extensions
 
-By §3.4, an extension choice arises only in the constant sector ($\mu = 0$), where both local solutions are $L^2$. Near the cone, the general constant-sector solution has the asymptotic form
+Once the regular Frobenius branch is fixed in every nonconstant sector (§3.4), the only remaining extension choice that distinguishes Friedrichs from bridging lies in the constant sector ($\mu = 0$), where both local solutions are $L^2$. Near the cone, the general constant-sector solution has the asymptotic form
 
 $$u(\delta) = u_N\,\ln\frac{\lvert\delta\rvert}{2R} + u_D + o(1) \qquad (\delta \to 0),$$
 
@@ -230,7 +230,7 @@ Lemma 3.6 proves the part of Theorem 1.1 that needs no separation of variables: 
 
 ## 4. The Constant Sector by Parity
 
-The constant transverse mode ($k = 0$ even family, $\Phi_0^{\mathrm{e}} \equiv 1$) reduces the eigenvalue problem to a single ODE in $y$ with anti-periodic boundary conditions. This is the zonal sector, where the extension ambiguity lives. We analyze it by parity about the cone.
+The constant transverse mode ($k = 0$ even family, $\Phi_0^{\mathrm{e}} \equiv 1$) reduces the eigenvalue problem to a single ODE in $y$ with anti-periodic boundary conditions. This is the zonal sector, where Friedrichs and bridging diverge. We analyze it by parity about the cone.
 
 ### 4.1 The reduced operator and parity reduction
 
