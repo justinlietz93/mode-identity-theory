@@ -30,7 +30,7 @@ The $2/R^2$ scale is independently floored on $S^3$ by the Weitzenböck $1$-form
 
 Connecting the surface scale ($2/R^2 \to \Lambda$) to the space gap ($4/R^2 \to$ mass gap) remains the open problem, and it is sharper than it first looks. The two spectra are different sequences and cannot be identified: the surface tower $\ell(\ell+1)/R^2$ and the space tower $m^2/R^2$ share only the curvature floor, and the surface eigenvalue is blind to the group $\Gamma$, so the shared $2/R^2$ is a coincidence of the common curvature scale, not a spectral bridge. Any genuine connection would run through the topology of the embedding, not the shared radius. The embedding supplies the seam and the anchor; whether it also forces a theorem-level relation between the two sectors is open.
 
-*[Work in progress](../working/files/postulate-bridge.md).*
+*[Work in progress](../working/files/postulate-bridge.md)*
 
 ---
 
