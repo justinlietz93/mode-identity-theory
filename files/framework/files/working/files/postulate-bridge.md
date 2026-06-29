@@ -1,0 +1,90 @@
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
+
+---
+
+# The Postulate Bridge
+
+**Status (2026-06-28):** Open problem, no theorem yet. The two bedrock results sit on the two pieces of the postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$, and whether a theorem connects them through the topology of the embedding is open. The naive bridge through the shared value $2/R^2$ is dead: it is a forced curvature-scale coincidence, not a spectral link. The one live route, if any, is index theory on the $E_8$ plumbing. This note tracks the routes and where each stands.
+
+**Related:** [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md), [bedrock README](../../bedrock/README.md).
+
+---
+
+## What exists
+
+Two standalone spectral-geometry results, each proved, cited here by content.
+
+**The surface.** The first positive eigenvalue of the twisted Laplacian on a constant-curvature Möbius band $M(W) \subset S^2(R)$ is $2/R^2$ in the narrow regime, stable across the Friedrichs and bridging self-adjoint extensions for $\delta_0 > 2R/e$. The eigenfunction is $\sin(y/R)$, the $\ell = 1$ zonal mode, on the symmetric extension-independent tower; the Friedrichs realization is unitarily equivalent to the Neumann Laplacian on a spherical lune. The framework reads $2/R^2$ as the cosmological-constant anchor.
+
+**The space.** The coexact $1$-form gap on $S^3/\Gamma$ twisted by a flat bundle $E_\tau$ is $q_\tau^2/R^2$, with $q_\tau$ the first McKay occurrence level. For the adjoint of an irreducible flat $\mathrm{SU}(2)$ connection this is $4/R^2$ across the ADE classification, with one exception: $36/R^2$ for the Galois connection on $S^3/2I$, whose adjoint sits at McKay distance six in affine $E_8$. The framework reads the gap as the Yang-Mills mass gap.
+
+The postulate nests the two objects: the seam $S^1 = \partial(\text{Möbius})$, the Möbius surface it bounds, and the space $S^3$ in which the seam is anchored. The papers put operators on the surface and the space. The question is whether a theorem connects them.
+
+---
+
+## What was tried, and why it failed
+
+**The arch (superseded).** An attempt to connect the two through the shared value $2/R^2$: the surface eigenvalue equals the Bochner/Weitzenböck Ricci floor on $S^3$, a coincidence special to dimension three. The grand reading does not survive. The surface eigenvalue is $\Gamma$-blind, the Ricci floor is the only $\Gamma$-independent slot in the gap, so the match is forced rather than discovered: a curvature-scale coincidence, not a spectral relationship. The corpus already half-states it (the coexact paper notes the floor is numerically the surface eigenvalue but a different operator and only a loose lower bound; the eigenvalue paper records $2/R^2 = R_{\mathrm{sm}}$). The modest survivor, a rigid floor across ADE plus a dimension-three realization, is true but does not connect the two operators.
+
+**The deeper obstruction.** The band lives upstairs on a great $S^2 \subset S^3$; the coexact gap lives downstairs on $S^3/\Gamma$. No great $S^2$ is $2I$-stable (left translation by any non-central element moves the defining $3$-plane in $\mathbb{R}^4$), so the surface does not descend to the quotient as a submanifold. "Restrict to a great $S^2$" and "take $2I$-invariants" are independent operations on the $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$ content of $S^3$; they compose only if the surface is group-stable, and it is not.
+
+---
+
+## Three routes
+
+### Route 1, spectral restriction via $\mathbb{Z}_2$ holonomy: closed
+
+The idea was to link the band's orientation $\mathbb{Z}_2$ holonomy to a non-orientable or flat-bundle structure on the quotient. Two walls. First, $S^3/2I$ is orientable (an integral homology sphere), so there is no non-orientable structure downstairs to host the band's twist. Second, $2I$ is perfect ($H^1(2I) = 0$), so it has no $\mathbb{Z}_2$ quotient and no order-two character; the band's $\mathbb{Z}_2$ cannot be a $2I$-equivariant datum. The perfectness that makes $2I$ the unique gauge exception in the coexact paper is exactly what forbids the orientation bridge.
+
+### Route 2, heat kernel: set aside
+
+Heat traces relate a space to its covers and subspaces. The band is neither a cover nor a subspace of $S^3/2I$. The leading asymptotics mismatch ($t^{-1}$ for a surface versus $t^{-3/2}$ for the $3$-manifold), and the trace formula organizes the twisted spectrum by conjugacy classes and closed geodesics, with no slot for an embedded surface.
+
+### Route 3, APS index theory on the $E_8$ plumbing: open, concrete
+
+**Why this is the route.** $S^3/2I$ bounds a compact oriented $4$-manifold $W$, the $E_8$ plumbing, whose intersection form is the $E_8$ lattice. This is not a second, coincidental $E_8$. The McKay correspondence identifies it with the one the coexact paper uses: the minimal resolution of the $\mathbb{C}^2/2I$ Kleinian singularity has eight exceptional $(-2)$-curves in bijection with the eight nontrivial irreps of $2I$, their intersection matrix is the negative of the finite $E_8$ Cartan matrix (self-intersections $-2$, off-diagonal $+1$ for $E_8$-adjacency), and the affine node of the McKay graph is the trivial irrep that the resolution drops. So the Galois node $\mathrm{Sym}^2 Q'$ at McKay distance six corresponds to a definite homology class in $H_2(W)$. The research question is whether the APS machinery respects that identification, not whether a map between two $E_8$s exists.
+
+The boundary carries the gauge spectral data, the interior the topology. The APS index theorem relates:
+
+- Boundary: the eta-invariant of the adjoint curl $\ast d_\nabla$ on $S^3/2I$. This is the spectral *asymmetry* of its signed first-order spectrum (eigenvalues $\pm m/R$), not the bottom eigenvalue. The coexact gap is the bottom of $(\ast d_\nabla)^2 = \Delta_\tau$, a different functional of the same operator. Both are connection-sensitive, but they are distinct features.
+- Interior: signature, intersection form, characteristic classes, and the homology classes of embedded surfaces (self-intersection $[\Sigma]^2$, normal Euler number, $\mathbb{Z}_2$ class).
+
+Fintushel-Stern is the foundational reference; Kirk-Klassen and Nasatyr compute adjoint spectral-flow and eta-invariant data on $S^3/2I$.
+
+**The make-or-break question.** Does the APS index formula for the adjoint-twisted operator on $W$, with boundary contribution the $Q'$ eta-invariant, contain an interior term involving the homology class that the McKay correspondence assigns to the Galois node $\mathrm{Sym}^2 Q'$ (distance six)? If the boundary asymmetry distinguishing $Q'$ from $Q$ is matched in the formula by the interior class of the distance-six node, the embedding does real work and the postulate's two pieces are linked through the index. This is a computation, not a conceptual question.
+
+**The eigenvalue question, tracked open not closed.** Whether the surface eigenvalue $2/R^2$ enters is subtler than "it cannot." The index theorem is topological on the interior, so it sees homology classes and characteristic numbers, not Laplacian eigenvalues directly. But $2/R^2$ is also the scalar curvature of $S^2(R)$, and scalar curvature enters Gauss-Bonnet and the Pontryagin/signature integrals, so a $2/R^2$ can surface in the interior term. The test is therefore not "does $2/R^2$ appear" but "is any appearance the curvature-scale coincidence again, forced because the band's eigenvalue equals its curvature by Obata, or is it tied to the specific surface class." Any appearance must clear that check before it counts as a spectral connection.
+
+**Why it might work.** The bounding manifold is wired to the group not by a coincidence of Dynkin diagrams but by the McKay correspondence, a proved theorem: the exceptional $(-2)$-curves of the resolution are the eight nontrivial $2I$-irreps, and their intersection form is the negative $E_8$ Cartan matrix. So the $E_8$ plumbing is the structurally correct manifold and the Galois node is a definite class in it, not a numerical match to be hoped for. The question is whether any class in $H_2(W; \mathbb{Z}_2)$ carries a surface whose normal twist reproduces the Möbius band's $\mathbb{Z}_2$ holonomy and whose topological contribution constrains the boundary coexact eta.
+
+**On the dimensional spread.** The $2$-dimensional surface, $3$-dimensional boundary, and $4$-dimensional interior are not a mismatch to explain away; they are the native operating range of APS and the G-signature theorem, which exist precisely to relate data across these dimensions. The open question is not that the dimensions differ but whether the specific surface class and the specific boundary operator land in the same formula with nontrivial coefficients. A precision question, not a structural objection.
+
+---
+
+## Staged plan
+
+Ordered by decisiveness, not cost: the test that can kill the program runs first.
+
+1. **Eta comparison, $Q$ versus $Q'$ (the gatekeeper).** From Kirk-Klassen and Nasatyr, compute or extract the adjoint curl eta-invariant for $Q$ and for $Q'$ on $S^3/2I$, and ask whether their difference reflects the distance-six anomaly that produces the $36/R^2$ gap. Boundary-only, independent of how $W$ is filled, and decisive: if the eta difference does not see the Galois structure, the rest is moot.
+2. **Analytic setup decision.** $W$ is simply connected, so a nontrivial flat bundle on $\partial W = S^3/2I$ does not extend over $W$ as a flat bundle (the holonomy $2I \to \mathrm{SU}(2)$ cannot factor through $\pi_1(W) = 1$). Choose the framework: a connection with cylindrical end asymptotic to the flat $Q'$ (the Fintushel-Stern instanton context), or an orbifold connection on the minimal resolution of $\mathbb{C}^2/2I$. This fixes which APS formula applies and must be settled before any index is written.
+3. **Homology of $W$ mod $2$.** Compute $H_2(W; \mathbb{Z}_2)$ for the $E_8$ plumbing; identify which classes are representable by non-orientable embedded surfaces, and which class the McKay correspondence assigns to the Galois node. Topological and computable.
+4. **Surface insertion and the $2/R^2$ check.** Only if the eta gate is open: insert the band's homology class into the index formula via the G-signature theorem or the Guillou-Marin congruence, and read whether its topological contribution couples to the boundary eta. Any $2/R^2$ that surfaces here gets the curvature-scale-coincidence check.
+5. **Reading.** Atiyah-Patodi-Singer (1975), Fintushel-Stern, Kirk-Klassen, Nasatyr, Rokhlin and its non-orientable generalizations, Guillou-Marin.
+
+---
+
+## What the framework does and does not owe this
+
+The framework's claim is "one shape, two consequences." The shared $S^3$ of radius $R$ is already true as a geometric fact without any theorem relating the two spectra, so this bridge would be a bonus the framework is glad to have and is undamaged by lacking. The two bedrock results stand independently.
+
+If the index computation yields a genuine connection, the result relates the gauge eta to the band's topological embedding. If it yields a negative result, that is also a result, but state it route-specifically: the interior term is topological, and any $2/R^2$ in it reduces to the curvature-scale coincidence (provably, since the band's eigenvalue equals its curvature by Obata) rather than a spectral link to the surface paper. That route-specific negative is provable; a universal claim that the two spectra are independent is not.
+
+If this ever becomes a manuscript: no physics vocabulary, lead with the mathematics, cite the two pillars by content, and keep the surface eigenvalue out of any index ingredient unless it survives the curvature-scale check.
+
+---
+
+*The theorem has not been found. The computations have not been started. This note tracks the question, not the answer.*
+
+---
+
+/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
