@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/the%20bridge%20banner.png" width="100%" alt="First Eigenvalue">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/the%20bridge%20banner.png" width="100%" alt="Bedrock">
 
 The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ with $\partial S^3 = \emptyset$, and it nests three objects: the temporal seam $S^1$, the Möbius surface it bounds, and the space $S^3$ in which the seam is anchored. The standalone mathematics papers below put operators on two of those objects, the surface and the space. The seam $S^1$ is the boundary datum produced by the embedding, not a separate spectrum.
 
@@ -28,7 +28,7 @@ The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ 
 
 The $2/R^2$ scale is independently floored on $S^3$ by the Weitzenböck $1$-form curvature bound, $\text{Ric} = 2/R^2$, so the value does not depend on embedding the Möbius surface inside the quotient. The $2I$ quotient and its coexact spectrum enter separately, through the spherical space-form calculation, not by seating the Möbius band inside $S^3/2I$.
 
-Connecting the surface spectrum ($2/R^2 \to \Lambda$) to the space spectrum ($4/R^2 \to$ mass gap) remains the open problem. The embedding supplies the seam/anchor picture; it is not yet a theorem identifying the Möbius surface spectrum with the $S^3/2I$ coexact spectrum.
+Connecting the surface scale ($2/R^2 \to \Lambda$) to the space gap ($4/R^2 \to$ mass gap) remains the open problem, and it is sharper than it first looks. The two spectra are different sequences and cannot be identified: the surface tower $\ell(\ell+1)/R^2$ and the space tower $m^2/R^2$ share only the curvature floor, and the surface eigenvalue is blind to the group $\Gamma$, so the shared $2/R^2$ is a coincidence of the common curvature scale, not a spectral bridge. Any genuine connection would run through the topology of the embedding, not the shared radius. The embedding supplies the seam and the anchor; whether it also forces a theorem-level relation between the two sectors is open.
 
 *Work in progress.*
 
