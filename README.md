@@ -199,6 +199,37 @@ Every link between topology and observable is live. The code is the math. There 
 
 ---
 
+## :file_folder: Structure
+
+```
+mode-identity-theory/
+├── README.md                           # this page: the one shape, the engine, the predictions
+├── LICENSE
+└── files/
+    ├── framework/                      # the hub: the postulate, the scaling law, the derivations
+    │   ├── bedrock/                    # standalone mathematics papers, the two pillars
+    │   │   ├── first-eigenvalue.md         # twisted Möbius Laplacian: first-positive 2/R²
+    │   │   └── coexact-gap.md              # coexact gap on S³/Γ: McKay distance, the 2I exception
+    │   └── working/                    # research in progress: orienting maps and open problems
+    ├── cosmos/                         # the static three-sphere seen whole
+    │   ├── cosmological-constant.md        # Λ as the surface first-positive eigenvalue
+    │   ├── dark-energy.md                  # the acceleration scale a₀ on the phase clock
+    │   ├── hubble-tension.md               # H₀ as an edge mode, the topological 8.4%
+    │   ├── cmb-anomalies.md                # low-ℓ suppression as the Molien gap
+    │   ├── early-galaxies.md               # early massive galaxies in a static geometry
+    │   ├── black-hole.md                   # black holes as topological nodes of the wave
+    │   └── euclid-dr1.md                   # the falsification gate
+    ├── spectrum/                       # the near boundary: matter and gauge on S³/2I
+    │   ├── yang-mills.md                   # confinement and the mass gap, the 2I exception
+    │   ├── mass-spectrum.md                # fermion masses as positions on the McKay lattice
+    │   ├── fine-structure.md               # α = 1/137 in the first Fibonacci well, one step of Λ
+    │   ├── the-mirror.md                   # the edge interference that samples the wave
+    │   └── the-waltz.md                    # the Waltz clock: phase to time on the temporal edge
+    └── tools/                          # interactive: topology viewer, calculator, engine
+```
+
+---
+
 [![The Whole of the Moon](https://img.youtube.com/vi/pu7AR0-FRro/mqdefault.jpg)](https://www.youtube.com/watch?v=pu7AR0-FRro)
 
 *What you hold in your hand is not matter. It is where the wave resolved when you sampled it.*
