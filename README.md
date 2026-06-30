@@ -1,3 +1,7 @@
+/ **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
+
+---
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/Möbius_Manifold_Topological_Universe_Blueprint.png" width="100%" alt="Mode Identity">
 
 ---
