@@ -13,7 +13,7 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 | Field | Value |
 |---|---|
 | Freeze date | 2026-06-05 |
-| Reference | Standalone Zenodo deposit: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563048.svg)](https://doi.org/10.5281/zenodo.20563048) |
+| Reference | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563048.svg)](https://doi.org/10.5281/zenodo.20563048) |
 | Expected Euclid DR1 release | October 2026 |
 | Data products in scope | Cosmology release: spectroscopic BAO (<i>z</i> = 0.9–1.8), photometric weak lensing, high-<i>z</i> stellar mass function. Quick-look products are not bound by this card. |
 
