@@ -1,7 +1,3 @@
-/ **[`framework`](/files/framework/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** /
-
----
-
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/Möbius_Manifold_Topological_Universe_Blueprint.png" width="100%" alt="Mode Identity">
 
 ---
@@ -13,6 +9,38 @@ What began as an inadvertent search query turned philosophy, turned topology, tu
 Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; time ticks in phase, not in the background.
 
 In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, one identity, and one interface. The rest; is accounting.
+
+---
+
+## :file_folder: Repo Structure
+
+```
+mode-identity-theory/
+├── main/                               # this page
+└── files/
+    ├── framework/                      # the postulate: the topology, scaling law, derivations
+    │   ├── bedrock/                    # standalone mathematics papers
+    │   │   ├── first-eigenvalue.md         # twisted Möbius Laplacian: first-positive 2/R²
+    │   │   └── coexact-gap.md              # coexact gap on S³/Γ: McKay distance, the 2I exception
+    │   └── working/                    # research in progress: orienting maps and open problems
+    ├── cosmos/                         # the static three-sphere seen whole
+    │   ├── cosmological-constant.md        # Λ as the surface first-positive eigenvalue
+    │   ├── dark-energy.md                  # the acceleration scale a₀ on the phase clock
+    │   ├── hubble-tension.md               # H₀ as an edge mode, the topological 8.4%
+    │   ├── cmb-anomalies.md                # low-ℓ suppression as the Molien gap
+    │   ├── early-galaxies.md               # early massive galaxies in a static geometry
+    │   ├── black-hole.md                   # black holes as topological nodes of the wave
+    │   └── euclid-dr1.md                   # the falsification gate
+    ├── spectrum/                       # the near boundary: matter and gauge on S³/2I
+    │   ├── yang-mills.md                   # confinement and the mass gap, the 2I exception
+    │   ├── mass-spectrum.md                # fermion masses as positions on the McKay lattice
+    │   ├── fine-structure.md               # α = 1/137 in the first Fibonacci well, one step of Λ
+    │   ├── the-mirror.md                   # the edge interference that samples the wave
+    │   └── the-waltz.md                    # the Waltz clock: phase to time on the temporal edge
+    └── tools/                          # interactive: topology viewer, calculator
+```
+
+/ **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
 
 ---
 
@@ -199,40 +227,12 @@ Every link between topology and observable is live. The code is the math. There 
 
 ---
 
-## :file_folder: Repo Structure
-
-```
-mode-identity-theory/
-├── main/                               # this page
-└── files/
-    ├── framework/                      # the postulate: the topology, scaling law, derivations
-    │   ├── bedrock/                    # standalone mathematics papers
-    │   │   ├── first-eigenvalue.md         # twisted Möbius Laplacian: first-positive 2/R²
-    │   │   └── coexact-gap.md              # coexact gap on S³/Γ: McKay distance, the 2I exception
-    │   └── working/                    # research in progress: orienting maps and open problems
-    ├── cosmos/                         # the static three-sphere seen whole
-    │   ├── cosmological-constant.md        # Λ as the surface first-positive eigenvalue
-    │   ├── dark-energy.md                  # the acceleration scale a₀ on the phase clock
-    │   ├── hubble-tension.md               # H₀ as an edge mode, the topological 8.4%
-    │   ├── cmb-anomalies.md                # low-ℓ suppression as the Molien gap
-    │   ├── early-galaxies.md               # early massive galaxies in a static geometry
-    │   ├── black-hole.md                   # black holes as topological nodes of the wave
-    │   └── euclid-dr1.md                   # the falsification gate
-    ├── spectrum/                       # the near boundary: matter and gauge on S³/2I
-    │   ├── yang-mills.md                   # confinement and the mass gap, the 2I exception
-    │   ├── mass-spectrum.md                # fermion masses as positions on the McKay lattice
-    │   ├── fine-structure.md               # α = 1/137 in the first Fibonacci well, one step of Λ
-    │   ├── the-mirror.md                   # the edge interference that samples the wave
-    │   └── the-waltz.md                    # the Waltz clock: phase to time on the temporal edge
-    └── tools/                          # interactive: topology viewer, calculator
-```
-
-/ **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
-
----
-
 [![The Whole of the Moon](https://img.youtube.com/vi/pu7AR0-FRro/mqdefault.jpg)](https://www.youtube.com/watch?v=pu7AR0-FRro)
 
 *What you hold in your hand is not matter. It is where the wave resolved when you sampled it.*
 
 *The thing is the sample. What matters is the wave Ψ*
+
+---
+
+/ **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
