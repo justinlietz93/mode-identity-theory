@@ -205,7 +205,7 @@ Outputs of a fixed structure, checked against observation:
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission">
 </a>
 
-All predictions locked before October 2026 and deposited on Zenodo. Each row below names a Euclid DR1 channel and a falsification threshold.
+All predictions below were locked before Data Release 1 and deposited on Zenodo.
 
 | Prediction | Value | Euclid DR1 channel | Falsified if |
 |---|---|---|---|
