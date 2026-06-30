@@ -1,4 +1,4 @@
-/ **[`main`](../../README.md)** / **[`bedrock`](files/bedrock/)** / **[`working`](files/working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](/README.md)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
 
 ---
 
@@ -445,4 +445,4 @@ Edge observables reference the evolving $\Omega_H(z)$; surface and space observa
 
 ---
 
-/ **[`main`](../../README.md)** / **[`bedrock`](files/bedrock/)** / **[`working`](files/working/)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](/README.md)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /

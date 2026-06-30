@@ -1,4 +1,4 @@
-/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
 
 ---
 
@@ -87,4 +87,4 @@ If this ever becomes a manuscript: no physics vocabulary, lead with the mathemat
 
 ---
 
-/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /

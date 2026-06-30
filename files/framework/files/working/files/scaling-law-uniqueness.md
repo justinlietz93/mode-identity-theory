@@ -1,4 +1,4 @@
-/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
 
 ---
 
@@ -214,4 +214,4 @@ The honest deflation that came with closing the integer hierarchy: the apparent 
 
 ---
 
-/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /

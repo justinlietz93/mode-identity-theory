@@ -1,4 +1,4 @@
-/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
 
 ---
 
@@ -180,4 +180,4 @@ The budget $u_0^2 + J^2 = 1$ holds everywhere. Nothing is created or destroyed o
 
 ---
 
-/ **[`main`](../../../../../README.md)** / **[`framework`](../../../../framework/)** / **[`working`](../)** / **[`cosmos`](../../../../cosmos/)** / **[`spectrum`](../../../../spectrum/)** /
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
