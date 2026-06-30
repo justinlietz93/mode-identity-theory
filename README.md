@@ -199,15 +199,14 @@ Every link between topology and observable is live. The code is the math. There 
 
 ---
 
-## :file_folder: Structure
+## :file_folder: Repo Structure
 
 ```
 mode-identity-theory/
-├── README.md                           # this page: the one shape, the engine, the predictions
-├── LICENSE
+├── main/                               # this page
 └── files/
-    ├── framework/                      # the hub: the postulate, the scaling law, the derivations
-    │   ├── bedrock/                    # standalone mathematics papers, the two pillars
+    ├── framework/                      # the postulate: the topology, scaling law, derivations
+    │   ├── bedrock/                    # standalone mathematics papers
     │   │   ├── first-eigenvalue.md         # twisted Möbius Laplacian: first-positive 2/R²
     │   │   └── coexact-gap.md              # coexact gap on S³/Γ: McKay distance, the 2I exception
     │   └── working/                    # research in progress: orienting maps and open problems
@@ -225,8 +224,10 @@ mode-identity-theory/
     │   ├── fine-structure.md               # α = 1/137 in the first Fibonacci well, one step of Λ
     │   ├── the-mirror.md                   # the edge interference that samples the wave
     │   └── the-waltz.md                    # the Waltz clock: phase to time on the temporal edge
-    └── tools/                          # interactive: topology viewer, calculator, engine
+    └── tools/                          # interactive: topology viewer, calculator
 ```
+
+/ **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
 
 ---
 
@@ -235,7 +236,3 @@ mode-identity-theory/
 *What you hold in your hand is not matter. It is where the wave resolved when you sampled it.*
 
 *The thing is the sample. What matters is the wave Ψ*
-
----
-
-/ **[`framework`](/files/framework/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** /
