@@ -144,59 +144,25 @@ Technical gaps with specific paths forward.
 
 ---
 
-### dist/30 Hierarchy Exponent
+**Coupling and scaling exponents.** Each is a distinct single-principle-derivation gap on a gauge or scaling exponent; the load-bearing number stays in place.
 
-**Problem:** Three convergent paths connect McKay graph distance to the Coxeter number of $E_8$ as the scaling exponent. Single-principle derivation open.
-
-**Dependencies:** McKay correspondence, $E_8$ Coxeter number.
-
----
-
-### Anti-periodic BC Selection
-
-**Problem:** 9/10 assigned fermion masses within ×3. First-principles derivation of why anti-periodic boundary conditions are selected over periodic remains open.
-
-**Dependencies:** Möbius non-orientability, mass formula.
+- **dist/30 Hierarchy Exponent:** Three convergent paths connect McKay graph distance to the Coxeter number of $E_8$ as the scaling exponent; single-principle derivation open. *Deps:* McKay correspondence, $E_8$ Coxeter number.
+- **Scale Consistency:** Three gauge couplings evaluated at different energy scales; $\alpha$ hits 0.5% at low energy but 6.2% at $M_Z$, so the framework must commit to one evaluation scale or derive running from MIT structure. *Deps:* gauge coupling derivation (engine §15), scaling law.
+- **$\alpha$ Exponent:** The $\alpha$ exponent equals the minimum grid step; two convergent paths remain and the uniqueness scan confirms, but single-principle derivation is open. *Deps:* grid structure, scaling law.
+- **Plato Twist Derivation:** $\cos(\pi/10)$ is motivated by the dodecahedral half-defect and parity violation; the open link is the operator-level mechanism connecting $\mathbb{Z}_2$ holonomy to the multiplicative cosine projection on weak coupling. *Deps:* Möbius non-orientability, stabilizer decomposition.
 
 ---
 
-### Scale Consistency
+**Selection rules.** Why one structure is picked over its alternative, not yet derived.
 
-**Problem:** Three gauge couplings evaluated at different energy scales. $\alpha$ hits 0.5% at low energy but 6.2% at $M_Z$. The framework must commit to one evaluation scale or derive running from MIT structure.
-
-**Dependencies:** Gauge coupling derivation (engine §15), scaling law.
-
----
-
-### Grid Ladder Selection Rule
-
-**Problem:** Three convergent paths connect interaction character to grid resolution ($D = 60$ vs $D = 120$). Formal derivation open.
-
-**Dependencies:** Stabilizer decomposition, boson/fermion domain split.
+- **Grid Ladder Selection Rule:** Three convergent paths connect interaction character to grid resolution ($D = 60$ vs $D = 120$); formal derivation open. *Deps:* stabilizer decomposition, boson/fermion domain split.
+- **Anti-periodic BC Selection:** 9/10 assigned fermion masses within ×3; first-principles derivation of why anti-periodic boundary conditions are selected over periodic remains open. *Deps:* Möbius non-orientability, mass formula.
 
 ---
 
-### $\alpha$ Exponent
+**Neutrino sector.**
 
-**Problem:** The $\alpha$ exponent equals the minimum grid step. Two convergent paths remain. Uniqueness scan confirms. Single-principle derivation open.
-
-**Dependencies:** Grid structure, scaling law.
-
----
-
-### Plato Twist Derivation
-
-**Problem:** $\cos(\pi/10)$ is motivated by the dodecahedral half-defect and parity violation. The operator-level mechanism connecting $\mathbb{Z}_2$ holonomy to the multiplicative cosine projection on weak coupling is the open link.
-
-**Dependencies:** Möbius non-orientability, stabilizer decomposition.
-
----
-
-### Neutrino Mass Ratios
-
-**Problem:** $\mu_\Lambda$ as the neutrino floor is motivated. The octave selection and multipliers (4, 22) are identified but not derived from the group theory.
-
-**Dependencies:** Mass formula, $\Lambda$ eigenvalue.
+- **Neutrino Mass Ratios:** $\mu_\Lambda$ as the neutrino floor is motivated; the octave selection and multipliers (4, 22) are identified but not derived from the group theory. *Deps:* mass formula, $\Lambda$ eigenvalue.
 
 ---
 
@@ -216,17 +182,10 @@ Technical gaps with specific paths forward.
 
 ---
 
-### 240 Alternative for $\alpha_s$
+**Superseded and secondary routes.**
 
-**Problem:** $C(17/120) \times \Omega^{-1/240}$ sits 1% behind the primary formula. $240 = 2 \times 120$. Requires independent justification or exclusion.
-
-**Dependencies:** Grid ladder selection rule, scaling law.
-
----
-
-### $L_\text{strip}/L_\text{fund}$ Ratio
-
-**Status:** The factor of 8 has no topological derivation, so this is a dead route to R, superseded by the mass spectrum. See [The R Problem](files/r-problem.md). The only open remnant is the residual ~3% spectral-vs-observational gap (8.17 ± 0.1 vs 7.93).
+- **240 Alternative for $\alpha_s$:** $C(17/120) \times \Omega^{-1/240}$ sits 1% behind the primary formula, with $240 = 2 \times 120$; requires independent justification or exclusion. *Deps:* grid ladder selection rule, scaling law.
+- **$L_\text{strip}/L_\text{fund}$ Ratio:** The factor of 8 has no topological derivation, so this is a dead route to $R$, superseded by the mass spectrum (see [The R Problem](files/r-problem.md)); the only open remnant is the residual ~3% spectral-vs-observational gap (8.17 ± 0.1 vs 7.93).
 
 ---
 
@@ -276,45 +235,11 @@ Registered and exploratory tests run against public datasets, with verdicts.
 
 ## :bar_chart: Waiting on External Data
 
----
-
-### $\nu_2$ Mass
-
-**Problem:** Predicted at 8.6 meV with a ratio gap of ~7.75× from the nearest entry. JUNO and DUNE are expected to resolve the neutrino mass hierarchy and test this value directly.
-
-**Dependencies:** Mass formula, neutrino sector assignments.
-
----
-
-### Black Hole Node Distribution on Static $S^3$
-
-**Problem:** If $S^3$ is static and black holes are topological nodes (double zeros where $\Theta \to 0$ and $\Omega_H \to 0$), their spatial distribution should reflect the symmetry of the 120-cell rather than FLRW comoving evolution. Quasar catalogs (Milliquas, SDSS) provide ~900,000 angular positions and redshifts. The missing piece is the $z$-to-<i>S<sup>3</sup></i>-position map: converting redshift to location on the static 3-sphere without assuming spatial expansion. Once available, test whether supermassive black hole positions correlate with 120-cell structure.
-
-**Dependencies:** Friedmann as Output (provides the static $S^3$ coordinate system), $z$-to-phase map from temporal budget.
-
----
-
-### Dead Zone
-
-**Problem:** 8 of 24 mass formula entries are unassigned: 6 in the dead zone ($10^{-9}$ to $10^{-6}$ GeV), 1 target (rank 16, ~349 MeV), 1 excluded (rank 3, ~0.4 eV). The dead zone is probed by sterile neutrino and warm dark matter searches.
-
-**Dependencies:** Mass formula, full assignment table.
-
----
-
-### Physical Observation Scale
-
-**Problem:** $\sqrt{\ell_P \cdot R_\Lambda} \sim 50\,\mu\text{m}$ places the observer at the cellular scale. The geometric midpoint is derived; the dimensionless derivation connecting this to biological observation is pending.
-
-**Dependencies:** Observer position at $\sqrt{\Omega}$, scale hierarchy.
-
----
-
-### Next Cycle Initiation
-
-**Problem:** What happens at $t = 4\pi$ is outside the current framework. The standing wave completes its period. Whether the cycle repeats, terminates, or transforms is not addressed.
-
-**Dependencies:** None within current framework.
+- **$\nu_2$ Mass:** Predicted at 8.6 meV with a ratio gap of ~7.75× from the nearest entry; JUNO and DUNE are expected to resolve the neutrino mass hierarchy and test this value directly. *Deps:* mass formula, neutrino sector assignments.
+- **Black Hole Node Distribution on Static $S^3$:** If $S^3$ is static and black holes are topological nodes (double zeros where $\Theta \to 0$ and $\Omega_H \to 0$), their spatial distribution should reflect the symmetry of the 120-cell rather than FLRW comoving evolution; quasar catalogs (Milliquas, SDSS) provide ~900,000 angular positions and redshifts, and the missing piece is the $z$-to-$S^3$-position map (converting redshift to location on the static 3-sphere without assuming spatial expansion), after which supermassive black hole positions can be tested against 120-cell structure. *Deps:* Friedmann as Output (provides the static $S^3$ coordinate system), $z$-to-phase map from temporal budget.
+- **Dead Zone:** 8 of 24 mass formula entries are unassigned: 6 in the dead zone ($10^{-9}$ to $10^{-6}$ GeV), 1 target (rank 16, ~349 MeV), 1 excluded (rank 3, ~0.4 eV); the dead zone is probed by sterile neutrino and warm dark matter searches. *Deps:* mass formula, full assignment table.
+- **Physical Observation Scale:** $\sqrt{\ell_P \cdot R_\Lambda} \sim 50\,\mu\text{m}$ places the observer at the cellular scale; the geometric midpoint is derived, but the dimensionless derivation connecting this to biological observation is pending. *Deps:* observer position at $\sqrt{\Omega}$, scale hierarchy.
+- **Next Cycle Initiation:** What happens at $t = 4\pi$ is outside the current framework; the standing wave completes its period, and whether the cycle repeats, terminates, or transforms is not addressed. *Deps:* none within the current framework.
 
 ---
 
