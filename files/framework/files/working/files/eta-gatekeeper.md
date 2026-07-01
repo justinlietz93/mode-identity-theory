@@ -16,17 +16,17 @@
 
 ## 1. The object
 
-$M=S^3/2I=\Sigma(2,3,5)$, round radius $R$, $2I$ acting by left translation. The irreducible flat $\mathrm{SU}(2)$ connections are the two $2$-dimensional irreps: the defining $Q$ (McKay distance $1$) and its Galois conjugate $Q'$ (distance $7$). Both are isolated and nondegenerate (Fintushel-Stern), so the adjoints $\mathrm{ad}_Q,\mathrm{ad}_{Q'}$ are acyclic ($H^0=H^1=0$); complexified, $\mathrm{ad}_\rho\cong\mathrm{Sym}^2\rho$, the $3$-dimensional irreps at distances $2$ and $6$.
+$M=S^3/2I=\Sigma(2,3,5)$, round radius $R$, $2I$ acting by left translation. The irreducible flat $\mathrm{SU}(2)$ connections are the two $2$-dimensional irreps: the defining $Q$ (McKay distance $1$) and its Galois conjugate $Q'$ (distance $7$). Both are isolated and nondegenerate (Fintushel-Stern), so the adjoints $\mathrm{ad}_Q,\mathrm{ad}_{Q'}$ are acyclic ($H^0=H^1=0$); complexified, $\mathrm{ad}_\rho\cong\mathrm{Sym}^2\rho$, the $3$-dimensional irreps at distances $2$ and $6$ (the coexact gap is the squared McKay distance over $R^2$: $4/R^2$ for $\mathrm{ad}_Q$, $36/R^2$ for $\mathrm{ad}_{Q'}$).
 
 The primary invariant is the APS odd-signature rho invariant $\rho_{\mathrm{ad}\rho}(M)$, the boundary quantity the index theorem on $W$ requires in Steps 3-4.
 
-> **Remark (relation to the adjoint curl $\ast d_\nabla$).** The odd signature operator acts on $\Omega^0\oplus\Omega^1(M;\mathrm{ad})$. Acyclicity removes its kernel ($h=0$), but does **not** empty the exact sector: the exact $1$-forms $d_\nabla f$ still carry the positive twisted-function spectrum. That sector is invisible to the spectral asymmetry. (For $\Delta_\nabla f=\lambda f$, $\lambda>0$, the operator exchanges $(f,0)$ and $(0,\,d_\nabla f/\sqrt\lambda)$ with opposite signs, so its eigenvalues on that pair are $\pm\sqrt\lambda$, which cancel in the signed count.) The asymmetry lives entirely on the coexact sector, where the operator restricts to $\ast d_\nabla$ with signed spectrum $\pm m/R$; so $\eta(\text{odd signature})=\eta(\ast d_\nabla\ \text{coexact})$, and with $h=0$ this is $\rho$.
+> **Remark (relation to the adjoint curl $\ast d_\nabla$).** The odd signature operator acts on $\Omega^0\oplus\Omega^1(M;\mathrm{ad})$. Acyclicity removes the harmonic representatives ($h=0$), not the exact spectral ladder: the exact $1$-forms $d_\nabla f$ still carry the positive twisted-function spectrum. That sector is invisible to the spectral asymmetry. (For $\Delta_\nabla f=\lambda f$, $\lambda>0$, the operator exchanges $(f,0)$ and $(0,\,d_\nabla f/\sqrt\lambda)$ with opposite signs, so its eigenvalues on that pair are $\pm\sqrt\lambda$, which cancel in the signed count.) The asymmetry lives entirely on the coexact sector, where the operator restricts to $\ast d_\nabla$ with signed spectrum $\pm m/R$; so $\eta(\text{odd signature})=\eta(\ast d_\nabla\ \text{coexact})$, and with $h=0$ this is $\rho$.
 
 ## 2. The tool
 
 For flat unitary $\alpha$ on $S^3/\Gamma$, $\Gamma\subset\mathrm{SU}(2)$ acting through the defining representation, the APS II $G$-signature defect gives
 $$\rho_\alpha(S^3/\Gamma)=\frac{1}{\lvert\Gamma\rvert}\sum_{1\neq g\in\Gamma}\bigl(\chi_\alpha(g)-\dim\alpha\bigr)\,\cot\tfrac{\theta_1(g)}{2}\cot\tfrac{\theta_2(g)}{2},$$
-with $g$ having defining eigenvalues $e^{\pm i\phi}$, so $\theta_1=\phi,\theta_2=-\phi$ and per-element defect $-\cot^2\tfrac{\phi}{2}$. Only the difference is needed; $\dim=3$ for both, so the $\dim\alpha$ term cancels:
+with $g$ having defining eigenvalues $e^{\pm i\phi}$, so $\theta_1=\phi,\theta_2=-\phi$ and per-element defect $-\cot^2\tfrac{\phi}{2}$ (the opposite boundary orientation, or the opposite APS defect convention, flips this factor's sign; that flip is exactly the overall sign deferred to Step 2). Only the difference is needed; $\dim=3$ for both, so the $\dim\alpha$ term cancels:
 $$\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=\frac{1}{120}\sum_{1\neq g}\bigl(\chi_{\mathrm{Sym}^2Q'}(g)-\chi_{\mathrm{Sym}^2Q}(g)\bigr)\Bigl(-\cot^2\tfrac{\phi_g}{2}\Bigr).$$
 
 ## 3. Character input
@@ -69,7 +69,7 @@ The magnitude and the reduced/unreduced normalization are validated against $\Si
 Helle (Ex. B.15) gives $cs(Q)=-1/120$; solving $(2-Q)H=Q-Q'$ on the affine $E_8$ graph gives the augmentation $\varepsilon(H)=\langle H,\delta\rangle=-72$ ($H$ is virtual, so this is a signed count, not a dimension), whence $cs(Q)-cs(Q')=-72/120=-3/5\equiv 2/5\pmod{\mathbb Z}$ (so $cs(Q')=-49/120$). By the adjoint/fundamental Dynkin index $T(\mathrm{adj})/T(\mathrm{fund})=4$, the adjoint CS difference is $4\cdot(-3/5)=-12/5\equiv 3/5\pmod{\mathbb Z}$. The relation $\rho\equiv cs(\mathrm{ad})\pmod{\mathbb Z}$ compares this residue class with the $G$-signature value from §4, whose residue is $8/5\equiv 3/5$: they agree.
 
 Precisely what this fixes:
-- **Selects the unreduced normalization.** The reduced value $4/5\equiv 4/5$ does not match $3/5$; only the unreduced $8/5\equiv 3/5$ does.
+- **Supports the unreduced normalization** (under the stated APS/CS convention). The reduced value $4/5\equiv 4/5$ does not match $3/5$; only the unreduced $8/5\equiv 3/5$ does. Treat this as a mod-$\mathbb Z$ consistency check, not the source of the real value $8/5$.
 - **Does not determine the real number.** $8/5$ is the $G$-signature result (§4) alone; the CS route fixes only the residue class $3/5\pmod{\mathbb Z}$, not the real constant relating $\rho$ to CS. (The apparent real coincidence "$8/5=8/5$" comes from choosing the $2/5$ representative before multiplying by $4$; the $-3/5$ representative gives $-12/5$, the same class.)
 - **Sign-insensitive.** The chain compares $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}$ with $cs(\mathrm{ad}Q)-cs(\mathrm{ad}Q')$ in opposite order; mod $\mathbb Z$ these are the same class, so the flip is invisible and silently carries the $\rho$-to-$cs$ sign, which is exactly the residual below.
 
@@ -77,9 +77,7 @@ The Floer gradings $1,5\bmod 8$ are consistent (two distinct connections). **Res
 
 ## Verdict: the gate is open
 
-The $Q$ vs $Q'$ boundary rho difference is $8/5$ (from the $G$-signature computation, §4), nonzero, and supported entirely on the golden classes. Its residue class mod $\mathbb Z$ is independently confirmed by the Chern-Simons route, which selects the unreduced normalization (Appendix A). This justifies proceeding to Step 2. The overall sign is deferred to the $\partial W$ orientation; identifying an interior $E_8$ surface term and proving coupling to the distance-six class in $H_2(W)$ remain Steps 3-4.
-
-**Deferred (on filing to the repo):** update the postulate-bridge note's Step-1 phrasing from "eta of the adjoint curl" to "APS odd-signature rho invariant, equivalently the coexact adjoint-curl eta after the exact-sector cancellation."
+The $G$-signature computation gives $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=8/5$ in the unreduced APS odd-signature normalization, up to the global sign fixed by the eventual $\partial W$ orientation. The difference is nonzero and supported entirely on the golden conjugacy classes. The CS/McKay computation independently matches the residue class $3/5\pmod{\mathbb Z}$ under the stated APS/CS convention, supporting the normalization (Appendix A). The Step-1 gate is open. This justifies proceeding to Step 2; identifying an interior $E_8$ surface term and proving coupling to the distance-six class in $H_2(W)$ remain Steps 3-4.
 
 ## Appendix A. Fundamental Chern-Simons via the affine $E_8$ solve
 
@@ -92,6 +90,13 @@ $$H=(h_0,\dots,h_8)=(0,\,0,\,-1,\,-2,\,-3,\,-4,\,-3,\,-2,\,-2).$$
 (Back-substitution is forced; the node-$7$ equation checks: $2(-2)-(-3)=-1$.) Then
 $$\varepsilon(H)=\langle H,\delta\rangle=-3-8-15-24-12-4-6=-72\quad(\text{signed; }H\text{ is virtual}),$$
 $$cs(Q)-cs(Q')=\frac{-72}{120}=-\frac35\equiv\frac25\pmod{\mathbb Z},\qquad cs(Q')=-\frac{1}{120}+\frac{72}{120}=\frac{71}{120}\equiv-\frac{49}{120}.$$
+
+The consistency check is three residues mod $\mathbb Z$, kept separate so the agreement is not read as a real-number coincidence:
+1. **Fundamental CS difference:** $cs(Q)-cs(Q')=-3/5\equiv 2/5$.
+2. **Adjoint index ($\times 4$):** $cs(\mathrm{ad}Q)-cs(\mathrm{ad}Q')\equiv 4\cdot(-3/5)\equiv 3/5$.
+3. **Rho residue:** the $G$-signature value $8/5\equiv 3/5$.
+
+The three agree mod $\mathbb Z$; the real number $8/5$ is claim 3's alone.
 
 ## Sources
 
