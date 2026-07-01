@@ -38,6 +38,12 @@ Orienting notes that index other work.
 
 ---
 
+## :mountain_snow: Mathematics Foundation
+
+Closing any one of these upgrades everything downstream.
+
+---
+
 ### [The Postulate Bridge](files/postulate-bridge.md)
 
 **Tracker:** The two bedrock results sit on the two pieces of the postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, and whether a theorem connects them is open. The naive bridge through the shared $2/R^2$ is dead: the surface eigenvalue is $\Gamma$-blind and the Ricci floor is the only $\Gamma$-independent slot in the gap, so the match is a forced curvature-scale coincidence, not a spectral link, and $2I$'s perfectness ($H^1 = 0$) closes the orientation route as well. The one live route is index theory on the $E_8$ plumbing that $S^3/2I$ bounds, where the McKay correspondence identifies the intersection-form $E_8$ with the gauge $E_8$; the gatekeeper is whether the adjoint curl eta-invariant distinguishes the Galois connection $Q'$ from $Q$ by the same distance-six anomaly that gives the $36/R^2$ gap.
@@ -46,7 +52,11 @@ Orienting notes that index other work.
 
 ---
 
-## :house: Foundation
+eta page here
+
+---
+
+## :house: Physics Foundation
 
 Closing any one of these upgrades everything downstream.
 
