@@ -38,7 +38,7 @@ Orienting notes that index other work.
 
 ---
 
-## :mountain_snow: Mathematics Foundation
+## :mountain_snow: Math Foundation
 
 Closing any one of these upgrades everything downstream.
 
