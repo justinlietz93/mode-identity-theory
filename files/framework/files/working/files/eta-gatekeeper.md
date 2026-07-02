@@ -4,7 +4,7 @@
 
 # The η-gatekeeper: $Q$ versus $Q'$ on $S^3/2I$
 
-**Status (2026-07-01):** Step 1 of the postulate-bridge staged plan, closed; gate open. The boundary rho difference is $8/5$ in magnitude, nonzero and Galois-sourced. Step 2 fixes the orientation: on the resolution boundary, $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$, and the magnitude $73/15$ is now anchored in print (BHKK); see [Step 2](step2-analytic-setup.md). The interior classes are computed in [Step 3](step3-interior-classes.md); the coupling identity is Step 4.
+**Status (2026-07-01):** Step 1 of the postulate-bridge staged plan, closed; gate open. The boundary rho difference is $8/5$ in magnitude, nonzero and Galois-sourced. Step 2 fixes the orientation: on the resolution boundary, $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$, and the magnitude $73/15$ is now anchored in print (BHKK); see [Step 2](step2-analytic-setup.md). The interior classes are computed in [Step 3](step3-interior-classes.md); the coupling question is resolved in [Step 4](step4-coupling.md) (route-specific split: gauge dictionary proved, Möbius channel decoupled).
 
 **Related:** [Postulate bridge](postulate-bridge.md), [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md).
 
