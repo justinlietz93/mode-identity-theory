@@ -4,7 +4,7 @@
 
 # The η-gatekeeper: $Q$ versus $Q'$ on $S^3/2I$
 
-**Status (2026-07-01):** Step 1 of the postulate-bridge staged plan, closed. The boundary rho difference is $8/5$, nonzero and Galois-sourced, so the gate is open. The overall sign is deferred to the $\partial W$ orientation (Step 2), and coupling to the interior distance-six class in $H_2(W)$ is Steps 3-4.
+**Status (2026-07-01):** Step 1 of the postulate-bridge staged plan, closed; gate open. The boundary rho difference is $8/5$ in magnitude, nonzero and Galois-sourced. Step 2 fixes the orientation: on the resolution boundary, $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$, and the magnitude $73/15$ is now anchored in print (BHKK); see [Step 2](step2-analytic-setup.md). Coupling to the interior distance-six class in $H_2(W)$ is Steps 3-4.
 
 **Related:** [Postulate bridge](postulate-bridge.md), [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md).
 
@@ -26,7 +26,7 @@ The primary invariant is the APS odd-signature rho invariant $\rho_{\mathrm{ad}\
 
 For flat unitary $\alpha$ on $S^3/\Gamma$, $\Gamma\subset\mathrm{SU}(2)$ acting through the defining representation, the APS II $G$-signature defect gives
 $$\rho_\alpha(S^3/\Gamma)=\frac{1}{\lvert\Gamma\rvert}\sum_{1\neq g\in\Gamma}\bigl(\chi_\alpha(g)-\dim\alpha\bigr)\,\cot\tfrac{\theta_1(g)}{2}\cot\tfrac{\theta_2(g)}{2},$$
-with $g$ having defining eigenvalues $e^{\pm i\phi}$, so $\theta_1=\phi,\theta_2=-\phi$ and per-element defect $-\cot^2\tfrac{\phi}{2}$ (the opposite boundary orientation, or the opposite APS defect convention, flips this factor's sign; that flip is exactly the overall sign deferred to Step 2). Only the difference is needed; $\dim=3$ for both, so the $\dim\alpha$ term cancels:
+with $g$ having defining eigenvalues $e^{\pm i\phi}$, so $\theta_1=\phi,\theta_2=-\phi$ and per-element defect $-\cot^2\tfrac{\phi}{2}$ (the opposite boundary orientation, or the opposite APS defect convention, flips this factor's sign; that flip is exactly the overall sign, fixed in [Step 2](step2-analytic-setup.md) to $-8/5$ on the resolution boundary). Only the difference is needed; $\dim=3$ for both, so the $\dim\alpha$ term cancels:
 $$\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=\frac{1}{120}\sum_{1\neq g}\bigl(\chi_{\mathrm{Sym}^2Q'}(g)-\chi_{\mathrm{Sym}^2Q}(g)\bigr)\Bigl(-\cot^2\tfrac{\phi_g}{2}\Bigr).$$
 
 ## 3. Character input
@@ -62,7 +62,7 @@ The $\sqrt5$ cancels in the class sum, leaving the rational $8/5$, as expected f
 - **Not the same invariant as the gap.** Rho is signed asymmetry; the gap is first absolute occurrence. Both are sensitive to the same Galois separation between $\mathrm{Sym}^2Q$ and $\mathrm{Sym}^2Q'$; neither computes the other.
 - **Denominator $5$.** Consistent with the contribution being supported on the order-$5$ / order-$10$ classes.
 
-## 6. Normalization check (closed; orientation sign deferred)
+## 6. Normalization check (closed; orientation sign fixed in Step 2)
 
 The magnitude and the reduced/unreduced normalization are validated against $\Sigma(2,3,5)$ data by an independent route (Appendix A). This is a mod-$\mathbb Z$ test, insensitive to the overall sign.
 
@@ -73,11 +73,11 @@ Precisely what this fixes:
 - **Does not determine the real number.** $8/5$ is the $G$-signature result (§4) alone; the CS route fixes only the residue class $3/5\pmod{\mathbb Z}$, not the real constant relating $\rho$ to CS. (The apparent real coincidence "$8/5=8/5$" comes from choosing the $2/5$ representative before multiplying by $4$; the $-3/5$ representative gives $-12/5$, the same class.)
 - **Sign-insensitive.** The chain compares $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}$ with $cs(\mathrm{ad}Q)-cs(\mathrm{ad}Q')$ in opposite order; mod $\mathbb Z$ these are the same class, so the flip is invisible and silently carries the $\rho$-to-$cs$ sign, which is exactly the residual below.
 
-The Floer gradings $1,5\bmod 8$ are consistent (two distinct connections). **Residual:** the overall sign, fixed by orienting $\Sigma(2,3,5)$ as $\partial W$ of the chosen $E_8$ plumbing in Step 2/3 (Helle Ex. B.15: orientation reversal flips $cs$); not needed for the Step-1 gate.
+The Floer gradings $1,5\bmod 8$ are consistent (two distinct connections). **Sign (fixed in Step 2):** orienting $\Sigma(2,3,5)$ as $\partial W$ of the minimal resolution gives $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$; the $+8/5$ above is the reversed ($X_{+1}=-\Sigma$) orientation, and the $73/15$ magnitude is anchored in print (BHKK, spectral-flow integrality). See [Step 2](step2-analytic-setup.md).
 
 ## Verdict: the gate is open
 
-The $G$-signature computation gives $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=8/5$ in the unreduced APS odd-signature normalization, up to the global sign fixed by the eventual $\partial W$ orientation. The difference is nonzero and supported entirely on the golden conjugacy classes. The CS/McKay computation independently matches the residue class $3/5\pmod{\mathbb Z}$ under the stated APS/CS convention, supporting the normalization (Appendix A). The Step-1 gate is open. This justifies proceeding to Step 2; identifying an interior $E_8$ surface term and proving coupling to the distance-six class in $H_2(W)$ remain Steps 3-4.
+The $G$-signature computation gives $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=8/5$ in magnitude (unreduced APS odd-signature normalization); Step 2 fixes the sign to $-8/5$ on the resolution-boundary orientation. The difference is nonzero and supported entirely on the golden conjugacy classes. The CS/McKay computation independently matches the residue class $3/5\pmod{\mathbb Z}$ under the stated APS/CS convention, supporting the normalization (Appendix A). The Step-1 gate is open, and Step 2 (framework and sign) is done; identifying an interior $E_8$ surface term and proving coupling to the distance-six class in $H_2(W)$ remain Steps 3-4.
 
 ## Appendix A. Fundamental Chern-Simons via the affine $E_8$ solve
 
