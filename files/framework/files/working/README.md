@@ -52,14 +52,6 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [The η-Gatekeeper](files/eta-gatekeeper.md)
-
-**Result (2026-07-01), gate open:** Step 1 of the bridge, and the test that could have killed the route. The boundary invariant separating the two flat $\mathrm{SU}(2)$ connections on $S^3/2I$ is the APS odd-signature rho invariant for $\mathrm{ad}\,Q$ versus $\mathrm{ad}\,Q'$ (equivalently the coexact adjoint-curl eta after exact-sector cancellation and acyclicity). It is nonzero and Galois-sourced: $\rho_{\mathrm{ad}Q'} - \rho_{\mathrm{ad}Q} = 8/5$, supported entirely on the four golden ($\sqrt5$) conjugacy classes, the Galois locus behind the $36/R^2$ coexact gap. So the boundary sees the Galois structure and the embedding is not spectrally blind. An independent Chern-Simons computation on the affine $E_8$ graph ($cs(Q) = -1/120$, augmentation $-72$) confirms the residue $3/5 \bmod \mathbb{Z}$ and pins the unreduced normalization; a literature cross-check confirms the standard APS convention with no factor of two. Step 2 (2026-07-01) fixes the sign, $-8/5$ on the resolution-boundary orientation, and sets the framework (ALE instanton on the minimal resolution, [Step 2](files/step2-analytic-setup.md)); [Step 3](files/step3-interior-classes.md) computes the interior classes (Galois-blind: the distance-six selection is tautological, not homological), leaving the coupling identity to Step 4.
-
-**Dependencies:** [The Postulate Bridge](files/postulate-bridge.md), [Coexact gap](../bedrock/files/coexact-gap.md); APS $G$-signature defect, the $2I$ character table, Chern-Simons on the affine $E_8$ graph.
-
----
-
 ## :house: Physics Foundation
 
 Closing any one of these upgrades everything downstream.
