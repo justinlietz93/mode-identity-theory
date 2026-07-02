@@ -4,7 +4,7 @@
 
 # The η-gatekeeper: $Q$ versus $Q'$ on $S^3/2I$
 
-**Status (2026-07-01):** Step 1 of the postulate-bridge staged plan, closed; gate open. The boundary rho difference is $8/5$ in magnitude, nonzero and Galois-sourced. Step 2 fixes the orientation: on the resolution boundary, $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$, and the magnitude $73/15$ is now anchored in print (BHKK); see [Step 2](step2-analytic-setup.md). Coupling to the interior distance-six class in $H_2(W)$ is Steps 3-4.
+**Status (2026-07-01):** Step 1 of the postulate-bridge staged plan, closed; gate open. The boundary rho difference is $8/5$ in magnitude, nonzero and Galois-sourced. Step 2 fixes the orientation: on the resolution boundary, $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$, and the magnitude $73/15$ is now anchored in print (BHKK); see [Step 2](step2-analytic-setup.md). The interior classes are computed in [Step 3](step3-interior-classes.md); the coupling identity is Step 4.
 
 **Related:** [Postulate bridge](postulate-bridge.md), [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md).
 
@@ -12,13 +12,13 @@
 
 **Goal.** Decide whether the boundary carries a nonzero, connection-sensitive spectral asymmetry separating $Q$ from its Galois conjugate $Q'$, sourced by the same $\mathbb{Q}(\sqrt5)$ arithmetic that makes the coexact gap $36/R^2$ rather than $4/R^2$. Boundary-only, independent of the filling. A zero or Galois-blind answer stops the program.
 
-> **Convention (fixed before computing).** $\rho_\alpha$ is the APS odd-signature rho invariant in the **unreduced** normalization $\rho_\alpha=\eta_\alpha-\dim(\alpha)\,\eta_{\mathrm{triv}}$. Orient $\Sigma(2,3,5)$ **as the boundary $\partial W$ of the $E_8$ plumbing** chosen in Step 2 (not merely the Seifert orientation), with the APS II sign of the $G$-signature defect; the sign of the answer is fixed by that choice and is what Steps 3-4 read as match-or-oppose. Under the reduced convention $\bar\eta=(\eta+h)/2$ (here $h=0$, so $\bar\eta=\eta/2$), every rho difference below is halved. The magnitude and the golden-class support are independent of the orientation choice.
+> **Convention (fixed before computing).** $\rho_\alpha$ is the APS odd-signature rho invariant in the **unreduced** normalization $\rho_\alpha=\eta_\alpha-\dim(\alpha)\,\eta_{\mathrm{triv}}$. Orient $\Sigma(2,3,5)$ **as the boundary $\partial W$ of the $E_8$ plumbing** chosen in Step 2 (not merely the Seifert orientation), with the APS II sign of the $G$-signature defect; the sign of the answer is fixed by that choice and is what Step 4 reads as match-or-oppose. Under the reduced convention $\bar\eta=(\eta+h)/2$ (here $h=0$, so $\bar\eta=\eta/2$), every rho difference below is halved. The magnitude and the golden-class support are independent of the orientation choice.
 
 ## 1. The object
 
 $M=S^3/2I=\Sigma(2,3,5)$, round radius $R$, $2I$ acting by left translation. The irreducible flat $\mathrm{SU}(2)$ connections are the two $2$-dimensional irreps: the defining $Q$ (McKay distance $1$) and its Galois conjugate $Q'$ (distance $7$). Both are isolated and nondegenerate (Fintushel-Stern), so the adjoints $\mathrm{ad}_Q,\mathrm{ad}_{Q'}$ are acyclic ($H^0=H^1=0$); complexified, $\mathrm{ad}_\rho\cong\mathrm{Sym}^2\rho$, the $3$-dimensional irreps at distances $2$ and $6$ (the coexact gap is the squared McKay distance over $R^2$: $4/R^2$ for $\mathrm{ad}_Q$, $36/R^2$ for $\mathrm{ad}_{Q'}$).
 
-The primary invariant is the APS odd-signature rho invariant $\rho_{\mathrm{ad}\rho}(M)$, the boundary quantity the index theorem on $W$ requires in Steps 3-4.
+The primary invariant is the APS odd-signature rho invariant $\rho_{\mathrm{ad}\rho}(M)$, the boundary quantity the index theorem on $W$ requires in Step 4.
 
 > **Remark (relation to the adjoint curl $\ast d_\nabla$).** The odd signature operator acts on $\Omega^0\oplus\Omega^1(M;\mathrm{ad})$. Acyclicity removes the harmonic representatives ($h=0$), not the exact spectral ladder: the exact $1$-forms $d_\nabla f$ still carry the positive twisted-function spectrum. That sector is invisible to the spectral asymmetry. (For $\Delta_\nabla f=\lambda f$, $\lambda>0$, the operator exchanges $(f,0)$ and $(0,\,d_\nabla f/\sqrt\lambda)$ with opposite signs, so its eigenvalues on that pair are $\pm\sqrt\lambda$, which cancel in the signed count.) The asymmetry lives entirely on the coexact sector, where the operator restricts to $\ast d_\nabla$ with signed spectrum $\pm m/R$; so $\eta(\text{odd signature})=\eta(\ast d_\nabla\ \text{coexact})$, and with $h=0$ this is $\rho$.
 
@@ -77,7 +77,7 @@ The Floer gradings $1,5\bmod 8$ are consistent (two distinct connections). **Sig
 
 ## Verdict: the gate is open
 
-The $G$-signature computation gives $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=8/5$ in magnitude (unreduced APS odd-signature normalization); Step 2 fixes the sign to $-8/5$ on the resolution-boundary orientation. The difference is nonzero and supported entirely on the golden conjugacy classes. The CS/McKay computation independently matches the residue class $3/5\pmod{\mathbb Z}$ under the stated APS/CS convention, supporting the normalization (Appendix A). The Step-1 gate is open, and Step 2 (framework and sign) is done; identifying an interior $E_8$ surface term and proving coupling to the distance-six class in $H_2(W)$ remain Steps 3-4.
+The $G$-signature computation gives $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=8/5$ in magnitude (unreduced APS odd-signature normalization); Step 2 fixes the sign to $-8/5$ on the resolution-boundary orientation. The difference is nonzero and supported entirely on the golden conjugacy classes. The CS/McKay computation independently matches the residue class $3/5\pmod{\mathbb Z}$ under the stated APS/CS convention, supporting the normalization (Appendix A). The Step-1 gate is open, and Steps 2-3 (framework, sign, interior classes) are done; the coupling identity, revised by [Step 3](step3-interior-classes.md) to a three-ingredient test, remains Step 4.
 
 ## Appendix A. Fundamental Chern-Simons via the affine $E_8$ solve
 

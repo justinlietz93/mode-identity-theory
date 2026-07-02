@@ -4,7 +4,7 @@
 
 # Step 2 of the postulate bridge: the analytic setup and the sign
 
-**Status (2026-07-01):** Closed. The analytic framework is fixed (ALE instanton on the minimal resolution of $\mathbb{C}^2/2I$, Kronheimer-Nakajima; the orbifold cone is a consistency check only), and the orientation is resolved: on the resolution-boundary orientation $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$, with the magnitude $73/15$ anchored in print (BHKK). The Step-1 gate conclusion is unchanged; Steps 3-4 (interior coupling) are open.
+**Status (2026-07-01):** Closed. The analytic framework is fixed (ALE instanton on the minimal resolution of $\mathbb{C}^2/2I$, Kronheimer-Nakajima; the orbifold cone is a consistency check only), and the orientation is resolved: on the resolution-boundary orientation $\rho_{\mathrm{ad}Q'}-\rho_{\mathrm{ad}Q}=-8/5$, with the magnitude $73/15$ anchored in print (BHKK). The Step-1 gate conclusion is unchanged; [Step 3](step3-interior-classes.md) is closed (interior classes computed, Galois-blind) and Step 4 (the coupling identity, revised) is open.
 
 **Related:** [η-gatekeeper (Step 1)](eta-gatekeeper.md), [Postulate bridge](postulate-bridge.md), [Coexact gap](../../bedrock/files/coexact-gap.md).
 
