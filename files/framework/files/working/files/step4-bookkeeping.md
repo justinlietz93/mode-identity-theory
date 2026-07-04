@@ -61,7 +61,7 @@ and the convention is not a choice left open: applying it to the trivial bundle,
 $$\eta_{\mathrm{Dir}}(+\Sigma)\;=\;2\,D_{\mathrm{triv}}\;=\;\tfrac{1079}{720},$$
 an exact value with the denominator $720$ dividing pattern familiar from equivariant eta computations on this space. Any other sign assignment breaks the (A.1)/(A.2) internal consistency.
 
-*Remark (an independent corroboration).* The APS signature theorem on the truncation, $\mathrm{sign}(W)=\tfrac{1}{3}\int_W p_1-\eta_{\mathrm{Sign}}(\partial W)$, gives $\int_W\hat{A}=-\tfrac{1}{24}\int p_1=-\tfrac{1}{8}\bigl(\mathrm{sign}+\eta_{\mathrm{Sign}}\bigr)=1-\tfrac{361}{1440}=\tfrac{1079}{1440}=D_{\mathrm{triv}}$, using only the signature theorem and the untwisted signature eta of §4, independent of KN. The convention web is therefore triply locked: KN internal consistency, the signature route, and the Ruberman-Saveliev identity below all force the same $\eta_{\mathrm{Dir}}$. (Some sources, e.g. Degeratu's Molien-series formulas, carry the opposite overall sign through a different orientation convention; the caveat is recorded and the two are compatible under the flip.)
+*Remark (an independent corroboration).* The APS signature theorem on the truncation, $\mathrm{sign}(W)=\tfrac{1}{3}\int_W p_1-\eta_{\mathrm{Sign}}(\partial W)$, gives $\int_W\hat{A}=-\tfrac{1}{24}\int p_1=-\tfrac{1}{8}\bigl(\mathrm{sign}+\eta_{\mathrm{Sign}}\bigr)=1-\tfrac{361}{1440}=\tfrac{1079}{1440}=D_{\mathrm{triv}}$, using only the signature theorem and the untwisted signature eta of §4, independent of KN. The convention web is therefore triply locked: KN internal consistency, the signature route, and the Ruberman-Saveliev identity below all force the same $\eta_{\mathrm{Dir}}$. (Degeratu's Molien-series formulas agree exactly: her direct group sum, Cor. 2.4 with the half-determinant trivial for $\Gamma\subset\mathrm{SU}(2)$ by her Cor. 3.3, gives $\eta_{\mathrm{Dir},\chi}=+2D_\chi$ at $n=2$ on the boundary-at-infinity orientation, the same convention as here with no sign flip.)
 
 ## 4. Item 4: $\bar\mu$, pinned and absorbed into the same currency
 
@@ -96,7 +96,7 @@ All four carried items are closed. Item 1 closes as a theorem-grade identity: th
 - D. Ruberman, N. Saveliev, *The $\bar\mu$-invariant of Seifert fibered homology spheres and the Dirac operator*, arXiv:1009.3201 (Thm 1.1, the $\tfrac12\eta_{\mathrm{Dir}}+\tfrac18\eta_{\mathrm{Sign}}=-\bar\mu$ identity; link orientation).
 - W. Neumann; L. Siebenmann ($\bar\mu$ and its plumbing definition); Y. Fukumoto, M. Furuta, M. Ue (the $b_2\le-8\bar\mu$ bound for spin fillings).
 - Atiyah, Patodi, Singer I-II (the index form with $(h+\eta)/2$; the $G$-signature defect).
-- A. Degeratu (Molien-series eta formulas for ALE spaces; opposite-orientation sign caveat recorded in §3).
+- A. Degeratu, *Eta-invariants from Molien series*, Q. J. Math. 60 (2009) (Cor. 2.4, Cor. 3.3: the direct group-sum eta formula; at $n=2$ it reads $\eta_{\mathrm{Dir},\chi}=+2D_\chi$ on the same orientation as §3).
 - Worksheet: [step4-bookkeeping.test.py](step4-bookkeeping.test.py) (all sums exact in $\mathbb{Q}(\sqrt5)$, surds cancelling).
 
 ---
