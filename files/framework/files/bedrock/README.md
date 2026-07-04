@@ -4,7 +4,7 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/the%20bridge%20banner.png" width="100%" alt="Bedrock">
 
-The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ with $\partial S^3 = \emptyset$, and it nests three objects: the temporal seam $S^1$, the Möbius surface it bounds, and the space $S^3$ in which the seam is anchored. The standalone mathematics papers below put operators on two of those objects, the surface and the space. The seam $S^1$ is the boundary datum produced by the embedding, not a separate spectrum.
+The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ with $\partial S^3 = \emptyset$, and it nests three objects: the temporal seam $S^1$, the Möbius surface it bounds, and the space $S^3$ in which the seam is anchored. The standalone mathematics papers below put operators on two of those objects, the surface and the space, and a third reads the arithmetic of the four-dimensional filling that the space-quotient $S^3/2I$ bounds. The seam $S^1$ is the boundary datum produced by the embedding, not a separate spectrum.
 
 ---
 
@@ -21,6 +21,14 @@ The postulate is one line, $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ 
 ***[Coexact gap](files/coexact-gap.md)***
 
 [![The Mass Gap](https://img.youtube.com/vi/dWKXrTIquT8/mqdefault.jpg)](https://www.youtube.com/watch?v=dWKXrTIquT8)
+
+---
+
+**The Filling:** The Poincaré homology sphere $S^3/2I$ carries a Galois pair of flat $\mathrm{SU}(2)$ connections, exchanged by $\sqrt5 \mapsto -\sqrt5$, and it bounds the $E_8$ plumbing. A single conversion identity ties the boundary's odd-signature rho invariant to the character sums of that filling, for every $S^3/\Gamma$; on $S^3/2I$ the filling's tautological bundles carry the Galois asymmetry exactly as charge, while its bare mod-2 homology cannot see it at all. The framework reads the filling as the interior the embedding produces, and the decoration-versus-homology split as the gatekeeper: the boundary's arithmetic reaches the interior through the tautological decoration, not the bare topology.
+
+***[Galois pair](files/galois-pair.md)***
+
+[![Galois Pair](https://img.youtube.com/vi/Jb1nDkJevxs/mqdefault.jpg)](https://www.youtube.com/watch?v=Jb1nDkJevxs)
 
 ---
 

@@ -1,0 +1,384 @@
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
+
+---
+
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/galois%20pair%20banner.png" width="100%" alt="Galois Pair">
+
+Up to conjugacy the Poincaré homology sphere $`S^3/2I`$ carries, besides the trivial connection, exactly two irreducible flat $`\mathrm{SU}(2)`$ connections, interchanged by the Galois automorphism of $`\mathbb{Q}(\sqrt5)`$; it bounds the $`E_8`$ plumbing $`W`$. We record an elementary conversion, obtained by combining the classical Atiyah-Patodi-Singer defect formula with the Dirac/Molien character sums, expressing the odd-signature rho invariant of any flat twist without trivial constituent on any $`S^3/\Gamma`$, $`\Gamma\subset\mathrm{SU}(2)`$ finite, as an affine function of the character sums of the Kronheimer-Nakajima index formulas. On $`S^3/2I`$ it reproduces the printed adjoint rho invariants $`-73/15`$ and $`-97/15`$ from the character sums, and locates their difference $`-8/5`$ exactly on the four conjugacy classes moved by $`\sqrt5\mapsto-\sqrt5`$. The tautological bundles on $`W`$ realize the asymmetry as charge: $`k\equiv cs\bmod 1`$ in all four sectors, with $`k(\mathcal{R}_Q)-k(\mathcal{R}_{Q'})=\varepsilon(H)/\lvert 2I\rvert`$ exactly, refining a congruence of Helle.
+
+The filling's raw homology, by contrast, cannot see the asymmetry: the automorphism group of the mod-2/mod-4 quadratic package is transitive on the $`120`$ root classes, and along the restriction route every term localized on a $`\mathbb{Z}_2`$-null non-orientable surface receives every bundle trivially, hence cancels in the Galois difference. The dichotomy is the result: the filling detects the Galois pair through its tautological decoration and, along this route, through nothing else. The ingredients are classical; the new content is the affine conversion in Kronheimer-Nakajima currency, the golden-class localization, the exact charge realization, and the route-scoped decoupling.
+
+---
+
+## 1. Introduction
+
+A characteristic surface in a compact oriented $`4`$-manifold detects an eta-type invariant of its boundary: the Guillou-Marin congruence reads the signature defect mod $`16`$ from the normal Euler number and the Brown invariant of the surface. The Poincaré homology sphere carries a finer eta-type asymmetry than the signature defect. Up to conjugacy it has, besides the trivial connection, exactly two irreducible flat $`\mathrm{SU}(2)`$ connections; their characters generate $`\mathbb{Q}(\sqrt5)`$, the Galois automorphism $`\sigma:\sqrt5\mapsto-\sqrt5`$ interchanges them, and the difference of their adjoint Atiyah-Patodi-Singer rho invariants is $`-8/5`$, supported exactly on the four conjugacy classes that $`\sigma`$ moves. Its canonical filling, the $`E_8`$ plumbing $`W`$, is homologically as symmetric as a $`4`$-manifold can be. The question this paper answers, on both sides, is: which structures on the filling see the boundary's asymmetry?
+
+The setting is uniform in the group. For a finite subgroup $`\Gamma\subset\mathrm{SU}(2)`$, write $`Y_\Gamma^+`$ for $`S^3/\Gamma`$ with the quotient orientation of the link of $`\mathbb{C}^2/\Gamma`$, and for a flat unitary twist $`\alpha`$ write $`D_\alpha`$ for the character sums of the Kronheimer-Nakajima index formulas (§3.1). For $`2I`$ the two irreducible flat connections are named by their representations $`Q`$ and $`Q'`$, and $`+\Sigma:=Y_{2I}^+`$. We first record a conversion identity valid for every $`\Gamma`$ (Theorem 1.1), then apply it to $`2I`$ and its filling (Theorem 1.2), and finally delimit the correspondence (Theorem 1.3).
+
+> **Theorem 1.1** (Conversion identity)**.** For every finite $`\Gamma\subset\mathrm{SU}(2)`$ and every flat unitary twist $`\alpha`$ on $`Y_\Gamma^+`$ with no trivial constituent,
+> ```math
+> \rho_\alpha(Y_\Gamma^+)\;=\;\dim\alpha\;+\;4\bigl(D_\alpha-\dim\alpha\cdot D_1\bigr).
+> ```
+> The hypothesis is sharp: a trivial constituent of multiplicity $`m`$ shifts the identity by exactly $`m`$ (Corollary 3.2).
+
+> **Theorem 1.2** (Galois asymmetry, tautologically realized)**.** On $`+\Sigma`$ the adjoint rho invariants of the Galois pair are $`\rho_{\mathrm{Sym}^2Q}=-73/15`$ and $`\rho_{\mathrm{Sym}^2Q'}=-97/15`$ (both in print: [Anvari, Table 1]; the first also [BHKK, §6], transported); their difference
+> ```math
+> \rho_{\mathrm{Sym}^2Q'}-\rho_{\mathrm{Sym}^2Q}\;=\;4\,\bigl(D_{\mathrm{Sym}^2Q'}-D_{\mathrm{Sym}^2Q}\bigr)\;=\;-\tfrac{8}{5}
+> ```
+> is supported exactly on the four golden classes; and the tautological bundles on $`W`$ realize the asymmetry as charge: $`k(\mathcal{R}_\alpha)\equiv cs(\alpha)\bmod 1`$ in all four sectors $`\alpha\in\lbrace Q,Q',\mathrm{Sym}^2Q,\mathrm{Sym}^2Q'\rbrace`$, with the exact equality $`k(\mathcal{R}_Q)-k(\mathcal{R}_{Q'})=\varepsilon(H)/\lvert 2I\rvert=-3/5`$.
+
+> **Theorem 1.3** (Blindness and decoupling)**.** (i) The automorphism group of $`(H_2(W;\mathbb{Z}_2),\ \cdot\ ,\mathfrak{P})`$ is transitive on the $`120`$ classes with $`\mathfrak{P}=2`$; consequently no invariant of the isomorphism class of the pointed quadratic space distinguishes the class of the distance-six node from any other class with $`\mathfrak{P}=2`$. (ii) For every restriction-route identity in the sense of Definition 7.4, the term localized on a $`\mathbb{Z}_2`$-null non-orientable surface $`F`$ equals $`\mathrm{rk}(\mathcal{R})\cdot T_F`$ with $`T_F`$ independent of the coefficient bundle, and cancels identically in the Galois difference of the rank-three adjoints; identities coupling the bundle to $`F`$ through other channels are not addressed.
+
+The dichotomy is not a failure of information transfer. The filling knows the boundary's Galois asymmetry exactly: by Theorem 1.1 the rho difference and the tautological charge difference are the same character sum read twice, and Theorem 1.2 prices the asymmetry in the filling's own currency. What Theorem 1.3 shows is where that information lives: in the tautological decoration of the McKay classes and, along the restriction route, nowhere in the raw mod-2/mod-4 homology or its characteristic-surface refinement. Blindness of the package, sensitivity of the decoration.
+
+On attribution. The paper formulates the classical defect-sum computation in the Kronheimer-Nakajima character-sum currency (Theorem 1.1; the affine form appears to be unrecorded, though both of its inputs are long known); verifies the printed rho pair three independent ways (Proposition 4.1); locates the difference on the golden classes (Corollary 4.2, via an elementary equivariance lemma); refines Helle's augmentation congruence to an exact equality of charges (Proposition 5.3) and records the worked four-sector charge table (Proposition 5.2, the mod-1 principle being classical); and proves the two scoped negatives (Theorem 1.3). Nothing here claims a new method, a new invariant, or a universal independence theorem.
+
+The neighboring literature. The identification $`\Sigma(2,3,5)=S^3/2I`$ is used throughout without further comment. The rho values and their integrality mechanism are [BHKK]; the printed table on the link orientation is [Anvari], after [Saveliev]; the flat connections' isolation and the $`R`$-invariant technology are [FintushelStern]. The tautological bundles and index formulas are [KronheimerNakajima] and [Nakajima]; the Dirac-side character sums are printed in [Degeratu] (Molien form) and [CisnerosMolina] (spectra); the defect-sum lineage is [APS2], [Gilkey], [BotvinnikGilkey]. The Chern-Simons machinery is [Helle], with classical antecedents [Auckly], [KirkKlassen]; the transgression principle in cylindrical-end form is [HeddenKirk]. On the surface side, the closed congruence is [GuillouMarin] in [Matsumoto]'s exposition, the topological correction is [KirbyTaylor], the relative form is [Klug], the $`S^4`$ ancestor is [Massey], and the homology-cobordism setting is [LRS]. The consistency web of §4 verifies against [RubermanSaveliev] and [NeumannSiebenmann].
+
+Organization. Section 2 fixes the group data, the golden classes, and the load-bearing orientation dictionary. Section 3 proves Theorem 1.1 and calibrates every convention against print. Sections 4 and 5 prove Theorem 1.2, the boundary half and the interior half. Section 6 proves Theorem 1.3(i), and Section 7, after exhibiting the three localization mechanisms and abstracting the restriction route, proves Theorem 1.3(ii). Section 8 collects the dichotomy, the open questions, and the directions this suggests.
+
+---
+
+## 2. The Galois pair on $`S^3/2I`$
+
+### 2.1 The binary icosahedral group
+
+Let $`2I\subset\mathrm{SU}(2)`$ denote the binary icosahedral group, the preimage of the icosahedral rotation group under $`\mathrm{SU}(2)\to\mathrm{SO}(3)`$: the unique nontrivial perfect finite subgroup of $`\mathrm{SU}(2)`$, of order $`120`$. It has nine conjugacy classes; an element $`g\neq\pm I`$ is determined up to conjugacy by its defining-representation angle $`\phi_g\in(0,\pi)`$, the defining representation having eigenvalues $`e^{\pm i\phi_g}`$. The nine irreducible representations, of dimensions $`1,2,2,3,3,4,4,5,6`$, are the nodes of the affine $`E_8`$ diagram under the McKay correspondence [McKay], with the trivial representation at the affine node. We write $`Q`$ for the defining two-dimensional representation (McKay distance $`d(Q)=1`$ from the affine node), $`Q'`$ for the other two-dimensional irreducible ($`d(Q')=7`$), and note $`d(\mathrm{Sym}^2Q)=2`$, $`d(\mathrm{Sym}^2Q')=6`$.
+
+### 2.2 The Galois automorphism and the golden classes
+
+The character field of $`2I`$ is $`\mathbb{Q}(\sqrt5)`$, and the nontrivial field automorphism $`\sigma:\sqrt5\mapsto-\sqrt5`$ acts on characters. On the two-dimensional irreducibles it acts by exchange: $`\sigma(\chi_Q)=\chi_{Q'}`$, and consequently $`\sigma(\chi_{\mathrm{Sym}^2Q})=\chi_{\mathrm{Sym}^2Q'}`$. We call $`Q`$ and $`Q'`$ the *Galois pair*.
+
+> **Definition 2.1** (Golden classes)**.** The *golden classes* of $`2I`$ are the four conjugacy classes of elements of orders $`5`$ and $`10`$, with defining-representation angles $`\phi\in\lbrace \pi/5,\ 2\pi/5,\ 3\pi/5,\ 4\pi/5\rbrace`$. They are precisely the classes on which some character of $`2I`$ is irrational, that is, the locus moved by $`\sigma`$.
+
+The table records the class data the proofs below consume; the full character table is in [Helle], and we print only what we use. Sizes refer to the number of elements in the class.
+
+| $`\phi`$ | size | $`\chi_Q`$ | $`\chi_{Q'}`$ | $`\chi_{\mathrm{Sym}^2Q}`$ | $`\chi_{\mathrm{Sym}^2Q'}`$ |
+|---|---|---|---|---|---|
+| $`0`$ | $`1`$ | $`2`$ | $`2`$ | $`3`$ | $`3`$ |
+| $`\pi`$ | $`1`$ | $`-2`$ | $`-2`$ | $`3`$ | $`3`$ |
+| $`\pi/2`$ | $`30`$ | $`0`$ | $`0`$ | $`-1`$ | $`-1`$ |
+| $`2\pi/3`$ | $`20`$ | $`-1`$ | $`-1`$ | $`0`$ | $`0`$ |
+| $`\pi/3`$ | $`20`$ | $`1`$ | $`1`$ | $`0`$ | $`0`$ |
+| $`\pi/5`$ | $`12`$ | $`\tfrac{1+\sqrt5}{2}`$ | $`\tfrac{1-\sqrt5}{2}`$ | $`\tfrac{1+\sqrt5}{2}`$ | $`\tfrac{1-\sqrt5}{2}`$ |
+| $`2\pi/5`$ | $`12`$ | $`\tfrac{\sqrt5-1}{2}`$ | $`-\tfrac{1+\sqrt5}{2}`$ | $`\tfrac{1-\sqrt5}{2}`$ | $`\tfrac{1+\sqrt5}{2}`$ |
+| $`3\pi/5`$ | $`12`$ | $`\tfrac{1-\sqrt5}{2}`$ | $`\tfrac{1+\sqrt5}{2}`$ | $`\tfrac{1-\sqrt5}{2}`$ | $`\tfrac{1+\sqrt5}{2}`$ |
+| $`4\pi/5`$ | $`12`$ | $`-\tfrac{1+\sqrt5}{2}`$ | $`\tfrac{\sqrt5-1}{2}`$ | $`\tfrac{1+\sqrt5}{2}`$ | $`\tfrac{1-\sqrt5}{2}`$ |
+
+> **Lemma 2.2** (Galois equivariance)**.** Let $`c`$ be a class function on $`2I`$ with values in $`\mathbb{Q}(\sqrt5)`$ whose value $`c(g)`$ is fixed by $`\sigma`$ whenever $`g`$ does not lie in a golden class, and let $`F_\alpha(g)=P\bigl(\chi_{\alpha_1}(g),\dots,\chi_{\alpha_r}(g);\ c(g)\bigr)`$ with $`P`$ a polynomial with rational coefficients. If $`\alpha\mapsto\alpha^\sigma`$ denotes the induced action on representations, then $`F_{\alpha^\sigma}-F_\alpha`$ is supported on the golden classes. In particular $`c=1/(2-\chi_Q)`$ is allowed: it is irrational on the golden classes, but on every other class $`\chi_Q`$ is rational, so $`c`$ is $`\sigma`$-fixed there.
+
+*Proof.* Let $`g`$ lie outside the golden classes. By Definition 2.1 every character value at $`g`$ is rational, so $`\chi_{\alpha_i^\sigma}(g)=\sigma(\chi_{\alpha_i}(g))=\chi_{\alpha_i}(g)`$ for each $`i`$, and $`c(g)`$ is $`\sigma`$-fixed by hypothesis. Every input of $`P`$ is therefore unchanged by the substitution $`\alpha\mapsto\alpha^\sigma`$, so $`F_{\alpha^\sigma}(g)=F_\alpha(g)`$. $`\square`$
+
+Lemma 2.2 is the engine behind every "supported on the golden classes" statement below: any rationally-built class-function difference between $`\sigma`$-conjugate inputs lives on the golden locus.
+
+### 2.3 Flat connections and their adjoints
+
+Conjugacy classes of homomorphisms $`\pi_1(S^3/2I)=2I\to\mathrm{SU}(2)`$ correspond to flat $`\mathrm{SU}(2)`$ connections on $`S^3/2I`$ up to gauge. Up to conjugacy there are, besides the trivial one, exactly two irreducible classes, given by $`Q`$ and $`Q'`$; both are isolated and nondegenerate [FintushelStern]. We name flat connections by their representations. The complexified adjoint of the flat connection $`Q`$ is $`\mathrm{Sym}^2Q`$, and likewise for $`Q'`$: the Galois pair of two-dimensional representations induces the Galois pair of three-dimensional adjoints, at McKay distances $`2`$ and $`6`$.
+
+### 2.4 Orientations and conventions
+
+**Conventions are load-bearing.** Every signed rational in this paper is pinned to an explicit orientation, and the table below is the dictionary. Write $`Y_\Gamma^+`$ for $`S^3/\Gamma`$ with the quotient orientation it inherits as the link of $`\mathbb{C}^2/\Gamma`$ (the boundary at infinity of the minimal resolution), and $`+\Sigma:=Y_{2I}^+`$ for the Poincaré homology sphere so oriented; $`W`$ denotes the $`E_8`$ plumbing, the minimal resolution of $`\mathbb{C}^2/2I`$, a simply connected spin $`4`$-manifold with $`\partial W=+\Sigma`$, intersection form the negative definite $`E_8`$ lattice, and $`H^1(W;\mathbb{Z}_2)=0`$.
+
+| convention | statement | source |
+|---|---|---|
+| orientation | $`+\Sigma=Y_{2I}^+`$, the link orientation; equal to the resolution-boundary orientation | standard |
+| the surgery model | $`X_{+1}`$ ($`+1`$ surgery on the right-hand trefoil) satisfies $`X_{+1}\cong-\Sigma`$ as oriented manifolds | [BHKK] |
+| reversal | $`\rho`$ and $`cs`$ change sign under orientation reversal | [APS2], [Helle] |
+| Chern-Simons | $`cs(Q)=-1/120`$ on $`+\Sigma`$, equivalently $`+1/120`$ on $`X_{+1}`$ | [Helle], [BHKK] |
+| normalization | $`\rho_\alpha=\eta_\alpha-\dim\alpha\cdot\eta`$, unreduced; for the acyclic nontrivial twists used below, the reduced convention $`\bar\eta=(\eta+h)/2`$ halves the displayed rho values | [APS2] |
+
+One further prose note the table cannot carry: the matching of our $`(Q,Q')`$ with printed connection labels is fixed by Chern-Simons values ($`cs(Q)\equiv-1/120`$, $`cs(Q')\equiv-49/120`$ on $`+\Sigma`$); [Anvari, Table 1] binds the Floer index, half the rho invariant, and the Chern-Simons value per connection in one printed place on this orientation, and the dictionary above aligns it with [BHKK]'s surgery model, so that every comparison in this paper can be checked line by line. Finally, the rho invariant of a flat bundle is independent of the Riemannian metric [APS2], so no metric parameter enters this paper.
+
+---
+
+## 3. The conversion identity
+
+This section is general: $`\Gamma`$ is any finite subgroup of $`\mathrm{SU}(2)`$, and $`2I`$ plays no special role until §4.
+
+### 3.1 The two currencies
+
+For a flat unitary twist $`\alpha`$ on $`Y_\Gamma^+`$, the Atiyah-Patodi-Singer rho invariant is computed by the classical $`G`$-signature defect sum [APS2]:
+```math
+\rho_\alpha(Y_\Gamma^+)\;=\;\frac{1}{\lvert\Gamma\rvert}\sum_{1\neq g\in\Gamma}\bigl(\chi_\alpha(g)-\dim\alpha\bigr)\,\cot^2(\phi_g/2),
+```
+where $`e^{\pm i\phi_g}`$ are the defining eigenvalues of $`g`$; the sign of the defect is tied to the orientation, and Proposition 3.3 below calibrates this convention against printed values. (The raw fixed-point datum for the angle pair $`(\phi,-\phi)`$ is $`\cot(\phi/2)\cot(-\phi/2)=-\cot^2(\phi/2)`$; the $`+\cot^2`$ displayed here is that datum read on the link orientation $`Y_\Gamma^+`$, which is the content of the calibration.) The computation belongs to the classical defect-sum technology of Atiyah-Patodi-Singer and Gilkey [APS2], [Gilkey].
+
+The second currency is the character sum
+```math
+D_\alpha\;:=\;\frac{1}{\lvert\Gamma\rvert}\sum_{1\neq g\in\Gamma}\frac{\chi_\alpha(g)}{2-\chi_Q(g)}\;=\;\frac{1}{\lvert\Gamma\rvert}\sum_{1\neq g\in\Gamma}\frac{\chi_\alpha(g)}{\det(I_2-g)},
+```
+writing $`D_1`$ for the trivial twist. These sums are simultaneously spectral and geometric objects in the literature. Spectrally, they are Dirac eta invariants: Degeratu's direct group-sum formula for the twisted Dirac operator on $`S^{2n-1}/\Gamma`$ ([Degeratu], Cor. 2.4, with the half-determinant trivial for $`\Gamma\subset\mathrm{SU}(n)`$ by her Cor. 3.3) reads, at $`n=2`$,
+```math
+\eta_{\mathrm{Dir},\alpha}(Y_\Gamma^+)\;=\;2\,D_\alpha,
+```
+her sphere at infinity being the boundary of the minimal resolution of $`\mathbb{C}^2/\Gamma`$ and so carrying the link orientation $`Y_\Gamma^+`$ by construction, with the sign convention calibrated in Proposition 3.3 below. Thus $`D_\alpha`$ is half the twisted Dirac eta, and her Molien-series theorem expresses the same quantity as a residue of the singularity's graded character series. Geometrically, they are index integrals: by the Kronheimer-Nakajima index theorem on the minimal resolution ([KronheimerNakajima], (A.2) with one trivial factor), $`D_\alpha=\int\mathrm{ch}(\mathcal{R}_\alpha)\hat{A}`$ for the tautological bundle $`\mathcal{R}_\alpha`$. This double role is used in §5.
+
+Theorem 1.1 is the statement that the first currency is an affine function of the second. The identity is an elementary consequence of the two classical formulas just cited; its content is the exact form, which we could not locate in print, and which is what §§4-5 consume.
+
+### 3.2 The trigonometric kernel
+
+> **Lemma 3.1.** For $`g\neq I`$ in $`\Gamma\subset\mathrm{SU}(2)`$ with defining eigenvalues $`e^{\pm i\phi}`$,
+> ```math
+> \csc^2(\phi/2)\;=\;\frac{4}{2-\chi_Q(g)},\qquad\text{hence}\qquad \cot^2(\phi/2)\;=\;-1+\frac{4}{2-\chi_Q(g)}.
+> ```
+
+*Proof.* $`2-\chi_Q(g)=2-2\cos\phi=4\sin^2(\phi/2)`$, which is nonzero for $`g\neq I`$ (for $`g=-I`$, $`\phi=\pi`$, both sides of the first identity equal $`1`$). The second identity is $`\cot^2=\csc^2-1`$. $`\square`$
+
+The factor $`4`$ produced here is trigonometric. It is unrelated to the Dynkin-index factor $`4`$ by which the Chern-Simons invariants of adjoint and defining flat connections are compared in §5, and the two must not be conflated.
+
+### 3.3 The identity
+
+*Proof of Theorem 1.1.* Let $`\alpha`$ contain no trivial constituent, so that $`\sum_{g\in\Gamma}\chi_\alpha(g)=0`$ and hence $`\sum_{g\neq 1}\chi_\alpha(g)=-\dim\alpha`$. Substituting Lemma 3.1 into the defect sum,
+```math
+\rho_\alpha(Y_\Gamma^+)\;=\;-\frac{1}{\lvert\Gamma\rvert}\sum_{g\neq 1}\bigl(\chi_\alpha(g)-\dim\alpha\bigr)\;+\;\frac{4}{\lvert\Gamma\rvert}\sum_{g\neq 1}\frac{\chi_\alpha(g)-\dim\alpha}{2-\chi_Q(g)}.
+```
+The first sum evaluates by orthogonality: $`\sum_{g\neq 1}(\chi_\alpha-\dim\alpha)=-\dim\alpha-(\lvert\Gamma\rvert-1)\dim\alpha=-\lvert\Gamma\rvert\dim\alpha`$, contributing $`+\dim\alpha`$. The second is $`4(D_\alpha-\dim\alpha\,D_1)`$ by definition. Hence
+```math
+\rho_\alpha(Y_\Gamma^+)\;=\;\dim\alpha\;+\;4\bigl(D_\alpha-\dim\alpha\cdot D_1\bigr). \qquad\square
+```
+
+Equivalently, through Degeratu's formula, $`\rho_\alpha=\dim\alpha+2\bigl(\eta_{\mathrm{Dir},\alpha}-\dim\alpha\,\eta_{\mathrm{Dir},1}\bigr)`$: the odd-signature rho invariant of a flat twist is an affine function of twisted Dirac eta invariants.
+
+> **Corollary 3.2** (Sharpness)**.** If $`\alpha`$ contains the trivial representation with multiplicity $`m`$, then the left side of Theorem 1.1 equals $`\rho_\beta`$ for $`\beta=\alpha\ominus\mathbf{1}^{\oplus m}`$, while the right side equals $`\rho_\beta+m`$: the identity acquires the exact additive offset $`m`$.
+
+*Proof.* Trivial summands contribute zero to $`\chi_\alpha-\dim\alpha`$ pointwise, so the defect sum, and with it the left side, equals $`\rho_\beta`$. On the right, $`D_{\beta\oplus\mathbf{1}^{\oplus m}}=D_\beta+m\,D_1`$ and $`\dim(\beta\oplus\mathbf{1}^{\oplus m})=\dim\beta+m`$, so
+```math
+\dim\beta+m+4\bigl(D_\beta+mD_1-(\dim\beta+m)D_1\bigr)\;=\;\rho_\beta+m.
+```
+(Checked instance: $`\alpha=Q\oplus\mathbf{1}`$ gives right side $`-29/30`$ against $`\rho_Q=-59/30`$, offset exactly $`1`$.) The sharp hypothesis matters. $`\square`$
+
+> **Proposition 3.3** (Verification against print)**.** With the conventions of §2.4, Theorem 1.1 reproduces the canonical-representation rho invariants of the Poincaré homology sphere printed by Boden, Herald, Kirk, and Klassen: $`\rho_Q(X_{+1})=59/30`$ and $`\rho_{Q'}(X_{+1})=131/30`$ [BHKK, §6].
+
+*Proof.* This is a verification of conventions, not a result. The character sums for $`\Gamma=2I`$, computed exactly from the table of §2.2, are
+```math
+D_1=\tfrac{1079}{1440},\quad D_Q=\tfrac{73}{144},\quad D_{Q'}=-\tfrac{67}{720},\quad D_{\mathrm{Sym}^2Q}=\tfrac{9}{32},\quad D_{\mathrm{Sym}^2Q'}=-\tfrac{19}{160},
+```
+and Theorem 1.1 gives, on $`+\Sigma`$:
+
+| $`\alpha`$ | $`\dim\alpha+4(D_\alpha-\dim\alpha\,D_1)`$ | comparison / later use |
+|---|---|---|
+| $`Q`$ | $`-59/30`$ | $`=-\rho_Q(X_{+1})`$, [BHKK] |
+| $`Q'`$ | $`-131/30`$ | $`=-\rho_{Q'}(X_{+1})`$, [BHKK] |
+| $`\mathrm{Sym}^2Q`$ | $`-73/15`$ | $`=`$ printed $`\rho/2=-73/30`$ doubled, [Anvari, Table 1]; see §4 |
+| $`\mathrm{Sym}^2Q'`$ | $`-97/15`$ | $`=`$ printed $`\rho/2=-97/30`$ doubled, [Anvari, Table 1]; see §4 |
+
+The first two rows match the printed values through the oriented identification $`X_{+1}\cong-\Sigma`$ and the sign reversal of §2.4; the last two match [Anvari]'s table directly on $`+\Sigma`$. All four printed comparisons pass. $`\square`$
+
+---
+
+## 4. The rho invariants of the Galois pair
+
+> **Proposition 4.1** (The pair, in print and twice re-derived)**.** On $`+\Sigma`$: $`\rho_{\mathrm{Sym}^2Q}=-73/15`$ and $`\rho_{\mathrm{Sym}^2Q'}=-97/15`$.
+
+*Proof.* Three independent routes, recorded because each pins a different convention.
+
+(i) *Print.* Anvari's table for $`\Sigma(2,3,5)`$ lists, per flat connection, the halved rho invariants $`-73/30`$ and $`-97/30`$ beside $`-cs=1/120`$ and $`49/120`$, on exactly this orientation, computed by a flat $`\mathrm{SO}(3)`$-cobordism to lens spaces [Anvari, Table 1], after [Saveliev, p. 144]. (He tabulates $`\rho/2`$ of the unreduced $`\rho`$ of §2.4; for these acyclic twists that number coincides with the reduced-convention value, so no normalization ambiguity survives the comparison.) The $`cs`$ pairing matches the dictionary of §2.4. Independently, Boden, Herald, Kirk, and Klassen compute $`\rho_{\mathrm{Sym}^2Q}(X_{+1})=\pm 73/15`$ and resolve the sign to $`+73/15`$ by integrality [BHKK, §6]; the §2.4 bookkeeping ($`X_{+1}\cong-\Sigma`$, $`\rho`$ reverses) transfers it to $`-73/15`$ here, agreeing.
+
+(ii) *Character sums.* Theorem 1.1 with the values of Proposition 3.3 gives both numbers (rows three and four of that table).
+
+(iii) *Integrality, both connections.* The sign of either value is fixed independently of the calibration of §2.4 by the mechanism of [BHKK]: their equation (6.5), for a path on $`X_{+1}`$ from the trivial connection $`\Theta`$ to a flat $`\alpha`$,
+```math
+SF\;=\;8\bigl(cs(\alpha)-cs(\Theta)\bigr)+\tfrac12\bigl(\rho_{\mathrm{ad}\,\alpha}-\rho_{\mathrm{ad}\,\Theta}\bigr)+\tfrac12\bigl(h_\alpha-h_\Theta\bigr),
+```
+must have integer left side. With $`h_\Theta=3`$, $`h_\alpha=0`$ (nondegeneracy [FintushelStern]), $`cs(\Theta)=0`$, $`\rho_{\mathrm{ad}\,\Theta}=0`$, and the printed representative $`cs(Q')=-71/120`$ on $`X_{+1}`$ [BHKK, Table 1] (the same residue as §2.4: $`-71/120\equiv 49/120 \bmod 1`$, and $`-49/120`$ on $`+\Sigma`$ corresponds to $`+49/120`$ on $`X_{+1}`$), the two sign candidates for the second connection give
+```math
+SF=-\tfrac{71}{15}+\tfrac{97}{30}-\tfrac{3}{2}=-3,\qquad\text{respectively}\qquad SF=-\tfrac{71}{15}-\tfrac{97}{30}-\tfrac{3}{2}=-\tfrac{142}{15}\notin\mathbb{Z},
+```
+so only $`+97/15`$ on $`X_{+1}`$, that is $`-97/15`$ here, is admissible; the conclusion is lift-independent, since an integer shift of the Chern-Simons representative shifts $`SF`$ by a multiple of $`8`$; the same two-candidate check for the first connection reproduces [BHKK]'s own resolution. $`\square`$
+
+> **Corollary 4.2** (Golden support)**.** On $`+\Sigma`$,
+> ```math
+> \rho_{\mathrm{Sym}^2Q'}-\rho_{\mathrm{Sym}^2Q}\;=\;4\,\bigl(D_{\mathrm{Sym}^2Q'}-D_{\mathrm{Sym}^2Q}\bigr)\;=\;4\cdot\bigl(-\tfrac{2}{5}\bigr)\;=\;-\tfrac{8}{5},
+> ```
+> and every contribution to the difference is supported on the four golden classes.
+
+*Proof.* The first equality is Theorem 1.1 applied to the two adjoints, whose dimensions agree. Support: the defect summand is built rationally from characters and the $`\sigma`$-fixed-off-golden class function $`\cot^2(\phi/2)`$, and $`\mathrm{Sym}^2Q'=(\mathrm{Sym}^2Q)^\sigma`$, so Lemma 2.2 applies; concretely, the five non-golden classes contribute $`-\tfrac{57}{4}`$ (times $`\tfrac{1}{120}`$) to each of $`D_{\mathrm{Sym}^2Q}`$ and $`D_{\mathrm{Sym}^2Q'}`$ alike, while the golden classes contribute $`+48`$ and $`0`$ respectively. $`\square`$
+
+In this rho difference, the boundary sees the Galois action exactly on the golden classes.
+
+**Consistency web.** The same conventions give $`\eta_{\mathrm{Dir}}(+\Sigma)=2D_1=\tfrac{1079}{720}`$ and, from the untwisted defect sum, $`\eta_{\mathrm{Sign}}(+\Sigma)=\tfrac{1}{120}\sum_{g\neq 1}\cot^2(\phi_g/2)=\tfrac{361}{180}`$; then
+```math
+\tfrac12\,\eta_{\mathrm{Dir}}+\tfrac18\,\eta_{\mathrm{Sign}}\;=\;\tfrac{1079}{1440}+\tfrac{361}{1440}\;=\;1\;=\;-\bar\mu\bigl(\Sigma(2,3,5)\bigr),
+```
+reproducing the identity of Ruberman and Saveliev exactly on this orientation [RubermanSaveliev, Thm 1.1], with $`\bar\mu=-1`$ in the Neumann normalization [NeumannSiebenmann]. The check is sharp: the mixed sign conventions give $`\pm\tfrac{359}{720}`$, not integers, so the identity locks the orientation dictionary of §2.4 a third time, alongside the internal consistency of the index formulas and the calibration of Proposition 3.3. (The $`E_8`$ plumbing also saturates the bound $`b_2\le-8\bar\mu`$ for negative definite spin fillings.) These are verifications, not results, and none is used later.
+
+---
+
+## 5. Tautological bundles and exact charges
+
+### 5.1 The bundles and their charges
+
+Let $`X`$ be the minimal resolution of $`\mathbb{C}^2/2I`$ in the ALE setting of [KronheimerNakajima]; we write $`X`$ for the noncompact resolution and, as in §2.4, $`W`$ for its compact truncation, so finite-action Chern-Weil integrals are computed on $`X`$ while boundary-sign checks live on $`(W,+\Sigma)`$. Each nontrivial irreducible representation $`\alpha`$ of $`2I`$ determines the tautological bundle $`\mathcal{R}_\alpha`$ on $`X`$, carrying a canonical finite-action anti-self-dual connection whose flat limit at infinity is the flat connection of $`\alpha`$ [KronheimerNakajima, Prop. 2.2]. The first Chern classes of these bundles are dual to the exceptional curves $`\mathcal{E}_\alpha`$ of the resolution, $`\langle c_1(\mathcal{R}_\alpha),[\mathcal{E}_\beta]\rangle=\delta_{\alpha\beta}`$, the curves realizing the McKay nodes in $`H_2`$ [KronheimerNakajima, Thm. A.7]; this dual-basis fact is used in §7. Define the charge by the curvature integral
+```math
+k(\mathcal{R}_\alpha)\;:=\;\int_X\Bigl(c_2-\tfrac12 c_1^2\Bigr)(\mathcal{R}_\alpha).
+```
+
+> **Lemma 5.1** (Evaluation)**.** $`k(\mathcal{R}_\alpha)=\mathrm{rk}(\alpha)\,D_1-D_\alpha`$.
+
+*Proof.* The degree-four part of $`\mathrm{ch}(\mathcal{R}_\alpha)\hat{A}`$ is $`\bigl(\tfrac12 c_1^2-c_2\bigr)+\mathrm{rk}(\alpha)\,\hat{A}_2`$, so $`\int\mathrm{ch}(\mathcal{R}_\alpha)\hat{A}=-k(\mathcal{R}_\alpha)+\mathrm{rk}(\alpha)\int_X\hat{A}`$. The left side is $`D_\alpha`$ by [KronheimerNakajima, (A.2)] with one trivial factor, and $`\int_X\hat{A}=D_1`$ is the trivial instance of the same identity; independently, the signature theorem on the compact truncation gives $`\int_X\hat{A}=-\tfrac18\bigl(\mathrm{sign}(W)+\eta_{\mathrm{Sign}}(+\Sigma)\bigr)=1-\tfrac{361}{1440}=\tfrac{1079}{1440}=D_1`$, corroborating the corner. $`\square`$
+
+> **Proposition 5.2** (Charge realizes Chern-Simons)**.** In the four sectors $`\alpha=Q,\ Q',\ \mathrm{Sym}^2Q,\ \mathrm{Sym}^2Q'`$ the charges are
+>
+> | bundle | rank | $`k`$ | $`k\bmod 1`$ | $`cs`$ of the flat limit mod 1, on $`+\Sigma`$ |
+> |---|---|---|---|---|
+> | $`\mathcal{R}_Q`$ | 2 | $`119/120`$ | $`119/120`$ | $`-1/120\equiv 119/120`$ |
+> | $`\mathcal{R}_{Q'}`$ | 2 | $`191/120`$ | $`71/120`$ | $`-49/120\equiv 71/120`$ |
+> | $`\mathcal{R}_{\mathrm{Sym}^2Q}`$ | 3 | $`59/30`$ | $`29/30`$ | $`4\cdot(-1/120)\equiv 29/30`$ |
+> | $`\mathcal{R}_{\mathrm{Sym}^2Q'}`$ | 3 | $`71/30`$ | $`11/30`$ | $`4\cdot(-49/120)\equiv 11/30`$ |
+>
+> and in each row $`k\equiv cs \bmod 1`$. In the adjoint sectors $`k(\mathcal{R}_{\mathrm{Sym}^2Q'})-k(\mathcal{R}_{\mathrm{Sym}^2Q})=+\tfrac25`$, the representative of $`cs(\mathrm{Sym}^2Q')-cs(\mathrm{Sym}^2Q) \bmod 1`$.
+
+*Proof.* The charges are Lemma 5.1 with the values of Proposition 3.3. The principle that the fractional charge of a finite-action instanton is the Chern-Simons invariant of its flat limit mod 1 is the standard boundary transgression, printed in the cylindrical-end formulation in [HeddenKirk, Defs. 2.2-2.4] (there for $`\mathrm{SO}(3)`$ and $`p_1`$; the $`\mathrm{SU}(2)`$/$`c_2`$ version used here follows by the standard normalization, and the argument applies verbatim to the ALE end); the fundamental-sector values $`cs(Q)=-1/120`$, $`cs(Q')=-49/120`$ on $`+\Sigma`$ are as in §2.4 and §5.3 [Helle], [BHKK], with classical antecedents [FintushelStern], [Auckly], [KirkKlassen]. The adjoint-sector values follow from the Dynkin-index rescaling $`cs(\mathrm{Sym}^2\alpha)\equiv 4\,cs(\alpha)\bmod 1`$ for $`\mathrm{SU}(2)`$; this factor $`4`$ is the ratio of Dynkin indices and is unrelated to the trigonometric factor $`4`$ of Lemma 3.1. The worked family, not the principle, is the content. $`\square`$
+
+### 5.2 The exact echo
+
+Helle associates to the pair $`(Q,Q')`$ the virtual character $`H`$ solving $`(2-Q)H=Q-Q'`$ in the representation ring, unique up to the kernel of $`2-\chi_Q`$, and proves $`cs(Q)-cs(Q')=\varepsilon(H)/\lvert 2I\rvert \bmod 1`$, where $`\varepsilon(H)=\chi_H(1)`$ is the augmentation [Helle, Prop. B.16]. Fixing the normalization $`h_0=0`$ (trivial-component zero) pins $`H`$; the solve in §5.3 gives $`\varepsilon(H)=-72`$.
+
+> **Proposition 5.3** (Exact echo)**.** With the normalization $`h_0=0`$,
+> ```math
+> k(\mathcal{R}_Q)-k(\mathcal{R}_{Q'})\;=\;D_{Q'}-D_Q\;=\;\frac{\varepsilon(H)}{\lvert 2I\rvert}\;=\;-\frac{72}{120}\;=\;-\frac35,
+> ```
+> an equality of charges, not only a congruence: Helle's relation lifts to an exact identity in the Kronheimer-Nakajima currency.
+
+*Proof.* The first equality is Lemma 5.1 (the ranks agree). For the second: $`(2-Q)H=Q-Q'`$ gives $`\chi_Q-\chi_{Q'}=(2-\chi_Q)\chi_H`$ pointwise, so
+```math
+D_{Q'}-D_Q\;=\;\frac{1}{120}\sum_{g\neq 1}\frac{\chi_{Q'}(g)-\chi_Q(g)}{2-\chi_Q(g)}\;=\;-\frac{1}{120}\sum_{g\neq 1}\chi_H(g)\;=\;-\frac{1}{120}\Bigl(120\,m_0(H)-\chi_H(1)\Bigr)\;=\;\frac{\varepsilon(H)}{120},
+```
+where $`m_0(H)`$ is the trivial multiplicity of $`H`$, which the normalization $`h_0=0`$ makes zero. $`\square`$
+
+### 5.3 The affine solve
+
+This subsection is expository verification; the values it derives are effectively in print (the residues in [BHKK, Table 1]; classical computations in [FintushelStern], [Auckly], [KirkKlassen]). Multiplication by $`Q`$ is the adjacency operator of the affine $`E_8`$ graph (the McKay correspondence), so $`(2-Q)H=Q-Q'`$ is the linear system $`(2I_9-A)H=e_{d(Q)}-e_{d(Q')}`$ on the nine nodes. Solvability requires the right side to pair to zero with the kernel vector, the vector $`\delta`$ of Coxeter marks, and it does: both marks are $`2`$. With the normalization $`h_0=0`$ the back-substitution is forced:
+```math
+H=(0,\,0,\,-1,\,-2,\,-3,\,-4,\,-3,\,-2,\,-2),\qquad \varepsilon(H)=\langle H,\delta\rangle=-72.
+```
+With $`cs(Q)=-1/120`$ on $`+\Sigma`$ [Helle, Ex. B.15], Helle's congruence gives $`cs(Q')=-49/120`$ on $`+\Sigma`$. With the order $`Q-Q'`$ fixed throughout the display, the three residue checks are
+```math
+cs(Q)-cs(Q')\equiv\tfrac25,\qquad cs(\mathrm{Sym}^2Q)-cs(\mathrm{Sym}^2Q')\equiv\tfrac35,\qquad \rho_{\mathrm{Sym}^2Q}-\rho_{\mathrm{Sym}^2Q'}\equiv\tfrac35\pmod 1
+```
+(the Dynkin rescaling moves the class: $`4\cdot\tfrac25=\tfrac85\equiv\tfrac35`$). Equivalently, in the $`Q'-Q`$ order used for the main asymmetry,
+```math
+cs(\mathrm{Sym}^2Q')-cs(\mathrm{Sym}^2Q)\;\equiv\;\rho_{\mathrm{Sym}^2Q'}-\rho_{\mathrm{Sym}^2Q}\;\equiv\;\tfrac25\pmod 1.
+```
+The checks are mutually consistent and consistent with the unreduced normalization of §2.4; the reduced convention would halve the third residue of the first display to $`\tfrac45`$ and break the $`\tfrac35`$ agreement.
+
+*Proof of Theorem 1.2.* Proposition 4.1 gives the pair $`-73/15`$, $`-97/15`$ on $`+\Sigma`$; Corollary 4.2 gives the difference $`-8/5=4\,\Delta D`$ and its golden support; Proposition 5.2 gives $`k\equiv cs\bmod 1`$ in all four sectors; Proposition 5.3 gives the exact echo. Via Theorem 1.1 the charge asymmetry and the rho asymmetry are the same character sum read twice: the filling does not merely remember that the boundary connections differ, it realizes the difference as a tautological charge difference, with exchange factor $`-4`$, the sign recording that charge counts what rho discounts ($`k=\mathrm{rk}\cdot D_1-D`$ against $`\rho=\dim+4(D-\dim\cdot D_1)`$, so $`\Delta\rho=-4\,\Delta k`$ for the equal-rank pair). $`\square`$
+
+---
+
+## 6. Homological Galois-blindness
+
+> **Lemma 6.1** (The mod-2 package)**.** $`H_2(W;\mathbb{Z}_2)=\mathbb{Z}_2^8`$, and mod 2 the intersection form of $`W`$ is the adjacency form of the $`E_8`$ graph: alternating and nondegenerate, hence a sum of four hyperbolic planes. Consequently $`W`$ has a unique characteristic class, namely $`0`$, and $`W`$ is spin. The intersection form being even, the mod-4 quadratic refinement $`\mathfrak{P}(x):=\xi\cdot\xi \bmod 4`$ (any integral lift $`\xi`$) is well defined; it takes only the values $`\lbrace 0,2\rbrace`$, with $`136=1+135`$ classes of value $`0`$ and $`120`$ of value $`2`$, the Gauss sum $`136-120=16=2^{8/2}e^{2\pi i\,\mathrm{sign}(W)/8}`$ agreeing with van der Blij at $`\mathrm{sign}(W)=-8`$. The $`120`$ classes with $`\mathfrak{P}=2`$ are exactly the mod-2 reductions of the $`240`$ classes $`\xi`$ with $`\xi\cdot\xi=-2`$.
+
+*Proof.* The homology and the form reduction are immediate from the plumbing description ($`-2`$ diagonal vanishes mod 2, the $`-1`$ adjacencies survive); nondegeneracy holds because $`\det`$ of the $`E_8`$ Cartan matrix is $`1`$, odd; the characteristic class is $`0`$ by nondegeneracy of an alternating form, and $`w_2=0`$ then follows from the Wu relation, $`H_1(W)=0`$ leaving no torsion to hide in. The value set and counts of $`\mathfrak{P}`$ are a finite check ($`135=(2^3+1)(2^4-1)`$ is the isotropic-point count of the plus-type quadric); the Gauss-sum agreement is van der Blij's theorem [vanderBlij]. For the last statement: each $`\xi`$ with $`\xi\cdot\xi=-2`$ has $`\mathfrak{P}=2`$; two such classes $`\alpha,\beta`$ are congruent mod $`2`$ only if $`\beta=\pm\alpha`$: $`\gamma=(\alpha-\beta)/2`$ is then integral, and computing with the positive-definite negative of the intersection form, $`\langle\alpha,\beta\rangle`$ is even, so $`\langle\alpha,\beta\rangle\in\lbrace -2,0,2\rbrace`$; the values $`\pm2`$ force $`\beta=\pm\alpha`$ by equality in Cauchy-Schwarz, and $`0`$ is impossible, since it would make $`\gamma`$ a vector of norm $`1`$ in an even lattice. So the $`240`$ such classes reduce to exactly $`240/2=120`$ distinct mod-2 classes [ConwaySloane], all of value $`2`$, and the count matches: they exhaust. (The count $`120`$ arises through the root system of the lattice, not through any bijection with the order of $`2I`$, and no such bijection is used or asserted in this paper.) $`\square`$
+
+*Proof of Theorem 1.3(i).* The Weyl group of the lattice acts transitively on the $`240`$ classes with $`\xi\cdot\xi=-2`$ [ConwaySloane]; it preserves the intersection form, hence descends to $`H_2(W;\mathbb{Z}_2)`$ preserving the mod-2 form and $`\mathfrak{P}`$. By Lemma 6.1 the orbit of any one such reduction is all $`120`$ classes with $`\mathfrak{P}=2`$, so the automorphism group of the triple $`(H_2(W;\mathbb{Z}_2),\ \cdot\ ,\mathfrak{P})`$ is transitive on them. Any invariant depending only on the isomorphism class of the pointed quadratic space $`(H_2(W;\mathbb{Z}_2),\cdot,\mathfrak{P};x)`$ therefore takes the same value at every such $`x`$; in particular none distinguishes $`[\,\mathcal{E}_{\mathrm{Sym}^2Q'}\,]_2`$, the class of the exceptional curve of the distance-six node, from any other class with $`\mathfrak{P}=2`$. Whether a self-diffeomorphism of $`W`$ realizes a given automorphism is a separate question, neither claimed nor needed. $`\square`$
+
+Within the mod-2/mod-4 package, then, Galois-sensitivity cannot live in a class: it can live only in a decoration of a class. Section 5 exhibited the decoration that carries it, the tautological bundle over the node. Section 7 examines the one further slot in this package that refines a class beyond its isomorphism type, the characteristic-surface data.
+
+---
+
+## 7. Non-orientable characteristic surfaces and the decoupling
+
+The Brown/Guillou-Marin theory of characteristic surfaces is the slot of the package $`(H_2(W;\mathbb{Z}_2),\ \cdot\ ,\mathfrak{P})`$ that carries data beyond the class itself: a quadratic enhancement on the curves of the surface, with its Brown invariant. This section determines whether that slot can register the Galois asymmetry. It cannot, along the routes named below, and the reason is structural.
+
+### 7.1 Non-orientable representability
+
+> **Proposition 7.1.** Every class $`x\in H_2(W;\mathbb{Z}_2)`$ is represented by embedded closed non-orientable surfaces of every sufficiently large non-orientable genus, and the representatives constructed below satisfy
+> ```math
+> e(F)+2\chi(F)\;\equiv\;\mathfrak{P}(x)\pmod 4,
+> ```
+> with every congruence-allowed normal Euler number realized at all sufficiently large genus. The minimal genus in each class is not determined here.
+
+*Proof.* Choose an integral lift $`\xi`$ of $`x`$ and a smoothly embedded closed oriented representative $`F_0`$ (standard for integral classes of a compact oriented $`4`$-manifold), with normal Euler number $`e(F_0)=\xi\cdot\xi`$ and $`\chi(F_0)`$ even. A local cross-cap (connected sum, inside a ball, with the standard $`\mathbb{RP}^2\subset S^4`$ of normal Euler number $`\pm2`$) changes $`(\chi,e)`$ by $`(-1,\pm2)`$ and preserves the $`\mathbb{Z}_2`$ class; the combination $`e+2\chi \bmod 4`$ is invariant under the move, and starts at $`\xi\cdot\xi\equiv\mathfrak{P}(x) \bmod 4`$. Iterating realizes every congruence-allowed $`e`$ at all sufficiently large non-orientable genus. The congruence itself is the ambient form of a classical constraint (Whitney's $`e\equiv 2\chi \bmod 4`$ in $`S^4`$, proved by Massey [Massey]; a homology-cobordism version is [LRS, Prop. 2.5], whose ambient hypotheses differ from $`(W,x)`$ here, which is why the construction above is kept self-contained). $`\square`$
+
+### 7.2 The characteristic slot and its congruence
+
+> **Proposition 7.2.** For a closed non-orientable characteristic surface $`F\subset\mathrm{int}\,W`$ (here: $`[F]_2=0`$, the unique characteristic class), the normal Euler number and the Brown invariant of the Guillou-Marin enhancement satisfy
+> ```math
+> e(F)+2\beta(F)\;\equiv\;\mathrm{sign}(W)+8\,\mu(\Sigma)\;=\;-8+8\;\equiv\;0\pmod{16},
+> ```
+> with $`\mu(\Sigma)=1`$ the Rokhlin invariant (the sign of the $`8\mu`$ term is immaterial: $`8\mu\equiv-8\mu \bmod 16`$); since $`\mu\equiv\bar\mu \bmod 2`$, the Neumann normalization $`\bar\mu=-1`$ gives the same landing. Every constant in the congruence ($`\mathrm{sign}(W)=-8`$, $`\mu=1`$, $`\bar\mu=-1`$) is blind to the Galois action, as Theorem 1.3(i) requires.
+
+*Proof.* This is a specialization of the relative Guillou-Marin theorem in the form printed by Klug [Klug, Thm. 6] (notation adapted: we write $`\mathrm{sign}`$ for the signature, $`\sigma`$ being reserved): for a compact oriented topological $`4`$-manifold $`X`$ with $`\partial X`$ an integral homology sphere and $`F`$ a characteristic, not necessarily orientable, properly embedded surface, $`2\beta(F)+2\beta(\partial F)=\mathrm{sign}(X)-F\cdot F+8\mu(\partial X)+8\,\mathrm{KS}(X) \bmod 16`$. Here $`F`$ is closed, so $`\beta(\partial F)=0`$; $`W`$ is smooth, so $`\mathrm{KS}=0`$; and $`F\cdot F`$ is the normal Euler number $`e(F)`$. Calibration on $`B^4`$ ($`\sigma=0`$, $`\mu(S^3)=0`$): the local $`\mathbb{RP}^2`$ with $`e=+2`$ has $`\beta=-1`$, landing on $`0`$. The closed case is Guillou-Marin [GuillouMarin], in Matsumoto's exposition [Matsumoto]; the topological correction $`8\,\mathrm{KS}`$ is Kirby-Taylor [KirbyTaylor]. $`\square`$
+
+The Brown invariant is not an invariant of the homology class [Klug]: it is decoration data on the characteristic slot, which is exactly the role this section assigns it.
+
+### 7.3 Three mechanisms, one shape
+
+How does an embedded surface enter an index identity over $`W`$? The mechanisms in the literature are three, and they share a shape.
+
+**(a) The $`G`$-signature theorem on the double branched cover.** For $`[F]_2=0`$ the double cover of $`W`$ branched along $`F`$ exists; the deck involution has fixed set $`F`$, and the equivariant signature (or, with a coefficient bundle $`\mathcal{R}`$ pulled back canonically, the equivariant twisted index) localizes along $`F`$. Over the fixed set the deck action on the fibres of the pullback is trivial, so the $`F`$-supported term is built from the ordinary characteristic classes of $`\mathcal{R}\vert_F`$ paired against normal-bundle data of $`F`$.
+
+**(b) The with-boundary Guillou-Marin mechanism.** The congruence of Proposition 7.2 is the mod-16 shadow of the same localization, with the pin structure on $`F`$ (the spin/pin correction along the branch locus is exactly the Brown datum, not an additional assumption) supplying $`\beta`$; whenever a coefficient bundle is included in this localization framework, its $`F`$-supported contribution enters through its restriction.
+
+**(c) The twisted-pin-Dirac formulation.** Working on $`W\smallsetminus F`$ with the meridian-twisted pin structure, the twist is surface-intrinsic; in the restriction-route formulations considered here, coupling to $`\mathcal{R}`$ contributes through restriction data of $`\mathcal{R}`$, linearly in $`\mathrm{ch}(\mathcal{R}\vert_F)`$.
+
+In each mechanism the surface contribution has the form
+```math
+\bigl(\text{characteristic-class data of }\mathcal{R}\vert_F\bigr)\times\bigl(\text{bundle-independent surface, normal, and pin data}\bigr).
+```
+
+> **Definition 7.4** (Restriction route)**.** A localization identity over $`W`$ belongs to the *restriction route* if its $`F`$-supported terms are built from the characteristic-class (Chern-character) data of the restriction $`\mathcal{R}\vert_F`$ of the canonical pullback coefficient bundle, the deck action on fibres over the fixed set being trivial, paired against bundle-independent surface, normal-bundle, and pin data. The three mechanisms above belong to the route. An identity whose $`F`$-term uses more of the bundle, a nontrivial equivariant fibre action along $`F`$ or the holonomy of the restricted connection, is outside the definition.
+
+### 7.4 The triviality lemma
+
+> **Lemma 7.5.** Every complex or real vector bundle on $`W`$, virtual bundles included, restricts topologically trivially to every closed non-orientable surface $`F\subset W`$ with $`[F]_2=0`$.
+
+*Proof.* For a closed non-orientable surface, $`H^2(F;\mathbb{Q})=0`$ and $`H^2(F;\mathbb{Z})=\mathbb{Z}_2`$ (universal coefficients), and the mod-2 reduction $`H^2(F;\mathbb{Z})\to H^2(F;\mathbb{Z}_2)`$ is injective, with the evaluation of a class restricted from $`W`$ against the $`\mathbb{Z}_2`$-fundamental class equal to the pairing with $`i_*[F]_2=0`$ in $`W`$. So every degree-two class of $`W`$, integral or mod 2, restricts to zero on $`F`$. Every bundle from $`W`$ has $`w_1=0`$ ($`H^1(W;\mathbb{Z}_2)=0`$, §2.4), hence is orientable along $`F`$, and its classifying data over the $`2`$-complex $`F`$ (rank and $`c_1`$ for complex bundles; $`w_2`$, or the untwisted Euler class in the oriented rank-two case, for real bundles) lie in the two vanishing groups just named. Standard obstruction theory over a $`2`$-complex then gives triviality; virtual bundles follow by additivity. Nothing about the tautological structure is used. $`\square`$
+
+*Proof of Theorem 1.3(ii).* Let the identity belong to the restriction route. By Lemma 7.5 the coefficient restriction $`\mathcal{R}\vert_F`$ is trivial, so its Chern-character data reduces to the rank, and the $`F`$-supported term is $`\mathrm{rk}(\mathcal{R})\cdot T_F`$ with $`T_F`$ independent of $`\mathcal{R}`$; the proof passes through the three mechanisms of §7.3, of which this is the common evaluation. Since $`\mathrm{rk}(\mathcal{R}_{\mathrm{Sym}^2Q'})=\mathrm{rk}(\mathcal{R}_{\mathrm{Sym}^2Q})=3`$, every such term cancels identically in the Galois difference, and the coefficient coupling $`(e(F),\beta(F))`$ to $`\rho_{\mathrm{Sym}^2Q'}-\rho_{\mathrm{Sym}^2Q}=-8/5`$ is exactly zero along this route. $`\square`$
+
+Two complementary channels close the escapes, and their disjointness is the structural point. On a class with $`\mathfrak{P}=2`$, say $`x=[\mathcal{E}_{\mathrm{Sym}^2Q'}]_2`$, the restriction of the matching tautological bundle is nontrivial ($`\langle c_1(\mathcal{R}_{\mathrm{Sym}^2Q'}) \bmod 2,\ x\rangle=1`$ by the dual-basis property), so a surface there does couple to the decoration; but the canonical Guillou-Marin enhancement supplied by the ambient characteristic-surface setup is not available off the characteristic class, so there is no Brown datum to couple. An orientable characteristic surface (integral class $`2\xi`$) pairs integrally with $`c_1`$, but carries the Arf package of the classical Rokhlin story, $`w_1(F)=0`$: orientation-preserving data, not the non-orientable normal twist. Where the enhancement exists, the bundles are invisible; where the bundles are visible, the enhancement does not exist. What Theorem 1.3(ii) does not assert is any universal independence: identities outside Definition 7.4 are not addressed.
+
+*Proof of Theorem 1.3.* Part (i) is proved in §6, part (ii) above. $`\square`$
+
+---
+
+## 8. Discussion
+
+The two halves of the paper are one computation seen from two sides. The same four golden classes carry the boundary rho difference (Corollary 4.2), reappear in the exact charges of the tautological bundles (Propositions 5.2 and 5.3), and are invisible to the mod-2/mod-4 quadratic package and to every restriction-route surface term (Theorem 1.3). In one sentence: within the homological package the Galois action cannot be seen at all, and within the tautological decoration it is seen exactly; $`\mathrm{Sym}^2Q'`$ is not special as a mod-2/mod-4 class, it is special only as a decorated McKay node.
+
+The working dictionary is Theorem 1.1. It is a general, quotable identity between the odd-signature and index-formula currencies for every finite $`\Gamma\subset\mathrm{SU}(2)`$, with a sharp hypothesis, and on $`S^3/2I`$ it is verified against six printed rationals ($`59/30`$ and $`131/30`$ from [BHKK]; $`-73/15`$ and $`-97/15`$ from [Anvari]; the residues of [BHKK, Table 1]). Through it, the charge asymmetry and the rho asymmetry are literally the same character sum, which is what makes the exact echo $`k(\mathcal{R}_Q)-k(\mathcal{R}_{Q'})=\varepsilon(H)/\lvert 2I\rvert`$ close arithmetically rather than merely mod 1.
+
+Honest status and open questions. Whether the affine conversion appears implicitly in the space-form eta literature is a question of record, not of proof; the nearest homes ([Degeratu], [CisnerosMolina], [Gilkey]) carry the Dirac side, and we could not locate the odd-signature form. The minimal non-orientable genus in each class of $`H_2(W;\mathbb{Z}_2)`$ is not determined here. Whether any identity outside the restriction route of Definition 7.4 couples embedded-surface data to the Galois difference is open, as is whether the classes with $`\mathfrak{P}=2`$ admit any canonical pin-type package that could replace the characteristic-slot enhancement.
+
+Directions. Among the finite subgroups of $`\mathrm{SU}(2)`$, the binary icosahedral group carries the unique Galois pair with distinct adjoints: the binary octahedral and tetrahedral pairs differ by a one-dimensional character $`\chi`$, so $`\mathrm{Sym}^2(Q\otimes\chi)=\mathrm{Sym}^2Q\otimes\chi^2=\mathrm{Sym}^2Q`$, and perfectness is exactly what removes that mechanism for $`2I`$. The same defect machinery computes the conversion identity's two sides for every spherical space form, and Corollary 3.2 extends the identity to twists with trivial constituents by the exact offset. On the four-dimensional side, the other ALE fillings carry the same tautological structure, and the equivariant refinements of instanton theory ([DaemiScaduto], [MillerEismeier] as context) are the natural place to ask the coupling question beyond the restriction route.
+
+---
+
+## References
+
+- **[Anvari]** N. Anvari, Extending smooth cyclic group actions on the Poincaré homology sphere. arXiv:1401.1039 (2014).
+- **[APS2]** M. F. Atiyah, V. K. Patodi, I. M. Singer, Spectral asymmetry and Riemannian geometry II. *Math. Proc. Cambridge Philos. Soc.* **78** (1975), 405–432.
+- **[Auckly]** D. R. Auckly, Topological methods to compute Chern-Simons invariants. *Math. Proc. Cambridge Philos. Soc.* **115** (1994), 229–251.
+- **[BHKK]** H. U. Boden, C. M. Herald, P. Kirk, E. P. Klassen, Gauge theoretic invariants of Dehn surgeries on knots. *Geom. Topol.* **5** (2001), 143–226.
+- **[BotvinnikGilkey]** B. Botvinnik, P. B. Gilkey, The eta invariant and metrics of positive scalar curvature. *Math. Ann.* **302** (1995), 507–517.
+- **[CisnerosMolina]** J. L. Cisneros-Molina, The $`\eta`$-invariant of twisted Dirac operators of $`S^3/\Gamma`$. *Geom. Dedicata* **84** (2001), 207–228.
+- **[ConwaySloane]** J. H. Conway, N. J. A. Sloane, Sphere Packings, Lattices and Groups. 3rd ed., Grundlehren **290**, Springer (1999).
+- **[DaemiScaduto]** A. Daemi, C. Scaduto, Equivariant aspects of singular instanton Floer homology. arXiv:1912.08982 (2019).
+- **[Degeratu]** A. Degeratu, Eta-invariants from Molien series. *Q. J. Math.* **60** (2009), doi:10.1093/qmath/han016.
+- **[FintushelStern]** R. Fintushel, R. J. Stern, Instanton homology of Seifert fibred homology three spheres. *Proc. London Math. Soc.* (3) **61** (1990), 109–137.
+- **[Gilkey]** P. B. Gilkey, The eta invariant and the K-theory of odd dimensional spherical space forms. *Invent. Math.* **76** (1984), 421–454.
+- **[GuillouMarin]** L. Guillou, A. Marin, Une extension d'un théorème de Rohlin sur la signature. *C. R. Acad. Sci. Paris Sér. A-B* **285** (1977), A95–A98.
+- **[HeddenKirk]** M. Hedden, P. Kirk, Chern-Simons invariants, SO(3) instantons, and $`\mathbb{Z}/2`$-homology cobordism. arXiv:1009.5365 (2010).
+- **[Helle]** G. O. Helle, Equivariant instanton Floer homology and calculations for the binary polyhedral spaces. arXiv:2203.09471 (2022).
+- **[KirbyTaylor]** R. C. Kirby, L. R. Taylor, Pin structures on low-dimensional manifolds. In: Geometry of Low-Dimensional Manifolds 2, LMS Lecture Note Ser. **151**, Cambridge (1990), 177–242.
+- **[KirkKlassen]** P. Kirk, E. Klassen, Chern-Simons invariants of 3-manifolds and representation spaces of knot groups. *Math. Ann.* **287** (1990), 343–367.
+- **[Klug]** M. R. Klug, A relative version of Rochlin's theorem. arXiv:2011.12418 (2021).
+- **[KronheimerNakajima]** P. B. Kronheimer, H. Nakajima, Yang-Mills instantons on ALE gravitational instantons. *Math. Ann.* **288** (1990), 263–307.
+- **[LRS]** A. S. Levine, D. Ruberman, S. Strle, Nonorientable surfaces in homology cobordisms. *Geom. Topol.* **19** (2015), 439–494.
+- **[Massey]** W. S. Massey, Proof of a conjecture of Whitney. *Pacific J. Math.* **31** (1969), 143–156.
+- **[Matsumoto]** Y. Matsumoto, An elementary proof of Rochlin's signature theorem and its extension by Guillou and Marin. In: À la recherche de la topologie perdue, Progr. Math. **62**, Birkhäuser (1986), 119–139.
+- **[McKay]** J. McKay, Graphs, singularities, and finite groups. *Proc. Sympos. Pure Math.* **37** (1980), 183–186.
+- **[MillerEismeier]** M. Miller Eismeier, Equivariant instanton homology. arXiv:1907.01091 (2019).
+- **[Nakajima]** H. Nakajima, Moduli spaces of anti-self-dual connections on ALE gravitational instantons. *Invent. Math.* **102** (1990), 267–303.
+- **[NeumannSiebenmann]** W. D. Neumann, An invariant of plumbed homology spheres, and L. Siebenmann, On vanishing of the Rohlin invariant and nonfinitely amphicheiral homology 3-spheres. Both in: Topology Symposium Siegen 1979, Lecture Notes in Math. **788**, Springer (1980), 125–144 and 172–222.
+- **[RubermanSaveliev]** D. Ruberman, N. Saveliev, The $`\bar\mu`$-invariant of Seifert fibered homology spheres and the Dirac operator. arXiv:1009.3201 (2010).
+- **[Saveliev]** N. Saveliev, Invariants for Homology 3-Spheres. Encyclopaedia Math. Sci. **140**, Springer (2002).
+- **[vanderBlij]** F. van der Blij, An invariant of quadratic forms mod 8. *Indag. Math.* **21** (1959), 291–293.
+
+---
+
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
