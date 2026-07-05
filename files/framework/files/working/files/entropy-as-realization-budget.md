@@ -10,7 +10,7 @@ A candidate MIT account of the thermodynamic arrow in a static universe, scoped 
 
 **Dependencies:** Temporal budget identity $\Psi^2 + S^2 = 1$; [Redshift and Cooling](redshift-and-cooling.md) (the temperature reading); energy as resolution amplitude; the $2I$-invariant (Molien) shell spectrum of $S^3/2I$; the chronon and the 120-domain.
 
-**Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../../../spectrum/files/the-waltz.md).
+**Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [The Half-Power Clock](friedmann-as-output.md) (posted cross-constraint on the mode-count map, §IV), [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../../../spectrum/files/the-waltz.md).
 
 **Notation.** $S = \sin(t/2)$ is the realization amplitude, kept from the temporal budget. Entropy is written $\Sigma$ to avoid collision with it; the accessible-mode count is $W_\text{modes}$, the microstate count over it $W_\text{micro}$, with $\Sigma = k_B \ln W_\text{micro}$. The action $\mathcal{S}$ is unaffected.
 
@@ -75,6 +75,12 @@ W_\text{modes}(S) = \textstyle\sum_{N \le N_\text{max}} d_N & \quad \text{[phase
 d\Sigma/dt > 0 \text{ on } 0 < t < \pi & \quad \text{[THEOREM if } W_\text{modes} \text{ monotone; OPEN until the map is fixed]}
 \end{aligned}$$
 
+**Cross-constraint from the half-power clock (posted 2026-07-05, before the map is drawn).** The [half-power clock program](friedmann-as-output.md) fixes the counting face of the observer's tick ([The Level Exchange](half-power-involution.md), gate iii): each tick is one realized conversion, and the proper tick measure is $S^{3/2}\,dt$. The cumulative realized count must therefore obey
+
+$$dR \propto S^{3/2}\,dt, \qquad R(S) \propto \int_0^S \frac{u^{3/2}}{\sqrt{1-u^2}}\,du,$$
+
+with early-phase index $d\ln R/d\ln S \to 5/2$ and a square-root approach to its finite total at $S = 1$. This is registered here before $S \mapsto N_\text{max}(S)$ is derived, and it cuts both ways. Hard bound: realized cannot exceed accessible, $R(S) \le W_\text{modes}(S)$ up to the shell staircase's envelope, so any candidate map whose accessible count grows more slowly than $S^{5/2}$ at early phase (early exponent above $5/2$) is dead on arrival. Strong fusion: if realization saturates access, ticks filling shells as they unlock, then $W_\text{modes} \propto R$ with the exact profile above, and one structure answers this page's load-bearing step and the clock program's second-consequence gate at once. A derived map that violates the bound kills the fusion candidate; one that meets the strong form is the clock program's second consequence landing. The comparison reads on the staircase envelope; shell discreteness is expected structure, not a violation. No conformal-seat fallback is registered.
+
 ---
 
 ## V. Scope: two entropy ledgers
@@ -109,7 +115,7 @@ For the entropy the bar should sit where it can be cleared. **The honest target 
 
 ## VIII. What needs to be derived
 
-1. **The map $S \mapsto N_\text{max}(S)$.** Load-bearing and anti-circularity, per §IV. Without it the second law here is assumed, not derived.
+1. **The map $S \mapsto N_\text{max}(S)$.** Load-bearing and anti-circularity, per §IV. Without it the second law here is assumed, not derived. The half-power clock cross-constraint (§IV) now bounds the answer in advance: early growth no slower than $S^{5/2}$ (early exponent at most $5/2$), with the strong-fusion profile as the target.
 2. **The realized-sector energy $E(S)$, and the thermodynamic route to $\Sigma$.** On static $S^3$ the time-translation Killing vector makes energy conservation structural, so every redshifted photon needs a counterparty: write $E(S)$ from the budget decomposition. With $E(S)$ and the established $T \propto 1/S$, the first law $d\Sigma = dE/T$ fixes $\Sigma(S)$ independently of the mode count (if $E \propto S^2$, then $\Sigma \propto S^3$, a 3D mode-volume scaling). This cross-checks the microstate count and may pin the map of item 1, turning the load-bearing step from a group-theory derivation into a thermodynamic constraint. Highest-leverage; the energy-counterparty side is in [Redshift and Cooling](redshift-and-cooling.md).
 3. **The microstate count $W_\text{micro}$.** Carry out the Gibbs or microcanonical count of the budget's configurations over the accessible phase space $W_\text{modes}(S)$, and confirm $\ln W_\text{micro}$ scales with the quanta as §IV requires, not as a relabeling of $S$.
 4. **Consistency with $\eta$ and the CMB entropy** (§VII), as a floor; clean reproduction as upside.
