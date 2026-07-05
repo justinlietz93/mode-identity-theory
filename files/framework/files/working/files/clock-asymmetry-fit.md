@@ -16,7 +16,7 @@ The tick lemma's graded structure (L1-L3, with exchange symmetry removed) leaves
 
 $$d\mu_\epsilon = w_1^{1/2-\epsilon}\, w_2^{1/2+\epsilon}, \qquad w_1 = S,\quad w_2 = S^2, \qquad\text{so}\qquad d\mu_\epsilon = S^{3/2+\epsilon}\,dt.$$
 
-$\epsilon = 0$ **is P2**: exchange symmetry of the elementary sampling kernel. This fit measures that premise.
+$\epsilon = 0$ **is P2's symmetric point**: exchange symmetry of the elementary sampling kernel. Wording guard, frozen with the spec: the fit measures the observable clock-asymmetry dial whose symmetric point is P2, including the cubic matter exponent that the symmetric point predicts; it does not observe microscopic kernel symmetry directly. Any eventual prose scores the dial, not the microphysics.
 
 The observable form, which is what the pipeline fits, follows from the budget algebra exactly as in the validated Model D+Λ and is stated here so no convention enters the likelihood: with $S = s_0/(1+z)$ and $\Omega_\Lambda = 0.685$ fixed from topology as in the baseline,
 
