@@ -4,9 +4,9 @@
 
 # The Postulate Bridge
 
-**Status (2026-07-01):** Resolved along the staged route, as a split. The two bedrock results sit on the two pieces of the postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$. The gauge dictionary is proved: the $E_8$ filling carries the boundary's Galois asymmetry exactly, on $\partial W = +\Sigma$ ($\Delta\rho = -8/5 = 4\,\Delta D$, and $k \equiv cs \bmod 1$ in all four sectors). The Möbius coupling is refuted route-specifically: on the characteristic slot, every coefficient built on $W$ restricts rank-trivially, so the surface term cancels from the Galois difference in every restriction-route identity with the canonical pullback coefficient bundle. No universal independence claim is made. The naive bridge through the shared value $2/R^2$ remains dead (a forced curvature-scale coincidence, not a spectral link). Steps 1-4 complete ([Step 4, part two](step4-coupling.md)); this note is the record.
+**Status (2026-07-01):** Resolved along the staged route, as a split. The two bedrock results sit on the two pieces of the postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$. The gauge dictionary is proved: the $E_8$ filling carries the boundary's Galois asymmetry exactly, on $\partial W = +\Sigma$ ($\Delta\rho = -8/5 = 4\,\Delta D$, and $k \equiv cs \bmod 1$ in all four sectors). The Möbius coupling is refuted route-specifically: on the characteristic slot, every coefficient built on $W$ restricts rank-trivially, so the surface term cancels from the Galois difference in every restriction-route identity with the canonical pullback coefficient bundle. No universal independence claim is made. The naive bridge through the shared value $2/R^2$ remains dead (a forced curvature-scale coincidence, not a spectral link). Steps 1-4 complete ([Step 4, part two](step4-coupling.md)); the split verdict is paper-ized as the third bedrock pillar, [Galois pair](../../bedrock/files/galois-pair.md); this note is the record of the route.
 
-**Related:** [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md), [bedrock README](../../bedrock/README.md).
+**Related:** [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md), [Galois pair](../../bedrock/files/galois-pair.md), [bedrock README](../../bedrock/README.md).
 
 ---
 
@@ -83,7 +83,7 @@ If this ever becomes a manuscript: no physics vocabulary, lead with the mathemat
 
 ---
 
-*The theorem has not been found. The computations have not been started. This note tracks the question, not the answer.*
+*The computation has been run. The dictionary is proved, the coupling is refuted on its route, and the question outside that route stays open.*
 
 ---
 

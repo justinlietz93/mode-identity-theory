@@ -8,7 +8,7 @@ Working notes on the cone point as the mechanism of galactic coherence.
 
 **Status:** The cosmic cone point analysis is DERIVED (Sector $\mathcal{A}$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem. The pre-registered SPARC test ([sparc-phase-field.md](sparc-phase-field.md), run 2026-05-19) found that $L_f = v_c^2/a_0$ does not behave like a single galactic coherence radius: the gravitational transition lands at $\approx 0.38\,L_f$ and the flat onset at $\approx 1.26\,L_f$, and the transition radius tracks baryonic mass more tightly than $L_f$. This removes the empirical anchor for Reading B (the nested galactic cone point at $L_f$); Reading A (the cosmic cone point) and the Frobenius chain (Section VII) are untouched.
 
-**Dependencies:** Sector $\mathcal{A}$ cone point analysis (Frobenius/continuous transmission extension/excision; V3 shows Friedrichs carries a zero mode at $n=0$), 120-grid scale-free projection, phase field coherence scale ($L_f$ SPARC-falsified; $L_g$ open).
+**Dependencies:** Sector $\mathcal{A}$ cone point analysis (Frobenius/bridging extension/excision; the [first-eigenvalue paper](../../bedrock/files/first-eigenvalue.md) shows Friedrichs carries a discontinuous zero mode at $n=0$), 120-grid scale-free projection, phase field coherence scale ($L_f$ SPARC-falsified; $L_g$ open).
 
 **Related:** [First Eigenvalue](../../bedrock/files/first-eigenvalue.md), [Black Double Zero's](../../../../cosmos/files/black-hole.md), [Oort Cloud project](oort-cloud-project.md), [SPARC phase field notes](sparc-phase-field.md).
 
@@ -18,17 +18,17 @@ Working notes on the cone point as the mechanism of galactic coherence.
 
 Within a galaxy, all observers measure the same $\mathbb{R}^4$: same $\Lambda$, same $G$, same particle masses, same coupling constants. The phase field mechanics proposed a coherence scale $L_f = v_c^2/a_0 \approx 13$ kpc within which the environmental phase shift $\alpha_f$ would be uniform. The SPARC test falsified $L_f$ as a single coherence radius: the gravitational transition lands at $0.38\,L_f$ and tracks baryonic mass ($\rho \approx 0.68$) more tightly than $L_f$ ($\rho \approx 0.61$). The geometric question survives: if galactic coherence has a topological origin, what sets the scale? But the target radius is no longer $L_f$.
 
-On the cosmic Mobius band, the cone point at $y = \pi R/2$ collapses all transverse positions to a single geometric point. In the zonal sector (Sector $\mathcal{A}$), the eigenvalue $\lambda_0 = 2/R^2$ is $W$-independent: it does not depend on the transverse width of the band. V3 shows this $W$-independence holds for the full operator only when $W \leq \pi R/2$ (cone angle $\leq \pi$); for wider bands an azimuthal mode undercuts the zonal eigenvalue. At cosmic scale the physical band sits well within the narrow regime, so the coherence argument is unaffected.
+On the cosmic Mobius band, the cone point at $y = \pi R/2$ collapses all transverse positions to a single geometric point. In the zonal sector (Sector $\mathcal{A}$), the first positive eigenvalue $\lambda_1 = 2/R^2$ is $W$-independent: it does not depend on the transverse width of the band. The [first-eigenvalue paper](../../bedrock/files/first-eigenvalue.md) shows this $W$-independence holds for the full operator only when $W \leq \pi R/2$ (cone angle $\leq \pi$); for wider bands an azimuthal mode undercuts the zonal level. At cosmic scale the physical band sits well within the narrow regime, so the coherence argument is unaffected.
 
 **The proposal:** galactic coherence is the $W$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. Observers within the galaxy share the cone point of the wave, and the cone point identification is why they all measure equal $\mathbb{R}^4$ values.
 
-If this is right, it must be handled with the same care as the Sector $\mathcal{A}$ paper: Frobenius expansion, limit-circle classification, continuous transmission extension (not Friedrichs; see §II), excision with vanishing boundary terms. No hand-waving about transverse collapse.
+If this is right, it must be handled with the same care as the Sector $\mathcal{A}$ paper: Frobenius expansion, limit-circle classification, bridging extension (not Friedrichs; see §II), excision with vanishing boundary terms. No hand-waving about transverse collapse.
 
 ---
 
 ## II. The Template
 
-The cosmic cone point analysis (Sector $\mathcal{A}$ paper) establishes the following chain:
+The cosmic cone point analysis establishes the following chain. Steps 1-7 are the [first-eigenvalue paper](../../bedrock/files/first-eigenvalue.md)'s endpoint data (§§3.3-3.5 there). Steps 8-9 are this note's variational template for reaching step 10 without closed forms: the paper itself reaches the $W$-independent zonal level by Legendre reduction and min-max, and its one cutoff estimate (Lemma 4.1 there, $O(1/\lvert\log\epsilon\rvert)$) serves the opposite purpose, placing the discontinuous zero mode inside the Friedrichs domain. The excision route matters here because the galactic generalization (§VII) has no closed forms.
 
 | Step | What it does | How |
 |------|-------------|-----|
@@ -38,14 +38,14 @@ The cosmic cone point analysis (Sector $\mathcal{A}$ paper) establishes the foll
 | 4 | Regular branch | $u_1 = a_0 + a_2\delta^2 + O(\delta^4)$, with $u_1' = O(\delta)$ |
 | 5 | Logarithmic branch | $u_2 = \log\|\delta\| + \ldots$, with $u_2' = 1/\delta$ |
 | 6 | Limit-circle | Both branches $L^2$ w.r.t. weight $\|\delta\|/R$ |
-| 7 | Continuous transmission extension | Continuity across the cone imposed geometrically (the apex is a smooth pole on the covering $S^2$). V3 shows the Friedrichs extension admits a discontinuous zero mode at $n=0$ because the cone has zero capacity; the transmission extension excludes it. For $n \geq 1$ the repulsive potential forces vanishing at the cone and the two extensions coincide. |
+| 7 | Bridging extension | The sector-regular bridging family $A^{\mathrm{br}}_{\delta_0}$ (first-eigenvalue paper, Definition 3.5) imposes continuity of the regularized value and Kirchhoff flux matching across the cone. The covering geometry (smooth pole on $S^2$) constrains but does not fix the extension; the operative criterion is the limit-circle classification (Remark 3.2 there). The Friedrichs extension admits a discontinuous zero mode at $n=0$; bridging excludes it, at the price of one cone-localized negative defect eigenvalue $\lambda_b(\delta_0)$. For $n \geq 1$ the endpoint is limit-point in the narrow band and no extension choice arises; past the critical width the first odd sector turns limit-circle, and taking its regular branch is the sector-regularity assumption. |
 | 8 | Excision | $\partial_\nu\|\nabla u\|^2 = O(\epsilon)$, arc-length $= O(\epsilon)$, product $= O(\epsilon^2) \to 0$ |
 | 9 | Rayleigh quotient | $2W$ appears in numerator and denominator; cancels exactly |
-| 10 | $W$-independence | $\lambda_0 = 2/R^2$ regardless of transverse width |
+| 10 | $W$-independence | zonal first positive level $\lambda_1 = 2/R^2$ regardless of transverse width |
 
 Steps 1-8 handle the singularity. Step 9 establishes the eigenvalue. Step 10 delivers coherence.
 
-The key structural feature: the $W$-cancellation (step 9) works because the area element $dA = |\cos(y/R)|\,dy\,dw$ factors the $w$-integration out of both numerator and denominator. The cone point analysis (steps 1-8) is needed to make this factored integral well-defined at the singular endpoint. Without the continuous transmission extension, the operator admits a discontinuous zero mode and the Rayleigh quotient gives $\lambda_0 = 0$. V3 also shows the $W$-cancellation delivers the zonal eigenvalue $2/R^2$ for all $W$, but this is the global ground state only when $W \leq \pi R/2$; for wider bands an azimuthal ($n=1$) mode with eigenvalue $\alpha(\alpha+1)/R^2 < 2/R^2$ ($\alpha = \pi R/2W$) undercuts it.
+The key structural feature: the $W$-cancellation (step 9) works because the area element $dA = |\cos(y/R)|\,dy\,dw$ factors the $w$-integration out of both numerator and denominator. The cone point analysis (steps 1-8) is needed to make this factored integral well-defined at the singular endpoint. The extension choice moves the bottom, not the zonal level: the Friedrichs extension has bottom $0$, attained by the discontinuous zero mode, the bridging family replaces it with a cone-localized negative defect state, and no self-adjoint extension has a strictly positive bottom (Theorem 1.1 there). The coherence eigenvalue is therefore the first positive level, measured from zero, not a ground state. The $W$-cancellation delivers the zonal $2/R^2$ for all $W$, but it is the first positive level only when $W \leq \pi R/2$; for wider bands an azimuthal ($n=1$) mode with eigenvalue $\alpha_0(\alpha_0+1)/R^2 < 2/R^2$ ($\alpha_0 = \pi R/2W$) undercuts it, and the level turns width-dependent.
 
 **Coherence is a global property ($W$-independence), but its proof passes through the local analysis at the cone point.**
 
@@ -55,19 +55,19 @@ The key structural feature: the $W$-cancellation (step 9) works because the area
 
 ### Reading A: Shared Cosmic Cone Point
 
-The cosmic Mobius band has one cone point at $y = \pi R/2$. Every meridional line (every $w$-position) passes through it. In Sector $\mathcal{A}$ (the $w$-constant ground mode), the eigenfunction $u_0 = \sin(y/R)$ takes the same value at each $y$ regardless of $w$. The cone point ($u_0 = 1$) is the shared maximum of all meridional lines.
+The cosmic Mobius band has one cone point at $y = \pi R/2$. Every meridional line (every $w$-position) passes through it. In Sector $\mathcal{A}$ (the $w$-constant first-positive mode), the eigenfunction $u_0 = \sin(y/R)$ takes the same value at each $y$ regardless of $w$. The cone point ($u_0 = 1$) is the shared maximum of all meridional lines.
 
-Galactic observers are at different $w$-positions on the cosmic Mobius band but share this cone point. The eigenvalue $\lambda_0 = 2/R^2$ is established through integration that passes through the cone point. All observers inherit the same eigenvalue because they are in the same ground mode on the same band.
+Galactic observers are at different $w$-positions on the cosmic Mobius band but share this cone point. The first positive eigenvalue $\lambda_1 = 2/R^2$ is established through integration that passes through the cone point. All observers inherit the same eigenvalue because they sample the same first-positive mode on the same band.
 
 In this reading, galactic coherence is a consequence of:
 - One Mobius band (the cosmic one)
-- One ground mode (Sector $\mathcal{A}$)
+- One first-positive mode (Sector $\mathcal{A}$)
 - One cone point (at $y = \pi R/2$)
 - $W$-independence (the transverse width of the galaxy doesn't matter)
 
 The galactic gravitational field enters through the $\Phi \to \Theta$ mapping, which shifts the observer's phase position by $\alpha_f \approx 2/120$. This is a perturbation of the phase coordinate, not the transverse coordinate. The cone point structure is unaffected because the perturbation is in $y$ (meridional), not in $w$ (transverse).
 
-**What needs to be checked:** does the $\alpha_f$ perturbation spoil the cone point analysis? Specifically: does the perturbed eigenfunction still belong to the continuous transmission domain (regular branch, finite Dirichlet integral, continuous across apex) at the cone point? For $\alpha_f \sim 10^{-6}$ (the galactic potential in units of $c^2$), the perturbation is small. But "small" is not "zero," and the cone point is a singular endpoint where small perturbations could change the qualitative character.
+**What needs to be checked:** does the $\alpha_f$ perturbation spoil the cone point analysis? Specifically: does the perturbed eigenfunction still belong to the bridging domain (regular branch, finite Dirichlet integral, regularized-value continuity across the apex) at the cone point? For $\alpha_f \sim 10^{-6}$ (the galactic potential in units of $c^2$), the perturbation is small. But "small" is not "zero," and the cone point is a singular endpoint where small perturbations could change the qualitative character.
 
 ### Reading B: Nested Galactic Cone Point
 
@@ -78,7 +78,7 @@ If the 120-grid is scale-free and the Mobius structure projects at every gravita
 | $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$ | $ds^2 = dy_g^2 + f_g^2(y_g)\,dw_g^2$ |
 | Curvature $K = 1/R^2$ (constant) | $K_g = ?$ |
 | Cone point at $y = \pi R/2$ | Cone point where $f_g = 0$ |
-| $\lambda_0 = 2/R^2$ | $\lambda_g = ?$ |
+| $\lambda_1 = 2/R^2$ | $\lambda_g = ?$ |
 | Coherence: all of $S^3$ | Coherence: $L_g$ (original candidate $L_f = v_c^2/a_0 \approx 13$ kpc, falsified by SPARC) |
 
 In this reading, galactic coherence is the $W_g$-independence of the nested eigenvalue. The galactic cone point plays the same structural role at galactic scale that the cosmic cone point plays at cosmic scale.
@@ -181,9 +181,9 @@ If the galactic cone point exists ($f_g$ vanishes at some $y_g^*$), the followin
 
 Three scenarios, ordered by assumption strength:
 
-**Scenario A (constant curvature).** If $K_g = 1/R_g^2$ is constant, then $f_g = \cos(y_g/R_g)$. The entire Sector $\mathcal{A}$ analysis carries over with $R \to R_g$. The Frobenius expansion, limit-circle classification, continuous transmission extension (for $n=0$; Friedrichs for $n \geq 1$), and excision are identical. The eigenvalue is $\lambda_g = 2/R_g^2 = 2\pi^2/L_g^2$ (the original identification $L_g = L_f$ is no longer empirically supported). The budget identity $u_g^2 + J_g^2 = 1$ holds. This is the cleanest case but the strongest assumption. V3's width constraint applies: the zonal eigenvalue is the global ground state only when $W_g \leq \pi R_g/2$.
+**Scenario A (constant curvature).** If $K_g = 1/R_g^2$ is constant, then $f_g = \cos(y_g/R_g)$. The entire Sector $\mathcal{A}$ analysis carries over with $R \to R_g$. The Frobenius expansion, limit-circle classification, bridging extension (in the constant sector; the higher sectors are limit-point in the narrow band and carry no choice), and excision are identical. The eigenvalue is $\lambda_g = 2/R_g^2 = 2\pi^2/L_g^2$ (the original identification $L_g = L_f$ is no longer empirically supported). The budget identity $u_g^2 + J_g^2 = 1$ holds. This is the cleanest case but the strongest assumption. The width constraint applies: the zonal level is the first positive eigenvalue only when $W_g \leq \pi R_g/2$.
 
-**Scenario B (variable curvature, linear zero).** If $K_g$ varies but $f_g$ still has a simple (linear) zero at $y_g^*$, then near the zero: $f_g \sim |\delta_g|/R_{\text{eff}}$ for some effective radius $R_{\text{eff}}$. The indicial equation is still $s^2 = 0$ (double root from the linear zero of the weight). Limit-circle classification still holds. The continuous transmission extension selects the regular branch (for $n = 0$; for $n \geq 1$ the repulsive potential forces vanishing and the Friedrichs extension coincides). The excision terms still vanish as $O(\epsilon^2)$. The eigenvalue changes (no longer $2/R_g^2$) but the $W_g$-independence mechanism is preserved if the metric factors as $ds^2 = dy_g^2 + f_g^2(y_g)\,dw_g^2$, subject to the width constraint $W_g \leq \pi R_{\text{eff}}/2$.
+**Scenario B (variable curvature, linear zero).** If $K_g$ varies but $f_g$ still has a simple (linear) zero at $y_g^*$, then near the zero: $f_g \sim |\delta_g|/R_{\text{eff}}$ for some effective radius $R_{\text{eff}}$. The indicial equation is still $s^2 = 0$ (double root from the linear zero of the weight). Limit-circle classification still holds. The bridging extension fixes the constant sector; for $n \geq 1$ the endpoint is limit-point in the narrow band, so no extension choice arises. The excision terms still vanish as $O(\epsilon^2)$. The eigenvalue changes (no longer $2/R_g^2$) but the $W_g$-independence mechanism is preserved if the metric factors as $ds^2 = dy_g^2 + f_g^2(y_g)\,dw_g^2$, subject to the width constraint $W_g \leq \pi R_{\text{eff}}/2$.
 
 **Scenario C (no zero, or non-linear zero).** If $f_g$ does not vanish, there is no cone point, and the coherence mechanism of Reading B fails. If $f_g$ vanishes quadratically or with higher order, the indicial exponents change and the analysis must be reworked from scratch.
 
@@ -214,11 +214,11 @@ The Dirichlet integral distinguishes the branches:
 - Regular: $(u_1')^2 |\delta_g| \sim \delta_g^2 \cdot |\delta_g| = O(|\delta_g|^3)$. Integrable.
 - Logarithmic: $(u_2')^2 |\delta_g| \sim \delta_g^{-2} \cdot |\delta_g| = O(|\delta_g|^{-1})$. Divergent.
 
-The continuous transmission extension selects the regular branch ($n = 0$); for $n \geq 1$ the Friedrichs extension coincides with it because the repulsive potential forces vanishing at the apex. This holds for any simple zero of $f$, regardless of the curvature profile.
+In the constant sector ($n = 0$) the Friedrichs extension takes the regular branch outright, while the bridging matching (regularized-value continuity plus Kirchhoff flux) forces the regular branch in the symmetric subsector, where the coherence mode lives, and deforms the antisymmetric branch onto the logarithmic solution (the defect bound state). Either way the symmetric zonal mode is regular at the apex. For $n \geq 1$ the endpoint is limit-point and self-adjointness is unique, with one caveat from the first-eigenvalue paper (Lemma 3.3 there): past the critical width ($W > \pi R_{\text{eff}}/2$, indicial exponent below 1) the first odd sector turns limit-circle too, and taking its regular branch is the sector-regularity assumption rather than forced. In the narrow band the statement holds for any simple zero of $f$, regardless of the curvature profile.
 
 ### Step 5: Excision estimates
 
-For any eigenfunction in the continuous transmission domain:
+For the regular-branch eigenfunctions (the symmetric zonal tower and every nonconstant sector, which is where the coherence mode lives; the logarithmic defect state is excluded and does not satisfy these estimates):
 - $u = O(1)$, $u' = O(\delta_g)$, $u'' = O(1)$
 - $\partial_\nu|\nabla u|^2 = 2u'u'' = O(\epsilon)$
 - Arc-length of excision curve: $|f_g| \cdot 2W_g \sim (\epsilon/R_{\text{eff}}) \cdot 2W_g = O(\epsilon)$
@@ -246,7 +246,7 @@ For variable curvature (Scenario B): the eigenfunction $u_g$ and Jacobi field $J
 
 ### If Reading B holds (nested cone point exists):
 
-The coherence boundary at each scale is $2W$ (the transverse width of that scale's Mobius band). The cone point identification guarantees $W$-independence of the eigenvalue, which guarantees coherence within the domain. V3 adds a constraint: the $W$-independence holds only when $W \leq \pi R/2$ (cone angle $\leq \pi$). For nested bands, this means $W_g \leq \pi R_g/2$ is required; otherwise the ground state is azimuthal and $W_g$-dependent.
+The coherence boundary at each scale is $2W$ (the transverse width of that scale's Mobius band). The cone point identification guarantees $W$-independence of the eigenvalue, which guarantees coherence within the domain. The first-eigenvalue paper adds a constraint: the $W$-independence holds only when $W \leq \pi R/2$ (cone angle $\leq \pi$). For nested bands, this means $W_g \leq \pi R_g/2$ is required; otherwise the first positive level is azimuthal and $W_g$-dependent.
 
 | Scale | $2W$ | Coherence domain |
 |-------|------|------------------|
@@ -260,7 +260,7 @@ This reframes Gap 1 of the Oort Cloud project: instead of asking "does $L_f = v_
 
 ### If Reading A holds (one cone point, perturbative):
 
-Galactic coherence follows from all observers being in the cosmic ground mode (Sector $\mathcal{A}$), with the galactic potential introducing a small perturbation in the meridional direction. The Oort Cloud project's nested structure would need a different geometric explanation than cone point nesting.
+Galactic coherence follows from all observers sampling the cosmic first-positive mode (Sector $\mathcal{A}$), with the galactic potential introducing a small perturbation in the meridional direction. The Oort Cloud project's nested structure would need a different geometric explanation than cone point nesting.
 
 ### The Oort Cloud radius
 
@@ -280,7 +280,7 @@ To derive the Oort Cloud radius, one would need: the stellar analog of $L_g$, or
 | 4 | Variable-curvature budget identity: what replaces $u^2 + J^2 = 1$ when $K$ is not constant? | Frobenius program, Step 7 | MEDIUM |
 | 5 | What sets $W_g$? The meridional length is $L_g$ (originally identified with $L_f = v_c^2/a_0$, now falsified). What sets the transverse width? | Reading B | MEDIUM |
 | 6 | Perturbative stability of the cosmic cone point: does $\alpha_f \sim 10^{-6}$ spoil any step in the chain? | Reading A | LOW (almost certainly stable, but unproven) |
-| 7 | V3 width regime constraint: nested galactic bands (Reading B) require $W_g \leq \pi R_g/2$ for the zonal mode to be the global ground state. If $W_g > \pi R_g/2$, the ground state is azimuthal and $W_g$-dependent, breaking the coherence mechanism. What constrains $W_g$ at galactic scale? | V3 width transition, Reading B | HIGH |
+| 7 | Width regime constraint: nested galactic bands (Reading B) require $W_g \leq \pi R_g/2$ for the zonal mode to be the first positive level. If $W_g > \pi R_g/2$, the first positive level is azimuthal and $W_g$-dependent, breaking the coherence mechanism. What constrains $W_g$ at galactic scale? | Width transition (first-eigenvalue paper), Reading B | HIGH |
 
 ---
 
@@ -292,7 +292,7 @@ To derive the Oort Cloud radius, one would need: the stellar analog of $L_g$, or
 | $L_f$ is the galactic coherence radius | Empirical support removed: SPARC finds the transition at $\approx 0.38\,L_f$, the flat onset at $\approx 1.26\,L_f$, and $r_t$ tracking $M_b$ over $L_f$, stable across all 27 sensitivity cells |
 | Frobenius structure preserved | Indicial exponents differ from $s^2 = 0$ at galactic scale (requires non-linear vanishing of $f_g$) |
 | $W_g$-independence | Galactic eigenvalue shown to depend on galaxy size (different-sized galaxies measure different $\Lambda$) |
-| Width regime (V3) | Nested galactic band shown to have $W_g > \pi R_g/2$, placing the ground state in the azimuthal branch where $W$-independence fails |
+| Width regime | Nested galactic band shown to have $W_g > \pi R_g/2$, placing the first positive level in the azimuthal branch where $W$-independence fails |
 | Curvature from topology-gravity interface | $K_g$ shown to require fine-tuning rather than following from $a_0$ and $v_c$ |
 | Omega Constraint | Cone point identification produces observer isolation at any scale; FATAL |
 
