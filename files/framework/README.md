@@ -419,6 +419,8 @@ The headline is the second row: from one measured coupling, with no $R_\Lambda$ 
 
 All three are the same inversion through the same 60-fold McKay/grid lever ($\Lambda\ell_P^2 \propto \alpha^{60}$), so they differ only in input conditioning: $\alpha$ matches its formula to ~0.5% and lands $\Lambda$ at 24%, the mass ratio matches to ~4.5% and lands ~14× off; the gap is amplified input error, not a structural inconsistency.
 
+The mass reading earns its independent-cross-check label structurally: a same-depth ratio cancels $R_\Lambda$, but the electron and muon sit at different McKay distances, so their mass ratio keeps a net power of $\sqrt{\Omega_\Lambda}$ through the elevator and reads the scale rather than dividing it out.
+
 ### Sector anchors
 
 | Sector | Anchor | Role |
