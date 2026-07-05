@@ -112,7 +112,7 @@ Everything else in the chain is the regraded Lemma (proved from bookkeeping prem
 | $+1/2$ | $S^{-1}$ | Model B | dead, $+1821.9$ |
 | $+1$ | $S^{-3/2}$ | the completing fit registered at gate (i) | expected dead |
 
-The discrete family was a kernel-asymmetry scan all along, and the walls at $\epsilon = \pm 1/2$ already bracket $\epsilon$ near zero. One continuous fit turns the bracket into a posterior. Registered expectation, stated before any run: $\epsilon$ consistent with zero, with the reported width the empirical bound on kernel asymmetry, the same move laboratories use on detailed balance and CPT. Pending the Λcos pipeline; the run absorbs the registered $S^{-3/2}$ point as its $\epsilon = +1$ slice, one session paying both debts.
+The discrete family was a kernel-asymmetry scan all along, and the walls at $\epsilon = \pm 1/2$ already bracket $\epsilon$ near zero. One continuous fit turns the bracket into a posterior. The full specification is now frozen as its own registration, [The Clock-Asymmetry Fit](clock-asymmetry-fit.md): data, priors, two tiers, the meaningful-measurement bar (a merely-includes-zero posterior is non-falsification, not measurement), the four-row verdict table, and the registered expectation ($\epsilon$ consistent with zero, forecast half-widths $\approx 0.012$ above and $0.034$ below). Pending the Λcos pipeline; the run absorbs the registered $S^{-3/2}$ point as its $\epsilon = +1$ slice, one session paying both debts.
 
 **Flip protocol.** When the armed channels and review score this, the budget page's label should carry its ledger inline rather than a bare word: DERIVED (P1 definitional; P2 supported, bounded at $\lvert\epsilon\rvert$ below the fit width). A label that names its premises survives review.
 
