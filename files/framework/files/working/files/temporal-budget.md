@@ -32,7 +32,7 @@ $\Psi$ is the cosmic standing wave. $S$ is the **modal realization amplitude** �
 
 $$\Psi + iS = \cos(t/2) + i\sin(t/2) = e^{it/2}$$
 
-This is a bookkeeping representation of the two real budget components, not an additional complex field. The budget identity is $|e^{it/2}|^2 = 1$. The temporal evolution of the universe is rotation on the unit circle in the complex plane. $\Psi$ (standing wave) is the real part; $S$ (modal realization) is the imaginary part. The half-angle $t/2$ in the exponent is the Möbius signature: two traversals of the boundary restore the sign, giving the $4\pi$ period.
+This is a bookkeeping representation of the two real budget components, not an additional complex field. The budget identity is $|e^{it/2}|^2 = 1$. The temporal evolution of the universe is rotation on the unit circle in the complex plane. $\Psi$ (standing wave) is the real part; $S$ (modal realization) is the imaginary part. The half-angle $t/2$ in the exponent is the Möbius signature: the anti-periodic condition flips the sign once per lap of the strip (one circuit of the core loop), and the temporal edge closes only after two laps, so the sign comes home exactly when the edge closes, giving the $4\pi$ period.
 
 Structural milestones read as positions on the unit circle:
 

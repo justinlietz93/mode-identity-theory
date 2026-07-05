@@ -73,7 +73,7 @@ The field $\psi$ is a section of the orientation line bundle: the unique nontriv
 
 $S^1$ is the boundary of the Möbius surface. The strip has longitudinal period $L = \pi R_\Lambda$ (one lap); the boundary $S^1$ traverses the strip twice before closing, giving geometric circumference $2L = 2\pi R_\Lambda$. The edge inherits the anti-periodic boundary condition. This is where time advances and where the observer is anchored.
 
-The chronon and standing wave period operate in the phase parameter $t \in [0, 4\pi]$, not in geometric length. The factor $4\pi$ is the anti-periodic wave period (two sign-flip traversals), dimensionless.
+The chronon and standing wave period operate in the phase parameter $t \in [0, 4\pi]$, not in geometric length. The factor $4\pi$ is the anti-periodic wave period (two sign-flip laps of the strip), dimensionless.
 
 ### The Observable Domain
 
@@ -102,7 +102,7 @@ $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
 ## Ψ [One Wave](../cosmos/files/dark-energy.md)
 
-The universe is static, a standing wave, and what we read as cosmic time is the observer's phase along it. The wave sits on the Möbius temporal edge, so the same sign flip that makes matter fermionic acts on it: one circuit flips the wave, only a second brings it home, which is why its fundamental period is $4\pi$ rather than $2\pi$, the wave-level face of the spin-1/2 double cover. It opens at full amplitude, holds its lowest mode, and where the observer samples it, matter appears.
+The universe is static, a standing wave, and what we read as cosmic time is the observer's phase along it. The wave sits on the Möbius temporal edge, so the same sign flip that makes matter fermionic acts on it: one lap of the strip flips the wave, and the edge closes only after a second, bringing it home, which is why its fundamental period is $4\pi$ rather than $2\pi$, the wave-level face of the spin-1/2 double cover. It opens at full amplitude, holds its lowest mode, and where the observer samples it, matter appears.
 
 Anti-periodicity, the initial-maximum condition ($\Psi(0) = +1$), and ground-state selection ($m = 0$) together fix:
 
@@ -110,7 +110,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 
 | Condition | Selects | Why |
 |---|---|---|
-| Anti-periodic BC | Period $4\pi$ | Two traverses to restore sign |
+| Anti-periodic BC | Period $4\pi$ | Sign flips per lap; two laps to restore it |
 | $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\big\vert_{t=0} = 0$ |
 | Ground state $m = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
