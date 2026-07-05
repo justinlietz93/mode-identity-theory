@@ -40,7 +40,7 @@ The idea was to link the band's orientation $\mathbb{Z}_2$ holonomy to a non-ori
 
 Heat traces relate a space to its covers and subspaces. The band is neither a cover nor a subspace of $S^3/2I$. The leading asymptotics mismatch ($t^{-1}$ for a surface versus $t^{-3/2}$ for the $3$-manifold), and the trace formula organizes the twisted spectrum by conjugacy classes and closed geodesics, with no slot for an embedded surface.
 
-### Route 3, APS index theory on the $E_8$ plumbing: open, concrete
+### Route 3, APS index theory on the $E_8$ plumbing: run, resolved as a split
 
 **Why this is the route.** $S^3/2I$ bounds a compact oriented $4$-manifold $W$, the $E_8$ plumbing, whose intersection form is the $E_8$ lattice. This is not a second, coincidental $E_8$. The McKay correspondence identifies it with the one the coexact paper uses: the minimal resolution of the $\mathbb{C}^2/2I$ Kleinian singularity has eight exceptional $(-2)$-curves in bijection with the eight nontrivial irreps of $2I$, their intersection matrix is the negative of the finite $E_8$ Cartan matrix (self-intersections $-2$, off-diagonal $+1$ for $E_8$-adjacency), and the affine node of the McKay graph is the trivial irrep that the resolution drops. So the Galois node $\mathrm{Sym}^2 Q'$ at McKay distance six corresponds to a definite homology class in $H_2(W)$. The research question is whether the APS machinery respects that identification, not whether a map between two $E_8$s exists.
 
@@ -79,7 +79,7 @@ The framework's claim is "one shape, two consequences." The shared $S^3$ of radi
 
 If the index computation yields a genuine connection, the result relates the gauge eta to the band's topological embedding. If it yields a negative result, that is also a result, but state it route-specifically: the interior term is topological, and any $2/R^2$ in it reduces to the curvature-scale coincidence (provably, since the band's eigenvalue equals its curvature by Obata) rather than a spectral link to the surface paper. That route-specific negative is provable; a universal claim that the two spectra are independent is not.
 
-If this ever becomes a manuscript: no physics vocabulary, lead with the mathematics, cite the two pillars by content, and keep the surface eigenvalue out of any index ingredient unless it survives the curvature-scale check.
+This became the bedrock pillar [Galois pair](../../bedrock/files/galois-pair.md), written to that standard: no physics vocabulary, the mathematics leading, the two pillars cited by content, and the surface eigenvalue kept out of every index ingredient. The route it reports is the negative-and-positive split, not the $\Lambda \leftrightarrow$ mass-gap link, which the pillar does not claim.
 
 ---
 
