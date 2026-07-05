@@ -74,11 +74,11 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### Friedmann as Output
+### [Friedmann as Output](files/friedmann-as-output.md)
 
-**Problem:** The phase-clock $H(z)$ currently uses the Friedmann equation as input. Deriving $H^2 \propto \rho$ from the postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ would close the program: the framework would produce its own dynamics rather than borrowing GR's.
+**Tracker:** The phase-clock $H(z)$ uses the Friedmann equation as input through exactly one line: the Waltz clock exponent $-1/2$, forced by $S^3$ dimensionality plus GR and empirically unique in its family (integer alternatives ruled out at $\Delta\chi^2 > 60$). Everything else in the chain is axiom, definition, kinematic dictionary ($a \propto S$), or algebra, so the tracker reduces the program to that single exponent, stages the spatial-to-temporal reconciliation as the gatekeeper (the half-angle lap lemma is the cheap first result), and enumerates the topologically native clock candidates with the exponent each induces and the gate that lands or kills it: two land arithmetically (the amplitude-level lapse $N^2 = S$ and the geometric-mean clock) and carry the derivation burden, one is fused with the entropy page's shell-unlock map so a single lemma pays twice, and the stabilizer-ratio reading stays hazard-gated behind the two-3/2s fence. A route-specific negative across the menu is a recorded outcome: kinematics native, one dynamical import, named.
 
-**Dependencies:** Temporal budget identity, Waltz clock, Gauss-Codazzi embedding.
+**Dependencies:** [Temporal budget identity](files/temporal-budget.md), Waltz clock, spatial budget $u_0^2 + J^2 = 1$, Molien shell map (shared with [entropy](files/entropy-as-realization-budget.md)), Gauss-Codazzi embedding (assembly stage only).
 
 ---
 

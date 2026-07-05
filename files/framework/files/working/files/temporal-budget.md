@@ -12,7 +12,7 @@ Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau/
 
 **Dependencies:** Sector $\mathcal{A}$ spatial budget $u_0^2 + J^2 = 1$; $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$; Pantheon+ and DESI DR2 BAO (Λcos paper).
 
-**Related:** [The Budget Map](budget-map.md), [The Waltz](../../../../spectrum/files/the-waltz.md).
+**Related:** [The Budget Map](budget-map.md), [Friedmann as Output](friedmann-as-output.md) (the attack tracker for the clock exponent), [The Waltz](../../../../spectrum/files/the-waltz.md).
 
 **Update (May 2026, Λcos paper).** Joint fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) tightens the constraint to $\Delta\chi^2 = +0.11$ at equal parameter count, with $s_0 < 0.19$ (95% CL, flat prior). The best-fit sits at the ΛCDM boundary ($s_0 = 0.001$); the posterior median is 0.076. The Pantheon+-only value $s_0 = 0.389$ remains within the Pantheon+ posterior but is disfavored by the BAO data. The prediction ledger (§XI) now carries both values. 
 
