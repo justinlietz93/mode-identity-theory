@@ -4,7 +4,7 @@
 
 # The Tick Lemma
 
-**Status (2026-07-05):** DEFINITION FROZEN at this commit; the computation is not yet run. This is gate (ii) of the [half-power clock](friedmann-as-output.md), the decider. Sections I-V (the frozen definition, the generic uniqueness lemma, the disambiguation menu, and the verdict table) are committed before any computation; Sections VI-VII are filled by a separate computation commit and by nothing else. The git history is the audit trail: the definition below is built from primitives already in service elsewhere, and the target exponent appears nowhere in it.
+**Status (2026-07-05):** Definition frozen in commit `2485b3d`; computation run in the following commit; the git history is the audit trail. This is gate (ii) of the [half-power clock](friedmann-as-output.md), the decider, and the computation returns the overlap density: gate (ii) CLOSES, conditionally on the two-premise ledger of §VII (one act two ledgers; no arrow in the kernel). The budget page's FORCED label is not flipped by this note; scoring moves to the armed channels and review. The definition in §II is built from primitives already in service elsewhere, and the target exponent appears nowhere in it.
 
 **Related:** [The Half-Power Clock](friedmann-as-output.md) (the tracker), [The Level Exchange](half-power-involution.md) (gate i; supplies the level measures), [Temporal Budget](temporal-budget.md), [Entropy as Realization Budget](entropy-as-realization-budget.md) (the armed consequence channel; not touched here).
 
@@ -69,13 +69,35 @@ If the tick cannot be shown to be a joint-registration event at all, the level-e
 
 ## VI. The Computation
 
-*Not yet run. This section is filled by the computation commit and by nothing else.*
+**Step 1: adjudicate the reading against the frozen definition.** The coincidence reading requires two independent stochastic streams, one per ledger, firing separately; the frozen definition has one act with two entries, the draw and the deposit constitutive of the same sampling event, so coincidence does not describe it. The one-sided readings contradict the definition directly: a draw without a deposit is unregistered, a deposit without a draw has no content (the §II necessity argument). The flow-weighted reading uses transfer increments as ledger entries, but the frozen definition takes the ledgers as the gate-(i) stocks, with flows as outputs of tick counting, the pre-named R-REAL circle. One row survives the definition: conversion. The tick measure is the interface measure of the stock pair $(\mu_A, \mu_I)$.
+
+**Step 2: check the Lemma's premises for that interface measure.** Locality holds: the tick is chronon-local, so its rate density at phase $t$ can depend only on the ledger densities at $t$. Rescaling covariance holds: the two ledgers carry independent unit conventions (amplitude units, intensity units), and an event rate cannot depend on either convention except covariantly. Idempotence holds: were both ledgers to assign the same weight, joint registration degenerates to registration, and the tick measure is that common measure. Exchange symmetry is the physical premise: the elementary sampling kernel carries no arrow, direction living in the state (the budget's $\Psi(0) = +1$ and the accumulation of samples), not in the kernel. This is the framework's own doctrine, stated on the [entropy page](entropy-as-realization-budget.md) §IX: the wave is reversible, irreversibility enters through accumulated sampling. It is supported, it is not a theorem, and it is the single load-bearing premise of the computation. Dropping it leaves the product-power family $(w_1 w_2)^s$ unselected and no result.
+
+**Step 3: apply the Lemma.**
+
+$$d\mu_{\text{tick}} = \sqrt{\mu_A\,\mu_I} = \sqrt{(S\,dt)(S^2\,dt)} = S^{3/2}\,dt,$$
+
+with the chronon fixing the normalization: $dT \propto S^{3/2}\,dt$, the observer's proper tick.
+
+**Step 4: the chain to the clock exponent.** With the kinematic dictionary $a = S$ (ESTABLISHED) and the definition $dT = a\,d\tau$:
+
+$$d\tau = \frac{dT}{a} = S^{1/2}\,dt, \qquad \frac{dt}{d\tau} = S^{-1/2}, \qquad H^2 \propto \frac{\Psi^2}{S^3} = \frac{1-S^2}{S^3}.$$
+
+The exponent that the budget page carries as FORCED by $S^3$ dimensionality plus GR is returned here with GR absent from the chain. The computation lands on the first row of the pre-posted verdict table.
 
 ---
 
 ## VII. Premise Ledger and Verdict
 
-*Not yet run. Filled with Section VI.*
+| Premise | Content | Status |
+|---|---|---|
+| P0 | the gate-(i) level assignment: count base $dt$, amplitude stock $S\,dt$, intensity stock $S^2\,dt$ | carried from [The Level Exchange](half-power-involution.md); target-free, prior structure |
+| P1 | one act, two ledgers: the frozen definition, supported by the necessity argument (registration requires both a draw and a deposit) | DEFINITIONAL with MOTIVATED support; rejecting it rejects the framework's sampling ontology, not a step of the computation |
+| P2 | kernel exchange symmetry: the elementary sampling kernel carries no arrow; direction lives in the state | SUPPORTED (entropy §IX doctrine); the single load-bearing non-theorem premise |
+
+Everything else in the chain is the generic Lemma (proved), the kinematic dictionary $a = S$ (established), and the definition $dT = a\,d\tau$. No other import enters, and GR enters nowhere.
+
+**Verdict, per the pre-posted table.** The computation returns $S^{3/2}\,dt$: gate (ii) CLOSES, conditionally on the premise ledger above. As that table row states: scoring moves to the armed channels, the entropy-page bound and the registered $S^{-3/2}$ fit, and to review; the budget page's FORCED label is not flipped by this note. What changed epistemically: the two GR imports (matter dilution in three dimensions, the Friedmann square root) are replaced by two named, target-free, framework-native premises (P1, P2). What did not change: the numbers (the same $H(z)$, per the tracker's provenance paragraph), the pages (no relabels executed), and the parked items (Molien route, holonomy candidate, Λcos fit) stay parked. The failure condition registered in Section V was not triggered and remains on the page: if P1 or P2 falls under review, $S^{3/2}\,dt$ reverts to a motivated clock postulate and the tracker's failure bar applies.
 
 ---
 
