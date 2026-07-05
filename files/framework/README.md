@@ -120,6 +120,10 @@ The cosine has a complement. Write $S = \sin(t/2)$; then $\Psi^2 + S^2 = 1$ part
 
 The Waltz clock $dt/d\tau = S^{-1/2}$ turns budget phase into conformal time $\tau$ (the [budget note](files/working/files/temporal-budget.md) convention), and proper time is one step further, $dT = a\,d\tau$ with $a \propto S$, so $dT/dt = S^{3/2}$. Because $S$ is small early, the proper-time age accrues slowly per unit phase: the early universe spans a long stretch of phase for little proper time, and the present age is read only after the clock map is calibrated.
 
+The exponent $-1/2$ is the one that makes the phase clock reproduce the matter scaling the distance ladder requires. Matter dilution contributes the three-dimensional factor $S^{-3}$, while the Friedmann relation reads the square root of the rate, leaving the clock with the $S^{-1/2}$ power. Integer-power alternatives miss the Pantheon+ and DESI DR2 BAO distances by wide margins, and a purely boundary-geometric derivation of the same exponent remains open.
+
+The observed distances need the topological $\Lambda$, not the wave budget alone: the budget by itself matches a matter-only history, and $\Lambda$, fixed through the surface eigenvalue, carries the rest. Read through the $\Lambda$CDM expansion frame that difference is the familiar shift from $q_0 = +0.5$ to $q_0 = -0.55$, a translation of the static domain's distance relation rather than a motion of the domain itself.
+
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
 ### The Present Epoch
@@ -130,7 +134,7 @@ Two phase parameterizations meet at the present epoch. The engine phase $\Phi = 
 
 $$\Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-Every constant in the universe is one quantity, asked at one place. The scalling law reads: **how big is this thing compared to the natural Planck unit for its kind;** $A/A_P$, equals **where it sits on the wave;** $C(\Theta)$, times **how far the geometry has diluted it from the Planck scale;** $(\sqrt{\Omega})^{-n}$.
+Every constant in the universe is one quantity, asked at one place. The scaling law reads: **how big is this thing compared to the natural Planck unit for its kind;** $A/A_P$, equals **where it sits on the wave;** $C(\Theta)$, times **how far the geometry has diluted it from the Planck scale;** $(\sqrt{\Omega})^{-n}$.
 
 ### What the ratio means
 
@@ -144,7 +148,7 @@ $A_P$ is the Planck reference: the natural scale for that *kind* of quantity, bu
 
 So $A/A_P$ just asks how big the measured thing is in those units. For the Hubble rate the reference is $t_P^{-1}$, and $H_0 / t_P^{-1} \approx 10^{-61}$: the Hubble rate is about $10^{61}$ times slower than the Planck rate. For the cosmological constant the reference is $\ell_P^{-2}$ (a curvature), and $\Lambda / \ell_P^{-2} \approx 10^{-122}$: the vacuum curves space, and stores energy, about $10^{122}$ times more weakly than the Planck scale would suggest.
 
-**The classical mystery is why these ratios are so absurdly small.** MIT answers it structurally: the smallness is the dilution factor $(\sqrt{\Omega})^{-n}$, the price of living on the edge ($n = 1$) or the surface ($n = 2$) of the geometry instead of at the Planck floor. That factor sets the orders of magnitude; the position factor $C(\Theta)$ sets the leading digits. The rest of this section is just those two questions: where on the wave, and how deep in the geometry.
+**The classical mystery is why these ratios are so absurdly small.** MIT answers it structurally: the smallness is the dilution factor $(\sqrt{\Omega})^{-n}$, the price of living on the edge ($n = 1$) or the surface ($n = 2$) of the geometry instead of at the Planck floor. That factor sets the orders of magnitude; the position factor $C(\Theta)$ sets the leading digits. The rest of this section is just those two questions: where on the wave, and how deep in the geometry. The form is dimensional before it is numerical: dimensions multiply, so hierarchy depth appears as a power, and $R_\Lambda/\ell_P$ is the only available length ratio. The exponent records which geometric layer the observable lives on.
 
 **The sample occurs at** $(t, \Theta)$: a moment in the wave's phase, at a position on the grid.
 
@@ -199,6 +203,8 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
 **The scale selection rule.** The index $n$ is read from where the quantity lives and whether it evolves with epoch: edge rates take $n = 1$ on the evolving $\Omega_H$, surface and space quantities take $n = 2$ and $n = 3$ on the fixed $\Omega_\Lambda$, and dimensionless couplings bypass manifold dilution at fractional $n$.
+
+The index $n$ has two compatible readings in the dilution sector: the length-dimension of the observable, and the geometric layer on which the mode lives. They agree for the edge, surface, and space rows. The exceptions are explicit: $G$ is the Planck anchor, the $3/2$ row is a Gauss-Codazzi conversion rather than dilution, and the dimensionless couplings use fractional grid exponents.
 
 ### Fibonacci Wells
 
