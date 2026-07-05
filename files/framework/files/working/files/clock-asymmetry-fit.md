@@ -4,7 +4,7 @@
 
 # The Clock-Asymmetry Fit
 
-**Status (2026-07-05):** REGISTRATION, frozen before any run. This is the P2 measurement track of the [half-power clock](friedmann-as-output.md): one premise, one parameter, nothing else. The specification below is complete enough to execute mechanically in the Λcos pipeline at its next session; results land in a single commit filling the Results section, with no re-runs, no post-hoc priors, and no added parameters. This note cannot flip any label, and it contains no entropy, Molien, or model-building content by design.
+**Status (2026-07-05):** REGISTRATION, frozen before any run; EXECUTED same day from lambda-cos tag `eps-family-v1.0`, results commit `6e95fed`. **Verdict: row 3 of the frozen table fired: zero excluded at 95% in both tiers ($\hat\epsilon = -0.106$); P2 challenged; see Results.** The registered expectation failed and is recorded as such. This is the P2 measurement track of the [half-power clock](friedmann-as-output.md): one premise, one parameter, nothing else. The specification below is complete enough to execute mechanically in the Λcos pipeline at its next session; results land in a single commit filling the Results section, with no re-runs, no post-hoc priors, and no added parameters. This note cannot flip any label, and it contains no entropy, Molien, or model-building content by design.
 
 **Related:** [The Tick Lemma](tick-lemma.md) (where the family arises as the residual of L1-L3), [The Sampling Kernel's Symmetry](sampling-kernel-symmetry.md) (the theorem track; independent, and not evidence about $\epsilon$'s value), [Temporal Budget](temporal-budget.md) (the baseline model and data), [The Half-Power Clock](friedmann-as-output.md).
 
@@ -80,7 +80,19 @@ Not a bare word. This registration is the constraint's source; it is not the fli
 
 ## Results
 
-*Not yet run. This section is filled by the execution commit from the Λcos session and by nothing else.*
+**Executed 2026-07-05** from a clean checkout of the lambda-cos tag `eps-family-v1.0` (commit `351938c`), frozen sequence tier1 then tier2 uninterrupted, seed 12345, transcript and all outputs in the single results commit `6e95fed` on the `epsilon-family` branch. The gate binding held throughout (script sha256 and data md5 verified at each tier launch).
+
+**Tier 1 (profile).** Minimum at $\hat\epsilon = -0.106$: $\chi^2 = 1764.714$, $\Delta\chi^2_{\Lambda\text{CDM}} = -7.74$, $\Delta\chi^2_{\epsilon=0} = -7.85$. Intervals: 68% $[-0.139, -0.069]$, 95% $[-0.171, -0.031]$; both 68% half-widths ($0.033$, $0.037$) inside the $0.05$ bar. The $\epsilon = 0$ point reproduces the published Model D exactly ($+0.108$). The profile has two regimes: for $\epsilon \gtrsim -0.008$ the profiled $s_0$ sits on the prior floor (the published ΛCDM-limit behavior), while at negative $\epsilon$ a degeneracy valley opens with $s_0$ climbing to $0.467$ at the minimum. The $\epsilon = +1$ slice lands at $+6395.5$: the completing fit registered at gate (i) is discharged, dead as expected.
+
+**Tier 2 (joint posterior).** $\epsilon$ median $-0.092$, 68% $[-0.131, -0.051]$, 95% $[-0.620, -0.019]$, $\mathrm{corr}(s_0, \epsilon) = -0.82$; the posterior best point ($s_0 = 0.467$, $\epsilon = -0.106$) coincides with the Tier 1 minimum. Diagnostics (informational): acceptance $0.469$; $\tau_\text{max} = 131$, chain length $\approx 38\tau$, marginal; effective samples $\approx 974$; split-half $\epsilon$-quantile shift $0.003$, so the 68% region is stable and the deep negative 95% tail, which rides the $s_0$ valley, is the least-resolved feature.
+
+**Verdict, scored strictly against the frozen table.** Row 1 does not fire (zero is outside the 68% interval). Row 2 does not fire (the interval does not include zero). Row 4 does not fire ($\hat\epsilon$ is $0.394$ from the nearest dead slice; the posterior is unimodal along a single valley). **Row 3 fires: zero is excluded at 95%, in both tiers.** As frozen: "P2 challenged; inspect R1 and R2 per [the chase note](sampling-kernel-symmetry.md), and downgrade the tick lemma per its own failure bar."
+
+**The registered expectation was wrong, and that is part of the record.** The forecast ($\epsilon$ consistent with zero, half-widths $\approx 0.012$ and $0.034$ from quadratic interpolation of the walls) failed because the discrete slices bracketed but never probed the interior: the valley at $\epsilon \approx -0.11$ was invisible to the wall arithmetic.
+
+**The wording guard governs the claim.** The measured statement is about the dial, not the microphysics: within the registered family, the data select a small negative clock asymmetry, at $2.8\sigma$ over the symmetric point ($\Delta\chi^2 = 7.85$, one parameter) and $7.7$ below ΛCDM at the cost of two. One structural observation is recorded without adjudication: the preferred valley sits along $\mathrm{corr}(s_0, \epsilon) = -0.82$ with $s_0 \approx 0.47$, which is the direction in which the known Pantheon+-versus-BAO pull on $s_0$ relaxes; whether the dial is measuring kernel physics or absorbing that data tension is exactly what the R1/R2 inspection and the queued $\Omega_\Lambda$ robustness check (robustness, not authority) must sort out.
+
+**Consequences per the fired row.** The FORCED $\to$ DERIVED flip is off the table (row 1 did not fire). The tick lemma's conditional closure stands as mathematics (R1 $\wedge$ R2 $\Rightarrow \epsilon = 0$ is still a theorem), so by modus tollens the measurement challenges the premises: R1 or R2 is wrong somewhere, or the dial is contaminated, and the chase note says where to look. Prescribed next work, pending review: the R1/R2 inspection, the tick-lemma downgrade per its failure bar, and the robustness check, in that order.
 
 ---
 
