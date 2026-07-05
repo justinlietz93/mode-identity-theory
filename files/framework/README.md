@@ -394,7 +394,7 @@ Neither is predicted. They define the unit system, nothing more.
 
 ### The dimensionless core
 
-In a ratio of two observables at the same depth, $\Omega_\Lambda$ cancels: no anchor enters and the number is parameter-free. These hold under every choice of anchor below.
+In a ratio of two observables at the same depth, $\Omega_\Lambda$ cancels: no anchor enters and the number is parameter-free. Anchor-free predictions occur when the same hierarchy depth, grid, or calibrated edge normalization cancels; cross-depth or cross-grid comparisons are the levers that read the hierarchy. These hold under every choice of anchor below.
 
 | Quantity | Value | Status |
 |---|---|---|
