@@ -26,17 +26,17 @@ No space stretches. The reddening is the difference in phase position between em
 
 ## II. Cooling is redshift of the bath
 
-Cooling is the same phase ratio applied to a thermal ensemble instead of a single photon. A space-filling radiation bath in a static space at fixed volume has no exterior to radiate into, so in such a space a bath holds its temperature indefinitely: cooling has to be earned, not assumed.
+Cooling is the same phase ratio applied to a thermal ensemble instead of a single photon. The domain is static in the framework sense: the $S^3$ topology sits at fixed spectral radius $R_\Lambda$. A space-filling radiation bath has no exterior to radiate into, so cooling cannot be leakage; it has to be earned by the budget.
 
 The budget earns it. At early phase ($t \to 0$), $\Psi^2 \approx 1$ and $S^2 \approx 0$: nearly all budget weight resides in the standing wave, the unresolved background. As the phase advances, $S$ grows and $\Psi$ shrinks; weight transfers from $\Psi^2$ into $S^2$, from unresolved wave into realized modes. The total is conserved ($\Psi^2 + S^2 = 1$), but the partition shifts.
 
-Because every wavelength scales by the same $S(t_\text{emit})/S(t_\text{obs})$, a blackbody at emission stays a blackbody at observation, only cooler:
+The thermal reading rides on the effective metric, where the scale factor $a_\text{eff} \propto S$ carries the volume. Every wavelength rescales by $S$, photon number density scales as $n \propto S^{-3}$ at conserved photon count, and radiation energy density scales as $\rho \propto S^{-4}$. That $n \propto S^{-3}$ is exactly the blackbody equilibrium condition $n \propto T^3$ at $T \propto 1/S$, so a Planck blackbody at emission stays a Planck blackbody at observation, only cooler:
 
 $$T \propto \frac{1}{S} \propto (1 + z).$$
 
-The cooling is internal redistribution within a closed budget, not leakage into an exterior.
+The fixed quantity is the spectral radius $R_\Lambda$, which sets $\Lambda = 3/R_\Lambda^2$, not the effective thermodynamic volume. The cooling is internal redistribution within a closed budget, carried by the transfer $\Psi^2 \to S^2$, and the energy accounting for that transfer stays open (§VI).
 
-**Status.** ESTABLISHED as a kinematic equivalence with the FLRW thermal redshift law, where $T \propto 1/a$ and the scale factor $a$ plays the role of $S$. At the kinematic level the equivalence is exact: if one variable governs both photon redshift and temperature, a blackbody stays a blackbody with $T \propto 1/S$. First-principles derivation from the postulate, including the photon phase-space density, remains OPEN. The entropy that accompanies the cooling is a separate reading of $S$, handled in [Entropy as Realization Budget](entropy-as-realization-budget.md).
+**Status.** ESTABLISHED as a kinematic equivalence with the FLRW thermal redshift law, where $T \propto 1/a_\text{eff}$ and the effective scale factor $a_\text{eff} \propto S$. At the kinematic level the equivalence is exact: if one variable governs both photon redshift and temperature, a blackbody stays a blackbody with $T \propto 1/S$. First-principles derivation from the postulate, including the photon phase-space density, remains OPEN. The entropy that accompanies the cooling is a separate reading of $S$, handled in [Entropy as Realization Budget](entropy-as-realization-budget.md).
 
 ## III. The observable side: distances
 
