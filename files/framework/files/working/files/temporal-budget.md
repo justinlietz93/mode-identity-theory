@@ -6,7 +6,7 @@
 
 [![The Phantom Mirage](https://img.youtube.com/vi/23IxzJDo3pM/mqdefault.jpg)](https://www.youtube.com/watch?v=23IxzJDo3pM)
 
-Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau/dt = S^{1/2}$, and the Pantheon+ fit that recovers $\Omega_m$ as output.
+Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau_H/dt = S^{1/2}$, and the Pantheon+ fit that recovers $\Omega_m$ as output.
 
 **Status:** Established at model level. With $S = \sin(t/2)$ and the Waltz clock, Model D+Λ reproduces the Pantheon+ distance ladder at $\Delta\chi^2 = +0.6$ relative to flat ΛCDM on 1701 SNe Ia with full covariance, using two free parameters ($s_0$, $H_0$) — the same count as ΛCDM. $\Omega_m = 0.315$ is recovered from the $(1+z)^3$ coefficient. First-principles derivation of the clock exponent from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR remains open.
 
@@ -58,9 +58,9 @@ Cooling and the redshift it follows from have their own note now: [Redshift and 
 
 ## II. The Waltz Clock
 
-The relationship between conformal time $\tau$ and the budget phase $t$ is:
+The observable Hubble rate is read on the Hubble clock $d\tau_H = S^{1/2}\,dt$ (equivalently $dt/d\tau_H = S^{-1/2}$); the registered interface tick measure $d\mu_{\text{tick}} = S^{3/2}\,dt = a\,d\tau_H$ is a different measure, not the clock inserted into $H$. Together with the budget identity this gives
 
-$$\frac{dt}{d\tau} = S^{-1/2} \quad \text{together with the budget identity gives} \quad H \propto S^{-3/2}$$
+$$H = \frac{1}{S}\frac{dS}{d\tau_H} \propto \frac{\Psi}{S^{3/2}} \propto S^{-3/2}.$$
 
 The exponent is not fitted. It is forced by two structural facts.
 
@@ -151,7 +151,7 @@ Currently below Pantheon+ detection threshold. Future surveys (Euclid, Roman, LS
 
 The clock rate is:
 
-$$\frac{dt}{d\tau} = S^{-1/2}$$
+$$\frac{dt}{d\tau_H} = S^{-1/2}$$
 
 The $\Psi$ factor enters through the phase derivative:
 
@@ -159,7 +159,7 @@ $$\frac{dS}{dt} = \frac{1}{2}\cos(t/2) = \frac{\Psi}{2}$$
 
 Therefore:
 
-$$\frac{1}{S}\frac{dS}{d\tau} = \frac{\Psi}{2S^{3/2}}$$
+$$\frac{1}{S}\frac{dS}{d\tau_H} = \frac{\Psi}{2S^{3/2}}$$
 
 and:
 
@@ -177,7 +177,7 @@ $$\begin{aligned}
 \Psi = \cos(t/2) & \quad \text{[AXIOM]}\\
 \Psi^2 + S^2 = 1 & \quad \text{[PROPOSED; consistent with data]}\\
 S = \sin(t/2) & \quad \text{[FOLLOWS]}\\
-dt/d\tau = S^{-1/2} & \quad \text{[FORCED by $S^3$ dimensionality $+$ GR; empirically validated, integer alternatives ruled out at $\Delta\chi^2 > 60$]}\\
+dt/d\tau_H = S^{-1/2} & \quad \text{[FORCED by $S^3$ dimensionality $+$ GR; empirically validated, integer alternatives ruled out at $\Delta\chi^2 > 60$]}\\
 H^2(z) \text{ from budget} + \Lambda & \quad \text{[DERIVED]}\\
 \text{Fit to Pantheon+} & \quad \text{[ESTABLISHED: } \Delta\chi^2 = +0.6\text{]}\\
 \text{Joint fit to SN+BAO} & \quad \text{[ESTABLISHED: } \Delta\chi^2 = +0.11, \; s_0 < 0.19 \text{ (95\% CL)]}\\
