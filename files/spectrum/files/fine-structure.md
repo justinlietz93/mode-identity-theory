@@ -139,7 +139,7 @@ Each gauge force occupies a rung of the carrier/target grid ladder. Each couplin
 
 | Force | Carrier character | Phase grid | Confinement target | Exponent grid | Spinorial slots |
 |---|---|---|---|---|---|
-| EM | Bosonic (photon preserves identity) | 60R | Bosonic (charge, no confinement) | 60R | 0 of 2 |
+| EM | Bosonic (photon preserves identity) | 60R | Bosonic (current, no confinement) | 60R | 0 of 2 |
 | Strong | Bosonic (gluon rotates color) | 60R | Spinorial (confined fermions) | 120 | 1 of 2 |
 | Weak | Fermion-changing (W/Z swaps flavor) | 120 | Spinorial (fermion transitions) | 120 | 2 of 2 |
 
@@ -228,7 +228,7 @@ The grid ladder in Section V assigns two structural properties to each gauge for
 
 | Phase grid (carrier) | Exponent grid (target) | Physical reading | Force |
 |---|---|---|---|
-| 60R | 60R | Bosonic carrier, bosonic charge | EM |
+| 60R | 60R | Bosonic carrier, bosonic current | EM |
 | 60R | 120 | Bosonic carrier, confined fermions | Strong |
 | 120 | 120 | Fermion-changing carrier, fermion transitions | Weak |
 | 120 | 60R | Fermionic carrier, bosonic target | — |
