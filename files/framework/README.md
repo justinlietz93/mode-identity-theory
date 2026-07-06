@@ -43,7 +43,7 @@ Each layer follows from the one before.
 
 $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. The manifold triad is pinned by a theorem and a minimality choice: surface classification plus minimality selects the Möbius strip (the minimal non-orientable surface with one boundary), and the Poincaré theorem forces $S^3$. With minimality, the postulate has one realization.
+A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. The manifold triad is pinned by a theorem and a minimality choice: surface classification plus minimality selects the Möbius strip (the minimal non-orientable surface with one boundary), and the simply connected closed cover is $S^3$ by the Poincaré theorem, with the observable domain its quotient $S^3/2I$. With minimality, the postulate has one realization.
 
 ### Space
 
@@ -81,9 +81,9 @@ The physical space is $S^3/2I$: the hypersphere modulo the binary icosahedral gr
 
 Open families require external choice of $n$ and are excluded by the framework's input-minimization. Among the closed exceptional cases, $2I$ is terminal: largest in order and maximal under the McKay correspondence ($2I \leftrightarrow E_8$, the largest exceptional Lie algebra). And it is the unique *perfect* subgroup, the only one carrying the 9× Galois gap the three generations require (below). So the selection rests on a framework requirement and a uniqueness theorem, not on minimization alone.
 
-**The 120 domain** is the mode spectrum's resolution. Fermions see all 120 positions but observation squares the wavefunction: $\lvert\psi(\Theta+1)\rvert^2 = \lvert\psi(\Theta)\rvert^2$ erases the anti-periodic sign. The squaring projects $2I \to I$ ($\lvert I\rvert = 60$), halving the resolution.
+**The 120 domain** is the mode spectrum's representation resolution. Fermions access the full 120-label domain, but observation squares the wavefunction: $\lvert\psi(\Theta+1)\rvert^2 = \lvert\psi(\Theta)\rvert^2$ erases the anti-periodic sign. At the representation and intensity level, the squaring passes from the $2I$ labels to the $I$ labels ($\lvert I\rvert = 60$), halving the observable label resolution.
 
-| Grid | Positions | Minimum step | Observables |
+| Grid | Labels | Minimum step | Observables |
 |---|---|---|---|
 | Full domain | 120 | 1/120 | $a_0$ (dynamical) |
 | Bosonic projection | 60 | 2/120 | $H_0$, $\Lambda$, $\alpha$ (photon-mediated) |
@@ -94,7 +94,7 @@ Four auxiliary paths converge on this number (three independent):
 3. The consonance ratios of musical harmony independently yield $\text{lcm} = 120$
 4. The $(2,3,5)$ branch orders of the icosahedron are consecutive Fibonacci numbers satisfying $2+3=5$: the unique Platonic solid whose symmetry orders obey the Fibonacci recurrence
 
-**The chronon** is the smallest phase advance the domain can register:
+**The chronon** is the smallest phase advance the 120-label sampling can register:
 
 $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
@@ -158,7 +158,7 @@ $C(\Theta)$ is set by the topology in two steps. The anti-periodic boundary cond
 
 $$\Large C(\Theta) = 2\sin^2(\pi\Theta)$$
 
-One operator, read at every position: zero at the boundaries, maximal ($C = 2$) at the antinode, the same across all sectors (cosmology reads it at a single well, the mass sector across Kostant-exponent sets). The two factors of the scaling law then carry different, honest jobs. For the dimensional constants the powers of ten are units, $R_\Lambda/\ell_P$ raised to the observable's dimension, and the dimensionless physics is the value of $C(\Theta)$. For the dimensionless couplings the same hierarchy enters as a fractional power that is itself the content: $\alpha$ is one grid step of it.
+The temporal anti-periodic tower and this positional profile are distinct eigenproblems sharing the sinusoidal form: the tower lives on the lifted phase lap of the temporal edge, while $C(\Theta)$ here is the first-positive intensity read across the sampling interval. One operator, read at every position: zero at the boundaries, maximal ($C = 2$) at the antinode, the same across all sectors (cosmology reads it at a single well, the mass sector across Kostant-exponent sets). The two factors of the scaling law then carry different, honest jobs. For the dimensional constants the powers of ten are units, $R_\Lambda/\ell_P$ raised to the observable's dimension, and the dimensionless physics is the value of $C(\Theta)$. For the dimensionless couplings the same hierarchy enters as a fractional power that is itself the content: $\alpha$ is one grid step of it.
 
 | Position | $C(\Theta)$ | Slope $d\ln C/d\Theta$ | Significance |
 |---|---|---|---|
@@ -315,7 +315,7 @@ The formula reads left to right as one motion: start at the floor, choose a seat
 
 $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)$$
 
-**The Neutrino Floor.** $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV sets the overall scale. It is not the smallest fermion mass but the floor beneath all of them: the lowest energy the geometry can resolve, the fourth root of $\Lambda$, the first positive mode of the Möbius surface. Every mass in the spectrum is built up from this one hum.
+**The Neutrino Floor.** $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV sets the overall scale. It is not the smallest fermion mass but the floor beneath all of them: the lowest energy the geometry can resolve, the fourth root of the vacuum energy density $\rho_\Lambda$, the first positive mode of the Möbius surface. Every mass in the spectrum is built up from this one hum.
 
 **The Kostant Sunflower.** $C_\text{geom}(\rho)$ chooses the seat. It is the same phase weight $C(\Theta)$ from the One Equation, read now as the geometric mean of $C(e/D)$ over the Kostant exponents of the irrep $\rho$: which well on the domain the particle occupies.
 
