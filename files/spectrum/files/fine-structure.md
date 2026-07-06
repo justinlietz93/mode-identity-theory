@@ -133,7 +133,7 @@ The same exponent 17 governs both the strong and weak couplings. What differs is
 
 ### Grid ladder selection rule
 
-The domain sizes $60 = |I|$ and $120 = |2I|$ trace to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content (domain $D = 60$), half-integer carry only complex pairs ($D = 120$). The bosonic/spinorial grid distinction is the spin-statistics connection built into the icosahedral geometry.
+The domain sizes $60 = |I|$ and $120 = |2I|$ trace to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content (domain $D = 60$), half-integer carry only complex pairs ($D = 120$). That $-I$ spin sort fixes the $60/120$ split for the mass irreps. The gauge-carrier ladder below reuses those two domains under a distinct criterion, identity-preserving (60R) versus fermion-changing (120) action, not the mediator's own spin; the two uses of the split should not be conflated.
 
 Each gauge force occupies a rung of the carrier/target grid ladder. Each coupling formula has two slots: one for the force carrier (photon, gluon, or W/Z) and one for what the force acts on or confines. Each slot is assigned to the 60R-grid when the role is bosonic (intensity-like) or to the 120-grid when the role is spinorial (wavefunction-like). The three observed gauge forces occupy three of the four possible pairings, with spinorial content increasing monotonically:
 
@@ -141,7 +141,7 @@ Each gauge force occupies a rung of the carrier/target grid ladder. Each couplin
 |---|---|---|---|---|---|
 | EM | Bosonic (photon preserves identity) | 60R | Bosonic (charge, no confinement) | 60R | 0 of 2 |
 | Strong | Bosonic (gluon rotates color) | 60R | Spinorial (confined fermions) | 120 | 1 of 2 |
-| Weak | Spinorial (W/Z swaps flavor) | 120 | Spinorial (fermion transitions) | 120 | 2 of 2 |
+| Weak | Fermion-changing (W/Z swaps flavor) | 120 | Spinorial (fermion transitions) | 120 | 2 of 2 |
 
 The three forces exhaust the lower triangle of the grid matrix. There are no gaps and no unused rungs. The color structure that determines strong force coupling traces to the face stabilizer $Z_3 \subset 2I$, whose decomposition separates each irrep into color singlets (lepton-type) and color triplet/anti-triplet pairs (quark-type), as established in the companion mass spectrum analysis. The grid distinction traces to the edge stabilizer $Z_4$. The gauge ladder is the stabilizer structure of the icosahedron expressed through the force sector.
 
@@ -155,7 +155,7 @@ Observed: 0.1179. Agreement: 1.4%.
 
 ### $\alpha_W$: the weak coupling and the Plato twist
 
-The W and Z bosons swap flavor: a spinorial operation. Both slots are spinorial (phase grid = 120, exponent grid = 120). Kostant exponent 17 on the 120 phase grid:
+The W and Z bosons swap flavor: a fermion-changing operation. Both slots sit on the 120 fermion domain (phase grid = 120, exponent grid = 120). The $W$ and $Z$ remain spin-1 bosons; their 120 assignment comes from that flavor-changing action, not from their spin, and it is a motivated selection rule rather than a derived one. Kostant exponent 17 on the 120 phase grid:
 
 $$\alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.0339$$
 
@@ -230,10 +230,10 @@ The grid ladder in Section V assigns two structural properties to each gauge for
 |---|---|---|---|
 | 60R | 60R | Bosonic carrier, bosonic charge | EM |
 | 60R | 120 | Bosonic carrier, confined fermions | Strong |
-| 120 | 120 | Spinorial carrier, fermion transitions | Weak |
-| 120 | 60R | Spinorial carrier, bosonic target | — |
+| 120 | 120 | Fermion-changing carrier, fermion transitions | Weak |
+| 120 | 60R | Fermionic carrier, bosonic target | — |
 
-Three rungs are occupied; the upper off-diagonal entry, 120/60, is empty. This is structural rather than accidental: the anti-periodic boundary condition on the Möbius strip defines $\psi$ as the fundamental object, and $|\psi|^2$ as derived from it. The 120-grid generates the 60R-grid by squaring. A force whose carrier lives on the spinorial grid while its confinement target lives on the bosonic grid would require the derived quantity to source the fundamental one. The firing order (topology $\to$ wave $\to$ observable) runs one direction. The 120/60 rung inverts it.
+Three rungs are occupied; the upper off-diagonal entry, 120/60, is empty, and structurally so: a gauge rung preserves the fermion or boson character of what it acts on, so the 120/60 rung, a fermionic carrier acting on a bosonic target, has no realization among gauge forces. The firing order (topology $\to$ wave $\to$ observable) runs one direction, and the mechanism is the obstruction below.
 
 In the stabilizer framework, the three occupied rungs exhaust the monotone sequence in spinorial content:
 
@@ -256,7 +256,7 @@ This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 su
 
 ### The obstruction
 
-The vacancy is a consequence of the same boundary condition that produces the grid. The Möbius strip has one boundary circle, one edge, and one direction of traversal. The wavefunction $\psi$ on this boundary is anti-periodic: it requires two laps ($4\pi$) to restore sign. The observable $|\psi|^2$ is periodic in one lap ($2\pi$). Squaring is irreversible: $|\psi|^2$ does not recover the phase of $\psi$. A spinorial carrier acting on bosonic targets would require reconstructing $\psi$ from $|\psi|^2$ at the level of force mediation. The topology forbids it.
+The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The vacant 120/60 rung would need a fermionic carrier acting on a bosonic target, a coupling that changes a state's fermion/boson class, and none of the three real forces does that. Underneath, the anti-periodic boundary condition makes $\psi$ the fundamental object and $|\psi|^2$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
 
 ### The prediction
 
