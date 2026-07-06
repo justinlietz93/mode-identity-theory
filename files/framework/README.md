@@ -55,7 +55,7 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 
 ### Surface
 
-A Möbius strip has one side and one edge. Carry the normal once around it and it returns reversed, and that single sign flip is the whole reason matter on this domain is fermionic. It is also the simplest surface that does this: by the classification of compact surfaces, a connected non-orientable surface with one boundary component is a disk removed from a connected sum of $k$ crosscaps, and the Möbius strip is the minimal case ($k = 1$), the one minimality selects. Non-orientability produces three consequences:
+A Möbius strip has one side and one edge. Carry the normal once around it and it returns reversed, and that single sign flip is the topological source of the spinorial structure that matter on this domain rides on. It is also the simplest surface that does this: by the classification of compact surfaces, a connected non-orientable surface with one boundary component is a disk removed from a connected sum of $k$ crosscaps, and the Möbius strip is the minimal case ($k = 1$), the one minimality selects. Non-orientability produces three consequences:
 
 | Consequence | Mechanism |
 |---|---|
@@ -67,11 +67,11 @@ Orientable surfaces produce none of these.
 
 The eigenvalue problem $-\partial_y^2 \psi = \lambda \psi$ under the anti-periodic BC requires $e^{ik\pi R_\Lambda} = -1$, giving $k = (2m+1)/R_\Lambda$. Defining the mode number $\nu = kR_\Lambda/2$, the allowed values are $\nu = 1/2, 3/2, 5/2, \ldots$: half-integers in this normalization. The constant mode ($k = 0$) is forbidden. 
 
-The field $\psi$ is a section of the orientation line bundle: the unique nontrivial real line bundle on a non-orientable surface, whose sections pick up a sign flip under the orientation-reversing identification. Matter is fermionic because the surface is non-orientable and the physical field couples to its orientation structure.
+The field $\psi$ is a section of the orientation line bundle: the unique nontrivial real line bundle on a non-orientable surface, whose sections pick up a sign flip under the orientation-reversing identification. Coupling the physical field to that orientation structure gives matter its spinorial character: the $Z_2$ sign and half-integer spectrum that matter's fermionic character rides on.
 
 ### Temporal Edge
 
-$S^1$ is the boundary of the Möbius surface. The strip has longitudinal period $L = \pi R_\Lambda$ (one lap); the boundary $S^1$ traverses the strip twice before closing, giving geometric circumference $2L = 2\pi R_\Lambda$. The edge inherits the anti-periodic boundary condition. This is where time advances and where the observer is anchored. The $S^1$ here is the phase cycle of the standing wave, not a closed timelike coordinate of the Lorentzian metric; proper time along an observer history is monotone over the epoch.
+$S^1$ is the boundary of the Möbius surface. The strip has longitudinal period $L = \pi R_\Lambda$ (one lap); the boundary $S^1$ traverses the strip twice before closing, giving geometric circumference $2L = 2\pi R_\Lambda$. The anti-periodic flip acts per lap, $\psi(y + \pi R_\Lambda) = -\psi(y)$ on the orientation-carrying core generator; the full edge is two laps, so it returns to $+\psi$ and closes at period $4\pi$. This is where time advances and where the observer is anchored. The $S^1$ here is the phase cycle of the standing wave, not a closed timelike coordinate of the Lorentzian metric; proper time along an observer history is monotone over the epoch.
 
 The chronon and standing wave period operate in the phase parameter $t \in [0, 4\pi]$, not in geometric length. The factor $4\pi$ is the anti-periodic wave period (two sign-flip laps of the strip), dimensionless.
 
@@ -102,7 +102,7 @@ $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
 ## Ψ [One Wave](../cosmos/files/dark-energy.md)
 
-The universe is static, a standing wave, and what we read as cosmic time is the observer's phase along it. The wave sits on the Möbius temporal edge, so the same sign flip that makes matter fermionic acts on it: one lap of the strip flips the wave, and the edge closes only after a second, bringing it home, which is why its fundamental period is $4\pi$ rather than $2\pi$, the wave-level face of the spin-1/2 double cover. It opens at full amplitude, holds its lowest mode, and where the observer samples it, matter appears.
+The universe is static, a standing wave, and what we read as cosmic time is the observer's phase along it. The wave sits on the Möbius temporal edge, so the same sign flip that gives matter its spinorial character acts on it: one lap of the strip flips the wave, and the edge closes only after a second, bringing it home, which is why its fundamental period is $4\pi$ rather than $2\pi$, the wave-level face of the spin-1/2 double cover. It opens at full amplitude, holds its lowest mode, and where the observer samples it, matter appears.
 
 Anti-periodicity, the initial-maximum condition ($\Psi(0) = +1$), and ground-state selection ($m = 0$) together fix:
 
