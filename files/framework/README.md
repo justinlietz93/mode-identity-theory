@@ -262,11 +262,11 @@ Everything in this sector lives at two phase slots, the Fibonacci well 13 and it
 | 13/60 | 60R | $\alpha$ | electromagnetic coupling; photon-mediated, bosonic |
 | 13/120 | 120 | $a_0$ | matter acceleration scale; dynamical, full domain |
 | 17/60 | 60R | strong coupling | bosonic carrier, confined fermions |
-| 17/120 | 120 | weak coupling | spinorial carrier, fermion transitions |
+| 17/120 | 120 | weak coupling | fermion-changing carrier, flavor transitions |
 
 **13 is where matter and electromagnetism anchor.** The fine-structure constant and the MOND acceleration scale both sit at index 13, on different grids: the 60-grid version is what the photon sees, the 120-grid version is what matter dynamics sees.
 
-**17 is where the short-range forces anchor.** Strong and weak both take 17 as their phase slot; the grid difference between them, bosonic vs spinorial carrier, is what separates confinement from flavor-changing transitions.
+**17 is where the short-range forces anchor.** Strong and weak both take 17 as their phase slot; the grid difference between them, identity-preserving versus fermion-changing action, is what separates confinement from flavor-changing transitions. Here the 120 grid labels the action on the full orientation-sensitive fermion domain, not the spin of the mediator: the $W$ and $Z$ remain spin-1 bosons, their 120 assignment coming from that action, a motivated selection rule rather than a derived one.
 
 **Why the split is real.** The 60-grid is what survives the bosonic projection $2I \to I$, so it is what freely-propagating, photon-mediated quantities see. Fermions need the full 120-grid because they couple to the orientation structure of the Möbius strip directly. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
 
@@ -276,8 +276,10 @@ The couplings then follow one assignment rule: the phase slot inherits the grid 
 |---|---|---|---|---|---|---|
 | EM ($\alpha$) | 60R (bosonic carrier) | 60R (bosonic charge) | $C(13/60) \cdot \Omega_\Lambda^{-1/60}$ | 0.00733 | 0.00730 | 0.5% |
 | Strong ($\alpha_s$) | 60R (bosonic carrier) | 120 (confined fermions) | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | 0.1162 | 0.1179 | 1.4% |
-| Weak ($\alpha_W$) | 120 (spinorial carrier) | 120 (fermion transitions) | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% |
-| SUSY rung (vacant) | 120 (spinorial carrier) | 60R (bosonic target) | none: would change fermion/boson class | — | no superpartners | structurally closed |
+| Weak ($\alpha_W$) | 120 (fermion-changing action) | 120 (fermion transitions) | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% |
+| SUSY rung (vacant) | 120 (fermionic carrier) | 60R (bosonic target) | none: would change fermion/boson class | — | no superpartners | structurally closed |
+
+**Scale caveat.** The displayed values compare $\alpha$ at low energy with $\alpha_s$ and $\alpha_W$ in their conventional $Z$-mass normalizations. The grid returns base assignments; reconciling the reference scales, or deriving the running from the topology, remains open.
 
 **Reading note.** These percent-level agreements are predictions *from the $\Lambda$ reading*: with $\Omega_\Lambda$ fixed by a surface anchor, the scaling law returns the couplings. When a coupling is instead the anchor that fixes $\Omega_\Lambda$ (the best-conditioned route, since $\alpha$ is the most precisely measured input), its own 0.5% becomes a consistency check rather than an independent prediction, and the genuine output of that route is $\Lambda$ to 24% ($\alpha \to \Omega_\Lambda \to \Lambda = 3/R_\Lambda^2$). The three interchangeable anchors are laid out under [Three readings of one hierarchy](#three-readings-of-one-hierarchy).
 
