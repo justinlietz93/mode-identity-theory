@@ -383,6 +383,19 @@ It also reframes why gravity resists quantization. In this reading, gravity is n
 
 The scaling law is one equation with one hierarchy variable, $\Omega_\Lambda$. Every observable on the law is a different reading of that one variable. Invert any single observable and you fix $\Omega_\Lambda$, which then predicts all the others. Which observable you invert is calibration. The relationships between them are physics.
 
+### The Ω ledger
+
+The symbol $\Omega$ is a hierarchy ledger, not always an independent prediction: its status depends on the sector row.
+
+| Sector | Hierarchy | How $\Omega$ is fixed | What is tested |
+|---|---|---|---|
+| Edge | $\Omega_H = (c/H_0\ell_P)^2 = (H_0 t_P)^{-2}$ | read from measured $H_0$ | the well ratio $a_0/(cH_0) = C(13/120)/C(34/120)$ |
+| Surface, space | $\Omega_\Lambda = (R_\Lambda/\ell_P)^2$ | one surface anchor: measured $\Lambda$, or read from $\alpha$ or the mass spectrum | cross-read consistency, and the downstream mass and coupling structure |
+| Couplings | powers $\Omega_\Lambda^{-1/60}$, $\Omega_\Lambda^{-1/120}$ | inherited from the surface hierarchy | grid relations and same-depth ratios |
+| Masses | powers $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | inherited from the surface hierarchy, plus one mass-sector normalization where needed | McKay distances and ratios |
+
+At an anchor row, substituting that row's own definition of $\Omega$ back into the scaling law returns the anchor identity: that is calibration, not prediction. The content is in reading the same $\Omega$ ledger at different wells, depths, and sectors. In the edge sector, $\Omega_H = (H_0 t_P)^{-2}$ is read from measured $H_0$, which fixes the edge reference at the $34/120$ row; the prediction is then the acceleration ratio $a_0/(cH_0) = C(13/120)/C(34/120) = 0.184$.
+
 ### Unit constants
 
 | Constant | Value | Role |
