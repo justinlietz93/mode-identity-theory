@@ -81,11 +81,11 @@ If the tick cannot be shown to be a joint-registration event at all, the level-e
 
 $$d\mu_{\text{tick}} = \sqrt{\mu_A\,\mu_I} = \sqrt{(S\,dt)(S^2\,dt)} = S^{3/2}\,dt,$$
 
-with the chronon fixing the normalization: $dT \propto S^{3/2}\,dt$, the observer's proper tick.
+with the chronon fixing the normalization. This registered interface tick, $d\mu_{\text{tick}} = S^{3/2}\,dt$, is not a proper-time wristwatch: reading it as proper time would put $H$ on the dead $S^{-5/2}$ branch.
 
-**Step 4: the chain to the clock exponent.** With the kinematic dictionary $a = S$ (ESTABLISHED) and the definition $dT = a\,d\tau$:
+**Step 4: the chain to the clock exponent.** With the kinematic dictionary $a = S$ (ESTABLISHED), dividing the tick by the scale factor gives the Hubble clock the distance model runs on:
 
-$$d\tau = \frac{dT}{a} = S^{1/2}\,dt, \qquad \frac{dt}{d\tau} = S^{-1/2}, \qquad H^2 \propto \frac{\Psi^2}{S^3} = \frac{1-S^2}{S^3}.$$
+$$d\tau_H = \frac{d\mu_{\text{tick}}}{a} = S^{1/2}\,dt, \qquad \frac{dt}{d\tau_H} = S^{-1/2}, \qquad H^2 \propto \frac{\Psi^2}{S^3} = \frac{1-S^2}{S^3}.$$
 
 The exponent that the budget page carries as FORCED by $S^3$ dimensionality plus GR is returned here with GR absent from the chain. The computation lands on the first row of the pre-posted verdict table.
 
