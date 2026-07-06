@@ -256,7 +256,7 @@ This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 su
 
 ### The obstruction
 
-The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The vacant 120/60 rung would need a fermionic carrier acting on a bosonic target, a coupling that changes a state's fermion/boson class, and none of the three real forces does that. Underneath, the anti-periodic boundary condition makes $\psi$ the fundamental object and $|\psi|^2$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
+The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The weak rung is the test case: its fermion-changing action swaps one fermion for another, so the target stays a fermion and the carrier stays a spin-1 boson. The vacant 120/60 rung would instead send the full-domain action into a bosonic target, crossing the fermion/boson class boundary; spin-statistics then forces the carrier itself to be a fermion, the gaugino above. This is the single cell where the Section V action criterion coincides with a literal spin-1/2 carrier, as its consequence and not in conflict with the rule, and none of the three real forces realizes it. Underneath, the anti-periodic boundary condition makes $\psi$ the fundamental object and $|\psi|^2$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
 
 ### The prediction
 
