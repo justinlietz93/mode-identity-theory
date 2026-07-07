@@ -50,7 +50,7 @@ One entropy ledger sits outside the budget: the gravitational one (Weyl curvatur
 | Cooling, $T \propto 1/S$ | ESTABLISHED as kinematic equivalence (redshift and cooling) |
 | Waltz clock and the $H(z)$ fit | ESTABLISHED at model level ($\Delta\chi^2 = +0.11$ vs ΛCDM, SN+BAO) |
 | Entropy reading | MOTIVATED; rests on the unwalked shell-unlock map $S \mapsto N_\text{max}(S)$ that sets $W_\text{modes}$ |
-| Realized-sector energy $E(S)$ | OPEN, highest-leverage: pins the entropy map and is the redshift energy counterparty (entropy note §VIII) |
+| Realized-sector energy $E(S)$ | OPEN, highest-leverage: the amplitude-to-$T_{\mu\nu}$ dictionary that would make the $\Psi^2 \to S^2$ transfer a counterparty and pin the entropy map (redshift and cooling §VI, entropy note §VIII) |
 | Spatial budget and $\Lambda$ | from the surface eigenvalue (cosmological constant) |
 | Clock from the postulate, $t_\text{now}$ from topology, Friedmann as output | OPEN |
 
