@@ -54,7 +54,7 @@ The phase ratio gives $1 + z$; turning it into observed distances and $H(z)$ nee
 |---|---|
 | Redshift as phase ratio, $1 + z = S(t_\text{obs})/S(t_\text{emit})$ | mechanism in outline; full derivation partially walked |
 | Blackbody preserved, $T \propto 1/S$ | ESTABLISHED as kinematic equivalence (FLRW thermal law) |
-| Distance-redshift and $H(z)$ | ESTABLISHED at model level via the clock ($\Delta\chi^2 = +0.11$ vs ΛCDM, SN+BAO) |
+| Distance-redshift and $H(z)$ | ESTABLISHED at model level via the clock; the SN+BAO fit is in [temporal budget](temporal-budget.md) |
 | Cooling from the postulate (photon phase-space density) | OPEN |
 
 ## VI. Open questions
