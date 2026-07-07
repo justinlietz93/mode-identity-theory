@@ -159,13 +159,13 @@ To determine the amplitude of the template bias at data-allowed values of $s_0$,
 | 0.06 | -1.003 | +0.030 | 0.003 |
 | 0.18 | -1.022 | +0.261 | 0.022 |
 | 0.39 | -1.044 | +0.928 | 0.044 |
-| DESI observed | -0.75 | -0.86 | 0.25 |
+| DESI DR2 (BAO+CMB+SN) | -0.75 | -0.86 | 0.25 |
 
 The crossing persists at every tested $s_0 > 0$, confirming that the template bias is a structural property of two-parameter bases applied to non-phantom models of this type. At the largest $s_0$ still allowed by data, the template-induced crossing is real but tiny: about a tenth of what DESI reports.
 
 ### Comparison with the DESI Best Fit
 
-The DESI CPL best fit reports $w_0 \approx -0.75$ and $w_a \approx -0.86$. The phase-clock-induced distortion at data-allowed $s_0$ differs in both amplitude ($|w_0 + 1| = 0.02$ vs 0.25, a factor of ~10) and sign ($w_a = +0.29$ vs -0.86).
+The DESI DR2 CPL best fit for the BAO+CMB+SN combination reports $w_0 \approx -0.75$ and $w_a \approx -0.86$. The phase-clock-induced distortion at data-allowed $s_0$ differs in both amplitude ($|w_0 + 1| = 0.02$ vs 0.25, a factor of ~10) and sign ($w_a = +0.29$ vs -0.86).
 
 The template bias mechanism is established as a structural effect: a non-phantom $H(z)$ produces apparent phantom crossings under standard two-parameter templates. The phase-clock model at its current constraint does not reproduce the DESI best-fit parameters quantitatively. Bridging the amplitude gap would require either a larger bounded deformation ($s_0 \gtrsim 0.4$, ruled out by current data) or a different functional form for the effective dark-energy sector.
 
