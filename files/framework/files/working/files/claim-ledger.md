@@ -183,7 +183,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 
 | Result | Outcome | Note |
 |---|---|---|
-| SPARC L_f coherence test | **FALSIFIED**: 0.38 L_f not 1.0; tracks M_b; slope 0.23 vs [0.7,1.3] | pre-registered DOI, 27-cell stable, no rescue |
+| SPARC L_f coherence test | **FALSIFIED**: 0.38 L_f not 1.0; tracks M_b; slope 0.23 vs [0.7,1.3] | pre-registered ([sparc-phase-field](sparc-phase-field.md)), 27-cell stable, no rescue |
 | H₀ bimodality | **NOT SUPPORTED**: unimodal; TRGB 69.8 in the predicted gap; GMM 68.4/73.5 ≠ 67/73 | all 4 configs agree |
 | McKay propagator correction | **NULL**: no parameter-free fix; down/tau residual signs oppose (+0.51 vs −0.38) | route closed/archived |
 | Signed well-functional sweep (fibonacci-wells) | **NEGATIVE**: wells never extremal across 8 functionals | variational route to DERIVED closed |
