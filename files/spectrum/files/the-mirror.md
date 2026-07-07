@@ -392,7 +392,7 @@ The spectral inaccessibility theorem is a negative result for the RH direction. 
 | $\varphi^{-4}$ Galois pair | $-2\sqrt{5}\cdot L(1,\chi_2)$, exact to 79 digits | Mass ratio between generations |
 | $h(E_8)=30$ | McKay multiplicity period | Mass hierarchy exponent ($\mathrm{dist}/30$) |
 | Three flat connections | Three isolated vacua, $H^1=0$ | Three particle generations |
-| Curvature shift $l(l+2)$ | Pochhammer obstruction, Lemma 1 | Mass-gap floor $2/R^2$; gap $4/R^2$ (McKay) |
+| Curvature shift $l(l+2)$ | Pochhammer obstruction, Lemma 1 | Mass-gap floor $2/R^2$; gap $4/R^2$ (McKay), $36/R^2$ Galois |
 | 120/60 grid | Half-integer vs. integer char. domains | Fermionic vs. bosonic phase domain |
 | Eta sign crossover | McKay graph chirality | Light/heavy fermion sector boundary |
 | Vacuum sign inversion | Galois twist structure, § III.E | Mass shell assignment mechanism |

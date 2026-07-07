@@ -27,7 +27,7 @@ Within MIT, the candidate resolution is structural. Both values can be represent
 
 Independent of any galactic trigger, the lattice calculation asks what one bosonic step would do at the $H_0$ well.
 
-The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ (the anti-periodic ground mode intensity, normalized to unit mean) has a logarithmic slope that differs at each Fibonacci well:
+The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ (the anti-periodic first-positive mode intensity, normalized to unit mean) has a logarithmic slope that differs at each Fibonacci well:
 
 $$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \frac{d\ln C}{d\Theta} \times \Delta\Theta$$
 

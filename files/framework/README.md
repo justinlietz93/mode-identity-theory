@@ -104,7 +104,7 @@ $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
 The universe is static, a standing wave, and what we read as cosmic time is the observer's phase along it. The wave sits on the Möbius temporal edge, so the same sign flip that gives matter its spinorial character acts on it: one lap of the strip flips the wave, and the edge closes only after a second, bringing it home, which is why its fundamental period is $4\pi$ rather than $2\pi$, the wave-level face of the spin-1/2 double cover. It opens at full amplitude, holds its lowest mode, and where the observer samples it, matter appears.
 
-Anti-periodicity, the initial-maximum condition ($\Psi(0) = +1$), and ground-state selection ($m = 0$) together fix:
+Anti-periodicity, the initial-maximum condition ($\Psi(0) = +1$), and selection of the lowest temporal harmonic ($m = 0$) together fix:
 
 $$\Large {\Psi = \cos(t/2)}$$
 
@@ -112,7 +112,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 |---|---|---|
 | Anti-periodic BC | Period $4\pi$ | Sign flips per lap; two laps to restore it |
 | $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\big\vert_{t=0} = 0$ |
-| Ground state $m = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
+| Lowest temporal harmonic $m = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
 The cosine has a complement. Write $S = \sin(t/2)$; then $\Psi^2 + S^2 = 1$ partitions the total amplitude into two shares at every phase. The budget reading: $\Psi^2$ is standing-wave content, $S^2$ is realized-mode content, and cosmic evolution is this partition rotating, weight transferring $\Psi^2 \to S^2$ as the phase advances while the space stays static and the resolved fraction grows. That single state variable $S$ is what the cosmological observables read.
 

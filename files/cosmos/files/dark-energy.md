@@ -37,7 +37,7 @@ MIT sharpens this question. $\Lambda$ is the first positive eigenvalue of the M�
 
 ### The Static Baseline
 
-The cosmos is a finite, static three-sphere; what the data sees is a flat-FLRW cosmology, the spatial curvature a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero. Its curvature radius enters as the de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc, circular as a derivation but fixed independently of $\Lambda$ via the coupling and mass-spectrum routes (the open [R problem](../../framework/files/working/files/r-problem.md)). The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
+The cosmos is a finite, static three-sphere; what the data sees is a flat-FLRW cosmology, the spatial curvature a static boundary condition rather than a Friedmann term, so the apparent $\Omega_K$ is zero. Its curvature radius enters as the de Sitter scale $R_\Lambda = \sqrt{3/\Lambda} \approx 5.3$ Gpc, read back from the observed $\Lambda$ and so circular as a derivation. Two routes reach $R$ independently of that circle: the coupling ($\alpha$) route lands near 5.3 Gpc, and the particle mass spectrum gives an order-of-magnitude reading near 20 Gpc, about a factor of four higher. Closing that gap is the open [R problem](../../framework/files/working/files/r-problem.md). The Möbius surface forces the wave to flip sign halfway around, giving the standing wave $\Psi = \cos(t/2)$ with a full period of $4\pi$ (~33 Gyr). The quantity $S = \sin(t/2)$ is the fraction of the wave's amplitude that has manifested as matter at phase $t$. It starts at 0 and grows to 1.
 
 Redshift is a ratio of phase positions:
 
@@ -159,13 +159,13 @@ To determine the amplitude of the template bias at data-allowed values of $s_0$,
 | 0.06 | -1.003 | +0.030 | 0.003 |
 | 0.18 | -1.022 | +0.261 | 0.022 |
 | 0.39 | -1.044 | +0.928 | 0.044 |
-| DESI observed | -0.75 | -0.86 | 0.25 |
+| DESI DR2 (BAO+CMB+SN) | -0.75 | -0.86 | 0.25 |
 
 The crossing persists at every tested $s_0 > 0$, confirming that the template bias is a structural property of two-parameter bases applied to non-phantom models of this type. At the largest $s_0$ still allowed by data, the template-induced crossing is real but tiny: about a tenth of what DESI reports.
 
 ### Comparison with the DESI Best Fit
 
-The DESI CPL best fit reports $w_0 \approx -0.75$ and $w_a \approx -0.86$. The phase-clock-induced distortion at data-allowed $s_0$ differs in both amplitude ($|w_0 + 1| = 0.02$ vs 0.25, a factor of ~10) and sign ($w_a = +0.29$ vs -0.86).
+The DESI DR2 CPL best fit for the BAO+CMB+SN combination reports $w_0 \approx -0.75$ and $w_a \approx -0.86$. The phase-clock-induced distortion at data-allowed $s_0$ differs in both amplitude ($|w_0 + 1| = 0.02$ vs 0.25, a factor of ~10) and sign ($w_a = +0.29$ vs -0.86).
 
 The template bias mechanism is established as a structural effect: a non-phantom $H(z)$ produces apparent phantom crossings under standard two-parameter templates. The phase-clock model at its current constraint does not reproduce the DESI best-fit parameters quantitatively. Bridging the amplitude gap would require either a larger bounded deformation ($s_0 \gtrsim 0.4$, ruled out by current data) or a different functional form for the effective dark-energy sector.
 
@@ -231,7 +231,7 @@ All predictions are registered on Zenodo prior to Euclid DR1 (expected October 2
 
 ### Connection to $a_0(z)$
 
-The same $H(z)$ derived here determines the epoch-dependent acceleration scale. Because $a_0$ and $H$ are both edge modes on the 120-domain (the 120-cell discretisation of $S^3$ from the binary icosahedral group), their ratio is fixed by Fibonacci wells: $a_0/cH = 0.184$. This ratio holds at every epoch, giving $a_0(z) = a_0(0) \times H(z)/H_0$. The two cornerstone papers embody the static universe from opposite sides: $\Lambda$ stays constant while $a_0$ evolves, both measured from the same standing wave.
+The same $H(z)$ derived here determines the epoch-dependent acceleration scale. Because $a_0$ and $H$ are both edge modes on the 120-domain (the discrete phase grid native to $S^3/2I$, the quotient of the three-sphere by the binary icosahedral group $2I$ with $|2I| = 120$), their ratio is fixed by Fibonacci wells: $a_0/cH = 0.184$. This ratio holds at every epoch, giving $a_0(z) = a_0(0) \times H(z)/H_0$. The two cornerstone papers embody the static universe from opposite sides: $\Lambda$ stays constant while $a_0$ evolves, both measured from the same standing wave.
 
 ---
 
