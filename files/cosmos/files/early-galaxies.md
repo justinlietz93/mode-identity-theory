@@ -6,7 +6,7 @@
 
 JWST has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ at $z \approx 10$ require star formation efficiencies exceeding unity under ΛCDM with a constant MOND acceleration scale, a physical impossibility.
 
-Mode Identity Theory resolves this. The MOND acceleration scale $a_0$ and the Hubble rate $H$ are both edge modes ($n = 1$) on the 120-domain (the 120-cell discretisation of $S^3$ from the binary icosahedral group). Their ratio is fixed by the Fibonacci wells:
+Mode Identity Theory resolves this. The MOND acceleration scale $a_0$ and the Hubble rate $H$ are both edge modes ($n = 1$) on the 120-domain (the discrete phase grid native to $S^3/2I$, the quotient of the three-sphere by the binary icosahedral group $2I$ with $|2I| = 120$). Their ratio is fixed by the Fibonacci wells:
 
 $$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = 0.184$$
 
