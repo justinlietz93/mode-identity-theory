@@ -123,19 +123,7 @@ The Möbius surface fixes the boundary condition and selects which eigenvalue is
 | Orientation twist (nontrivial line bundle) | No strictly positive ground state exists; the relevant datum is the first positive eigenvalue. |
 | Isotropy (CMB to $10^{-5}$) + narrow band $W \leq \pi R/2$ | Selects the zonal $\ell = 1$ mode $\sin(y/R)$ at $2/R^2$ over the wide-band undercut. |
 
-### A. The Flat Strip Baseline
-
-On the flat strip with Euclidean metric $ds^2 = dy^2 + dw^2$, the constant transverse sector reduces the Laplace-Beltrami operator to $\Delta = \partial_y^2$. The real representative $u_0 = \sin(y/R)$ is the restriction to one Möbius traversal of the anti-periodic extension $u_0(y + \pi R) = -u_0(y)$, giving $\lambda_0^\text{flat} = \pi^2/L^2 = 1/R^2$.
-
-For a constant-curvature surface with $K = 1/R^2$, the scalar curvature is $R_\Sigma = 2K = 2/R^2$, so
-
-$$\lambda_0^\text{flat} = \frac{R_\Sigma}{2}.$$
-
-The flat strip records the anti-periodic wavelength scale $1/R^2$. The curved surface changes the operator and raises the selected positive mode to the scalar-curvature value $2/R^2$.
-
-This $\lambda_0^\text{flat}$ is a genuine ground state: the trivial flat anti-periodic sector has no twist, and $\sin(y/R)$ is its true bottom. The curved twisted operator below has no strictly positive ground state; its relevant datum is the first positive eigenvalue.
-
-### B. The Totally Geodesic Condition
+### A. The Totally Geodesic Condition
 
 The embedding that matches the first positive mode is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition. It carries no bending information, and the totally geodesic metric is the one whose curved Laplacian has the zonal first-positive mode $\sin(y/R)$ as its eigenfunction. The selection is geometric, not nodal.
 
@@ -147,9 +135,9 @@ $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2,$$
 
 with Gaussian curvature $K_G = 1/R^2$ and scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: the pole of the covering $S^2$, which becomes a cone point on the Möbius quotient.
 
-### C. The Cone Point
+### B. The Cone Point
 
-At $y = \pi R/2$ the metric coefficient $\cos(y/R)$ vanishes. On the covering $S^2$ this is a smooth pole. On the edge-identified Möbius band, the same coordinate collapse produces a conical singularity with cone angle $2W/R$, equivalently angular deficit $2\pi - 2W/R$. The surface is smooth away from this single point; the Bochner identity and Gauss equation are applied on the smooth locus, with the cone point controlled by excision (§III.E).
+At $y = \pi R/2$ the metric coefficient $\cos(y/R)$ vanishes. On the covering $S^2$ this is a smooth pole. On the edge-identified Möbius band, the same coordinate collapse produces a conical singularity with cone angle $2W/R$, equivalently angular deficit $2\pi - 2W/R$. The surface is smooth away from this single point; the Bochner identity and Gauss equation are applied on the smooth locus, with the cone point controlled by excision (§III.D).
 
 Setting $\delta = y - \pi R/2$, the weight satisfies $|\cos(y/R)| \sim |\delta|/R$ near $\delta = 0$. The reduced eigenequation in Sturm-Liouville form,
 
@@ -159,7 +147,7 @@ has indicial equation $s^2 = 0$ (double root); the two local solutions are $u_1 
 
 Because the endpoint is limit-circle, the bottom of the spectrum is extension-dependent: zero for Friedrichs through the discontinuous zero mode, negative for bridging extensions. No self-adjoint extension has a strictly positive ground state. The quantity carried forward is therefore the first positive eigenvalue, extension-stable for $\delta_0 > 2R/e$. The Friedrichs regular branch fixes the constant sector; it does not supply a positive-bottom ground state.
 
-### D. Direct Computation and the Two Routes
+### C. Direct Computation and the Two Routes
 
 For the metric $ds^2 = dy^2 + f(y)^2\,dw^2$ with $f = \cos(y/R)$, the Laplace-Beltrami operator on $y$-dependent functions is
 
@@ -170,6 +158,8 @@ For $u_0 = \sin(y/R)$, with $u_0' = \tfrac{1}{R}\cos(y/R)$ and $u_0'' = -\tfrac{
 $$-\Delta u_0 = \frac{1}{R^2}\sin(y/R) + \frac{1}{R}\tan(y/R)\cdot\frac{1}{R}\cos(y/R) = \frac{2}{R^2}\sin(y/R),$$
 
 eigenvalue $2/R^2$; and $\sin((y+\pi R)/R) = -\sin(y/R)$ satisfies the anti-periodic condition.
+
+The two terms make the flat-strip comparison explicit. The first, $-u_0'' = \sin(y/R)/R^2$, is what the same eigenfunction returns under the Euclidean Laplacian $-\partial_y^2$ on a flat strip: the bare anti-periodic wavelength scale $1/R^2$, half the scalar curvature. The curvature drift $\frac{1}{R}\tan(y/R)\,u_0'$ supplies an equal $1/R^2$, doubling the same mode to the scalar-curvature value $2/R^2 = R_\Sigma$. Topology fixes which mode is selected; curvature fixes its value.
 
 **Why $2/R^2$ is the value.** Two independent routes return it, one extension-free and one extension-robust.
 
@@ -189,7 +179,7 @@ $$\frac{\int_M |\nabla u_0|^2\,dA}{\int_M u_0^2\,dA} = \frac{8W/3R}{4WR/3} = \fr
 
 so $\lambda_1 \leq 2/R^2$. The half-width $W$ cancels: the first positive eigenvalue depends only on $R$.
 
-### E. The Lower Bound
+### D. The Lower Bound
 
 For the regular zonal mode, a Bochner estimate on the smooth excised surface returns the matching lower bound. On an eigenfunction $-\Delta u = \lambda u$, the Bochner formula in dimension 2 gives
 
@@ -197,11 +187,11 @@ $$\tfrac{1}{2}\Delta|\nabla u|^2 = |\nabla^2 u|^2 + K_G|\nabla u|^2 - \lambda|\n
 
 Apply it on the excised surface $M_\epsilon = M \setminus \{|y - \pi R/2| < \epsilon\}$. The zonal mode $\sin(y/R)$ is regular at the cone, so on the excision curve $\partial_\nu|\nabla u|^2 = O(\epsilon)$ over arclength $O(\epsilon)$, contributing $O(\epsilon^2) \to 0$. The boundary curves $w = \pm W$ are geodesics with $\partial_\nu u = 0$, killing that term. The bulk identity becomes $\int|\nabla^2 u|^2 = (\lambda - K_G)\int|\nabla u|^2$, and Cauchy-Schwarz $|\nabla^2 u|^2 \geq (\Delta u)^2/2 = \lambda^2 u^2/2$ with $\int|\nabla u|^2 = \lambda\int u^2$ gives $\lambda - K_G \geq \lambda/2$, hence $\lambda \geq 2K_G = R_\Sigma$.
 
-This corroborates the value for the regular narrow-band sector: with the Rayleigh upper bound it pins $\lambda_1 = R_\Sigma$ on the smooth excised surface. It is not a universal bound. The wide-band modes $|\cos(y/R)|^{\alpha_0}$ ($\alpha_0 < 1$, §III.D) are singular at the cone, their excision contribution does not vanish, and they are correctly not excluded, consistent with their eigenvalues lying below $R_\Sigma$ for $W > \pi R/2$. The extension-free floor belongs to Route 1, not to this scalar-sector inequality.
+This corroborates the value for the regular narrow-band sector: with the Rayleigh upper bound it pins $\lambda_1 = R_\Sigma$ on the smooth excised surface. It is not a universal bound. The wide-band modes $|\cos(y/R)|^{\alpha_0}$ ($\alpha_0 < 1$, §III.C) are singular at the cone, their excision contribution does not vanish, and they are correctly not excluded, consistent with their eigenvalues lying below $R_\Sigma$ for $W > \pi R/2$. The extension-free floor belongs to Route 1, not to this scalar-sector inequality.
 
-### F. The Identity
+### E. The Identity
 
-The Rayleigh upper bound (§III.D), the Bochner lower bound for the regular sector (§III.E), and the two routes pin the value:
+The Rayleigh upper bound (§III.C), the Bochner lower bound for the regular sector (§III.D), and the two routes pin the value:
 
 $$\boxed{\lambda_1 = \frac{2}{R^2} = R_\Sigma = 2K_G}$$
 
@@ -356,7 +346,7 @@ Turning the relation into a number requires an independent $R$. The coupling ($\
 |---|---|---|
 | Anti-periodic BC | Derived | Möbius topology |
 | $\lambda_1 = 2/R^2$ | Derived | Twisted Laplacian on curved surface (two routes, §III) |
-| $\lambda_1 \geq R_\Sigma$ (regular sector) | Derived | Bochner bound (§III.E) |
+| $\lambda_1 \geq R_\Sigma$ (regular sector) | Derived | Bochner bound (§III.D) |
 | Gauss factor 3 | Derived | Totally geodesic embedding in isotropic $S^3$ |
 | de Sitter normalization ($R_\text{spatial} = 2\Lambda$) | Imported | GR/de Sitter normalization |
 | Coefficient 3 ($=2\times\tfrac{3}{2}$) | Derived $\times$ imported | Seed $\times$ Gauss/de Sitter |
