@@ -39,7 +39,7 @@ The cosmos is a static three-sphere $S^3$. The phase-clock Hubble rate $H(z)$ is
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
-with $\Omega_\Lambda = 0.685$ fixed by topology and $s_0 = \sin(t_\text{now}/2)$ the single phase parameter. Both $a_0$ and $H$ are edge modes ($n = 1$) on the 120-domain. What follows is why their ratio is locked.
+with $\Omega_\Lambda = 0.685$ held fixed as the fiducial vacuum-fraction anchor and $s_0 = \sin(t_\text{now}/2)$ the single phase parameter. Here $\Omega_\Lambda$ is the vacuum density fraction $f_\Lambda \approx 0.685$ in the conventional ΛCDM sense, distinct from the MIT hierarchy $\Omega_\Lambda = (R_\Lambda/\ell_P)^2$. Both $a_0$ and $H$ are edge modes ($n = 1$) on the 120-domain. What follows is why their ratio is locked.
 
 ### The Ratio from the Scaling Law
 

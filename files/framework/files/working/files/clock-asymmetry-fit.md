@@ -18,7 +18,7 @@ $$d\mu_\epsilon = w_1^{1/2-\epsilon}\, w_2^{1/2+\epsilon}, \qquad w_1 = S,\quad 
 
 $\epsilon = 0$ **is P2's symmetric point**: exchange symmetry of the elementary sampling kernel. Wording guard, frozen with the spec: the fit measures the observable clock-asymmetry dial whose symmetric point is P2, including the cubic matter exponent that the symmetric point predicts; it does not observe microscopic kernel symmetry directly. Any eventual prose scores the dial, not the microphysics.
 
-The observable form, which is what the pipeline fits, follows from the budget algebra exactly as in the validated Model D+Λ and is stated here so no convention enters the likelihood: with $S = s_0/(1+z)$ and $\Omega_\Lambda = 0.685$ held fixed as the fiducial vacuum-fraction anchor as in the baseline,
+The observable form, which is what the pipeline fits, follows from the budget algebra exactly as in the validated Model D+Λ and is stated here so no convention enters the likelihood: with $S = s_0/(1+z)$ and $\Omega_\Lambda = 0.685$ held fixed as the fiducial vacuum-fraction anchor as in the baseline ($\Omega_\Lambda$ here is the vacuum density fraction $f_\Lambda$, not the MIT hierarchy $\Omega_\Lambda = (R_\Lambda/\ell_P)^2$),
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1-\Omega_\Lambda}{1-s_0^2}\,(1+z)^{3+2\epsilon} \;-\; \frac{(1-\Omega_\Lambda)\,s_0^2}{1-s_0^2}\,(1+z)^{1+2\epsilon} \;+\; \Omega_\Lambda.$$
 
