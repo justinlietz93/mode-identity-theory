@@ -92,7 +92,7 @@ The Hubble parameter derived from the budget identity with the Waltz clock and t
 
 $$H^2(z) = H_0^2\left[\frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3 - \frac{(1-\Omega_\Lambda) s_0^2}{1-s_0^2}(1+z) + \Omega_\Lambda\right]$$
 
-Two free parameters: $s_0 = \sin(t_\text{now}/2)$ and $H_0$. Same count as ΛCDM ($\Omega_m$, $H_0$). $\Omega_\Lambda = 0.685$ is input from topology (Möbius eigenvalue), not fitted.
+Two free parameters: $s_0 = \sin(t_\text{now}/2)$ and $H_0$. Same count as ΛCDM ($\Omega_m$, $H_0$). $\Omega_\Lambda = 0.685$ is held fixed as the fiducial vacuum-fraction anchor, not fitted in the baseline model; the topology supplies the relation $\Lambda = 3/R^2$, while deriving the dimensionless fraction from structure alone remains open.
 
 | Quantity | Pantheon+ only | Joint SN+BAO (Λcos paper) | Source |
 |---|---|---|---|

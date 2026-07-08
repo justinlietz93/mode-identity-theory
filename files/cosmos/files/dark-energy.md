@@ -10,7 +10,7 @@ The cosmos is a finite, static three-sphere $S^3$. The standing wave $\Psi = \co
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3 - \frac{(1-\Omega_\Lambda)s_0^2}{1-s_0^2}(1+z) + \Omega_\Lambda,$$
 
-where $\Omega_\Lambda = 0.685$ is fixed by topology and $s_0 = \sin(t_{\text{now}}/2)$ is the single phase parameter. The diagnostic effective equation of state satisfies $w_{\text{eff}}(z) > -1$ for all $z$: no phantom crossing occurs.
+where $\Omega_\Lambda = 0.685$ is held fixed as the fiducial vacuum-fraction anchor, matching the ΛCDM/Planck-scale normalization rather than derived from topology here, and $s_0 = \sin(t_{\text{now}}/2)$ is the single phase parameter. The diagnostic effective equation of state satisfies $w_{\text{eff}}(z) > -1$ for all $z$: no phantom crossing occurs.
 
 Fitting CPL, BA, and JBP templates to MIT noise-free distances produces apparent phantom crossings from this non-phantom truth, establishing template bias as a structural source of phantom-crossing signals. Joint MCMC fits to Pantheon+ (1701 SNe) and DESI DR2 BAO (13 data points) yield $\Delta\chi^2 = +0.11$ relative to flat ΛCDM at the same parameter count, with $s_0 < 0.19$ (95% CL). The model predicts a negative $(1+z)^1$ term in $H^2(z)$, a distinctive signature absent from the four canonical FLRW components, testable by next-generation BAO surveys.
 
@@ -67,7 +67,7 @@ normalized so $K(0;\, s_0) = 1$. The cosmological constant, a vacuum energy dens
 
 $$\frac{H^2(z)}{H_0^2} = (1 - \Omega_\Lambda)\,K(z;\, s_0) + \Omega_\Lambda$$
 
-with $\Omega_\Lambda = 0.685$ fixed by topology (first positive eigenvalue $\lambda_1 = 2/R^2$, Gauss equation conversion $\times 3/2$). Expanding:
+with $\Omega_\Lambda = 0.685$ held fixed as the fiducial vacuum-fraction anchor. The topology supplies the relation $\Lambda = 3/R^2$ (first-positive mode $\lambda_1 = 2/R^2$, Gauss conversion $\times 3/2$), which is dimensionful; the dimensionless fraction $\Omega_\Lambda = \Lambda c^2/(3H_0^2) \approx 0.685$ matches the fiducial ΛCDM/Planck-scale normalization and is not derived independently from the topology in this paper. Expanding:
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
