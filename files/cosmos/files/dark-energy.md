@@ -73,7 +73,7 @@ $$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 
 
 Defining $\alpha \equiv (1-\Omega_\Lambda)/(1-s_0^2)$ and $\beta \equiv (1-\Omega_\Lambda)\,s_0^2/(1-s_0^2)$, the expression reads $H^2/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$, with $\alpha - \beta + \Omega_\Lambda = 1$ enforcing $E(0) = 1$.
 
-The matter fraction $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is output of the budget, not an independent input. The $(1+z)^3$ coefficient $\alpha = \Omega_m/(1 - s_0^2)$ is a dressed version; at any $s_0$, $\alpha(1 - s_0^2) = \Omega_m = 0.315$.
+With $\Omega_\Lambda = 0.685$ held as the fiducial vacuum-fraction anchor, flat closure gives the matter fraction $\Omega_m = 1 - \Omega_\Lambda = 0.315$. The $(1+z)^3$ coefficient $\alpha = \Omega_m/(1 - s_0^2)$ is a dressed version; at any $s_0$, $\alpha(1 - s_0^2) = \Omega_m = 0.315$.
 
 ### The $(1+z)^1$ Term
 

@@ -6,7 +6,7 @@
 
 [![The Phantom Mirage](https://img.youtube.com/vi/23IxzJDo3pM/mqdefault.jpg)](https://www.youtube.com/watch?v=23IxzJDo3pM)
 
-Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau_H/dt = S^{1/2}$, and the Pantheon+ fit that recovers $\Omega_m$ as output.
+Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau_H/dt = S^{1/2}$, and the Pantheon+ fit that recovers the observed $\Omega_m$.
 
 **Status:** Established at model level. With $S = \sin(t/2)$ and the Waltz clock, Model D+Λ reproduces the Pantheon+ distance ladder at $\Delta\chi^2 = +0.6$ relative to flat ΛCDM on 1701 SNe Ia with full covariance, using two free parameters ($s_0$, $H_0$) — the same count as ΛCDM. $\Omega_m = 0.315$ is recovered from the $(1+z)^3$ coefficient. First-principles derivation of the clock exponent from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR remains open.
 
@@ -113,17 +113,17 @@ Pure budget without $\Lambda$ gives $q_0 = +0.5$ (deceleration). Data requires $
 
 ---
 
-## IV. $\Omega_m$ as Output
+## IV. $\Omega_m$ and Flat Closure
 
-$\Omega_m = 0.315$ is not fitted by the SN+BAO likelihood in this construction; it is inherited from the topology-fixed $\Omega_\Lambda = 0.685$ through flat closure. What the budget dressing changes is the effective $(1+z)^3$ coefficient, not the underlying matter fraction. Two readings of the same quantity:
+$\Omega_m = 0.315$ is not fitted by the SN+BAO likelihood in this construction; it is inherited from the fixed vacuum anchor $\Omega_\Lambda = 0.685$ through flat closure. What the budget dressing changes is the effective $(1+z)^3$ coefficient, not the underlying matter fraction. Two readings of the same quantity:
 
-$$\Omega_m^\text{underlying} = 1 - \Omega_\Lambda = 0.315 \quad \text{(topology)}$$
+$$\Omega_m^\text{underlying} = 1 - \Omega_\Lambda = 0.315 \quad \text{(flat closure)}$$
 
 $$\Omega_m^\text{effective} = \frac{1-\Omega_\Lambda}{1-s_0^2} \quad \text{(what the $(1+z)^3$ coefficient reads)}$$
 
-At best-fit $s_0 = 0.389$, the effective reading is 0.372; the underlying value is 0.315. The Planck value is recovered after removing the budget-identity dressing. The last borrowed cosmological parameter falls out as derived.
+At best-fit $s_0 = 0.389$, the effective reading is 0.372; the underlying value is 0.315. The Planck value is recovered after removing the budget-identity dressing, consistent with the fixed vacuum anchor; $\Omega_m = 1 - \Omega_\Lambda$ is the complement of that anchor, not an independent derivation.
 
-**Note on the joint constraint.** At $s_0 < 0.19$ (95% CL from SN+BAO), the dressing factor $1/(1-s_0^2)$ is at most 1.037, so $\Omega_m^\text{effective} < 0.327$. The dressing becomes small enough that the effective and underlying readings are nearly identical. This is consistent: the BAO data pull $s_0$ toward zero, which is the ΛCDM limit where no dressing exists. The $\Omega_m$-as-output result is structurally intact but observationally marginal at the current joint constraint.
+**Note on the joint constraint.** At $s_0 < 0.19$ (95% CL from SN+BAO), the dressing factor $1/(1-s_0^2)$ is at most 1.037, so $\Omega_m^\text{effective} < 0.327$. The dressing becomes small enough that the effective and underlying readings are nearly identical. This is consistent: the BAO data pull $s_0$ toward zero, which is the ΛCDM limit where no dressing exists. The recovered-$\Omega_m$ reading is structurally intact but observationally marginal at the current joint constraint.
 
 ---
 
