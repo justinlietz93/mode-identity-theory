@@ -164,7 +164,20 @@ Design and execution are separated by the freeze tag, so the git history is the 
 
 ## Results
 
-*Not yet run. This section is filled by the execution commit and by nothing else.*
+*Executed 2026-07-11 at the frozen tag `mass-null-v1.0`, `Generator(PCG64)` seed 120, 76 s. Single run, no re-draws. Full output: `mass-null-results.json`.*
+
+**Primary verdict (Null A): $p_A = \Pr(S_1 \geq 6) = 0.174$, in the $p_A \geq 0.1$ band.** Random reassignment of the torsion values across the 24 slots reproduces the observed hit rate: the null $S_1$ averages 4.50, and 17% of random reassignments match or beat the observed 6.
+
+| Null | $p(S_1 \geq 6)$ | $p(S_1' \geq 8)$ | $p(S_2)$ | $p(S_3)$ | $p(S_4 \leq)$ | null $S_1$ mean |
+|---|---|---|---|---|---|---|
+| A (primary) | 0.174 | 0.209 | 0.179 | 0.189 | 0.080 | 4.50 |
+| B | 0.144 | 0.198 | 0.157 | 0.149 | 0.058 | 4.31 |
+| C | 0.316 | 0.440 | 0.265 | 0.200 | 0.077 | 4.78 |
+| D (exact, 576) | 0.326 | 0.323 | 0.375 | 0.396 | 0.215 | 4.77 |
+
+Null A $S_1$ count table: $\{1{:}45,\ 2{:}1935,\ 3{:}13816,\ 4{:}37758,\ 5{:}29079,\ 6{:}13490,\ 7{:}3877\}$. Every null and every secondary lands well above 0.01; the tightest ($S_4$, lower tail) is 0.06-0.08. Nothing approaches significance in either direction.
+
+**Verdict (§VII, $p_A \geq 0.1$).** Random torsion reassignment reproduces the published hit rate; the mass table's evidential weight rests on the exact structural outputs (the 24-entry count, the ten-entry $T_3$ gate audit, the $\varphi^{-4}$ ratio) and the falsifiable outliers ($\nu_2$, rank 16, the dead zone), not on the $\times 3$ proximity count.
 
 ---
 
