@@ -4,7 +4,7 @@
 
 # The Torsion Null Test
 
-**Status:** DESIGN DRAFT. Pre-registration pending: this design is committed before any null ensemble is run, and it is frozen by a designated freeze commit (tagged `mass-null-v1.0`) after review. No randomization has been executed at draft time. The single-run policy below governs execution.
+**Status:** REGISTERED (2026-07-11). This commit is the frozen pre-registration: the design, the four nulls, the scoring, the RNG seed (120), the §VII decision bands, the execution script `mass-null-test.py`, and the three input artifacts (hashes in §V) are fixed here, before any null ensemble is drawn. The freeze is marked by the tag `mass-null-v1.0` on this commit; the script's `--run` refuses unless HEAD carries that tag, so the randomization cannot predate the freeze. No randomization has been executed. The single-run policy below governs execution.
 
 > **Re-baselined to the canonical torsion table (2026-07-11).** The torsion inputs are the canonical values from [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) §4, including $T^2(R_0) = 1$: the canonical topological value of the non-acyclic trivial local system, not a constant chosen for convenience. This re-baseline updated only the *inputs the test reads*. The statistic, the four nulls, the scoring rule, the RNG seed (120), and the §VII decision bands are unchanged from the pre-correction design. Input error is correctable; the statistic and verdict bands are retained unchanged and are proposed for freeze, the same line drawn for the mass table. The null statistic is $S_1 = 6$ (a compatible-coverage count) while the public headline is 5-of-8 (an assignment count); §I explains why the two differ by exactly one fermion.
 
@@ -74,7 +74,7 @@ Primary statistic $S_1$ = number of the 8 that hit. Observed scorecard under thi
 | $f$ | best compatible ratio | hit at $\times 3$? |
 |---|---|---|
 | $u$ | 1.06 | yes |
-| $d$ | 3.22 | no |
+| $d$ | 3.23 | no |
 | $s$ | 1.10 | yes |
 | $c$ | none within ×3 (nearest compatible from Step-0 map) | no |
 | $\mu$ | 1.02 | yes |
@@ -84,7 +84,9 @@ Primary statistic $S_1$ = number of the 8 that hit. Observed scorecard under thi
 
 Observed $S_1 = 6$. (The bottom quark's covering slot $(R_4,\text{gal})$ and charm's non-coverage are the same structural fact: $R_4$ has integer $j_\text{first}$ at every vacuum, hence $T_3 = -1/2$ throughout, a down-type-only irrep that houses $b$ and excludes the up-type charm.)
 
-**Secondaries, computed identically on real and null spectra.** Logarithms are natural throughout. For each fermion $f$ with at least one compatible slot, the **witness slot** is $s_f^\star = \arg\min_{s:\,C_{f,s}=1} |\ln(m_s/m_f)|$, ties broken by the slot's index in the frozen 24-slot list. Then: $S_2$ = hits at $\times 2$; $S_3$ = hits at $\times 1.5$; $S_4 = \operatorname{median}_f\, |\ln(m_{s_f^\star}/m_f)|$ over all eight scored fermions; $S_5$ = number of distinct witness slots $s_f^\star$. Charm is up-type and colored, so it has a compatible slot (necessarily outside $\times 3$); its witness slot and exact ratio are fixed by the frozen Step-0 map (§VI) and printed in the observed audit.
+**Secondaries, computed identically on real and null spectra.** Logarithms are natural throughout. For each fermion $f$ with at least one compatible slot, the **witness slot** is $s_f^\star = \arg\min_{s:\,C_{f,s}=1} |\ln(m_s/m_f)|$, ties broken by the slot's index in the frozen 24-slot list. Then: $S_2$ = hits at $\times 2$; $S_3$ = hits at $\times 1.5$; $S_4 = \operatorname{median}_f\, |\ln(m_{s_f^\star}/m_f)|$ over all eight scored fermions; $S_5$ = number of distinct witness slots $s_f^\star$. Charm is up-type and colored, so it has a compatible slot: its witness is $(R_2,\text{triv})$ at ratio 35.09 (outside $\times 3$), so all eight fermions carry a witness. On the real spectrum the observed secondaries are $S_2 = 5$, $S_3 = 4$, $S_4 = 0.375$, $S_5 = 7$. These are Step-0 deterministic (not ensemble outputs), and they are the frozen thresholds each secondary $p$-value is computed against, pinned here before the run.
+
+*Note on the color gate.* On the scored fermion set the color-channel test carries no independent discriminating power: the only slots lacking a color-singlet channel are $(R_1,\text{triv})$ and $(R_2,\text{triv})$, both $T_3 = +1/2$, while both scored leptons are $T_3 = -1/2$, so compatibility here reduces to a $T_3$ match. The color logic is derived and validated (gate G3a); a reviewer should not read independent coverage into it.
 
 One scoring variant is also pre-registered: $S_1'$ = hits at $\times 3$ **ignoring compatibility** (proximity to any slot), measuring raw density with no quantum-number skeleton. On the real spectrum $S_1' = 8$: every fermion has some slot within $\times 3$. The three structurally forbidden coverings it counts, and which the compatibility gate removes, are frozen here as witnesses: $(t,\ \text{down-type 197 GeV orphan})$ at 1.14, $(d,\ \text{up-quark slot at } 2.03 \times 10^{-3})$ at 2.30, and $(c,\ \text{tau slot at } 0.734)$ at 1.73. Of these, $d$ and $c$ have no compatible slot within $\times 3$, so the gate drops them ($8 \to 6$); $t$ also hits compatibly via $(R_2,\text{std})$ at 1.51, so its forbidden covering is redundant to the count. A high $S_1'$ null therefore speaks only to raw density and carries no bearing on the gated count; the gates take the real spectrum from $S_1' = 8$ (raw density) to $S_1 = 6$ (compatible coverage) to 5 (assignment).
 
@@ -107,20 +109,30 @@ Each statistic's tail is fixed now, before any draw:
 
 Upper tail for the count statistics ($S_1, S_2, S_3, S_1'$) because more or closer hits is the fit-favoring direction; lower tail for $S_4$ because a smaller median log-distance is; $S_5$ is reported descriptively, since neither direction is privileged for a distinct-slot count. For the exact Null D, $p_D = \#\{\text{permutations at least as extreme as observed}\}/576$ with the identity permutation included; the $(k+1)/(M+1)$ estimator applies only to the Monte Carlo Nulls A-C.
 
-**Numerical and Monte Carlo conventions (committed at freeze).** The RNG is NumPy `Generator(PCG64)` seeded at 120; permutations act on the 24 factors as indexed positions, so equal values remain distinct entries. Null C draws $\log T_i^2 \overset{\text{iid}}{\sim} \operatorname{Uniform}\!\left[\min_j \log T_j^2,\ \max_j \log T_j^2\right]$ over the full-precision corrected factors. Full-precision base torsions, $C_\text{geom}$, cosmological inputs, tensor multiplicities, the 24 corrected torsion factors, and the 24 resulting masses are committed as a machine-readable artifact whose SHA-256 hash is recorded in the execution report; G1 and G2 compare against it to $\texttt{rtol} = 10^{-12}$, $\texttt{atol} = 10^{-15}$ (the rendered Markdown tables are display checks only, since printed values are rounded and cannot exactly reproduce full-precision products). The Monte Carlo point estimator (Nulls A-C) is $\hat p = (k+1)/(M+1)$, which never reports zero, quoted with its binomial standard error; Null D uses the exact fraction above. The §VII verdict bands use the point estimator only; the interval is numerical uncertainty and does not trigger a re-run, including when $\hat p_A$ falls near 0.01 or 0.1.
+**Numerical and Monte Carlo conventions (committed at freeze).** This is a **published-precision test**: it audits the source table at its displayed precision ($C_\text{geom}$ to 4 dp; the four half-integer base torsions $R_1, R_2, R_6, R_8$ to 3-5 significant figures; the closed forms $R_0, R_3, R_4, R_5, R_7$ exact). The RNG is NumPy `Generator(PCG64)` seeded at 120; permutations act on the 24 factors as indexed positions (`slot_index`), so equal values remain distinct entries. Null C draws $\log T_i^2 \overset{\text{iid}}{\sim} \operatorname{Uniform}\!\left[\min_j \log T_j^2,\ \max_j \log T_j^2\right]$ over the committed factors. The Monte Carlo point estimator (Nulls A-C) is $\hat p = (k+1)/(M+1)$, which never reports zero, quoted with its binomial standard error; Null D uses the exact fraction. The §VII verdict bands use the point estimator only; the interval is numerical uncertainty and does not trigger a re-run, including when $\hat p_A$ falls near 0.01 or 0.1.
+
+**Frozen artifacts.** The execution script `mass-null-test.py` builds the $2I$ character table from the icosians and derives the map, masses, tensor multiplicities $N_{\rho\sigma\tau}$, and compatibility matrix from scratch; it also emits and verifies the three committed input artifacts. Recorded SHA-256 (a run checks it is reading the tagged inputs):
+
+```
+mass-null-inputs.json   731e4a67b5916e72a290e6e70b50e42620cddc88b0ae859dc2fef47eeac59a2f
+mass-null-slotmap.csv   23307267c0669150ed025164bb46960385ec2dcbfe1836e7061fc390892bcfbd
+mass-null-compat.csv    d7b4def487bb25c0b944dc8dc336913010448a67a02a9452c5c3fa12729ac9cd
+```
+
+`mass-null-inputs.json` holds the base torsions, $C_\text{geom}$, cosmological inputs, $N_{\rho\sigma\tau}$, $j_\text{first}$, and fermion data; `mass-null-slotmap.csv` the 24-slot map ($\text{mass}, T^2, T_3$, color, `slot_index`); `mass-null-compat.csv` the $8\times24$ matrix. The four nulls, the fixed-tail $p$-values, and the tag-gated single-run policy are implemented in the same script, so the randomization is frozen in the committed bytes.
 
 ---
 
 ## VI. Step 0: Reproduction Gates
 
-The pipeline must pass these deterministic gates before any randomization runs. Failing a gate stops the test and opens a reconciliation item against the source page instead.
+The pipeline must pass these deterministic gates before any randomization runs; `mass-null-test.py` runs them by default. Each compares the **committed artifacts** against an **independent from-scratch derivation** (the $2I$ character table rebuilt from the icosians, its tensor products, the gates, and the map), so a transcription error in the committed inputs is caught, not reproduced. Failing a gate stops the test and opens a reconciliation item against the source page.
 
-- **G1 (masses):** recompute the 24 entry masses from the four frozen factors; match the frozen full-precision artifact (§V) to $\texttt{rtol} = 10^{-12}$, $\texttt{atol} = 10^{-15}$ (the printed §III table is a display check).
-- **G2 (torsion algebra):** recompute the 24 torsion values from the 9 base values and the character-table multiplicities $N_{\rho\sigma\tau}$; match the frozen full-precision artifact (§V) to the same tolerance (the printed §II.4 table is a display check; the printed inputs cannot reproduce full precision, e.g. $T^2(R_6) \cdot T^2(R_8) = 4.328 \times 0.257 = 1.112$ from rounded inputs against the full-precision 1.114; the diagonal entries carry the canonical $T^2(R_0) = 1$, e.g. $T^2(R_1, \text{std}) = T^2(R_0) \cdot T^2(R_3) = 0.306$).
-- **G3a (compatibility matrix):** independently regenerate the $8 \times 24$ compatibility matrix $C_{f,s}$ from the frozen 24-slot quantum-number map and match the committed matrix exactly.
-- **G3b (scorecard):** apply that matrix to the real spectrum under the any-compatible rule of §IV; it must return $S_1 = 6$ with the named witness slots ($b$ via $(R_4,\text{gal})$ at 1.40, $\mu/s$ sharing rank 15), $d$ out at 3.22, and charm's nearest compatible slot recorded (outside $\times 3$). The 5-vs-6 gap against the public assignment headline is expected (§I), not a gate failure.
+- **G1 (masses):** the committed slot-map masses match the independently derived masses to $\texttt{rtol} = 10^{-12}$, $\texttt{atol} = 10^{-15}$.
+- **G2 (torsions):** the committed slot-map $T^2$ match the independently derived $T^2$ (rebuilt from the 9 base values via $\log T^2(\rho\otimes\sigma) = \sum_\tau N_{\rho\sigma\tau}\log T^2(\tau)$) to the same tolerance. A separate coarse check compares against the published display, e.g. $T^2(R_6)\cdot T^2(R_8) = 4.328 \times 0.257 = 1.112$ from the rounded inputs against the page's 1.114; the diagonals carry the canonical $T^2(R_0) = 1$.
+- **G3a (compatibility matrix):** the independently derived $8 \times 24$ matrix $C_{f,s}$ matches the committed CSV exactly, and `slot_index` is stable across both.
+- **G3b (scorecard):** the committed matrix on the real spectrum returns $S_1 = 6$ and $S_1' = 8$ with the named witnesses ($b$ via $(R_4,\text{gal})$ at 1.40, $\mu/s$ sharing rank 15, $d$ out at 3.23, charm's nearest compatible $(R_2,\text{triv})$ at 35.09), and the $T_3$ gate reproduces all ten published §IV.4 entries. The 5-vs-6 gap against the public assignment headline is expected (§I), not a gate failure.
 
-Gates G3a and G3b require the full 24-slot quantum-number map, which the published page prints only for the 10 SM-assigned rows. Completing it for all 24 slots from the stated rules is a Step 0 deliverable, committed as a frozen input artifact at freeze time (it fixes the $8 \times 24$ compatibility matrix and charm's nearest compatible slot), and is worth having independently of this test (it completes §IV.4 from 10 rows to 24).
+The full 24-slot quantum-number map (the published page prints only the 10 SM-assigned rows) is completed from the stated rules by the derivation and frozen as `mass-null-slotmap.csv`; it also completes §IV.4 from 10 rows to 24, independently of this test.
 
 ---
 
@@ -142,7 +154,7 @@ The number itself is the deliverable; the bands only fix the headline language i
 
 1. **Draft** (this commit): design public, no ensemble run.
 2. **Redline:** review pass; adjustments land as visible commits against the draft.
-3. **Freeze:** status flips to REGISTERED; the execution script and the Step 0 input artifacts (24-slot quantum-number map, transcribed tables) are committed alongside; tag `mass-null-v1.0`. An archival DOI at the freeze tag is optional, following the SPARC pattern.
+3. **Freeze:** status flips to REGISTERED; the execution script `mass-null-test.py` and the three input artifacts (`mass-null-inputs.json`, `mass-null-slotmap.csv`, `mass-null-compat.csv`; hashes in §V) are committed alongside; tag `mass-null-v1.0`. The script's `--run` refuses unless HEAD carries that tag, so the registered ensemble cannot predate the freeze. An archival DOI at the freeze tag is optional, following the SPARC pattern.
 4. **Run:** single execution; outputs (distribution tables, p-values) and the filled Results section land in one commit.
 5. **Propagate:** the verdict sentence to the four locations above, one commit.
 
