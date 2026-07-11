@@ -152,11 +152,13 @@ The RH program (Common_Threads) labels only the 5 integer-spin irreps R0, R2, R4
 
 | Irrep | dim | T² | log T² |
 |-------|-----|-----|---------|
-| R0 | 1 | π⁴/3600 | -3.60977 |
+| R0 | 1 | 1 | 0 |
 | R3 | 3 | (4/5) φ⁻² | -1.18557 |
 | R7 | 5 | 9/4 | +0.81093 |
 | R5 | 4 | 25/9 | +1.02165 |
 | R4 | 3 | (4/5) φ² | +0.73928 |
+
+R0 is the non-acyclic trivial local system; canonical topological value 1 (its unit-radius analytic torsion π⁴/3600 = Vol(S³/2I)² is a zero-mode normalization, not used; July 2026 correction, see [mass-spectrum](../../spectrum/files/mass-spectrum.md) §4).
 
 The Galois pair is the key relation: **T²(R3) / T²(R4) = φ⁻⁴** (exact), i.e. log T²(R3) − log T²(R4) = −4 log φ. The golden ratio enters through the scalar sector and the Legendre symbol mod 5, the character field Q(√5) of 2I.
 
@@ -264,7 +266,7 @@ Four factors, four sources:
 | R4 | 6 | std | 7.34 × 10⁻¹ | τ |
 | R2 | 7 | std | 261.46 | t |
 
-Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. The match against the measured fermions is a comparison, not a prediction: the topology fixes the count and the quantum-number content of each entry, while the mass match is softer (pending a null test). The full 24-entry comparison (ranks, ratios, the 7-of-9 / 6-of-8 charged-fermion tally, the dead zone, the ν₂ and charm gaps) lives in [the mass spectrum](../../spectrum/files/mass-spectrum.md) §III.
+Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. The match against the measured fermions is a comparison, not a prediction: the topology fixes the count and the quantum-number content of each entry, while the mass match is softer (pending a null test). The full 24-entry comparison (ranks, ratios, the 6-of-9 / 5-of-8 charged-fermion tally, the dead zone, the neutrino-generation and charm gaps) lives in [the mass spectrum](../../spectrum/files/mass-spectrum.md) §III.
 
 ### Key Numbers
 

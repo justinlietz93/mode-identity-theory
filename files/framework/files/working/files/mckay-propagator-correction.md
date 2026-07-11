@@ -8,6 +8,8 @@
 
 **Update (2026-06-19).** The honesty pass reframed the mass spectrum from prediction to comparison, and this negative result is its empirical backbone: the high-distance residual is irreducible symmetric scatter (~×1.8), not a recoverable distance or branch trend, so the ladder is read as a comparison against the measured fermions, not a fully-determined prediction. The propagator/branch route explored in §1–§11 was the attempt to make the masses fully determined; eliminating it is what the comparison framing now states plainly. Three reconciling facts for the counts below: $m_e$ is the benchmark that sets the absolute scale (its 1.02 is the $m_e \leftrightarrow \Lambda$ loop closing, not a hit), so the charged within-×3 count is 6 of 8 (down outside, charm unassigned; the maintained scorecard is in [the mass spectrum](../../../../spectrum/files/mass-spectrum.md)), and the within-6% comparisons are the up and muon. The §1–§11 body is kept as the 2026-06-06 record.
 
+**Update (2026-07-11).** The July 2026 $T^2(R_0)$ correction ([mass-spectrum](../../../../spectrum/files/mass-spectrum.md) §4) drops the maintained charged tally to **5 of 8**: the bottom-quark entry $(R_2,\text{gal})$ was the non-acyclic diagonal product carrying the manifold volume, so at the canonical topological value $T^2(R_0)=1$ it recomputes to ~197 GeV and is uncounted. The 6-of-8 figures above, and the $b$/1.28 entries in the §1–§11 propagator tables and the companion `.test.py`, predate that correction and are kept as the 2026-06 record.
+
 **Dependencies:** Fermion mass formula (engine file), C_geom and torsion tables, Coxeter-Galois gate, McKay graph for binary icosahedral group.
 
 ---

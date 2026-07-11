@@ -6,6 +6,12 @@ Runs the test protocol (SS6, SS11) against the actual mass-formula data
 masses, the SIGNED residuals, and checks whether any parameter-free,
 path-based correction tracks them. Result: none do (see the note's Result
 section). Run: python3 mckay-propagator-correction.test.py
+
+NOTE (2026-07-11): reflects the pre-July-2026 published table. The T^2(R_0)
+correction (mass-spectrum SS4) set T^2(R_0)=1, recomputing the two diagonal
+entries: (R2,gal)=b -> ~197 GeV (now uncounted, tally 5-of-8) and
+(R1,std)=nu1 -> 7.3e-12. The T2 table and pub dict below are kept as the
+2026-06 diagnostic record; they intentionally still reproduce the old values.
 """
 import math
 

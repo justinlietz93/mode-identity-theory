@@ -6,6 +6,8 @@
 
 **Status:** DESIGN DRAFT. Pre-registration pending: this design is committed before any null ensemble is run, and it is frozen by a designated freeze commit (tagged `mass-null-v1.0`) after review. No randomization has been executed at draft time. The single-run policy below governs execution.
 
+> **Superseded baseline (2026-07-11), pending re-baseline.** The claim under audit below (6 of 8; the torsion table including $T^2(R_0) = \pi^4/3600$; the $b$ entry at 1.28) predates the July 2026 $T^2(R_0)$ correction ([mass-spectrum](../../../../spectrum/files/mass-spectrum.md) §4), which sets $T^2(R_0) = 1$, moves $b$ to ~197 GeV (uncounted), and lowers the tally to 5 of 8. **Do not run this design against the numbers below until it is re-baselined to the corrected table.** The re-baseline changes only the baseline count and the torsion inputs, not the statistic or the ablation logic, and it is a deliberate step, not applied here.
+
 **The claim under audit** ([mass-spectrum.md](../../../../spectrum/files/mass-spectrum.md), §III): with the electron as the scale benchmark, 6 of the remaining 8 charged fermions land within a factor of 3 of a quantum-number-compatible entry (down outside at 3.22, charm without a compatible entry). The page itself states the caveat this test quantifies: "at this entry density a measured mass sits near some entry largely by counting."
 
 **Dependencies:** mass formula and 24-entry table (mass-spectrum.md §II-III), torsion tables (§II.4), Coxeter-Galois gate and stabilizer decompositions (§IV), PDG masses as frozen below.
