@@ -158,7 +158,7 @@ The RH program (Common_Threads) labels only the 5 integer-spin irreps R0, R2, R4
 | R5 | 4 | 25/9 | +1.02165 |
 | R4 | 3 | (4/5) φ² | +0.73928 |
 
-R0 is the non-acyclic trivial local system; canonical topological value 1 (its unit-radius analytic torsion π⁴/3600 = Vol(S³/2I)² is a zero-mode normalization, not used; July 2026 correction, see [mass-spectrum](../../spectrum/files/mass-spectrum.md) §4).
+R0 is the non-acyclic trivial local system; canonical topological value 1 (its unit-radius analytic torsion π⁴/3600 = Vol(S³/2I)² is a zero-mode normalization, not used; see [mass-spectrum](../../spectrum/files/mass-spectrum.md) §4).
 
 The Galois pair is the key relation: **T²(R3) / T²(R4) = φ⁻⁴** (exact), i.e. log T²(R3) − log T²(R4) = −4 log φ. The golden ratio enters through the scalar sector and the Legendre symbol mod 5, the character field Q(√5) of 2I.
 

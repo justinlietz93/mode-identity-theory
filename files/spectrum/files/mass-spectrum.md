@@ -6,14 +6,14 @@
 
 The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This page constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
-The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 ranked entries under a uniform topological normalization: 22 acyclic torsion invariants, and 2 non-acyclic diagonal entries set to their canonical topological value (see §4). Lined up against the measured fermions, with the electron taken as the benchmark that sets the absolute scale, 5 of the remaining 8 charged fermions land within a factor of 3 of a quantum-number-compatible entry (the down quark outside ×3, charm unassigned, the bottom quark uncounted after the July 2026 torsion correction, the muon and strange sharing one entry at rank 15); the three neutrinos rest on absolute masses nobody has measured. This is a comparison, not a prediction: the entries and their quantum numbers are fixed a priori, but which entry lands on which measured fermion is read against the data, and at this entry density a measured mass sits near some entry largely by counting. The charm quark is displaced from rank 17 with its assignment open, and in the $R_1$ sector the neutrino-generation map is open: the correction withdrew rank 1's former $\nu_1$ assignment, and $\nu_2$ has no entry (see §V). The bottom quark's former entry now sits at 197 GeV; nine entries have no SM match.
+The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 ranked entries under a uniform topological normalization: 22 acyclic torsion invariants, and 2 non-acyclic diagonal entries set to their canonical topological value (see §4). Lined up against the measured fermions, with the electron taken as the benchmark that sets the absolute scale, 5 of the remaining 8 charged fermions land within a factor of 3 of a quantum-number-compatible entry (the down quark outside ×3, charm unassigned, the bottom quark uncounted, the muon and strange sharing one entry at rank 15); the three neutrinos rest on absolute masses nobody has measured. This is a comparison, not a prediction: the entries and their quantum numbers are fixed a priori, but which entry lands on which measured fermion is read against the data, and at this entry density a measured mass sits near some entry largely by counting. The charm quark is displaced from rank 17 with its assignment open, and in the $R_1$ sector the neutrino-generation map is open: rank 1 sits at the wrong scale for $\nu_1$, and $\nu_2$ has no entry (see §V). The $(R_2,\text{gal})$ entry sits at 197 GeV with no compatible fermion; nine entries have no SM match.
 
 | Result | Count |
 |---|---|
-| Charged fermions within ×3 | 5 of 8 ($m_e$ is the benchmark; d outside, c unassigned, b uncounted after §4 correction, μ/s share rank 15) |
+| Charged fermions within ×3 | 5 of 8 ($m_e$ is the benchmark; d outside, c unassigned, b uncounted, μ/s share rank 15) |
 | Within 6% | $u$, $\mu$ ($m_e$ is the scale benchmark) |
-| Neutrinos | 3 rows; absolute masses unmeasured; rank 1's former $\nu_1$ assignment withdrawn after §4 (generation map open) |
-| Unassigned / uncounted | $c$ (displaced from rank 17, assignment open); $b$ (former entry now 197 GeV; nearest remaining $(R_4,\text{gal})$ at 1.40, not promoted); $\nu_2$ (no entry) |
+| Neutrinos | 3 rows; absolute masses unmeasured; rank 1 at the wrong scale for $\nu_1$ (generation map open) |
+| Unassigned / uncounted | $c$ (displaced from rank 17, assignment open); $b$ (its $(R_2,\text{gal})$ entry at 197 GeV; nearest compatible $(R_4,\text{gal})$ at 1.40, not promoted); $\nu_2$ (no entry) |
 | Nature | comparison, not prediction |
 
 ## I. The Formula
@@ -94,16 +94,14 @@ Half-integer spin: R₁, R₂, R₆, R₈. Integer spin: R₀, R₃, R₄, R₅,
 
 The $j_\text{first}$ rule follows from the McKay multiplicity structure: the spin-<i>j</i> representation of $SU(2)$, restricted to $2I$, first contains irrep $\rho$ at exactly $j = \text{dist}(\rho)/2$. This holds for both spin parities and is a consequence of the McKay correspondence between the $2I$ representation graph and the extended $E_8$ Dynkin diagram.
 
-### 4. Torsion Factors and the Non-Acyclic Diagonal  $T^2(\rho \otimes \sigma)$
+### 4. Torsion Factors  $T^2(\rho \otimes \sigma)$
 
-> **Correction (July 2026).** An earlier version listed the trivial-representation factor as $T^2(R_0) = \pi^4/3600$ and treated it as an ordinary torsion value. The trivial local system is non-acyclic: it has zero modes ($H^0 = H^3 = \mathbb{C}$), so that number is not the canonical (Reidemeister) topological value. It is the volume of $S^3/2I$, squared, $(\pi^2/60)^2$, at unit radius: the harmonic zero-mode ($L^2$) normalization, not a pure topological number. The canonical topological value is $1$, and the ledger now uses it. This is a finding, not a bookkeeping repair. It touches only the two diagonal products (a particle in its own vacuum): the bottom-quark entry $(R_2, \text{gal})$ recomputes from $5.33$ to $\approx 197$ GeV, a factor of 37, and is no longer counted, moving the clean tally from 6-of-8 to 5-of-8. The topological input the framework's own logic requires puts that entry 37× off the bottom quark, so the apparent hit at $5.33$ was the manifold's volume masquerading as a particle property. The $5.33$ value is retained below as a labeled research datum, not a result.
+Three flat SU(2) connections on $S^3/2I$ label the three vacuum sectors. Each connection has $H^1 = 0$, so the flat vacua are infinitesimally rigid, with no continuous moduli. The factor $T^2(\rho\otimes\sigma)$ is the torsion of the flat bundle $E_{\rho\otimes\sigma}$:
 
-Three flat SU(2) connections on $S^3/2I$ label the three vacuum sectors. Each connection has $H^1 = 0$, so the flat vacua are infinitesimally rigid, with no continuous moduli. The factor $T^2(\rho\otimes\sigma)$ comes from the torsion of the flat bundle $E_{\rho\otimes\sigma}$: on the acyclic locus an ordinary Ray-Singer scalar equal to the Reidemeister invariant, on the diagonal the canonical integral-cohomology normalization (the zero modes make the raw analytic scalar metric-dependent):
+- **$\rho \neq \sigma$ (22 of the 24 products): acyclic.** The torsion is an ordinary Ray-Singer scalar, equal to the metric-independent Reidemeister invariant: the fine structure within each mass shell.
+- **$\rho = \sigma$ (the 2 diagonal products, a particle in its own vacuum): non-acyclic.** The trivial representation appears, $H^0 = H^3 = \mathbb{C}$, and the ledger uses the canonical integral-cohomology value $T^2(R_0) = 1$. The unit-radius analytic torsion $\pi^4/3600 = \mathrm{Vol}(S^3/2I)^2$ is a harmonic zero-mode normalization, metric-dependent, not a topological invariant, and is not used.
 
-- **$\rho \neq \sigma$ (22 of the 24 products): acyclic.** The torsion is an ordinary metric-independent algebraic number, the fine structure within each mass shell.
-- **$\rho = \sigma$ (the 2 diagonal products, a particle in its own vacuum): non-acyclic.** The trivial representation appears, $H^0 = H^3 = \mathbb{C}$, and a cohomology normalization is required. The canonical topological choice is $1$.
-
-A standing check follows from this, one a reader can apply to the table directly: a genuine topological torsion on this space form is an algebraic (cyclotomic) number. Every counted entry's torsion is algebraic; only the trivial-representation factor was transcendental ($\pi^4$), which is exactly the fingerprint of a zero mode carrying geometry. The elementary torsion table was one factor away from uniform acyclicity: $R_0$ was the sole non-acyclic, transcendental factor, and it contaminated exactly two of the 24 products.
+A standing check follows, one a reader can apply to the table directly: a genuine topological torsion on this space form is an algebraic (cyclotomic) number, and every elementary value below is algebraic. A transcendental factor would be the fingerprint of a zero mode carrying geometry.
 
 | Irrep | $j_\text{first}$ (trivial) | $j_\text{first}$ (standard) | $j_\text{first}$ (Galois) |
 |---|---|---|---|
@@ -127,7 +125,7 @@ Integer-spin irreps have exact closed forms. The Galois pair ratio $T^2(R_3)/T^2
 | $R_5$ | 25/9 | +1.022 |
 | $R_4$ | $(4/5)\varphi^{2}$ | +0.739 |
 
-$R_0$ is the non-acyclic trivial local system; its canonical topological value is $1$. Its unit-radius analytic torsion is $\pi^4/3600 = \mathrm{Vol}(S^3/2I)^2$ (a harmonic zero-mode normalization, transcendental, not the canonical topological value), which is *not* used in the ledger. Every other elementary value is an acyclic algebraic invariant.
+$R_0$ (trivial representation) is non-acyclic; the ledger uses its canonical topological value $1$ (§4 above). Every elementary value is an algebraic invariant.
 
 Half-integer irreps ($R_1$, $R_2$, $R_6$, $R_8$) are computed from the same spectral data by the same method: the Laplacian eigenvalues and their multiplicities are exact (from $SU(2)$ representation theory and the $2I$ character table), and the spectral zeta function has a unique meromorphic continuation. The Hurwitz decomposition expresses each torsion as a finite sum of $L$-function derivatives at $s = 0$, each computable to arbitrary precision. 
 
@@ -146,7 +144,7 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 | $R_7$ | 2.250 | 1.114 | 1.114 |
 | $R_8$ | 0.257 | 13.090 | 1.910 |
 
-The two diagonal products carry the July 2026 correction: $R_1 \otimes \text{std} = R_0 + R_3$ and $R_2 \otimes \text{gal} = R_0 + R_4$ both contain the trivial representation, so both use $T^2(R_0) = 1$, giving $T^2(R_1,\text{std}) = 0.306$ and $T^2(R_2,\text{gal}) = 2.094$ (superseding the unit-radius analytic values $0.00827$ and $0.0567$). Every other entry is unchanged.
+The two diagonal products contain the trivial representation, $R_1 \otimes \text{std} = R_0 + R_3$ and $R_2 \otimes \text{gal} = R_0 + R_4$, so both carry the factor $T^2(R_0) = 1$: $T^2(R_1,\text{std}) = 0.306$ and $T^2(R_2,\text{gal}) = 2.094$.
 
 ## III. The 24 Entries
 
@@ -156,7 +154,7 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 
 | Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | SM | Observed (GeV) | Ratio |
 |---|---|---|---|---|---|---|---|
-| 1 | $R_1$ | 1 | std | $7.33 \times 10^{-12}$ | former $\nu_1$ (generation open) | $\sim 10^{-13}$ | 73 |
+| 1 | $R_1$ | 1 | std | $7.33 \times 10^{-12}$ | neutrino sector (generation open) | $\sim 10^{-13}$ | 73 |
 | gap | | | | — | $\nu_2$ (observed position; no entry, see §V) | $8.6 \times 10^{-12}$ | — |
 | 2 | $R_1$ | 1 | gal | $6.67 \times 10^{-11}$ | $\nu_3$ | $5.06 \times 10^{-11}$ | 1.32 |
 | 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | | excluded | |
@@ -179,14 +177,14 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 | 20 | $R_5$ | 6 | triv | 7.96 | $b$ neighborhood | 4.18 | 1.91 |
 | 21 | $R_5$ | 6 | gal | 11.72 | $b$ neighborhood | 4.18 | 2.80 |
 | 22 | $R_2$ | 7 | triv | 44.54 | $t$ candidate | 172.7 | 3.88 |
-| 23 | $R_2$ | 7 | gal | 197 | $b$ (uncounted, was 5.33) | 4.18 | 47 |
+| 23 | $R_2$ | 7 | gal | 197 | $b$ (uncounted) | 4.18 | 47 |
 | **24** | **$R_2$** | **7** | **std** | **261.46** | **$t$** | **172.7** | **1.51** |
 
 **Notes on the table:**
 
 *The electron (rank 12).* $m_e$ is the benchmark that sets the absolute mass scale, so its 1.02 is not a forward comparison but the $m_e \leftrightarrow \Lambda$ loop closing: entering instead from $\Lambda$ through $\mu_\Lambda = \rho_\Lambda^{1/4}$ reproduces $m_e$ to 2%, which inverts to ~11% in $\Lambda$. The forward comparisons are the other charged fermions; neither end of the loop is privileged. See the calibration web on the [framework](../../framework/) page.
 
-*Neutrino masses.* The $\nu_1$ observed value is inferred from $\Delta m^2_{21}$ assuming normal hierarchy with a near-zero lightest mass; the absolute mass scale is experimentally unknown. KATRIN, JUNO, and Project 8 will constrain this. The $\nu_3$ value uses $\sqrt{\Delta m^2_{31}}$ as a proxy. The rank-1 neutrino-sector entry $(R_1,\text{std})$ is one of the two non-acyclic diagonal products, so its mass moved by the same factor as the bottom quark (ratio now 73 to the $\nu_1$ scale); its former $\nu_1$ generation assignment is withdrawn (see §V), and its absolute mass is unmeasured, so it is not a scorecard hit.
+*Neutrino masses.* The $\nu_1$ observed value is inferred from $\Delta m^2_{21}$ assuming normal hierarchy with a near-zero lightest mass; the absolute mass scale is experimentally unknown. KATRIN, JUNO, and Project 8 will constrain this. The $\nu_3$ value uses $\sqrt{\Delta m^2_{31}}$ as a proxy. The rank-1 neutrino-sector entry $(R_1,\text{std})$ is a non-acyclic diagonal product at 7.3 meV, 73× the $\nu_1$ scale, so it does not pin the $\nu_1$ generation (see §V); its absolute mass is unmeasured, and it is not a scorecard hit.
 
 *The down quark (rank 14).* The ratio of 3.22 is the weakest assigned hit after $\nu_2$, and the only charged fermion outside the ×3 window. The down quark mass itself carries large uncertainty (4.67 $\pm$ 0.5 MeV from lattice QCD), but even at the upper end of the allowed range the tension remains. Whether this reflects a systematic residual at high McKay distance or a needed correction in the $R_8$ Galois vacuum sector is open.
 
@@ -196,7 +194,7 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 
 *The tau (rank 17), weakest surviving hit.* At ratio 2.42 the tau is the largest counted ratio, and it is the sole quantum-number-compatible entry within ×3 only because its nearest charged-lepton-compatible competitors (the $R_4$/$R_5$ entries at ranks 18–19) sit just past the ×3 boundary. It is counted, since it passes the ledger's stated isolation criterion, but it is the first entry that would fall under any tightening of that criterion. Whether ×3 is the right isolation window is a policy question for the whole table at once, not settled here.
 
-*The bottom quark (formerly rank 18).* The previously counted entry, $(R_2, \text{gal})$, was the non-acyclic diagonal product whose torsion carried the manifold volume; under the §4 correction it recomputes from 5.33 to $\approx 197$ GeV (ratio 47 to the bottom mass, now rank 23) and is no longer counted. The nearest remaining compatible entry is $(R_4, \text{gal})$ at ratio 1.40 (rank 18), and the $R_4$/$R_5$ shell still brackets 4.18 GeV (1.40, 1.43, 1.91, 2.80). That entry is recorded but **not** promoted to hold the count: the ledger assigns each fermion to its nearest quantum-number-compatible entry, and the previously counted 1.28 was that entry only by the volume factor, so sliding onto the next nearest would require switching selection rules at the moment the first stops giving the favored answer. With the volume factor removed, the observed mass sits inside an acyclic fan of compatible entries, which at this entry density is what counting produces. Recorded, visible, uncounted.
+*The bottom quark.* Its $R_2$-sector entry $(R_2, \text{gal})$ is a non-acyclic diagonal product sitting at $\approx 197$ GeV (rank 23), 47× the bottom mass, so it is not a hit. The nearest quantum-number-compatible entry to 4.18 GeV is $(R_4, \text{gal})$ at ratio 1.40 (rank 18), and the $R_4$/$R_5$ shell brackets 4.18 GeV (1.40, 1.43, 1.91, 2.80). That entry is recorded but **not** promoted to hold the count: the ledger assigns each fermion to its nearest quantum-number-compatible entry, and sliding onto a next-nearest address to fill a gap would switch selection rules. The observed mass sitting inside an acyclic fan of compatible entries is, at this entry density, what counting produces. Recorded, visible, uncounted.
 
 ## IV. Particle Identity
 
@@ -219,7 +217,7 @@ The face stabilizer $Z_3 \subset 2I$ is generated by order-3 elements. Color is 
 | $R_4$ | 3 | 1 | 1 | $\tau$, $b$ |
 | $R_2$ | 2 | 0 | 1 | $b$, $t$ |
 
-The $b$ label on $R_5$, $R_4$, $R_2$ marks color-compatible candidates, not three assignments; the previously counted $b$ address is uncounted after the §4 correction (see §III). Every assigned fermion has the color channel it needs in its propagating mode $\rho \otimes \sigma$. The electron (color singlet) sits on $R_7$, which already carries 1 singlet at the bare level. The quarks sit on irreps with colored pairs. The neutrinos sit on $R_1$, which has no singlet content as a bare irrep; the singlet channel appears only once $R_1$ is tensored with the vacuum connection, and this is where reading from $\rho \otimes \sigma$ rather than bare $R_1$ does real work. It does so without special pleading, because the whole $R_1$ sector falls out at once: $R_1 \otimes \text{std} = R_0 + R_3$ carries $1 + 1 = 2$ singlets, $R_1 \otimes \text{gal} = R_5$ carries 2 singlets, and the one $R_1$ mode with no singlet channel, $R_1 \otimes \text{triv} = R_1$ itself, is exactly rank 3, the entry excluded on cosmological grounds in §V. The mode rule admits the two propagating neutrinos and forbids the non-propagating one, so the apparent clash between $R_1$ having zero bare singlets and carrying neutrinos is a consistency check the assignment passes. (This is a *channel* argument, unchanged by the §4 correction: $R_1$ carries the neutrino singlet content. The correction does affect the *mass*: the $R_1 \otimes \text{std}$ mode recomputes to 7.3 meV, 73× the $\nu_1$ scale, so the mass-based $\nu_1$ generation label is withdrawn and the $R_1$ neutrino-generation map is left open, see §V. Channel structure and generation map are separate claims; only the latter is now open.)
+The $b$ label on $R_5$, $R_4$, $R_2$ marks color-compatible candidates, not three assignments; the bottom quark is uncounted (see §III). Every assigned fermion has the color channel it needs in its propagating mode $\rho \otimes \sigma$. The electron (color singlet) sits on $R_7$, which already carries 1 singlet at the bare level. The quarks sit on irreps with colored pairs. The neutrinos sit on $R_1$, which has no singlet content as a bare irrep; the singlet channel appears only once $R_1$ is tensored with the vacuum connection, and this is where reading from $\rho \otimes \sigma$ rather than bare $R_1$ does real work. It does so without special pleading, because the whole $R_1$ sector falls out at once: $R_1 \otimes \text{std} = R_0 + R_3$ carries $1 + 1 = 2$ singlets, $R_1 \otimes \text{gal} = R_5$ carries 2 singlets, and the one $R_1$ mode with no singlet channel, $R_1 \otimes \text{triv} = R_1$ itself, is exactly rank 3, the entry excluded on cosmological grounds in §V. The mode rule admits the two propagating neutrinos and forbids the non-propagating one, so the apparent clash between $R_1$ having zero bare singlets and carrying neutrinos is a consistency check the assignment passes. (This is a *channel* argument: $R_1$ carries the neutrino singlet content, independent of mass. The mass is separate: the $R_1 \otimes \text{std}$ mode sits at 7.3 meV, 73× the $\nu_1$ scale, so it does not pin the $\nu_1$ generation; the $R_1$ neutrino-generation map is open, see §V.)
 
 The face stabilizer $Z_3$ corresponds to the $SU(3)$ color factor under the McKay correspondence: removing $R_3$ (the node killed by $Z_3$ alongside $R_4$ and $R_8$) from the extended $E_8$ Dynkin diagram produces the maximal subalgebra $SU(3) \times E_6$.
 
@@ -240,7 +238,7 @@ The Dirac eta invariant $\eta(\rho, \sigma)$ varies with the vacuum. Across the 
 
 $$\eta(\rho, \sigma) > 0 \implies Q \leq 0$$
 
-Equivalently: positive electric charge requires negative eta. All entries with $Q = +2/3$ ($u$, $c$, $t$) have $\eta < 0$. All entries with $\eta > 0$ (ranks 1, 14, 21, 23 after the §4 re-rank) sit in $Q = 0$ or $Q = -1/3$ slots; rank 23 (the former $b$ entry, now uncounted) is such a down-type slot but carries no assigned fermion after the correction.
+Equivalently: positive electric charge requires negative eta. All entries with $Q = +2/3$ ($u$, $c$, $t$) have $\eta < 0$. All entries with $\eta > 0$ (ranks 1, 14, 21, 23) sit in $Q = 0$ or $Q = -1/3$ slots; rank 23 is such a down-type slot but carries no assigned fermion (the bottom quark's entry is a 47× miss, see §III).
 
 The eta invariant measures spectral asymmetry: the parity content of the mode. This gate connects parity to electric charge through the spectral geometry.
 
@@ -273,7 +271,7 @@ $$T_3 = -\tfrac{1}{2} \iff j_\text{first} \in \mathbb{Z},\ \text{or}\ (13,17)\ \
 | 23 | $R_2$ | gal | 3/2 | stripped | $R_0 + R_4$ | $R_4$ yes | both $\to$ -1/2 | -1/2 ✓ |
 | 24 | $R_2$ | std | 5/2 | stripped | $R_5$ | all fixed | Galois-fixed $\to$ +1/2 | +1/2 ✓ |
 
-Ten entries through the gate, ten correct evaluations. Eight carry an assigned fermion; the other two are structural checks: rank 22 ($R_2$ triv) is an unassigned top-shell candidate (the top is rank 24), and rank 23 ($R_2$ gal, the former $b$ entry) is the rule-validation case, numerically near the top after the correction yet correctly held as down-type ($T_3 = -1/2$), so the gate refuses the tempting reassignment. Rank 17 is resolved as $\tau$ ($T_3 = -1/2$). Rank 24 is resolved as $t$ ($T_3 = +1/2$): $R_2 \otimes R_1 = R_5$, and $R_5$ is Galois-fixed, so the Galois involution has nothing to act on and the state retains upper isospin by structural inertia.
+Ten entries through the gate, ten correct evaluations. Eight carry an assigned fermion; the other two are structural checks: rank 22 ($R_2$ triv) is an unassigned top-shell candidate (the top is rank 24), and rank 23 ($R_2$ gal) is the rule-validation case: at $\approx 197$ GeV it is numerically near the top yet correctly held as down-type ($T_3 = -1/2$), so the gate refuses the tempting reassignment. Rank 17 is resolved as $\tau$ ($T_3 = -1/2$). Rank 24 is resolved as $t$ ($T_3 = +1/2$): $R_2 \otimes R_1 = R_5$, and $R_5$ is Galois-fixed, so the Galois involution has nothing to act on and the state retains upper isospin by structural inertia.
 
 **Hypercharge and electric charge follow from $Z_3$.** Once $T_3$ is fixed, the $Z_3$ face decomposition (§IV.1) determines color, and the Gell-Mann-Nishijima formula $Q = T_3 + Y/2$ closes the circuit:
 
@@ -323,7 +321,7 @@ The three stabilizer orders 2, 3, 5 are the primes dividing $|2I| = 120$ and the
 
 ## V. Dead Zone, Targets, and Exclusions
 
-Nine entries have no Standard Model assignments. Six fall in the "dead zone" (ranks 4-9), the mass range between $10^{-9}$ and $10^{-6}$ GeV (eV to keV) where no known fundamental fermion exists and experimental sensitivity to new states is limited. One is a target (rank 16) in a normal mass range where a particle could exist but has no current SM assignment. One is excluded (rank 3) by existing data. One is the bottom quark's former entry (rank 23, now 197 GeV after the §4 correction), which has no quantum-number-compatible SM assignment: it is numerically near $t$ (172.7 GeV), but the pre-mass isospin gate rejects it as down-type ($T_3 = -1/2$), which is exactly the structural behavior a genuine gate should show when a mass coincidence tempts a wrong assignment.
+Nine entries have no Standard Model assignments. Six fall in the "dead zone" (ranks 4-9), the mass range between $10^{-9}$ and $10^{-6}$ GeV (eV to keV) where no known fundamental fermion exists and experimental sensitivity to new states is limited. One is a target (rank 16) in a normal mass range where a particle could exist but has no current SM assignment. One is excluded (rank 3) by existing data. One is rank 23 ($R_2$ gal) at 197 GeV, which has no quantum-number-compatible SM assignment: it is numerically near $t$ (172.7 GeV), but the pre-mass isospin gate rejects it as down-type ($T_3 = -1/2$), exactly the structural behavior a genuine gate should show when a mass coincidence tempts a wrong assignment.
 
 The dead zone is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed non-gravitational couplings. The framework is agnostic about whether these entries correspond to propagating particles or are structural residuals of the spectrum with no physical realization. If physical, they are candidates for sterile neutrino or warm dark matter searches in the eV-keV window.
 
@@ -339,7 +337,7 @@ Rank 16 ($R_5$, std) at 349 MeV sits in a normal mass range between the strange 
 | 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | ~3 keV | dead zone |
 | 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | ~3 keV | dead zone |
 | 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | ~349 MeV | target |
-| 23 | $R_2$ | 7 | gal | $197$ | ~197 GeV | former $b$ entry; no compatible SM (near $t$, gate-rejected as down-type) |
+| 23 | $R_2$ | 7 | gal | $197$ | ~197 GeV | no compatible SM (near $t$, gate-rejected as down-type) |
 
 ### Rank 3 Exclusion
 
@@ -347,7 +345,7 @@ Rank 3 ($R_1$, triv) predicts ~0.4 eV. Cosmological bounds constrain the sum of 
 
 ### The Neutrino-Generation Ambiguity
 
-Rank 1 $(R_1, \text{std})$ is the second of the two non-acyclic matched-pair entries the §4 correction moves; the bottom quark is the other, and both recompute by the same factor of 37 under $T^2(R_0) = 1$. Its value changed from ~0.2 meV to 7.3 meV. That is 73× the provisional $\nu_1$ scale, so the former $\nu_1$ generation assignment no longer holds and is withdrawn. The recomputed value now falls near the solar scale associated with $\nu_2$ (8.6 meV), but this is two experimentally unmeasured numbers landing close and carries no evidential weight: all three neutrino absolute masses are unknown, none is a scorecard hit, so no generation is assigned to rank 1 and nothing is inferred from the proximity. By the standard applied to the bottom quark, the correction can withdraw an assignment but does not authorize the next-nearest replacement. Together with the charm quark (displaced by the $\tau$ resolution at rank 17), the neutrino-generation map across the $R_1$ sector is left open. The experimentally allowed window for $\nu_2$ is roughly 10-50 meV, constrained from below by solar neutrino data and from above by the cosmological mass sum; the normal vs. inverted hierarchy remains undetermined, and JUNO and DUNE, by fixing the hierarchy and scale, would constrain the map.
+Rank 1 $(R_1, \text{std})$ is a non-acyclic diagonal product; it sits at 7.3 meV, 73× the provisional $\nu_1$ scale, so it does not pin the $\nu_1$ generation. Its value falls near the solar scale associated with $\nu_2$ (8.6 meV), but this is two experimentally unmeasured numbers landing close and carries no evidential weight: all three neutrino absolute masses are unknown, none is a scorecard hit, so no generation is assigned to rank 1 and nothing is inferred from the proximity. The ledger assigns each fermion to its nearest quantum-number-compatible entry and does not slide a generation onto a next-nearest address to fill a gap. Together with the charm quark (displaced by the $\tau$ resolution at rank 17), the neutrino-generation map across the $R_1$ sector is open. The experimentally allowed window for $\nu_2$ is roughly 10-50 meV, constrained from below by solar neutrino data and from above by the cosmological mass sum; the normal vs. inverted hierarchy remains undetermined, and JUNO and DUNE, by fixing the hierarchy and scale, would constrain the map.
 
 ---
 
@@ -356,9 +354,9 @@ Rank 1 $(R_1, \text{std})$ is the second of the two non-acyclic matched-pair ent
 | Item | Status |
 |------|--------|
 | $T_3$ assignment rule | Established. Two-stage filter: $j_\text{first}$ parity + Coxeter-Galois gate. Ten gate evaluations correct (eight assigned fermions, plus two structural checks at ranks 22 and 23). See §IV.4. |
-| $\mu$/$s$ single-entry count | Rank 15 supplies both the muon and the strange via the $R_8$ singlet/triplet color split, so two fermions are credited to one $(\rho,\sigma)$ address. Whether that is one hit or two is a standing convention question, independent of the torsion correction (a strict one-entry-one-hit reading would give 4 of 8). |
+| $\mu$/$s$ single-entry count | Rank 15 supplies both the muon and the strange via the $R_8$ singlet/triplet color split, so two fermions are credited to one $(\rho,\sigma)$ address. Whether that is one hit or two is a standing convention question (a strict one-entry-one-hit reading would give 4 of 8). |
 | Charm quark assignment | OPEN. $T_3$ rule resolves rank 17 as $\tau$, displacing charm. All $R_4$ entries have integer $j_\text{first}$ ($T_3 = -1/2$ at every vacuum), so charm cannot live on $R_4$. Candidate entries under investigation. |
-| $R_1$ neutrino-generation map | OPEN. The §4 correction moved rank 1 to 7.3 meV and withdrew its former $\nu_1$ assignment; $\nu_2$ (8.6 meV) has no entry. All three neutrino masses are unmeasured, so no generation is assigned. See §V. |
+| $R_1$ neutrino-generation map | OPEN. Rank 1 ($R_1$ std) sits at 7.3 meV, the wrong scale to pin $\nu_1$; $\nu_2$ (8.6 meV) has no entry. All three neutrino masses are unmeasured, so no generation is assigned. See §V. |
 | Down quark tension | Rank 14 ratio 3.22; see Section III notes. Systematic residual at high McKay distance or $R_8$ Galois correction needed. |
 | Fermion mass residual | Systematic overshoot growing with McKay distance. One-parameter correction pattern identified, not derived. |
 | Dead zone physical status | 6 entries in eV-keV range. Propagating states or structural residuals: experimentally distinguishable. |
