@@ -148,7 +148,7 @@ Technical gaps with specific paths forward.
 **Selection rules.** Why one structure is picked over its alternative, not yet derived.
 
 - **Grid Ladder Selection Rule:** Three convergent paths connect interaction character to grid resolution ($D = 60$ vs $D = 120$); formal derivation open. *Deps:* stabilizer decomposition, boson/fermion domain split.
-- **Anti-periodic BC Selection:** 9/10 assigned fermion masses within ×3; first-principles derivation of why anti-periodic boundary conditions are selected over periodic remains open. *Deps:* Möbius non-orientability, mass formula.
+- **Anti-periodic BC Selection:** 5 of 8 charged fermion masses within ×3 (descriptive; the ×3 count is density, per the [torsion null test](files/mass-null-test.md)); first-principles derivation of why anti-periodic boundary conditions are selected over periodic remains open. *Deps:* Möbius non-orientability, mass formula.
 
 ---
 
@@ -222,6 +222,14 @@ Registered and exploratory tests run against public datasets, with verdicts.
 **Test:** Do published H₀ measurements cluster into two discrete populations (~67 and ~73), as the Hubble-tension Section V fork predicts, or form a continuous spread? Hartigan dip test, Gaussian mixture, and gap test on 18 compiled measurements (13-row independent subset). Exploratory, not pre-registered.
 
 **Result (2026-05-19):** The discrete two-cluster prediction is not supported. The dip test fails to reject unimodality in every configuration (primary p = 0.217); the Gaussian mixture's 2-component preference is statistically negligible (ΔBIC < 1.2) and points to clusters at 68.4 / 73.2 rather than 67 / 73; the predicted 69-71 gap contains TRGB / CCHP at 69.8. The data sorts by calibration class but does not quantize.
+
+---
+
+### [Torsion Null Test (Mass Scorecard)](files/mass-null-test.md)
+
+**Test:** Does the fermion mass scorecard's within-×3 hit rate carry information about the specific torsion values, or is it density? Pre-registered design frozen at tag `mass-null-v1.0`, one registered run (Generator PCG64, seed 120, $M = 100{,}000$). Statistic: the compatible-coverage count $S_1$ under four nulls (permute the 24 torsions across slots, within-vacuum, log-uniform redraw, within-spin-class exact), verdict fixed on Null A.
+
+**Result (2026-07-11):** The ×3 count is uninformative about the torsion values. Randomly reassigning the 24 torsion factors across the fixed quantum-number slots reproduces or exceeds the observed coverage in 17.4% of draws (Null A, $p_A = 0.174$; secondaries B / C / D = 0.14 / 0.32 / 0.33, all far above the 0.01 information band). The mass table's evidential weight rests on the structural outputs (the 24-entry count, the $T_3$ gate's ten correct evaluations, the $\varphi^{-4}$ ratio) and the falsifiable outliers, not on the ×3 proximity count; the test does not validate those structural outputs, it removes the proximity scorecard as torsion evidence. Design frozen before the run (tag on the frozen bundle), results committed separately.
 
 ---
 

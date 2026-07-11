@@ -30,7 +30,7 @@ The structural content is not circular. Three generations from three flat connec
 
 What the framework actually lives or dies on is a thin set of forward bets, nearly all riding on Euclid DR1: epoch-independent Λ / flat Ω_DE(z), mass-independent a₀(z) ∝ H(z) (the single cleanest discriminator, immune to the stellar-M/L freedom that wrecks the rotation-curve tests), and the sign-fixed negative (1+z)¹ term in H²(z). These are thinner than the page count suggests: a₀(z), H(z), w_eff(z), and d_L(z) are one phase-clock relation read through four channels, not four independent predictions.
 
-The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal), the McKay mass-residual correction (no parameter-free fix), and the signed well-functional sweep (wells never extremal), and it logs the down/tau/top mass misses and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
+The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal), the McKay mass-residual correction (no parameter-free fix), and the signed well-functional sweep (wells never extremal), and the torsion null test (random torsions reproduce the mass hit rate at p_A = 0.174, so the ×3 count is not evidence for the specific torsions), and it logs the down/tau/top mass misses and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
 
 ## Reconciliation (verified 2026-06-26)
 
@@ -155,7 +155,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Λ via mass route | 8e-54 → 1.11e-52 | **~14× off (demote: a miss)** | bar relaxed %→OoM; Cycle 7 | m_e, Ω_Λ |
 | Λ_obs/Λ_top = 3/2 | 3/2 | exact (claim) vs a σ-statement | Gauss-vs-stabilizer 3/2 identity OPEN | Λ_top |
 | a₀/(cH₀) | 0.184 → 0.183 | <1% | well pair (13,34) selected; known 1983 MOND coincidence; both inputs | a₀, H₀ (web) |
-| Fermion masses (24 entries) | **6–7 of 8 within ×3** | comparison | ×3 window wide; assignment + 3-vacuum freedom; m_e anchor | m_e, Ω_Λ (web) |
+| Fermion masses (24 entries) | **5 of 8 within ×3** (descriptive; p_A = 0.174) | comparison | null test `mass-null-v1.0`: random torsions reproduce the hit rate, so ×3 is not evidence for the specific torsions; ×3 window wide; assignment + 3-vacuum freedom; m_e anchor | m_e, Ω_Λ (web) |
 | ↳ muon | 1.03e-1 → 1.057e-1 GeV | 3% | rank shared w/ strange; vacuum choice | m_e |
 | ↳ up | 2.03e-3 → 2.16e-3 GeV | 6% | scheme-dep target; assignment | m_e |
 | ↳ down | 1.51e-2 → 4.67e-3 GeV | **3.2× MISS** | vacuum carries the 3× | m_e |
