@@ -76,7 +76,7 @@ Primary statistic $S_1$ = number of the 8 that hit. Observed scorecard under thi
 | $u$ | 1.06 | yes |
 | $d$ | 3.22 | no |
 | $s$ | 1.10 | yes |
-| $c$ | none in range | no |
+| $c$ | none within ×3 (nearest compatible from Step-0 map) | no |
 | $\mu$ | 1.02 | yes |
 | $\tau$ | 2.42 | yes |
 | $b$ | 1.40 (via $(R_4,\text{gal})$) | yes |
@@ -84,7 +84,7 @@ Primary statistic $S_1$ = number of the 8 that hit. Observed scorecard under thi
 
 Observed $S_1 = 6$. (The bottom quark's covering slot $(R_4,\text{gal})$ and charm's non-coverage are the same structural fact: $R_4$ has integer $j_\text{first}$ at every vacuum, hence $T_3 = -1/2$ throughout, a down-type-only irrep that houses $b$ and excludes the up-type charm.)
 
-**Secondaries, computed identically on real and null spectra.** Logarithms are natural throughout. For each fermion $f$ with at least one compatible slot, the **witness slot** is $s_f^\star = \arg\min_{s:\,C_{f,s}=1} |\ln(m_s/m_f)|$, ties broken by the slot's index in the frozen 24-slot list. Then: $S_2$ = hits at $\times 2$; $S_3$ = hits at $\times 1.5$; $S_4 = \operatorname{median}_f\, |\ln(m_{s_f^\star}/m_f)|$ over the scored fermions that have a compatible slot (charm's witness, or its exclusion if the frozen matrix gives it none, is set by the Step-0 map); $S_5$ = number of distinct witness slots $s_f^\star$.
+**Secondaries, computed identically on real and null spectra.** Logarithms are natural throughout. For each fermion $f$ with at least one compatible slot, the **witness slot** is $s_f^\star = \arg\min_{s:\,C_{f,s}=1} |\ln(m_s/m_f)|$, ties broken by the slot's index in the frozen 24-slot list. Then: $S_2$ = hits at $\times 2$; $S_3$ = hits at $\times 1.5$; $S_4 = \operatorname{median}_f\, |\ln(m_{s_f^\star}/m_f)|$ over all eight scored fermions; $S_5$ = number of distinct witness slots $s_f^\star$. Charm is up-type and colored, so it has a compatible slot (necessarily outside $\times 3$); its witness slot and exact ratio are fixed by the frozen Step-0 map (§VI) and printed in the observed audit.
 
 One scoring variant is also pre-registered: $S_1'$ = hits at $\times 3$ **ignoring compatibility** (proximity to any slot), measuring raw density with no quantum-number skeleton. On the real spectrum $S_1' = 8$: every fermion has some slot within $\times 3$. The three structurally forbidden coverings it counts, and which the compatibility gate removes, are frozen here as witnesses: $(t,\ \text{down-type 197 GeV orphan})$ at 1.14, $(d,\ \text{up-quark slot at } 2.03 \times 10^{-3})$ at 2.30, and $(c,\ \text{tau slot at } 0.734)$ at 1.73. Of these, $d$ and $c$ have no compatible slot within $\times 3$, so the gate drops them ($8 \to 6$); $t$ also hits compatibly via $(R_2,\text{std})$ at 1.51, so its forbidden covering is redundant to the count. A high $S_1'$ null therefore speaks only to raw density and carries no bearing on the gated count; the gates take the real spectrum from $S_1' = 8$ (raw density) to $S_1 = 6$ (compatible coverage) to 5 (assignment).
 
@@ -92,21 +92,35 @@ One scoring variant is also pre-registered: $S_1'$ = hits at $\times 3$ **ignori
 
 ## V. Ensembles, Seed, Single Run
 
-Nulls A, B, C: $M = 100{,}000$ draws each. Null D: exact enumeration (576). RNG seed fixed at **120**. One execution, no re-draws, no post-hoc statistics beyond those named above. Reported per null: the full distribution of $S_1$ (as a count table), its mean and standard deviation, and the one-sided $p = \Pr(S_1 \geq 6)$; the same for the secondaries.
+Nulls A, B, C: $M = 100{,}000$ draws each. Null D: exact enumeration (576). RNG seed fixed at **120**. One execution, no re-draws, no post-hoc statistics beyond those named above. Reported per null: the full distribution of each statistic (as a count table), its mean and standard deviation, and its one-sided $p$-value with the tail direction fixed below.
 
-**Numerical and Monte Carlo conventions (committed at freeze).** The RNG is NumPy `Generator(PCG64)` seeded at 120; permutations act on the 24 factors as indexed positions, so equal values remain distinct entries. Full-precision base torsions, $C_\text{geom}$, cosmological inputs, tensor multiplicities, the 24 corrected torsion factors, and the 24 resulting masses are committed as a machine-readable artifact; G1 and G2 compare against it to a named tolerance (the rendered Markdown tables are display checks only, since printed values are rounded and cannot exactly reproduce full-precision products). The Monte Carlo point estimator is $\hat p_A = (k+1)/(M+1)$, which never reports zero, quoted with its binomial standard error. The §VII verdict bands use the point estimator only; the interval is numerical uncertainty and does not trigger a re-run, including when $\hat p_A$ falls near 0.01 or 0.1.
+Each statistic's tail is fixed now, before any draw:
+
+| statistic | observed | tail | reported $p$ |
+|---|---|---|---|
+| $S_1$ | 6 | upper | $\Pr(S_1 \geq 6)$ |
+| $S_2$ | from run | upper | $\Pr(S_2 \geq S_2^{\text{obs}})$ |
+| $S_3$ | from run | upper | $\Pr(S_3 \geq S_3^{\text{obs}})$ |
+| $S_1'$ | 8 | upper | $\Pr(S_1' \geq 8)$ |
+| $S_4$ | from run | lower | $\Pr(S_4 \leq S_4^{\text{obs}})$ |
+| $S_5$ | from run | none | distribution, mean, SD; no one-sided $p$ |
+
+Upper tail for the count statistics ($S_1, S_2, S_3, S_1'$) because more or closer hits is the fit-favoring direction; lower tail for $S_4$ because a smaller median log-distance is; $S_5$ is reported descriptively, since neither direction is privileged for a distinct-slot count. For the exact Null D, $p_D = \#\{\text{permutations at least as extreme as observed}\}/576$ with the identity permutation included; the $(k+1)/(M+1)$ estimator applies only to the Monte Carlo Nulls A-C.
+
+**Numerical and Monte Carlo conventions (committed at freeze).** The RNG is NumPy `Generator(PCG64)` seeded at 120; permutations act on the 24 factors as indexed positions, so equal values remain distinct entries. Null C draws $\log T_i^2 \overset{\text{iid}}{\sim} \operatorname{Uniform}\!\left[\min_j \log T_j^2,\ \max_j \log T_j^2\right]$ over the full-precision corrected factors. Full-precision base torsions, $C_\text{geom}$, cosmological inputs, tensor multiplicities, the 24 corrected torsion factors, and the 24 resulting masses are committed as a machine-readable artifact whose SHA-256 hash is recorded in the execution report; G1 and G2 compare against it to $\texttt{rtol} = 10^{-12}$, $\texttt{atol} = 10^{-15}$ (the rendered Markdown tables are display checks only, since printed values are rounded and cannot exactly reproduce full-precision products). The Monte Carlo point estimator (Nulls A-C) is $\hat p = (k+1)/(M+1)$, which never reports zero, quoted with its binomial standard error; Null D uses the exact fraction above. The §VII verdict bands use the point estimator only; the interval is numerical uncertainty and does not trigger a re-run, including when $\hat p_A$ falls near 0.01 or 0.1.
 
 ---
 
 ## VI. Step 0: Reproduction Gates
 
-The pipeline must pass three deterministic gates before any randomization runs. Failing a gate stops the test and opens a reconciliation item against the source page instead.
+The pipeline must pass these deterministic gates before any randomization runs. Failing a gate stops the test and opens a reconciliation item against the source page instead.
 
-- **G1 (masses):** recompute the 24 entry masses from the four frozen factors; match the frozen full-precision artifact (§V) to the named tolerance (the printed §III table is a display check).
-- **G2 (torsion algebra):** recompute the 24 torsion values from the 9 base values and the character-table multiplicities $N_{\rho\sigma\tau}$; match the frozen full-precision artifact (§V) to the named tolerance (the printed §II.4 table is a display check; spot-check: $T^2(R_7, \text{std}) = T^2(R_6) \cdot T^2(R_8) = 4.328 \times 0.257 \approx 1.113$ against printed 1.114; the diagonal entries carry the canonical $T^2(R_0) = 1$, e.g. $T^2(R_1, \text{std}) = T^2(R_0) \cdot T^2(R_3) = 1 \times 0.306 = 0.306$).
-- **G3 (scorecard):** G3 passes iff the **any-compatible** rule of §IV applied to the real spectrum returns $S_1 = 6$, with $b$ covered by $(R_4,\text{gal})$ at 1.40, $d$ out at 3.22, charm with no compatible slot in range, and $\mu/s$ sharing one slot. The 5-vs-6 gap against the public assignment headline is expected (§I), not a gate failure.
+- **G1 (masses):** recompute the 24 entry masses from the four frozen factors; match the frozen full-precision artifact (§V) to $\texttt{rtol} = 10^{-12}$, $\texttt{atol} = 10^{-15}$ (the printed §III table is a display check).
+- **G2 (torsion algebra):** recompute the 24 torsion values from the 9 base values and the character-table multiplicities $N_{\rho\sigma\tau}$; match the frozen full-precision artifact (§V) to the same tolerance (the printed §II.4 table is a display check; the printed inputs cannot reproduce full precision, e.g. $T^2(R_6) \cdot T^2(R_8) = 4.328 \times 0.257 = 1.112$ from rounded inputs against the full-precision 1.114; the diagonal entries carry the canonical $T^2(R_0) = 1$, e.g. $T^2(R_1, \text{std}) = T^2(R_0) \cdot T^2(R_3) = 0.306$).
+- **G3a (compatibility matrix):** independently regenerate the $8 \times 24$ compatibility matrix $C_{f,s}$ from the frozen 24-slot quantum-number map and match the committed matrix exactly.
+- **G3b (scorecard):** apply that matrix to the real spectrum under the any-compatible rule of §IV; it must return $S_1 = 6$ with the named witness slots ($b$ via $(R_4,\text{gal})$ at 1.40, $\mu/s$ sharing rank 15), $d$ out at 3.22, and charm's nearest compatible slot recorded (outside $\times 3$). The 5-vs-6 gap against the public assignment headline is expected (§I), not a gate failure.
 
-Gate G3 requires the full 24-slot quantum-number map, which the published page prints only for the 10 SM-assigned rows. Completing it for all 24 slots from the stated rules is a Step 0 deliverable, committed as a frozen input artifact at freeze time, and is worth having independently of this test (it completes §IV.4 from 10 rows to 24).
+Gates G3a and G3b require the full 24-slot quantum-number map, which the published page prints only for the 10 SM-assigned rows. Completing it for all 24 slots from the stated rules is a Step 0 deliverable, committed as a frozen input artifact at freeze time (it fixes the $8 \times 24$ compatibility matrix and charm's nearest compatible slot), and is worth having independently of this test (it completes §IV.4 from 10 rows to 24).
 
 ---
 
@@ -114,7 +128,7 @@ Gate G3 requires the full 24-slot quantum-number map, which the published page p
 
 The number itself is the deliverable; the bands only fix the headline language in advance.
 
-- **$p_A \geq 0.1$:** the $\times 3$ comparison is declared uninformative about the torsion dial. Verdict text: "Random torsion reassignment reproduces the published hit rate; the mass table's evidential weight rests on the exact structural outputs (the 24-entry count, the $T_3$ gate (ten correct evaluations), the $\varphi^{-4}$ ratio) and the falsifiable outliers ($\nu_2$, rank 16, the dead zone), not on the $\times 3$ proximity count."
+- **$p_A \geq 0.1$:** the $\times 3$ comparison is declared uninformative about the torsion dial. Verdict text: "Random torsion reassignment reproduces the published hit rate; the mass table's evidential weight rests on the exact structural outputs (the 24-entry count, the ten-entry $T_3$ gate audit, the $\varphi^{-4}$ ratio) and the falsifiable outliers ($\nu_2$, rank 16, the dead zone), not on the $\times 3$ proximity count."
 - **$p_A \leq 0.01$:** the torsion values carry fit information beyond density. Verdict text: "Random reassignment does not reproduce the published hit rate; the fine dial is doing measurable work. The comparison remains a comparison, and this does not validate the mechanism."
 - **$0.01 < p_A < 0.1$:** inconclusive at the $\times 3$ window; the tighter-window secondaries and Null D govern the discussion, and no headline change is licensed in either direction.
 
