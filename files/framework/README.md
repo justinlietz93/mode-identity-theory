@@ -415,7 +415,7 @@ In a ratio of two observables at the same depth, $\Omega_\Lambda$ cancels: no an
 |---|---|---|
 | Force count | 3 | exact |
 | Generation count | 3 | exact |
-| $T_3$ assignments | 10/10 | exact (Coxeter-Galois gate) |
+| $T_3$ gate evaluations | 10 correct (8 assigned + 2 structural checks) | exact (Coxeter-Galois gate) |
 | $T^2(R_3)/T^2(R_4)$ | $\varphi^{-4}$ | exact (torsion ratio) |
 | $\alpha_s/\alpha_W$ | 3.43 | prediction (1.8%), $\Omega$ cancels |
 | $a_0/(cH_0)$ | 0.184 | prediction (<1%), normalization cancels |
