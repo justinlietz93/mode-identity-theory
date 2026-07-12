@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/Möbius_Manifold_Topological_Universe_Blueprint.png" width="100%" alt="Mode Identity">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/Möbius_Manifold_Topological_Universe_Blueprint.png?raw=true" width="100%" alt="Mode Identity">
 
 ---
 
@@ -150,7 +150,7 @@ Two constants fix the units. The absolute scale is a calibration choice, not a p
 
 | Parameter | Value | Origin |
 |---|---|---|
-| $s_0$ | $< 0.19$ (95% CL) | Observer's current phase on the standing wave. $\Omega_m = 1 - \Omega_\Lambda = 0.315$ is output of the temporal budget. |
+| $s_0$ | $< 0.19$ (95% CL) | Observer's current phase on the standing wave. $\Omega_m = 0.315$ is output of the temporal budget. |
 
 ---
 
