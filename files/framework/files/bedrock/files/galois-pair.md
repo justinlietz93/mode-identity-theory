@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/galois%20pair%20banner.png" width="100%" alt="Galois Pair">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/galois%20pair%20banner.png?raw=true" width="100%" alt="Galois Pair">
 
 Up to conjugacy the Poincaré homology sphere $`S^3/2I`$ carries, besides the trivial connection, exactly two irreducible flat $`\mathrm{SU}(2)`$ connections, interchanged by the Galois automorphism of $`\mathbb{Q}(\sqrt5)`$; it bounds the $`E_8`$ plumbing $`W`$. We record an elementary conversion, obtained by combining the classical Atiyah-Patodi-Singer defect formula with the Dirac/Molien character sums, expressing the odd-signature rho invariant of any flat twist without trivial constituent on any $`S^3/\Gamma`$, $`\Gamma\subset\mathrm{SU}(2)`$ finite, as an affine function of the character sums of the Kronheimer-Nakajima index formulas. On $`S^3/2I`$ it reproduces the printed adjoint rho invariants $`-73/15`$ and $`-97/15`$ from the character sums, and locates their difference $`-8/5`$ exactly on the four conjugacy classes moved by $`\sqrt5\mapsto-\sqrt5`$. The tautological bundles on $`W`$ realize the asymmetry as charge: $`k\equiv cs\bmod 1`$ in all four sectors, with $`k(\mathcal{R}_Q)-k(\mathcal{R}_{Q'})=\varepsilon(H)/\lvert 2I\rvert`$ exactly, refining a congruence of Helle.
 

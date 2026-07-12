@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/geometric%20code%20banner.png" width="100%" alt="The Geometric Code: Mode Identity Theory">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/geometric%20code%20banner.png?raw=true" width="100%" alt="The Geometric Code: Mode Identity Theory">
 
 Mode Identity Theory is a boundary-condition framework. It keeps Einstein's field equations governing local gravitational dynamics and the Standard Model particle content unchanged, but supplies a global topological domain:
 

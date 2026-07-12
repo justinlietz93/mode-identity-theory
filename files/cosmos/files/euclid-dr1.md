@@ -2,7 +2,7 @@
 
 ---
 
-<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/dr1%20banner.png" width="100%" alt="Euclid DR1">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/dr1%20banner.png?raw=true" width="100%" alt="Euclid DR1">
 
 The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. DR1 results will be added in a later commit when the data arrive.
 
@@ -34,7 +34,7 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 | II | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up rules out the predicted $a_0(z)$ evolution at $\geq 2\sigma$, with $a_0(z{=}1.5)$ consistent with the constant $a_0(0)$ |
 | III | $w_\text{eff}(z)$ trajectory | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split, proven) | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ |
 | IV | Stellar mass function at $z \gtrsim 10$ | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Wide-area photometric source catalog with high-<i>z</i> selection; NISP/ancillary spectroscopic confirmation where available | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
-| V | $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $\|\beta\| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from the $H^2(z)$ form | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
+| V | $(1+z)^1$ coefficient in $H^2(z)$ | Negative, magnitude $|\beta| < 0.012$ tied to $s_0$ | Spectroscopic BAO precision across $z = 0.9$–1.8 (forecast 1–2% per bin); coefficient extracted from the $H^2(z)$ form | Coefficient positive at $\geq 2\sigma$, or magnitude inconsistent with fitted $s_0$ |
 
 *Clarification added 2026-06-26, post-freeze; no prediction, threshold, or scoring rule is changed.* **Rows II, III, and V are correlated channels, not independent bets.** All three read the same phase-clock relation: $a_0(z)$ through $H(z)$, and $w_\text{eff}(z)$ plus the $(1+z)^1$ coefficient through the same $H^2(z; s_0)$ background form. A DR1 outcome in one row therefore informs the interpretation of the others. Passing II, III, and V together would confirm one underlying relation through three observational channels, not three independent framework successes. Ground rule #4 still holds: the rows are adjudicated separately, and their collective pattern is what carries the evidence. See [dark energy](dark-energy.md) and [early galaxies](early-galaxies.md).
 
@@ -136,7 +136,7 @@ This is the distinctive signature row. The phase-clock $H^2(z)$ form contains a 
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | Negative coefficient $-\beta$ with $\|\beta\| < 0.012$ at 95% CL from current data; magnitude tied to $s_0$ | [dark-energy](dark-energy.md) §II, §VI |
+| **MIT** | Negative coefficient $-\beta$ with $|\beta| < 0.012$ at 95% CL from current data; magnitude tied to $s_0$ | [dark-energy](dark-energy.md) §II, §VI |
 | **ΛCDM** | Exactly zero (Friedmann has no $(1+z)^1$ component) | Standard Friedmann cosmology |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | Approximately zero; CPL has no isolated linear-in-<i>z</i> coefficient in $H^2$ | Linder (2003) parameterization |
 | **EDE** | Approximately zero at Euclid DR1 redshifts | Poulin et al. class |
