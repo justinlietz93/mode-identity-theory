@@ -30,7 +30,7 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 
 | # | Observable | MIT prediction | Euclid DR1 channel | Falsifies MIT if |
 |---|---|---|---|---|
-| I | $\Lambda$ epoch-independence | $\Lambda_\text{obs} = 3/R^2$ is the topological eigenvalue; $\Omega_\text{DE}(z)$ flat across all DR1 redshift bins | Spectroscopic BAO across four $z$ bins + photometric weak lensing (3×2pt); $\Omega_\text{DE}(z)$ reconstruction and CPL fit | Reconstructed $\Omega_\text{DE}(z)$ varies at $\geq 2\sigma$ across DR1 bins in a model-independent (binned or non-parametric) reconstruction |
+| I | $\Lambda$ epoch-independence | $\Lambda_\text{obs} = 3/R^2$ is topologically fixed; $\Omega_\text{DE}(z)$ flat across all DR1 redshift bins | Spectroscopic BAO across four $z$ bins + photometric weak lensing (3×2pt); $\Omega_\text{DE}(z)$ reconstruction and CPL fit | Reconstructed $\Omega_\text{DE}(z)$ varies at $\geq 2\sigma$ across DR1 bins in a model-independent (binned or non-parametric) reconstruction |
 | II | $a_0(z)$ evolution | $a_0(z) = a_0(0) \cdot H(z)/H_0$; $a_0(z{=}1.5) \approx 2.4\times$ local | Galaxy-galaxy weak lensing stellar-mass-halo-mass relation; photometric/spectroscopic galaxy samples for high-<i>z</i> scaling relations | Euclid DR1 galaxy-galaxy lensing and stellar-mass-halo-mass scaling show no enhancement consistent with the predicted $a_0(z)$ evolution, while external $z \approx 1$–1.5 kinematic follow-up rules out the predicted $a_0(z)$ evolution at $\geq 2\sigma$, with $a_0(z{=}1.5)$ consistent with the constant $a_0(0)$ |
 | III | $w_\text{eff}(z)$ trajectory | $w_\text{eff}(z) > -1$ at all $z$ (fiducial split, proven) | Spectroscopic BAO ($z = 0.9$–1.8, four bins) combined with photometric weak lensing; CPL parameter posterior | Fiducial split gives $w_\text{eff}(z) < -1$ at $\geq 2\sigma$ |
 | IV | Stellar mass function at $z \gtrsim 10$ | JWST-style massive galaxies persist in Euclid wide-area statistics; reachable with $\varepsilon_\text{SF} \lesssim 1$ under $a_0(z{=}10) \approx 20.5\times$ | Wide-area photometric source catalog with high-<i>z</i> selection; NISP/ancillary spectroscopic confirmation where available | Abundance of $M_{*} \sim 10^{10}\ M_\odot$ galaxies at $z > 10$ falls within Boylan-Kolchin (2023) ΛCDM SMF forecast at $\geq 2\sigma$ |
@@ -46,7 +46,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 
 | Framework | Prediction | Source |
 |---|---|---|
-| **MIT** | $\Lambda_\text{obs}$ is a topological eigenvalue; $\Omega_\text{DE}(z)$ is flat at every DR1 redshift bin | [cosmological-constant](cosmological-constant.md), [first-eigenvalue](../../framework/files/bedrock/files/first-eigenvalue.md) |
+| **MIT** | $\Lambda_\text{obs}$ is topologically fixed; $\Omega_\text{DE}(z)$ is flat at every DR1 redshift bin | [cosmological-constant](cosmological-constant.md), [first-eigenvalue](../../framework/files/bedrock/files/first-eigenvalue.md) |
 | **ΛCDM** | $\Lambda$ constant by construction | Standard Friedmann cosmology |
 | **w<sub>0</sub>w<sub>a</sub>CDM** | DESI DR2 best fit: $(w_0, w_a) = (-0.42 \pm 0.21,\; -1.75 \pm 0.58)$ (BAO+CMB), implying time-varying dark energy density; $\Omega_\text{DE}(z)$ not flat | DESI DR2 BAO+CMB combined fit |
 | **EDE** | Early dark energy component active near $z \sim 3000$; at low $z$, $\Omega_\text{DE}(z)$ approximately flat | Poulin, Smith, Karwal class |
