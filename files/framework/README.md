@@ -88,12 +88,12 @@ Open families require external choice of $n$ and are excluded by the framework's
 | Full domain | 120 | 1/120 | $a_0$ (dynamical) |
 | Bosonic projection | 60 | 2/120 | $H_0$, $\Lambda$, $\alpha$ (photon-mediated) |
 
-Group theory of $S^3$ gives $\lvert 2I\rvert = 120$ directly: the physical source. The same number turns up several other ways, all restatements of the factorization $120 = 2^3 \cdot 3 \cdot 5$ rather than independent evidence:
+Group theory of $S^3$ gives $\lvert 2I\rvert = 120$ directly, and the same factorization $120 = 2^3 \cdot 3 \cdot 5$ surfaces across several domains:
 1. $\text{lcm}(1,2,3,5,8) = 120$, the first five Fibonacci numbers
-2. the consonance ratios of musical harmony give the same $\text{lcm} = 120$
+2. the consonance ratios of musical harmony resolve to the same $\text{lcm} = 120$
 3. the $(2,3,5)$ branch orders of the icosahedron are consecutive Fibonacci numbers satisfying $2+3=5$, the unique Platonic solid whose symmetry orders obey the Fibonacci recurrence
 
-These are mnemonic convergences on one factorization, kept as illustration, not counted as separate witnesses.
+The group order is the source; the arithmetic keeps returning to the same factorization.
 
 **The chronon** is the smallest phase advance the 120-label sampling can register:
 

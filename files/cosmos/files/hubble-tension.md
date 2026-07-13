@@ -17,7 +17,7 @@ Measurements of the Hubble constant have split into two persistent camps: the co
 
 ## I. The Tension
 
-The Planck CMB measurement gives $H_0 = 67.4 \pm 0.5$ km/s/Mpc at $z \approx 1100$. The SH0ES collaboration measures $H_0 = 73.0 \pm 1.0$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $z \approx 0$. The gap is ~9%, persistent across independent local methods: Cepheids, tip of the red giant branch, surface brightness fluctuations, and megamasers. The MIT phase-clock best-fit to Pantheon+ and DESI DR2 BAO independently recovers $H_0 \approx 67.4$ km/s/Mpc, confirming the CMB value as the bare-well measurement.
+The Planck CMB measurement gives $H_0 = 67.4 \pm 0.5$ km/s/Mpc at $z \approx 1100$. The SH0ES collaboration measures $H_0 = 73.0 \pm 1.0$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $z \approx 0$. The gap is ~9%, persistent across independent local methods: Cepheids, tip of the red giant branch, surface brightness fluctuations, and megamasers. The MIT phase-clock fit to Pantheon+ and DESI DR2 BAO prefers the low, Planck-side $H_0 \approx 67.4$ km/s/Mpc ($H_0$ is the fitted edge anchor, not a derived output), landing on the CMB side of the tension rather than the SH0ES side.
 
 Systematic explanations have been scrutinized for a decade. The tension survives. It appears to be real.
 
