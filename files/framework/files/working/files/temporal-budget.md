@@ -62,7 +62,7 @@ The observable Hubble rate is read on the Hubble clock $d\tau_H = S^{1/2}\,dt$ (
 
 $$H = \frac{1}{S}\frac{dS}{d\tau_H} \propto \frac{\Psi}{S^{3/2}} \propto S^{-3/2}.$$
 
-The exponent is not fitted. It is forced by two structural facts.
+The exponent is not a free parameter in the baseline fit. Its target value is fixed by imposing standard 3D matter dilution and the Friedmann relation (both imported from GR); the tested integer alternatives are then strongly disfavored by the data. A postulate-level derivation remains open.
 
 | Factor | Contribution | Origin |
 |---|---|---|
@@ -71,7 +71,7 @@ The exponent is not fitted. It is forced by two structural facts.
 
 Their ratio is 3/2, appearing as the exponent on $H$ and as -1/2 on the clock ($1 - 3/2 = -1/2$). It is numerically the same 3/2 that relates $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$, but not yet shown to be the same object: that conversion's 3/2 is (isotropic Ricci trace)/(de Sitter normalization), derived-times-imported ([cosmological constant](../../../../cosmos/files/cosmological-constant.md) §IV), while this one is (matter dilution)/(Friedmann square root). Tying both 3's to the $Z_3$ face stabilizer and both 2's to the edge stabilizer is a MOTIVATED correspondence, not a derived identity.
 
-Alternative integer-power clocks ($S^0$, $S^{-1}$, $S^{+1}$ — Models A, B, C) produce $(1+z)^0$, $(1+z)^2$, $(1+z)^1$ in $H^2$. Only the 3/2 clock gives $(1+z)^3$, which is what matter-era Friedmann scaling requires. Data closes the selection; structure forces it.
+Alternative integer-power clocks ($S^0$, $S^{-1}$, $S^{+1}$ — Models A, B, C) give $H \propto (1+z)^1$, $(1+z)^2$, $(1+z)^0$ respectively; only $n = -1/2$ gives $H \propto (1+z)^{3/2}$, i.e. $H^2 \propto (1+z)^3$, the matter-era scaling. Data selects it within the tested clock family; the postulate-level mechanism remains open.
 
 **Empirical validation (Λcos paper, 2026).** All three integer alternatives were fitted to the joint Pantheon+ + DESI DR2 BAO dataset. Results:
 
@@ -109,7 +109,7 @@ The joint fit is driven by BAO data at $z > 1$ which constrain the differential 
 
 Pure budget without $\Lambda$ gives $q_0 = +0.5$ (deceleration). Data requires $q_0 \approx -0.55$ (acceleration). $\Lambda$ from topology is necessary; it is also already derived elsewhere in the framework (not a parameter introduced here).
 
-**$\Omega_\Lambda$ sensitivity (Λcos paper).** With $\Omega_\Lambda$ fixed at 0.685, the SN+BAO fit gives $\Delta\chi^2 = +0.11$. The constraint varies smoothly across $\Omega_\Lambda = 0.68-0.715$, with the best $\Delta\chi^2$ near 0.69. Adding compressed Planck distance priors shifts the preferred $\Omega_\Lambda$ to $\sim 0.714$ (in both Λcos and non-flat ΛCDM); with $\Omega_\Lambda$ freed, Λcos and non-flat ΛCDM are indistinguishable ($\Delta\chi^2 = +0.28$). The shift is a background-distance consistency issue in the compressed-prior setup, driven by the BAO sector, and applies to both models. The topology-fixed value $\Omega_\Lambda = 0.685$ is stable for SN+BAO; the CMB tension merits further study with the full Planck likelihood.
+**$\Omega_\Lambda$ sensitivity (Λcos paper).** With $\Omega_\Lambda$ fixed at 0.685, the SN+BAO fit gives $\Delta\chi^2 = +0.11$. The constraint varies smoothly across $\Omega_\Lambda = 0.68-0.715$, with the best $\Delta\chi^2$ near 0.69. Adding compressed Planck distance priors shifts the preferred $\Omega_\Lambda$ to $\sim 0.714$ (in both Λcos and non-flat ΛCDM); with $\Omega_\Lambda$ freed, Λcos and non-flat ΛCDM are indistinguishable ($\Delta\chi^2 = +0.28$). The shift is a background-distance consistency issue in the compressed-prior setup, driven by the BAO sector, and applies to both models. The fiducial value $\Omega_\Lambda = 0.685$ is stable for SN+BAO; the CMB tension merits further study with the full Planck likelihood.
 
 ---
 
@@ -129,7 +129,7 @@ At best-fit $s_0 = 0.389$, the effective reading is 0.372; the underlying value 
 
 ## V. The $(1+z)^1$ Signature
 
-A negative $(1+z)^1$ term at $\sim 4\%$ of $H^2$ appears in the expansion. It has no source in any standard FLRW component:
+A negative $(1+z)^1$ term at $\sim 4\%$ of $H^2$ appears in the expansion. The exponent itself is not unavailable to FLRW: a constant-$w = -2/3$ component (an idealized domain-wall network) scales as $(1+z)^1$. What is distinctive is the sign and the algebraic tie:
 
 | Component | Redshift scaling |
 |---|---|
@@ -138,8 +138,9 @@ A negative $(1+z)^1$ term at $\sim 4\%$ of $H^2$ appears in the expansion. It ha
 | Curvature | $(1+z)^2$ |
 | Dark energy ($w=-1$) | $(1+z)^0$ |
 | Phantom ($w<-1$) | $(1+z)^n$, $n<0$ |
+| Domain walls ($w=-2/3$) | $(1+z)^1$, positive coefficient |
 
-None gives a $(1+z)^1$. The term is the fingerprint of bounded realization: $\sin(t/2) \leq 1$ at the boundary introduces a lower-order correction that a monotonic density cannot reproduce.
+A positive-energy $w = -2/3$ fluid would contribute this term with the opposite, positive sign. The Λcos fingerprint is the *negative* coefficient, tied algebraically to the positive $(1+z)^3$ deformation by the single parameter $s_0$ ($\beta = -(1-\Omega_\Lambda)s_0^2/(1-s_0^2)$). That tie, not the bare exponent, is what no independent FLRW component reproduces.
 
 Currently below Pantheon+ detection threshold. Future surveys (Euclid, Roman, LSST) are expected to reach percent-level $H(z)$ precision. The sign and approximate magnitude of the term are prediction.
 
@@ -178,7 +179,7 @@ $$\begin{aligned}
 \Psi^2 + S^2 = 1 & \quad \text{[PROPOSED; consistent with data]}\\
 S = \sin(t/2) & \quad \text{[FOLLOWS]}\\
 dt/d\tau_H = S^{-1/2} & \quad \text{[FORCED by $S^3$ dimensionality $+$ GR; empirically validated, integer alternatives ruled out at $\Delta\chi^2 > 60$]}\\
-H^2(z) \text{ from budget} + \Lambda & \quad \text{[DERIVED]}\\
+H^2(z) \text{ from budget} + \Lambda & \quad \text{[MODEL-DERIVED, conditional on the imported clock and fixed vacuum anchor]}\\
 \text{Fit to Pantheon+} & \quad \text{[ESTABLISHED: } \Delta\chi^2 = +0.6\text{]}\\
 \text{Joint fit to SN+BAO} & \quad \text{[ESTABLISHED: } \Delta\chi^2 = +0.11, \; s_0 < 0.19 \text{ (95\% CL)]}\\
 \Omega_m = 0.315 \text{ inherited} & \quad \text{[INHERITED: flat-closure complement, not a fit output]}\\
@@ -203,6 +204,8 @@ Two parameterizations of the same phase on $S^1$ are in use:
 | $\Phi$ (engine phase) | $\Phi = 4\pi T/T_\text{cycle}$, linear in the Hubble-clock age $T$ | $\Phi_\text{now} = 5.22$ rad ($4\pi\,(13.8/33) = 5.26$, from the observed age; under re-derivation) |
 | $t$ (budget phase) | Nonlinear in the Hubble-clock age; argument of $\cos(t/2)$ | $t_\text{now} < 0.38$ rad (joint; 0.80 SN-only) |
 
+**Numbers deprecated pending the clock normalization.** The $0.79$ Gyr inversion and the factor of $\sim$17 below were computed on the interface tick measure $S^{3/2}\,dt$, not the Hubble clock $S^{1/2}\,dt$ the distance model uses. They are kept as the audit trail, but the numerical size of the $t$–$\Phi$ discrepancy must be recomputed once the clock normalization and full-cycle convention are fixed; only its direction is currently robust. A conversion of the $4\pi$ phase period to a duration in Gyr likewise waits on that map.
+
 They refer to the same underlying phase advance, but the two values as stated remain an open discrepancy, and it traces to one substituted number: the age fed into $\Phi_\text{now}$. The engine phase is linear in that age, $\Phi_\text{now} = 4\pi\,(T_\text{now}/33\,\text{Gyr})$. Inverting the clock from the measured $t_\text{now} < 0.38$ rad gives $T_\text{now} \lesssim 0.79$ Gyr (the $\Phi \lesssim 0.3$ rad below, in age units), an estimate written on the tick step $S^{3/2}\,dt$; recomputing it on the Hubble clock $S^{1/2}\,dt$ the distance model uses moves the number, not the direction of the discrepancy. But $\Phi_\text{now} = 5.22$ used the observed ~13.8 Gyr instead: $4\pi\,(13.8/33) = 5.26$, ~0.7% above the stated 5.22, so it drifts even from its own origin. The fold is the same and correctly linear both times; only the age moved, $\lesssim 0.79$ against 13.8 Gyr, a factor of ~17. That single borrow has two bad faces: 13.8 Gyr is a ΛCDM number, and ΛCDM has neither a turnaround nor a $4\pi$ period, so it imports an age from a model lacking the cyclic structure the engine phase assumes; and it skips inverting the clock from $t_\text{now}$. One substitution, two faces, not two errors.
 
 Run through the clock, the two values cannot share one trajectory. Forward, $t_\text{now} < 0.38$ rad maps to $\Phi \lesssim 0.3$ rad; inverse, $\Phi = 5.22$ rad requires $t \approx 2.8$ rad, i.e. $s_0 = \sin(t/2) \approx 0.98$, far above even the loosest Pantheon+-only $s_0 = 0.389$. The direction is forced: $\Phi$ is linear in the Hubble-clock age while $t$ advances through a clock that accrues it slowly when $S$ is small, so the engine fraction stays below the budget fraction, and the clock holds $\Phi$ below the 41.5% that 5.22 represents.
@@ -215,8 +218,8 @@ This carries a specific quantified discrepancy, and $\Phi_\text{now} = 5.22$ is 
 
 | Connection | Content |
 |---|---|
-| [Spatial budget $u_0^2 + J^2 = 1$](../../../../cosmos/files/cosmological-constant.md) | The temporal budget is its twin. Spatial budget sets $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$; temporal budget sets the Waltz clock. The same numerical 3/2 sits in both; whether it is the same geometric ratio is open. |
-| [Sector $\mathcal{A}$ eigenvalue](../../bedrock/files/first-eigenvalue.md) | Fixes $\Lambda_\text{top}$, hence $\Omega_\Lambda = 0.685$ as input to the fit. |
+| [Spatial budget $u_0^2 + J^2 = 1$](../../../../cosmos/files/cosmological-constant.md) | The temporal budget is its structural analog (both are $\sin^2 + \cos^2 = 1$ budgets). Spatial budget sets $\Lambda_\text{obs} = (3/2)\Lambda_\text{top}$; temporal budget sets the Waltz clock. The same numerical 3/2 sits in both; whether it is the same geometric ratio is open. |
+| [Sector $\mathcal{A}$ eigenvalue](../../bedrock/files/first-eigenvalue.md) | Supplies $\Lambda_\text{top} = 2/R^2$, read via the Gauss conversion as $\Lambda = 3/R^2$. The dimensionless present-day fraction $\Omega_\Lambda = 0.685$ remains a fiducial fit anchor, not derived by the eigenvalue (it also needs the cosmological normalization). |
 | [Hubble tension](../../../../cosmos/files/hubble-tension.md) | The Waltz clock $H \propto S^{-3/2}$ is the mechanism underlying the early/late discrete snap. |
 | [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md) | Same sampling-operation picture. Redshift as phase ratio + energy as resolution amplitude should unify into a single account. Open. |
 | [Λcos paper](https://github.com/dmobius3/lambda-cos) | Presents Model D+Λ as a standalone phenomenological model ("Λcos") without framework language. Joint SN+BAO constraint: $s_0 < 0.19$ (95% CL). Template bias demonstrated: CPL/BA/JBP produce phantom crossings from non-phantom input. Clock exponent empirically validated. Linear-growth consistency check against DESI DR1 ShapeFit+BAO at six tracer effective redshifts gives $\Delta\chi^2_\text{RSD} < 0.3$ relative to flat ΛCDM. First quantitative constraint on the budget phase parameter from joint background and growth data. |
@@ -227,7 +230,7 @@ This carries a specific quantified discrepancy, and $\Phi_\text{now} = 5.22$ is 
 
 | Item | Priority | Notes |
 |---|---|---|
-| Clock from postulate | High | The exponent -1/2 is forced by consistency with budget + GR + $S^3$ dimensionality. Integer alternatives empirically ruled out at $\Delta\chi^2 > 60$ (Λcos paper). A derivation from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ that does not invoke GR would promote this from ESTABLISHED to DERIVED. |
+| Clock from postulate | High | The exponent -1/2 is forced by consistency with budget + GR + $S^3$ dimensionality. Integer alternatives empirically ruled out at $\Delta\chi^2 > 60$ (Λcos paper). A derivation from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ that does not invoke GR would promote this from FORCED (given the GR imports) to DERIVED. |
 | $t_\text{now}$ from topology | High | The Pantheon+-only fit gives $t_\text{now} = 0.80$ rad; the joint SN+BAO constraint gives $t_\text{now} < 0.38$ rad (95% CL). The BAO data pull the clock toward zero (the ΛCDM limit). Deriving $t_\text{now}$ from topology alone, rather than from data, closes the program, but the empirical value is now uncertain by a factor of $\sim 2$ depending on dataset combination. |
 | $\Phi \leftrightarrow t$ relation | High | The two phase parameters must be reconciled. |
 | Vertex-<i>Z<sub>5</sub></i> role in bounded-budget correction | Medium | If the $(1+z)^1$ term derives from $Z_5$ in the temporal budget, the face/edge/vertex completion of the 3/2 accounting becomes explicit. |
@@ -274,7 +277,7 @@ No standard FLRW component produces a $(1+z)^1$ term (§V). At the joint 95% CL,
 
 ### C. Growth of structure $f(z)\sigma_8(z)$ from RSD
 
-With EFE unchanged, linear growth obeys $\delta'' + (2 + H'/H)\delta' - (3/2)\Omega_m(z)\delta = 0$ in $x = \ln a$. The Λcos modification enters only through $H(z)$; no perturbation-level sound-speed or anisotropic-stress parameter is needed (the $(1+z)^1$ correction is a background-level term, not an independent clustering component). The full ODE solve at the SN+BAO best fit is reported in the Λcos paper §VI.C.
+Under the phenomenological closure in which ordinary matter obeys the standard GR linear-growth equation $\delta'' + (2 + H'/H)\delta' - (3/2)\Omega_m(z)\delta = 0$ ($x = \ln a$) and the budget correction affects only the smooth background $H(z)$, no separate perturbation-level parameter is introduced. This is a closure, not a derivation: a modified background does not by itself fix the perturbation sector, which would need a covariant source (the open amplitude-to-$T_{\mu\nu}$ dictionary). So the result below is a consistency check under that closure, not a derived perturbation theory. The full ODE solve at the SN+BAO best fit is reported in the Λcos paper §VI.C.
 
 | Quantity | MIT ($s_0 = 0.076$, posterior median) | MIT ($s_0 = 0.185$, 95% UL) | ΛCDM |
 |---|---|---|---|
@@ -307,7 +310,7 @@ Direct $a_0(z)$ rotation-curve tests require external kinematic follow-up beyond
 | Apparent $w_a$ from CPL fit at $s_0 = 0.19$ | $\approx +0.29$ | 0 |
 | $\Delta\chi^2$ vs ΛCDM (SN+BAO) | +0.11 | 0 |
 
-The apparent phantom crossing is a structural artifact of projecting a non-phantom $H(z)$ form onto two-parameter templates (CPL, BA, JBP). The three-parameter polynomial does not produce the crossing (Λcos paper Table II). At data-allowed $s_0$, the induced distortion is modest and of opposite sign to the DESI best-fit ($w_0 \approx -0.75$, $w_a \approx -0.86$). The mechanism is established; the amplitude gap remains.
+The apparent phantom crossing is demonstrated for CPL, BA, and JBP fitted to the non-phantom $H(z)$; the three-parameter polynomial does not produce it (Λcos paper Table II). At data-allowed $s_0$, the induced distortion is modest and of opposite sign to the DESI best-fit ($w_0 \approx -0.75$, $w_a \approx -0.86$) — the opposite $w_a$ sign is the principal negative result. The mechanism is shown for these three templates; it is not shown that DESI's crossing is explained by it, and the amplitude gap remains.
 
 ### F. Null channels (topology-fixed)
 
@@ -329,7 +332,7 @@ The apparent phantom crossing is a structural artifact of projecting a non-phant
 
 ### H. Clock-setting logic
 
-The prediction set is over-determined in principle. One fit parameter ($s_0$) forecasts $H(z)$, $f\sigma_8(z)$, $a_0(z)$, and the template bias signature simultaneously. If all channels hit within their stated precision, $s_0$ is independently over-determined by Euclid DR1 alone — the clock is empirically set without needing the postulate-level derivation of $t_\text{now}$ to have closed yet. If channels disagree, the model fails before the postulate-level derivation matters.
+The prediction set is over-determined in principle. One fit parameter ($s_0$) forecasts $H(z)$, $f\sigma_8(z)$, $a_0(z)$, and the template bias signature simultaneously. These channels are partially correlated: $H(z)$, the distances, the template reconstruction, the growth trajectory (under the closure above), and $a_0(z)$ are all transformations of the same background relation. So one $s_0$ is cross-constrained rather than independently over-determined. Agreement across them tests the consistency of the shared phase-clock relation; disagreement falsifies at least one of its downstream mappings. Either way the clock is set empirically without the postulate-level derivation of $t_\text{now}$ having closed.
 
 **Current tension.** Pantheon+ alone accommodates $s_0 \sim 0.39$; joint SN+BAO constrains $s_0 < 0.19$ (95% CL). The BAO data are pulling the clock toward zero. Euclid DR1 BAO will either confirm the tighter constraint (in which case the model's observable departures from ΛCDM become marginal at DR1 precision and the discriminating test moves to DR2/next-generation) or open room for larger $s_0$ (in which case the full prediction ledger remains live). Either outcome is informative.
 
