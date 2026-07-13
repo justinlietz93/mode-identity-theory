@@ -69,8 +69,8 @@
 </div>
 <div class="annotation" id="annotPanel">
   <div class="a-label" id="aLabel">Topology</div>
-  <div class="a-name" id="aName">Totally Geodesic Embedding</div>
-  <div class="a-body" id="aBody">The M&#246;bius strip lives ON the great S&#178; within S&#179;. Its geodesics are geodesics of space. The metric pinches to a cone point at the pole, where the eigenfunction peaks.</div>
+  <div class="a-name" id="aName">Geodesic Band, M&#246;bius Quotient</div>
+  <div class="a-body" id="aBody">The M&#246;bius arises as the edge-identified quotient of a band on the great S&#178; within S&#179;. That great S&#178; is totally geodesic, so the band's geodesics are geodesics of space; the M&#246;bius is that quotient, not a smooth totally geodesic submanifold. The metric pinches to a cone point at the pole, where the eigenfunction peaks.</div>
   <div class="a-math" id="aMath">λ₀ = R_Σ = 2/R²</div>
 </div>
 <div class="bottom-bar"><div class="hint">drag to orbit · scroll to zoom · click layers to toggle</div></div>
@@ -127,7 +127,7 @@ scene.add(gMesh);
 var spaceGroup = [shMesh, wMesh, gMesh];
 
 // ═══════════════════════════════════════════
-//  MÖBIUS STRIP — totally geodesic on S²
+//  SPHERICAL BAND on the totally geodesic great S² (Möbius = edge-identified quotient)
 //  ds² = dy² + cos²(y/R) dw²
 //  Widest at equator (y=0), pinches at pole (y=π/2)
 // ═══════════════════════════════════════════
@@ -276,7 +276,7 @@ document.addEventListener('touchend', function() { drag=false; });
 var layers = { space:true, surface:true, edge:true, cone:true, wave:true, sample:true };
 var ann = {
   space: { label:"Space", name:"S\u00B3 Hypersphere", body:"Closed, simply connected, no boundary. The Poincar\u00E9 theorem guarantees S\u00B3 is unique. Contains everything. Holds everything.", math:"\u2202S\u00B3 = \u2205" },
-  surface: { label:"Surface", name:"Totally Geodesic M\u00F6bius", body:"The strip lives ON the great S\u00B2 within S\u00B3. Its geodesics are geodesics of space. The metric ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2 carries constant curvature K = 1/R\u00B2. Widest at the equator, pinching to a point at the pole. The twist is topological, not geometric \u2014 it lives in the identification of the boundary, not the embedding.", math:"ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2" },
+  surface: { label:"Surface", name:"Geodesic Band, M\u00F6bius Quotient", body:"A band on the great S\u00B2 within S\u00B3. That great S\u00B2 is totally geodesic, so the band's geodesics are geodesics of space; the M\u00F6bius is its edge-identified quotient, not a smooth totally geodesic submanifold of S\u00B3. The metric ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2 carries constant curvature K = 1/R\u00B2. Widest at the equator, pinching to a point at the pole. The twist is topological, not geometric: it lives in the boundary identification, not in the geometry of the band.", math:"ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2" },
   edge: { label:"Edge", name:"S\u00B9 Boundary", body:"A single closed loop traversing the strip twice. Two arcs from equator through the cone point and back, connected by the M\u00F6bius twist. Where time lives and where \u03A8 is sampled.", math:"S\u00B9 = \u2202(M\u00F6bius)" },
   cone: { label:"Cone Point", name:"The Antinode", body:"At y = \u03C0R/2, cos(y/R) \u2192 0. The strip pinches to a single point: the pole of S\u00B2. The geometry goes quiet. The eigenfunction peaks: u\u2080 = 1, u\u2080\u2032 = 0. Maximum amplitude at zero width.", math:"u\u2080(\u03C0R/2) = 1" },
   wave: { label:"Eigenfunction", name:"u\u2080 = sin(y/R)", body:"First positive eigenfunction of the twisted Laplacian. Zero at equator, maximum at cone point. Anti-periodic: u\u2080(y + \u03C0R) = \u2212u\u2080(y). The Rayleigh quotient and Bochner bound meet at equality.", math:"\u03BB\u2080 = R\u03A3 = 2/R\u00B2" },

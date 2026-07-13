@@ -6,7 +6,7 @@
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed redshift, Einstein removed Λ, calling it his 'biggest blunder.' A century later, standard cosmology revived Λ as 'dark energy.' This note reframes Λ as geometry: its coefficient is set by the first positive curvature mode of the cosmic boundary, in a static universe where redshift is phase evolution on the boundary. Einstein's instinct to keep Λ geometric was sound.
 
-The Möbius band selects half-integer modes; the lowest positive eigenvalue is the surface scalar curvature $R_\Sigma = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss equation, under totally geodesic embedding and isotropy, converts this surface seed to the model relation $\Lambda(R) = 3/R^2$, larger by a factor of 3/2.
+The Möbius band selects half-integer modes; the lowest positive eigenvalue is the surface scalar curvature $R_\Sigma = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss equation, under the totally geodesic embedding of the covering great-$S^2$ band (with the Möbius as its edge-identified quotient) and isotropy, converts this surface seed to the model relation $\Lambda(R) = 3/R^2$, larger by a factor of 3/2.
 
 | Quantity | Value |
 |---|---|
@@ -125,9 +125,9 @@ The Möbius surface fixes the boundary condition and selects which eigenvalue is
 
 ### A. The Totally Geodesic Condition
 
-The embedding that matches the first positive mode is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition. It carries no bending information, and the totally geodesic metric is the one whose curved Laplacian has the zonal first-positive mode $\sin(y/R)$ as its eigenfunction. The selection is geometric, not nodal.
+The metric that matches the first positive mode is the totally geodesic one, with no extrinsic structure ($K_{ij} = 0$) on the covering great-$S^2$ band. This is the totally geodesic condition. It carries no bending information, and the totally geodesic metric is the one whose curved Laplacian has the zonal first-positive mode $\sin(y/R)$ as its eigenfunction. The selection is geometric, not nodal.
 
-$K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. The covering $S^2 \subset S^3$ is totally geodesic ($K_{ij} = 0$ everywhere). The Möbius band is constructed from a spherical band on this $S^2$ by the boundary-edge identification $(0, w) \sim (\pi R, -w)$ and inherits the constant-curvature metric through this construction.
+$K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. The covering $S^2 \subset S^3$ is totally geodesic ($K_{ij} = 0$ everywhere). The Möbius band is constructed from a spherical band on this $S^2$ by the boundary-edge identification $(0, w) \sim (\pi R, -w)$ and inherits the constant-curvature metric through this construction. This covering construction is forced, not a modeling choice: a totally geodesic surface in $S^3$ lies in a great $S^2$, which is orientable, so no Möbius band in $S^3$ can itself be totally geodesic.
 
 A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature metric
 
@@ -199,7 +199,7 @@ This is the surface scalar curvature, carried into the Gauss-Codazzi conversion 
 
 ## IV. The Conversion
 
-Section III delivers a single curvature value: the surface scalar curvature $R_\Sigma = 2/R^2$, established by two independent spectral routes. This value carries no $\Lambda$. The Gauss equation converts it into the cosmological constant through the standard general-relativistic chain. Under the totally geodesic embedding the Codazzi equation is trivially satisfied, so only the Gauss equation contributes; this is the Gauss-Codazzi conversion announced at the close of Section III. All of the new content is upstream, in the spectral identification of $R_\Sigma$; this section is the conventional conversion.
+Section III delivers a single curvature value: the surface scalar curvature $R_\Sigma = 2/R^2$, established by two independent spectral routes. This value carries no $\Lambda$. The Gauss equation converts it into the cosmological constant through the standard general-relativistic chain. Under the totally geodesic embedding of the covering great-$S^2$ band the Codazzi equation is trivially satisfied, so only the Gauss equation contributes; this is the Gauss-Codazzi conversion announced at the close of Section III. All of the new content is upstream, in the spectral identification of $R_\Sigma$; this section is the conventional conversion.
 
 ### A. What Is Imported
 
@@ -223,9 +223,9 @@ $$R_\Sigma = R_\text{spatial} - 2\,\text{Ric}(\mathbf{n},\mathbf{n}) + H^2 - A_{
 | $H$ | Trace of the second fundamental form ($g^{ij}A_{ij}$) |
 | $\mathbf{n}$ | Unit normal to the surface |
 
-### C. Totally Geodesic Embedding
+### C. Totally Geodesic Simplification
 
-For a totally geodesic embedding ($A_{ij} = 0$, $H = 0$), the equation simplifies:
+For the totally geodesic covering great-$S^2$ band ($A_{ij} = 0$, $H = 0$), the equation simplifies:
 
 $$R_\Sigma = R_\text{spatial} - 2\,\text{Ric}(\mathbf{n},\mathbf{n})$$
 
@@ -235,7 +235,7 @@ On an isotropic constant-curvature three-space, the spatial Ricci tensor is
 
 $$R_{ij} = \frac{R_\text{spatial}}{3}\,g_{ij},$$
 
-so $\text{Ric}(\mathbf{n},\mathbf{n}) = R_\text{spatial}/3$. Substituting into the totally geodesic Gauss equation:
+so $\text{Ric}(\mathbf{n},\mathbf{n}) = R_\text{spatial}/3$. Substituting into the reduced ($A_{ij} = 0$) Gauss equation:
 
 $$R_\Sigma = R_\text{spatial} - \frac{2\,R_\text{spatial}}{3} = \frac{R_\text{spatial}}{3}.$$
 
@@ -243,7 +243,7 @@ Inverting,
 
 $$R_\text{spatial} = 3\,R_\Sigma = \frac{6}{R^2}.$$
 
-This step is geometry: the factor 3 is the isotropic spatial Ricci trace under the totally geodesic condition ($A_{ij} = 0$).
+This step is geometry: the factor 3 is the isotropic spatial Ricci trace under the totally geodesic condition ($A_{ij} = 0$) realized on the covering great-$S^2$ band.
 
 ### E. Connection to Λ
 
@@ -272,7 +272,7 @@ $$\Lambda R^2 = \underbrace{(R_\Sigma R^2)}_{2}\cdot\underbrace{\tfrac{3}{2}}_{\
 | Element | Status |
 |---|---|
 | $R_\Sigma = 2/R^2$ (two routes, §III) | Derived |
-| Gauss factor 3 ($A_{ij} = 0$ + isotropy) | Derived |
+| Gauss factor 3 ($A_{ij} = 0$ on covering band + isotropy) | Derived |
 | de Sitter normalization (the 2 in $\Lambda = R_\text{spatial}/2$) | Imported |
 
 The framework supplies a geometric and spectral origin for the curvature seed $R_\Sigma$, then runs the standard de Sitter conversion. The new content is the seed; the conversion is GR.
@@ -333,10 +333,10 @@ Turning the relation into a number requires an independent $R$. The coupling ($\
 | 3 | Even transverse mode | 1D reduction |
 | 4 | Anti-periodic BC | Half-integer spectrum |
 | 5 | Isotropy (CMB) | Constant transverse mode ($m = 0$) |
-| 6 | Constant transverse mode ($m=0$) → totally geodesic → curved metric | $\lambda_1 = 2/R^2 = R_\Sigma$ |
+| 6 | Constant transverse mode ($m=0$) → totally geodesic covering band → curved metric | $\lambda_1 = 2/R^2 = R_\Sigma$ |
 | 7 | Bochner (regular sector) | $\lambda_1 \geq R_\Sigma$; pins $\lambda_1 = R_\Sigma$ |
 | 8 | $\lambda_1 = R_\Sigma = 2/R^2$ | surface curvature seed (no $\Lambda$) |
-| 9 | Gauss equation + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
+| 9 | Gauss equation + totally geodesic covering band | $R_\text{spatial} = 3R_\Sigma$ |
 | 10 | de Sitter (GR normalization, imported): $R_\text{spatial} = 2\Lambda$ | $\Lambda(R) = \frac{3}{2}\,R_\Sigma$ |
 | 11 | Model relation | $\Lambda(R) = 3/R^2$ |
 
@@ -347,7 +347,7 @@ Turning the relation into a number requires an independent $R$. The coupling ($\
 | Anti-periodic BC | Derived | Möbius topology |
 | $\lambda_1 = 2/R^2$ | Derived | Twisted Laplacian on curved surface (two routes, §III) |
 | $\lambda_1 \geq R_\Sigma$ (regular sector) | Derived | Bochner bound (§III.D) |
-| Gauss factor 3 | Derived | Totally geodesic embedding in isotropic $S^3$ |
+| Gauss factor 3 | Derived | Totally geodesic covering great-$S^2$ band in isotropic $S^3$ |
 | de Sitter normalization ($R_\text{spatial} = 2\Lambda$) | Imported | GR/de Sitter normalization |
 | Coefficient 3 ($=2\times\tfrac{3}{2}$) | Derived $\times$ imported | Seed $\times$ Gauss/de Sitter |
 | Scale $R$ | Open | The Molien gap does not fix $R$; two independent routes do: the coupling ($\alpha$) route (returns Λ to ~24%) and the particle mass spectrum (§V, order of magnitude) |

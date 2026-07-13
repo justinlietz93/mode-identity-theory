@@ -29,7 +29,7 @@ Three conditions simplify it:
 
 | Condition | Justification | Consequence |
 |---|---|---|
-| Totally geodesic embedding ($A_{ij} = 0$) | Ground state carries no extrinsic structure | $H^2 = A_{ij}A^{ij} = 0$ |
+| Totally geodesic covering great-$S^2$ band ($A_{ij} = 0$) | Vacuum metric inherited from the cover; the Möbius is its edge-identified quotient, not a smooth totally geodesic submanifold | $H^2 = A_{ij}A^{ij} = 0$ |
 | Isotropic space | CMB verified to $10^{-5}$ | $\text{Ric}(n,n) = R_{\text{space}}/3$ |
 | de Sitter vacuum | Algebraic definition of Λ in GR | $R_{\text{space}} = 2\,\Lambda_{\text{obs}}$ |
 
@@ -41,7 +41,7 @@ $$3\,\Lambda_{\text{top}} = 2\,\Lambda_{\text{obs}} \quad \Rightarrow \quad \Lam
 
 This recovers the vacuum Einstein equation as an output. The direction of logic is: the topology determines $R_{\text{space}} = 6/R^2$ through the Gauss equation; the Einstein equation then defines Λ as the name general relativity gives to $R_{\text{space}}/2$. The de Sitter relation is how GR translates spatial curvature into the parameter Λ; the topology supplies the specific value $\Lambda_{\text{obs}} = 3/R^2$. The dynamical consequence $H^2 = \Lambda/3$ then follows from standard cosmology.
 
-The Codazzi equation (momentum conservation) is satisfied to leading order in any infinitesimal normal deformation of the totally geodesic surface. For a totally geodesic starting point in a constant-curvature ambient space, the surface curvature contribution and the ambient curvature contribution have equal magnitude and opposite sign. Standing wave modes carry zero net momentum. The bridge is geometry.
+The Codazzi equation (momentum conservation) is satisfied to leading order in any infinitesimal normal deformation of the totally geodesic covering great-$S^2$ band. For a totally geodesic starting point in a constant-curvature ambient space, the surface curvature contribution and the ambient curvature contribution have equal magnitude and opposite sign. Standing-wave modes carry zero net momentum by parity on the symmetric covering band. The bridge is geometry.
 
 ### The surface leads only the vacuum
 

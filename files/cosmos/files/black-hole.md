@@ -137,7 +137,7 @@ The spectral mirror (§II.A) reinforces this: at $s = 0$, the spectral determina
 
 ### IV.A The Geometric Complement
 
-The [Sector A eigenvalue problem](../../framework/files/bedrock/files/first-eigenvalue.md) gives the first positive eigenfunction and the metric coefficient on the totally geodesic Möbius band in $S^3$:
+The [Sector A eigenvalue problem](../../framework/files/bedrock/files/first-eigenvalue.md) gives the first positive eigenfunction and the metric coefficient on a band of the totally geodesic great $S^2 \subset S^3$, whose edge-identified quotient is the Möbius band:
 
 $$u_0(y) = \sin(y/R), \qquad J(y) = \cos(y/R)$$
 
@@ -161,9 +161,9 @@ Equivalently: $C/2 + J^2 = 1$. Observation amplitude and transverse geometry are
 
 At the $C = 0$ locus, the surface is at its most geometrically intact. The Möbius band is wide open. The transverse direction has full extent ($J = 1$). The wave has maximum room. The eigenfunction vanishes because the curvature of the embedding uniquely selects a first positive mode whose zeros land on the central circle. The surface is healthy. Sampling is what fails.
 
-This complementarity is created by the curvature of $S^3$. On the flat strip, $J = 1$ everywhere, sin and cos are equally valid lowest modes, and there is no trade-off between geometry and observation. The totally geodesic embedding curves $J$ into $\cos(y/R)$, breaks the eigenfunction degeneracy in favor of $\sin(y/R)$, and couples the two through a shared curvature $K = 1/R^2$. The complementarity and the zero placement are both consequences of the embedding.
+This complementarity is created by the curvature of $S^3$. On the flat strip, $J = 1$ everywhere, sin and cos are equally valid lowest modes, and there is no trade-off between geometry and observation. The totally geodesic great $S^2 \subset S^3$ on which the band lies curves $J$ into $\cos(y/R)$, breaks the eigenfunction degeneracy in favor of $\sin(y/R)$, and couples the two through a shared curvature $K = 1/R^2$. The complementarity and the zero placement are both consequences of the great-$S^2$ geometry.
 
-**Status:** DERIVED. Follows from the Sector $\mathcal{A}$ eigenfunction, the Jacobi equation on $S^2 \subset S^3$, and the Pythagorean identity. The complementarity is forced by the totally geodesic embedding; any other embedding would break it.
+**Status:** DERIVED. Follows from the Sector $\mathcal{A}$ eigenfunction, the Jacobi equation on $S^2 \subset S^3$, and the Pythagorean identity. The complementarity is forced by the totally geodesic great-$S^2$ geometry the band inherits; any other ambient geometry would break it.
 
 ---
 

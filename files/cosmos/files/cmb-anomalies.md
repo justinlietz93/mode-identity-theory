@@ -21,7 +21,7 @@ Each is 2-3σ on its own, moves with the choice of estimator and mask, sits insi
 
 ## II. The manifold
 
-The spatial manifold is $M = S^3/2I$, where $2I$ is the binary icosahedral group of order 120, the largest exceptional finite subgroup of $\mathrm{SU}(2) \cong S^3$. It inherits the round metric of constant positive curvature, has $\pi_1(M) = 2I$ and $b_1 = 0$, and is orientable as a three-manifold. As the Poincaré homology sphere $\Sigma(2,3,5)$ it is chiral (§III). The Möbius surface of the broader framework lives inside this geometry as the source of the cosmological-constant eigenvalue, separate from the CMB spectrum. The curvature radius $R$ enters the harmonic spectrum (§IV); its value is the open problem of §V.
+The spatial manifold is $M = S^3/2I$, where $2I$ is the binary icosahedral group of order 120, the largest exceptional finite subgroup of $\mathrm{SU}(2) \cong S^3$. It inherits the round metric of constant positive curvature, has $\pi_1(M) = 2I$ and $b_1 = 0$, and is orientable as a three-manifold. As the Poincaré homology sphere $\Sigma(2,3,5)$ it is chiral (§III). The Möbius surface of the broader framework is the source of the cosmological-constant eigenvalue, separate from the CMB spectrum. The curvature radius $R$ enters the harmonic spectrum (§IV); its value is the open problem of §V.
 
 ## III. Chirality theorem
 
