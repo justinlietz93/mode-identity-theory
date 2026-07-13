@@ -250,7 +250,7 @@ The phase position decomposes as $\Theta = \Theta_0 + \Theta_f$, where $\Theta_0
 
 The slope at each well determines its character. $\Lambda$ at slope zero is immovable: topologically protected at the antinode. $H_0$ at slope 5.1 absorbs one bosonic step (2/120) as an 8.4% shift: $C(36/120)/C(34/120) = 1.084$, giving $67.4 \times 1.084 \approx 73$ km/s/Mpc. This arithmetic is fixed by well positions and independent of any galactic mechanism: the lattice step stands on its own, while the galactic trigger that would realize the shift is withdrawn (the SPARC test, detailed on the [Hubble tension](../cosmos/files/hubble-tension.md) page), so the 8.4% is a topological number without an active mechanism.
 
-$a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on IS the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
+$a_0$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on is the well position $C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P$. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
 
 ### [The Gauge Ladder](../spectrum/files/fine-structure.md)
 
@@ -269,7 +269,7 @@ Everything in this sector lives at two phase slots, the Fibonacci well 13 and it
 
 **17 is where the short-range forces anchor.** Strong and weak both take 17 as their phase slot; the grid difference between them, identity-preserving versus fermion-changing action, is what separates confinement from flavor-changing transitions. Here the 120 grid labels the action on the full orientation-sensitive fermion domain, not the spin of the mediator: the $W$ and $Z$ remain spin-1 bosons, their 120 assignment coming from that action, a motivated selection rule rather than a derived one.
 
-**Why the split is real.** The 60-grid is what survives the bosonic projection $2I \to I$, so it is what freely-propagating, photon-mediated quantities see. Fermions need the full 120-grid because they couple to the orientation structure of the Möbius strip directly. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
+**Why the split is real.** The 60R-grid is what survives the bosonic projection $2I \to I$, so it is what freely-propagating, photon-mediated quantities see. Fermions need the full 120-grid because they couple to the orientation structure of the Möbius strip directly. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
 
 The couplings then follow one assignment rule: the phase slot inherits the grid of the carrier, the exponent slot the grid of the confinement target.
 
