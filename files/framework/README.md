@@ -269,7 +269,7 @@ Everything in this sector lives at two phase slots, the Fibonacci well 13 and it
 
 **17 is where the short-range forces anchor.** Strong and weak both take 17 as their phase slot; the grid difference between them, identity-preserving versus fermion-changing action, is what separates confinement from flavor-changing transitions. Here the 120 grid labels the action on the full orientation-sensitive fermion domain, not the spin of the mediator: the $W$ and $Z$ remain spin-1 bosons, their 120 assignment coming from that action, a motivated selection rule rather than a derived one.
 
-**Why the split is real.** The 60R-grid is what survives the bosonic projection $2I \to I$, so it is what freely-propagating, photon-mediated quantities see. Fermions need the full 120-grid because they couple to the orientation structure of the Möbius strip directly. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
+**Why the split is real.** The 60R(realized)-grid is what survives the bosonic projection $2I \to I$, so it is what freely-propagating, photon-mediated quantities see. Fermions need the full 120-grid because they couple to the orientation structure of the Möbius strip directly. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
 
 The couplings then follow one assignment rule: the phase slot inherits the grid of the carrier, the exponent slot the grid of the confinement target.
 
