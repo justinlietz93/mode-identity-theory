@@ -6,9 +6,9 @@
 
 [![The Phantom Mirage](https://img.youtube.com/vi/23IxzJDo3pM/mqdefault.jpg)](https://www.youtube.com/watch?v=23IxzJDo3pM)
 
-Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau_H/dt = S^{1/2}$, and the Pantheon+ fit that recovers the observed $\Omega_m$.
+Working notes on the temporal budget $\Psi^2 + S^2 = 1$, the Waltz clock $d\tau_H/dt = S^{1/2}$, and the Pantheon+ distance fit. $\Omega_m = 0.315$ is the flat-closure complement $1 - \Omega_\Lambda$ of the fixed vacuum anchor, not read off the fit.
 
-**Status:** Established at model level. With $S = \sin(t/2)$ and the Waltz clock, Model D+Λ reproduces the Pantheon+ distance ladder at $\Delta\chi^2 = +0.6$ relative to flat ΛCDM on 1701 SNe Ia with full covariance, using two free parameters ($s_0$, $H_0$) — the same count as ΛCDM. $\Omega_m = 0.315$ is recovered from the $(1+z)^3$ coefficient. First-principles derivation of the clock exponent from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR remains open.
+**Status:** Established at model level. With $S = \sin(t/2)$ and the Waltz clock, Model D+Λ reproduces the Pantheon+ distance ladder at $\Delta\chi^2 = +0.6$ relative to flat ΛCDM on 1701 SNe Ia with full covariance, using two free parameters ($s_0$, $H_0$) — the same count as ΛCDM. $\Omega_m = 0.315$ is inherited from the fixed vacuum anchor through flat closure ($1 - \Omega_\Lambda$), not recovered from the fitted $(1+z)^3$ coefficient (which reads the budget-dressed 0.372 at $s_0 = 0.389$; see §IV). First-principles derivation of the clock exponent from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR remains open.
 
 **Dependencies:** Sector $\mathcal{A}$ spatial budget $u_0^2 + J^2 = 1$; $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$; Pantheon+ and DESI DR2 BAO (Λcos paper).
 
@@ -100,7 +100,7 @@ Two free parameters: $s_0 = \sin(t_\text{now}/2)$ and $H_0$. Same count as ΛCDM
 | $s_0$ (posterior median) | — | 0.076 | Fit |
 | $s_0$ (95% CL) | — | < 0.19 | Flat prior |
 | $t_\text{now}$ (budget phase) | 0.80 rad | < 0.38 rad (95%) | From $s_0$ |
-| $\Omega_m$ (recovered) | 0.315 | 0.315 | $(1+z)^3$ coefficient |
+| $\Omega_m$ (inherited) | 0.315 | 0.315 | $1 - \Omega_\Lambda$ (flat closure) |
 | $(1+z)^1$ coefficient | −0.056 | > −0.012 (95%) | Budget identity |
 | $H_0 r_d$ (km/s) | — | 10008 [9972, 10040] | Fit |
 | $\Delta\chi^2$ vs flat ΛCDM | +0.6 | +0.11 | 1701 SNe + 13 BAO |
@@ -123,7 +123,7 @@ $$\Omega_m^\text{effective} = \frac{1-\Omega_\Lambda}{1-s_0^2} \quad \text{(what
 
 At best-fit $s_0 = 0.389$, the effective reading is 0.372; the underlying value is 0.315. The Planck value is recovered after removing the budget-identity dressing, consistent with the fixed vacuum anchor; $\Omega_m = 1 - \Omega_\Lambda$ is the complement of that anchor, not an independent derivation.
 
-**Note on the joint constraint.** At $s_0 < 0.19$ (95% CL from SN+BAO), the dressing factor $1/(1-s_0^2)$ is at most 1.037, so $\Omega_m^\text{effective} < 0.327$. The dressing becomes small enough that the effective and underlying readings are nearly identical. This is consistent: the BAO data pull $s_0$ toward zero, which is the ΛCDM limit where no dressing exists. The recovered-$\Omega_m$ reading is structurally intact but observationally marginal at the current joint constraint.
+**Note on the joint constraint.** At $s_0 < 0.19$ (95% CL from SN+BAO), the dressing factor $1/(1-s_0^2)$ is at most 1.037, so $\Omega_m^\text{effective} < 0.327$. The dressing becomes small enough that the effective and underlying readings are nearly identical. This is consistent: the BAO data pull $s_0$ toward zero, which is the ΛCDM limit where no dressing exists. The effective-$\Omega_m$ reading is structurally intact but observationally marginal at the current joint constraint.
 
 ---
 
@@ -181,7 +181,7 @@ dt/d\tau_H = S^{-1/2} & \quad \text{[FORCED by $S^3$ dimensionality $+$ GR; empi
 H^2(z) \text{ from budget} + \Lambda & \quad \text{[DERIVED]}\\
 \text{Fit to Pantheon+} & \quad \text{[ESTABLISHED: } \Delta\chi^2 = +0.6\text{]}\\
 \text{Joint fit to SN+BAO} & \quad \text{[ESTABLISHED: } \Delta\chi^2 = +0.11, \; s_0 < 0.19 \text{ (95\% CL)]}\\
-\Omega_m = 0.315 \text{ recovered} & \quad \text{[ESTABLISHED: from fit coefficient]}\\
+\Omega_m = 0.315 \text{ inherited} & \quad \text{[INHERITED: flat-closure complement, not a fit output]}\\
 \text{Template bias demonstrated} & \quad \text{[ESTABLISHED: CPL/BA/JBP produce phantom crossings from non-phantom input]}
 \end{aligned}$$
 
