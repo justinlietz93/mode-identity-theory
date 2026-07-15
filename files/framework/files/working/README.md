@@ -160,7 +160,7 @@ Technical gaps with specific paths forward.
 
 ### [Black Hole Phase Behavior](files/black-hole-phase.md)
 
-**Problem:** $\Phi \to \Theta$ mapping derived at leading order ($C/C_0 = 1 - r_s/r$, $\beta = 1$ forced). Hawking temperature $1/M$ and coefficient derived; thermal character inherited. Area entropy motivated by surface primacy; 1/4 factor not derived. Two-attractor landscape established. Global corrections and quantitative evaporation rate remain open.
+**Problem:** $\Phi \to \Theta$ mapping derived at leading order near the horizon ($\beta = 1$ forced); the global form $C/C_0 = 1 - r_s/r$ is the minimal extension of that result, not independently forced. Hawking temperature: eigenfunction-gradient $1/M$ dependence and coefficient derived, normalization and thermal character inherited. Area entropy motivated by surface primacy; 1/4 factor not derived. $\Lambda$ and the horizon sit at opposite critical points of the same phase operator; whether either is a dynamical attractor requires an evolution law not yet written down. Global corrections and quantitative evaporation rate remain open.
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, [Black Double Zero's](../../../cosmos/files/black-hole.md).
 
