@@ -7,3 +7,7 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Private session priming (not public)
+/CLAUDE.md
+/Omega_lite.md
