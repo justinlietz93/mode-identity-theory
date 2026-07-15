@@ -6,7 +6,7 @@
 
 Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mode Identity Theory.*
 
-**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order near the horizon; its global form is a minimal extension, not independently forced. Hawking temperature: eigenfunction-gradient $1/M$ dependence and coefficient derived, temperature normalization and thermal character inherited (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the 1/4 factor remains open (§III). The domain is topologically closed (§VI).
+**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order near the horizon; its global form is a minimal extension, not independently forced. Hawking temperature: eigenfunction-gradient $1/M$ dependence and coefficient derived, temperature normalization and thermal character inherited (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the 1/4 factor remains open (§III). The domain is topologically closed (§VI). $\Lambda$ and the horizon are opposite critical points of $C(\Theta)$ (§VIII.6); whether either dynamically attracts $\Theta$ is open pending an evolution law.
 
 ---
 
@@ -22,6 +22,8 @@ General Relativity sits at the 3/2 Gauss equation interface, between the tempora
 | Event horizon: point of no return | Radius where enclosed $n = 2$ content closes the sampling channel |
 | Information destroyed | Information unsampled. Wave persists through the node. |
 | Entropy scales with area | Surface ($n = 2$) is fundamental. Area scaling is motivated; the factor 1/4 is open. |
+
+**On time specifically.** GR tells two stories depending on who is asked: time slows without limit for a distant observer watching infall, while an infalling observer's proper time continues normally to the singularity. MIT has one story with two readings: phase advances uniformly for every observer ($\Psi = \cos(t/2)$ is one wave), and what changes as $\Theta \to 0$ is $C(\Theta)$, the capacity to sample it. There is no moment where time stops. There is a moment where reading stops.
 
 ---
 
@@ -164,6 +166,8 @@ At the $C = 0$ locus, the surface is at its most geometrically intact. The Möbi
 This complementarity is created by the curvature of $S^3$. On the flat strip, $J = 1$ everywhere, sin and cos are equally valid lowest modes, and there is no trade-off between geometry and observation. The totally geodesic great $S^2 \subset S^3$ on which the band lies curves $J$ into $\cos(y/R)$, breaks the eigenfunction degeneracy in favor of $\sin(y/R)$, and couples the two through a shared curvature $K = 1/R^2$. The complementarity and the zero placement are both consequences of the great-$S^2$ geometry.
 
 **Status:** DERIVED. Follows from the Sector $\mathcal{A}$ eigenfunction, the Jacobi equation on $S^2 \subset S^3$, and the Pythagorean identity. The complementarity is forced by the totally geodesic great-$S^2$ geometry the band inherits; any other ambient geometry would break it.
+
+**Local flatness at the node, precisely.** At $y = 0$ (the central circle), the curvature term in the surface's Laplace-Beltrami operator ($\Delta u = u'' - \tfrac1R\tan(y/R)\,u'$) has coefficient zero, so the operator's principal expression coincides there with the flat-strip operator ($u''$). This is a pointwise coincidence, not a neighborhood one: expanding $\tfrac1R\tan(y/R) \approx y/R^2 + O(y^3/R^3)$ shows the curvature term reappears at next order immediately off the point, the same way Christoffel symbols vanish at a point in Riemann normal coordinates without curvature disappearing nearby. The eigenvalue $\lambda_0 = 2/R^2$ remains a global property of the whole surface throughout.
 
 ---
 
@@ -320,6 +324,34 @@ Testable against LIGO/LISA ringdown data in principle.
 ### VIII.5 Spectral-Physical Bridge (Priority 5)
 
 The structural parallel between the scaling double zero ($\Theta \to 0$ driving $C \to 0$, with $\Omega_H \to 0$ as independent partner) and the spectral double zero ($Z_\sigma(0) = 0$, $(s)_k = 0$) is established (§II.A). The $s \leftrightarrow \Theta$ map on the spectral side is proved not to exist by Lemma 8 (The Mirror): the spectral and scaling sides are structurally parallel but cannot be connected by a natural map. The open question is whether the torsion survivor $Z'_\sigma(0) = \log T^2$ can be connected to the physical survivor (Hawking radiation gradient) through a route other than the direct spectral-to-phase bridge. The $\Phi \to \Theta$ mapping provides the discrete localization that spectral geometry lacks (mass breaks the right-SU(2) isometry). If the torsion values $\{\log 2, \log 3, \log 5, \log\varphi\}$ constrain the horizon structure through the same arithmetic that constrains the fermion mass spectrum (engine §13), the spectral and physical sides of the double zero would be unified. This would close the loop between Tools 3 and 5 at the boundary of the domain. Status: OPEN.
+
+### VIII.6 The Directional Problem: Critical-Point Geometry
+
+**Status: Critical-point identification DERIVED; dynamical interpretation OPEN (no evolution law for $\Theta$ is given anywhere in this framework).**
+
+The Hubble tension walks $\Theta$ away from $0$ toward the antinode ($C$ increases); the horizon requires $\Theta \to 0$ (toward the node, $C$ decreases). These look like opposite directions on the domain coordinate, but coordinate direction is not the relevant variable; proximity to a critical point of $C$ is.
+
+$$\frac{dC}{d\Theta} = 2\pi\sin(2\pi\Theta)$$
+
+vanishes at exactly three points:
+
+| Position | $C$ | $dC/d\Theta$ | Type |
+|---|---|---|---|
+| $\Theta = 0$ | 0 | 0 | Node (minimum) |
+| $\Theta = 1/2$ (60/120) | 2 | 0 | Antinode (maximum) |
+| $\Theta = 1$ | 0 | 0 | Node (minimum) |
+
+$\Lambda$ sits at the maximum, the horizon at the minimum, opposite critical points of the same function. That much is DERIVED, directly from the form of $C(\Theta) = 2\sin^2(\pi\Theta)$.
+
+**What this does not establish.** $dC/d\Theta = 0$ at a point means the *observable* $C$ has no first-order response to a small change in $\Theta$ there, a statement about $C$'s sensitivity, not about whether $\Theta$ itself is dynamically stable or attracted to that point. That would require an evolution law for $\Theta$ (e.g. $\dot\Theta = F(\Theta)$), which is not written down anywhere in the framework. Likewise, the log slope
+
+$$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta)$$
+
+diverges as $\Theta \to 0$ and vanishes at $\Theta = 1/2$: this says $C$ is extremely sensitive to $\Theta$ near the node and insensitive to it near the antinode (the topological-protection argument used for $\Lambda$), not that $\Theta$ moves faster near the node. That the black hole horizon has $\Theta \to 0$, and that infall past it is one-way, is inherited from GR, not derived from the log-slope of $C$.
+
+**A numerical check worth recording.** $\Theta_0 = 34/120$, the Hubble-tension well, is not near the antinode plateau: $C'(34/120) \approx 6.15$, within 2% of the arch's maximum possible slope $2\pi \approx 6.28$, and 26 grid steps from $60/120$. It sits near the steepest part of the arch, not a flat region. Whatever protects $\Lambda$ (whose own well sits exactly at the true zero-slope antinode) does not extend to 34/120.
+
+**Connection to the complementarity.** The two critical points of $C$ are the two poles of $u_0^2 + J^2 = 1$ (§IV.A): antinode ($u_0 = 1$, $J = 0$, cone point, curvature dominates) and node ($u_0 = 0$, $J = 1$, central circle, geometry dominates).
 
 ---
 

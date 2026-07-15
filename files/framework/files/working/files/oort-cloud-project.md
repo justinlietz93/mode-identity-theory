@@ -10,7 +10,7 @@
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$ (tested, falsified by SPARC; the unknown galactic coherence scale is $L_g$), 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
 
-**Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $L_f$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $L_f$ across 175 galaxies), [Black Double Zero's](../../../../cosmos/files/black-hole.md) and [Black hole phase behavior](black-hole-phase.md) (the killed absolute-$\Phi$ bridge to the horizon, Joint 4).
+**Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $L_f$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $L_f$ across 175 galaxies), [Black Double Zero's](../../../../cosmos/files/black-hole.md) §VIII.1 (the killed absolute-$\Phi$ bridge to the horizon, Joint 4).
 
 ---
 
@@ -96,7 +96,7 @@ Tested directly. [Black Double Zero's](../../../../cosmos/files/black-hole.md) �
 
 Diagnosis: a category mismatch, not a missing generalization. The horizon mechanism is a single-well, absolute-potential-depth response, with a natural zero from asymptotic flatness. Coherence-domain nesting (Piece B) is a tidal *dominance crossover* between two competing, comparably shallow potentials, a different physical quantity, and (for an extended mass distribution like a galaxy) absolute $\Phi$ isn't even uniquely defined the way it is for Schwarzschild.
 
-Status: DEAD. The absolute-$\Phi$ bridge from the horizon to ordinary coherence-domain boundaries is falsified by orders of magnitude, not a hair. What survives independently: the horizon-as-node picture (unaffected, see Black Double Zero's) and coherence-domain nesting via tidal dominance (Piece B/C below, still open on its own terms). Black Double Zero's and its phase-behavior companion have been corrected to stop asserting this unification.
+Status: DEAD. The absolute-$\Phi$ bridge from the horizon to ordinary coherence-domain boundaries is falsified by orders of magnitude, not a hair. What survives independently: the horizon-as-node picture (unaffected, see Black Double Zero's) and coherence-domain nesting via tidal dominance (Piece B/C below, still open on its own terms). Black Double Zero's has been corrected to stop asserting this unification (its former working-note companion is now consolidated into that page, §VIII.6).
 
 ---
 
