@@ -10,7 +10,7 @@
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$ (tested, falsified by SPARC; the unknown galactic coherence scale is $L_g$), 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
 
-**Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $L_f$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $L_f$ across 175 galaxies).
+**Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $L_f$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $L_f$ across 175 galaxies), [Black Double Zero's](../../../../cosmos/files/black-hole.md) and [Black hole phase behavior](black-hole-phase.md) (the killed absolute-$\Phi$ bridge to the horizon, Joint 4).
 
 ---
 
@@ -88,6 +88,16 @@ Status: The principle (coherence required for sampling) is DERIVED and general. 
 
 The [cone point coherence notes](cone-point-coherence.md) explore the geometric mechanism: whether the $W$-independence of the Sector $\mathcal{A}$ eigenvalue (guaranteed by the Frobenius/Friedrichs/excision analysis at the cone point) is the structural reason coherence holds within $L_g$. Key findings from that analysis: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero, so the needed curvature lives at the topology-gravity interface; and SPARC falsified $L_f = v_c^2/a_0$ as the coherence radius, shifting the cone-point target from $L_f$ to whatever $L_g$ turns out to be.
 
+### Joint 4: Black hole collapse and coherence-domain boundaries are NOT the same response law — DEAD
+
+Tempting unification: both are gravitationally-driven boundaries on the same phase operator $C(\Theta)$, so is a coherence-domain boundary (Oort Cloud, $L_g$, $R_\Lambda$) just a small instance of the same mechanism that drives $\Theta \to 0$ at a horizon?
+
+Tested directly. [Black Double Zero's](../../../../cosmos/files/black-hole.md) §VIII.1 gives the derived leading-order map $C/C_0 = 1 - r_s/r$ (equivalently $\delta\Theta \approx [\tan(\pi\Theta_0)/\pi]\cdot|\Phi|/c^2$ near a well $\Theta_0$). Run at galactic potential ($v_c = 220$ km/s): predicted shift $\sim 2\times10^{-7}$, five orders of magnitude short of the established bosonic step (2/120) needed for the Hubble-tension mechanism. Run at the Sun's potential at 144,000 AU ($GM_\odot/rc^2 \sim 7\times10^{-14}$): predicted shift $\sim 3\times10^{-14}$, utterly negligible, no boundary of any kind.
+
+Diagnosis: a category mismatch, not a missing generalization. The horizon mechanism is a single-well, absolute-potential-depth response, with a natural zero from asymptotic flatness. Coherence-domain nesting (Piece B) is a tidal *dominance crossover* between two competing, comparably shallow potentials, a different physical quantity, and (for an extended mass distribution like a galaxy) absolute $\Phi$ isn't even uniquely defined the way it is for Schwarzschild.
+
+Status: DEAD. The absolute-$\Phi$ bridge from the horizon to ordinary coherence-domain boundaries is falsified by orders of magnitude, not a hair. What survives independently: the horizon-as-node picture (unaffected, see Black Double Zero's) and coherence-domain nesting via tidal dominance (Piece B/C below, still open on its own terms). Black Double Zero's and its phase-behavior companion have been corrected to stop asserting this unification.
+
 ---
 
 ## IV. Pieces on the Bench (Motivated, Not Yet Joined)
@@ -112,6 +122,12 @@ Status: MOTIVATED. Structurally clean. The radial channel (phase-reading along $
 
 If the 120-grid is scale-free (Joint 2), and sampling requires coherence (Joint 3), then every gravitationally bound mode defines its own coherence boundary: the region within which that mode's potential dominates and sampling channels are phase-locked to its symmetry.
 
+**Dominance, made precise.** "Dominates" is a tidal comparison, not an absolute-potential one: the ambient next-mode-up acceleration is locally uniform across the bound system and cancels in its free-fall frame (equivalence principle), so what actually sets a boundary is where the local mode's tidal strength equals the next mode's:
+
+$$\mathcal{D}(r) = \frac{\text{local mode's tidal strength}}{\text{next mode's tidal strength}}, \qquad \mathcal{D}(r_c) = 1$$
+
+Tested for the solar/Oort case in Piece C: standard dynamics alone (no MIT content) puts $r_c$ in the right neighborhood. This is also the reason Joint 4's attempt to reuse the black hole's absolute-$\Phi$ response here fails: that map answers a different question (how deep is the local well) than the one a coherence boundary asks (which of two wells wins).
+
 | Mode | Dominant potential | Coherence boundary | Approximate scale |
 |------|-------------------|------------------------|--------------------|
 | Cosmic | $\Lambda$ | $R_\Lambda$ (de Sitter horizon) | $\sim 10^{26}$ m |
@@ -121,9 +137,9 @@ If the 120-grid is scale-free (Joint 2), and sampling requires coherence (Joint 
 
 At each boundary: the dominant mode changes. The observer transitions from one coherence domain to the next. What changes is which instrument the observer is listening through, not what's being listened to.
 
-The machinery that derives $L_f = v_c^2/a_0$ at galactic scale has not been run at other scales. The question: does the coherence-scale concept generalize, or does each scale need its own derivation?
+The machinery that derives $L_f = v_c^2/a_0$ at galactic scale has not been run at other scales, and it used the wrong kind of variable (absolute potential/velocity, not a tidal comparison; see above). The question: does the tidal-dominance definition generalize to $L_g$ and the other boundaries, and separately, does crossing $\mathcal{D}=1$ have any derived effect on the sampling operator, or only a standard-dynamics location?
 
-Status: MOTIVATED. This is the central open question of the project.
+Status: MOTIVATED. The dominance criterion is now precise; whether it does anything to $\Theta$ or $C$ is the central open question of the project.
 
 ### Piece C: Oort Cloud $\approx$ 144,000 AU is the solar coherence boundary
 
@@ -143,7 +159,19 @@ MIT-specific claim:
 | 2D-to-3D perception anchored to ecliptic | Perception anchored to galactic plane |
 | $\alpha_f$ referenced to solar potential | $\alpha_f$ referenced to galactic potential |
 
-Status: MOTIVATED. Requires Piece B to lock first.
+**Boundary test (standard dynamics, no MIT content).** Dominance made precise (Piece B) as a tidal-crossover condition:
+
+$$\mathcal{D}(r) = \frac{GM_\odot/r^3}{\lambda_z}, \qquad \lambda_z \simeq 4\pi G\rho_0 \;\text{(leading vertical galactic tide; Oort-constant correction }2(A^2-B^2)\text{ subdominant near the Sun)}$$
+
+Setting $\mathcal{D}(r_c)=1$: $r_c = (M_\odot/4\pi\rho_0)^{1/3}$. With $\rho_0 \approx 0.1\,M_\odot\,\text{pc}^{-3}$ (order-of-magnitude local density; $r_c \propto \rho_0^{-1/3}$, so a $\pm1.5\times$ density range gives $r_c \approx (1.67$–$2.19)\times10^5$ AU):
+
+$$r_c \approx 1.91\times10^5\text{ AU}$$
+
+That is standard celestial mechanics, the same galactic-tide balance that sets the real Oort cloud's outer edge, not an MIT result. It lands within the project's own broad 50,000–200,000 AU observational range (Piece D), about 33% beyond 144,000 AU: at 144,000 AU itself, $\mathcal{D}\approx2.3$, solar tide still winning by roughly a factor of 2, true equality nearer 191,000 AU. Standard dynamics gives a crossover of the right *order*; it does not uniquely select 144,000 specifically, and the real cloud's outer edge is set by a mix of the galactic tide and passing-star perturbations depending on the cloud's extent, not a single sharp static tidal surface.
+
+**What this does and doesn't establish.** It shows the tidal-dominance definition (Piece B) is physically sound and lands in the right neighborhood using nothing but standard gravity, no sampling operator, no $\Theta$, no $C$. It says nothing about whether crossing $\mathcal{D}=1$ does anything to those quantities. That question is untouched.
+
+Status: MOTIVATED. Requires Piece B to lock first. Tidal-dominance boundary test passed (order of magnitude, standard dynamics); the MIT-specific bridge (does $\mathcal{D}=1$ affect $\Theta$/$C$/sampling) remains fully open.
 
 ### Piece D: 144,000 = $12^2 \times 10^3$
 
@@ -158,6 +186,8 @@ The number 144,000 sits at a junction of structures native to $S^3$:
 The 12-fold structure is native to $S^3$ (12 is a factor of 120; the icosahedron has 12 vertices). Fibonacci wells live on the 120-grid. $144 = F_{12} = 12^2$. The two sequences that MIT treats as fundamental (Fibonacci stability and 12-fold partition) intersect at this number.
 
 Caution: the Oort Cloud radius is observationally estimated between ~50,000 and ~200,000 AU depending on the source. 144,000 falls within that range but is not a precision measurement. Whether the number is structural or approximate is genuinely open.
+
+**Bearing on "predicts vs. accommodates."** Piece C's tidal-dominance boundary test shows standard gravity alone, no MIT content, already produces a crossover of this general order ($\sim1.9\times10^5$ AU, using only $M_\odot$ and the local galactic density). That doesn't kill the numerology, but it raises the bar: 144,000 needs to be more than "the right order of magnitude," since ordinary astrophysics already delivers that. Tilts the open question toward "accommodates" until something ties $12^2\times10^3$ to the tidal-crossover formula itself, not just to the same broad range.
 
 Status: OBSERVATION. The numerical coincidence is real. Whether MIT predicts it or merely accommodates it is unresolved.
 
@@ -190,16 +220,17 @@ Status: OBSERVATION. Intriguing. Possibly coincidence. Requires nested chronon d
 
 | # | Gap | What would fill it | Priority |
 |---|-----|--------------------|----------|
-| 1 | Nested $L_g$ derivation | Run phase field machinery at solar-system scale. $v_c^2/a_0$ doesn't work at its own scale; the nested derivation question is now what sets $L_g$ at any scale. What plays the role of $v_c$ for a star? Orbital velocity at the boundary? | HIGH (everything depends on this) |
-| 2 | Oort Cloud radius from first principles | Can MIT predict ~144,000 AU, or only explain it after observation? If predicted, what inputs? | HIGH |
+| 1 | Nested $L_g$ derivation | Piece B's tidal-dominance definition ($\mathcal{D}(r)=1$) is the candidate general mechanism, tested (order of magnitude only) for the solar/Oort case (Piece C). Not yet run for $L_g$ itself (galactic vs. cosmic tidal crossover) or any other boundary. | HIGH (everything depends on this) |
+| 2 | Oort Cloud radius from first principles | Answered in part: standard tidal-dominance dynamics (no MIT content) predicts a crossover of the right order, $\sim1.9\times10^5$ AU, not a precision hit on 144,000 specifically (Piece C). MIT has not yet added anything beyond standard celestial mechanics here; see Gap 8. | Downgraded to MEDIUM: the standard-physics half is answered, the MIT half is Gap 8 |
 | 3 | Galactic Year $\approx \tau_c$ coupling | Derive the relationship or demonstrate independence. | MEDIUM |
 | 4 | The radial channel (formal operator) | Conceptually identified: phase-reading along $S^1$. Redshift is the observable expression. Formal operator definition connecting this to the sampling theorem remains open. | LOW (concept clear; formalism follows) |
 | 5 | $\times 1000$ factor | 144 appears at the structural level ($F_{12}$, $12^2$). The physical boundary is at 144,000 AU. Where does the $\times 10^3$ come from? Scaling between hierarchy levels? | MEDIUM |
 | 6 | Oort Cloud observational precision | Literature review: how well is the boundary actually constrained? Is 144,000 AU within the uncertainty, or is it a specific measured value? | LOW (but determines whether Piece D is meaningful) |
 
-| 7 | Arpeggio structure | Black hole (node) → galaxy (first harmonic) → universe (fundamental) → octave (Möbius double cover). If the cone point nests, each scale is a partial of the same standing wave, and the progression across scales is an arpeggio through the chord. Is the relationship between nested coherence domains harmonic? Does the node-to-mode progression follow the same spectral structure at every level? | MEDIUM (conceptual; sharpens after Gap 1) |
+| 7 | Arpeggio structure | Black hole (node) → galaxy (first harmonic) → universe (fundamental) → octave (Möbius double cover). If the cone point nests, each scale is a partial of the same standing wave, and the progression across scales is an arpeggio through the chord. Is the relationship between nested coherence domains harmonic? Does the node-to-mode progression follow the same spectral structure at every level? Note: Joint 4 killed the literal reading (black hole = same $\Phi\to\Theta$ response as a coherence boundary); whatever "node" means in this arpeggio, it isn't that. | MEDIUM (conceptual; sharpens after Gap 1) |
+| 8 | Does crossing $\mathcal{D}=1$ do anything? | The tidal-dominance boundary test (Piece C) succeeds at the level of standard dynamics. Whether crossing it has any derived effect on $\Theta$, $C(\Theta)$, or the sampling operator is untouched. This is now the sharpest form of the project's central question (Section I). | HIGH (this is now the actual open question, not the boundary location) |
 
-The [cone point coherence notes](cone-point-coherence.md) add an eighth gap upstream of Gap 1: **what sources the curvature $K_g$ at galactic scale?** The Frobenius program in that file determines whether the cone point mechanism provides the geometric foundation for nested coherence. Gap 1 here and the curvature sourcing question there are coupled: both ask how the topological structure interfaces with the gravitational field at sub-cosmic scales.
+The [cone point coherence notes](cone-point-coherence.md) add a ninth gap upstream of Gap 1: **what sources the curvature $K_g$ at galactic scale?** The Frobenius program in that file determines whether the cone point mechanism provides the geometric foundation for nested coherence. Gap 1 here and the curvature sourcing question there are coupled: both ask how the topological structure interfaces with the gravitational field at sub-cosmic scales.
 
 ---
 
