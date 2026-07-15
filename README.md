@@ -160,40 +160,40 @@ Outputs of a fixed structure, checked against observation:
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ (coupling $\alpha$ route) | $\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}$ | $2.90 \times 10^{-122}$ | ~24% |
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ (mass-spectrum cross-check) | $\Lambda \approx 8 \times 10^{-54}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² | order of magnitude |
-| [↗](/files/spectrum/files/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | Gauss-equation conversion (vacuum sector) | exact |
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ eigenvalue | topological ($2/R_\Lambda^2$) constant | topological protection holds | ✓ |
-| [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
-| [↗](/files/cosmos/files/dark-energy.md) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
-| [↗](/files/cosmos/files/dark-energy.md) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open ([Rides on R](/files/framework/files/working/files/r-problem.md)) |
-| [↗](/files/cosmos/files/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
-| [↗](/files/cosmos/files/hubble-tension.md) $H_0$ local shift | 8.4% lattice prediction | ~9% observed gap | mechanism open |
-| [↗](/files/cosmos/files/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
-| [↗](/files/framework/README.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
-| [↗](/files/cosmos/files/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
-| [↗](/files/spectrum/files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
-| [↗](/files/spectrum/files/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
-| [↗](/files/spectrum/files/yang-mills.md) Fermion generations | 3 (mass gaps) | 3 | exact |
-| [↗](/files/spectrum/files/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
-| [↗](/files/spectrum/files/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
-| [↗](/files/spectrum/files/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
-| [↗](/files/spectrum/files/mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
-| [↗](/files/spectrum/files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
-| [↗](/files/spectrum/files/mass-spectrum.md) Weak isospin $T_3$ | $j_\text{first}$ parity + Coxeter-Galois gate | ten correct (8 assigned + 2 structural checks) | exact |
-| [↗](/files/spectrum/files/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| [↗](/files/spectrum/files/mass-spectrum.md) Fermion masses | 24 entries | 5 of 8 charged within ×3 ($m_e$ benchmark; d outside, c unassigned, b uncounted, μ/s share rank 15) | comparison |
-| [↗](/files/spectrum/files/mass-spectrum.md) $m_\mu$ (muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
-| [↗](/files/spectrum/files/mass-spectrum.md) $m_u$ (up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| [↗](/files/spectrum/files/mass-spectrum.md) $m_e$ (electron) | mass benchmark | 0.511 MeV | normalization |
-| [↗](/files/spectrum/files/mass-spectrum.md) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
-| [↗](/files/spectrum/files/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| [↗](/files/spectrum/files/mass-spectrum.md) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| [↗](/files/spectrum/files/fine-structure.md) $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
-| [↗](/files/spectrum/files/fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
-| [↗](/files/spectrum/files/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
-| [↗](/files/spectrum/files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | 1.8% |
+| [↗](/files/cosmos/files/cosmological-constant.md#d-the-scale-r-two-live-routes) $\Lambda$ (coupling $\alpha$ route) | $\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}$ | $2.90 \times 10^{-122}$ | ~24% |
+| [↗](/files/cosmos/files/cosmological-constant.md#d-the-scale-r-two-live-routes) $\Lambda$ (mass-spectrum cross-check) | $\Lambda \approx 8 \times 10^{-54}$ m⁻² | $1.11 \times 10^{-52}$ m⁻² | order of magnitude |
+| [↗](/files/spectrum/files/the-waltz.md#ii-gravity-as-the-cost-to-dance) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | Gauss-equation conversion (vacuum sector) | exact |
+| [↗](/files/cosmos/files/cosmological-constant.md#iii-the-first-positive-mode) $\Lambda$ eigenvalue | topological ($2/R_\Lambda^2$) constant | topological protection holds | ✓ |
+| [↗](/files/cosmos/files/dark-energy.md#iii-w_texteffz---1-at-all-redshifts-fiducial-split) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
+| [↗](/files/cosmos/files/dark-energy.md#primary-fit-snbao) $\Delta\chi^2$ vs ΛCDM | $+0.11$ (same $k$) | Pantheon+ & DESI DR2 BAO | passed |
+| [↗](/files/cosmos/files/dark-energy.md#the-1z1-term) $(1+z)^1$ term | negative, tied to $s_0$ | awaiting next-gen BAO | open |
+| [↗](/files/cosmos/files/cmb-anomalies.md#iv-the-molien-shell-gap) CMB low-ℓ deficit | Molien gap, lands $\ell \approx 28$ at the coupling-route R | deficit below $\ell \lesssim 30$ | open ([Rides on R](/files/framework/files/working/files/r-problem.md)) |
+| [↗](/files/cosmos/files/hubble-tension.md#i-the-tension) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
+| [↗](/files/cosmos/files/hubble-tension.md#the-84-displacement) $H_0$ local shift | 8.4% lattice prediction | ~9% observed gap | mechanism open |
+| [↗](/files/cosmos/files/early-galaxies.md#the-ratio-from-the-scaling-law) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
+| [↗](/files/framework/README.md#the-assembled-engine) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| [↗](/files/cosmos/files/early-galaxies.md#the-evolutionary-law) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
+| [↗](/files/spectrum/files/the-waltz.md#iv-dark-matter-and-dark-energy-as-geometry) Null dark matter | permanent | ongoing null results | ✓ |
+| [↗](/files/spectrum/files/yang-mills.md#i-the-geometry) Mass gap | $> 0$ | confinement observed | ✓ |
+| [↗](/files/spectrum/files/yang-mills.md#ii-three-vacua) Fermion generations | 3 (mass gaps) | 3 | exact |
+| [↗](/files/spectrum/files/fine-structure.md#the-prediction) Force count | 3 (grid exhaustion) | 3 | exact |
+| [↗](/files/spectrum/files/fine-structure.md#the-prediction) Null SUSY | permanent | ongoing null results | ✓ |
+| [↗](/files/spectrum/files/the-mirror.md#ii-main-theorem) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md#1-color-from-faces) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md#2-domain-from-edges) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md#4-weak-isospin-from-the-coxeter-galois-gate) Weak isospin $T_3$ | $j_\text{first}$ parity + Coxeter-Galois gate | ten correct (8 assigned + 2 structural checks) | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md#3-the-eta-sign-gate) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) Fermion masses | 24 entries | 5 of 8 charged within ×3 ($m_e$ benchmark; d outside, c unassigned, b uncounted, μ/s share rank 15) | comparison |
+| [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $m_\mu$ (muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
+| [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $m_u$ (up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $m_e$ (electron) | mass benchmark | 0.511 MeV | normalization |
+| [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
+| [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
+| [↗](/files/spectrum/files/mass-spectrum.md#1-neutrino-floor--mu_lambda) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| [↗](/files/spectrum/files/fine-structure.md#alpha_s-the-strong-coupling) $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
+| [↗](/files/spectrum/files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
+| [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
+| [↗](/files/spectrum/files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 
 >The absolute mass scale and Λ are two ends of one loop: fix $m_e$ and the topology gives Λ; fix Λ and it gives $m_e$ to ~2%. Inverting the closure, a 2% shift in $m_e$ moves Λ by ~11% under the default calibration, where $R$ (hence $\Omega_\Lambda$) is set by Λ, so $m_e \propto \Lambda^{11/60}$ once the $\mu_\Lambda$ scale and the $\Omega_\Lambda$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the absolute scale.
 
