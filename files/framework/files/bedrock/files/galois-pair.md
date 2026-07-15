@@ -82,7 +82,7 @@ Conjugacy classes of homomorphisms $`\pi_1(S^3/2I)=2I\to\mathrm{SU}(2)`$ corresp
 
 | convention | statement | source |
 |---|---|---|
-| orientation | $`+\Sigma=Y_{2I}^+`$, the link orientation; equal to the resolution-boundary orientation | standard |
+| orientation | $`+\Sigma=Y_{2I}^+`$, the link orientation, equal to the resolution-boundary orientation, to Helle's $`S^3\subset\mathbb{H}`$ standard orientation, and to Degeratu's boundary-at-infinity; one oriented manifold under different names | standard, [Helle], [Degeratu] |
 | the surgery model | $`X_{+1}`$ ($`+1`$ surgery on the right-hand trefoil) satisfies $`X_{+1}\cong-\Sigma`$ as oriented manifolds | [BHKK] |
 | reversal | $`\rho`$ and $`cs`$ change sign under orientation reversal | [APS2], [Helle] |
 | Chern-Simons | $`cs(Q)=-1/120`$ on $`+\Sigma`$, equivalently $`+1/120`$ on $`X_{+1}`$ | [Helle], [BHKK] |
@@ -253,6 +253,7 @@ This subsection is expository verification; the values it derives are effectivel
 ```math
 H=(0,\,0,\,-1,\,-2,\,-3,\,-4,\,-3,\,-2,\,-2),\qquad \varepsilon(H)=\langle H,\delta\rangle=-72.
 ```
+The coordinates list the nine irreducibles by increasing McKay distance; the two at distance six carry the coordinates $`-3`$ and $`-2`$, on the second four-dimensional irreducible and on the adjoint $`\mathrm{Sym}^2Q'`$ respectively, so the tuple is unambiguous.
 With $`cs(Q)=-1/120`$ on $`+\Sigma`$ [Helle, Ex. B.15], Helle's congruence gives $`cs(Q')=-49/120`$ on $`+\Sigma`$. With the order $`Q-Q'`$ fixed throughout the display, the three residue checks are
 ```math
 cs(Q)-cs(Q')\equiv\tfrac25,\qquad cs(\mathrm{Sym}^2Q)-cs(\mathrm{Sym}^2Q')\equiv\tfrac35,\qquad \rho_{\mathrm{Sym}^2Q}-\rho_{\mathrm{Sym}^2Q'}\equiv\tfrac35\pmod 1
@@ -297,11 +298,11 @@ The Brown/Guillou-Marin theory of characteristic surfaces is the slot of the pac
 
 > **Proposition 7.2.** For a closed non-orientable characteristic surface $`F\subset\mathrm{int}\,W`$ (here: $`[F]_2=0`$, the unique characteristic class), the normal Euler number and the Brown invariant of the Guillou-Marin enhancement satisfy
 > ```math
-> e(F)+2\beta(F)\;\equiv\;\mathrm{sign}(W)+8\,\mu(\Sigma)\;=\;-8+8\;\equiv\;0\pmod{16},
+> e(F)+2\beta(F)\;\equiv\;\mathrm{sign}(W)+8\,\mu(\Sigma)\;\equiv\;0\pmod{16},
 > ```
-> with $`\mu(\Sigma)=1`$ the Rokhlin invariant (the sign of the $`8\mu`$ term is immaterial: $`8\mu\equiv-8\mu \bmod 16`$); since $`\mu\equiv\bar\mu \bmod 2`$, the Neumann normalization $`\bar\mu=-1`$ gives the same landing. Every constant in the congruence ($`\mathrm{sign}(W)=-8`$, $`\mu=1`$, $`\bar\mu=-1`$) is blind to the Galois action, as Theorem 1.3(i) requires.
+> with $`\mu(\Sigma)=1`$ the Rokhlin invariant (the sign of the $`8\mu`$ term is immaterial: $`8\mu\equiv-8\mu \bmod 16`$); since $`\mu\equiv\bar\mu \bmod 2`$, the Neumann normalization $`\bar\mu=-1`$ gives the same landing. On the negative-definite $`E_8`$ convention $`\mathrm{sign}(W)=-8`$, so $`\mathrm{sign}(W)+8\mu=0`$; the positive-definite convention gives $`+8+8\equiv0\pmod{16}`$, the same. Every constant in the congruence ($`\mathrm{sign}(W)=\pm8`$, $`\mu=1`$, $`\bar\mu=-1`$) is blind to the Galois action, as Theorem 1.3(i) requires.
 
-*Proof.* This is a specialization of the relative Guillou-Marin theorem in the form printed by Klug [Klug, Thm. 6] (notation adapted: we write $`\mathrm{sign}`$ for the signature, $`\sigma`$ being reserved): for a compact oriented topological $`4`$-manifold $`X`$ with $`\partial X`$ an integral homology sphere and $`F`$ a characteristic, not necessarily orientable, properly embedded surface, $`2\beta(F)+2\beta(\partial F)=\mathrm{sign}(X)-F\cdot F+8\mu(\partial X)+8\,\mathrm{KS}(X) \bmod 16`$. Here $`F`$ is closed, so $`\beta(\partial F)=0`$; $`W`$ is smooth, so $`\mathrm{KS}=0`$; and $`F\cdot F`$ is the normal Euler number $`e(F)`$. Calibration on $`B^4`$ ($`\sigma=0`$, $`\mu(S^3)=0`$): the local $`\mathbb{RP}^2`$ with $`e=+2`$ has $`\beta=-1`$, landing on $`0`$. The closed case is Guillou-Marin [GuillouMarin], in Matsumoto's exposition [Matsumoto]; the topological correction $`8\,\mathrm{KS}`$ is Kirby-Taylor [KirbyTaylor]. $`\square`$
+*Proof.* This is a specialization of the relative Guillou-Marin theorem in the form printed by Klug [Klug, Thm. 6] (notation adapted: we write $`\mathrm{sign}`$ for the signature, $`\sigma`$ being reserved): for a compact oriented topological $`4`$-manifold $`X`$ with $`\partial X`$ an integral homology sphere and $`F`$ a characteristic, not necessarily orientable, properly embedded surface, $`2\beta(F)+2\beta(\partial F)=\mathrm{sign}(X)-F\cdot F+8\mu(\partial X)+8\,\mathrm{KS}(X) \bmod 16`$. Here $`F`$ is closed, so $`\beta(\partial F)=0`$; $`W`$ is smooth, so $`\mathrm{KS}=0`$; and $`F\cdot F`$ is the normal Euler number $`e(F)`$. Calibration on the closed $`\mathbb{RP}^2\subset S^4`$ (Klug's own example, $`\sigma(S^4)=0`$, $`\mu(S^3)=0`$): $`e=+2`$ forces $`\beta=-1`$, landing on $`0`$. The closed case is Guillou-Marin [GuillouMarin], in Matsumoto's exposition [Matsumoto]; the topological correction $`8\,\mathrm{KS}`$ is Kirby-Taylor [KirbyTaylor]. $`\square`$
 
 The Brown invariant is not an invariant of the homology class [Klug]: it is decoration data on the characteristic slot, which is exactly the role this section assigns it.
 
