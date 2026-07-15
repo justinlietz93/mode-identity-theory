@@ -6,7 +6,7 @@
 
 Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mode Identity Theory.*
 
-**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature functional form ($1/M$ and coefficient) derived, thermal character inherited (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the 1/4 factor remains open (§III). The domain is topologically closed (§VI).
+**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order near the horizon; its global form is a minimal extension, not independently forced. Hawking temperature: eigenfunction-gradient $1/M$ dependence and coefficient derived, temperature normalization and thermal character inherited (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the 1/4 factor remains open (§III). The domain is topologically closed (§VI).
 
 ---
 
@@ -193,13 +193,13 @@ The wave is still there at the boundary. The surface is still real. The gradient
 
 **Recovery of $T_H$.** The $\Phi \to \Theta$ mapping (§VIII.1) establishes $C/C_0 = 1 - r_s/r$ with the power $\beta = 1$ uniquely forced by the requirement that the eigenfunction slope $u_0'(0) = 1/R$ remain finite and nonzero in proper distance coordinates at the horizon. The resulting chain:
 
-$$u_0'(0) = \frac{1}{R} \;\longrightarrow\; \frac{du_0}{d\Theta}\bigg\vert_0 = \pi \;\longrightarrow\; \frac{du_0}{d\ell}\bigg\vert_H = \kappa\sin(\pi\Theta_0)$$
+$$u_0'(0) = \frac{1}{R} \;\longrightarrow\; \frac{du_0}{d\Theta}\bigg\vert_0 = \pi \;\longrightarrow\; \frac{du_0}{d\ell}\bigg\vert_H = \kappa_\text{geom}\sin(\pi\Theta_0)$$
 
-where $\kappa = c^4/(4GM) = 1/(2r_s)$ is the Schwarzschild surface gravity. The $1/M$ dependence is carried entirely by $\kappa$; the coefficient $\sin(\pi\Theta_0) \approx 0.777$ depends only on the well position. The thermal spectrum ($T_H = \kappa/(2\pi)$, Planck distribution) is inherited: the mapping pairs $C/C_0$ with $g_{tt}$, and GR's Euclidean periodicity carries through the forced pairing. Status: $1/M$ dependence and coefficient DERIVED; thermal character INHERITED through forced $g_{tt}$ pairing.
+where $\kappa_\text{geom} = 1/(2r_s) = c^2/(4GM)$ has units of inverse length, matching $du_0/d\ell$. The physical surface gravity $\kappa_\text{phys} = c^2\kappa_\text{geom} = c^4/(4GM)$ carries units of acceleration; the two are related by a factor of $c^2$, not equal, and "$\kappa$" alone is ambiguous between them. The $1/M$ dependence of $du_0/d\ell|_H$ is carried entirely by $\kappa_\text{geom}$; the coefficient $\sin(\pi\Theta_0) \approx 0.777$ depends only on the well position, this is the eigenfunction-gradient result, DERIVED. The thermal spectrum itself, $T_H = \hbar\kappa_\text{phys}/(2\pi c k_B) = \hbar c^3/(8\pi GMk_B)$ (Planck distribution), is a separate claim: inherited through the forced $C/C_0 = g_{tt}$ pairing and GR's Euclidean periodicity, not independently recovered from the eigenfunction slope, and $\sin(\pi\Theta_0)$ does not appear in it. Status: eigenfunction-gradient $1/M$ dependence and its $\sin(\pi\Theta_0)$ coefficient DERIVED; Hawking-temperature normalization and thermal character INHERITED through the $g_{tt}$ pairing.
 
 ### Mergers
 
-Two $\Theta = 0$ ($C = 0$) regions combine. Total enclosed content adds. New boundary area exceeds the sum of parent areas. The area theorem (Hawking 1971: horizon area never decreases) follows: you cannot extract $n = 2$ wave content through a zero-sampling boundary. Content can enter. Content cannot leave. The boundary grows or holds. It cannot shrink.
+Two $\Theta = 0$ ($C = 0$) regions combine. Total enclosed content adds. New boundary area exceeds the sum of parent areas. This provides the MIT reading of the area theorem (Hawking 1971: horizon area never decreases), matching §VIII.4's MOTIVATED status rather than deriving it: you cannot extract $n = 2$ wave content through a zero-sampling boundary, so content can enter but not leave, and the boundary grows or holds. It cannot shrink under this reading; a general proof for dynamical (merging, radiating) horizons is not established here.
 
 ### Evaporation
 
@@ -249,13 +249,13 @@ The wave content is still there. It cannot be sorted into "surface" and "edge" c
 
 ### VIII.1 The Φ → Θ Mapping (Priority 1)
 
-**Status: DERIVED (leading order).**
+**Status: DERIVED (leading order near the horizon); the global form below is the minimal extension of that result, not independently forced.**
 
 The mapping pairs the framework's sampling amplitude with the GR redshift factor:
 
 $$\frac{C(\Theta)}{C(\Theta_0)} = 1 - \frac{r_s}{r}$$
 
-Equivalently: $\sin(\pi\Theta) = \sin(\pi\Theta_0) \cdot (1 - r_s/r)^{1/2}$, with $\Theta_0 = 34/120$.
+Equivalently: $\sin(\pi\Theta) = \sin(\pi\Theta_0) \cdot (1 - r_s/r)^{1/2}$, with $\Theta_0 = 34/120$. Write $x = 1-r_s/r$: what the argument below actually forces is the leading behavior $C/C_0 \sim x$ as $x\to0$ (the horizon). Taking $C/C_0=x$ at all $r$ is the minimal global extension consistent with that limit and with $C/C_0\to1$ as $r\to\infty$; it is a choice, not a further derivation, and the weak-field result below, which lives at $x\to1$, rests on that choice rather than on the horizon argument alone.
 
 The power $\beta = 1$ is uniquely forced by the requirement that the eigenfunction slope $u_0'(0) = 1/R$ (a geometric property established by two independent paths in the Sector $\mathcal{A}$ paper) remain finite and nonzero in proper distance coordinates at the horizon. For $\beta < 1$, the slope diverges; for $\beta > 1$, it vanishes. Only $\beta = 1$ preserves the geometric property.
 
@@ -265,12 +265,12 @@ The power $\beta = 1$ is uniquely forced by the requirement that the eigenfuncti
 
 | Property | Result |
 |----------|--------|
-| Weak-field decoupling | Smooth shift at $r/r_s = 10^6$ is $2 \times 10^{-7}$, far below one bosonic step (2/120): the Schwarzschild response does not reach, and does not explain, the separate §9 environmental step |
-| Near-horizon slope | $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa$, finite and nonzero, proportional to surface gravity |
+| Weak-field behavior, under the minimal global extension | For $C/C_0=1-r_s/r$, the smooth shift at $r/r_s=10^6$ is $2\times10^{-7}$, far below one bosonic step (2/120): the Schwarzschild response does not reach, and does not explain, the separate §9 environmental step. Not protected by the near-horizon uniqueness proof, which constrains only $f(x)\sim x$ as $x\to0$; a different global $f$ with the same horizon limit could give a different weak-field derivative $f'(1)$ |
+| Near-horizon slope | $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa_\text{geom}$, finite and nonzero, proportional to surface gravity |
 | Uniqueness of $\beta = 1$ | Only value giving finite nonzero slope; all other $\beta$ fail |
 | Self-consistency | $C(\Theta)/C(\Theta_0) \div (1 - r_s/r) = 1$ exactly at all radii |
 
-**What remains open:** Global corrections (functions $f(x)$ with $f(x) \sim x$ near $x = 0$ but $f(x) \neq x$ globally) would affect intermediate regimes while leaving the horizon and galactic results intact. The Kerr generalization ($C/C_0 = g_{tt}$ for rotating black holes) is natural but untested.
+**What remains open:** Global corrections (functions $f(x)$ with $f(x) \sim x$ near $x = 0$ but $f(x) \neq x$ globally) are constrained to preserve the horizon asymptotics by construction, but nothing forces $f'(1) = 1$: they can alter the weak-field/galactic regime ($x\to1$) freely, since that regime is not what the uniqueness argument constrains. Recovering the weak-field result above specifically requires either the minimal choice $f(x)=x$ or an independent argument fixing $f'(1)=1$; neither is presently derived. The Kerr generalization ($C/C_0 = g_{tt}$ for rotating black holes) is natural but untested.
 
 Lemma 8 (The Mirror) proved that the direct map $s \leftrightarrow \Theta$ does not exist on the spectral side. The physical $\Phi \to \Theta$ mapping avoids this obstruction: a gravitational potential breaks the right-<i>SU(2)</i> homogeneity that forces continuous position out of spectral data (mass at a specific location breaks the isometry).
 
@@ -315,7 +315,7 @@ Testable against LIGO/LISA ringdown data in principle.
 | First | $dM = (\kappa/8\pi)dA + \Omega\,dJ + \Phi\,dQ$ | Energy balance from mode accounting | OPEN |
 | Second | $dA \geq 0$ | Wave content behind $\Theta = 0$ boundary cannot decrease | MOTIVATED |
 | Third | Cannot reach $\kappa = 0$ in finite steps | Cannot reach $\Theta = 0$ in finite discrete steps (lattice property) | MOTIVATED |
-| Temperature | $T_H = \hbar c^3/(8\pi G M k_B)$ | Eigenfunction slope: $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa \propto 1/M$. Thermal spectrum inherited through forced mapping $C/C_0 = g_{tt}$. | $1/M$ and coefficient DERIVED; thermal character INHERITED |
+| Temperature | $T_H = \hbar c^3/(8\pi G M k_B)$ | Eigenfunction slope: $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa_\text{geom} \propto 1/M$. Thermal spectrum inherited through forced mapping $C/C_0 = g_{tt}$. | Eigenfunction-gradient $1/M$ dependence and coefficient DERIVED; temperature normalization and thermal character INHERITED |
 
 ### VIII.5 Spectral-Physical Bridge (Priority 5)
 
@@ -339,8 +339,8 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 | Full domain | $[0, 120/120]$ | $\lvert 2I \rvert = 120$ |
 | Fermionic step | 1/120 | Full lattice resolution |
 | Bekenstein-Hawking entropy | $S = A/(4\ell_P^2)$ | Observed; MIT: motivated by surface primacy ($n = 2$); 1/4 factor OPEN |
-| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa$; $1/M$ and coefficient DERIVED; thermal character INHERITED |
-| Minimum mass | $\approx 7.4\,m_P$ (full grid) | Interface-level ($\ell_P$); topology gives no threshold ($\Delta S_\text{phase}/\Delta S_\min = 1/4$) |
+| Hawking temperature | $T = \hbar c^3/(8\pi G M k_B)$ | $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa_\text{geom}$; eigenfunction-gradient $1/M$ dependence and coefficient DERIVED; temperature normalization and thermal character INHERITED |
+| Minimum mass | $\approx 7.4\,m_P$ (full grid) or $\approx 3.7\,m_P$ (bosonic grid) | Interface-level ($\ell_P$); topology gives no threshold ($\Delta S_\text{phase}/\Delta S_\min = 1/4$) |
 | $Z_\sigma(0)$ | 0 | Spectral determinant at boundary (nontrivial $\sigma$) |
 | $Z'_\sigma(0)$ | $\log T^2(\sigma)$ | Torsion: L-function special values |
 | Torsion survivors | $\{\log 2, \log 3, \log 5, \log\varphi\}$ | 4 of 16 characters, $E_8$ selected; conductors are the stabilizer primes of the icosahedron |

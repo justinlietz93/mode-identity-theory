@@ -168,7 +168,7 @@ The budget $u_0^2 + J^2 = 1$ holds everywhere. Nothing is created or destroyed o
 
 | Item | Status | Notes |
 |---|---|---|
-| $\Phi \to \Theta$ mapping | DERIVED (leading order); see Black Double Zero's §VIII.1 | $C/C_0 = 1 - r_s/r$, with $\beta=1$ forced by requiring $u_0'(0)=1/R$ stay finite and nonzero at the horizon. Weak-field check: an ordinary galactic potential gives a smooth shift $\sim 2\times10^{-7}$, far below one bosonic step, decoupled from (and not an explanation of) the separate §9 environmental $2/120$ shift |
+| $\Phi \to \Theta$ mapping | DERIVED (leading order near the horizon); global form is the minimal extension, not independently forced; see Black Double Zero's §VIII.1 | $\beta=1$ forced by requiring $u_0'(0)=1/R$ stay finite and nonzero at the horizon, giving $C/C_0\sim1-r_s/r$ as $r\to r_s$. Taking that as the global form ($C/C_0=1-r_s/r$ at all $r$) is the minimal, not the only, extension; under it, an ordinary galactic potential gives a smooth shift $\sim2\times10^{-7}$, far below one bosonic step, decoupled from (and not an explanation of) the separate §9 environmental $2/120$ shift |
 | Quantitative Hawking temperature | Largely resolved; see Black Double Zero's §VIII.4 | $1/M$ dependence and coefficient DERIVED from $du_0/d\ell|_H \propto 1/M$; thermal (Planck) character is INHERITED through the forced mapping, not independently re-derived |
 | Runaway steepening and evaporation | OPEN | Temperature coefficient now derived (§VIII.4); quantitative evaporation dynamics (back-reaction, rate) remains open |
 | Spectral-physical bridge at the node | OPEN (Priority 5) | Does $Z'_\sigma(0) = \log T^2$ connect to $u_0'(0) = 1/R$ through a route other than the direct $s \leftrightarrow \Theta$ bridge (proved nonexistent)? |
