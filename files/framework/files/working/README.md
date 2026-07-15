@@ -158,6 +158,14 @@ Technical gaps with specific paths forward.
 
 ---
 
+### [Ω_H(Θ): Frozen Derivation Question](files/omega-h-derivation.md)
+
+**Problem:** [Black Double Zero's](../../../cosmos/files/black-hole.md) claims a "double zero" at the horizon, $\Theta\to0$ (derived) alongside $\Omega_H\to0$ (conjectured). Even granting both, $\Omega_H$ enters the scaling law inversely ($\Omega_H^{-n/2}$), so the compound limit is $0\times\infty$, undetermined without the relation $\Omega_H(\Theta)$. Frozen here, before any attempt, as: derive $\Omega_H(\Theta)$ for a specified observer congruence (static, infalling, invariant norm, or a preferred MIT clock, these give physically different answers) and find the exponent $p$ in $\Omega_H\sim\Theta^p$; the gate is $C\cdot\Omega_H^{-n/2}\sim\Theta^{2-pn/2}$, vanishing/finite/divergent depending on $p$ versus $4/n$. A null result is a complete answer and requires no further correction to the now-hedged main page.
+
+**Dependencies:** [Black Double Zero's](../../../cosmos/files/black-hole.md) §II, §VIII.1.
+
+---
+
 ### [Oort Cloud Project: Nested Coherence Domains](files/oort-cloud-project.md)
 
 **Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: generalizing $L_f = v_c^2/a_0$ from galactic to stellar and planetary scales. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
