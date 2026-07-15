@@ -6,9 +6,9 @@
 
 Working notes on time, sampling, and the directional problem.
 
-**Status:** Interpretive. Draws on derived results from Sector $\mathcal{A}$ eigenvalue paper and Black Double Zero's §§II, IV.A, VI. No new derivations here; this organizes structural consequences for further work.
+**Status:** Interpretive. Draws on derived results from Sector $\mathcal{A}$ eigenvalue paper and Black Double Zero's §§II, IV.A, VI, VIII.1, VIII.2, VIII.4. No new derivations here; this organizes structural consequences for further work.
 
-**Dependencies:** Sector $\mathcal{A}$ eigenvalue paper; Black Double Zero's §§II, IV.A, VI.
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue paper; Black Double Zero's §§II, IV.A, VI, VIII.1, VIII.2, VIII.4.
 
 **Related:** [Black Double Zero's](../../../../cosmos/files/black-hole.md).
 
@@ -168,11 +168,11 @@ The budget $u_0^2 + J^2 = 1$ holds everywhere. Nothing is created or destroyed o
 
 | Item | Status | Notes |
 |---|---|---|
-| $\Phi \to \Theta$ mapping | OPEN (Priority 1) | Directional problem resolution constrains the form: mapping must respect the two-attractor landscape (plateau near antinode, runaway near node) |
-| Quantitative Hawking temperature | OPEN | First nonvanishing order of $u_0'$ at the node should recover $T_H = \hbar c^3/(8\pi G M k_B)$; requires $\Phi \to \Theta$ mapping |
-| Runaway steepening and evaporation | OPEN | Log slope divergence at $\Theta \to 0$ matches qualitative Hawking evaporation runaway; quantitative recovery requires mapping |
+| $\Phi \to \Theta$ mapping | DERIVED (leading order); see Black Double Zero's §VIII.1 | $C/C_0 = 1 - r_s/r$, with $\beta=1$ forced by requiring $u_0'(0)=1/R$ stay finite and nonzero at the horizon. Weak-field check: an ordinary galactic potential gives a smooth shift $\sim 2\times10^{-7}$, far below one bosonic step, decoupled from (and not an explanation of) the separate §9 environmental $2/120$ shift |
+| Quantitative Hawking temperature | Largely resolved; see Black Double Zero's §VIII.4 | $1/M$ dependence and coefficient DERIVED from $du_0/d\ell|_H \propto 1/M$; thermal (Planck) character is INHERITED through the forced mapping, not independently re-derived |
+| Runaway steepening and evaporation | OPEN | Temperature coefficient now derived (§VIII.4); quantitative evaporation dynamics (back-reaction, rate) remains open |
 | Spectral-physical bridge at the node | OPEN (Priority 5) | Does $Z'_\sigma(0) = \log T^2$ connect to $u_0'(0) = 1/R$ through a route other than the direct $s \leftrightarrow \Theta$ bridge (proved nonexistent)? |
-| Minimum black hole mass from plateau edge | OPEN (Priority 2) | Discrete steps on the 120-grid may define a minimum $\Theta$ displacement needed to leave the plateau and enter the runaway basin |
+| Minimum black hole mass from plateau edge | COMPUTED; see Black Double Zero's §VIII.2 | $M_\min \approx 7.42\,m_P$ (full 120-grid) or $\approx 3.70\,m_P$ (bosonic 60-grid); both deep in the quantum-gravity regime, ~$10^{38}\times$ below any astrophysical black hole |
 
 ---
 

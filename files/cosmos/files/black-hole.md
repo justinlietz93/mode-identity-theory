@@ -217,7 +217,7 @@ What the framework has not yet done is restate that motion in its own language. 
 
 ## VI. The Phase Walk and the Closed Domain
 
-The §9 phase field shifts $\Theta$ by one bosonic step (2/120) inside a galactic potential. The black hole case is the same phase operator driven to the boundary by a deep gravitational potential.
+The §9 phase field and the black hole case both move $\Theta$ on the same phase operator $C(\Theta)$, but not through the same trigger. The §9 shift is a discrete environmental step (2/120), with its own separately-motivated trigger; the black hole case is the continuous Schwarzschild response $C/C_0 = 1 - r_s/r$ (§VIII.1), which in an ordinary galactic potential gives a smooth shift orders of magnitude below one bosonic step (§VIII.1, weak-field decoupling). They share the operator, not the response law, and the two numbers should not be expected to agree.
 
 ### The bosonic domain has a wall
 
@@ -265,7 +265,7 @@ The power $\beta = 1$ is uniquely forced by the requirement that the eigenfuncti
 
 | Property | Result |
 |----------|--------|
-| Galactic consistency | Smooth shift at $r/r_s = 10^6$ is $2 \times 10^{-7}$, far below one bosonic step (2/120) |
+| Weak-field decoupling | Smooth shift at $r/r_s = 10^6$ is $2 \times 10^{-7}$, far below one bosonic step (2/120): the Schwarzschild response does not reach, and does not explain, the separate §9 environmental step |
 | Near-horizon slope | $du_0/d\ell\vert_H = \sin(\pi\Theta_0) \cdot \kappa$, finite and nonzero, proportional to surface gravity |
 | Uniqueness of $\beta = 1$ | Only value giving finite nonzero slope; all other $\beta$ fail |
 | Self-consistency | $C(\Theta)/C(\Theta_0) \div (1 - r_s/r) = 1$ exactly at all radii |
