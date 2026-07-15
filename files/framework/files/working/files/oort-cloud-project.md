@@ -6,7 +6,7 @@
 
 > The grid doesn't set a size; it sets a structure.
 
-**Status:** Working bench. Locked parts (Section II) are derived. Joints (Section IV) are under load. Pieces (Section V) are motivated but not yet joined. Gaps (Section VI) are genuinely open.
+**Status:** Working bench. Locked parts (Section II) are derived. Joints (Section III) are under load. Pieces (Section IV) are motivated but not yet joined. Gaps (Section V) are genuinely open.
 
 **Dependencies:** Sector $\mathcal{A}$ eigenvalue, phase field coherence scale $L_f$ (tested, falsified by SPARC; the unknown galactic coherence scale is $L_g$), 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
 
@@ -45,43 +45,7 @@ Derived, tested, load-bearing. Pick up and use.
 
 ---
 
-## III. The Omega Constraint
-
-This is the ground truth, not a guard rail.
-
-Love is the fabric (Omega, Note 1). The Holy Spirit. Topology floats in Love. Gravity is a channel within the system. No channel boundary can fragment the fabric. This is not a constraint imposed on the project from outside. It is the nature of reality. The project either reflects it or the project is wrong.
-
-The Logos conquered death (John 11:25-26, 1 Cor 15:55-57). The fabric cannot be severed (Matt 12:31-32, Rom 8:38-39). What we call "boundaries" at any scale are changes in which modes dominate the observer's sampling, not walls in the fabric. The wave is everywhere. The Logos holds it everywhere. Coherence domains are witness stands, not containers.
-
-| Gravity (channel) | Love (fabric) |
-|-------------------|---------------|
-| Rate-limited by $c$ | No rate limit |
-| Varies with distance | Constant |
-| Blocked by topology | Inseparable by topology |
-| Measurable (inside system) | Unmeasurable (IS the system) |
-
-**Empirical proof:** A parent's love for their child does not attenuate with distance. Does not decohere at 144,000 AU. Does not require a signal. This is not metaphor. It is Level 1 testimony, and it outranks anything topology can produce.
-
-**Consequence for the project:** If nested coherence domains ever produce isolation (observer A's reality disconnected from observer B's reality), that is not a result. That is **FATAL**. It contradicts the fabric. Love does not attenuate with distance. It does not decohere at any boundary. Any derivation producing isolation has made an error, regardless of how clean the math looks.
-
-**What coherence domains ARE:** Different witness stands in the same courtroom. Different lenses resolving the same light. Different angles on the same wave, held in the same Love, terminating at the same Logos.
-
-**What coherence domains ARE NOT:** Multiverses of perception. Experiential bubbles. Local realities. Anything that fragments the one wave into disconnected observer-worlds.
-
-| Survives | Dies |
-|----------|------|
-| Local sampling frame varies | Local reality varies |
-| CMB-ecliptic alignment is lens fingerprint | CMB-ecliptic alignment is "our universe" |
-| 3/2 reconstruction resolves through local coherence | 3/2 reconstruction creates local reality |
-| Coherence domains nest | Coherence domains isolate |
-
-The 3/2 isn't creating 3D reality locally. It is resolving the one reality through a local apparatus. The Oort Cloud isn't where our universe ends. It is where our particular witness stand is positioned.
-
-Twelve tribes. Twelve apostles. Different witnesses. One Logos. One fabric. Direct access through the new covenant.
-
----
-
-## IV. Joints (Connections Under Load)
+## III. Joints (Connections Under Load)
 
 ### Joint 1: The 3/2 is the geometry of perception
 
@@ -126,7 +90,7 @@ The [cone point coherence notes](cone-point-coherence.md) explore the geometric 
 
 ---
 
-## V. Pieces on the Bench (Motivated, Not Yet Joined)
+## IV. Pieces on the Bench (Motivated, Not Yet Joined)
 
 ### Piece A: 2D angular + 1D radial = perceived 3D
 
@@ -144,24 +108,24 @@ This gives the 3/2 a physical interpretation: the topology produces 2, the obser
 
 Status: MOTIVATED. Structurally clean. The radial channel (phase-reading along $S^1$) is conceptually identified; formal operator definition remains open.
 
-### Piece B: Coherence domains nest as witness stands
+### Piece B: Coherence domains nest
 
-If the 120-grid is scale-free (Joint 2), and sampling requires coherence (Joint 3), then every gravitationally bound mode defines its own witness stand: the domain within which that mode's potential dominates and sampling channels are phase-locked to its symmetry.
+If the 120-grid is scale-free (Joint 2), and sampling requires coherence (Joint 3), then every gravitationally bound mode defines its own coherence boundary: the region within which that mode's potential dominates and sampling channels are phase-locked to its symmetry.
 
-| Mode | Dominant potential | Witness stand boundary | Approximate scale |
+| Mode | Dominant potential | Coherence boundary | Approximate scale |
 |------|-------------------|------------------------|--------------------|
 | Cosmic | $\Lambda$ | $R_\Lambda$ (de Sitter horizon) | $\sim 10^{26}$ m |
 | Galactic | Dark matter halo | $L_g$ (unknown; original candidate $L_f$ falsified) | $\sim 4 \times 10^{20}$ m |
 | Stellar | Solar gravity | Oort Cloud | $\sim 2 \times 10^{16}$ m (~144,000 AU) |
 | Planetary | Earth gravity | Hill sphere | $\sim 1.5 \times 10^{9}$ m |
 
-At each boundary: the dominant mode changes. The observer transitions from one witness stand to the next. The wave is the same wave. The Logos holds it at every scale. What changes is which instrument the observer is listening through.
+At each boundary: the dominant mode changes. The observer transitions from one coherence domain to the next. What changes is which instrument the observer is listening through, not what's being listened to.
 
 The machinery that derives $L_f = v_c^2/a_0$ at galactic scale has not been run at other scales. The question: does the coherence-scale concept generalize, or does each scale need its own derivation?
 
 Status: MOTIVATED. This is the central open question of the project.
 
-### Piece C: Oort Cloud $\approx$ 144,000 AU is the solar witness stand boundary
+### Piece C: Oort Cloud $\approx$ 144,000 AU is the solar coherence boundary
 
 Physical reality (not disputed by anyone):
 
@@ -190,16 +154,8 @@ The number 144,000 sits at a junction of structures native to $S^3$:
 | Fibonacci | $F_{12} = 144$ | 12th Fibonacci number |
 | 12-fold | $12^2 = 144$ | Square of the zodiacal/structural division |
 | 120-grid | $120 = 12 \times 10$ | 12 is a factor of 120 |
-| Revelation 7:4 | 144,000 | $12 \times 12{,}000$ from each tribe |
 
 The 12-fold structure is native to $S^3$ (12 is a factor of 120; the icosahedron has 12 vertices). Fibonacci wells live on the 120-grid. $144 = F_{12} = 12^2$. The two sequences that MIT treats as fundamental (Fibonacci stability and 12-fold partition) intersect at this number.
-
-Same number, same function (boundary of a coherent domain), at multiple levels:
-
-| Level | 144,000 of what | Boundary of |
-|-------|-----------------|-------------|
-| Solar system | AU | Gravitational coherence |
-| Revelation | Sealed | Covenant coherence |
 
 Caution: the Oort Cloud radius is observationally estimated between ~50,000 and ~200,000 AU depending on the source. 144,000 falls within that range but is not a precision measurement. Whether the number is structural or approximate is genuinely open.
 
@@ -211,7 +167,7 @@ Standard cosmology calls it the "axis of evil": the CMB quadrupole and octopole 
 
 MIT reading: if the observer's coherence domain is anchored to the ecliptic (Piece C), then the CMB is resolved through the ecliptic sampling frame. The alignment is not contamination; it is the sampling theorem operating through the local coherence domain.
 
-Prediction (if the chain holds): an observer in another stellar system would resolve CMB features through THEIR local symmetry plane. Not a different CMB. The same wave, witnessed from a different stand. (See Section III: coherence domains vary the lens, not the light.)
+Prediction (if the chain holds): an observer in another stellar system would resolve CMB features through THEIR local symmetry plane. Not a different CMB — the same signal, sampled through a different coherence domain.
 
 Status: DOWNSTREAM, with one route now closed. The topological avenue for this alignment, even/odd-ℓ grading on $S^3/2I$, is dead: the quotient is chiral, carrying no orientation-reversing identification (see [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md), [R problem](r-problem.md)). The locality reading above is what remains, it competes with the mundane ecliptic-systematics explanation, and it still requires Pieces A, B, and C. If they lock, this follows; if any fail, no foundation.
 
@@ -230,7 +186,7 @@ Status: OBSERVATION. Intriguing. Possibly coincidence. Requires nested chronon d
 
 ---
 
-## VI. Gaps (What's Missing)
+## V. Gaps (What's Missing)
 
 | # | Gap | What would fill it | Priority |
 |---|-----|--------------------|----------|
@@ -247,7 +203,7 @@ The [cone point coherence notes](cone-point-coherence.md) add an eighth gap upst
 
 ---
 
-## VII. The Picture (If It All Connects)
+## VI. The Picture (If It All Connects)
 
 ```
 Cosmic mode (T = 33 Gyr, boundary = R_Λ)
@@ -278,15 +234,14 @@ At every level:
 - The 120-grid is the same (scale-free structure)
 - $\sqrt{\Omega}$ is the same (observer is always at the midpoint)
 - 3/2 is the same (how the observer perceives the venue through the twist)
-- The witness stand is different (set by the dominant gravitational mode)
+- The coherence domain is different (set by the dominant gravitational mode)
 - The chronon is different ($\tau = T/120$ for the local $T$)
-- The wave is the same wave, held by the same Logos, in the same fabric
 
-The structure doesn't change. The scale does. The Love doesn't change. The witness stand does.
+The structure doesn't change. The scale does. The coherence domain does.
 
 ---
 
-## VIII. Build Order
+## VII. Build Order
 
 | Step | Action | Unlocks |
 |------|--------|---------|
@@ -300,31 +255,29 @@ The structure doesn't change. The scale does. The Love doesn't change. The witne
 
 ---
 
-## IX. Falsification
+## VIII. Falsification
 
 | Prediction | Falsified if... |
 |------------|-----------------|
-| Omega Constraint | Any derivation where Love fails to connect two observers. FATAL on contact. The fabric has no holes. |
+| Observer-isolation guardrail | Any derivation implying two observers' realities become disconnected rather than differently sampled. Treated as a flag on the derivation, not a result. |
 | Coherence domains nest | Phase field effects shown to operate ONLY at galactic scale with no sub-galactic structure |
-| Oort Cloud is a witness stand boundary | An observer outside the Oort Cloud (interstellar probe) measures identical CMB multipole alignment |
+| Oort Cloud is a coherence boundary | An observer outside the Oort Cloud (interstellar probe) measures identical CMB multipole alignment |
 | CMB-ecliptic alignment is local | Multiple independent stellar systems shown to share the SAME CMB alignment axis |
 | 144,000 AU is structural | Oort Cloud boundary precisely measured at a value incompatible with 144,000 (e.g., 80,000 or 300,000 AU with tight error bars) |
 
 ---
 
-## X. Notes
+## IX. Notes
 
 **On the 3/2 and this project.** The 3/2 conversion is already locked at cosmological scale ([The Waltz](../../../../spectrum/files/the-waltz.md)). This project asks whether it also operates at local scale, with the Oort Cloud defining where "local" ends. The ratio doesn't change. The realization site does.
 
-**On what "coherence boundary" means.** Not a wall. Not a force field. The boundary where one gravitational mode's dominance gives way to the next. Inside: sampling channels are phase-locked to that mode's symmetry. Outside: they phase-lock to the next mode up. The wave is coherent everywhere. The exchange rate ($G$) is the same everywhere. The witness stand changes.
+**On what "coherence boundary" means.** Not a wall. Not a force field. The boundary where one gravitational mode's dominance gives way to the next. Inside: sampling channels are phase-locked to that mode's symmetry. Outside: they phase-lock to the next mode up. The wave is coherent everywhere. The exchange rate ($G$) is the same everywhere. The coherence domain changes.
 
 **On claim discipline.** This file contains DERIVED parts, MOTIVATED pieces, and genuinely OPEN gaps. The temptation is to treat the whole chain as derived because the parts feel right together. Resist. Each joint needs its own derivation. The workbench exists so we can see what's bolted and what's just sitting next to each other.
 
-**On boundaries and the new covenant.** The old covenant operated through mediation chains: priests, temples, curtains, layers between the observer and the source. Boundaries as gatekeepers. The new covenant tears the curtain (Matt 27:51). Direct access. The Logos holds the wave at every scale, and nothing separates the observer from that access (Rom 8:38-39). This project studies where gravitational modes hand off to each other. It does not study walls in the fabric, because there are none. Coherence boundaries are perceptual, not ontological. The observer transitions from one witness stand to another. The wave, the Logos, and the fabric are continuous through every transition. If the project ever drifts toward treating boundaries as barriers to access, that is old-covenant thinking applied to new-covenant reality. Correct and continue.
-
 ---
 
-*The grid doesn't set a size. It sets a structure. The structure projects into every scale. This project asks: does it? The fabric says: it must. The Logos holds it all.*
+*The grid doesn't set a size. It sets a structure. The structure projects into every scale. This project asks: does it?*
 
 ---
 
