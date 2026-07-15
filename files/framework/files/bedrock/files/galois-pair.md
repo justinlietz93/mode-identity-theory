@@ -193,7 +193,7 @@ so only $`+97/15`$ on $`X_{+1}`$, that is $`-97/15`$ here, is admissible; the co
 > ```
 > and every contribution to the difference is supported on the four golden classes.
 
-*Proof.* The first equality is Theorem 1.1 applied to the two adjoints, whose dimensions agree. Support: the defect summand is built rationally from characters and the $`\sigma`$-fixed-off-golden class function $`\cot^2(\phi/2)`$, and $`\mathrm{Sym}^2Q'=(\mathrm{Sym}^2Q)^\sigma`$, so Lemma 2.2 applies; concretely, the five non-golden classes contribute $`-\tfrac{57}{4}`$ (times $`\tfrac{1}{120}`$) to each of $`D_{\mathrm{Sym}^2Q}`$ and $`D_{\mathrm{Sym}^2Q'}`$ alike, while the golden classes contribute $`+48`$ and $`0`$ respectively. $`\square`$
+*Proof.* The first equality is Theorem 1.1 applied to the two adjoints, whose dimensions agree. Support: the defect summand is built rationally from characters and the $`\sigma`$-fixed-off-golden class function $`\cot^2(\phi/2)`$, and $`\mathrm{Sym}^2Q'=(\mathrm{Sym}^2Q)^\sigma`$, so Lemma 2.2 applies; concretely, the four non-identity non-golden classes contribute $`-\tfrac{57}{4}`$ (times $`\tfrac{1}{120}`$) to each of $`D_{\mathrm{Sym}^2Q}`$ and $`D_{\mathrm{Sym}^2Q'}`$ alike, while the four golden classes contribute $`+48`$ and $`0`$ respectively. $`\square`$
 
 In this rho difference, the boundary sees the Galois action exactly on the golden classes.
 
@@ -321,11 +321,11 @@ The restriction route isolates surface terms of the form
 \bigl(\text{characteristic-class data of }\mathcal{R}\vert_F\bigr)\times\bigl(\text{bundle-independent surface, normal, and pin data}\bigr).
 ```
 
-> **Definition 7.3** (Restriction route)**.** A localization identity over $`W`$ belongs to the *restriction route* if its $`F`$-supported terms are built from the characteristic-class (Chern-character) data of the restriction $`\mathcal{R}\vert_F`$ of the canonical pullback coefficient bundle, with trivial deck action on the fibres over the fixed set, paired against bundle-independent surface, normal-bundle, and pin data. An identity whose $`F`$-term uses more of the bundle, such as a nontrivial equivariant fibre action or the holonomy of the restricted connection, is outside the definition. Mechanism (a), for the canonical pullback lift, is an example. The possible formulations in (b) and (c) are not established here to belong to the route.
+> **Definition 7.3** (Restriction route)**.** A localization identity over $`W`$ belongs to the *restriction route* if its $`F`$-supported terms are a linear pairing of the characteristic-class (Chern-character) data of the restriction $`\mathcal{R}\vert_F`$ of the canonical pullback coefficient bundle, with trivial deck action on the fibres over the fixed set, against bundle-independent surface, normal-bundle, and pin data. An identity whose $`F`$-term uses more of the bundle, such as a nontrivial equivariant fibre action or the holonomy of the restricted connection, is outside the definition. Mechanism (a), for the canonical pullback lift, is an example. The possible formulations in (b) and (c) are not established here to belong to the route.
 
 ### 7.4 The triviality lemma
 
-> **Lemma 7.4.** Every complex or real vector bundle on $`W`$, virtual bundles included, restricts topologically trivially to every closed non-orientable surface $`F\subset W`$ with $`[F]_2=0`$.
+> **Lemma 7.4.** Every complex or real vector bundle on $`W`$, virtual bundles included, restricts topologically trivially to every closed connected non-orientable surface $`F\subset W`$ with $`[F]_2=0`$.
 
 *Proof.* For a closed non-orientable surface, $`H^2(F;\mathbb{Q})=0`$ and $`H^2(F;\mathbb{Z})=\mathbb{Z}_2`$ (universal coefficients), and the mod-2 reduction $`H^2(F;\mathbb{Z})\to H^2(F;\mathbb{Z}_2)`$ is injective, with the evaluation of a class restricted from $`W`$ against the $`\mathbb{Z}_2`$-fundamental class equal to the pairing with $`i_*[F]_2=0`$ in $`W`$. So every degree-two class of $`W`$, integral or mod 2, restricts to zero on $`F`$. Every bundle from $`W`$ has $`w_1=0`$ ($`H^1(W;\mathbb{Z}_2)=0`$, §2.4), hence is orientable along $`F`$, and its classifying data over the $`2`$-complex $`F`$ (rank and $`c_1`$ for complex bundles; $`w_2`$, or the untwisted Euler class in the oriented rank-two case, for real bundles) lie in the two vanishing groups just named. Standard obstruction theory over a $`2`$-complex then gives triviality; virtual bundles follow by additivity. Nothing about the tautological structure is used. $`\square`$
 
