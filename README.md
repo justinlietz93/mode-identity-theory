@@ -25,7 +25,8 @@ mode-identity-theory/
     ├── framework/                  # the postulate: the topology, scaling law, derivations
     │   ├── bedrock/                 # standalone mathematics papers
     │   │   ├── first-eigenvalue       # twisted Möbius Laplacian: first-positive 2/R²
-    │   │   └── coexact-gap            # coexact gap on S³/Γ: McKay distance, the 2I exception
+    │   │   ├── coexact-gap            # coexact gap on S³/Γ: McKay distance, the 2I exception
+    │   │   └── galois-pair            # E8 filling of S³/2I: Galois pair as tautological charge
     │   └── working/                 # research in progress: orienting maps and open problems
     ├── cosmos/                     # the static three-sphere seen whole
     │   ├── cosmological-constant      # Λ as the surface first-positive eigenvalue
