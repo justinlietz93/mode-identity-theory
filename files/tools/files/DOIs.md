@@ -10,7 +10,7 @@ Deposits arranged to mirror the repository. Blank cells mark pages with no stand
 
 | Page | Paper | Date | DOI | TOE-Share |
 |---|---|---|---|---|
-| [↗](/files/framework/README.md) Framework | Mode Identity Theory: Modal Realization from Nested Topology | 2025-12-26 | [10.5281/zenodo.18064856](https://doi.org/10.5281/zenodo.18064856) |  |
+| [↗](/files/framework/README.md) Framework | Mode Identity Theory: Modal Realization from Nested Topology | 2025-12-26 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18064856.svg)](https://doi.org/10.5281/zenodo.18064856) | [4.3/5](https://theoryofeverything.ai/review-profile/framework/73fecd82-14f8-4cdb-b529-48568790f718) |
 | [↗](/files/framework/files/bedrock/files/first-eigenvalue.md) First eigenvalue | Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level | 2026-06-19 | [SSRN 6968741](https://ssrn.com/abstract=6968741) | [3.7/5](https://theoryofeverything.ai/review-profile/paper/a20ee507-d3b0-4a23-be29-79eaeea645b1) |
 | [↗](/files/framework/files/bedrock/files/coexact-gap.md) Coexact gap |  |  |  |  |
 | [↗](/files/framework/files/bedrock/files/galois-pair.md) Galois pair |  |  |  |  |
