@@ -8,7 +8,7 @@
 
 | Page | Paper | Date | DOI | TOE-Share |
 |---|---|---|---|---|
-| [↗](/files/framework/README.md) Framework | Mode Identity Theory: Modal Realization from Nested Topology | 2025 Dec | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18064856.svg)](https://doi.org/10.5281/zenodo.18064856) | [4.3/5](https://theoryofeverything.ai/review-profile/framework/73fecd82-14f8-4cdb-b529-48568790f718) |
+| [↗](/files/framework/README.md) Framework | Mode Identity Theory: Modal Realization from Nested Topology | 2025 Dec | [10.5281/zenodo.18064856](https://doi.org/10.5281/zenodo.18064856) | [4.3/5](https://theoryofeverything.ai/review-profile/framework/73fecd82-14f8-4cdb-b529-48568790f718) |
 | [↗](/files/framework/files/bedrock/files/first-eigenvalue.md) First eigenvalue | Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level | 2026 Jun | [SSRN 6968741](https://ssrn.com/abstract=6968741) | [3.7/5](https://theoryofeverything.ai/review-profile/paper/a20ee507-d3b0-4a23-be29-79eaeea645b1) |
 | [↗](/files/framework/files/bedrock/files/coexact-gap.md) Coexact gap | Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms | 2026 Jun | [SSRN 6968698](https://ssrn.com/abstract=6968698) | [4.2/5](https://theoryofeverything.ai/review-profile/paper/26f424d0-35bb-4b22-b333-00323f01a72a) |
 | [↗](/files/framework/files/bedrock/files/galois-pair.md) Galois pair | An Affine Rho–Index Conversion and the Galois Pair on the Poincaré Homology Sphere | 2026 Jul | [SSRN 7129118](https://ssrn.com/abstract=7129118) | [4.2/5](https://theoryofeverything.ai/review-profile/paper/bfb63b33-d026-4110-95b2-90b5957291e3) |
@@ -17,23 +17,23 @@
 
 | Page | Paper | Date | DOI | TOE-Share |
 |---|---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md) Cosmological constant | Λ Ground Mode of the Cosmic Boundary | 2026 Jan | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18307314.svg)](https://doi.org/10.5281/zenodo.18307314) | [4.5/5](https://theoryofeverything.ai/review-profile/paper/5c76b5d8-ce9e-47df-b05e-fabca2e94785) |
+| [↗](/files/cosmos/files/cosmological-constant.md) Cosmological constant | Λ Ground Mode of the Cosmic Boundary | 2026 Jan | [10.5281/zenodo.18307314](https://doi.org/10.5281/zenodo.18307314) | [4.5/5](https://theoryofeverything.ai/review-profile/paper/5c76b5d8-ce9e-47df-b05e-fabca2e94785) |
 | [↗](/files/cosmos/files/dark-energy.md) Dark energy | Apparent Phantom Crossing as Template Bias: A Bounded-Clock Deformation of ΛCDM | 2026 May | [SSRN 6804058](https://ssrn.com/abstract=6804058) | [4.2/5](https://theoryofeverything.ai/review-profile/paper/f93b1584-bb4d-4dfa-b08d-d9e07af17d27) |
-| [↗](/files/cosmos/files/hubble-tension.md) Hubble tension | Λ Constant, H₀ Local: Hubble Tension as Phase Field | 2026 Jan | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18363693.svg)](https://doi.org/10.5281/zenodo.18363693) | [4.5/5](https://theoryofeverything.ai/review-profile/paper/a48e57e3-a79d-4a7d-b460-23d02699f7aa) |
-| [↗](/files/cosmos/files/cmb-anomalies.md) CMB anomalies | Λ Constant, Axis Aligned: CMB Anomalies from Topology | 2025 Dec | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18092169.svg)](https://doi.org/10.5281/zenodo.18092169) | [4.2/5](https://theoryofeverything.ai/review-profile/paper/d6be7496-415a-4c11-9fcf-0a307129e13f) |
+| [↗](/files/cosmos/files/hubble-tension.md) Hubble tension | Λ Constant, H₀ Local: Hubble Tension as Phase Field | 2026 Jan | [10.5281/zenodo.18363693](https://doi.org/10.5281/zenodo.18363693) | [4.5/5](https://theoryofeverything.ai/review-profile/paper/a48e57e3-a79d-4a7d-b460-23d02699f7aa) |
+| [↗](/files/cosmos/files/cmb-anomalies.md) CMB anomalies | Λ Constant, Axis Aligned: CMB Anomalies from Topology | 2025 Dec | [10.5281/zenodo.18092169](https://doi.org/10.5281/zenodo.18092169) | [4.2/5](https://theoryofeverything.ai/review-profile/paper/d6be7496-415a-4c11-9fcf-0a307129e13f) |
 | [↗](/files/cosmos/files/early-galaxies.md) Early galaxies | Epoch-dependent Acceleration Scale from Bounded Topology: Predictions for High-redshift Galactic Dynamics | 2026 Jun | [SSRN 6933958](https://ssrn.com/abstract=6933958) | [3.7/5](https://theoryofeverything.ai/review-profile/paper/b0dea8f0-5c28-4e8c-9323-f12472fb7949) |
 | [↗](/files/cosmos/files/black-hole.md) Black holes |  |  |  |  |
-| [↗](/files/cosmos/files/euclid-dr1.md) Euclid DR1 | Euclid DR1: A Pre-Registered Contender Showdown | 2026 Jun | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563048.svg)](https://doi.org/10.5281/zenodo.20563048) |  |
+| [↗](/files/cosmos/files/euclid-dr1.md) Euclid DR1 | Euclid DR1: A Pre-Registered Contender Showdown | 2026 Jun | [10.5281/zenodo.20563048](https://doi.org/10.5281/zenodo.20563048) |  |
 
 ## 🌈 spectrum
 
 | Page | Paper | Date | DOI | TOE-Share |
 |---|---|---|---|---|
-| [↗](/files/spectrum/files/yang-mills.md) Yang-Mills | Yang–Mills Mass Gap on the Poincaré Homology Sphere | 2026 Feb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18463584.svg)](https://doi.org/10.5281/zenodo.18463584) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/a5968314-04e9-40e5-9b7a-264ac2423baf) |
-| [↗](/files/spectrum/files/mass-spectrum.md) Mass spectrum | The Spectrum: Particle Mass Generation from Spectral Geometry on S³/2I | 2026 Feb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18603975.svg)](https://doi.org/10.5281/zenodo.18603975) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/5c4c39f7-e0a7-4233-93d6-1f76b67a4e70) |
-| [↗](/files/spectrum/files/fine-structure.md) Fine structure | α Fine Structure: Λ Minimum Step to Mode Identity | 2026 Feb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18484780.svg)](https://doi.org/10.5281/zenodo.18484780) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/3a72185e-ab43-4fa0-a89e-5250b6f96e0c) |
+| [↗](/files/spectrum/files/yang-mills.md) Yang-Mills | Yang–Mills Mass Gap on the Poincaré Homology Sphere | 2026 Feb | [10.5281/zenodo.18463584](https://doi.org/10.5281/zenodo.18463584) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/a5968314-04e9-40e5-9b7a-264ac2423baf) |
+| [↗](/files/spectrum/files/mass-spectrum.md) Mass spectrum | The Spectrum: Particle Mass Generation from Spectral Geometry on S³/2I | 2026 Feb | [10.5281/zenodo.18603975](https://doi.org/10.5281/zenodo.18603975) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/5c4c39f7-e0a7-4233-93d6-1f76b67a4e70) |
+| [↗](/files/spectrum/files/fine-structure.md) Fine structure | α Fine Structure: Λ Minimum Step to Mode Identity | 2026 Feb | [10.5281/zenodo.18484780](https://doi.org/10.5281/zenodo.18484780) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/3a72185e-ab43-4fa0-a89e-5250b6f96e0c) |
 | [↗](/files/spectrum/files/the-mirror.md) The mirror | Spectral Inaccessibility of Individual L-Function Zeros for Intrinsic Natural Operators on S3/2I | 2026 Mar | [SSRN 6850939](https://ssrn.com/abstract=6850939) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/8a627c91-caf4-4b17-b438-3c435c55db16) |
-| [↗](/files/spectrum/files/the-waltz.md) The waltz | The Waltz: Λ *Note* to Einstein's Field Equations | 2026 Jan | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18176445.svg)](https://doi.org/10.5281/zenodo.18176445) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/2c715e88-b327-4705-8b08-a376d13a89c9) |
+| [↗](/files/spectrum/files/the-waltz.md) The waltz | The Waltz: Λ *Note* to Einstein's Field Equations | 2026 Jan | [10.5281/zenodo.18176445](https://doi.org/10.5281/zenodo.18176445) | [4.3/5](https://theoryofeverything.ai/review-profile/paper/2c715e88-b327-4705-8b08-a376d13a89c9) |
 
 ---
 
