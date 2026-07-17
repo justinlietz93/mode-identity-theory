@@ -6,7 +6,7 @@
 
 Deposits arranged to mirror the repository. Blank cells mark pages with no standalone deposit yet.
 
-## framework
+## 📐 framework
 
 | Page | Paper | Date | DOI | TOE-Share |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@ Deposits arranged to mirror the repository. Blank cells mark pages with no stand
 | [↗](/files/framework/files/bedrock/files/coexact-gap.md) Coexact gap | Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms | 2026-06-19 | [SSRN 6968698](https://ssrn.com/abstract=6968698) | [4.2/5](https://theoryofeverything.ai/review-profile/paper/26f424d0-35bb-4b22-b333-00323f01a72a) |
 | [↗](/files/framework/files/bedrock/files/galois-pair.md) Galois pair | An Affine Rho–Index Conversion and the Galois Pair on the Poincaré Homology Sphere | 2026-07-16 | [SSRN 7129118](https://ssrn.com/abstract=7129118) | [4.2/5](https://theoryofeverything.ai/review-profile/paper/bfb63b33-d026-4110-95b2-90b5957291e3) |
 
-## cosmos
+## 🪐 cosmos
 
 | Page | Paper | Date | DOI | TOE-Share |
 |---|---|---|---|---|
@@ -27,7 +27,7 @@ Deposits arranged to mirror the repository. Blank cells mark pages with no stand
 | [↗](/files/cosmos/files/black-hole.md) Black holes |  |  |  |  |
 | [↗](/files/cosmos/files/euclid-dr1.md) Euclid DR1 | Euclid DR1: A Pre-Registered Contender Showdown | 2026-06-05 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563048.svg)](https://doi.org/10.5281/zenodo.20563048) |  |
 
-## spectrum
+## 🌈 spectrum
 
 | Page | Paper | Date | DOI | TOE-Share |
 |---|---|---|---|---|
