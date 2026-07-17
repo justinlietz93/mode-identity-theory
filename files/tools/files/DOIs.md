@@ -4,8 +4,6 @@
 
 # Publication Registry
 
-Deposits arranged to mirror the repository. Blank cells mark pages with no standalone deposit yet.
-
 ## 📐 framework
 
 | Page | Paper | Date | DOI | TOE-Share |
