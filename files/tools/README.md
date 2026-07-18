@@ -16,7 +16,7 @@ Every link between topology and observable is live. The code is the math. There 
 
 **[Euclid DR1](https://dmobius3.github.io/mode-identity-theory/files/tools/files/euclid-dr1.html)**: the blind test. Every prediction and falsification threshold pre-registered on Zenodo before the October 2026 data.
 
-**[The Notebook](https://notebooklm.google.com/notebook/c95e494f-7624-4ccd-b4ae-1e5a938ad24a)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
+**[The Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
 
 ## Reference
 
