@@ -226,6 +226,8 @@ Every link between topology and observable is live. The code is the math. There 
 
 **[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)**
 
+**[Ask the Theory Anything](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**
+
 ---
 
 [![The Whole of the Moon](https://img.youtube.com/vi/pu7AR0-FRro/mqdefault.jpg)](https://www.youtube.com/watch?v=pu7AR0-FRro)
