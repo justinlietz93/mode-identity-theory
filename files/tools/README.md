@@ -4,7 +4,7 @@
 
 # :hammer_and_wrench: Tools
 
-Every link between topology and observable is live. The code is the math. There are no hidden knobs. These are the working tools behind the framework: the interactive pages let you turn the shape and run the numbers yourself, the toolbelt lays out the pipeline from structure to prediction, and the registry collects the deposits.
+Check it yourself. Nothing below is a demonstration: each page runs the framework's own arithmetic in the browser, with the inputs exposed. Turn the domain, recompute the spectrum, follow a derivation one step at a time, or look up what was deposited and when.
 
 ## Interactive
 
