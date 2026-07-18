@@ -16,6 +16,10 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
+Insert NotebookLM Image/Link
+
+---
+
 ## :file_folder: Repo Structure
 
 ```
