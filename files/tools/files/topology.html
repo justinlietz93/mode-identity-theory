@@ -135,14 +135,14 @@ var mGeo = new THREE.BufferGeometry();
 var mV = [], mC = [], mI = [], mN = [];
 for (var i = 0; i <= NY; i++) {
   var y = (i / NY) * Math.PI;
-  var u0 = Math.sin(y);
+  var u1 = Math.sin(y);
   for (var j = 0; j <= NW; j++) {
     var w = -SW + (j / NW) * 2 * SW;
     var p = sph(y, w);
     var nr = Math.sqrt(p[0]*p[0]+p[1]*p[1]+p[2]*p[2]) || 1;
     mV.push(p[0]*1.003, p[1]*1.003, p[2]*1.003);
     var c = new THREE.Color();
-    c.setHSL(0.45 - u0 * 0.12, 0.5 + u0 * 0.3, 0.3 + u0 * 0.25);
+    c.setHSL(0.45 - u1 * 0.12, 0.5 + u1 * 0.3, 0.3 + u1 * 0.25);
     mC.push(c.r, c.g, c.b);
     mN.push(p[0]/nr, p[1]/nr, p[2]/nr);
   }
@@ -200,14 +200,14 @@ cGlow.position.set(0, SR*1.01, 0); cGlow.visible = true; scene.add(cGlow);
 var coneGroup = [cDot, cGlow];
 
 // ═══════════════════════════════════════════
-//  EIGENFUNCTION u₀ = sin(y/R)
+//  EIGENFUNCTION u₁ = sin(y/R)
 //  Radial displacement off sphere along w=0 meridian
 // ═══════════════════════════════════════════
 var WN = 200, wAmp = 0.08, wPts = [], bPts = [];
 for (var i = 0; i <= WN; i++) {
-  var y = (i/WN)*Math.PI, u0 = Math.sin(y)*wAmp;
+  var y = (i/WN)*Math.PI, u1 = Math.sin(y)*wAmp;
   var p = sph(y, 0);
-  wPts.push(new THREE.Vector3(p[0]*(1+u0/SR), p[1]*(1+u0/SR), p[2]*(1+u0/SR)));
+  wPts.push(new THREE.Vector3(p[0]*(1+u1/SR), p[1]*(1+u1/SR), p[2]*(1+u1/SR)));
   bPts.push(new THREE.Vector3(p[0]*1.002, p[1]*1.002, p[2]*1.002));
 }
 var wLine = new THREE.Line(new THREE.BufferGeometry().setFromPoints(wPts), new THREE.LineBasicMaterial({ color: 0xf0c040, transparent: true, opacity: 0.9, linewidth: 2 }));
@@ -279,7 +279,7 @@ var ann = {
   surface: { label:"Surface", name:"Geodesic Band, M\u00F6bius Quotient", body:"A band on the great S\u00B2 within S\u00B3. That great S\u00B2 is totally geodesic, so the band's geodesics are geodesics of space; the M\u00F6bius is its edge-identified quotient, not a smooth totally geodesic submanifold of S\u00B3. The metric ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2 carries constant curvature K = 1/R\u00B2. Widest at the equator, pinching to a point at the pole. The twist is topological, not geometric: it lives in the boundary identification, not in the geometry of the band.", math:"ds\u00B2 = dy\u00B2 + cos\u00B2(y/R) dw\u00B2" },
   edge: { label:"Edge", name:"S\u00B9 Boundary", body:"A single closed loop traversing the strip twice. Two arcs from equator through the cone point and back, connected by the M\u00F6bius twist. Where time lives and where \u03A8 is sampled.", math:"S\u00B9 = \u2202(M\u00F6bius)" },
   cone: { label:"Cone Point", name:"The Antinode", body:"At y = \u03C0R/2, cos(y/R) \u2192 0. The strip pinches to a single point: the pole of S\u00B2. The geometry goes quiet. The eigenfunction peaks: u\u2081 = 1, u\u2081\u2032 = 0. Maximum amplitude at zero width.", math:"u\u2081(\u03C0R/2) = 1" },
-  wave: { label:"Eigenfunction", name:"u\u2081 = sin(y/R)", body:"First positive eigenfunction of the twisted Laplacian, stable across the cone point's self-adjoint extension choice. Zero at equator, maximum at cone point. Anti-periodic: u\u2081(y + \u03C0R) = \u2212u\u2081(y).", math:"\u03BB\u2081 = R_{sm} = 2/R\u00B2" },
+  wave: { label:"Eigenfunction", name:"u\u2081 = sin(y/R)", body:"First positive eigenfunction of the twisted Laplacian, shared by the Friedrichs and bridging realizations (\u03B4\u2080 > 2R/e). Zero at equator, maximum at cone point. Anti-periodic: u\u2081(y + \u03C0R) = \u2212u\u2081(y).", math:"\u03BB\u2081 = R_{sm} = 2/R\u00B2" },
   sample: { label:"Sample", name:"The Observation", body:"C(\u0398) reads the wave amplitude at the well position. Fibonacci wells are where destructive interference is minimized. The sample IS the measurement. No value precedes the sample.", math:"A/A\u209A \u2248 C(\u0398) \u00B7 (\u221A\u03A9)\u207B\u207F" }
 };
 
