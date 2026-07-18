@@ -224,13 +224,7 @@ All predictions below were locked before Data Release 1 and deposited on Zenodo.
 
 ## :hammer_and_wrench: Tools
 
-Every link between topology and observable is live. The code is the math. There are no hidden knobs.
-
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)**
-
-**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)**
-
-**[Ask the Theory Anything](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**
+[↗](/files/tools/) Every link between topology and observable is live. The code is the math. There are no hidden knobs. These are the working tools behind the framework: the interactive pages let you turn the shape and run the numbers yourself, the toolbelt lays out the pipeline from structure to prediction, and the registry collects the deposits.
 
 ---
 
