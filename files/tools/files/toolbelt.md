@@ -313,8 +313,4 @@ If something fails at step 3, you do not fix it at step 5. That is how you avoid
 
 ---
 
-*Topology holds. Wave is. Particle samples.*
-
----
-
 / **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
