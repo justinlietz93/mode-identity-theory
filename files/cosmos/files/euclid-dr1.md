@@ -72,6 +72,14 @@ MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal
 
 > 🎯 *DR1 outcome to be recorded after October 2026.*
 
+*Note added 2026-07-18, post-freeze. No prediction cell and no falsification threshold is edited. This note invokes the row's existing deferral provision under a cause that provision was not written for, and states the stretch rather than leaving it implicit.*
+
+**The row II lensing channel is conditional on a relativistic completion the framework has not supplied.** The framework gives a Newtonian-equivalent dynamical prediction, not a lensing law: outside general relativity the potential that deflects photons need not track the one governing dynamics, which is why relativistic completions were developed for MOND itself. A DR1 lensing result therefore bears on $a_0(z)$ only under a completion in which the lensing potential inherits the $E(z)$ scaling.
+
+The adverse direction is worth stating plainly. Because the lensing conjunct carries no derived expectation, an apparent DR1 enhancement arising from noise or an unrelated systematic would leave the falsification condition unmet even where the kinematic conjunct is satisfied, shielding this row from a falsification the channel that does the work had already delivered.
+
+The remedy is the one the sensitivity provision above specifies, applied to a different cause: not insufficient data, but an absent theoretical connection. Absent a completion, the row defers to DR2 and external kinematic follow-up and is not counted in the tally. The deposited cells stand as written.
+
 **[Update 1 (June 2026): MUSE-DARK III](early-galaxies-update1.md)** 
 
 The first robust intermediate-redshift measurement of the acceleration scale arrived after this prediction was deposited. MUSE-DARK III (Ciocan et al., *A&A* 709) fits $a_0$ in four redshift bins from 79 galaxies in the MUSE Hubble Ultra Deep Field and finds it rising with redshift at ~30σ over 0.33 < z < 1.44, the predicted direction, against the standard-MOND constant.
@@ -86,7 +94,7 @@ The first robust intermediate-redshift measurement of the acceleration scale arr
 
 **Normalization: open.** The anchor $a_0(0) = 1.2$ is fixed by SPARC and echoed by the locked ratio; the comparison is limited by the tens-of-percent cross-calibration between MUSE and SPARC and by the redshift-dependent gas the model omits, not by the framework.
 
-**Universality: the ground test cannot stand in for Euclid.** The per-galaxy test of whether a single $a_0$ holds across mass is now runnable on the public data, and it proves structurally inapplicable: the fitted dark-matter fractions stay flat with mass, which turns any apparent $a_0$ trend into a surface-density artifact degenerate with a fitting prior. The discriminator remains the mass- and aperture-independent Euclid DR1 lensing test, which reads the signal without a stellar mass-to-light scale.
+**Universality: the ground test is uninformative on its own terms.** The per-galaxy test of whether a single $a_0$ holds across mass is now runnable on the public data, and it proves structurally inapplicable: the fitted dark-matter fractions stay flat with mass, which turns any apparent $a_0$ trend into a surface-density artifact degenerate with a fitting prior. What the question needs is a measurement free of the stellar mass-to-light scale, which stacked lensing would supply mass- and aperture-independently, on the condition recorded in the note above. Absent that completion, the near-term weight sits on matched-systematics kinematics.
 
 This sits alongside the companion paper's standing 2.9σ trend-shape tension with the Übler KMOS3D Tully–Fisher data: the honest intermediate-redshift record is direction confirmed, details contested, clean test pending.
 

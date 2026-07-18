@@ -118,13 +118,13 @@ Observations of both quantities at high redshift provide independent, complement
 
 | Observable | Test | Falsified if |
 |---|---|---|
-| $a_0$ universality in lensing | Euclid DR1 stacked galaxy–galaxy lensing at $z \approx 0.5$ to $2$ | The inferred $M_\text{dyn}/M_b$ enhancement is mass- or aperture-dependent in the ΛCDM sense, rather than the framework's mass-independent $\sqrt{E(z)}$ scaling |
+| $a_0$ universality in lensing (conditional) | Euclid DR1 stacked galaxy–galaxy lensing at $z \approx 0.5$ to $2$, under a relativistic completion carrying the $E(z)$ scaling into the lensing potential | The inferred $M_\text{dyn}/M_b$ enhancement is mass- or aperture-dependent in the ΛCDM sense, rather than the framework's mass-independent $\sqrt{E(z)}$ scaling |
 | $a_0(z)$ evolution | Rotation curves / RAR / BTFR at $z > 2$ | $a_0(z)/a_0(0) = 1$, or the trend is inconsistent with $E(z)$ under matched systematics |
 | $\Lambda$ epoch-independence | SNe Ia / BAO at high $z$ | $\Lambda$ varies with redshift at $\geq 2\sigma$ |
 
-The first row is the discriminator; the second is the necessary direction-and-rate check. A rising $a_0$ alone is now corroborated but non-discriminating.
+The first row would be the cleanest discriminator and is conditional on a relativistic completion the framework has not supplied; the second is the necessary direction-and-rate check, and it carries the near-term weight. A rising $a_0$ alone is now corroborated but non-discriminating.
 
-At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is within reach of resolved rotation curves from Euclid, JWST/NIRSpec, and the ELT. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
+At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. This is within reach of resolved rotation curves from JWST/NIRSpec and the ELT; Euclid's slitless NISP delivers redshifts rather than resolved rotation curves. These predictions distinguish MIT from both standard MOND (constant $a_0$) and ΛCDM (no acceleration threshold).
 
 MUSE-DARK III (2026) supplies the first robust intermediate-redshift corroboration of the rising direction; the observational record and caveats are tracked on the [Euclid DR1 page](euclid-dr1.md), with the full comparison in [Update 1](early-galaxies-update1.md).
 
