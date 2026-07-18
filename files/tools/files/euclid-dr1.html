@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Euclid DR1 | Mode Identity Theory</title>
-<meta name="description" content="Tracking Euclid Data Release 1 against locked predictions from Mode Identity Theory. Release date: 21 October 2026.">
+<meta name="description" content="Tracking Euclid Data Release 1 against locked predictions from Mode Identity Theory. DR1-Foundation November 2026; full DR1 with cosmology products mid 2027.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -65,6 +65,7 @@
   .countdown-unit:last-child { border-radius: 0 6px 6px 0; }
   .countdown-value { font-size: 34px; font-weight: 600; color: var(--accent); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; font-family: var(--mono); }
   .countdown-label { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dimmer); margin-top: 4px; font-family: var(--sans); }
+  .countdown-note { font-size: 13px; color: var(--dimmer); font-family: var(--sans); margin-top: 10px; }
 
   /* ── SECTIONS ── */
   section { padding: 48px 0; border-bottom: 1px solid var(--border); }
@@ -159,7 +160,7 @@
     </div>
     <h1 class="fade-in">Euclid DR1</h1>
     <p class="subtitle fade-in">
-      <a target="_blank" rel="noopener" href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">Euclid</a> is the European Space Agency's flagship telescope, mapping the geometry of the universe across 10 billion years of cosmic history. Its first cosmology data release (DR1) arrives October 2026.
+      <a target="_blank" rel="noopener" href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">Euclid</a> is the European Space Agency's flagship telescope, mapping the geometry of the universe across 10 billion years of cosmic history. Its first data release comes in two stages: DR1-Foundation in November 2026, then the full DR1, which adds the cosmology products, in mid 2027.
     </p>
     <div class="countdown-bar fade-in" id="countdown">
       <div class="countdown-unit"><div class="countdown-value" id="cd-days">---</div><div class="countdown-label">Days</div></div>
@@ -167,6 +168,7 @@
       <div class="countdown-unit"><div class="countdown-value" id="cd-min">--</div><div class="countdown-label">Minutes</div></div>
       <div class="countdown-unit"><div class="countdown-value" id="cd-sec">--</div><div class="countdown-label">Seconds</div></div>
     </div>
+    <p class="countdown-note fade-in">To DR1-Foundation. ESA lists all release dates as tentative.</p>
   </div>
 </header>
 
@@ -256,13 +258,14 @@
       <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">March 2025</div><div class="tl-title">Quick Data Release Q1</div><div class="tl-desc">Three deep fields, 63 sq deg, 500+ strong lenses. No cosmology.</div></div>
       <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">January 2026</div><div class="tl-title">MIT values deposited</div><div class="tl-desc">Predictions sealed on Zenodo (<a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">DOI</a>). a<sub>0</sub>/cH = 0.184, &Lambda; = 3/R&sup2;, null DM.</div></div>
       <div class="tl-item active"><div class="tl-dot"></div><div class="tl-date">June 2026</div><div class="tl-title">Q2 release</div><div class="tl-desc">Second quick release. Pre-DR1 data products.</div></div>
-      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">21 October 2026</div><div class="tl-title">DR1: First cosmology data</div><div class="tl-desc">~2,300 sq deg. Weak lensing, galaxy clustering, BAO, photometric redshifts. First cosmology release.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">November 2026</div><div class="tl-title">DR1-Foundation</div><div class="tl-desc">~1,900 sq deg. Raw and calibrated images, catalogues, spectra. No cosmology-derived products. Reaches the z &#8819; 10 stellar mass function test.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">mid 2027</div><div class="tl-title">DR1: cosmology products</div><div class="tl-desc">Adds higher-level galaxy clustering and weak lensing products. The gate for the other four predictions.</div></div>
     </div>
   </section>
 
   <section>
     <h2>What Euclid DR1 Delivers</h2>
-    <p>DR1 contains the first year of survey data: ~2,300 square degrees of sky, plus accumulated deep field passes. This is the first Euclid release with cosmology results.</p>
+    <p>DR1 arrives in two stages. DR1-Foundation covers about 1,900 square degrees with raw and calibrated images, catalogues and spectra, but no cosmology-derived products. The higher-level galaxy clustering and weak lensing products follow with the full DR1 in mid 2027, which is what four of the five predictions below are tested against.</p>
     <table class="data-table">
       <thead><tr><th>DR1 product</th><th>MIT relevance</th><th>What to watch</th></tr></thead>
       <tbody>
@@ -297,7 +300,7 @@
 </div>
 
 <script>
-  const target = new Date('2026-10-21T10:00:00Z').getTime();
+  const target = new Date('2026-11-01T10:00:00Z').getTime();
   function updateCountdown() {
     const now = Date.now();
     const diff = target - now;
