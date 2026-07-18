@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mode Identity Theory | Interactive Calculator</title>
-  <meta name="description" content="Run the MIT scaling law yourself. One postulate, zero free parameters. S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅.">
+  <meta name="description" content="Run the MIT scaling law yourself. One postulate, each value fixed by a named selection principle. S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅.">
   <meta name="author" content="Blake Shatto, P.E.">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -452,21 +452,20 @@ function comp() {
   if (preset !== "alphaRatio") rows.push(["A / Aₚ", fS(res)]);
   if (preset === "alphaRatio") rows.push(["α<sub>s</sub> / α<sub>W</sub>", res.toFixed(3)]);
 
-  // Observed value for presets (locked scorecard agreements)
+  // Observed value for presets
   var obs = {
-    alpha:      {v: 0.007297,              label: "α observed",                    agr: "0.49%"},
-    alphaS:     {v: 0.11790,               label: "α<sub>s</sub> observed",        agr: "1.42%"},
-    alphaW:     {v: 0.03378,               label: "α<sub>W</sub> observed",        agr: "0.41%"},
-    alphaRatio: {v: 0.11790/0.03378,       label: "α<sub>s</sub>/α<sub>W</sub> observed", agr: "~2%"},
-    a0:         {v: 1.2e-10 / A_P,         label: "a₀/a<sub>P</sub> observed",    agr: "~2%"},
-    H0:         {v: H0 * T_P,              label: "H₀·t<sub>P</sub> observed",    agr: "~2%"},
-    lambda:     {v: LAMBDA * ELL_P * ELL_P, label: "Λ·ℓ<sub>P</sub>² observed",  agr: "~2%"},
-    dm:         {v: null,                   label: "No non-gravitational signal",   agr: "✓"}
+    alpha:      {v: 0.007297,              label: "α observed"},
+    alphaS:     {v: 0.11790,               label: "α<sub>s</sub> observed"},
+    alphaW:     {v: 0.03378,               label: "α<sub>W</sub> observed"},
+    alphaRatio: {v: 0.11790/0.03378,       label: "α<sub>s</sub>/α<sub>W</sub> observed"},
+    a0:         {v: 1.2e-10 / A_P,         label: "a₀/a<sub>P</sub> observed"},
+    H0:         {v: H0 * T_P,              label: "H₀·t<sub>P</sub> observed"},
+    lambda:     {v: LAMBDA * ELL_P * ELL_P, label: "Λ·ℓ<sub>P</sub>² observed"},
+    dm:         {v: null,                   label: "No non-gravitational signal"}
   };
   var o = obs[preset];
   if (o && o.v !== null) {
     rows.push([o.label, preset === "alphaRatio" ? o.v.toFixed(3) : fS(o.v)]);
-    rows.push(["Agreement", o.agr]);
   } else if (o && o.v === null) {
     rows.push([o.label, "(√Ω)<sup>−3</sup> ≈ 10<sup>−183</sup> suppression"]);
   }
@@ -476,10 +475,9 @@ function comp() {
     var isResult = k === 'A / Aₚ' || k.indexOf('α<sub>s</sub> / α<sub>W</sub>') === 0;
     var isExtra = k.indexOf('× 3/2') === 0 || k.indexOf('× cos') === 0 || k === 'Ω dependence';
     var isObs = k.indexOf('observed') >= 0;
-    var isAgr = k === 'Agreement';
     return '<tr><td style="color:' +
-      (isResult ? 'var(--accent)' : isExtra ? 'var(--gold)' : isObs ? 'var(--dim)' : isAgr ? 'var(--green)' : 'inherit') +
-      ';font-weight:' + (isResult || isExtra || isAgr ? '600' : '400') +
+      (isResult ? 'var(--accent)' : isExtra ? 'var(--gold)' : isObs ? 'var(--dim)' : 'inherit') +
+      ';font-weight:' + (isResult || isExtra ? '600' : '400') +
       '">' + k + '</td><td>' + v + '</td></tr>';
   }).join('');
   drawDomain(th);
@@ -493,19 +491,19 @@ var sI = document.getElementById('specIrrep');
 var sV = document.getElementById('specVacuum');
 var sP = document.getElementById('specPreset');
 
-// SM fermion preset assignments: {rho, sig, obs (GeV), name, locked_agr}
+// SM fermion preset assignments: {rho, sig, obs (GeV), name}
 var SP = {
-  e:   {rho:7, sig:"triv", obs:5.11e-4,  name:"e",  agr:"2%"},
-  u:   {rho:8, sig:"triv", obs:2.16e-3,  name:"u",  agr:"6%"},
-  d:   {rho:8, sig:"gal",  obs:4.67e-3,  name:"d",  agr:""},
-  mu:  {rho:8, sig:"std",  obs:1.057e-1, name:"μ",  agr:"~3%"},
-  s:   {rho:8, sig:"std",  obs:9.34e-2,  name:"s",  agr:""},
-  tau: {rho:4, sig:"std",  obs:1.777,    name:"τ",  agr:""},
-  b:   {rho:2, sig:"gal",  obs:4.18,     name:"b",  agr:""},
-  t:   {rho:2, sig:"std",  obs:172.7,    name:"t",  agr:""},
-  nu1: {rho:1, sig:"std",  obs:1e-13,    name:"ν₁", agr:""},
-  nu2: {rho:1, sig:"gal",  obs:8.6e-12,  name:"ν₂", agr:""},
-  nu3: {rho:1, sig:"gal",  obs:5.06e-11, name:"ν₃", agr:""}
+  e:   {rho:7, sig:"triv", obs:5.11e-4,  name:"e"},
+  u:   {rho:8, sig:"triv", obs:2.16e-3,  name:"u"},
+  d:   {rho:8, sig:"gal",  obs:4.67e-3,  name:"d"},
+  mu:  {rho:8, sig:"std",  obs:1.057e-1, name:"μ"},
+  s:   {rho:8, sig:"std",  obs:9.34e-2,  name:"s"},
+  tau: {rho:4, sig:"std",  obs:1.777,    name:"τ"},
+  b:   {rho:2, sig:"gal",  obs:4.18,     name:"b"},
+  t:   {rho:2, sig:"std",  obs:172.7,    name:"t"},
+  nu1: {rho:1, sig:"std",  obs:1e-13,    name:"ν₁"},
+  nu2: {rho:1, sig:"gal",  obs:8.6e-12,  name:"ν₂"},
+  nu3: {rho:1, sig:"gal",  obs:5.06e-11, name:"ν₃"}
 };
 
 sP.addEventListener('change', function() {
@@ -541,7 +539,7 @@ function compSpec() {
     ["<strong>m</strong>", "<strong>" + fS(m, 4) + " GeV</strong>", "<strong>Product of four factors</strong>"]
   ];
 
-  // Observed value and agreement for SM presets
+  // Observed value and computed ratio for SM presets
   var p = SP[sP.value];
   if (p) {
     var obsRatio = Math.max(m / p.obs, p.obs / m);
@@ -553,7 +551,7 @@ function compSpec() {
     bd.push([
       "Ratio",
       "×" + obsRatio.toFixed(2),
-      p.agr ? p.agr + " agreement" : (obsRatio <= 3 ? "within ×3" : "within ×10")
+      obsRatio <= 3 ? "within ×3" : "within ×10"
     ]);
   }
 
