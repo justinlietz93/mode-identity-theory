@@ -114,13 +114,6 @@
   .data-table tr:last-child td { border-bottom: none; }
   .data-table .highlight { color: var(--bright); font-weight: 500; }
 
-  /* ── REG BLOCK ── */
-  .reg-block { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 24px; margin: 20px 0; }
-  .reg-block .reg-title { font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; font-family: var(--sans); font-weight: 600; }
-  .reg-row { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid var(--border-light); font-size: 15px; font-family: var(--mono); }
-  .reg-row:last-child { border-bottom: none; }
-  .reg-row .reg-key { color: var(--dim); font-family: var(--sans); }
-  .reg-row .reg-val { color: var(--bright); font-weight: 500; }
 
   /* ── EQ BLOCK ── */
   .eq-block { background: rgba(26,115,196,0.05); border-left: 3px solid rgba(26,115,196,0.3); border-radius: 0 6px 6px 0; padding: 16px 20px; margin: 16px 0; font-size: 17px; color: var(--bright); letter-spacing: 0.02em; overflow-x: auto; font-family: var(--mono); }
@@ -177,20 +170,25 @@
   </section>
 
   <section>
-    <h2>Registration</h2>
-    <p>All values were pre-registered on Zenodo before DR1. The DESI DR2 analysis is a consistency check against already-public data. Euclid is the blind test.</p>
-    <div class="reg-block">
-      <div class="reg-title">Zenodo Pre-Registration</div>
-      <div class="reg-row"><span class="reg-key">DOI</span><span class="reg-val"><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.20563048">10.5281/zenodo.20563048</a></span></div>
-      <div class="reg-row"><span class="reg-key">Freeze date</span><span class="reg-val">2026-06-05</span></div>
-      <div class="reg-row"><span class="reg-key">Contenders</span><span class="reg-val">&Lambda;CDM, CPL, EDE, MOND</span></div>
-      <div class="reg-row"><span class="reg-key">a<sub>0</sub>/cH ratio</span><span class="reg-val">0.184 (Fibonacci well positions)</span></div>
-      <div class="reg-row"><span class="reg-key">&Lambda;<sub>obs</sub> &middot; R&sup2;</span><span class="reg-val">3 (derived from topology)</span></div>
-      <div class="reg-row"><span class="reg-key">Phase parameter s<sub>0</sub></span><span class="reg-val">&lt; 0.19 (95% CL)</span></div>
-      <div class="reg-row"><span class="reg-key">&Omega;<sub>&Lambda;</sub></span><span class="reg-val">0.685 (fixed by topology)</span></div>
+    <h2>What Euclid DR1 Delivers</h2>
+    <p>DR1 arrives in two stages. DR1-Foundation covers about 1,900 square degrees with raw and calibrated images, catalogues and spectra, but no cosmology-derived products. The higher-level galaxy clustering and weak lensing products follow with the full DR1 in mid 2027, which is what four of the five predictions below are tested against.</p>
+    <table class="data-table">
+      <thead><tr><th>DR1 product</th><th>MIT relevance</th><th>What to watch</th></tr></thead>
+      <tbody>
+        <tr><td class="highlight">Weak lensing (cosmic shear)</td><td>Rotation curves across redshift bins probe a<sub>0</sub>(z)</td><td>Does a<sub>0</sub> scale with H(z) or remain constant?</td></tr>
+        <tr><td class="highlight">Galaxy clustering (spectroscopic z)</td><td>BAO standard ruler, independent of DESI</td><td>Independent BAO measurements across Euclid's redshift bins</td></tr>
+        <tr><td class="highlight">Photometric redshifts</td><td>Galaxy distribution, tomographic bins</td><td>Distance-redshift relation consistent with constant &Lambda;?</td></tr>
+        <tr><td>Strong lensing (~7,000 candidates)</td><td>Geometry probe via D<sub>d</sub>/D<sub>s</sub> ratios</td><td>Independent distance ratios testing &Lambda; constancy</td></tr>
+        <tr><td>Lensing mass vs. clustering mass</td><td>Tests whether "dark matter" is particles or geometry</td><td>Non-gravitational signal in the mass comparison?</td></tr>
+        <tr><td>Galaxy cluster abundance</td><td>&sigma;<sub>8</sub>, structure growth rate</td><td>Growth vs. phase-clock history consistency</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <div class="callout-label">Key advantage</div>
+      <p style="margin-bottom:0;">Euclid's weak lensing and galaxy clustering are complementary to DESI's BAO. They constrain the same underlying physics through different observables and different systematics. Separate instrument, separate team, separate data.</p>
     </div>
-    <p class="dim">An earlier three-prediction deposit (<a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">10.5281/zenodo.18189079</a>, January 2026) anchors priority; the card above supersedes it. The predictions follow from the topology. The phase parameter s<sub>0</sub> controls the distance-redshift relation and is constrained by Pantheon+ and DESI DR2 BAO at &Delta;&chi;&sup2; = +0.11 relative to flat &Lambda;CDM.</p>
   </section>
+
 
   <section>
     <h2>Predictions</h2>
@@ -269,25 +267,6 @@
     </div>
   </section>
 
-  <section>
-    <h2>What Euclid DR1 Delivers</h2>
-    <p>DR1 arrives in two stages. DR1-Foundation covers about 1,900 square degrees with raw and calibrated images, catalogues and spectra, but no cosmology-derived products. The higher-level galaxy clustering and weak lensing products follow with the full DR1 in mid 2027, which is what four of the five predictions below are tested against.</p>
-    <table class="data-table">
-      <thead><tr><th>DR1 product</th><th>MIT relevance</th><th>What to watch</th></tr></thead>
-      <tbody>
-        <tr><td class="highlight">Weak lensing (cosmic shear)</td><td>Rotation curves across redshift bins probe a<sub>0</sub>(z)</td><td>Does a<sub>0</sub> scale with H(z) or remain constant?</td></tr>
-        <tr><td class="highlight">Galaxy clustering (spectroscopic z)</td><td>BAO standard ruler, independent of DESI</td><td>Independent BAO measurements across Euclid's redshift bins</td></tr>
-        <tr><td class="highlight">Photometric redshifts</td><td>Galaxy distribution, tomographic bins</td><td>Distance-redshift relation consistent with constant &Lambda;?</td></tr>
-        <tr><td>Strong lensing (~7,000 candidates)</td><td>Geometry probe via D<sub>d</sub>/D<sub>s</sub> ratios</td><td>Independent distance ratios testing &Lambda; constancy</td></tr>
-        <tr><td>Lensing mass vs. clustering mass</td><td>Tests whether "dark matter" is particles or geometry</td><td>Non-gravitational signal in the mass comparison?</td></tr>
-        <tr><td>Galaxy cluster abundance</td><td>&sigma;<sub>8</sub>, structure growth rate</td><td>Growth vs. phase-clock history consistency</td></tr>
-      </tbody>
-    </table>
-    <div class="callout">
-      <div class="callout-label">Key advantage</div>
-      <p style="margin-bottom:0;">Euclid's weak lensing and galaxy clustering are complementary to DESI's BAO. They constrain the same underlying physics through different observables and different systematics. Separate instrument, separate team, separate data.</p>
-    </div>
-  </section>
 
 </div>
 
