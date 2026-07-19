@@ -93,9 +93,9 @@ This is a factor of 4.5 enhancement in effective gravitational acceleration at f
 
 Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ collapse approximately 2.1× faster than constant- $a_0$ MOND would predict. The enhancement is maximal in the deep-MOND limit; inner regions of forming halos where $g$ approaches $a_0(z)$ see a smaller correction, so these estimates are upper bounds.
 
-### The Resolution
+### Easing the Constraint
 
-For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1× faster collapse reduces the implied efficiency to $\varepsilon_\text{SF} \sim 0.5$, within the physically permitted range. The "impossibly early galaxy" problem becomes a straightforwardly early galaxy observation, requiring no exotic physics, no new particles, and no modification to general relativity.
+For the Labbé et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, the 2.1× faster collapse brings the implied efficiency down to $\varepsilon_\text{SF} \sim 0.5$, inside the physically permitted range. That moves the "impossibly early galaxy" problem out of the impossible column without invoking exotic physics, new particles, or any modification to general relativity. Clearing any individual candidate is a separate question, set by halo-mass assumptions the framework leaves untouched.
 
 *The acceleration scale was simply larger when those galaxies formed.*
 
@@ -112,7 +112,7 @@ This is an inversion of standard assumptions, where $\Lambda$ is often treated a
 
 The companion paper (*Phantom Dark Energy: Template Artifact in Static Space*) proves that $\Lambda$ never crosses $w = -1$ and that the apparent DESI signal is a template artifact. This paper shows that $a_0$ evolves with $H(z)$ and resolves the JWST early-galaxy tension. Together, the two cornerstones embody the static universe from opposite sides: one observable constant, one evolving, both measured from the same standing wave.
 
-Observations of both quantities at high redshift provide independent, complementary tests. A universe where $\Lambda$ evolves and $a_0$ stays constant would falsify MIT. A universe where $\Lambda$ stays constant and $a_0$ evolves would confirm it.
+Observations of both quantities at high redshift provide complementary tests. A universe where $\Lambda$ evolves and $a_0$ stays constant would falsify MIT. The converse does not confirm it: a rising $a_0$ also follows from other evolving-scale models and from ΛCDM simulations, so the discriminating content is the locked form and the exponent structure, not the direction of the climb.
 
 ## V. Falsification
 
