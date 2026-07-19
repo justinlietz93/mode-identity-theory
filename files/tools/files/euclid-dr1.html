@@ -145,6 +145,7 @@
     .pred-card { grid-template-columns: 1fr; gap: 12px; }
     .pred-value, .pred-falsified { text-align: left; }
     .countdown-value { font-size: 26px; }
+    .data-table { display: block; overflow-x: auto; }
   }
 </style>
 </head>
@@ -173,7 +174,7 @@
   <section>
     <h2>Why Euclid Matters</h2>
     <p>In 2024, <a target="_blank" rel="noopener" href="https://www.desi.lbl.gov">DESI</a> reported that "dark energy" may be changing over time. If true, it would overturn the cosmological constant (&Lambda;) and reshape modern physics. Mode Identity Theory says &Lambda; is fixed by the geometry of the universe: the first positive eigenvalue of the M&ouml;bius surface, topologically protected at the antinode of the mode spectrum. What standard templates read as dynamical dark energy is the observer's phase position on a standing wave.</p>
-    <p>Three predictions separate the framework from alternatives: the MOND acceleration scale a<sub>0</sub>(z) tracks H(z) at every epoch, &Lambda; remains constant, and no dark matter particle will ever be found. All values were deposited on Zenodo before any DR1 data was released. Euclid's independent measurement will either end MIT, &Lambda;CDM, or both. Full stop.</p>
+    <p>Five predictions are locked against four named contenders: flat &Lambda;CDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy, and MOND / relativistic MOND. Each is a head-to-head with a falsification threshold fixed in advance. All values were deposited on Zenodo before any DR1 data was released. Euclid's independent measurement will either end MIT, &Lambda;CDM, or both. Full stop.</p>
   </section>
 
   <section>
@@ -181,35 +182,47 @@
     <p>All values were pre-registered on Zenodo before DR1. The DESI DR2 analysis is a consistency check against already-public data. Euclid is the blind test.</p>
     <div class="reg-block">
       <div class="reg-title">Zenodo Pre-Registration</div>
-      <div class="reg-row"><span class="reg-key">DOI</span><span class="reg-val"><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">10.5281/zenodo.18189079</a></span></div>
-      <div class="reg-row"><span class="reg-key">Registered</span><span class="reg-val">January 2026</span></div>
+      <div class="reg-row"><span class="reg-key">DOI</span><span class="reg-val"><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.20563048">10.5281/zenodo.20563048</a></span></div>
+      <div class="reg-row"><span class="reg-key">Freeze date</span><span class="reg-val">2026-06-05</span></div>
+      <div class="reg-row"><span class="reg-key">Contenders</span><span class="reg-val">&Lambda;CDM, CPL, EDE, MOND</span></div>
       <div class="reg-row"><span class="reg-key">a<sub>0</sub>/cH ratio</span><span class="reg-val">0.184 (Fibonacci well positions)</span></div>
       <div class="reg-row"><span class="reg-key">&Lambda;<sub>obs</sub> &middot; R&sup2;</span><span class="reg-val">3 (derived from topology)</span></div>
       <div class="reg-row"><span class="reg-key">Phase parameter s<sub>0</sub></span><span class="reg-val">&lt; 0.19 (95% CL)</span></div>
       <div class="reg-row"><span class="reg-key">&Omega;<sub>&Lambda;</sub></span><span class="reg-val">0.685 (fixed by topology)</span></div>
     </div>
-    <p class="dim">The three primary predictions follow from the topology. The phase parameter s<sub>0</sub> controls the distance-redshift relation and is constrained by Pantheon+ and DESI DR2 BAO at &Delta;&chi;&sup2; = +0.11 relative to flat &Lambda;CDM.</p>
+    <p class="dim">An earlier three-prediction deposit (<a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">10.5281/zenodo.18189079</a>, January 2026) anchors priority; the card above supersedes it. The predictions follow from the topology. The phase parameter s<sub>0</sub> controls the distance-redshift relation and is constrained by Pantheon+ and DESI DR2 BAO at &Delta;&chi;&sup2; = +0.11 relative to flat &Lambda;CDM.</p>
   </section>
 
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/fig1_standing_wave-f1fbdf4.png" alt="Standing wave Ψ = cos(t/2)">
 
   <section>
     <h2>Predictions</h2>
+    <p class="dim">The five rows of the <a href="https://github.com/dmobius3/mode-identity-theory/blob/main/files/cosmos/files/euclid-dr1.md">pre-registered card</a>, condensed. Row IV is reachable at DR1-Foundation in November 2026; the other four read cosmology-derived products and wait for the full DR1 in mid 2027.</p>
     <div class="predictions">
       <div class="pred-card">
-        <div><div class="pred-name">a<sub>0</sub>(z) &prop; H(z)</div><div class="pred-desc">The MOND acceleration scale and the Hubble rate are both edge modes on the 120-domain. Their ratio is fixed by Fibonacci well positions: a<sub>0</sub>/cH = C(13/120)/C(34/120) = 0.184. The ratio holds at every epoch.</div></div>
-        <div class="pred-value"><div class="label">MIT value</div><div class="val">a<sub>0</sub>/cH = 0.184</div></div>
-        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">a<sub>0</sub> consistent with constant at z &gt; 2, &ge;2&sigma;</div></div>
+        <div><div class="pred-name">I. &Lambda; epoch-independence</div><div class="pred-desc">&Lambda; is not fitted. It is the first positive eigenvalue of the M&ouml;bius surface, &Lambda;<sub>top</sub> = 2/R&sup2;, carried to &Lambda;<sub>obs</sub> = 3/R&sup2; by the Gauss equation. Topology fixes the coefficient, so the dark-energy density cannot drift with epoch.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">&Omega;<sub>DE</sub>(z) flat</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">&Omega;<sub>DE</sub>(z) varies &ge;2&sigma; across DR1 bins, model-independent reconstruction</div></div>
       </div>
       <div class="pred-card">
-        <div><div class="pred-name">&Lambda; eigenvalue constant</div><div class="pred-desc">The cosmological constant is the first positive eigenvalue of the M&ouml;bius surface: &Lambda;<sub>top</sub> = 2/R&sup2;. It sits at the antinode of the mode spectrum where the logarithmic slope is exactly zero. No environmental perturbation shifts it.</div></div>
-        <div class="pred-value"><div class="label">MIT value</div><div class="val">&Lambda;<sub>top</sub> = 2/R<sub>&Lambda;</sub>&sup2;</div></div>
-        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">&Lambda; varies with redshift at &ge;2&sigma;</div></div>
+        <div><div class="pred-name">II. a<sub>0</sub>(z) evolution</div><div class="pred-desc">The MOND acceleration scale and the Hubble rate are both edge modes on the 120-domain. Their ratio is fixed by Fibonacci well positions: a<sub>0</sub>/cH = C(13/120)/C(34/120) = 0.184. The ratio holds at every epoch.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">a<sub>0</sub>(z=1.5) &asymp; 2.4&times; local</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">No enhancement in DR1 lensing, and external z &asymp; 1&ndash;1.5 kinematics rule out the evolution at &ge;2&sigma;</div></div>
       </div>
       <div class="pred-card">
-        <div><div class="pred-name">Null DM particle</div><div class="pred-desc">Space (n = 3) couples gravitationally only. Non-gravitational couplings are suppressed to 10<sup>&minus;183</sup>. The gravitational evidence is real; it is geometry, not a particle.</div></div>
-        <div class="pred-value"><div class="label">MIT value</div><div class="val">Permanent null</div></div>
-        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Non-gravitational signal at &ge;5&sigma;, replicated</div></div>
+        <div><div class="pred-name">III. w<sub>eff</sub>(z) trajectory</div><div class="pred-desc">The Waltz-clock distance-redshift relation never crosses the phantom divide. Apparent crossings in CPL fits are template-projection artifacts, so no crossing redshift is predicted: the crossing is not physical.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">w<sub>eff</sub>(z) &gt; &minus;1 at all z</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Fiducial split gives w<sub>eff</sub>(z) &lt; &minus;1 at &ge;2&sigma;</div></div>
+      </div>
+      <div class="pred-card">
+        <div><div class="pred-name">IV. Stellar mass function at z &#8819; 10</div><div class="pred-desc">With a<sub>0</sub>(z=10) &asymp; 20.5&times; local, JWST-style massive galaxies persist into Euclid's wide-area statistics and stay reachable at ordinary star-formation efficiency. This is the one row DR1-Foundation reaches.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">Reachable with &epsilon;<sub>SF</sub> &lesssim; 1</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Abundance of M<sub>*</sub> ~ 10<sup>10</sup> M<sub>&#9737;</sub> at z &gt; 10 falls within the Boylan-Kolchin (2023) &Lambda;CDM forecast at &ge;2&sigma;</div></div>
+      </div>
+      <div class="pred-card">
+        <div><div class="pred-name">V. (1+z)&sup1; coefficient in H&sup2;(z)</div><div class="pred-desc">The phase-clock H&sup2;(z) form carries a negative linear term whose magnitude is tied to the fitted s<sub>0</sub>. The sign is forced by the budget identity rather than fitted freely.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">&beta; &lt; 0, |&beta;| &lt; 0.012</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Coefficient positive at &ge;2&sigma;, or magnitude inconsistent with fitted s<sub>0</sub></div></div>
       </div>
     </div>
   </section>
