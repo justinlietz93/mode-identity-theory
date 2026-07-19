@@ -24,11 +24,13 @@ Type taxonomy, in descending order of empirical bite:
 
 ## Executive read
 
-A large structural framework with genuine topological content, whose quantitative contact with measurement runs through a calibration web that contains real cycles, producing a handful of genuinely falsifiable forward predictions centred on Euclid DR1 (Oct 2026).
+A large structural framework with genuine topological content, whose quantitative contact with measurement runs through a calibration web that contains real cycles, producing a handful of genuinely falsifiable forward predictions centred on Euclid, most of them on the full DR1 release (mid 2027).
 
 The structural content is not circular. Three generations from three flat connections on S³/2I, the Yang-Mills mass gap at 4/R², chirality, the Molien deficit: these are retrodictions with zero adjustable freedom, theorems about the topology that happen to match the world. They are the bones. The quantitative comparisons (α to 0.5%, the couplings to ~1%, the masses to a factor of 3, a₀/cH₀ to <1%, Λ to 24%) are a different animal: each is a retrodiction inside the calibration web, hitting a number already known by choosing among wells, grids, exponents, and three vacua, with the selection rule that would remove that freedom an explicit open problem.
 
 What the framework actually lives or dies on is a thin set of forward bets, nearly all riding on Euclid DR1: epoch-independent Λ / flat Ω_DE(z), mass-independent a₀(z) ∝ H(z) (the single cleanest discriminator, immune to the stellar-M/L freedom that wrecks the rotation-curve tests), and the sign-fixed negative (1+z)¹ term in H²(z). These are thinner than the page count suggests: a₀(z), H(z), w_eff(z), and d_L(z) are one phase-clock relation read through four channels, not four independent predictions.
+
+When any of this can be scored is set by ESA's release split. DR1-Foundation (November 2026) carries raw data, calibrated images, catalogues and spectra over about 1900 deg², with no cosmology-derived products; the full DR1 (mid 2027) adds the higher-level galaxy-clustering and weak-lensing products. Λ flatness, a₀(z), and the sign-fixed (1+z)¹ term all read spectroscopic BAO or weak lensing, so they gate on the full release, not the Foundation one; the stellar mass function at z ≳ 10 is the single forward row reachable from the Foundation catalogues and spectra. ESA notes these dates are tentative and still to be confirmed. The predictions were registered before either release, and that priority is unaffected by the schedule moving.
 
 The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal), the McKay mass-residual correction (no parameter-free fix), and the signed well-functional sweep (wells never extremal), and the torsion null test (random torsions reproduce the mass hit rate at p_A = 0.174, so the ×3 count is not evidence for the specific torsions), and it logs the down/tau/top mass misses and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
 
@@ -109,7 +111,7 @@ The phase-clock channels are grouped under one parent: they are independent *tes
 | ↳ a₀(z=2) ≈ 3× local | awaiting hi-z rot curves | Ω_Λ/s₀ upstream | H(z) | a₀ ≈ a₀(0) at z≈2, ≥2σ |
 | ↳ negative (1+z)¹ coeff β, \|β\| < 0.012 | awaiting next-gen BAO; sign firm, magnitude sub-detectable | magnitude rides fitted s₀ | s₀ | β > 0 at ≥2σ, or magnitude ≠ fitted s₀ |
 | ↳ w_eff(z) > −1 (no phantom crossing) | **demote: convention-dependent, not an observable** | fiducial-vs-dressed split sets it | split choice | crossing persists across all reconstructions ≥2σ |
-| Λ epoch-independence / Ω_DE(z) flat across DR1 bins | awaiting Euclid DR1 | flatness not tunable | Λ = 3/R² (web) | Ω_DE varies ≥2σ across bins |
+| Λ epoch-independence / Ω_DE(z) flat across DR1 bins | awaiting full DR1 (mid 2027) | flatness not tunable | Λ = 3/R² (web) | Ω_DE varies ≥2σ across bins |
 | SMF z≳10 / JWST massive galaxies persist (a₀(z=10)≈20.5×; 4.5× g-boost; 2.1× t_ff speedup → ε_SF ~0.5) | awaiting wide-area | ε_SF, dust, selection knobs; "deferred/uncounted" escape | a₀(z=10), Ω_Λ, s₀ | abundance within Boylan-Kolchin ΛCDM ≥2σ |
 | ν₂ neutrino mass 8.6 meV; gap ~7.75× | awaiting JUNO/DUNE | hierarchy + well assignment | mass formula | m(ν₂) ≠ 8.6 meV |
 | Neutrino floor μ_Λ ~2.25 meV | <800 meV (KATRIN); forward | μ_Λ rides web; near oscillation scale | m_e, Ω_Λ (web) | lightest ν > 2.25 meV >1σ |

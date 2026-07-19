@@ -64,7 +64,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 ---
 
-**Judgment Day: October 21, 2026.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. The card adjudicates by row. Silence in a contender column counts as data.
+**Judgment in two gates.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. Euclid arrives in two stages: DR1-Foundation, expected November 2026, brings the calibrated images, catalogues and spectra over about 1900 deg² but no cosmology-derived products, so the stellar mass function is the only row it reaches; the full DR1, expected mid 2027, adds the galaxy clustering and weak lensing products the other four rows read. ESA states that both dates are tentative. The card adjudicates by row. Silence in a contender column counts as data.
 
 ***[Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)***
 

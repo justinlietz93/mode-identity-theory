@@ -383,7 +383,7 @@ Eigenvalues of the Laplacian on a fixed geometric domain are constants. In this 
 | Λ constant | Independent probes prefer evolving dark energy over ΛCDM at $> 3\sigma$, after accounting for known systematics | Robust multi-probe evidence requires redshift evolution of the dark-energy density at $> 5\sigma$ |
 | $\Lambda_\text{obs} \cdot R^2 = 3$ | Independent determinations give a $> 3\sigma$ departure from 3 | Independent determinations give a $> 5\sigma$ departure from 3, with $R$ obtained without using the Λ-radius relation |
 
-These predictions are stated in advance of the European Space Agency's Euclid Data Release 1, scheduled for October 2026.
+These predictions are stated in advance of the European Space Agency's Euclid Data Release 1. Both criteria are read against the spectroscopic BAO and weak-lensing analyses, which arrive with the full DR1 in mid 2027; the earlier DR1-Foundation release in November 2026 carries raw data, calibrated images, catalogues and spectra over roughly 1900 deg², but no cosmology-derived products. ESA states that its release dates are tentative and will have to be confirmed.
 
 ---
 

@@ -219,13 +219,13 @@ The joint SN+BAO fit constrains $|\beta| < 0.012$ at 95% CL (from $s_0 < 0.19$ w
 
 $$\frac{|\beta|(1+z)}{E^2(z)} < 0.8\% \quad (95\%\ \text{CL at}\ z = 1)$$
 
-This is below the precision of current BAO measurements (DESI DR2: ~2–3% per bin in $D_H/r_d$) but potentially within reach of the next generation. Euclid DR1 spectroscopic BAO ($z = 0.9$–1.8, four redshift bins) is forecast at 1–2% per bin, marginal for detection. The discriminating regime is DESI full-survey and Euclid DR2 at ~0.5% per bin, where the $(1+z)^1$ signature reaches approximately 1.5σ per bin for $s_0 \sim 0.15$, with correlated bins improving aggregate sensitivity.
+This is below the precision of current BAO measurements (DESI DR2: ~2–3% per bin in $D_H/r_d$) but potentially within reach of the next generation. Euclid spectroscopic BAO ($z = 0.9$–1.8, four redshift bins) is forecast at 1–2% per bin, marginal for detection; that measurement is a higher-level science product and arrives with the full DR1 release in mid 2027, not with the November 2026 DR1-Foundation release, which carries raw data, calibrated images, catalogues and spectra but no cosmology-derived products. The discriminating regime is DESI full-survey and Euclid DR2 at ~0.5% per bin, where the $(1+z)^1$ signature reaches approximately 1.5σ per bin for $s_0 \sim 0.15$, with correlated bins improving aggregate sensitivity.
 
 A statistically significant detection of a negative $(1+z)^1$ component in $H^2(z)$ would constitute evidence for a non-standard contribution to the distance-redshift relation. While a domain-wall fluid ($w = -2/3$) produces the same scaling, the phase-clock term is distinguished by the tied coefficient $-\beta(s_0)$ rather than an independent energy density.
 
 ### Falsification Criteria
 
-All predictions are registered on Zenodo prior to Euclid DR1 (expected October 2026):
+All predictions are registered on Zenodo in advance of the data. Both criteria below read spectroscopic BAO, a higher-level science product delivered with the full Euclid DR1 release in mid 2027; ESA notes that release dates remain tentative:
 
 | Observable | MIT prediction | Falsified if |
 |---|---|---|

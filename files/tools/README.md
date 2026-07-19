@@ -14,7 +14,7 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 **[The Calculator](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)**: run the framework end to end. Four factors, four sources, one operation: the couplings, the 24-entry mass spectrum, and the cosmological readings, all computed from the postulate.
 
-**[Euclid DR1](https://dmobius3.github.io/mode-identity-theory/files/tools/files/euclid-dr1.html)**: the blind test. Every prediction and falsification threshold pre-registered on Zenodo before the October 2026 data.
+**[Euclid DR1](https://dmobius3.github.io/mode-identity-theory/files/tools/files/euclid-dr1.html)**: the blind test. Every prediction and falsification threshold pre-registered on Zenodo before the data: DR1-Foundation in November 2026, then the cosmology products with the full DR1 in mid 2027.
 
 **[The Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
 

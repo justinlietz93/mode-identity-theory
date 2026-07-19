@@ -4,7 +4,7 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/dr1%20banner.png?raw=true" width="100%" alt="Euclid DR1">
 
-The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. DR1 results will be added in a later commit when the data arrive.
+The Euclid Data Release 1 arrives in two stages. DR1-Foundation, in November 2026, carries the raw data and calibrated images, catalogues and spectra over about 1900 deg², with no cosmology-derived products. The full DR1, in mid 2027, adds the higher-level science products for galaxy clustering and weak lensing. ESA states that these dates are tentative and will have to be confirmed. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. Only Row IV, the high-<i>z</i> stellar mass function, is reachable at the Foundation stage; the other four read cosmology-derived products and wait for the full release. Results will be added in later commits as each stage lands.
 
 ---
 
@@ -14,7 +14,7 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 |---|---|
 | Freeze date | 2026-06-05 |
 | Reference | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20563048.svg)](https://doi.org/10.5281/zenodo.20563048) |
-| Expected Euclid DR1 release | October 2026 |
+| Expected Euclid DR1 release | DR1-Foundation: November 2026. Full DR1: mid 2027. ESA states that data release dates are tentative and will have to be confirmed. *(Schedule field updated 2026-07-18 from ESA's published timeline; at freeze it read October 2026.)* |
 | Data products in scope | Cosmology release: spectroscopic BAO (<i>z</i> = 0.9–1.8), photometric weak lensing, high-<i>z</i> stellar mass function. Quick-look products are not bound by this card. |
 
 **Ground rules.**
@@ -23,6 +23,8 @@ The Euclid Data Release 1 is expected in October 2026. Five Mode Identity Theory
 2. Post-DR1 results enter via the Winner(s) row of the Scoreboard and the per-observable DR1 outcome lines on a clearly dated later commit. Earlier content is not edited at that time.
 3. Contender predictions cite either a published canonical source or the best-fit posterior from the most recent public data release of that framework. Where a contender is silent on an observable, the cell reads "no prediction" and that silence counts as data.
 4. The card adjudicates the five rows independently. A single falsification falsifies that row; the framework as a whole stands or falls on the collective pattern.
+
+*Clarification added 2026-07-18, post-freeze; no prediction cell, contender cell, or falsification threshold is edited.* **The three data products named in scope no longer arrive together.** ESA has split DR1, its stated reason being that additional time is needed to process and validate the higher-level science products across this survey area. The high-<i>z</i> stellar mass function rides the photometric source catalogue and spectra in DR1-Foundation (November 2026); spectroscopic BAO and photometric weak lensing are higher-level products held for the full DR1 (mid 2027). The scope of the card is unchanged: the same three product classes bind it, delivered in two releases rather than one. Under ground rule #2 this means two dated scoring commits rather than one, the first covering Row IV after DR1-Foundation and the second covering Rows I, II, III and V after the full release. Earlier content is not edited at either point.
 
 ---
 
@@ -52,7 +54,7 @@ This is the framework's deepest claim. $\Lambda$ is not a free parameter fit to 
 | **EDE** | Early dark energy component active near $z \sim 3000$; at low $z$, $\Omega_\text{DE}(z)$ approximately flat | Poulin, Smith, Karwal class |
 | **MOND / RelMOND** | No prediction | Standard MOND has no cosmology |
 
-> 🎯 *DR1 outcome to be recorded after October 2026.*
+> 🎯 *Outcome to be recorded after the full DR1 release, mid 2027. This row reads spectroscopic BAO and the weak-lensing 3×2pt combination, higher-level products the November 2026 DR1-Foundation release does not carry.*
 
 ---
 
@@ -70,7 +72,7 @@ MIT predicts $a_0$ scales with $H(z)$; standard MOND predicts $a_0$ is universal
 
 > ⚠️ *Euclid DR1 galaxy-galaxy lensing constrains the stellar-mass-halo-mass relation but does not directly measure $a_0(z)$. If DR1 lensing data lack the sensitivity to distinguish the predicted enhancement from standard halo-mass scatter, this row is deferred to DR2 and external kinematic follow-up and is not counted in the row-by-row tally.*
 
-> 🎯 *DR1 outcome to be recorded after October 2026.*
+> 🎯 *Outcome to be recorded after the full DR1 release, mid 2027. Galaxy-galaxy weak lensing is a higher-level product held for the full release.*
 
 *Note added 2026-07-18, post-freeze. No prediction cell and no falsification threshold is edited. This note invokes the row's existing deferral provision under a cause that provision was not written for, and states the stretch rather than leaving it implicit.*
 
@@ -102,7 +104,7 @@ This sits alongside the companion paper's standing 2.9σ trend-shape tension wit
 
 ## III. $w_\text{eff}(z)$ Trajectory
 
-Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i> = 0.9 and 1.8, combined with photometric weak lensing. The headline cosmology result will be reported in the w<sub>0</sub>w<sub>a</sub>CDM (CPL) parameterization. This row carries a single core claim: the underlying $w(z)$ never crosses $w = -1$. The Waltz-clock distance-redshift relation satisfies $w_\text{eff}(z) > -1$ for all $z \geq 0$ in the fiducial-matter split (proven analytically). Any apparent crossing reported in CPL fits is a template-projection artifact: two-parameter bases (CPL, BA, JBP) produce spurious phantom crossings when applied to non-phantom distances of this type. The specific location of such an artifact depends on the template basis, the dataset, and the covariance structure; MIT does not predict a crossing redshift because the crossing is not physical.
+The full Euclid DR1 release, mid 2027, will deliver spectroscopic BAO in four redshift bins between <i>z</i> = 0.9 and 1.8, combined with photometric weak lensing; the November 2026 DR1-Foundation release carries no cosmology-derived products. The headline cosmology result will be reported in the w<sub>0</sub>w<sub>a</sub>CDM (CPL) parameterization. This row carries a single core claim: the underlying $w(z)$ never crosses $w = -1$. The Waltz-clock distance-redshift relation satisfies $w_\text{eff}(z) > -1$ for all $z \geq 0$ in the fiducial-matter split (proven analytically). Any apparent crossing reported in CPL fits is a template-projection artifact: two-parameter bases (CPL, BA, JBP) produce spurious phantom crossings when applied to non-phantom distances of this type. The specific location of such an artifact depends on the template basis, the dataset, and the covariance structure; MIT does not predict a crossing redshift because the crossing is not physical.
 
 | Framework | Prediction | Source |
 |---|---|---|
@@ -116,7 +118,7 @@ Euclid DR1 will deliver spectroscopic BAO in four redshift bins between <i>z</i>
 >
 > *Other contenders: ΛCDM predicts no crossing. w<sub>0</sub>w<sub>a</sub>CDM best fit puts the crossing near <i>z</i> ≈ 0.4–0.5. EDE and MOND give no late-time crossing.*
 
-> 🎯 *DR1 outcome to be recorded after October 2026.*
+> 🎯 *Outcome to be recorded after the full DR1 release, mid 2027. The BAO and weak-lensing inputs, and the CPL posterior read off them, are higher-level products held for the full release.*
 
 ---
 
@@ -134,7 +136,7 @@ Euclid's wide-area photometric survey will dramatically extend the JWST-discover
 
 > ⚠️ *Euclid DR1 wide-area photometry at z > 10 may yield a catalog too sparse or selection-dominated to distinguish the MIT and ΛCDM mass-function forecasts at the stated threshold. If DR1 uncertainties or selection systematics are too large to determine whether the abundance of M<sub>*</sub> ~ 10<sup>10</sup> M<sub>☉</sub> galaxies at z > 10 lies above or within the Boylan-Kolchin (2023) ΛCDM forecast at the stated 2σ threshold, this row is deferred to DR2 / JWST cross-calibration and is not counted in the row-by-row tally.*
 
-> 🎯 *DR1 outcome to be recorded after October 2026.*
+> 🎯 *Outcome to be recorded after DR1-Foundation, November 2026. The wide-area photometric source catalogue and the spectra ship at that stage, which puts this row roughly half a year ahead of the other four.*
 
 ---
 
@@ -152,7 +154,7 @@ This is the distinctive signature row. The phase-clock $H^2(z)$ form contains a 
 
 > ⚠️ *DR1 BAO precision (forecast 1–2% per bin) is marginal for direct detection of this term at the current $s_0$ bound; a null result here is consistent with the MIT prediction and a stronger DR2 test.* **A null DR1 result on this row is not counted in the row-by-row tally.**
 
-> 🎯 *DR1 outcome to be recorded after October 2026.*
+> 🎯 *Outcome to be recorded after the full DR1 release, mid 2027. The coefficient is extracted from spectroscopic BAO precision, a higher-level product held for the full release.*
 
 ---
 
