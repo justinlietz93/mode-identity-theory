@@ -123,7 +123,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 🪡 **One Interface:**
 
-$$\Large \boxed{\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}}$$
+$$\Large \boxed{\Lambda_\text{obs} = \frac{3}{2}\ \cdot \Lambda_\text{top}}$$
 
 The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum $\Lambda$, and the quotient stamps the 120-grid to set matter.
 
