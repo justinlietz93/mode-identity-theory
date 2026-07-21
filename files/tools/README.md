@@ -22,7 +22,7 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 **[The Toolbelt](files/toolbelt.md)**: the five tools in one flow, frame to output. The machinery, not the results: it shows how a question gets answered, and how numerology gets avoided.
 
-**[Publication Registry](files/DOIs.md)**: the Zenodo DOIs for every deposited paper, core theory through cosmology.
+**[Publication Registry](files/DOIs.md)**: DOIs for every deposited paper, core theory through cosmology.
 
 ---
 
