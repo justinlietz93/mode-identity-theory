@@ -6,7 +6,7 @@
 
 Check it yourself. Nothing below is a demonstration: each page runs the framework's own arithmetic in the browser, with the inputs exposed. Turn the domain, recompute the spectrum, follow a derivation one step at a time, or look up what was deposited and when.
 
-## Interactive
+## 👾 Interactive
 
 **[The Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)**: turn the $S^3/2I$ domain in your hand, the Möbius edge and the icosahedral structure and the McKay graph the spectrum is read from.
 
@@ -18,7 +18,7 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 **[The Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
 
-## Reference
+## 📚 Reference
 
 **[The Toolbelt](files/toolbelt.md)**: the five tools in one flow, frame to output. The machinery, not the results: it shows how a question gets answered, and how numerology gets avoided.
 
