@@ -40,6 +40,8 @@ Connecting the surface scale ($2/R^2 \to \Lambda$) to the space gap ($4/R^2 \to$
 
 *[The staged route, resolved as a split](../working/files/postulate-bridge.md)*
 
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/NorthExp_ImageOnly_4000px%20copy.png?raw=true" width="350" height="200" alt="North Exp Image">
+
 ---
 
 / **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
