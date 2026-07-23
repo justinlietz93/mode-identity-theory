@@ -10,9 +10,9 @@ Mode Identity Theory starts with a simple bet: fundamental physics is not missin
 
 What began as an inadvertent search query turned philosophy, turned topology, turned theory. What followed were the constants of the universe popping out like some sort of cosmic game genie. None of this was planned...
 
-Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; time ticks in phase, not in the background.
+Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; while time ticks in phase, not in the background.
 
-In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In 2027, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, one identity, and one interface. The rest; is accounting.
+In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In 2027, ESA's Euclid telescope will ask; what geometry gives the universe its shape? MIT is betting on one shape, one wave, one equation, one formula, one identity, and one interface. The rest; is accounting.
 
 ---
 
@@ -101,7 +101,7 @@ Four factors compose to rank 24 fermion masses. Each factor does exactly one thi
 
 **The Neutrino Floor.** $\mu_\Lambda$ sets the stage: the lightest neutrino is not a small fermion mass but the *floor* of the spectrum, the hum every other mass is built on.
 
-**The Kostant Sunflower.** $C_{\text{geom}}(\rho)$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower with no tenth.
+**The Kostant Sunflower.** $C_{\text{geom}}(\rho)$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower.
 
 **The McKay Elevator.** $(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $E_8$.
 
